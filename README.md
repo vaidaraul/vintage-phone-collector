@@ -15,7 +15,7 @@ The reusable skill for working on this project is in [`codex-skill/vintage-phone
 | Firmware | `02074.00000.15234.28006` |
 | Developer Mode | Enabled |
 | USB XAP deployment | XAP Deployment works |
-| Minecraft APPX | Inspected locally; not installed |
+| Minecraft APPX | Device Portal install attempted; failed with `0x80073CF3`; not installed |
 | Temple Run | Unstable: launched once, then began closing during startup |
 
 Last updated: November 7, 2026.
@@ -155,6 +155,21 @@ Declared dependencies:
 - `Microsoft.Services.Store.Engagement`, minimum `10.0.1610.0`
 - `Microsoft.VCLibs.140.00`, minimum `14.0.25426.0`
 
+### Device Portal deployment attempt
+
+The package was selected in Device Portal and deployment was attempted. No dependency package was selected. Device Portal reported:
+
+```text
+Failure reason: Failed to start deployment
+Failure text: Package failed updates, dependency or conflict validation. (0x80073cf3)
+```
+
+The accompanying installed-package export contained 144 entries and showed no package family/full name for `Microsoft.VCLibs.140.00`, `Microsoft.Services.Store.Engagement`, or `Microsoft.Minecraft`. It did show `Microsoft.WindowsStore` and `Microsoft.StorePurchaseApp`; those are different packages and do not satisfy the two manifest dependencies. This suggests that the declared framework dependencies are missing from the phone, although the deployment log is needed to confirm the exact cause.
+
+The package declares ARM architecture, matching the phone's ARM platform, and a minimum OS version below the phone's build. These matches do not rule out an unresolved dependency or package conflict. Microsoft lists a missing dependency, package conflict, or unsupported processor architecture as possible causes of `0x80073CF3`.
+
+Minecraft does not appear in the installed-package export, consistent with the failed attempt leaving it uninstalled. No package or dependency was removed or changed.
+
 The manifest also contains build metadata `OperatingSystem 10.0.14393.0` and `WindowsMobile 10.0.16299.0`. The phone's `14393.2551` build is above `MinVersion`, and the declared architecture is ARM. These facts make the package eligible for investigation, but **do not prove actual compatibility** with the Lumia 535 or establish that the game will launch on the current build.
 
 The presence of `AppxBlockMap.xml`, `[Content_Types].xml`, and `AppxSignature.p7x` in the archive only shows that these files are present; it does not prove that the signature or package integrity has been validated.
@@ -190,9 +205,10 @@ The required dependency versions have not yet been checked on the phone. We will
 
 ## Unknowns and next steps
 
+- Retrieve the last deployment result from Device Portal (`/api/app/packagemanager/state`) and, if needed, the AppXDeployment-Server event details to identify the exact failing dependency or conflict.
+- Find verified ARM packages for the missing dependencies, then inspect their versions and signatures before discussing an installation attempt.
 - Verify the complete APPX integrity, including block map validation and the signature's binding to the package.
 - Find an independent reference hash for this exact APPX and check whether it matches.
-- Check which versions of `Microsoft.Services.Store.Engagement` and `Microsoft.VCLibs.140.00` are available on the phone, without installing anything.
 - Confirm the APPX sideloading method supported on Windows 10 Mobile 14393 before using it.
 - Research Minecraft 1.5.300 ARM compatibility with the Lumia 535; the result remains unknown until tested on the phone.
 - Reproduce the Temple Run crash after relaunch and after a device restart; do not reclassify it as functional based on the single successful launch.
@@ -206,6 +222,7 @@ External sources support the claims noted below. Third-party archives are eviden
 
 - [Microsoft Learn — Sideload line-of-business apps](https://learn.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows): sideloading concepts, signed packages, and trusted certificates.
 - [Microsoft Learn — Troubleshoot installation issues with App Installer](https://learn.microsoft.com/en-us/windows/msix/app-installer/troubleshoot-appinstaller-issues): installation methods by build; build 14393 and `.appx` / `.appxbundle`.
+- [Microsoft Learn — Troubleshooting packaging, deployment, and query of Windows apps](https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting): `0x80073CF3` causes and the AppXDeployment-Server event log.
 - [Microsoft Learn — Sign an MSIX package](https://learn.microsoft.com/en-us/windows/msix/package/signing-package-overview): signatures, certificates, timestamps, and package-content validation through the block map and signature.
 - [Microsoft Devices Blog — Minecraft: Pocket Edition now on Windows Phone](https://blogs.windows.com/devices/2014/12/10/minecraft-pocket-edition-now-windows-phone/): Windows Phone 8.1 release announcement and listed phones, including Lumia 535; it does not prove compatibility of this UWP APPX.
 - [WindowsViet — Minecraft: Pocket Edition](https://file.windowsviet.com/minecraft-pocket-edition/): archive page listing version 1.5.300.0; not an independent validation of the local package.
