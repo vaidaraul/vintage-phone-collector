@@ -1,35 +1,102 @@
-# Vintage Phone Collector — Lumia 535
+# Vintage Phone Collector — Lumia 535 Restoration
 
-This project documents the restoration of a Nokia Lumia 535 and the testing of classic Windows Phone and Windows 10 Mobile games. The goal is to recover the original experience using packages and tools already available, preserve the phone's working state, and clearly distinguish observed results from assumptions.
+A hands-on mobile technology preservation project: collecting, restoring and documenting vintage phones, legacy operating systems, and the applications and games that made them memorable.
 
-The project does not involve OS, bootloader, or firmware modifications. We do not redistribute copyrighted games; this repository records the project history, package metadata, test results, and public sources.
+This repository currently documents one detailed restoration: a **Nokia Lumia 535 RM-1089**, upgraded from Windows Phone 8.1 to Windows 10 Mobile and used to test classic Windows Phone and Windows 10 Mobile software on original hardware.
 
-The reusable skill for working on this project is in [`codex-skill/vintage-phone-collector/SKILL.md`](codex-skill/vintage-phone-collector/SKILL.md). This README is the device-specific log and records the investigations completed so far.
+The idea is not simply to make an old phone turn on. It is to recover as much of its original software experience as possible, understand what still works, and publish reproducible notes so other collectors can learn from the process.
 
-## Current status
+> **Preserve the original experience wherever possible. Restore what can be restored. Document what cannot.**
 
-| Item | Documented status |
-| --- | --- |
-| Phone | Nokia Lumia 535 RM-1089 |
-| OS | Windows 10 Mobile `10.0.14393.2551` |
-| Firmware | `02074.00000.15234.28006` |
-| Developer Mode | Enabled |
-| USB XAP deployment | XAP Deployment works |
-| Minecraft APPX | Device Portal install attempted; failed with `0x80073CF3`; not installed |
-| Temple Run | Unstable: launched once, then began closing during startup |
+## What this project is about
+
+Vintage Phone Collector sits at the intersection of hardware collecting and software preservation:
+
+- **Hardware restoration:** identifying devices, understanding their original configuration, and keeping functional examples alive.
+- **Operating system preservation:** working with original or historically appropriate mobile operating systems, firmware and update paths.
+- **Application preservation:** finding archived packages, inspecting manifests and dependencies, and testing applications on real devices.
+- **Classic mobile gaming:** recovering the period versions of games rather than substituting modern remakes.
+- **Open documentation:** publishing procedures, package metadata, hashes, compatibility results, limitations and sources.
+
+The wider collection includes devices from the feature-phone and early-smartphone eras, including HTC, Nokia Lumia, iPhone, Samsung, Vodafone and Huawei models. This repository begins with the Lumia 535; additional device-specific restoration logs can be added as the collection develops.
+
+## Current project status
 
 Last updated: November 7, 2026.
 
-## Phone
+| Component | Current status |
+| --- | --- |
+| Device | Nokia Lumia 535 RM-1089 |
+| Original OS | Windows Phone 8.1 |
+| Current OS | Windows 10 Mobile `10.0.14393.2551` |
+| Firmware | `02074.00000.15234.28006` |
+| Developer Mode | Enabled |
+| USB XAP deployment | Working with Microsoft Windows Phone SDK 8.0 |
+| Classic XAP games | Several packages installed and tested |
+| Minecraft APPX | Device Portal install attempted; failed with `0x80073CF3`; not installed |
+| System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
 
-- Model: Nokia Lumia 535, variant RM-1089
-- Processor: Qualcomm 8212
-- RAM: 1 GB
-- Display: 540 × 960
-- Current OS: Windows 10 Mobile `10.0.14393.2551`
-- Documented firmware: `02074.00000.15234.28006`
+### Games tested on the Lumia 535
 
-These specifications come from the device identification recorded in the project. Keep them separate from compatibility claims in a package manifest. A package targeting ARM or declaring a minimum Windows version does not guarantee that it will run well on this hardware.
+These statuses describe observed behavior on this particular phone. They are not universal compatibility guarantees.
+
+| Game | Version | Result | Notes |
+| --- | --- | --- | --- |
+| Angry Birds Classic | `5.0.2.0` | **Partially functional** | Launches, but progression is blocked by a full-version purchase prompt. |
+| Angry Birds Classic | `1.5.3.0` | **Functional** | The traditional XNA version launches and is playable. Preferred version in this collection. Its archive contains an `AppCracked` marker, so original distribution has not been independently verified. |
+| Asphalt 5 | `1.33.0.0` | **Functional** | Installed and runs. The experience reflects an old game running on limited hardware. |
+| Temple Run | `1.5.3.0` | **Unstable** | Launched once; subsequent attempts close during startup. Not classified as functional. |
+| Minecraft | `1.5.300.0` | **Under investigation** | ARM APPX manifest and package structure inspected on the PC. Not installed or tested on the phone. |
+| Jetpack Joyride | Unknown | **Not obtained / untested** | No verified package in the project yet. |
+| Subway Surfers | Unknown | **Planned / untested** | No package installed or tested yet. |
+| Fruit Ninja | Unknown | **Planned / untested** | No package installed or tested yet. |
+
+See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes.
+
+## The test device
+
+| Property | Value |
+| --- | --- |
+| Device | Nokia Lumia 535 |
+| Variant | RM-1089 |
+| Processor | Qualcomm 8212 |
+| RAM | 1 GB |
+| Display | 540 × 960 |
+| Original OS | Windows Phone 8.1 |
+| Current OS | Windows 10 Mobile `10.0.14393.2551` |
+| Firmware | `02074.00000.15234.28006` |
+
+These specifications describe the device used for testing. A package targeting ARM or declaring a minimum Windows version does not automatically guarantee that it will install, launch or perform acceptably on this hardware.
+
+## Project principles
+
+1. **Preserve before replacing.** Original hardware and software have historical value.
+2. **Understand before modifying.** Identify the device, firmware, OS, package type and dependencies before changing anything.
+3. **Prefer authentic experiences.** A period-correct application is preferable to a modern substitute when the goal is preservation.
+4. **Keep working installations safe.** Avoid unnecessary OS, firmware, bootloader or partition modifications.
+5. **Test on real hardware.** Manifest inspection and emulation are useful, but they do not replace on-device testing.
+6. **Document failures as well as successes.** An installation error or a game that launches only once is useful compatibility information.
+7. **Preserve provenance.** Record where packages came from and whether their authenticity is known.
+8. **Share reproducible knowledge.** Keep procedures and findings useful to other device owners.
+
+This project does not involve bootloader unlocking, rooting, custom ROM installation or firmware replacement. Existing working applications are preserved. Read-only inspection is preferred before any installation or device modification.
+
+## Getting started
+
+If you want to follow or reproduce the Lumia 535 work, start with the device and deployment notes:
+
+1. Read the [operating system history](#operating-system-history) to understand the phone's starting point and current build.
+2. Review [PC setup and deployment](#pc-and-tools) before attempting to deploy anything.
+3. Inspect the package type, architecture, manifest, dependencies, signature and provenance.
+4. Compare package requirements with the actual phone model and OS build.
+5. Test installation, launch and gameplay separately.
+6. Record exact errors and observed behavior rather than assuming that a successful deployment means the application works.
+
+The reusable Codex instructions are in [`codex-skill/vintage-phone-collector/SKILL.md`](codex-skill/vintage-phone-collector/SKILL.md). The skill defines a cautious, repeatable workflow; this README is the device-specific project record.
+
+---
+
+## Device restoration log
 
 ## Operating system history
 
@@ -87,22 +154,11 @@ The Windows Kits 8.0 version of MakeAppx provides `pack` and `unpack`, but no se
 
 These findings update the earlier note that `signtool.exe` and `MakeAppx.exe` were not available on the PC: both exist in Windows Kits 8.0, but are not in PATH.
 
-## Games and apps tested
+## Games and package records
 
 The statuses below are based on behavior observed on the phone, not package metadata alone.
 
-| Game | Version | Current status | Notes |
-| --- | --- | --- | --- |
-| Angry Birds Classic | `5.0.2.0` | Partially functional | Launches, but progression is blocked by a full-version purchase prompt. |
-| Angry Birds Classic | `1.5.3.0` | Functional | The older XNA version launches and can be played; it is the preferred version in the current collection. The package contains a zero-byte `AppCracked` marker, so its original distribution has not been independently verified. |
-| Asphalt 5 | `1.33.0.0` | Functional | Installed and runs. It is an old game on limited hardware; performance observations are recorded separately from errors. |
-| Temple Run | `1.5.3.0` | Unstable | It launched exactly once; on subsequent attempts it closes during startup. It is not considered functional. |
-| Minecraft | `1.5.300.0` | Under investigation; not installed | The ARM package was inspected on the PC but has not been installed or tested on the phone. |
-| Jetpack Joyride | Unknown | Package not found / untested | No package has been obtained and verified. |
-| Subway Surfers | Unknown | Planned / untested | No package has been obtained and tested. |
-| Fruit Ninja | Unknown | Planned / untested | No package has been obtained and tested. |
-
-### Known package provenance
+### Package provenance
 
 | Package | Source recorded in the project | Notes |
 | --- | --- | --- |
@@ -110,7 +166,9 @@ The statuses below are based on behavior observed on the phone, not package meta
 | Angry Birds `1.5.3.0` | Winphone Iz | XAP package; contains an `AppCracked` marker and may be modified. |
 | Asphalt 5 `1.33.0.0` | WindowsViet (`file.windowsviet.com`) | XAP package; tested and runs. |
 | Temple Run `1.5.3.0` | Winphone Iz | XAP package; most recent report is a startup crash after one successful launch. |
-| Minecraft `1.5.300.0` | WindowsViet (`file.windowsviet.com`) | APPX package; the signature and provenance of the local file have not been fully validated. |
+| Minecraft `1.5.300.0` | WindowsViet (`file.windowsviet.com`) | APPX package; signature and provenance of the local file have not been fully validated. |
+
+The source names above are provenance notes, not endorsements or proof that the local packages are authentic. Exact original download URLs should be added only after verification.
 
 ### Details from available XAP manifests
 
@@ -191,6 +249,19 @@ Microsoft describes sideloading as installing a package signed by a certificate 
 
 The required dependency versions have not yet been checked on the phone. We will not install the package, dependencies, or certificates, or change settings, without discussing it first.
 
+## Other restoration targets
+
+The wider Vintage Phone Collector project is not limited to this Lumia. Other devices in the collection or under consideration include:
+
+- HTC Wildfire and HTC Desire
+- Nokia Lumia devices
+- Apple iPhone 6 and iPhone 6S
+- Samsung Corby
+- Vodafone Smart 858
+- Huawei P8 Lite and other early Android devices
+
+Each device should receive its own notes covering its identity, original software, restoration state, application compatibility and known limitations. Do not assume that procedures for the Lumia 535 apply to another model.
+
 ## Rules for continuing the project
 
 1. Work incrementally; explain each command or operation and its expected result beforehand.
@@ -215,6 +286,7 @@ The required dependency versions have not yet been checked on the phone. We will
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
 - Recover verified original URLs for the packages and procedures.
 - Find and test packages for Jetpack Joyride, Subway Surfers, and Fruit Ninja.
+- Add separate restoration logs for other devices as their work begins.
 
 ## Sources
 
