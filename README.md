@@ -1,145 +1,145 @@
 # Vintage Phone Collector — Lumia 535
 
-Documentăm restaurarea unui Nokia Lumia 535 și testarea jocurilor clasice Windows Phone / Windows 10 Mobile. Scopul este să recuperăm experiența originală folosind pachete și instrumente deja disponibile, să păstrăm starea funcțională a telefonului și să distingem clar între ce am observat și ce doar presupunem.
+This project documents the restoration of a Nokia Lumia 535 and the testing of classic Windows Phone and Windows 10 Mobile games. The goal is to recover the original experience using packages and tools already available, preserve the phone's working state, and clearly distinguish observed results from assumptions.
 
-Proiectul nu urmărește modificări de OS, bootloader sau firmware. Nu distribuim jocuri protejate de drepturi de autor; păstrăm aici istoricul, metadatele, rezultatele testelor și sursele publice.
+The project does not involve OS, bootloader, or firmware modifications. We do not redistribute copyrighted games; this repository records the project history, package metadata, test results, and public sources.
 
-Skill-ul reutilizabil pentru lucrul cu proiectul este în [`codex-skill/vintage-phone-collector/SKILL.md`](codex-skill/vintage-phone-collector/SKILL.md). Acest README este jurnalul acestui dispozitiv și al investigațiilor făcute până acum.
+The reusable skill for working on this project is in [`codex-skill/vintage-phone-collector/SKILL.md`](codex-skill/vintage-phone-collector/SKILL.md). This README is the device-specific log and records the investigations completed so far.
 
-## Starea curentă
+## Current status
 
-| Element | Stare documentată |
+| Item | Documented status |
 | --- | --- |
-| Telefon | Nokia Lumia 535 RM-1089 |
-| Sistem | Windows 10 Mobile `10.0.14393.2551` |
+| Phone | Nokia Lumia 535 RM-1089 |
+| OS | Windows 10 Mobile `10.0.14393.2551` |
 | Firmware | `02074.00000.15234.28006` |
-| Developer Mode | Activat |
-| XAP prin USB | XAP Deployment funcțional |
-| APPX Minecraft | Investigație locală; nu a fost instalat |
-| Temple Run | Instabil: a pornit o singură dată, apoi a început să se închidă la pornire |
+| Developer Mode | Enabled |
+| USB XAP deployment | XAP Deployment works |
+| Minecraft APPX | Inspected locally; not installed |
+| Temple Run | Unstable: launched once, then began closing during startup |
 
-Ultima actualizare: 7 noiembrie 2026.
+Last updated: November 7, 2026.
 
-## Telefon
+## Phone
 
-- Model: Nokia Lumia 535, variantă RM-1089
-- Procesor: Qualcomm 8212
-- Memorie RAM: 1 GB
-- Ecran: 540 × 960
-- Sistem curent: Windows 10 Mobile `10.0.14393.2551`
-- Firmware documentat: `02074.00000.15234.28006`
+- Model: Nokia Lumia 535, variant RM-1089
+- Processor: Qualcomm 8212
+- RAM: 1 GB
+- Display: 540 × 960
+- Current OS: Windows 10 Mobile `10.0.14393.2551`
+- Documented firmware: `02074.00000.15234.28006`
 
-Specificațiile provin din identificarea telefonului în proiect și trebuie păstrate separat de compatibilitatea declarată de un pachet. Faptul că o aplicație țintește ARM sau o versiune minimă de Windows nu garantează că va rula bine pe acest hardware.
+These specifications come from the device identification recorded in the project. Keep them separate from compatibility claims in a package manifest. A package targeting ARM or declaring a minimum Windows version does not guarantee that it will run well on this hardware.
 
-## Istoricul sistemului de operare
+## Operating system history
 
-### Windows Phone 8.1 inițial
+### Original Windows Phone 8.1
 
-Starea inițială documentată:
+The documented starting state was:
 
 - OS `8.10.14234.375`
 - firmware `02074.00000.15234.28006`
 - Lumia Denim
 
-### Upgrade offline la Windows 10 Mobile
+### Offline upgrade to Windows 10 Mobile
 
-Telefonul a ajuns la buildul `10.0.10586.107` printr-o procedură offline OUP. Numele exact al utilitarului, versiunea pachetului și jurnalul complet al comenzilor nu au fost încă recuperate.
+The phone reached build `10.0.10586.107` using an offline OUP procedure. The exact utility name, package version, and complete command log have not yet been recovered.
 
-### Etapă intermediară neconfirmată
+### Unconfirmed intermediate stage
 
-Buildul `10.0.14293.1066` a fost oferit sau discutat în timpul upgrade-ului. Nu avem încă dovadă suficientă că a fost instalat complet și nici succesiunea exactă a actualizărilor.
+Build `10.0.14293.1066` was offered or discussed during the upgrade process. We do not yet have enough evidence to confirm that it was fully installed or to establish the exact update sequence.
 
-### Sistemul curent
+### Current OS
 
-Buildul documentat în prezent este `10.0.14393.2551` (generația Anniversary Update / 1607). Firmware-ul a rămas documentat ca `02074.00000.15234.28006` și trebuie tratat distinct de versiunea OS.
+The currently documented build is `10.0.14393.2551` (Anniversary Update generation / 1607). Firmware remains documented as `02074.00000.15234.28006` and should be tracked separately from the OS version.
 
-## PC și instrumente
+## PC and tools
 
-PC-ul de proiect rulează Windows și PowerShell 5.1. Windows Phone SDK 8.0 este instalat.
+The project PC runs Windows and PowerShell 5.1. Windows Phone SDK 8.0 is installed.
 
-### Deployment XAP prin USB
+### USB XAP deployment
 
-Executabilul XAP Deployment:
+XAP Deployment executable:
 
 ```powershell
 $deploy = "C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Tools\XAP Deployment\XapDeploy.exe"
 Start-Process $deploy
 ```
 
-Metoda a fost folosită cu succes pentru instalarea pachetelor XAP: conectare USB, telefon deblocat, selectare `Device`, alegerea pachetului și deploy. Confirmăm instalarea și funcționarea separat, direct pe telefon.
+This method has successfully installed XAP packages: connect the phone over USB, unlock it, select `Device`, choose the package, and deploy. Installation and functionality are confirmed separately on the phone.
 
-În notele proiectului, executabilul a fost identificat ca Microsoft-signed, versiunea `11.0.50727.38`. Windows Phone SDK 8.0 a fost instalat dintr-un ISO; proveniența exactă a ISO-ului și pașii instalării nu sunt documentați complet.
+Project notes identify the executable as Microsoft-signed, version `11.0.50727.38`. Windows Phone SDK 8.0 was installed from an ISO; the exact ISO provenance and installation steps are not fully documented.
 
-Developer Mode este activat. Device Portal și pairing-ul au fost folosite în timpul configurării anterioare, dar setările și procedura exactă trebuie recuperate din jurnalul original înainte să le transformăm în instrucțiuni reproductibile.
+Developer Mode is enabled. Device Portal and pairing were used during earlier setup, but the exact settings and procedure must be recovered from the original log before documenting them as reproducible instructions.
 
-**XapDeploy este pentru XAP.** Nu presupunem că poate instala APPX.
+**XapDeploy is for XAP packages.** Do not assume that it can install APPX packages.
 
-### Unelte APPX găsite pe PC
+### APPX tools found on the PC
 
-La verificarea din 7 noiembrie 2026, uneltele erau instalate în Windows Kits 8.0, dar nu erau în PATH:
+As of the check performed on November 7, 2026, these tools were installed in Windows Kits 8.0 but were not available through PATH:
 
 - `C:\Program Files (x86)\Windows Kits\8.0\bin\x64\MakeAppx.exe`
 - `C:\Program Files (x86)\Windows Kits\8.0\bin\x64\SignTool.exe`
-- există și versiunile `x86` în același director `bin`
-- `tar.exe`, `certutil.exe`, `Get-AuthenticodeSignature` și cmdleturile Appx sunt disponibile
+- `x86` versions are also present in the same `bin` directory
+- `tar.exe`, `certutil.exe`, `Get-AuthenticodeSignature`, and the Appx PowerShell cmdlets are available
 
-Versiunea MakeAppx din SDK 8.0 oferă `pack` și `unpack`, nu o comandă separată `validate`. O încercare de `unpack` a pachetului Minecraft nu a produs fișiere în directorul temporar; rezultatul este neconcludent. Nu am reinstalat SDK-uri și nu am adăugat componente.
+The Windows Kits 8.0 version of MakeAppx provides `pack` and `unpack`, but no separate `validate` command. An attempt to unpack the Minecraft package produced no files in the temporary directory, so the result is inconclusive. No SDKs were reinstalled and no components were added.
 
-Aceste rezultate actualizează nota mai veche conform căreia `signtool.exe` și `MakeAppx.exe` nu ar exista pe PC: ele există, însă se află în Windows Kits 8.0 și nu sunt în PATH.
+These findings update the earlier note that `signtool.exe` and `MakeAppx.exe` were not available on the PC: both exist in Windows Kits 8.0, but are not in PATH.
 
-## Jocuri și aplicații testate
+## Games and apps tested
 
-Statusurile de mai jos se bazează pe comportamentul observat pe telefon, nu doar pe metadatele pachetelor.
+The statuses below are based on behavior observed on the phone, not package metadata alone.
 
-| Joc | Versiune | Stare actuală | Observații |
+| Game | Version | Current status | Notes |
 | --- | --- | --- | --- |
-| Angry Birds Classic | `5.0.2.0` | Parțial funcțional | Pornește, dar progresul este blocat de achiziția versiunii complete / promptul de cumpărare. |
-| Angry Birds Classic | `1.5.3.0` | Funcțional | Versiunea XNA mai veche pornește și poate fi jucată; este versiunea preferată în colecția curentă. Pachetul include un marker `AppCracked` de zero bytes, deci distribuția originală nu este verificată independent. |
-| Asphalt 5 | `1.33.0.0` | Funcțional | Instalat și rulat. Este un joc vechi pe hardware limitat; păstrăm observațiile de performanță distincte de erori. |
-| Temple Run | `1.5.3.0` | Instabil | A pornit exact o singură dată; la încercările ulterioare se închide la pornire. Nu îl declarăm funcțional. |
-| Minecraft | `1.5.300.0` | Investigație; neinstalat | Pachet ARM inspectat pe PC, dar nu a fost instalat și nu a fost testat pe telefon. |
-| Jetpack Joyride | Necunoscut | Pachet negăsit / netestat | Nu avem un pachet obținut și verificat. |
-| Subway Surfers | Necunoscut | Planificat / netestat | Nu avem pachet obținut și testat. |
-| Fruit Ninja | Necunoscut | Planificat / netestat | Nu avem pachet obținut și testat. |
+| Angry Birds Classic | `5.0.2.0` | Partially functional | Launches, but progression is blocked by a full-version purchase prompt. |
+| Angry Birds Classic | `1.5.3.0` | Functional | The older XNA version launches and can be played; it is the preferred version in the current collection. The package contains a zero-byte `AppCracked` marker, so its original distribution has not been independently verified. |
+| Asphalt 5 | `1.33.0.0` | Functional | Installed and runs. It is an old game on limited hardware; performance observations are recorded separately from errors. |
+| Temple Run | `1.5.3.0` | Unstable | It launched exactly once; on subsequent attempts it closes during startup. It is not considered functional. |
+| Minecraft | `1.5.300.0` | Under investigation; not installed | The ARM package was inspected on the PC but has not been installed or tested on the phone. |
+| Jetpack Joyride | Unknown | Package not found / untested | No package has been obtained and verified. |
+| Subway Surfers | Unknown | Planned / untested | No package has been obtained and tested. |
+| Fruit Ninja | Unknown | Planned / untested | No package has been obtained and tested. |
 
-### Detalii de proveniență cunoscute pentru jocuri
+### Known package provenance
 
-| Pachet | Sursă menționată în proiect | Observație |
+| Package | Source recorded in the project | Notes |
 | --- | --- | --- |
-| Angry Birds `5.0.2.0` | WindowsViet (`file.windowsviet.com`) | Pachet XAP arhivat; prompt de cumpărare la testare. |
-| Angry Birds `1.5.3.0` | Winphone Iz | Pachet XAP; conține marker `AppCracked`, deci poate fi modificat. |
-| Asphalt 5 `1.33.0.0` | WindowsViet (`file.windowsviet.com`) | Pachet XAP; jocul a fost testat și rulează. |
-| Temple Run `1.5.3.0` | Winphone Iz | Pachet XAP; raportul cel mai recent este crash la pornire după o singură lansare reușită. |
-| Minecraft `1.5.300.0` | WindowsViet (`file.windowsviet.com`) | Pachet APPX; semnătura și proveniența exemplarului local nu sunt încă validate complet. |
+| Angry Birds `5.0.2.0` | WindowsViet (`file.windowsviet.com`) | Archived XAP package; purchase prompt observed during testing. |
+| Angry Birds `1.5.3.0` | Winphone Iz | XAP package; contains an `AppCracked` marker and may be modified. |
+| Asphalt 5 `1.33.0.0` | WindowsViet (`file.windowsviet.com`) | XAP package; tested and runs. |
+| Temple Run `1.5.3.0` | Winphone Iz | XAP package; most recent report is a startup crash after one successful launch. |
+| Minecraft `1.5.300.0` | WindowsViet (`file.windowsviet.com`) | APPX package; the signature and provenance of the local file have not been fully validated. |
 
-### Detalii din manifestele XAP disponibile
+### Details from available XAP manifests
 
-| Joc | Platformă / runtime | Publisher și identificator în manifest | Dimensiune notată |
+| Game | Platform / runtime | Publisher and manifest identifier | Recorded size |
 | --- | --- | --- | --- |
-| Angry Birds Classic `5.0.2.0` | Windows Phone 8.0 / Modern Native | Rovio Entertainment Ltd; executabil `AngryBirdsClassic.exe` | Nu este consemnată în notele inițiale. |
+| Angry Birds Classic `5.0.2.0` | Windows Phone 8.0 / Modern Native | Rovio Entertainment Ltd; executable `AngryBirdsClassic.exe` | Not recorded in the original notes. |
 | Angry Birds Classic `1.5.3.0` | Windows Phone 7.0 / XNA | Microsoft Game Studios; product ID `{e4571a02-0b87-e011-986b-78e7d1fa76f8}` | `21,053,919` bytes |
 | Asphalt 5 `1.33.0.0` | Windows Phone 7.1 / XNA | GAMELOFT SA; product ID `{97e360f9-f018-4c39-ae54-139590c9b048}` | `115,669,153` bytes |
-| Temple Run `1.5.3.0` | Windows Phone 8.0 / Silverlight; pachetul include componente Unity | Imangi Studios, LLC; product ID `{1a7cb5f8-792a-4992-b07a-83874c0795ae}` | `23,401,108` bytes |
+| Temple Run `1.5.3.0` | Windows Phone 8.0 / Silverlight; package includes Unity components | Imangi Studios, LLC; product ID `{1a7cb5f8-792a-4992-b07a-83874c0795ae}` | `23,401,108` bytes |
 
-Pentru Temple Run au fost observate în arhivă `UnityPlayer.dll`, `UnityEngine.dll`, `Assembly-CSharp.dll`, `UnityEngineProxy.dll` și `WinRTBridge.dll`. Prezența componentelor nu explică de una singură crash-ul curent.
+The Temple Run archive includes `UnityPlayer.dll`, `UnityEngine.dll`, `Assembly-CSharp.dll`, `UnityEngineProxy.dll`, and `WinRTBridge.dll`. Their presence alone does not explain the current crash.
 
-Căile locale și dimensiunile exacte ale fișierelor se pot schimba între computere. În sesiunea curentă, pachetele Windows Phone sunt în `C:\Users\vaida\Downloads`, iar APPX-ul Minecraft a fost găsit în `E:\Projects\Lumia`. Nu presupuneți că aceste căi sunt identice pentru alte checkout-uri.
+Local paths and exact file sizes may differ between computers. In the current session, Windows Phone packages are in `C:\Users\vaida\Downloads`, while the Minecraft APPX was found in `E:\Projects\Lumia`. Do not assume these paths apply to other checkouts.
 
-## Minecraft 1.5.300.0 — investigație APPX
+## Minecraft 1.5.300.0 — APPX investigation
 
-### Fișier inspectat
+### Inspected file
 
-- Nume: `Minecraft for Windows 10 Mobile v1.5.300.0 [file.windowsviet.com].appx`
-- Locație găsită în sesiunea curentă: `E:\Projects\Lumia\Minecraft for Windows 10 Mobile v1.5.300.0 [file.windowsviet.com].appx`
-- Dimensiune: `66,531,493` bytes
-- SHA-256 local: `5C4467E6C9B44606BDD9909892B00F1FE6B1731132CB71798A0DF8E59EE0C1EE`
-- Stare: nu a fost instalat și nu a fost modificat
+- Name: `Minecraft for Windows 10 Mobile v1.5.300.0 [file.windowsviet.com].appx`
+- Location found in the current session: `E:\Projects\Lumia\Minecraft for Windows 10 Mobile v1.5.300.0 [file.windowsviet.com].appx`
+- Size: `66,531,493` bytes
+- Local SHA-256: `5C4467E6C9B44606BDD9909892B00F1FE6B1731132CB71798A0DF8E59EE0C1EE`
+- Status: not installed and not modified
 
-Un hash identifică exemplarului local; fără un hash de referință de la o sursă de încredere, nu demonstrează autenticitatea acestuia.
+A hash identifies the local file. Without a reference hash from a trusted source, it does not establish authenticity.
 
 ### Manifest
 
-| Proprietate | Valoare declarată |
+| Property | Declared value |
 | --- | --- |
 | Name | `Microsoft.Minecraft` |
 | Version | `1.5.300.0` |
@@ -150,65 +150,65 @@ Un hash identifică exemplarului local; fără un hash de referință de la o su
 | MaxVersionTested | `10.0.16299.0` |
 | Executable / EntryPoint | `Minecraft.Windows.exe` / `Minecraft_Win10.App` |
 
-Dependențe declarate:
+Declared dependencies:
 
-- `Microsoft.Services.Store.Engagement`, minim `10.0.1610.0`
-- `Microsoft.VCLibs.140.00`, minim `14.0.25426.0`
+- `Microsoft.Services.Store.Engagement`, minimum `10.0.1610.0`
+- `Microsoft.VCLibs.140.00`, minimum `14.0.25426.0`
 
-Manifestul include și metadate de build `OperatingSystem 10.0.14393.0` și `WindowsMobile 10.0.16299.0`. Buildul telefonului `14393.2551` depășește `MinVersion`, iar arhitectura declarată este ARM. Aceste fapte fac pachetul eligibil pentru investigație, dar **nu demonstrează compatibilitatea efectivă** cu Lumia 535 sau că jocul va porni pe buildul curent.
+The manifest also contains build metadata `OperatingSystem 10.0.14393.0` and `WindowsMobile 10.0.16299.0`. The phone's `14393.2551` build is above `MinVersion`, and the declared architecture is ARM. These facts make the package eligible for investigation, but **do not prove actual compatibility** with the Lumia 535 or establish that the game will launch on the current build.
 
-Prezența în arhivă a `AppxBlockMap.xml`, `[Content_Types].xml` și `AppxSignature.p7x` arată că pachetul conține aceste fișiere, nu că semnătura sau integritatea pachetului au fost validate.
+The presence of `AppxBlockMap.xml`, `[Content_Types].xml`, and `AppxSignature.p7x` in the archive only shows that these files are present; it does not prove that the signature or package integrity has been validated.
 
-### Semnătură — rezultate locale
+### Signature — local results
 
-1. Arhiva a putut fi listată fără instalare; manifestul și intrările relevante au fost citite direct din ZIP.
-2. `AppxSignature.p7x` începe cu antetul `PKCX`. Trecerea fișierului întreg direct la SignTool a eșuat cu eroarea ASN.1 `0x8009310B`, deci acea încercare nu a stabilit validitatea semnăturii.
-3. După eliminarea celor patru octeți `PKCX` într-o copie temporară, SignTool a putut parsa certificatul PKCS#7. Afișează subiectul `Microsoft Corporation`, emitentul `Microsoft Marketplace CA G 007` și timestamp din 28 iulie 2018.
-4. Verificarea SignTool nu a reușit să valideze lanțul: au apărut `CERT_TRUST_REVOCATION_STATUS_UNKNOWN`, `CERT_TRUST_IS_OFFLINE_REVOCATION`, `CERT_TRUST_IS_PARTIAL_CHAIN` și `CERT_TRUST_IS_NOT_TIME_VALID`.
+1. The archive could be listed without installation; the manifest and relevant entries were read directly from the ZIP.
+2. `AppxSignature.p7x` begins with the `PKCX` header. Passing the entire file directly to SignTool failed with ASN.1 error `0x8009310B`, so that attempt did not establish signature validity.
+3. After removing the four `PKCX` bytes in a temporary copy, SignTool parsed the PKCS#7 certificate. It displayed the subject `Microsoft Corporation`, issuer `Microsoft Marketplace CA G 007`, and a timestamp of July 28, 2018.
+4. SignTool did not validate the trust chain. It reported `CERT_TRUST_REVOCATION_STATUS_UNKNOWN`, `CERT_TRUST_IS_OFFLINE_REVOCATION`, `CERT_TRUST_IS_PARTIAL_CHAIN`, and `CERT_TRUST_IS_NOT_TIME_VALID`.
 
-Concluzie limitată: **semnătura se parsează după decodarea antetului, dar validarea locală a încrederii a eșuat**. Nu declarăm pachetul autentic sau valid. Nu am confirmat independent că semnătura se leagă de conținutul exact al întregului APPX și nu avem un hash de referință de încredere pentru comparație.
+Limited conclusion: **the signature can be parsed after decoding the header, but local trust validation failed**. We do not declare the package authentic or valid. We have not independently confirmed that the signature binds to the exact contents of the complete APPX, and we do not have a trusted reference hash for comparison.
 
-### Instalare și compatibilitate — ce știm și ce nu
+### Installation and compatibility — knowns and unknowns
 
-Documentația Microsoft pentru Windows 10 indică faptul că buildul 14393 a introdus App Installer pentru `.appx` și `.appxbundle`; aceeași pagină precizează că `.appinstaller` nu este suportat în acel build. Aceasta este documentație Windows 10, dar nu confirmă singură ce interfață de sideload este disponibilă pe Windows 10 Mobile din acest telefon.
+Microsoft's Windows 10 documentation says build 14393 introduced App Installer support for `.appx` and `.appxbundle`; the same page says `.appinstaller` files are not supported on that build. This is Windows 10 documentation and does not by itself confirm which sideloading interface is available on this Windows 10 Mobile phone.
 
-Microsoft descrie sideloading-ul ca instalarea unui pachet semnat de un certificat de încredere. Pachetul APPX nu se instalează prin XapDeploy. Metoda exactă și sigură de instalare APPX pe acest Lumia, inclusiv metoda suportată de Device Portal și gestionarea dependențelor, rămâne de confirmat înainte de orice încercare.
+Microsoft describes sideloading as installing a package signed by a certificate the device trusts. XapDeploy does not install this APPX package. The exact safe APPX installation method for this Lumia, including the supported Device Portal workflow and dependency handling, must be confirmed before any attempt.
 
-Dependențele necesare nu au fost încă verificate pe telefon. Nu instalăm pachetul, dependențe sau certificate și nu schimbăm setări fără să discutăm înainte.
+The required dependency versions have not yet been checked on the phone. We will not install the package, dependencies, or certificates, or change settings, without discussing it first.
 
-## Reguli pentru continuarea proiectului
+## Rules for continuing the project
 
-1. Lucrăm incremental; explicăm comanda sau operația și rezultatul așteptat înainte de fiecare pas.
-2. Prioritizăm fișierele și uneltele deja disponibile; nu reinstalăm SDK-uri fără o cerință concretă.
-3. Nu modificăm OS-ul, bootloader-ul, firmware-ul sau partițiile.
-4. Nu ștergem jocurile deja instalate și păstrăm starea funcțională.
-5. Inspectăm tipul, arhitectura, runtime-ul, manifestul, dependențele și proveniența înainte de deployment.
-6. Publisherul declarat și fișierul de semnătură nu sunt suficiente pentru a afirma autenticitatea.
-7. Separăm instalarea, pornirea și gameplay-ul ca rezultate distincte; nu numim un joc funcțional până când pornește și poate fi jucat.
-8. Notăm erorile exacte, instabilitatea și limitările de achiziție, cont, rețea sau servicii.
-9. Nu redistribuim pachete de jocuri cu drepturi de autor fără să stabilim drepturile aplicabile.
+1. Work incrementally; explain each command or operation and its expected result beforehand.
+2. Prioritize files and tools already available; do not reinstall SDKs without a concrete requirement.
+3. Do not modify the OS, bootloader, firmware, or partitions.
+4. Do not remove games already installed; preserve the working state.
+5. Inspect package type, architecture, runtime, manifest, dependencies, and provenance before deployment.
+6. A declared publisher and the presence of a signature file are not enough to claim authenticity.
+7. Track installation, launch, and gameplay as separate results; call a game functional only after it launches and can be played.
+8. Record exact errors, instability, and purchase, account, network, or service limitations.
+9. Do not redistribute copyrighted game packages unless the applicable rights have been established.
 
-## Necunoscute și pași următori
+## Unknowns and next steps
 
-- Verificarea integrității APPX complet, inclusiv validarea block map-ului și legătura semnăturii cu pachetul.
-- Identificarea unei referințe de hash independentă pentru exact acest APPX și verificarea potrivirii.
-- Verificarea versiunilor de `Microsoft.Services.Store.Engagement` și `Microsoft.VCLibs.140.00` disponibile pe telefon, fără instalare.
-- Confirmarea metodei de sideload APPX suportate pe Windows 10 Mobile 14393 înainte de a o folosi.
-- Cercetarea compatibilității Minecraft 1.5.300 ARM cu Lumia 535; rezultatul rămâne necunoscut până la probă pe telefon.
-- Reproducerea crash-ului Temple Run după relansare și după restart, fără să-l reclasificăm ca funcțional pe baza lansării unice.
-- Recuperarea succesiunii exacte a upgrade-urilor Windows 10 Mobile și a detaliilor OUP.
-- Recuperarea URL-urilor originale verificate pentru pachetele și procedurile proiectului.
-- Identificarea și testarea pachetelor Jetpack Joyride, Subway Surfers și Fruit Ninja.
+- Verify the complete APPX integrity, including block map validation and the signature's binding to the package.
+- Find an independent reference hash for this exact APPX and check whether it matches.
+- Check which versions of `Microsoft.Services.Store.Engagement` and `Microsoft.VCLibs.140.00` are available on the phone, without installing anything.
+- Confirm the APPX sideloading method supported on Windows 10 Mobile 14393 before using it.
+- Research Minecraft 1.5.300 ARM compatibility with the Lumia 535; the result remains unknown until tested on the phone.
+- Reproduce the Temple Run crash after relaunch and after a device restart; do not reclassify it as functional based on the single successful launch.
+- Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
+- Recover verified original URLs for the packages and procedures.
+- Find and test packages for Jetpack Joyride, Subway Surfers, and Fruit Ninja.
 
-## Surse
+## Sources
 
-Sursele externe susțin afirmațiile indicate; arhivele terțe sunt doar indicii de disponibilitate și nu certifică autenticitatea unui fișier local.
+External sources support the claims noted below. Third-party archives are evidence that a package is listed as available, not proof that a local file is authentic.
 
-- [Microsoft Learn — Sideload line-of-business apps](https://learn.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows): noțiuni de sideload, pachete semnate și certificat de încredere.
-- [Microsoft Learn — Troubleshoot installation issues with App Installer](https://learn.microsoft.com/en-us/windows/msix/app-installer/troubleshoot-appinstaller-issues): disponibilitatea metodelor de instalare în funcție de build; buildul 14393 și `.appx` / `.appxbundle`.
-- [Microsoft Learn — Sign an MSIX package](https://learn.microsoft.com/en-us/windows/msix/package/signing-package-overview): semnături, certificate, timestamp și verificarea conținutului prin block map și semnătură.
-- [Microsoft Devices Blog — Minecraft: Pocket Edition now on Windows Phone](https://blogs.windows.com/devices/2014/12/10/minecraft-pocket-edition-now-windows-phone/): anunțul versiunii Windows Phone 8.1 și lista de telefoane menționată, inclusiv Lumia 535; nu dovedește compatibilitatea acestui APPX UWP.
-- [WindowsViet — Minecraft: Pocket Edition](https://file.windowsviet.com/minecraft-pocket-edition/): pagină de arhivă care listează versiunea 1.5.300.0; nu este validare independentă a pachetului local.
-- [PocketPC Software Archive — Windows 10 Mobile Apps](https://files.pocketpc-archive.com/Windows%2010%20Mobile%20Apps/): arhivă terță care listează pachetul Minecraft 1.5.300.0; nu este validare de semnătură sau proveniență.
+- [Microsoft Learn — Sideload line-of-business apps](https://learn.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows): sideloading concepts, signed packages, and trusted certificates.
+- [Microsoft Learn — Troubleshoot installation issues with App Installer](https://learn.microsoft.com/en-us/windows/msix/app-installer/troubleshoot-appinstaller-issues): installation methods by build; build 14393 and `.appx` / `.appxbundle`.
+- [Microsoft Learn — Sign an MSIX package](https://learn.microsoft.com/en-us/windows/msix/package/signing-package-overview): signatures, certificates, timestamps, and package-content validation through the block map and signature.
+- [Microsoft Devices Blog — Minecraft: Pocket Edition now on Windows Phone](https://blogs.windows.com/devices/2014/12/10/minecraft-pocket-edition-now-windows-phone/): Windows Phone 8.1 release announcement and listed phones, including Lumia 535; it does not prove compatibility of this UWP APPX.
+- [WindowsViet — Minecraft: Pocket Edition](https://file.windowsviet.com/minecraft-pocket-edition/): archive page listing version 1.5.300.0; not an independent validation of the local package.
+- [PocketPC Software Archive — Windows 10 Mobile Apps](https://files.pocketpc-archive.com/Windows%2010%20Mobile%20Apps/): third-party archive listing Minecraft 1.5.300.0; not signature or provenance validation.
 
-Pentru fiecare informație nouă adăugată, păstrăm sursa și data consultării. Dacă sursa este o experiență de forum sau o arhivă neoficială, o etichetăm ca atare și nu o prezentăm ca fapt confirmat de Microsoft.
+Record the source and date consulted for each new fact. Label forum reports and unofficial archives as such; do not present them as Microsoft-confirmed facts.
