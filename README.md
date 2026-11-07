@@ -319,7 +319,8 @@ The package export does not list either declared dependency. We have not sourced
 
 The wider Vintage Phone Collector project is not limited to this Lumia. Other devices in the collection or under consideration include:
 
-- HTC Wildfire and HTC Desire
+- [HTC Wildfire A3333](devices/htc-wildfire-a3333/README.md)
+- HTC Desire
 - Nokia Lumia devices
 - Apple iPhone 6 and iPhone 6S
 - Samsung Corby

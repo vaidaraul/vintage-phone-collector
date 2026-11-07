@@ -1,0 +1,13 @@
+# Original HTC binaries are retained locally, not published.
+*.apk
+*.odex
+
+# Captures and device-specific logs can contain private data.
+*.log
+*.pcap
+*.pcapng
+
+# Local credentials.
+.env
+.env.*
+!.env.example
