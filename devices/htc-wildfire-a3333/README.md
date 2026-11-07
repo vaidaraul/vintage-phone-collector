@@ -52,14 +52,38 @@ The Weather app declares internet and network-state permissions. The local inves
 
 ## Protocol investigation
 
-Static string inspection of the original HTC ODEX files found these historical AccuWeather endpoint templates:
+Deodexing the original `WeatherSyncProvider.odex` recovered the request templates and the forecast parser structure. The endpoint host and paths are:
 
-- Forecast data: http://htc.accuweather.com/widget/htc/forecast-data_v3.asp with a location-code parameter.
-- Latitude/longitude search: http://htc.accuweather.com/widget/htc/lat-lon-search.asp with latitude and longitude parameters.
+- Forecast data: `http://htc.accuweather.com/widget/htc/forecast-data_v3.asp`
+- Latitude/longitude lookup: `http://htc.accuweather.com/widget/htc/lat-lon-search.asp`
 
-The original requests also contain a vendor parameter whose value is intentionally omitted from this public document. It is not a key for this project’s backend.
+The original requests include a vendor parameter whose value is intentionally omitted here. It is not a key for this project's backend. The forecast request adds a location code URL-encoded with `latin1`; both request forms add a `nocache` value derived from the device's current time. Latitude and longitude are supplied to the lookup endpoint. The helper reads response text as `latin1` and sets 5-second connect and read timeouts.
 
-The HTC sync provider contains references to HttpURLConnection, KXmlParser, parseXml, and parsing routines for current conditions, days, and forecasts. This is evidence that the client consumes XML from the legacy HTTP service. It does not yet establish the exact XML schema, request headers, parameter values, current endpoint availability, or the reason the request fails.
+### Parser-derived XML contract
+
+The sync provider parses a document with `KXmlParser`. It takes the document root without checking its name, then looks for direct `current` and `forecast` children. Under `forecast`, it reads repeated `day` children. The following skeleton represents fields the parser consumes; it is **derived from the code, not captured from the server**:
+
+```xml
+<any-root>
+  <current>
+    <temp c="integer-celsius" f="integer-fahrenheit" />
+    <condition icon="condition-id" />
+  </current>
+  <forecast>
+    <day>
+      <name>day-name</name>
+      <date>date-text</date>
+      <condition icon="condition-id" />
+      <high c="integer-celsius" f="integer-fahrenheit" />
+      <low c="integer-celsius" f="integer-fahrenheit" />
+    </day>
+  </forecast>
+</any-root>
+```
+
+The parser reads current temperature from the `temp` attributes; day names and dates from element text; and condition identifiers from the `icon` attribute. It reads each forecast day's `high` and `low` Celsius/Fahrenheit attributes as integers. Condition element text and the root element name are not checked by this parser.
+
+This establishes the XML structure consumed by this sync-provider code path. It does not confirm that every field is required by all HTC components, the exact date syntax, the service's response for location lookup, or whether the historical endpoint still responds. No live response has been captured, and the cause of the refresh failure remains unknown.
 
 ### Known and unknown
 
