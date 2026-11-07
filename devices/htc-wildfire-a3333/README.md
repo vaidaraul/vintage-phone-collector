@@ -92,7 +92,7 @@ This establishes the XML structure consumed by this sync-provider code path. It 
 | Original Weather package | Identified: com.htc.Weather |
 | Legacy service hostname and path | Found in static ODEX strings |
 | Transport in the embedded endpoint | HTTP |
-| Response family | XML parsing is present; exact schema unconfirmed |
+| Response family | Parser-derived XML structure recovered; no live response captured |
 | Runtime request/response capture | Not yet collected |
 | Cause of refresh failure | Unknown |
 | Backend implementation | Not started |
