@@ -224,6 +224,8 @@ Failure text: Package failed updates, dependency or conflict validation. (0x8007
 
 The accompanying installed-package export contained 144 entries and showed no package family/full name for `Microsoft.VCLibs.140.00`, `Microsoft.Services.Store.Engagement`, or `Microsoft.Minecraft`. It did show `Microsoft.WindowsStore` and `Microsoft.StorePurchaseApp`; those are different packages and do not satisfy the two manifest dependencies. This suggests that the declared framework dependencies are missing from the phone, although the deployment log is needed to confirm the exact cause.
 
+A subsequent read-only GET to Device Portal's `/api/app/packagemanager/state` returned `Code: -2147009293` (`0x80073CF3`), `Reason: Failed to start deployment`, and `Success: false`. The response contains no additional inner error or dependency name. A search of the existing Windows Kits 8.0/10 and Microsoft SDK folders also found no ARM APPX for either declared dependency; the known Downloads and project folders had no matches either.
+
 The package declares ARM architecture, matching the phone's ARM platform, and a minimum OS version below the phone's build. These matches do not rule out an unresolved dependency or package conflict. Microsoft lists a missing dependency, package conflict, or unsupported processor architecture as possible causes of `0x80073CF3`.
 
 Minecraft does not appear in the installed-package export, consistent with the failed attempt leaving it uninstalled. No package or dependency was removed or changed.
@@ -276,7 +278,7 @@ Each device should receive its own notes covering its identity, original softwar
 
 ## Unknowns and next steps
 
-- Retrieve the last deployment result from Device Portal (`/api/app/packagemanager/state`) and, if needed, the AppXDeployment-Server event details to identify the exact failing dependency or conflict.
+- Seek detailed AppXDeployment-Server event information if it can be read from the phone; the Device Portal state endpoint returned only the generic error code.
 - Find verified ARM packages for the missing dependencies, then inspect their versions and signatures before discussing an installation attempt.
 - Verify the complete APPX integrity, including block map validation and the signature's binding to the package.
 - Find an independent reference hash for this exact APPX and check whether it matches.
@@ -295,6 +297,7 @@ External sources support the claims noted below. Third-party archives are eviden
 - [Microsoft Learn — Sideload line-of-business apps](https://learn.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows): sideloading concepts, signed packages, and trusted certificates.
 - [Microsoft Learn — Troubleshoot installation issues with App Installer](https://learn.microsoft.com/en-us/windows/msix/app-installer/troubleshoot-appinstaller-issues): installation methods by build; build 14393 and `.appx` / `.appxbundle`.
 - [Microsoft Learn — Troubleshooting packaging, deployment, and query of Windows apps](https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting): `0x80073CF3` causes and the AppXDeployment-Server event log.
+- [Microsoft Learn — Windows Device Portal core REST API](https://learn.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-api-core): package deployment and state endpoints for Windows Mobile.
 - [Microsoft Learn — Sign an MSIX package](https://learn.microsoft.com/en-us/windows/msix/package/signing-package-overview): signatures, certificates, timestamps, and package-content validation through the block map and signature.
 - [Microsoft Devices Blog — Minecraft: Pocket Edition now on Windows Phone](https://blogs.windows.com/devices/2014/12/10/minecraft-pocket-edition-now-windows-phone/): Windows Phone 8.1 release announcement and listed phones, including Lumia 535; it does not prove compatibility of this UWP APPX.
 - [WindowsViet — Minecraft: Pocket Edition](https://file.windowsviet.com/minecraft-pocket-edition/): archive page listing version 1.5.300.0; not an independent validation of the local package.
