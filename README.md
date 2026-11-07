@@ -247,7 +247,7 @@ Microsoft's Windows 10 documentation says build 14393 introduced App Installer s
 
 Microsoft describes sideloading as installing a package signed by a certificate the device trusts. XapDeploy does not install this APPX package. The exact safe APPX installation method for this Lumia, including the supported Device Portal workflow and dependency handling, must be confirmed before any attempt.
 
-The required dependency versions have not yet been checked on the phone. We will not install the package, dependencies, or certificates, or change settings, without discussing it first.
+The package export does not list either declared dependency. We have not sourced or installed replacement packages. We will not install the game, dependencies, or certificates, or change settings, without discussing it first.
 
 ## Other restoration targets
 
