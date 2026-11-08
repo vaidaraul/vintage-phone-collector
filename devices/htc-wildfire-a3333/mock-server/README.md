@@ -9,8 +9,8 @@ The live provider change is committed to this branch but has not yet been deploy
 - Provider: [Open-Meteo Forecast API](https://open-meteo.com/en/docs), no API key required for non-commercial personal use.
 - The free service is limited to 10,000 calls per day, 5,000 per hour, and 600 per minute; it has no uptime guarantee. Data attribution under CC BY 4.0 is required. See [Open-Meteo terms](https://open-meteo.com/en/terms).
 - Each coordinate's forecast is cached for 10 minutes. The last successful response is served if the provider temporarily fails.
-- The server uses latitude/longitude from lat/latitude and lon/lng/longitude query parameters if the HTC request includes them.
-- If the legacy request has no coordinates, the fallback is Bucharest (44.4268, 26.1025). Override it with WEATHER_LATITUDE and WEATHER_LONGITUDE in a local .env file beside compose.yaml. These are coordinates, not API keys; do not commit a private home location.
+- The server uses latitude/longitude query parameters when the HTC request includes them. It also resolves city text and AccuWeather-style location codes such as EUR|FR|FR012|PARIS through the Open-Meteo Geocoding API, with a 2-letter country filter when available. The resolved coordinates are then used for the forecast.
+- If the request provides neither coordinates nor a city/location code, the fallback is Bucharest (44.4268, 26.1025). Override it with WEATHER_LATITUDE and WEATHER_LONGITUDE in a local .env file beside compose.yaml. These are coordinates, not API keys; do not commit a private home location.
 - WMO weather codes are mapped approximately to legacy AccuWeather icon IDs. Temperatures are rounded to whole degrees C/F.
 
 ## Deploy the live adapter
