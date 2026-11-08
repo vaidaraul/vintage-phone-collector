@@ -88,7 +88,8 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
         "daily": "weather_code,temperature_2m_max,temperature_2m_min",
         "temperature_unit": "celsius",
         "timezone": "auto",
-        "forecast_days": "4",
+        # The API includes today; request one extra day to emit four future days.
+        "forecast_days": "5",
     }
     request = Request(
         f"{OPEN_METEO_URL}?{urlencode(params)}",
@@ -121,7 +122,15 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
         )
 
         forecast = ET.SubElement(root, "forecast")
+        current_date = str(current["time"])[:10]
+        emitted_days = 0
         for index, day_date in enumerate(daily["time"]):
+            # Current conditions are a separate XML node, so the forecast list
+            # should start tomorrow and contain four complete future days.
+            if day_date <= current_date:
+                continue
+            if emitted_days == 4:
+                break
             day = ET.SubElement(forecast, "day")
             parsed_date = datetime.strptime(day_date, "%Y-%m-%d")
             ET.SubElement(day, "name").text = parsed_date.strftime("%A")
@@ -141,6 +150,7 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
                 "low",
                 temperature_attributes(float(daily["temperature_2m_min"][index])),
             )
+            emitted_days += 1
 
         # Attribution required by Open-Meteo's CC BY 4.0 data licence.
         ET.SubElement(root, "source").text = "Open-Meteo (open-meteo.com)"
