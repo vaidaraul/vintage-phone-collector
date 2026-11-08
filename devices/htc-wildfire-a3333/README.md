@@ -138,7 +138,8 @@ See [mock-server setup and cleanup](mock-server/README.md) for the reproducible 
 - Test APK: Jetpack Joyride 1.5, build 1519; local filename identifies minAPI8 and includes `armeabi`, `armeabi-v7a`, and `x86` variants.
 - The user reports that it installs but crashes at startup on the Wildfire.
 - Android 2.2.1 is SDK/API 8, matching the filename's declared minimum. The actual manifest and signing certificate have not been independently inspected.
-- Crash cause is unknown. ABI, graphics/runtime, or memory limits are possibilities, not confirmed causes. A filtered logcat from immediately after launch is needed.
+- Filtered logcat shows the app starting, loading `lib/armeabi/libmortargame.so`, then dying with signal 4 (`SIGILL`) at PC `0x000e532c` inside that library. This happened twice. It is a native-code crash, not an Android min-API rejection; the APK filename says minAPI8 and the phone is SDK 8.
+- The exact instruction/failure has not been decoded. An unsupported instruction or an intentional engine trap are possibilities. The ABI folder name does not guarantee this binary works on every ARMv6 device. This log alone is not evidence of malware or file corruption; APK signing has not been checked.
 
 ## Proposed investigation sequence
 
@@ -146,7 +147,7 @@ See [mock-server setup and cleanup](mock-server/README.md) for the reproducible 
 2. Investigate the HTC UI's repeated “SUN” labels and missing final forecast slot against the emitted XML; recover the expected date convention before changing the payload.
 3. Complete the Linux demo's boot-time setup: start AP/DHCP/DNS and narrowly scoped NAT on the host, then start the Docker container after the AP address exists.
 4. Verify internet, DNS redirection, and the Docker service after a Linux server reboot.
-5. If useful, compare Fruit Ninja performance with menus/gameplay and a clean reboot; keep conclusions marked as hypotheses until measured.
+5. If useful, inspect Jetpack Joyride's native library around the SIGILL and compare Fruit Ninja performance across menus/gameplay and after a clean reboot; keep conclusions marked as hypotheses until measured.
 6. Preserve the stock phone and its original system configuration.
 
 No modern weather provider has been selected. If a provider requiring credentials is chosen later, keep secrets in deployment environment variables and local .env files; publish only a placeholder .env.example. Do not commit provider keys, captured credentials, private logs, or the legacy vendor parameter.
