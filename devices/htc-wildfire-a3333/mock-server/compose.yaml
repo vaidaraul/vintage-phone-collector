@@ -1,0 +1,11 @@
+services:
+  weather-mock:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "192.168.50.1:80:8080/tcp"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
