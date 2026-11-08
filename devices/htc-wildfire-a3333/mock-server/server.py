@@ -7,6 +7,7 @@ from urllib.request import Request, urlopen
 import argparse
 import json
 import os
+import re
 import threading
 import time
 import xml.etree.ElementTree as ET
@@ -17,27 +18,110 @@ ENDPOINTS = {
     "/widget/htc/forecast-data_v3.asp",
 }
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
+GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
 CACHE_SECONDS = int(os.environ.get("WEATHER_CACHE_SECONDS", "600"))
 DEFAULT_LATITUDE = float(os.environ.get("WEATHER_LATITUDE", "44.4268"))
 DEFAULT_LONGITUDE = float(os.environ.get("WEATHER_LONGITUDE", "26.1025"))
 _CACHE: dict[tuple[float, float], tuple[float, bytes]] = {}
+_GEOCODE_CACHE: dict[tuple[str, str], tuple[float, float]] = {}
 _CACHE_LOCK = threading.Lock()
 
 
+def geocode_city(name: str, country_code: str | None) -> tuple[float, float]:
+    name = name.strip().replace("_", " ")
+    if len(name) < 2:
+        raise ValueError("location name is too short")
+    country = (country_code or "").upper()
+    if not re.fullmatch(r"[A-Z]{2}", country):
+        country = ""
+    key = (name.casefold(), country)
+    with _CACHE_LOCK:
+        cached = _GEOCODE_CACHE.get(key)
+        if cached:
+            return cached
+
+    params = {"name": name, "count": "1", "language": "en", "format": "json"}
+    if country:
+        params["countryCode"] = country
+    request = Request(
+        f"{GEOCODING_URL}?{urlencode(params)}",
+        headers={"User-Agent": "HTC-Wildfire-Legacy-Weather/0.2"},
+    )
+    with urlopen(request, timeout=10) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    results = payload.get("results") or []
+    if not results:
+        raise ValueError("location could not be resolved")
+    result = results[0]
+    coordinates = (float(result["latitude"]), float(result["longitude"]))
+    with _CACHE_LOCK:
+        _GEOCODE_CACHE[key] = coordinates
+    return coordinates
+
+
 def location_from_query(query: str) -> tuple[float, float]:
-    params = {key.lower(): values[-1] for key, values in parse_qs(query).items() if values}
+    params = {
+        key.lower(): values[-1]
+        for key, values in parse_qs(query, keep_blank_values=False).items()
+        if values
+    }
     latitude = params.get("lat", params.get("latitude", params.get("geo_lat")))
     longitude = params.get(
         "lon",
         params.get("lng", params.get("longitude", params.get("geo_lon"))),
     )
-    if latitude is None or longitude is None:
-        return DEFAULT_LATITUDE, DEFAULT_LONGITUDE
+    if latitude is not None and longitude is not None:
+        lat, lon = float(latitude), float(longitude)
+        if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+            raise ValueError("coordinates out of range")
+        return lat, lon
 
-    lat, lon = float(latitude), float(longitude)
-    if not (-90 <= lat <= 90 and -180 <= lon <= 180):
-        raise ValueError("coordinates out of range")
-    return lat, lon
+    country = params.get("countrycode", params.get("country_code", ""))
+    city = next(
+        (
+            params[key]
+            for key in ("city", "cityname", "location", "place", "q")
+            if params.get(key)
+        ),
+        "",
+    )
+    legacy_location = next(
+        (
+            params[key]
+            for key in ("loccode", "locationcode", "loc")
+            if params.get(key)
+        ),
+        "",
+    )
+
+    # AccuWeather-style legacy IDs often look like EUR|FR|FR012|PARIS.
+    # Keep the country qualifier and use the final human-readable component.
+    location_value = city or legacy_location
+    if "|" in location_value:
+        parts = [part.strip() for part in location_value.split("|") if part.strip()]
+        if not country:
+            country = next(
+                (
+                    part
+                    for part in parts
+                    if re.fullmatch(r"[A-Za-z]{2}", part) and part.upper() not in {"EU", "EUR"}
+                ),
+                "",
+            )
+        city = next(
+            (
+                part
+                for part in reversed(parts)
+                if len(part) > 2 and re.search(r"[A-Za-z]", part) and not re.fullmatch(r"[A-Za-z]{2}\d+", part)
+            ),
+            "",
+        )
+    elif not city and location_value:
+        city = location_value
+
+    if city:
+        return geocode_city(city, country or None)
+    return DEFAULT_LATITUDE, DEFAULT_LONGITUDE
 
 
 def legacy_icon(weather_code: int, is_day: bool = True) -> int:
@@ -125,8 +209,6 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
         current_date = str(current["time"])[:10]
         emitted_days = 0
         for index, day_date in enumerate(daily["time"]):
-            # Current conditions are a separate XML node, so the forecast list
-            # should start tomorrow and contain four complete future days.
             if day_date <= current_date:
                 continue
             if emitted_days == 4:
@@ -169,7 +251,7 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = "HTCWeatherMock/0.2"
+    server_version = "HTCWeatherMock/0.3"
 
     def do_GET(self) -> None:
         parsed = urlsplit(self.path)
