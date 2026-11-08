@@ -141,6 +141,11 @@ See [mock-server setup and cleanup](mock-server/README.md) for the reproducible 
 - Filtered logcat shows the app starting, loading `lib/armeabi/libmortargame.so`, then dying with signal 4 (`SIGILL`) at PC `0x000e532c` inside that library. This happened twice. It is a native-code crash, not an Android min-API rejection; the APK filename says minAPI8 and the phone is SDK 8.
 - The exact instruction/failure has not been decoded. An unsupported instruction or an intentional engine trap are possibilities. The ABI folder name does not guarantee this binary works on every ARMv6 device. This log alone is not evidence of malware or file corruption; APK signing has not been checked.
 
+### Vodafone system packages
+
+- ADB inventory found four packages under `/system/app`: `com.vodafone.shop`, `com.vodafone.vodafone360updates`, `com.vodafone.android.app.music`, and `de.vodafone.meinvodafone`.
+- The read-only inventory script left them installed. Removing these stock system packages would require root and a system-partition change; no removal was attempted.
+
 ## Proposed investigation sequence
 
 1. Deploy and verify the city-code resolver with Bucharest and Paris; capture the legacy location query fields without publishing vendor parameters.
