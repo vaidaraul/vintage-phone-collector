@@ -235,7 +235,7 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
             emitted_days += 1
 
         # Attribution required by Open-Meteo's CC BY 4.0 data licence.
-        ET.SubElement(root, "source").text = "Open-Meteo (open-meteo.com)"
+        ET.SubElement(root, "source").text = "Open-Meteo (open-meteo.com); geocoding: GeoNames (geonames.org)"
         body = ET.tostring(root, encoding="iso-8859-1", xml_declaration=True)
     except Exception:
         # Keep the most recent successful response available during provider outages.
