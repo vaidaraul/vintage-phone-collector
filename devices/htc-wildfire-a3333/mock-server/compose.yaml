@@ -4,6 +4,10 @@ services:
     restart: unless-stopped
     ports:
       - "192.168.50.1:80:8080/tcp"
+    environment:
+      WEATHER_LATITUDE: ${WEATHER_LATITUDE:-44.4268}
+      WEATHER_LONGITUDE: ${WEATHER_LONGITUDE:-26.1025}
+      WEATHER_CACHE_SECONDS: ${WEATHER_CACHE_SECONDS:-600}
     read_only: true
     cap_drop:
       - ALL
