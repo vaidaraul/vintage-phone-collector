@@ -1,6 +1,6 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
-**Status:** local mock integration verified; real-provider backend not implemented  
+**Status:** local mock verified; live Open-Meteo adapter implemented; city-selection and forecast-display issues remain under investigation  
 **Last updated:** 2026-11-08
 
 This project investigates restoring the original HTC Weather service on an HTC Wildfire A3333 while preserving its stock Android 2.2.1 Froyo firmware, HTC Sense interface, and original applications. The goal is a compatibility backend for the existing client, not a ROM or app replacement.
@@ -34,7 +34,10 @@ The device properties were read over ADB. The kernel string above comes from the
 - Refreshing it shows: “Connection error — Sorry, but the connection dropped while your weather information was downloading.”
 - The stock browser loaded HTTP sites, including NeverSSL. HTTPS compatibility has not been tested.
 - ADB over USB works. The device reports as device in adb devices -l.
-- No ROM, APK, system-partition, root, or persistent network configuration changes were made. For the local integration test, the phone was temporarily connected to an isolated Wi-Fi access point.
+- No ROM, system-partition, root, or persistent router configuration changes were made. For the local integration test, the phone was temporarily connected to an isolated Wi-Fi access point.
+- The live Open-Meteo adapter returned changing, plausible weather values through the local server. Selecting Paris in HTC Weather still showed the same weather as the default Bucharest location; city-code resolution has since been added to the project branch but has not yet been verified on the phone.
+- The local endpoint returns four distinct future dates (Monday–Thursday in the captured check), while the HTC app was reported to show only three forecast days labelled “SUN” and a blank final slot. The phone's ADB clock read `Sun Nov 8 22:15:14 EET 2026`; this matches the date/weekday at the time of the check, so it does not explain the UI labels.
+- Fruit Ninja 1.7.5 was installed and launched for a compatibility test; the user reports severe stuttering during play. Cause is unverified; the device's limited CPU/RAM is a plausible factor, not evidence by itself of a bad APK.
 
 ## Original HTC weather components
 
@@ -95,7 +98,7 @@ The original service response has still not been captured. However, the original
 | Response family | Parser-derived XML structure recovered; no live response captured |
 | Runtime request/response capture | Not yet collected |
 | Cause of refresh failure | Unknown |
-| Backend implementation | Not started |
+| Backend implementation | Open-Meteo XML adapter implemented; selected-city resolver added to the branch, deployment/verification pending |
 
 ## Local mock integration test (2026-11-08)
 
@@ -114,13 +117,30 @@ The home-router DHCP DNS override attempt did not take effect: the router UI rej
 
 See [mock-server setup and cleanup](mock-server/README.md) for the reproducible local procedure and Docker Compose configuration. The HTTP service is being moved into a container; hostapd, DHCP/DNS, and forwarding remain host-managed. Do not publish the temporary Wi-Fi password, raw logcat, HTC vendor parameter, PPPoE credentials, or personal location data.
 
+## Recent device findings (2026-11-08)
+
+### HTC Weather
+
+- The local Docker adapter now fetches live conditions and a four-day future forecast from Open-Meteo. Initial live values looked plausible to the user.
+- In the currently tested deployment, choosing Paris still returned the default Bucharest weather. A branch update now resolves HTC location query fields and AccuWeather-style location codes through Open-Meteo Geocoding; this change still needs deployment and on-phone verification.
+- The endpoint XML contains distinct weekday names and dates, but the HTC UI was reported to show three “SUN” labels and leave the last forecast slot blank. The exact date format expected by the original app remains unknown; do not alter it until captured evidence is available.
+- The phone's ADB date was reported as Sunday, November 8, 2026, 22:15 EET. That matches the current date/weekday at the time of the check. The separate “wrong date” warning text has not been captured.
+
+### Fruit Ninja performance
+
+- Test app: Fruit Ninja 1.7.5, package `com.halfbrick.fruitninja`; local APK filename identifies minAPI7 and includes an `armeabi` variant.
+- The user reports that the game installs/launches but stutters severely during play on the stock Wildfire A3333.
+- Performance cause has not been measured. The Wildfire's 528 MHz single-core ARM11 CPU and 384 MB RAM make hardware limits plausible, but this observation does not establish that the APK is corrupted or malicious. APK signature/hash has not been independently checked.
+- Follow-up if wanted: compare menu versus gameplay performance and repeat after a restart with other user apps stopped. No root, ROM, or system changes were used for this test.
+
 ## Proposed investigation sequence
 
-1. Inspect the original location-search parser to recover its response shape and behavior.
-2. Complete the Linux demo's boot-time setup: start the AP/DHCP/DNS and narrowly scoped NAT rules on the host, then start the Dockerized HTTP mock after the AP address exists.
-3. Verify internet and the local HTC hostname after a Linux server reboot.
-4. Keep the static mock as the current demo; defer a live weather-provider adapter until desired.
-5. Preserve the stock phone and its original system configuration.
+1. Deploy and verify the city-code resolver with Bucharest and Paris; capture the legacy location query fields without publishing vendor parameters.
+2. Investigate the HTC UI's repeated “SUN” labels and missing final forecast slot against the emitted XML; recover the expected date convention before changing the payload.
+3. Complete the Linux demo's boot-time setup: start AP/DHCP/DNS and narrowly scoped NAT on the host, then start the Docker container after the AP address exists.
+4. Verify internet, DNS redirection, and the Docker service after a Linux server reboot.
+5. If useful, compare Fruit Ninja performance with menus/gameplay and a clean reboot; keep conclusions marked as hypotheses until measured.
+6. Preserve the stock phone and its original system configuration.
 
 No modern weather provider has been selected. If a provider requiring credentials is chosen later, keep secrets in deployment environment variables and local .env files; publish only a placeholder .env.example. Do not commit provider keys, captured credentials, private logs, or the legacy vendor parameter.
 
