@@ -133,6 +133,13 @@ See [mock-server setup and cleanup](mock-server/README.md) for the reproducible 
 - Performance cause has not been measured. The Wildfire's 528 MHz single-core ARM11 CPU and 384 MB RAM make hardware limits plausible, but this observation does not establish that the APK is corrupted or malicious. APK signature/hash has not been independently checked.
 - Follow-up if wanted: compare menu versus gameplay performance and repeat after a restart with other user apps stopped. No root, ROM, or system changes were used for this test.
 
+### Jetpack Joyride startup crash
+
+- Test APK: Jetpack Joyride 1.5, build 1519; local filename identifies minAPI8 and includes `armeabi`, `armeabi-v7a`, and `x86` variants.
+- The user reports that it installs but crashes at startup on the Wildfire.
+- Android 2.2.1 is SDK/API 8, matching the filename's declared minimum. The actual manifest and signing certificate have not been independently inspected.
+- Crash cause is unknown. ABI, graphics/runtime, or memory limits are possibilities, not confirmed causes. A filtered logcat from immediately after launch is needed.
+
 ## Proposed investigation sequence
 
 1. Deploy and verify the city-code resolver with Bucharest and Paris; capture the legacy location query fields without publishing vendor parameters.
