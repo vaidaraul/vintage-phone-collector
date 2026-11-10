@@ -1,0 +1,421 @@
+"""HTC Wildfire Weather compatibility server backed by Open-Meteo."""
+
+from datetime import datetime
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from urllib.parse import parse_qs, urlencode, urlsplit
+from urllib.request import Request, urlopen
+import argparse
+import html
+import json
+import os
+import re
+import sys
+import threading
+import time
+import traceback
+import xml.etree.ElementTree as ET
+
+
+ENDPOINTS = {
+    "/widget/htc/lat-lon-search.asp",
+    "/widget/htc/forecast-data_v3.asp",
+}
+DETAIL_PATHS = {"/m/details.aspx", "/m/details1.aspx"}
+OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
+GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
+CACHE_SECONDS = int(os.environ.get("WEATHER_CACHE_SECONDS", "600"))
+# How long a previously fetched response may still be served while the provider
+# is failing. Beyond this the request must fail rather than serve unbounded stale data.
+STALE_SECONDS = int(os.environ.get("WEATHER_STALE_SECONDS", str(6 * 60 * 60)))
+DEFAULT_LATITUDE = float(os.environ.get("WEATHER_LATITUDE", "44.4268"))
+DEFAULT_LONGITUDE = float(os.environ.get("WEATHER_LONGITUDE", "26.1025"))
+
+# HTC/AccuWeather legacy location codes do not always use ISO 3166-1 alpha-2.
+# The client's own data uses EUR|UK|UK124|LONDON, but the geocoder expects GB.
+COUNTRY_CODE_ALIASES = {"UK": "GB"}
+WEEKDAY_LABELS = ("MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN")
+
+# Failures that are expected to be transient or provider-shaped. Anything else
+# is a bug and must surface instead of being served as a stale response.
+UPSTREAM_ERRORS = (OSError, ValueError, KeyError, TypeError)
+
+_CACHE: dict[tuple[float, float], tuple[float, float, bytes]] = {}
+_GEOCODE_CACHE: dict[tuple[str, str], tuple[float, float]] = {}
+_CACHE_LOCK = threading.Lock()
+
+
+def _search_geocoder(name: str, country: str) -> list[dict]:
+    params = {"name": name, "count": "1", "language": "en", "format": "json"}
+    if country:
+        params["countryCode"] = country
+    request = Request(
+        f"{GEOCODING_URL}?{urlencode(params)}",
+        headers={"User-Agent": "HTC-Wildfire-Legacy-Weather/0.2"},
+    )
+    with urlopen(request, timeout=10) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    return payload.get("results") or []
+
+
+def geocode_city(name: str, country_code: str | None) -> tuple[float, float]:
+    name = name.strip().replace("_", " ")
+    if len(name) < 2:
+        raise ValueError("location name is too short")
+    country = (country_code or "").upper()
+    if re.fullmatch(r"[A-Z]{2}", country):
+        country = COUNTRY_CODE_ALIASES.get(country, country)
+    else:
+        country = ""
+    key = (name.casefold(), country)
+    with _CACHE_LOCK:
+        cached = _GEOCODE_CACHE.get(key)
+        if cached:
+            return cached
+
+    # Try the country-filtered lookup first, then an unfiltered one. A wrong or
+    # too-narrow filter (e.g. a legacy "UK" code, or a city whose country text is
+    # missing) must not turn a resolvable location into a hard failure.
+    attempts = (country, "") if country else ("",)
+    results: list[dict] = []
+    for candidate in attempts:
+        results = _search_geocoder(name, candidate)
+        if results:
+            break
+    if not results:
+        raise ValueError("location could not be resolved")
+    result = results[0]
+    coordinates = (float(result["latitude"]), float(result["longitude"]))
+    with _CACHE_LOCK:
+        _GEOCODE_CACHE[key] = coordinates
+    return coordinates
+
+
+def location_from_query(query: str) -> tuple[float, float]:
+    params = {
+        key.lower(): values[-1]
+        for key, values in parse_qs(query, keep_blank_values=False).items()
+        if values
+    }
+    latitude = params.get("lat", params.get("latitude", params.get("geo_lat")))
+    longitude = params.get(
+        "lon",
+        params.get("lng", params.get("longitude", params.get("geo_lon"))),
+    )
+    if latitude is not None and longitude is not None:
+        lat, lon = float(latitude), float(longitude)
+        if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+            raise ValueError("coordinates out of range")
+        return lat, lon
+
+    country = params.get("countrycode", params.get("country_code", ""))
+    city = next(
+        (
+            params[key]
+            for key in ("city", "cityname", "location", "place", "q")
+            if params.get(key)
+        ),
+        "",
+    )
+    legacy_location = next(
+        (
+            params[key]
+            for key in ("loccode", "locationcode", "loc")
+            if params.get(key)
+        ),
+        "",
+    )
+
+    # AccuWeather-style legacy IDs often look like EUR|FR|FR012|PARIS.
+    # Keep the country qualifier and use the final human-readable component.
+    location_value = city or legacy_location
+    if "|" in location_value:
+        parts = [part.strip() for part in location_value.split("|") if part.strip()]
+        if not country:
+            country = next(
+                (
+                    part
+                    for part in parts
+                    if re.fullmatch(r"[A-Za-z]{2}", part) and part.upper() not in {"EU", "EUR"}
+                ),
+                "",
+            )
+        city = next(
+            (
+                part
+                for part in reversed(parts)
+                if len(part) > 2 and re.search(r"[A-Za-z]", part) and not re.fullmatch(r"[A-Za-z]{2}\d+", part)
+            ),
+            "",
+        )
+    elif not city and location_value:
+        city = location_value
+
+    if city:
+        return geocode_city(city, country or None)
+    return DEFAULT_LATITUDE, DEFAULT_LONGITUDE
+
+
+def legacy_icon(weather_code: int, is_day: bool = True) -> int:
+    """Map WMO weather codes to approximate legacy AccuWeather icon IDs."""
+    day_night = {
+        0: (1, 33),
+        1: (2, 34),
+        2: (6, 38),
+        3: (7, 38),
+    }
+    if weather_code in day_night:
+        return day_night[weather_code][0 if is_day else 1]
+    if weather_code in (45, 48):
+        return 11
+    if weather_code in (51, 53, 55):
+        return 12
+    if weather_code in (56, 57, 66, 67):
+        return 24
+    if weather_code in (61, 63, 65):
+        return 18
+    if weather_code in (71, 73, 75, 77, 85, 86):
+        return 22
+    if weather_code in (80, 81, 82):
+        return 12
+    if weather_code in (95, 96, 99):
+        return 15
+    return 7
+
+
+def temperature_attributes(celsius: float) -> dict[str, str]:
+    c = round(celsius)
+    f = round(celsius * 9 / 5 + 32)
+    return {"c": str(c), "f": str(f)}
+
+
+def fetch_weather(latitude: float, longitude: float) -> bytes:
+    key = (round(latitude, 4), round(longitude, 4))
+    now = time.monotonic()
+    with _CACHE_LOCK:
+        cached = _CACHE.get(key)
+    if cached and cached[0] > now:
+        return cached[2]
+
+    params = {
+        "latitude": str(latitude),
+        "longitude": str(longitude),
+        "current": "temperature_2m,weather_code,is_day",
+        "daily": "weather_code,temperature_2m_max,temperature_2m_min",
+        "temperature_unit": "celsius",
+        "timezone": "auto",
+        # The API includes today; request one extra day to emit four future days.
+        "forecast_days": "5",
+    }
+    request = Request(
+        f"{OPEN_METEO_URL}?{urlencode(params)}",
+        headers={"User-Agent": "HTC-Wildfire-Legacy-Weather/0.2"},
+    )
+    try:
+        with urlopen(request, timeout=10) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+        current = payload["current"]
+        daily = payload["daily"]
+
+        root = ET.Element("weather")
+        current_node = ET.SubElement(root, "current")
+        ET.SubElement(
+            current_node,
+            "temp",
+            temperature_attributes(float(current["temperature_2m"])),
+        )
+        ET.SubElement(
+            current_node,
+            "condition",
+            {
+                "icon": str(
+                    legacy_icon(
+                        int(current["weather_code"]),
+                        bool(current.get("is_day", 1)),
+                    )
+                )
+            },
+        )
+
+        forecast = ET.SubElement(root, "forecast")
+        current_date = str(current["time"])[:10]
+        emitted_days = 0
+        for index, day_date in enumerate(daily["time"]):
+            # The client treats the first entry as today and renders the
+            # following four as the forecast row, so today must be included.
+            if day_date < current_date:
+                continue
+            if emitted_days == 5:
+                break
+            day = ET.SubElement(forecast, "day")
+            parsed_date = datetime.strptime(day_date, "%Y-%m-%d")
+            # The client parses <date> with SimpleDateFormat("MM/dd/yy") and
+            # derives the weekday label from it. An ISO date fails to parse,
+            # leaving every label at the default (SUN).
+            ET.SubElement(day, "name").text = WEEKDAY_LABELS[parsed_date.weekday()]
+            ET.SubElement(day, "date").text = parsed_date.strftime("%m/%d/%y")
+            ET.SubElement(
+                day,
+                "condition",
+                {"icon": str(legacy_icon(int(daily["weather_code"][index])))},
+            )
+            ET.SubElement(
+                day,
+                "high",
+                temperature_attributes(float(daily["temperature_2m_max"][index])),
+            )
+            ET.SubElement(
+                day,
+                "low",
+                temperature_attributes(float(daily["temperature_2m_min"][index])),
+            )
+            emitted_days += 1
+
+        # Attribution required by Open-Meteo's CC BY 4.0 data licence.
+        ET.SubElement(root, "source").text = "Open-Meteo (open-meteo.com); geocoding: GeoNames (geonames.org)"
+        body = ET.tostring(root, encoding="iso-8859-1", xml_declaration=True)
+    except UPSTREAM_ERRORS as error:
+        # Serve a recent response during provider outages, but never indefinitely.
+        with _CACHE_LOCK:
+            cached = _CACHE.get(key)
+        if cached and cached[1] > time.monotonic():
+            print(
+                f"weather: provider failed ({type(error).__name__}); serving cached response",
+                file=sys.stderr,
+            )
+            return cached[2]
+        raise
+
+    fetched_at = time.monotonic()
+    with _CACHE_LOCK:
+        _CACHE[key] = (
+            fetched_at + CACHE_SECONDS,
+            fetched_at + CACHE_SECONDS + STALE_SECONDS,
+            body,
+        )
+    return body
+
+
+def _location_label(query: str) -> str:
+    params = {
+        key.lower(): values[-1]
+        for key, values in parse_qs(query, keep_blank_values=False).items()
+        if values
+    }
+    value = next(
+        (
+            params[key]
+            for key in ("loc", "loccode", "locationcode")
+            if params.get(key)
+        ),
+        "",
+    )
+    parts = [part.strip() for part in value.split("|") if part.strip()]
+    if parts:
+        return parts[-1].replace("_", " ").title()
+    return "Current location"
+
+
+def render_details(query: str) -> bytes:
+    """Small, script-free page for the legacy "more details" link."""
+    latitude, longitude = location_from_query(query)
+    root = ET.fromstring(fetch_weather(latitude, longitude))
+
+    current = root.find("current/temp")
+    current_text = "?"
+    if current is not None:
+        current_text = f"{current.get('c', '?')} &deg;C / {current.get('f', '?')} &deg;F"
+
+    rows = []
+    for day in root.findall("./forecast/day"):
+        high = day.find("high")
+        low = day.find("low")
+        rows.append(
+            "<tr><td>{0}</td><td>{1}</td><td>{2} / {3}</td></tr>".format(
+                html.escape(day.findtext("name") or "?"),
+                html.escape(day.findtext("date") or "?"),
+                html.escape(high.get("c", "?") if high is not None else "?"),
+                html.escape(low.get("c", "?") if low is not None else "?"),
+            )
+        )
+
+    page = """<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weather details</title>
+</head>
+<body style="font-family:sans-serif;font-size:14px;margin:8px">
+<h1 style="font-size:16px;margin:0 0 8px 0">Weather details</h1>
+<p style="margin:0 0 4px 0"><b>{label}</b></p>
+<p style="margin:0 0 8px 0">Now: {current}</p>
+<table border="1" cellpadding="4" cellspacing="0"
+ style="border-collapse:collapse;font-size:13px">
+<tr><th>Day</th><th>Date</th><th>High / Low &deg;C</th></tr>
+{rows}
+</table>
+<p style="font-size:11px;margin-top:10px">Data: Open-Meteo (open-meteo.com);
+geocoding: GeoNames (geonames.org).</p>
+</body></html>
+""".format(
+        label=html.escape(_location_label(query)),
+        current=current_text,
+        rows="\n".join(rows),
+    )
+    return page.encode("utf-8")
+
+
+class Handler(BaseHTTPRequestHandler):
+    server_version = "HTCWeatherMock/0.3"
+
+    def do_GET(self) -> None:
+        parsed = urlsplit(self.path)
+        if parsed.path == "/healthz":
+            self.respond(200, b"ok\n", "text/plain; charset=utf-8")
+            return
+        if parsed.path in DETAIL_PATHS:
+            try:
+                self.respond(200, render_details(parsed.query), "text/html; charset=utf-8")
+            except UPSTREAM_ERRORS:
+                self.respond(502, b"weather provider unavailable\n", "text/plain; charset=utf-8")
+            return
+        if parsed.path not in ENDPOINTS:
+            self.respond(404, b"not found\n", "text/plain; charset=utf-8")
+            return
+
+        try:
+            latitude, longitude = location_from_query(parsed.query)
+            body = fetch_weather(latitude, longitude)
+            self.respond(200, body, "application/xml; charset=iso-8859-1")
+        except UPSTREAM_ERRORS:
+            self.respond(502, b"weather provider unavailable\n", "text/plain; charset=utf-8")
+        except Exception:
+            # Do not hide bugs behind a provider error. Log the trace and fail loudly.
+            traceback.print_exc(file=sys.stderr)
+            self.respond(500, b"internal error\n", "text/plain; charset=utf-8")
+
+    def respond(self, status: int, body: bytes, content_type: str) -> None:
+        self.send_response(status)
+        self.send_header("Content-Type", content_type)
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "no-store")
+        self.send_header("Connection", "close")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def log_message(self, _format: str, *_args: object) -> None:
+        # Requests can contain location coordinates and legacy vendor parameters.
+        return
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--host", default="0.0.0.0")
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8080")))
+    args = parser.parse_args()
+    server = ThreadingHTTPServer((args.host, args.port), Handler)
+    print(f"HTC Weather live adapter listening on {args.host}:{args.port}")
+    server.serve_forever()
+
+
+if __name__ == "__main__":
+    main()
