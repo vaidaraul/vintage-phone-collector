@@ -238,9 +238,11 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
         current_date = str(current["time"])[:10]
         emitted_days = 0
         for index, day_date in enumerate(daily["time"]):
-            if day_date <= current_date:
+            # The client treats the first entry as today and renders the
+            # following four as the forecast row, so today must be included.
+            if day_date < current_date:
                 continue
-            if emitted_days == 4:
+            if emitted_days == 5:
                 break
             day = ET.SubElement(forecast, "day")
             parsed_date = datetime.strptime(day_date, "%Y-%m-%d")

@@ -152,15 +152,15 @@ class ForecastFormatTests(unittest.TestCase):
 
         root = ET.fromstring(body)
         days = root.findall("./forecast/day")
-        self.assertEqual(len(days), 4)
+        self.assertEqual(len(days), 5)
 
         dates = [day.findtext("date") for day in days]
         for value in dates:
             self.assertRegex(value, r"^\d{2}/\d{2}/\d{2}$")
 
         labels = [day.findtext("name") for day in days]
-        self.assertEqual(labels, ["WED", "THU", "FRI", "SAT"])
-        self.assertEqual(len(set(labels)), 4)
+        self.assertEqual(labels, ["TUE", "WED", "THU", "FRI", "SAT"])
+        self.assertEqual(len(set(labels)), 5)
 
 
 if __name__ == "__main__":
