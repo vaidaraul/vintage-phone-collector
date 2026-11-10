@@ -8,8 +8,10 @@ import argparse
 import json
 import os
 import re
+import sys
 import threading
 import time
+import traceback
 import xml.etree.ElementTree as ET
 
 
@@ -20,26 +22,26 @@ ENDPOINTS = {
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
 GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
 CACHE_SECONDS = int(os.environ.get("WEATHER_CACHE_SECONDS", "600"))
+# How long a previously fetched response may still be served while the provider
+# is failing. Beyond this the request must fail rather than serve unbounded stale data.
+STALE_SECONDS = int(os.environ.get("WEATHER_STALE_SECONDS", str(6 * 60 * 60)))
 DEFAULT_LATITUDE = float(os.environ.get("WEATHER_LATITUDE", "44.4268"))
 DEFAULT_LONGITUDE = float(os.environ.get("WEATHER_LONGITUDE", "26.1025"))
-_CACHE: dict[tuple[float, float], tuple[float, bytes]] = {}
+
+# HTC/AccuWeather legacy location codes do not always use ISO 3166-1 alpha-2.
+# The client's own data uses EUR|UK|UK124|LONDON, but the geocoder expects GB.
+COUNTRY_CODE_ALIASES = {"UK": "GB"}
+
+# Failures that are expected to be transient or provider-shaped. Anything else
+# is a bug and must surface instead of being served as a stale response.
+UPSTREAM_ERRORS = (OSError, ValueError, KeyError, TypeError)
+
+_CACHE: dict[tuple[float, float], tuple[float, float, bytes]] = {}
 _GEOCODE_CACHE: dict[tuple[str, str], tuple[float, float]] = {}
 _CACHE_LOCK = threading.Lock()
 
 
-def geocode_city(name: str, country_code: str | None) -> tuple[float, float]:
-    name = name.strip().replace("_", " ")
-    if len(name) < 2:
-        raise ValueError("location name is too short")
-    country = (country_code or "").upper()
-    if not re.fullmatch(r"[A-Z]{2}", country):
-        country = ""
-    key = (name.casefold(), country)
-    with _CACHE_LOCK:
-        cached = _GEOCODE_CACHE.get(key)
-        if cached:
-            return cached
-
+def _search_geocoder(name: str, country: str) -> list[dict]:
     params = {"name": name, "count": "1", "language": "en", "format": "json"}
     if country:
         params["countryCode"] = country
@@ -49,7 +51,33 @@ def geocode_city(name: str, country_code: str | None) -> tuple[float, float]:
     )
     with urlopen(request, timeout=10) as response:
         payload = json.loads(response.read().decode("utf-8"))
-    results = payload.get("results") or []
+    return payload.get("results") or []
+
+
+def geocode_city(name: str, country_code: str | None) -> tuple[float, float]:
+    name = name.strip().replace("_", " ")
+    if len(name) < 2:
+        raise ValueError("location name is too short")
+    country = (country_code or "").upper()
+    if re.fullmatch(r"[A-Z]{2}", country):
+        country = COUNTRY_CODE_ALIASES.get(country, country)
+    else:
+        country = ""
+    key = (name.casefold(), country)
+    with _CACHE_LOCK:
+        cached = _GEOCODE_CACHE.get(key)
+        if cached:
+            return cached
+
+    # Try the country-filtered lookup first, then an unfiltered one. A wrong or
+    # too-narrow filter (e.g. a legacy "UK" code, or a city whose country text is
+    # missing) must not turn a resolvable location into a hard failure.
+    attempts = (country, "") if country else ("",)
+    results: list[dict] = []
+    for candidate in attempts:
+        results = _search_geocoder(name, candidate)
+        if results:
+            break
     if not results:
         raise ValueError("location could not be resolved")
     result = results[0]
@@ -162,8 +190,8 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
     now = time.monotonic()
     with _CACHE_LOCK:
         cached = _CACHE.get(key)
-        if cached and cached[0] > now:
-            return cached[1]
+    if cached and cached[0] > now:
+        return cached[2]
 
     params = {
         "latitude": str(latitude),
@@ -237,16 +265,25 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
         # Attribution required by Open-Meteo's CC BY 4.0 data licence.
         ET.SubElement(root, "source").text = "Open-Meteo (open-meteo.com); geocoding: GeoNames (geonames.org)"
         body = ET.tostring(root, encoding="iso-8859-1", xml_declaration=True)
-    except Exception:
-        # Keep the most recent successful response available during provider outages.
+    except UPSTREAM_ERRORS as error:
+        # Serve a recent response during provider outages, but never indefinitely.
         with _CACHE_LOCK:
             cached = _CACHE.get(key)
-            if cached:
-                return cached[1]
+        if cached and cached[1] > time.monotonic():
+            print(
+                f"weather: provider failed ({type(error).__name__}); serving cached response",
+                file=sys.stderr,
+            )
+            return cached[2]
         raise
 
+    fetched_at = time.monotonic()
     with _CACHE_LOCK:
-        _CACHE[key] = (now + CACHE_SECONDS, body)
+        _CACHE[key] = (
+            fetched_at + CACHE_SECONDS,
+            fetched_at + CACHE_SECONDS + STALE_SECONDS,
+            body,
+        )
     return body
 
 
@@ -266,8 +303,12 @@ class Handler(BaseHTTPRequestHandler):
             latitude, longitude = location_from_query(parsed.query)
             body = fetch_weather(latitude, longitude)
             self.respond(200, body, "application/xml; charset=iso-8859-1")
-        except (ValueError, KeyError, TypeError, OSError, json.JSONDecodeError):
+        except UPSTREAM_ERRORS:
             self.respond(502, b"weather provider unavailable\n", "text/plain; charset=utf-8")
+        except Exception:
+            # Do not hide bugs behind a provider error. Log the trace and fail loudly.
+            traceback.print_exc(file=sys.stderr)
+            self.respond(500, b"internal error\n", "text/plain; charset=utf-8")
 
     def respond(self, status: int, body: bytes, content_type: str) -> None:
         self.send_response(status)
