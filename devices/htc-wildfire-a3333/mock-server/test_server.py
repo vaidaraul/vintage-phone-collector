@@ -8,6 +8,7 @@ directory with any CPython 3.10+:
 
 import json
 import unittest
+import xml.etree.ElementTree as ET
 from unittest import mock
 
 import server
@@ -135,6 +136,31 @@ class CacheTests(unittest.TestCase):
         self.assertEqual(body, cached_body)
         self.assertGreater(fresh_until, server.time.monotonic())
         self.assertGreater(stale_until, fresh_until)
+
+
+class ForecastFormatTests(unittest.TestCase):
+    KEY = (51.5085, -0.1257)
+
+    def setUp(self):
+        server._CACHE.clear()
+
+    def test_dates_and_labels_match_the_client_format(self):
+        with mock.patch.object(
+            server, "urlopen", return_value=FakeResponse(forecast_payload())
+        ):
+            body = server.fetch_weather(*self.KEY)
+
+        root = ET.fromstring(body)
+        days = root.findall("./forecast/day")
+        self.assertEqual(len(days), 4)
+
+        dates = [day.findtext("date") for day in days]
+        for value in dates:
+            self.assertRegex(value, r"^\d{2}/\d{2}/\d{2}$")
+
+        labels = [day.findtext("name") for day in days]
+        self.assertEqual(labels, ["WED", "THU", "FRI", "SAT"])
+        self.assertEqual(len(set(labels)), 4)
 
 
 if __name__ == "__main__":

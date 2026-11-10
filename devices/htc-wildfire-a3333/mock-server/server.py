@@ -31,6 +31,7 @@ DEFAULT_LONGITUDE = float(os.environ.get("WEATHER_LONGITUDE", "26.1025"))
 # HTC/AccuWeather legacy location codes do not always use ISO 3166-1 alpha-2.
 # The client's own data uses EUR|UK|UK124|LONDON, but the geocoder expects GB.
 COUNTRY_CODE_ALIASES = {"UK": "GB"}
+WEEKDAY_LABELS = ("MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN")
 
 # Failures that are expected to be transient or provider-shaped. Anything else
 # is a bug and must surface instead of being served as a stale response.
@@ -243,8 +244,11 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
                 break
             day = ET.SubElement(forecast, "day")
             parsed_date = datetime.strptime(day_date, "%Y-%m-%d")
-            ET.SubElement(day, "name").text = parsed_date.strftime("%A")
-            ET.SubElement(day, "date").text = day_date
+            # The client parses <date> with SimpleDateFormat("MM/dd/yy") and
+            # derives the weekday label from it. An ISO date fails to parse,
+            # leaving every label at the default (SUN).
+            ET.SubElement(day, "name").text = WEEKDAY_LABELS[parsed_date.weekday()]
+            ET.SubElement(day, "date").text = parsed_date.strftime("%m/%d/%y")
             ET.SubElement(
                 day,
                 "condition",
