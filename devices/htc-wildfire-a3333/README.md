@@ -1,7 +1,9 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
-**Status:** local mock verified; live Open-Meteo adapter implemented; city-selection and forecast-display issues remain under investigation; bootloader/downgrade investigation documented  
+**Status:** stock firmware preserved; live Weather adapter deployed and verified on the phone; forecast row, date format and "more details" page working; bootloader/downgrade research documented  
 **Last updated:** 2026-11-10
+
+Part of the [Vintage Phone Collector](../../README.md) project.
 
 This project investigates restoring the original HTC Weather service on an HTC Wildfire A3333 while preserving its stock Android 2.2.1 Froyo firmware, HTC Sense interface, and original applications. The goal is a compatibility backend for the existing client, not an immediate ROM or app replacement.
 
@@ -39,8 +41,9 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - The stock browser loaded HTTP sites. HTTPS compatibility on the original Froyo TLS stack has not yet been tested.
 - ADB over USB works.
 - The local XML mock was accepted by the original HTC Weather app and displayed weather.
-- The live Open-Meteo adapter and city-code resolver are implemented on this PR branch; deployment and on-phone verification of the latest resolver remain pending.
-- Forecast display has shown repeated “SUN” labels and a blank final slot even when the endpoint returned distinct future dates. The correct legacy date convention remains unknown.
+- The live Open-Meteo adapter and city-code resolver are deployed and verified on the phone; London rendered 9 °C on 2026-11-10.
+- Forecast display works: four tiles with distinct `MM/dd/yy` dates and three-letter labels. The client consumes the first entry as today, so the adapter sends today plus four future days.
+- The "more details" link opens the adapter's script-free details page through the lab DNS redirect. On a network without that redirect, the app follows AccuWeather to HTTPS and Froyo's TLS stack fails.
 - Fruit Ninja 1.7.5 launches but reportedly stutters severely during gameplay. Cause has not been measured.
 - Jetpack Joyride 1.5 installs but reportedly crashes at startup with native signal 4 (SIGILL) in `libmortargame.so`; the exact instruction/failure has not been decoded.
 - A read-only package inventory found four Vodafone packages under `/system/app`: `com.vodafone.shop`, `com.vodafone.vodafone360updates`, `com.vodafone.android.app.music`, and `de.vodafone.meinvodafone`. None has been removed.
@@ -185,13 +188,12 @@ A controlled “Frankenstein” solution may be acceptable if individual compone
 
 ## Investigation backlog
 
-1. Deploy the current Open-Meteo city resolver and verify Bucharest/Paris selection on the phone.
-2. Diagnose repeated weekday labels and the missing forecast slot using captured XML and app behavior.
-3. Complete and test Linux lab boot persistence, keeping it explicitly separate from the eventual public service.
-4. Measure actual HTTPS/TLS behavior on the handset before choosing a secure public API architecture.
-5. Research a verified S-OFF/downgrade path for HBOOT 1.01.0002 and CID VODAP102; do not flash based on generic guides.
-6. Inspect Vodafone package dependencies and identify a reversible removal strategy only after system backup/recovery is proven.
-7. Keep the original HTC UI and document any rebuilt services/apps as separate components.
+1. Make the Linux lab AP, DHCP/DNS and NAT boot-persistent, keeping them explicitly separate from the eventual public service.
+2. Measure actual HTTPS/TLS behavior on the handset before choosing a secure public API architecture.
+3. Provide a portable "more details" path for phones outside the lab network, such as a small intent-handling helper app or a rebuilt Weather client; DNS redirection is lab-only.
+4. Research a verified S-OFF/downgrade path for HBOOT 1.01.0002 and CID VODAP102; do not flash based on generic guides.
+5. Inspect Vodafone package dependencies and identify a reversible removal strategy only after system backup/recovery is proven.
+6. Keep the original HTC UI and document any rebuilt services/apps as separate components.
 
 ## Reproduction notes
 
