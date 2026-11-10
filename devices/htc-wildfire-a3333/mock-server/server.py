@@ -5,6 +5,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlencode, urlsplit
 from urllib.request import Request, urlopen
 import argparse
+import html
 import json
 import os
 import re
@@ -19,6 +20,7 @@ ENDPOINTS = {
     "/widget/htc/lat-lon-search.asp",
     "/widget/htc/forecast-data_v3.asp",
 }
+DETAIL_PATHS = {"/m/details.aspx", "/m/details1.aspx"}
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
 GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
 CACHE_SECONDS = int(os.environ.get("WEATHER_CACHE_SECONDS", "600"))
@@ -293,6 +295,75 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
     return body
 
 
+def _location_label(query: str) -> str:
+    params = {
+        key.lower(): values[-1]
+        for key, values in parse_qs(query, keep_blank_values=False).items()
+        if values
+    }
+    value = next(
+        (
+            params[key]
+            for key in ("loc", "loccode", "locationcode")
+            if params.get(key)
+        ),
+        "",
+    )
+    parts = [part.strip() for part in value.split("|") if part.strip()]
+    if parts:
+        return parts[-1].replace("_", " ").title()
+    return "Current location"
+
+
+def render_details(query: str) -> bytes:
+    """Small, script-free page for the legacy "more details" link."""
+    latitude, longitude = location_from_query(query)
+    root = ET.fromstring(fetch_weather(latitude, longitude))
+
+    current = root.find("current/temp")
+    current_text = "?"
+    if current is not None:
+        current_text = f"{current.get('c', '?')} &deg;C / {current.get('f', '?')} &deg;F"
+
+    rows = []
+    for day in root.findall("./forecast/day"):
+        high = day.find("high")
+        low = day.find("low")
+        rows.append(
+            "<tr><td>{0}</td><td>{1}</td><td>{2} / {3}</td></tr>".format(
+                html.escape(day.findtext("name") or "?"),
+                html.escape(day.findtext("date") or "?"),
+                html.escape(high.get("c", "?") if high is not None else "?"),
+                html.escape(low.get("c", "?") if low is not None else "?"),
+            )
+        )
+
+    page = """<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weather details</title>
+</head>
+<body style="font-family:sans-serif;font-size:14px;margin:8px">
+<h1 style="font-size:16px;margin:0 0 8px 0">Weather details</h1>
+<p style="margin:0 0 4px 0"><b>{label}</b></p>
+<p style="margin:0 0 8px 0">Now: {current}</p>
+<table border="1" cellpadding="4" cellspacing="0"
+ style="border-collapse:collapse;font-size:13px">
+<tr><th>Day</th><th>Date</th><th>High / Low &deg;C</th></tr>
+{rows}
+</table>
+<p style="font-size:11px;margin-top:10px">Data: Open-Meteo (open-meteo.com);
+geocoding: GeoNames (geonames.org).</p>
+</body></html>
+""".format(
+        label=html.escape(_location_label(query)),
+        current=current_text,
+        rows="\n".join(rows),
+    )
+    return page.encode("utf-8")
+
+
 class Handler(BaseHTTPRequestHandler):
     server_version = "HTCWeatherMock/0.3"
 
@@ -300,6 +371,12 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urlsplit(self.path)
         if parsed.path == "/healthz":
             self.respond(200, b"ok\n", "text/plain; charset=utf-8")
+            return
+        if parsed.path in DETAIL_PATHS:
+            try:
+                self.respond(200, render_details(parsed.query), "text/html; charset=utf-8")
+            except UPSTREAM_ERRORS:
+                self.respond(502, b"weather provider unavailable\n", "text/plain; charset=utf-8")
             return
         if parsed.path not in ENDPOINTS:
             self.respond(404, b"not found\n", "text/plain; charset=utf-8")

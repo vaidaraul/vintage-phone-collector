@@ -163,5 +163,29 @@ class ForecastFormatTests(unittest.TestCase):
         self.assertEqual(len(set(labels)), 5)
 
 
+class DetailsPageTests(unittest.TestCase):
+    def test_renders_script_free_forecast_page(self):
+        root = ET.Element("weather")
+        current = ET.SubElement(root, "current")
+        ET.SubElement(current, "temp", {"c": "10", "f": "50"})
+        forecast = ET.SubElement(root, "forecast")
+        day = ET.SubElement(forecast, "day")
+        ET.SubElement(day, "name").text = "WED"
+        ET.SubElement(day, "date").text = "11/11/26"
+        ET.SubElement(day, "high", {"c": "12", "f": "54"})
+        ET.SubElement(day, "low", {"c": "6", "f": "43"})
+        body = ET.tostring(root, encoding="iso-8859-1")
+
+        with mock.patch.object(server, "location_from_query", return_value=(51.5, -0.12)), \
+                mock.patch.object(server, "fetch_weather", return_value=body):
+            page = server.render_details("loc=EUR%7CUK%7CUK124%7CLONDON").decode("utf-8")
+
+        self.assertIn("London", page)
+        self.assertIn("<td>WED</td>", page)
+        self.assertIn("11/11/26", page)
+        self.assertIn("Open-Meteo", page)
+        self.assertNotIn("<script", page)
+
+
 if __name__ == "__main__":
     unittest.main()
