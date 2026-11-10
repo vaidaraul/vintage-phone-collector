@@ -1,7 +1,7 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
 **Status:** local mock verified; live Open-Meteo adapter implemented; city-selection and forecast-display issues remain under investigation; bootloader/downgrade investigation documented  
-**Last updated:** 2026-11-09
+**Last updated:** 2026-11-10
 
 This project investigates restoring the original HTC Weather service on an HTC Wildfire A3333 while preserving its stock Android 2.2.1 Froyo firmware, HTC Sense interface, and original applications. The goal is a compatibility backend for the existing client, not an immediate ROM or app replacement.
 
@@ -132,11 +132,13 @@ The downgrade procedure supplied with the old archive writes a modified MISC ima
 84e7085dad93497cf22a956e64298daf27288e220502544d9aeb18a5c36457b9
 ```
 
-The backup is 655,360 bytes (640 KiB). Preserve both local backup copies; do not overwrite them. The MISC edit changed the main-version value used by the experiment, but HBOOT continued to report CID `VODAP102`. A matching hash between the two copies establishes that the copies are identical; it does not prove the modified MISC image is a valid or accepted GoldCard/CID bypass.
+The backup is 655,360 bytes (640 KiB). Preserve both local backup copies; do not overwrite them. The MISC edit changed the main-version value used by the experiment and attempted to alter a CID-like field to `11111111`, but HBOOT continued to report CID `VODAP102`. A matching hash between the two copies establishes that the copies are identical; it does not prove the modified MISC image is a valid or accepted GoldCard/CID bypass. MISC is distinct from `/system`; this experiment did modify MISC, even though no `/system` files were changed.
 
 ### RUU downgrade attempt — rejected before flashing
 
-The target image was the generic HTC WWE Froyo RUU `2.22.405.1` for model `PC4910000`. Its `android-info.txt` includes generic HTC CID values but does not list `VODAP102`. The archive's original batch procedure was written for a Wildfire with HBOOT 1.01.0001, while this handset reports 1.01.0002.
+The target image was the generic HTC WWE Froyo RUU `2.22.405.1` for model `PC4910000`. Its `android-info.txt` model ID matches the handset, but its allowed-CID list includes generic HTC CID values and does not list `VODAP102`. The image metadata reports `mainver: 2.22.405.1` and `hbootpreupdate: 12`; the handset reported `hbootpreupdate: 11`. These metadata differences are recorded, not established as the cause of the observed rejection. The archive's original batch procedure was written for a Wildfire with HBOOT 1.01.0001, while this handset reports 1.01.0002.
+
+The original two-stage batch procedure was also inspected. Its first stage pushes `dmisc.img`, `flash_image`, and `psneuter` over ADB, obtains temporary root with `psneuter`, writes the MISC image, and invokes the GoldCard utility. Its second stage syncs, reboots to the bootloader, erases cache, enters RUU mode, flashes `rom.zip`, and reboots the bootloader. This documents what the supplied archive attempted; it is not a recommended procedure for this handset.
 
 The RUU attempt passed model-ID validation and then failed at custom-ID validation:
 
@@ -146,13 +148,17 @@ checking custom ID...
 FAILED (remote: '42 custom id check fail')
 ```
 
-The same failure occurred on two prepared SD cards. The RUU rejected the image at the custom-ID check; no firmware partition write was observed. The phone was rebooted and returned to Android normally. The SD cards were removed and returned to service. Do not repeat this flash attempt or assume the GoldCard was accepted.
+Two different SD cards were prepared as GoldCards. On each, the generated 384-byte GoldCard header was written and read back byte-for-byte successfully. The exact SD-card CIDs, generated header bytes, and per-card hashes are deliberately kept out of the public repository. Despite the successful header read-back, both RUU attempts failed at the same custom-ID check. This shows that the SD header write itself was verified; it does not prove HBOOT accepted or acted on the GoldCard. The RUU rejected the image before any firmware partition write was observed. The phone was rebooted and returned to Android normally. Both SD cards were removed and returned to service. Do not repeat this flash attempt or assume the GoldCard was accepted.
 
 ### S-OFF research status
 
 Historical community documentation located during research indicates that AlphaRev X / Revolutionary instructions for this device family commonly target HBOOT 1.01.0001; support for 1.01.0002 is not established by the sources reviewed. A downgrade to 1.01.0001 was described in community guides, but the attempted RUU path above did not achieve it.
 
 No verified, device-specific path from this exact HBOOT/CID/S-ON state to S-OFF has been established. Treat permanent root, S-OFF, and generic-ROM conversion as unresolved research questions. Do not run another downgrade, exploit, or flash procedure without verifying the exact HBOOT, CID, image compatibility, and recovery route first.
+
+### Proposed local HBOOT reverse engineering (not attempted)
+
+The next idea raised for investigation is to acquire a copy of the handset's HBOOT 1.01.0002 binary and analyze it offline on a PC. No HBOOT binary has yet been extracted for this purpose, no disassembly or patch has been made, and no modified bootloader has been written to the phone. The proposed work is limited initially to identifying the bootloader's validation paths and understanding the distinction between CID/MID/version policy checks and image-signature/authenticity checks. Editing an RUU metadata file or patching a validation branch would not by itself establish that S-ON will accept or execute a modified HBOOT. There is currently no verified installation or recovery path for a locally patched HBOOT on this exact handset. Any binary analysis should remain offline until that chain is understood.
 
 ## Android 2.2 network compatibility constraints
 
