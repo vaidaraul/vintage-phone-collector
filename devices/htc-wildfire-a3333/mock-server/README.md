@@ -2,7 +2,7 @@
 
 The original HTC Weather app on the Wildfire A3333 successfully refreshed against the local XML mock. This version keeps the original app and endpoint paths, but gets current conditions and a four-day forecast from Open-Meteo and translates them into XML fields accepted by the legacy parser.
 
-The live provider change is committed to this branch but has not yet been deployed to the Linux host or verified on the phone. Until the Docker image is rebuilt, the running container still serves the previous static demo data.
+The live adapter was deployed to the Linux host and verified on the unmodified phone on 2026-11-10: current conditions and the four forecast tiles rendered, and the app's "more details" link opened the adapter's HTML page over the local DNS redirect.
 
 ## Weather provider and location
 
@@ -48,10 +48,11 @@ Rebuild after changing the location with docker compose up -d --build. The repos
 
 ## What is verified
 
-- The unmodified HTC Weather app can reach the original HTTP hostname when local DNS maps it to the host.
-- The app accepted parser-shaped XML during the exercised refresh and displayed static mock weather.
+- The unmodified HTC Weather app reached the original HTTP hostname through the local DNS mapping and rendered live Open-Meteo data (London, 9 °C, 2026-11-10).
+- The forecast row showed four distinct days with `MM/dd/yy` dates and three-letter labels after the adapter began sending today plus four future days.
+- The "more details" link opened the adapter's `/m/details1.aspx` page through the `www.accuweather.com` DNS redirect.
 - The Wildfire can use the isolated Linux-host Wi-Fi AP; the user confirmed ordinary HTTP internet access from the phone.
-- Live weather through Open-Meteo still needs deployment and an on-phone refresh. The historical response format for lat-lon-search.asp is not independently known; both legacy paths currently return the same forecast XML.
+- The historical response format for lat-lon-search.asp is not independently known; both legacy paths currently return the same forecast XML.
 
 ## Linux AP test setup
 
@@ -88,8 +89,12 @@ sudo dnsmasq --no-daemon --no-resolv --no-hosts --bind-interfaces \
   --dhcp-range=192.168.50.10,192.168.50.20,255.255.255.0,1h \
   --dhcp-option=3,192.168.50.1 --dhcp-option=6,192.168.50.1 \
   --server=1.1.1.1 --server=1.0.0.1 \
-  --address=/htc.accuweather.com/192.168.50.1 --dhcp-authoritative
+  --address=/htc.accuweather.com/192.168.50.1 \
+  --address=/www.accuweather.com/192.168.50.1 \
+  --dhcp-authoritative
 ```
+
+The `www` entry exists only for the "more details" link: the app opens it as plain HTTP on `www.accuweather.com`, which the adapter also serves. Without it, the phone reaches the real AccuWeather host, which redirects to HTTPS and fails on Froyo's TLS stack.
 
 Temporary interface-scoped NAT over the wired uplink was added, and the phone successfully loaded http://example.com over this AP. Those forwarding rules are runtime-only and are not restored after reboot. The AP subnet is intended to be isolated from the home LAN.
 
@@ -101,7 +106,9 @@ Compose publishes the adapter only on AP address 192.168.50.1:80 and uses restar
 2. With USB ADB connected, run adb shell netcfg on Windows. On this Froyo build Wi-Fi appeared as eth0 with an address in 192.168.50.10–192.168.50.20.
 3. On the phone, open http://192.168.50.1/healthz; expect ok.
 4. Open http://htc.accuweather.com/widget/htc/forecast-data_v3.asp; expect XML.
-5. Refresh HTC Weather. Static mock weather was observed rendering successfully; live weather needs a refresh after deployment.
+5. Open http://www.accuweather.com/m/details1.aspx?p=htcand&loc=EUR%7CUK%7CUK124%7CLONDON; expect the script-free details page, not a TLS error.
+6. Refresh HTC Weather; expect current conditions and four forecast tiles.
+7. Tap the app's "more details" link; expect the same details page in the browser. If the browser reports a secure-connection error, it has a cached AccuWeather address: close all browser windows and retap.
 
 ## Stop and restore
 
