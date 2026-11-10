@@ -150,6 +150,10 @@ FAILED (remote: '42 custom id check fail')
 
 Two different SD cards were prepared as GoldCards. On each, the generated 384-byte GoldCard header was written and read back byte-for-byte successfully. The exact SD-card CIDs, generated header bytes, and per-card hashes are deliberately kept out of the public repository. Despite the successful header read-back, both RUU attempts failed at the same custom-ID check. This shows that the SD header write itself was verified; it does not prove HBOOT accepted or acted on the GoldCard. The RUU rejected the image before any firmware partition write was observed. The phone was rebooted and returned to Android normally. Both SD cards were removed and returned to service. Do not repeat this flash attempt or assume the GoldCard was accepted.
 
+### Overall result and current recovery state
+
+The handset boots Android normally. No ROM or APK was flashed, no persistent root was established, and no `/system` files were modified. The MISC partition was deliberately modified during the downgrade experiment and then backed up; this is separate from the later RUU attempt, which was rejected before any firmware partition write. The phone is not currently in RUU mode or a bootloop, and both SD cards were returned to service.
+
 ### S-OFF research status
 
 Historical community documentation located during research indicates that AlphaRev X / Revolutionary instructions for this device family commonly target HBOOT 1.01.0001; support for 1.01.0002 is not established by the sources reviewed. A downgrade to 1.01.0001 was described in community guides, but the attempted RUU path above did not achieve it.
