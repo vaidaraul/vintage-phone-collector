@@ -7,6 +7,8 @@ Part of the [Vintage Phone Collector](../../README.md) project. This log documen
 
 The idea is not simply to make an old phone turn on. It is to recover as much of its original software experience as possible, understand what still works, and publish reproducible notes so other collectors can learn from the process.
 
+The local package and tool archive is catalogued in [archive.md](archive.md); binaries stay outside the repository.
+
 ## Device status
 
 | Component | Current status |
@@ -45,12 +47,12 @@ These statuses describe observed behavior on this particular phone. They are not
 | Xbox app (default/preinstalled) | Exact installed version not recorded; higher than `44.44.7002.0` | **Installed but not starting (user-reported)** | User reports that the default Xbox app does not start. An attempt to install the archived `44.44.7002.0` APPXBUNDLE was rejected with `0x80073D06` because a higher version is already installed. |
 | Windows Camera | Exact updated version not recorded | **Correct and fully working (user-confirmed)** | User confirms the Camera update is correct and fully working. The exact installed version was not provided. |
 | Windows Camera candidate bundle | `2018.426.70.0` | **Deployment failed; package requires newer OS** | Device Portal reported `0x80073CFD`. This specific ARM bundle requires Windows `10.0.15063.0`, above the phone's `10.0.14393.2551`; it is distinct from the working Camera update reported above. |
-| Microsoft People | `10.2.2351.0` | **Deployment failed (policy error)** | Device Portal reported `0x80073CFF`. The ARM manifest targets Windows Mobile from `10.0.14393.0`, which matches the phone. The PC has the required .NET Native Framework 1.6 and VCLibs 14.0 package files, but no Runtime 1.6 package was found in the searched folders. |
+| Microsoft People | `10.2.2351.0` | **Deployment failed (policy error)** | Device Portal reported `0x80073CFF`. The ARM manifest targets Windows Mobile from `10.0.14393.0`, which matches the phone. The PC has the required .NET Native Framework 1.6 and VCLibs 14.0 package files, and the local archive now also contains Runtime 1.6 (`1.6.24903.0`); no Runtime package was available during the failed attempt. |
 | Screen Sketch | `10.1805.1191.0` | **Deployment failed; incompatible OS minimum** | Device Portal reported `0x80073CFD`. The ARM manifest requires Windows `10.0.17636.0`, above the phone's `10.0.14393.2551`. SignTool verified the bundle signature on the PC. |
 | Jetpack Joyride | Unknown | **Not obtained / untested** | No verified package in the project yet. |
 | Subway Surfers | Unknown | **Planned / untested** | No package installed or tested yet. |
 
-See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes.
+See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes. Additional untested packages in the local archive are catalogued in [archive.md](archive.md).
 
 ## The test device
 
@@ -64,6 +66,8 @@ See [Games and package records](#games-and-package-records) for package sources,
 | Original OS | Windows Phone 8.1 |
 | Current OS | Windows 10 Mobile `10.0.14393.2551` |
 | Firmware | `02074.00000.15234.28006` |
+| Baseband | `13.55.55.24H_3.35.20.10` |
+| Kernel | `2.6.32.21-g6c55ee4` |
 
 These specifications describe the device used for testing. A package targeting ARM or declaring a minimum Windows version does not automatically guarantee that it will install, launch or perform acceptably on this hardware.
 
@@ -96,7 +100,7 @@ The documented starting state was:
 
 ### Offline upgrade to Windows 10 Mobile
 
-The phone reached build `10.0.10586.107` using an offline OUP procedure. The exact utility name, package version, and complete command log have not yet been recovered.
+The phone reached build `10.0.10586.107` using the Windows 10 Mobile Offline Update Project V5.2 package for 10586.107 and the HCTSW WXMSOUP tool. The package and tool archives remain outside the repository; [archive.md](archive.md) records their versions, sizes and SHA-256 hashes. The complete command log has not been recovered.
 
 ### Unconfirmed intermediate stage
 
@@ -261,7 +265,7 @@ Failure text: Package failed updates, dependency or conflict validation. (0x8007
 
 The accompanying installed-package export contained 144 entries and showed no package family/full name for `Microsoft.VCLibs.140.00`, `Microsoft.Services.Store.Engagement`, or `Microsoft.Minecraft`. It did show `Microsoft.WindowsStore` and `Microsoft.StorePurchaseApp`; those are different packages and do not satisfy the two manifest dependencies. This suggests that the declared framework dependencies are missing from the phone, although the deployment log is needed to confirm the exact cause.
 
-A subsequent read-only GET to Device Portal's `/api/app/packagemanager/state` returned `Code: -2147009293` (`0x80073CF3`), `Reason: Failed to start deployment`, and `Success: false`. The response contains no additional inner error or dependency name. A search of the existing Windows Kits 8.0/10 and Microsoft SDK folders also found no ARM APPX for either declared dependency; the known Downloads and project folders had no matches either.
+A subsequent read-only GET to Device Portal's `/api/app/packagemanager/state` returned `Code: -2147009293` (`0x80073CF3`), `Reason: Failed to start deployment`, and `Success: false`. The response contains no additional inner error or dependency name. At the time of the attempt, a search of the existing Windows Kits 8.0/10 and Microsoft SDK folders found no ARM APPX for either declared dependency, and the known Downloads and project folders had no matches either. The local archive now contains both dependency packages at compatible versions; see [archive.md](archive.md). This makes a retry technically possible, but the supported sideloading path still has to be confirmed first.
 
 The package declares ARM architecture, matching the phone's ARM platform, and a minimum OS version below the phone's build. These matches do not rule out an unresolved dependency or package conflict. Microsoft lists a missing dependency, package conflict, or unsupported processor architecture as possible causes of `0x80073CF3`.
 
