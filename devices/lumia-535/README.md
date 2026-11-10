@@ -100,7 +100,7 @@ The documented starting state was:
 
 ### Offline upgrade to Windows 10 Mobile
 
-The phone reached build `10.0.10586.107` using the Windows 10 Mobile Offline Update Project V5.2 package for 10586.107 and the HCTSW WXMSOUP tool. The package and tool archives remain outside the repository; [archive.md](archive.md) records their versions, sizes and SHA-256 hashes. The complete command log has not been recovered.
+The phone reached build `10.0.10586.107`. The archive contains the Windows 10 Mobile Offline Update Project V5.2 package for 10586.107 and the HCTSW WXMSOUP tool; [archive.md](archive.md) records their versions, sizes and SHA-256 hashes. The exact command sequence has not been recovered.
 
 ### Unconfirmed intermediate stage
 
