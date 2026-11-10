@@ -1,0 +1,20 @@
+# Phone packages and update payloads stay outside the repository.
+*.xap
+*.appx
+*.appxbundle
+*.cab
+*.spkg
+*.ppkg
+*.iso
+*.bin
+
+# Device captures and logs can contain identifiers.
+*.etl
+*.log
+*.pcap
+*.pcapng
+
+# Local credentials and deployment settings.
+.env
+.env.*
+!.env.example
