@@ -19,7 +19,10 @@ Other devices in the collection, not yet documented: HTC Desire, Apple iPhone 6 
 
 ```text
 README.md                     project index (this file)
+.githooks/pre-push            local secret and binary guard
+.opencode/skills/             reusable OpenCode workflows
 codex-skill/                  reusable Codex workflow instructions
+scripts/                      pre-push guard and its tests
 devices/
   lumia-535/                  Windows Phone / Windows 10 Mobile log
   htc-wildfire-a3333/         Android Froyo log
@@ -55,8 +58,24 @@ Across the project, inspection is read-only until a verified recovery path exist
 4. Put any compatibility service under `devices/<device-slug>/` with its own README, tests and deployment notes.
 5. Do not assume that a procedure verified on one model applies to another.
 
+## Local development guard
+
+Every clone should enable the repository's pre-push hook once:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+Before each push, the hook scans the commits being pushed for credentials, device identifiers, private keys, and phone packages. Run the same check manually with:
+
+```sh
+node scripts/pre-push-guard.mjs --range origin/main..HEAD
+```
+
+`main` is also protected on GitHub: force pushes and branch deletion are blocked for everyone, including administrators. The full checklist is in [`.opencode/skills/pre-push-guard/SKILL.md`](.opencode/skills/pre-push-guard/SKILL.md).
+
 ## Codex workflow
 
 The reusable instructions are in [`codex-skill/vintage-phone-collector/SKILL.md`](codex-skill/vintage-phone-collector/SKILL.md). They define a cautious, repeatable workflow for inspection, package analysis, device testing and documentation.
 
-**Last updated:** November 10, 2026.
+**Last updated:** November 12, 2026.

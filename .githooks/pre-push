@@ -1,0 +1,18 @@
+#!/bin/sh
+# Git pre-push hook: block credentials, device identifiers, and phone packages.
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+guard="$repo_root/scripts/pre-push-guard.mjs"
+
+if [ ! -f "$guard" ]; then
+    echo "pre-push guard: $guard is missing; push blocked." >&2
+    exit 1
+fi
+
+if command -v node >/dev/null 2>&1; then
+    exec node "$guard" --hook
+else
+    echo "pre-push guard: Node.js is required; push blocked." >&2
+    exit 1
+fi
