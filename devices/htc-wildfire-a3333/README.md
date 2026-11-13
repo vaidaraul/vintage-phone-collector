@@ -54,6 +54,10 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - The restore covers `/system/app` only. The pre-debloat backup was a system image, not a userdata backup; the restored apps start with fresh data/accounts.
 - The WWE system image includes HTC's Facebook/Twitter/Flickr integrations and FriendStream, but not the standalone Facebook or Twitter clients. Standalone apps that were installed in `/data/app` before the ROM flash are not in the system backup.
 
+## 2026-11-13: verified games
+
+- **Doodle Jump 1.3.0** (`com.realarcade.DOJ`, RealArcade/RealNetworks 2009 signature) is installed and verified. It launches to the sound prompt, main menu, high-score screen, help overlay and in-game view at 240x320; the optical trackpad/DPAD navigates the menus. It is a self-contained Java/MIDlet port with no network dependency, so it works offline. The APK stays outside Git; SHA-256 `db578b60fb16e2cf17e9968d8541e6cb21f33f3f3615ced26f71842576f60bf2`.
+
 ## Investigation observations (2026-11-08 to 2026-11-10) — historical
 
 > The final verified state is at the top of this page. These notes mix observations from different stages, including the pre-S-OFF and lab-only weather experiments.
