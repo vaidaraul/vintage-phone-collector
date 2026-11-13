@@ -27,7 +27,21 @@
       "categoryType": "News",
       "isNewsCategory": true,
       "categoryContentId": "topstories",
-      "providerDisplayName": "MSN"
+      "providerDisplayName": "MSN",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
     }
   ],
   "category": {
@@ -59,7 +73,21 @@
         "categoryType": "News",
         "isNewsCategory": true,
         "categoryContentId": "topstories",
-        "providerDisplayName": "MSN"
+        "providerDisplayName": "MSN",
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ]
       }
     ]
   },
@@ -81,7 +109,21 @@
         "categoryType": "News",
         "isNewsCategory": true,
         "categoryContentId": "topstories",
-        "providerDisplayName": "MSN"
+        "providerDisplayName": "MSN",
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ]
       }
     ]
   }
