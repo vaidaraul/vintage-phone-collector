@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9 — 2026-11-13
+
+- Verified HTC Mail Gmail sending as well as receiving: a test message sent from the phone arrived in the same Gmail inbox.
+- Updated the modern-web notes and device history to record both directions.
+
 ## 0.8 — 2026-11-13
 
 - Verified HTC Mail with Gmail on the phone: App Password, `imap.gmail.com:993` SSL/TLS, `smtp.gmail.com:587` TLS; the Inbox synced.
