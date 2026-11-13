@@ -15,6 +15,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Angry Birds Seasons | `com.rovio.angrybirdsseasons` 1.1.1 | Not playable | ARMv6 ES 1.1 build installs, but hangs on a blue frame; no menu |
 | Temple Run | `com.imangi.templerun` 1.0.0 | Not playable | armeabi-v7a only and requires ES 2.0; install fails with native ABI mismatch |
 | Subway Surfers | `com.kiloo.subwaysurf` 1.0 (3) | Not playable | Unity/Mono; `armeabi-v7a` only; Froyo rejects install with native ABI mismatch |
+| Plants vs. Zombies | `com.ea.game.pvzfree_row` 1.1.44 (52) | Not playable | minSdk 9 (Froyo is API 8); `libpvz.so` needs ES 2.0; 2011 release also excluded HTC Aria |
 | Fruit Ninja | `com.halfbrick.fruitninja` 1.3 (1301) | Playable with patch | Official build ~8 FPS; 160x120 half-res patched build ~25–50 FPS, softer image |
 | Cut the Rope | `com.zeptolab.ctr.ads` 1.4.1 (9) | Playable, slow | Free ad build; ARMv6/ES 1.1; two levels played, somewhat slow |
 | Hill Climb Racing | `com.fingersoft.hillclimb` 1.0.0 | Not playable | Cocos2d-x; ARMv6 `armeabi` library exists, but it links `libGLESv2.so` and needs ES 2.0 |
@@ -152,6 +153,16 @@ Three builds were tested. All install, but none reaches gameplay.
 - `adb install` fails. The client prints `Failure [INSTALL_FAILED_INVALID_APK]`; logcat shows `W/PackageManager: Native ABI mismatch from package file` followed by `Package couldn't be installed`. This is the same installer behavior seen with Temple Run.
 - There is no ARMv6 build to fall back to. Version 1.0.1 and later require Android 2.3.3 (`minSdkVersion 10`), so 1.0 is the only Froyo-compatible release, and it is ARMv7-only. Bypassing the ABI check would not make it run on the ARMv6 CPU.
 - The failed install left only an empty `/data/data/com.kiloo.subwaysurf/lib` directory; it was removed. No package, APK, or save data was created. The APK stays outside Git for provenance.
+
+## Plants vs. Zombies
+
+- APKMirror's earliest listed free ARM build is Plants vs. Zombies FREE `1.1.44` (versionCode `52`; `minSdkVersion 9`; `targetSdkVersion 23`; 9,568,521 bytes; SHA-256 `f3c7fc9754f1abce2b97c2f8f326bec7147c43e2b9c6879cde24a61eb54b6fad`). It is EA-signed and stays outside Git.
+- The APK's native libraries are all under `lib/armeabi` (`libgnustl_shared.so`, `libnimble.so`, `libpvz.so`). `libpvz.so` is ARMv5TE (`Tag_CPU_arch: v5TE`), so the CPU ABI is not the blocker. However, it links `libGLESv2.so` and `libOpenSLES.so`, so the engine requires OpenGL ES 2.0 and Android 2.3-era OpenSL ES. The Wildfire has only the software ES 1.1 path.
+- The manifest also blocks installation on Froyo: `minSdkVersion 9` requires Android 2.3 or newer. `adb install` returns `Failure [INSTALL_FAILED_OLDER_SDK]`; logcat shows `Requires newer sdk version #9 (current version is #8)`. Nothing was installed and no app data was created.
+- Bypassing the manifest check would not make it playable: the renderer needs ES 2.0, which this stock Froyo image does not provide. This is the same GPU limitation documented under Angry Birds and Hill Climb Racing.
+- The original paid 2011 release claimed Android 2.2 support, but PopCap's published compatibility list explicitly excluded the HTC Aria, another ARMv6 HTC phone, and the contemporaneous requirements listed HVGA (320x480) as the smallest supported resolution. The Wildfire is 240x320.
+- A trustworthy original 1.0 APK was not located. An Internet Archive upload labeled "paid version" was a debug-signed 6.1.11 repack requiring Android 4.0.3, so it was inspected and rejected without installation.
+- No firmware, GPU driver, `/system`, or CPU-governor changes were made. The official 1.1.44 APK stays outside Git.
 
 ## Testing notes
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.15 — 2026-11-13
+
+- Tested Plants vs. Zombies FREE 1.1.44, APKMirror's earliest listed free ARM build: it declares `minSdkVersion 9`, so installation on Froyo (API 8) fails with `INSTALL_FAILED_OLDER_SDK`; its ARMv5TE library also links `libGLESv2.so`, requiring OpenGL ES 2.0.
+- Documented the original 2011 release's HVGA and HTC Aria compatibility caveats; an archive copy labeled "paid" was a debug-signed 6.1.11 repack requiring Android 4.0.3 and was not installed.
+- Updated the game table, guide summary, and device history.
+
 ## 0.14 — 2026-11-13
 
 - Verified Cut the Rope 1.4.1 (free ZeptoLab build, `com.zeptolab.ctr.ads`): the APK includes an ARMv5TE/ES 1.1 library, installs, launches, and the owner played two levels. It is somewhat slow but playable.

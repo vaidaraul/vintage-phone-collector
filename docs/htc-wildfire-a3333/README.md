@@ -7,7 +7,7 @@
 - **Root:** BusyBox `su` at `/system/bin/su` (promptless)
 - **Weather:** phone-local, no VPS or HTC/AccuWeather dependency
 - **Stock apps:** restored; no general debloat
-- **Games:** Doodle Jump verified working; Skater Boy 1.6 playable but marginal with a 0.75x timing-cap build; Fruit Ninja 1.3 playable with a 160x120 half-res patch (~25–50 FPS, softer image); Cut the Rope 1.4.1 playable but slow (two levels played); Logo Quiz Ultimate 2.2 verified working; Angry Birds, Angry Birds Seasons, Temple Run, Subway Surfers and Hill Climb Racing not playable due GPU/API or CPU-ABI limits — see [GAMES.md](GAMES.md)
+- **Games:** Doodle Jump verified working; Skater Boy 1.6 playable but marginal with a 0.75x timing-cap build; Fruit Ninja 1.3 playable with a 160x120 half-res patch (~25–50 FPS, softer image); Cut the Rope 1.4.1 playable but slow (two levels played); Logo Quiz Ultimate 2.2 verified working; Angry Birds, Angry Birds Seasons, Temple Run, Subway Surfers, Plants vs. Zombies and Hill Climb Racing not playable due GPU/API, CPU-ABI or Android-version limits — see [GAMES.md](GAMES.md)
 - **Casual apps:** iBeer, Lighter and Candle verified working, including tilt, touch and blow interactions — see [CASUAL.md](CASUAL.md)
 - **Last verified:** 2026-11-13
 
