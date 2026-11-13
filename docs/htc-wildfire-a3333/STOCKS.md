@@ -265,7 +265,7 @@ The original Yahoo DGW response used `Connection: close` and closed the socket. 
 - `Cache-Control: private`
 - `Content-Length: ...`
 
-It also pre-warms the four default symbols at startup and refreshes them every 60 seconds in a background thread. A `getquotes` request is answered from that cache immediately; it never waits for CNBC. This is not just a performance choice: the app can destroy the DCS component before a slow response is parsed, which is the same race. A cache hit returns in milliseconds, so the app parses it before `onComponentDestroy()` runs.
+It also pre-warms the four default symbols at startup and refreshes them every 60 seconds in a background thread. A `getquotes` request is answered from that cache immediately; it never waits for CNBC. This narrows the race and fixed the slow-response cases, but it does not eliminate the app's lifecycle bug: if the DCS component is destroyed before the response is parsed, `updateCacheData()` can still see a null `mContext`. In practice, open Stocks with the screen on and unlocked; if the **Connection error** dialog appears, tap **Yes** to retry or close and reopen the app.
 
 If you rewrite the bridge, do not switch to a keep-alive response, and do not make the app wait for a live upstream fetch. Both can lose the race with `onComponentDestroy()`.
 
@@ -279,18 +279,21 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 | --- | --- |
 | **Connection error** dialog, no request in the bridge log | `/system/etc/hosts` points `api.htc.go.yahoo.com` at the bridge host; the DNAT rule exists; the bridge listens on `0.0.0.0:8090`; the host firewall allows the phone |
 | Bridge log shows a request but the app still errors | The response must be DGW XML with `Connection: close`; check the bridge's traceback and the phone's `logcat` |
-| `NullPointerException` in `StockServiceImpl.updateCacheData` | The app was destroyed before it parsed the response; use `Connection: close`, serve from a pre-warmed cache, and avoid blocking on a live fetch |
+| `NullPointerException` in `StockServiceImpl.updateCacheData` | The app was destroyed before it parsed the response; use `Connection: close`, serve from a pre-warmed cache, and open Stocks with the screen on. If the dialog appears, tap **Yes** to retry or reopen the app |
 | `stock.db` prices are `NULL` | No successful `getquotes` response has been parsed; check the bridge and the DCS service |
 | Quotes are stale | The bridge refreshes the default symbols in the background every 60 seconds; tap the refresh icon in Stocks or reopen the app. Requests are always answered from the cache |
 | The bridge host IP changed | Update `/system/etc/hosts` and the DNAT rule; use a DHCP reservation |
 | `iptables` prints `FIX ME! implement getprotobyname()` | Harmless on this ROM; the rule is still installed |
 | The app opens the browser to a dead Yahoo page | The **Finance** and **Quotes delayed** links are legacy browser links; they are not the quote feed |
+| NASDAQ/GOOG change shows `0.00` | CNBC returned an incomplete after-hours quote; the price is still valid. Refresh later or wait for the next session |
 
 ## What still does not work
 
 - The **Y! FINANCE — Quotes delayed** and **Finance** links still open dead `m.yahoo.com` mobile URLs. They are browser links, not the quote API.
 - Adding arbitrary symbols may require extending the CNBC symbol mapping.
 - Fresh quotes require the bridge host to be running. When it is offline, the app keeps the last values in `stock.db`.
+- CNBC sometimes returns zero `change`, `open`, `high`, `low`, or `volume` for US symbols outside the regular session. The bridge passes through the fields it receives; the last price is still displayed. Refresh later or wait for the next market session.
+- The app has a pre-existing DCS lifecycle race. If it is opened while the screen is off or behind the keyguard, the DCS component can be destroyed before the response is parsed and the app shows **Connection error**. Open Stocks with the screen on and unlocked; tap **Yes** to retry if needed.
 - The Stocks widget uses the same database as the app. It should show the cached values after a refresh, but it was not separately verified in this restore.
 
 ## Security notes
@@ -304,6 +307,7 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 - The bridge returned valid DGW XML for `^FTSE`, `^IXIC`, `2498.TW`, and `GOOG`.
 - The phone's Stocks app showed FTSE 100, NASDAQ Composite, HTC Corporation, and Alphabet Class C with live prices and changes.
 - `stock.db` contained non-`NULL` prices, update times, and volumes.
-- A cold-cache app request completed without the `NullPointerException`; the bridge answered from its pre-warmed cache and refreshed the quotes in the background.
-- A background refresh after the 60-second cache interval also completed without the `NullPointerException`.
+- Foreground and cold-cache requests wrote to `stock.db`; the bridge answered from its pre-warmed cache and refreshed the quotes in the background.
+- A background refresh after the 60-second cache interval completed and updated the database.
 - After a phone reboot, the boot hook restored the DNAT rule, the app launched, fetched fresh quotes, and updated `stock.db`.
+- The app can still show **Connection error** if it is paused/backgrounded before parsing the response; this is the app's own DCS lifecycle race, not a bridge failure. Reopening Stocks with the screen on retries successfully.
