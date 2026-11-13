@@ -64,6 +64,212 @@
           "mastheadLogo": ""
         }
       ],
+      "TopicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "topicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "SourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "Sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
       "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
       "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
       "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
@@ -129,6 +335,212 @@
           "mainLogo": "",
           "articleLogo": "",
           "mastheadLogo": ""
+        }
+      ],
+      "TopicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "topicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "SourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "Sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
         }
       ],
       "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
@@ -198,6 +610,212 @@
           "mastheadLogo": ""
         }
       ],
+      "TopicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "topicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "SourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "Sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
       "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
       "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
       "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
@@ -265,16 +883,490 @@
           "mastheadLogo": ""
         }
       ],
+      "TopicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "topicList": [
+        {
+          "id": "topstories",
+          "topicId": "topstories",
+          "name": "Top Stories",
+          "topicName": "Top Stories",
+          "displayName": "Top Stories",
+          "title": "Top Stories",
+          "topicType": "News",
+          "type": "News",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "SourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sourceDefinitionList": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "Sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "msn",
+          "sourceId": "msn",
+          "sourceName": "MSN",
+          "name": "MSN",
+          "displayName": "MSN",
+          "sourceType": "News",
+          "type": "News",
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "providerDisplayName": "MSN",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "topicId": "topstories",
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
       "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
       "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
       "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
       "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json"
     }
   ],
-  "TopicList": [],
-  "topicList": [],
-  "SourceDefinitionList": [],
-  "sourceDefinitionList": [],
+  "TopicList": [
+    {
+      "id": "topstories",
+      "topicId": "topstories",
+      "name": "Top Stories",
+      "topicName": "Top Stories",
+      "displayName": "Top Stories",
+      "title": "Top Stories",
+      "topicType": "News",
+      "type": "News",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
+  "topicList": [
+    {
+      "id": "topstories",
+      "topicId": "topstories",
+      "name": "Top Stories",
+      "topicName": "Top Stories",
+      "displayName": "Top Stories",
+      "title": "Top Stories",
+      "topicType": "News",
+      "type": "News",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
+  "Topics": [
+    {
+      "id": "topstories",
+      "topicId": "topstories",
+      "name": "Top Stories",
+      "topicName": "Top Stories",
+      "displayName": "Top Stories",
+      "title": "Top Stories",
+      "topicType": "News",
+      "type": "News",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "topstories",
+      "topicId": "topstories",
+      "name": "Top Stories",
+      "topicName": "Top Stories",
+      "displayName": "Top Stories",
+      "title": "Top Stories",
+      "topicType": "News",
+      "type": "News",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
+  "SourceDefinitionList": [
+    {
+      "id": "msn",
+      "sourceId": "msn",
+      "sourceName": "MSN",
+      "name": "MSN",
+      "displayName": "MSN",
+      "sourceType": "News",
+      "type": "News",
+      "providerId": "AAPEDK",
+      "providerName": "MSN",
+      "providerDisplayName": "MSN",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "topicId": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
+  "sourceDefinitionList": [
+    {
+      "id": "msn",
+      "sourceId": "msn",
+      "sourceName": "MSN",
+      "name": "MSN",
+      "displayName": "MSN",
+      "sourceType": "News",
+      "type": "News",
+      "providerId": "AAPEDK",
+      "providerName": "MSN",
+      "providerDisplayName": "MSN",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "topicId": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
+  "Sources": [
+    {
+      "id": "msn",
+      "sourceId": "msn",
+      "sourceName": "MSN",
+      "name": "MSN",
+      "displayName": "MSN",
+      "sourceType": "News",
+      "type": "News",
+      "providerId": "AAPEDK",
+      "providerName": "MSN",
+      "providerDisplayName": "MSN",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "topicId": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "msn",
+      "sourceId": "msn",
+      "sourceName": "MSN",
+      "name": "MSN",
+      "displayName": "MSN",
+      "sourceType": "News",
+      "type": "News",
+      "providerId": "AAPEDK",
+      "providerName": "MSN",
+      "providerDisplayName": "MSN",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "topicId": "topstories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ]
+    }
+  ],
   "ReleaseNumber": "1",
   "releaseNumber": "1",
   "IsPersonalizationEnabled": false,
@@ -285,7 +1377,7 @@
   "topicType": "News",
   "CategoryType": "News",
   "categoryType": "News",
-  "CreatedDateUTC": "2026-11-13T23:46:54.073Z",
+  "CreatedDateUTC": "2026-11-13T23:48:27.271Z",
   "DeletedDateUTC": null,
   "PerMarketCategories": {
     "en-gb": [
@@ -347,6 +1439,212 @@
             "mainLogo": "",
             "articleLogo": "",
             "mastheadLogo": ""
+          }
+        ],
+        "TopicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "topicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "SourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "Sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
           }
         ],
         "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
@@ -414,6 +1712,212 @@
             "mainLogo": "",
             "articleLogo": "",
             "mastheadLogo": ""
+          }
+        ],
+        "TopicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "topicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "SourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "Sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
           }
         ],
         "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
@@ -485,6 +1989,212 @@
             "mastheadLogo": ""
           }
         ],
+        "TopicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "topicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "SourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "Sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
         "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
         "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
         "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
@@ -550,6 +2260,212 @@
             "mainLogo": "",
             "articleLogo": "",
             "mastheadLogo": ""
+          }
+        ],
+        "TopicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "topicList": [
+          {
+            "id": "topstories",
+            "topicId": "topstories",
+            "name": "Top Stories",
+            "topicName": "Top Stories",
+            "displayName": "Top Stories",
+            "title": "Top Stories",
+            "topicType": "News",
+            "type": "News",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "SourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sourceDefinitionList": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "Sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "id": "msn",
+            "sourceId": "msn",
+            "sourceName": "MSN",
+            "name": "MSN",
+            "displayName": "MSN",
+            "sourceType": "News",
+            "type": "News",
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "providerDisplayName": "MSN",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "topicId": "topstories",
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
           }
         ],
         "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json",
