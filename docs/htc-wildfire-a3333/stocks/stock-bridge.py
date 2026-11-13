@@ -35,7 +35,7 @@ NASDAQ_SEARCH_URL = "https://api.nasdaq.com/api/autocomplete/slookup/10"
 CNBC_CHART_URL = "https://ts-api.cnbc.com/harmony/app/charts/{}.json"
 CHART_CACHE = {}
 CHART_TTL = 300
-MAX_CHART_POINTS = 240
+MAX_CHART_POINTS = 180
 CHART_RANGES = {
     "1d": "1D",
     "5d": "5D",

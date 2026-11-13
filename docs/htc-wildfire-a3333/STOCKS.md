@@ -324,7 +324,7 @@ Range mapping:
 | `1y` | `1Y` |
 | `2y` | `1Y` (CNBC's 2Y endpoint returned no bars in testing) |
 
-The bridge downsamples intraday series to about 240 points so the Wildfire's chart view stays responsive, and caches chart data for five minutes. `marketopen` and `marketclose` are set to `0`, so the chart line and axes render but the regular-session shading is not drawn.
+The bridge downsamples intraday series to about 180 points so the Wildfire's chart view stays responsive, and caches chart data for five minutes. `marketopen` and `marketclose` are set to `0`, so the chart line and axes render but the regular-session shading is not drawn.
 
 ### Symbol mapping
 
