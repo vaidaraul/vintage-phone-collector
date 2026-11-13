@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6 — 2026-11-13
+
+- Added `CASUAL.md`: iBeer FREE 1.28, Lighter 8.0, and Candle 6.2 (versionCode 19) verified working with their tilt, touch, flame and blow-to-extinguish functions.
+- Documented the Froyo-compatible builds, APK hashes, BMA150 accelerometer/microphone use, ad-supported status, and the later `minSdk 9` builds that do not install.
+- Updated the documentation index, guide overview, and device history.
+
 ## 0.5 — 2026-11-13
 
 - Recorded the final on-phone feed set: BBC News plus BBC World/Technology/Science/Business/Sport, Ars Technica, Engadget, ScienceDaily, and Universe Today.

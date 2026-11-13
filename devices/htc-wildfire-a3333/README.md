@@ -1,6 +1,6 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
-**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today
+**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today; iBeer, Lighter and Candle verified
 
 **Last updated:** 2026-11-13
 
@@ -60,6 +60,13 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - **Skater Boy 1.6** (`com.game.SkaterBoy`, versionCode 10) is installed and playable, but marginal. The stock build clamps updates to 1/35 s; at the Wildfire's ~19 FPS that ran at about 0.5x. A locally re-signed build raises the cap to 0.04 s, giving about 0.75x at 19 FPS and native speed above ~25 FPS. It is visibly choppy but close to the intended speed. The original and patched APKs stay outside Git; hashes and reinstall caveats are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Angry Birds:** not playable on this ROM. The Android builds require OpenGL ES 2.0, but the stock kernel exposes no `hw3dc` GPU device; the ES 1.x 1.0 build also crashes in its EGL config chooser. Details, hashes and cleanup are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Temple Run 1.0.0:** not playable. The official APK contains only `armeabi-v7a` native libraries and requires OpenGL ES 2.0; the Wildfire is ARMv6 and has no working ES 2.0 GPU path. Installation fails with `Native ABI mismatch from package file`. Unofficial ARMv6 repacks are modified and were not trusted. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+
+## 2026-11-13: casual sensor apps
+
+- **iBeer FREE 1.28** (`com.hottrix.ibeerfree`, versionCode 18) is installed and verified. The phone's accelerometer drives the beer glass: flat shows the top-down view, tilting pours/drinks, and shaking makes foam. The later 1.35 build requires API 9, so 1.28 is the Froyo build. The APK stays outside Git.
+- **Lighter 8.0** (`com.progimax.lighter.free`, versionCode 21) is installed and verified. Tapping the flint wheel opens the lid and lights the flame; blowing into the microphone extinguishes it. It includes an `armeabi` native library, so it runs on the Wildfire's ARMv6 CPU.
+- **Candle 6.2** (`com.progimax.candle.free`, versionCode 19) is installed and verified. It opens to a lit candle; tapping the wick toggles the flame, and blowing into the microphone extinguishes it. Use versionCode 19; the later versionCode 20 build requires API 9.
+- The Wildfire has no gyroscope. These apps use its BMA150 accelerometer and microphone, not a gyro. Details, hashes and testing notes are in [CASUAL.md](../../docs/htc-wildfire-a3333/CASUAL.md).
 
 ## 2026-11-13: news assessment
 

@@ -10,6 +10,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [Phone-local weather details](htc-wildfire-a3333/WEATHER.md)
 - [News and handpicked RSS feeds](htc-wildfire-a3333/NEWS.md)
 - [Game compatibility](htc-wildfire-a3333/GAMES.md)
+- [Casual sensor apps](htc-wildfire-a3333/CASUAL.md)
 - [Troubleshooting](htc-wildfire-a3333/TROUBLESHOOTING.md)
 - [Artifacts and hashes](htc-wildfire-a3333/ARTIFACTS.md)
 - [Documentation plan](htc-wildfire-a3333/PLAN.md)

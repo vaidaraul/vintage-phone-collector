@@ -2,6 +2,8 @@
 
 Tested on the rooted HTC Wildfire A3333 running the WWE Froyo `2.22.405.1` build: Android 2.2.1 (API 8), 528 MHz ARM11, Adreno 200, 240x320, 384 MB RAM. Test APKs are kept outside Git.
 
+For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md).
+
 ## Summary
 
 | Game | Package / build | Result | Notes |
