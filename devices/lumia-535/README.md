@@ -7,7 +7,7 @@ Part of the [Vintage Phone Collector](../../README.md) project. This log documen
 
 The idea is not simply to make an old phone turn on. It is to recover as much of its original software experience as possible, understand what still works, and publish reproducible notes so other collectors can learn from the process.
 
-The local package and tool archive is catalogued in [archive.md](archive.md); binaries stay outside the repository. The current 24-title game suite and HTC-list coverage are in [GAMES.md](GAMES.md).
+The local package and tool archive is catalogued in [archive.md](archive.md); binaries stay outside the repository. The current 24-title game suite and HTC-list coverage are in [GAMES.md](GAMES.md). The Microsoft News revival investigation, including the public-feed decision, is in [NEWS.md](NEWS.md).
 
 ## Device status
 
@@ -67,7 +67,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | Free Player for YouTube | `1.1.23.0` | **Uninstalled; nonfunctional (user-confirmed)** | It installed, but the user reports it was worthless and did not work; it has since been uninstalled. |
 | MSN Weather | `4.26.12153.0` | **Functional; current data confirmed (user-reported)** | User confirms the app works and displays correct weather data, so its API is active. A separate APPXBUNDLE deployment attempt failed with `0x80073CF3`; that failure did not represent the working app's status. |
 | Bing Sports | `3.1.4.486` (observed) | **Update path works; API down (user-reported)** | User reports Sports can be updated, but its online API is down. The version shown here is from the earlier Device Portal inventory; the updated version was not recorded. |
-| Microsoft News | Version not recorded | **Service/API down (user-reported)** | User reports that News is nonfunctional because its online service/API is down. Installation and version details were not recorded. |
+| Microsoft News | `4.25.11762.0` | **Installs and launches; feed service dead** | The original ARM app installs and reaches its shell on this build. Its old composite-stream endpoint returns 503; the live query/document/image APIs still return current articles. A public HTTPS compatibility feed is planned; see [NEWS.md](NEWS.md). Not functional yet. |
 | Xbox app (default/preinstalled) | Exact installed version not recorded; higher than `44.44.7002.0` | **Installed but not starting (user-reported)** | User reports that the default Xbox app does not start. An attempt to install the archived `44.44.7002.0` APPXBUNDLE was rejected with `0x80073D06` because a higher version is already installed. |
 | Windows Camera | Exact updated version not recorded | **Correct and fully working (user-confirmed)** | User confirms the Camera update is correct and fully working. The exact installed version was not provided. |
 | Windows Camera candidate bundle | `2018.426.70.0` | **Deployment failed; package requires newer OS** | Device Portal reported `0x80073CFD`. This specific ARM bundle requires Windows `10.0.15063.0`, above the phone's `10.0.14393.2551`; it is distinct from the working Camera update reported above. |

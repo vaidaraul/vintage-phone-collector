@@ -68,7 +68,7 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | `ImMobile_1.3.7_W10M.appx` | APPX | 38,014,152 | Untested. |
 | `Instagram v10.1096.22713 [file.windowsviet.com].AppxBundle` | APPXBUNDLE | 68,085,157 | Installs and reaches sign-in; outdated (user-reported). |
 | `METROTUBE (Patched).xap` | XAP | 2,909,312 | Untested; patched build, provenance unverified. |
-| `Microsoft News v4.25.11762.0 [file.windowsviet.com].appx` | APPX | 24,765,728 | Service/API down (user-reported). |
+| `Microsoft News v4.25.11762.0 [file.windowsviet.com].appx` | APPX | 24,765,728 | Installs and launches; feed service dead; public compatibility feed planned. Not functional yet. See [NEWS.md](NEWS.md). |
 | `Microsoft People v10.2.2351.0 [file.windowsviet.com].appxbundle` | APPXBUNDLE | 8,114,007 | Deployment failed with `0x80073CFF`. |
 | `Minecraft for Windows 10 Mobile v1.5.201.0 [file.windowsviet.com].appx` | APPX | 66,523,269 | Removed; installed through Device Portal but start returned `Unavailable` (`-2143322111`). The investigated 1.5.300.0 package is not in this archive. |
 | `MSN Sports v4.25.11762.0 [file.windowsviet.com].appx` | APPX | 23,995,819 | Update path works; API down (user-reported). |
