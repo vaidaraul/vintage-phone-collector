@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.19 — 2026-11-13
+
+- Measured Jetpack Joyride 1.3.5 at about 5 FPS on the Wildfire; it is decorative rather than playable.
+- Attempted a 160x120 half-res patch with halved touch input; it rendered in a small centered window and did not reduce the ~10 MB texture cache, so it was rejected and the full-res SD APK restored.
+- Updated the game table, guide summary, and device history.
+
 ## 0.18 — 2026-11-13
 
 - Set Froyo to prefer external storage and documented the SD-install workflow; large APKs are installed from `/sdcard` with `pm install -s`.

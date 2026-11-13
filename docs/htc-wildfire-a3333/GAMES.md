@@ -22,7 +22,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Logo Quiz Ultimate | `de.androidcrowd.logoquiz` 2.2 | Works | Pure Java, minSdk 8; menu, level grid and answer input verified |
 | Pou | `me.pou.app` 1.0.31 (31) | Works | Pure Java, minSdk 4; kitchen, food carousel and Fridge UI verified |
 | Talking Tom Cat | `com.outfit7.talkingtom` 1.0 (1) | Works | Original ARMv6 build; full scene, head and milk interactions verified |
-| Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.3.5 (1360) | Playable, SD install | ARMv6/ES 1.1; manifest patched to `preferExternal`; runs from `/mnt/asec` |
+| Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.3.5 (1360) | Runs, ~5 FPS | ARMv6/ES 1.1; SD install; decorative only; half-res patch rejected |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 
 ## Doodle Jump
@@ -191,6 +191,8 @@ Three builds were tested. All install, but none reaches gameplay.
 - The manifest root was patched only from `installLocation=0` (auto) to `installLocation=2` (preferExternal), and the APK was re-signed with a local compatibility key. `pm install -s` then installed it at `/mnt/asec/com.halfbrick.jetpackjoyride-1/pkg.apk`. The game code, assets and native library are unchanged; only `AndroidManifest.xml` and the signature files differ.
 - SD-patched APK: 31,277,982 bytes; SHA-256 `f3b6032351e3bca3265607183eeb0fce7ff26f9b1a131776ab03de5367c5165b`.
 - Verified on the phone: the Halfbrick splash and lab title screen render; tapping starts a run; the HUD advanced past 23 m, the best shown was 80 m, Sector 01 scrolled, and the pause/missions screen works. No SIGILL or ES 2.0 error.
+- Performance is about 5 FPS on the Wildfire. It is decorative rather than playable; the title, HUD and pause screens work, but the runner is far too slow.
+- A 160x120 half-res experiment was attempted: forcing `SurfaceHolder.setFixedSize(160,120)`, switching to the single-touch handler and halving touch coordinates. The game rendered in a small centered window instead of scaling to the 320x240 view, and the texture cache still filled `/data`; the patch was rejected and the full-res SD APK restored.
 - Caveats: the game extracts its 5.2 MB native library and writes a large downscaled-texture cache into `/data`. After the first run `/data` had only 1.4 MB free; clearing `cache/cache13050` restored about 11.7 MB. The re-signed APK cannot be updated over the official Halfbrick build; back up `/data/data/com.halfbrick.jetpackjoyride` before uninstall/reinstall. Offline CDN/ad requests fail (`wac.76ff.edgecastcdn.net`), and the game logs a `Can't create handler...` exception from `MortarGameActivity.onCreateDialog`, but play continues.
 - No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and SD-patched APKs stay outside Git.
 
