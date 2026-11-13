@@ -2,7 +2,7 @@
 
 Tested on the rooted HTC Wildfire A3333 running the WWE Froyo `2.22.405.1` build: Android 2.2.1 (API 8), 528 MHz ARM11, Adreno 200, 240x320, 384 MB RAM. Test APKs are kept outside Git.
 
-As of 2026-11-13, Logo Quiz Ultimate, Cut the Rope, Candle, Lighter, Pou and Jetpack Joyride are installed on the SD card. Fruit Ninja and Skater Boy remain internal because their re-signed APKs could not be moved in place; Doodle Jump, iBeer and Talking Tom are internal-only.
+As of 2026-11-13, Logo Quiz Ultimate, Cut the Rope, Candle, Lighter, Pou, Jetpack Joyride, Paper Toss and Bonsai Blast are installed on the SD card. Fruit Ninja and Skater Boy remain internal because their re-signed APKs could not be moved in place; Doodle Jump, iBeer and Talking Tom are internal-only.
 
 For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md).
 
@@ -27,8 +27,10 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.3.5 (1360) | Runs, ~5 FPS | ARMv6/ES 1.1; SD install; decorative only; half-res patch rejected |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 | Paper Toss | `com.bfs.papertoss` 1.2.3 (7005) | Works | No native libs; SD install; menu, Easy and swipe toss verified |
+| Bonsai Blast | `com.glu.android.bonsai` 1.8 (86513) | Works | Official Glu build; no native libs; SD install; menu, Adventure and shot verified |
 | Where's My Water? | `com.disney.WMW` 1.2.0 / `com.disney.WMW_BN` 1.5.1 | Not playable | ARMv6/ES 1.1, but native SIGSEGV in `libwmw.so` when gameplay loads |
 | Peggle | `com.popcap.peggle` 1.0 | Not playable | Only debug-signed repack; black screen, no GL context; uninstalled |
+| Zuma | No trustworthy build | Not tested | Classic Zuma never had an official Android APK; all candidates were stream clients, renamed PC zips or minSdk 21 fan ports |
 
 ## Doodle Jump
 
@@ -201,6 +203,14 @@ Three builds were tested. All install, but none reaches gameplay.
 - Caveats: the game extracts its 5.2 MB native library and writes a large downscaled-texture cache into `/data`. After the first run `/data` had only 1.4 MB free; clearing `cache/cache13050` restored about 11.7 MB. The re-signed APK cannot be updated over the official Halfbrick build; back up `/data/data/com.halfbrick.jetpackjoyride` before uninstall/reinstall. Offline CDN/ad requests fail (`wac.76ff.edgecastcdn.net`), and the game logs a `Can't create handler...` exception from `MortarGameActivity.onCreateDialog`, but play continues.
 - No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and SD-patched APKs stay outside Git.
 
+## Bonsai Blast
+
+- Package `com.glu.android.bonsai`; tested version `1.8` (versionCode `86513`; `minSdkVersion 1`; 6,850,943 bytes; SHA-256 `6bd40fcf8a76af8deff037f4c97dd7c9221151269f213bb9fad4a219d218dccb`). It was obtained from APKMirror and stays outside Git.
+- Official Glu Mobile signature. The APK is pure Java with no native libraries and installs to SD at `/mnt/asec/com.glu.android.bonsai-1/pkg.apk`.
+- Verified on the phone: the main menu renders, Adventure mode loads with the marble path, score, timer and shooter, and a tap fires a marble; the score advanced from 100 to 425.
+- The offline Google ad request (`pagead2.googlesyndication.com`) fails without blocking play.
+- No firmware, `/system`, or GPU changes were made.
+
 ## Paper Toss
 
 - Package `com.bfs.papertoss`; tested version `1.2.3` (versionCode `7005`; `minSdkVersion 7`; 6,796,574 bytes; SHA-256 `f2d5cd96e46aeb366b779fd84a0aca8dc0bf3fe3da9e23148e76d9ade3df969d`). It was obtained from APKMirror and stays outside Git.
@@ -224,6 +234,16 @@ Three builds were tested. All install, but none reaches gameplay.
 - Because the APK is an untrusted repack, it was tested only after patching `installLocation` to `preferExternal` and re-signing locally. Patched APK: 77,724,761 bytes; SHA-256 `5c2c79e83fc13afa8f0ffdddd6e197d31ab6f4017d203d9533af5dbaba94db9c`. It installed to SD.
 - Result: the process starts but stays on a black screen; logcat repeats `called unimplemented OpenGL ES API` and `call to OpenGL ES API with no current context`. No menu or frame was reached. It was uninstalled.
 - No official-signed classic Peggle APK was available to verify against, so the repack result is provisional. The APKs stay outside Git.
+
+## Zuma
+
+- Classic **Zuma** (2003) never received an official Android release, and APKMirror has no Zuma results. **Zuma's Revenge!** did get a 2011 Android release, but no preserved official EA/PopCap APK was found; the Play Store listings under `com.fox.game.zuma` and `com.gamersky.zuma` are third-party clones, not PopCap/EA builds.
+- Four Internet Archive candidates were inspected and rejected before install:
+  - The Chinese “祖玛 安卓版” APK (17,012,499 bytes; SHA-256 `5844cab1e0fcc7383d49eaf9edca1c3f1044f23b5be8ab7c3ff5baefc5338eb9`) is package `com.trans.zuma_qcast`, minSdk 13, with Transmension QCast streaming libraries (`libGameMain.so`, `libRemoteInput.so`, `libHomura.so`) and an unknown signer. It is a cloud-streaming client that needs Android 3.2+ and a server, not a local game.
+  - “Zuma Extended Official APK” (63,174,451 bytes; SHA-256 `2bc9fa9c025c72a577ce75a741db540d69857355087a260433789a11de74688e`) is not an APK at all: it is a PC game zip renamed to `.apk`, containing `bass.dll`, fonts and Windows executables.
+  - `app.apk` from the `Zuma.zip` archive (8,883,698 bytes; SHA-256 `ac02d85a05078040745ee054aac81e4409e692ded220897f709b8ad1920b88bd`) is a fan-made SDL2 port (`io.itch.ksylvestre.zumaportable`) with minSdk 21, debug-signed, and the package spoofed as `com.popcap.zuma`.
+  - “Zuma Deluxe APK” (10,694,903 bytes; SHA-256 `3732c7b47d871adfce143f788f833393e6a701f2c5816f6665a4c7b3795d5eb1`) is another PC RealArcade zip renamed to `.apk`.
+- Result: nothing was installed or run. No trustworthy Froyo-compatible classic Zuma APK exists in these sources; a future attempt needs the official 2011 Zuma's Revenge! APK with a verified EA/PopCap signature. The archives stay outside Git.
 
 ## Testing notes
 

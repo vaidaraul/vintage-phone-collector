@@ -93,6 +93,12 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - **Peggle 1.0** (`com.popcap.peggle`) was available only as a debug-signed repack. After patching it for SD and re-signing locally, it installed but stayed on a black screen with `call to OpenGL ES API with no current context`. It was uninstalled.
 - Paper Toss remains on SD; `/data` has about 68 MB free. Details and hashes are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 
+## 2026-11-13: Bonsai Blast and Zuma
+
+- **Bonsai Blast 1.8** (`com.glu.android.bonsai`, versionCode 86513) is an official Glu build with no native libraries. It installs on the SD card and works: the main menu, Adventure mode, the marble path/score/timer/shooter, and firing a marble were verified; the score advanced from 100 to 425. The offline Google ad request fails without blocking play.
+- **Classic Zuma:** no trustworthy APK was found. The Chinese build is a Transmension QCast cloud-streaming client (`com.trans.zuma_qcast`, minSdk 13), the 63 MB “Extended” file and the “Zuma Deluxe” file are PC game zips renamed to `.apk`, and the remaining archive is a debug-signed minSdk 21 SDL2 fan port. Nothing was installed. The official 2011 Zuma's Revenge! Android build has no preserved APK on APKMirror; the Play Store clones are not PopCap/EA.
+- Bonsai Blast remains on SD; `/data` has about 68 MB free. Details and hashes are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+
 ## 2026-11-13: casual sensor apps
 
 - **iBeer FREE 1.28** (`com.hottrix.ibeerfree`, versionCode 18) is installed and verified. The phone's accelerometer drives the beer glass: flat shows the top-down view, tilting pours/drinks, and shaking makes foam. The later 1.35 build requires API 9, so 1.28 is the Froyo build. The APK stays outside Git.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.22 — 2026-11-13
+
+- Verified Bonsai Blast 1.8 (official Glu build, no native libraries): installed on SD; main menu, Adventure mode and a marble shot work, with the score advancing from 100 to 425.
+- Investigated classic Zuma: APKMirror has no release, and all four Internet Archive candidates were rejected before install — a QCast cloud-streaming client, two PC game zips renamed to `.apk`, and a debug-signed minSdk 21 SDL2 fan port. No trustworthy Froyo-compatible classic Zuma APK exists in these sources, so nothing was installed.
+- Updated the game table, guide summary, and device history.
+
 ## 0.21 — 2026-11-13
 
 - Verified Paper Toss 1.2.3: no native libraries, installed on SD; menu, Easy office and swipe toss work (Best 2).
