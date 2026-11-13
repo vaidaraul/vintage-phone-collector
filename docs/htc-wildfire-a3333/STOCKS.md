@@ -58,7 +58,7 @@ All files are in the [`stocks/`](stocks/) folder next to this document. They are
 
 | File | Purpose |
 | --- | --- |
-| `stock-bridge.py` | Python 3 DGW bridge; pre-warmed per-symbol cache, CNBC quotes, legacy XML, optional Yahoo fallback |
+| `stock-bridge.py` | Python 3 DGW bridge; pre-warmed per-symbol cache, CNBC quotes, Nasdaq symbol search, legacy XML, optional Yahoo fallback |
 | `start-bridge.sh` | Starts the bridge, with `--if-needed` support for a cron watchdog |
 | `stock-boot.sh` | Phone boot hook that re-adds the DNAT rule |
 | `install-phone.sh` | Phone installer: hosts entry, DNAT rule, boot hook |
@@ -233,6 +233,43 @@ The `quotes` table should contain non-`NULL` prices.
 
 The parser is case-sensitive. Keep the lowercase tag names and the `result`/`list`/`quote` nesting.
 
+### Search (`getsymbol`)
+
+The Add-to-Portfolio screen sends a separate query when you press **Enter** in the search box:
+
+```xml
+<query id="0" timestamp="0" type="getsymbol">
+<phrase>aapl</phrase><count>10</count><offset>0</offset>
+</query>
+```
+
+The bridge answers with the same `<quote>` list, but only the identity fields matter:
+
+```xml
+<response>
+  <result type="getsymbol" timestamp="...">
+    <list count="10" total="10">
+      <quote>
+        <name>Apple Inc Common Stock</name>
+        <symbol>AAPL</symbol>
+        <exchange></exchange>
+        <status>0</status>
+        ...
+      </quote>
+      ...
+    </list>
+  </result>
+</response>
+```
+
+The app then sends a `getquotes` request for the returned symbols and displays their quotes. The bridge sources the symbol list from Nasdaq's public autocomplete endpoint:
+
+```text
+https://api.nasdaq.com/api/autocomplete/slookup/10?search=aapl
+```
+
+Exact symbol matches are ranked first, then `STOCKS`, then other asset types. If Nasdaq is unavailable, the bridge falls back to a small ticker/company-name alias map and accepts plain ticker-shaped input. The magnifying-glass button mainly manages the local search history; pressing **Enter** is what submits the DCS query in the app.
+
 ### Symbol mapping
 
 The bridge translates Yahoo-style symbols to CNBC symbols:
@@ -286,11 +323,12 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 | `iptables` prints `FIX ME! implement getprotobyname()` | Harmless on this ROM; the rule is still installed |
 | The app opens the browser to a dead Yahoo page | The **Finance** and **Quotes delayed** links are legacy browser links; they are not the quote feed |
 | NASDAQ/GOOG change shows `0.00` | CNBC returned an incomplete after-hours quote; the price is still valid. Refresh later or wait for the next session |
+| Search returns no results | Check the bridge log for `type='getsymbol' phrase=...`; the host must be able to reach `api.nasdaq.com`. Type the symbol/company and press **Enter** in the app |
 
 ## What still does not work
 
 - The **Y! FINANCE — Quotes delayed** and **Finance** links still open dead `m.yahoo.com` mobile URLs. They are browser links, not the quote API.
-- Adding arbitrary symbols may require extending the CNBC symbol mapping.
+- Adding arbitrary symbols may require extending the CNBC symbol mapping. Search can return funds, ETFs, and notes as well as common stocks; the exact ticker is ranked first, but the quote view is most useful for ordinary stocks.
 - Fresh quotes require the bridge host to be running. When it is offline, the app keeps the last values in `stock.db`.
 - CNBC sometimes returns zero `change`, `open`, `high`, `low`, or `volume` for US symbols outside the regular session. The bridge passes through the fields it receives; the last price is still displayed. Refresh later or wait for the next market session.
 - The app has a pre-existing DCS lifecycle race. If it is opened while the screen is off or behind the keyguard, the DCS component can be destroyed before the response is parsed and the app shows **Connection error**. Open Stocks with the screen on and unlocked; tap **Yes** to retry if needed.
@@ -306,6 +344,7 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 
 - The bridge returned valid DGW XML for `^FTSE`, `^IXIC`, `2498.TW`, and `GOOG`.
 - The phone's Stocks app showed FTSE 100, NASDAQ Composite, HTC Corporation, and Alphabet Class C with live prices and changes.
+- Searching for `aapl` returned 10 results; AAPL/Apple Inc. was first with a live quote, and the AAPL detail view showed price, change, open/high/low, and volume.
 - `stock.db` contained non-`NULL` prices, update times, and volumes.
 - Foreground and cold-cache requests wrote to `stock.db`; the bridge answered from its pre-warmed cache and refreshed the quotes in the background.
 - A background refresh after the 60-second cache interval completed and updated the database.

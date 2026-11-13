@@ -104,6 +104,7 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - The phone resolves `api.htc.go.yahoo.com` to the bridge host in `/system/etc/hosts`; an iptables DNAT rule maps port 80 to the bridge's 8090.
 - The first successful write exposed a race: `StockServiceImpl.onComponentDestroy()` sets `mContext = null`, so a slow keep-alive response produced `NullPointerException` at `updateCacheData(StockServiceImpl.java:427)`. Matching the original Yahoo headers (`Connection: close`, `X-YSTATUS: 200`, `text/plain;charset=UTF-8`) and serving from a pre-warmed per-symbol cache fixed the slow-response cases; the bridge refreshes the default symbols in the background every 60 seconds. The app can still hit its own lifecycle race if it is paused/backgrounded before parsing; reopen Stocks with the screen on.
 - A boot hook in `/system/bin/bootcomplete` re-adds the DNAT rule. The stock Android `sh` has no `[`/`test` builtin; the hook is called directly.
+- Search works through the bridge's `getsymbol` handler: Nasdaq autocomplete returns matching symbols, and the app fetches their quotes. `aapl` returned 10 results with AAPL/Apple Inc. first; the detail view showed price, change, open/high/low, and volume.
 - Verified cold-cache refresh and a full reboot: the rule returned, the app fetched fresh quotes, and `stock.db` updated. The “Finance”/“Quotes delayed” links remain dead Yahoo browser links.
 - Details and scripts: [STOCKS.md](../../docs/htc-wildfire-a3333/STOCKS.md).
 

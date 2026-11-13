@@ -16,6 +16,7 @@ NullPointerException in StockServiceImpl.updateCacheData().
 
 import json
 import os
+import re
 import threading
 import time
 import urllib.parse
@@ -28,6 +29,23 @@ CACHE_REFRESH = 60
 CACHE_LOCK = threading.Lock()
 REFRESHING = set()
 DEFAULT_SYMBOLS = ["^FTSE", "^IXIC", "2498.TW", "GOOG"]
+SEARCH_CACHE = {}
+SEARCH_TTL = 300
+NASDAQ_SEARCH_URL = "https://api.nasdaq.com/api/autocomplete/slookup/10"
+SEARCH_ALIASES = {
+    "apple": "AAPL",
+    "alphabet": "GOOG",
+    "google": "GOOG",
+    "microsoft": "MSFT",
+    "amazon": "AMZN",
+    "tesla": "TSLA",
+    "meta": "META",
+    "facebook": "META",
+    "nvidia": "NVDA",
+    "netflix": "NFLX",
+    "intel": "INTC",
+    "amd": "AMD",
+}
 UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/120 Safari/537.36"
@@ -260,14 +278,86 @@ def xml_escape(value):
     )
 
 
-def build_quotes_response(symbols):
-    quotes = get_quotes(symbols)
-    ordered = [quotes[s] for s in symbols if s in quotes]
+def quote_stub(symbol, name=None, exchange=""):
+    return {
+        "name": name or symbol,
+        "symbol": symbol,
+        "exchange": exchange,
+        "status": 0,
+        "timestamp": int(time.time()),
+        "price": 0,
+        "change": 0,
+        "changepercent": 0,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "volume": 0,
+        "marketcap": "N/A",
+        "link": "http://m.yahoo.com/s/htcwf/yfinance/quote/"
+        + urllib.parse.quote(symbol)
+        + "/",
+    }
+
+
+def nasdaq_search(phrase):
+    key = phrase.strip().lower()
+    now = time.time()
+    if key in SEARCH_CACHE and now - SEARCH_CACHE[key][0] < SEARCH_TTL:
+        return SEARCH_CACHE[key][1]
+    query = urllib.parse.urlencode({"search": phrase.strip()})
+    req = urllib.request.Request(
+        NASDAQ_SEARCH_URL + "?" + query,
+        headers={"User-Agent": UA, "Accept": "application/json"},
+    )
+    with urllib.request.urlopen(req, timeout=10) as response:
+        data = json.load(response)
+    rows = data.get("data") or []
+    phrase_upper = phrase.strip().upper()
+
+    def rank(row):
+        symbol = (row.get("symbol") or "").upper()
+        asset = (row.get("asset") or "").upper()
+        return (
+            0 if symbol == phrase_upper else 1,
+            0 if asset == "STOCKS" else 1,
+        )
+
+    results = []
+    for row in sorted(rows, key=rank)[:10]:
+        symbol = (row.get("symbol") or "").strip()
+        if not symbol:
+            continue
+        results.append(
+            quote_stub(
+                symbol,
+                (row.get("name") or "").strip() or symbol,
+                row.get("exchange") or "",
+            )
+        )
+    SEARCH_CACHE[key] = (now, results)
+    return results
+
+
+def fallback_search(phrase):
+    key = phrase.strip().lower()
+    symbol = SEARCH_ALIASES.get(key)
+    if not symbol:
+        candidate = phrase.strip().upper()
+        if re.match(r"^[\^A-Z0-9.\-]{1,12}$", candidate):
+            symbol = candidate
+    if not symbol:
+        return []
+    return [quote_stub(symbol)]
+
+
+def build_response(result_type, quotes):
     now = int(time.time())
     parts = ['<?xml version="1.0" encoding="UTF-8"?>', "<response>"]
-    parts.append(f'<result type="getquotes" timestamp="{now}">')
-    parts.append(f'<list count="{len(ordered)}" total="{len(ordered)}">')
-    for q in ordered:
+    parts.append(
+        f'<result type="{xml_escape(result_type)}" timestamp="{now}">'
+    )
+    parts.append(f'<list count="{len(quotes)}" total="{len(quotes)}">')
+    for q in quotes:
         parts.append("<quote>")
         for tag in (
             "name", "symbol", "exchange", "status", "timestamp", "price",
@@ -278,6 +368,26 @@ def build_quotes_response(symbols):
         parts.append("</quote>")
     parts.append("</list></result></response>")
     return "".join(parts).encode("utf-8")
+
+
+def build_quotes_response(symbols):
+    quotes = get_quotes(symbols)
+    ordered = [quotes[s] for s in symbols if s in quotes]
+    return build_response("getquotes", ordered)
+
+
+def build_search_response(phrase):
+    quotes = []
+    try:
+        quotes = nasdaq_search(phrase)
+    except Exception as exc:
+        print(
+            f"{time.strftime('%H:%M:%S')} Nasdaq search error: {exc}",
+            flush=True,
+        )
+    if not quotes:
+        quotes = fallback_search(phrase)
+    return build_response("getsymbol", quotes)
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -310,9 +420,16 @@ class Handler(BaseHTTPRequestHandler):
             query = root.find("query")
             qtype = query.get("type") if query is not None else ""
             symbols = [e.text for e in root.findall(".//symbol") if e.text]
-            print(f"{time.strftime('%H:%M:%S')} request type={qtype!r} symbols={symbols}", flush=True)
-            if qtype == "getquotes":
+            phrase = (root.findtext(".//phrase") or "").strip()
+            print(
+                f"{time.strftime('%H:%M:%S')} request type={qtype!r} "
+                f"symbols={symbols} phrase={phrase!r}",
+                flush=True,
+            )
+            if qtype in ("getquotes", "getsymbolquote"):
                 response = build_quotes_response(symbols)
+            elif qtype == "getsymbol":
+                response = build_search_response(phrase)
             else:
                 response = (
                     '<?xml version="1.0" encoding="UTF-8"?>'
