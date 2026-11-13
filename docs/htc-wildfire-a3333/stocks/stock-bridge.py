@@ -420,11 +420,13 @@ def build_chart_response(symbol, range_):
         "<response>",
         f'<result type="getchart" timestamp="{int(time.time())}">',
     ]
+    marketopen = points[0]["timestamp"] if points else 0
+    marketclose = points[-1]["timestamp"] if points else 0
     parts.append(
         "<meta>"
         f"<symbol>{xml_escape(symbol)}</symbol>"
-        "<marketopen>0</marketopen>"
-        "<marketclose>0</marketclose>"
+        f"<marketopen>{marketopen}</marketopen>"
+        f"<marketclose>{marketclose}</marketclose>"
         "<gmtoffset>0</gmtoffset>"
         "</meta>"
     )

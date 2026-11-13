@@ -293,8 +293,8 @@ and returns the legacy chart shape:
   <result type="getchart" timestamp="...">
     <meta>
       <symbol>AAPL</symbol>
-      <marketopen>0</marketopen>
-      <marketclose>0</marketclose>
+      <marketopen>1794412260</marketopen>
+      <marketclose>1794585000</marketclose>
       <gmtoffset>0</gmtoffset>
     </meta>
     <list count="215" total="215">
@@ -324,7 +324,7 @@ Range mapping:
 | `1y` | `1Y` |
 | `2y` | `1Y` (CNBC's 2Y endpoint returned no bars in testing) |
 
-The bridge downsamples intraday series to about 180 points so the Wildfire's chart view stays responsive, and caches chart data for five minutes. `marketopen` and `marketclose` are set to `0`, so the chart line and axes render but the regular-session shading is not drawn.
+The bridge downsamples intraday series to about 180 points so the Wildfire's chart view stays responsive, and caches chart data for five minutes. `marketopen` and `marketclose` are set to the first and last bar timestamps so the chart view has a valid range; the regular-session shading is still not drawn.
 
 ### Symbol mapping
 
@@ -388,7 +388,7 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 - Adding arbitrary symbols may require extending the CNBC symbol mapping. Search can return funds, ETFs, and notes as well as common stocks; the exact ticker is ranked first, but the quote view is most useful for ordinary stocks.
 - Fresh quotes require the bridge host to be running. When it is offline, the app keeps the last values in `stock.db`.
 - CNBC sometimes returns zero `change`, `open`, `high`, `low`, or `volume` for US symbols outside the regular session. The bridge passes through the fields it receives; the last price is still displayed. Refresh later or wait for the next market session.
-- The 2Y chart button reuses 1Y data because CNBC's 2Y endpoint returned no bars in testing. Chart session shading is not drawn because `marketopen`/`marketclose` are set to `0`.
+- The 2Y chart button reuses 1Y data because CNBC's 2Y endpoint returned no bars in testing. Chart session shading is not drawn; the meta range uses the first/last bar timestamps.
 - The chart view can keep an empty cached chart until the stock detail is reopened; tapping the chart area or an interval button should request fresh data.
 - The app has a pre-existing DCS lifecycle race. If it is opened while the screen is off or behind the keyguard, the DCS component can be destroyed before the response is parsed and the app shows **Connection error**. Open Stocks with the screen on and unlocked; tap **Yes** to retry if needed.
 - The Stocks widget uses the same database as the app. It should show the cached values after a refresh, but it was not separately verified in this restore.
