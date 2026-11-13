@@ -57,6 +57,7 @@ Serial numbers and private network details are intentionally omitted. Values abo
 ## 2026-11-13: verified games
 
 - **Doodle Jump 1.3.0** (`com.realarcade.DOJ`, RealArcade/RealNetworks 2009 signature) is installed and verified. It launches to the sound prompt, main menu, high-score screen, help overlay and in-game view at 240x320; the optical trackpad/DPAD navigates the menus. It is a self-contained Java/MIDlet port with no network dependency, so it works offline. The APK stays outside Git; SHA-256 `db578b60fb16e2cf17e9968d8541e6cb21f33f3f3615ced26f71842576f60bf2`.
+- **Skater Boy 1.6** (`com.game.SkaterBoy`, versionCode 10) is installed and playable, but marginal. The stock build clamps updates to 1/35 s; at the Wildfire's ~19 FPS that ran at about 0.5x. A locally re-signed build raises the cap to 0.04 s, giving about 0.75x at 19 FPS and native speed above ~25 FPS. It is visibly choppy but close to the intended speed. The original and patched APKs stay outside Git; hashes and reinstall caveats are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Angry Birds:** not playable on this ROM. The Android builds require OpenGL ES 2.0, but the stock kernel exposes no `hw3dc` GPU device; the ES 1.x 1.0 build also crashes in its EGL config chooser. Details, hashes and cleanup are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 
 ## Investigation observations (2026-11-08 to 2026-11-10) — historical

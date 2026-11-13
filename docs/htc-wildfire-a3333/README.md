@@ -7,7 +7,7 @@
 - **Root:** BusyBox `su` at `/system/bin/su` (promptless)
 - **Weather:** phone-local, no VPS or HTC/AccuWeather dependency
 - **Stock apps:** restored; no general debloat
-- **Games:** Doodle Jump verified working; Angry Birds blocked by missing OpenGL ES 2.0/GPU kernel device — see [GAMES.md](GAMES.md)
+- **Games:** Doodle Jump verified working; Skater Boy 1.6 playable but marginal with a 0.75x timing-cap build; Angry Birds blocked by missing OpenGL ES 2.0/GPU kernel device — see [GAMES.md](GAMES.md)
 - **Last verified:** 2026-11-13
 
 ## What this guide does

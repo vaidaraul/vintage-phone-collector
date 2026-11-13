@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3 — 2026-11-13
+
+- Recorded Skater Boy 1.6 as playable but marginal using a re-signed timing-cap build: about 0.75x at the Wildfire's ~19 FPS, with full speed above ~25 FPS.
+- Documented the stock 1/35 s clamp, the rejected raw-delta 1x experiment, the recommended 0.04 s cap, APK/DEX hashes, and the reinstall/data-restore caveat.
+- Updated the game summaries in the guide and device history.
+
 ## 0.2 — 2026-11-13
 
 - Added MIT code license and CC BY 4.0 documentation license.
