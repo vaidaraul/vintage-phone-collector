@@ -69,6 +69,7 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 - All pre-debloat `/system/app` files present except the old `Superuser.apk` (intentionally replaced by BusyBox `su`).
 - Weather CGI returns the legacy `<weather>` XML for all saved cities and the current location.
 - BusyBox httpd listens on `127.0.0.1:80` and starts at boot.
+- News works with BBC News plus BBC World/Technology/Science/Business/Sport, Ars Technica, Engadget, ScienceDaily, and Universe Today.
 
 ## Related documents
 

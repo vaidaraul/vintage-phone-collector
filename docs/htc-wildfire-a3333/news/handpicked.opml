@@ -11,7 +11,6 @@
       <outline type="rss" text="Engadget" title="Engadget" xmlUrl="http://feeds.feedburner.com/engadget" htmlUrl="http://www.engadget.com/"/>
       <outline type="rss" text="ScienceDaily" title="ScienceDaily" xmlUrl="http://www.sciencedaily.com/rss/top/science.xml" htmlUrl="http://www.sciencedaily.com/"/>
       <outline type="rss" text="Universe Today" title="Universe Today" xmlUrl="http://feeds.feedburner.com/Universetoday" htmlUrl="http://www.universetoday.com/"/>
-      <outline type="rss" text="Local Test" title="Local Test" xmlUrl="http://127.0.0.1/news/test-feed.xml" htmlUrl="http://127.0.0.1/news/"/>
     </outline>
   </body>
 </opml>

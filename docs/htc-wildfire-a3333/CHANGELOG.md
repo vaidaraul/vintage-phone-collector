@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5 — 2026-11-13
+
+- Recorded the final on-phone feed set: BBC News plus BBC World/Technology/Science/Business/Sport, Ars Technica, Engadget, ScienceDaily, and Universe Today.
+- Confirmed Ars Technica works in NewsReader via its plain-HTTP URL; the browser TLS dialog was a subresource issue, not a feed failure.
+- Removed the local test feed from the recommended set; it remains a diagnostic only.
+- Updated `recommended.opml` to nine feeds and removed the local test entry from `handpicked.opml`.
+- Updated the news notes, README, and device history with the final counts.
+
 ## 0.4 — 2026-11-13
 
 - Added `NEWS.md`: HTC NewsReader is a real RSS/Atom reader with add-by-URL and OPML import.

@@ -1,6 +1,6 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
-**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; BBC News verified working; CNN's preinstalled feed is stale (2023)
+**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today
 
 **Last updated:** 2026-11-13
 
@@ -65,11 +65,12 @@ Serial numbers and private network details are intentionally omitted. Values abo
 
 - The stock `com.htc.newsreader` (`NewsReader.apk`) is a real RSS/Atom front end over the Rosedata `com.rosedata.android.rss` (`RSS.apk`) engine. It supports direct subscription by URL, OPML import/export, categories, refresh intervals, and a home-screen widget.
 - Supported formats are RSS 0.90–2.0 and Atom 0.3/1.0. The URL field is limited to 255 characters. Google Reader sync code is present but optional; direct feeds use the local engine.
-- **BBC News is verified working on the phone:** 36 current headlines, latest 2026-11-13 09:34. Its legacy HTTP URL redirects to HTTPS and the app follows it, so HTTPS is not universally broken on Froyo.
-- **CNN is stale:** the preinstalled `rss.cnn.com` feed loads 50 items, but they are from April 2023. The app stamps the fetch time on each headline, so they look current. CNN's HTTPS endpoint failed a TLS handshake from a modern client.
-- Yahoo!, Engadget, and CNET's preinstalled feed URLs return 0 headlines (dead).
-- Four fresh plain-HTTP feeds were also verified: Ars Technica, Engadget (FeedBurner), ScienceDaily, and Universe Today.
-- The local-feed UI test and OPML import are pending. See [NEWS.md](../../docs/htc-wildfire-a3333/NEWS.md).
+- **Final working set on the phone:** BBC News (39), BBC World (13), BBC Technology (9), BBC Science (31), BBC Business (45), BBC Sport (43), Ars Technica (20), Engadget (20), ScienceDaily (50), and Universe Today (20).
+- **BBC News is verified working:** its legacy HTTP URL redirects to HTTPS and the app follows it, so HTTPS is not universally broken on Froyo. The BBC topic feeds use the same endpoint.
+- **Ars Technica works in the app** via its plain-HTTP URL (`http://feeds.arstechnica.com/arstechnica/index`). The stock browser shows a TLS dialog for the HTTPS URL because of a subresource; the feed itself is fetched and parsed correctly.
+- **CNN was stale:** the preinstalled `rss.cnn.com` feed loaded 50 items, but they were from April 2023. The app stamps the fetch time on each headline, so they looked current. It was removed.
+- Yahoo!, Engadget (old URL), and CNET's preinstalled feed URLs returned 0 headlines and were removed.
+- The local test feed was a diagnostic only and was removed. See [NEWS.md](../../docs/htc-wildfire-a3333/NEWS.md).
 
 ## Investigation observations (2026-11-08 to 2026-11-10) — historical
 
