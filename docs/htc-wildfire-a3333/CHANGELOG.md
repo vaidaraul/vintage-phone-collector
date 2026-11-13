@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.25 — 2026-11-13
+
+- Recorded the hands-on comparison: the original Glow Hockey 1.2.12 is better; Glow Hockey 2 1.0.4 is worse and slower but is kept installed for fun.
+
 ## 0.24 — 2026-11-13
 
 - Found the original Glow Hockey 1.2.15 and 1.2.12 APKs on Uptodown; both carry the official Natenai Ariyatrakool signature.

@@ -31,7 +31,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Bubble Blast 2 | `com.magmamobile.game.BubbleBlast2` 1.0.45 (61) | Works | Pure Java, official Magma Mobile signature; SD install; Puzzle level and chain reaction verified |
 | Abduction! World Attack | `au.com.phil.abduction` 1.2.6 (22) | Works | Pure Java, official Phil Symonds build; SD install; Quick Game, gameplay and score verified |
 | Robo Defense FREE | `com.magicwach.rdefense_hd_free_beta` 2.0.0 (2221) | Works | Pure Java, official build; SD install; menu, level select and game board verified; beta-expired notice |
-| Glow Hockey 2 | `com.natenai.glowhockey2` 1.0.4 (5) | Works, slow | ARMv6/ES 1.1; SD install; free-version prompt, menu and 1-player match verified; slower than the original |
+| Glow Hockey 2 | `com.natenai.glowhockey2` 1.0.4 (5) | Works, slow | ARMv6/ES 1.1; SD install; free-version prompt, menu and 1-player match verified; kept for fun, but worse/slower than the original in hands-on use |
 | Glow Hockey | `com.natenai.glowhockey` 1.2.12 (13) | Works | Official original build; minSdk 4; SD install; splash, cross-promo and match verified; 1.2.15 crashes in its AdMob worker |
 | Where's My Water? | `com.disney.WMW` 1.2.0 / `com.disney.WMW_BN` 1.5.1 | Not playable | ARMv6/ES 1.1, but native SIGSEGV in `libwmw.so` when gameplay loads |
 | Peggle | `com.popcap.peggle` 1.0 | Not playable | Only debug-signed repack; black screen, no GL context; uninstalled |
@@ -243,7 +243,7 @@ Three builds were tested. All install, but none reaches gameplay.
 - **1.2.15** (versionCode `15`; `minSdkVersion 7`; `targetSdkVersion 17`; 6,996,168 bytes; SHA-256 `b395c9c0816101ad7e53288f37607aedf8bd66a39230273705fbb3c2d3e53b25`; `installLocation=preferExternal`) installs to SD but is not usable on Froyo. It loads `libnategame.so`, then dies with `FATAL EXCEPTION: AdWorker #1` and `java.lang.NoSuchMethodError: java.io.IOException.<init>` in its 2014 AdMob/Play Services code.
 - **1.2.12** (versionCode `13`; `minSdkVersion 4`; `targetSdkVersion 15`; 6,359,295 bytes; SHA-256 `d2f5d6d2307be74e8b47144110b81ae1aadc9e81cb1853303cda74e9b7fd79d3`; `installLocation=preferExternal`) is the older original build and works. It is signed by Natenai Ariyatrakool, installs to SD at `/mnt/asec/com.natenai.glowhockey-1/pkg.apk`, and its `lib/armeabi/libnategame.so` is ARMv5TE and links `libGLESv1_CM.so`.
 - Verified on the phone: the "Glow Hockey FREE" splash, Tap to Continue, the Glow Hockey 2 cross-promo, and then the original neon table with paddles, pucks and a 0-1 score. Offline ad requests do not block play.
-- The 1.2.16 build remains `minSdkVersion 9` and Froyo rejects it with `INSTALL_FAILED_OLDER_SDK`. Glow Hockey 2 FREE 1.0.4 remains installed but is slower.
+- The 1.2.16 build remains `minSdkVersion 9` and Froyo rejects it with `INSTALL_FAILED_OLDER_SDK`. Glow Hockey 2 FREE 1.0.4 remains installed for fun; the hands-on comparison found it worse and slower than the original 1.2.12.
 - No firmware, `/system`, or GPU changes were made.
 
 ## Paper Toss
