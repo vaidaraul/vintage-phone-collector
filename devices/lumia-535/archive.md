@@ -1,7 +1,7 @@
 # Lumia 535 local archive and provenance
 
 **Status:** local reference archive; binaries are not committed  
-**Last checked:** 2026-11-13
+**Last checked:** 2026-11-14
 
 The current game-suite status, package IDs, hashes and launch evidence are in
 [GAMES.md](GAMES.md). This page records the local archive contents and provenance.
@@ -70,7 +70,7 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | `METROTUBE (Patched).xap` | XAP | 2,909,312 | Untested; patched build, provenance unverified. |
 | `Microsoft News v4.25.11762.0 [file.windowsviet.com].appx` | APPX | 24,765,728 | Service/API down (user-reported). |
 | `Microsoft People v10.2.2351.0 [file.windowsviet.com].appxbundle` | APPXBUNDLE | 8,114,007 | Deployment failed with `0x80073CFF`. |
-| `Minecraft for Windows 10 Mobile v1.5.201.0 [file.windowsviet.com].appx` | APPX | 66,523,269 | Installed through Device Portal; start returns `Unavailable` (`-2143322111`). The investigated 1.5.300.0 package is not in this archive. |
+| `Minecraft for Windows 10 Mobile v1.5.201.0 [file.windowsviet.com].appx` | APPX | 66,523,269 | Removed; installed through Device Portal but start returned `Unavailable` (`-2143322111`). The investigated 1.5.300.0 package is not in this archive. |
 | `MSN Sports v4.25.11762.0 [file.windowsviet.com].appx` | APPX | 23,995,819 | Update path works; API down (user-reported). |
 | `MSN Weather v4.26.12153.0 [file.windowsviet.com].appxbundle` | APPXBUNDLE | 25,876,536 | Functional; current data confirmed. |
 | `NFS Hot Pursuit v1.0.0.0 [Winphone Iz].xap` | XAP | 118,472,721 | Functional (user-reported). |
@@ -85,6 +85,7 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | `Ambient Weather v1.4.1.6 [file.windowsviet.com].Appx` | APPX | 10,163,783 | Untested. |
 | `Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | XAP | 34,036,549 | Original copy; title “Angry Birds”. Superseded by the title-patched build. |
 | `Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | XAP | 34,590,280 | Installed; launch-confirmed. Title patched to “Angry Birds Seasons”. |
+| `Bad Piggies v1.6.1.0 [Archive.org].xap` | XAP | 34,363,149 | Installed; launch-confirmed. Official Rovio build; SHA-1 verified. |
 | `Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | XAP | 8,242,980 | Installed; launch-confirmed. |
 | `Doodle Jump v1.8.10 [Archive.org].xap` | XAP | 7,724,376 | Installed; launch-confirmed. |
 | `Hill Climb Racing v1.16.0.0 [Archive.org].xap` | XAP | 18,373,763 | Installed; launch-confirmed. |

@@ -2,7 +2,7 @@
 
 Phone: **Lumia 535 (RM-1089)**, Windows 10 Mobile **10.0.14393.2551 (1607)**  
 Deployer: `tools/DeviceTool.exe` (CoreCon 11, per-user COM registration, no admin install)  
-Test pass: **2026-11-13**
+Test pass: **2026-11-14**
 
 This file follows the evidence standard in the HTC Wildfire testing process:
 [TESTING.md](../../docs/htc-wildfire-a3333/TESTING.md).
@@ -75,9 +75,14 @@ Also installed, not part of the HTC list:
 | Candy Crush Saga | `Candy Crush Saga v1.0.0.1 [file.windowsviet.com].xap` / 1.0.0.1 | XNA | PASS, 1.5 s | Not captured | Launch-only |
 | Asphalt 5 | `Asphalt 5 v1.33.0.0 [file.windowsviet.com].xap` / 1.0.0.0 | XNA | PASS, 1.5 s | Not captured | Launch-only |
 | NFS: Hot Pursuit | `NFS Hot Pursuit v1.0.0.0 [Winphone Iz].xap` / 1.0.0.0 | XNA | PASS, 1.5 s | Not captured | Launch-only |
+| Bad Piggies | `Bad Piggies v1.6.1.0 [Archive.org].xap` / 1.6.1.0 | Silverlight | PASS | Not captured | Launch-only |
 
 Angry Birds **1.5.3.0** (`e4571a02-0b87-e011-986b-78e7d1fa76f8`) is the remaining full
 XNA build. The 5.0.2.0 trial was removed; Angry Birds Seasons now has its own title.
+
+Bad Piggies **1.6.1.0** is an official Rovio Silverlight XAP from Archive.org item
+`bad-piggies-windows-phone`; its SHA-1 (`8CEE8C70E6AA616B1C35B48D6620CA2CAB57B171`) was
+verified, and its SHA-256 matches the VirusTotal hash in the item metadata.
 
 Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 **WUT Mini 1.5.1.0**.
@@ -96,6 +101,7 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 | Where's My Water? | `15e6bf4d-b1ea-4b21-9301-fbf27fa00c2a` |
 | Zuma's Revenge! | `06da2c13-d8f1-4693-9ef9-11cbfa291e4c` |
 | Mou | `c032d62c-7f6a-4538-8150-f77034dcf335` |
+| Bad Piggies | `9ccfb504-1e48-4fc4-ba6d-8f0d2400a8f5` |
 | Talking Tom | `OutFit7Limited.TalkingTomCat_3.1.0.0_arm__rmf98d2bjqpyp` |
 
 ## HTC titles not installed
@@ -114,10 +120,10 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 
 ## APPX notes
 
-- **Minecraft 1.5.201.0** installs through Device Portal but starts with `Unavailable`
-  (`-2143322111`). The Windows Phone 8.1 `0.14.0.1` APPX was also tried, including its
-  signing certificate; registration failed with `Package could not be registered`.
-  No working Minecraft build has been found for this phone.
+- **Minecraft 1.5.201.0** installed through Device Portal but started with `Unavailable`
+  (`-2143322111`); it was **removed**. The Windows Phone 8.1 `0.14.0.1` APPX was also
+  tried, including its signing certificate; registration failed with
+  `Package could not be registered`. No working Minecraft build has been found.
 - **Fruit Ninja 1.8.1.66 APPX** is blocked by the missing
   `Microsoft.VCLibs.110.00` dependency.
 - **Talking Tom 3.1.0.0 APPX** installs, but Device Portal start returns `Unavailable`.
@@ -154,6 +160,7 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 | File | SHA-256 |
 |---|---|
 | `apk/Bejeweled Live+ 1.0.0.0 [Archive.org].xap` | `5A19EE07D8321BA4EAD972926AAD8D3E066F3A44D19C6555FF049DF022690D80` |
+| `apk/Bad Piggies v1.6.1.0 [Archive.org].xap` | `BD0D1B52609C766D0F080D25F3E204E623055DF7276D9D4581C46A567A8DA814` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | `E5FEAA5B7942C2DD6A9235A88ABB86D7E0880C76DBAD09C049EEC9F809EB4134` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | `4736EFA73922BC94496CC960EDA35CE1A2AD5FCD6EB93B81896682E91C48E39B` |
 | `apk/Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | `F750A93F95CA2A34E8FB11A19400E46FBC236CBDDF2210837BE73A71C7F794D7` |
@@ -213,9 +220,9 @@ Git.
   `/api/resourcemanager/processes` proves the package started, not that it is on screen.
 - Microsoft Project My Screen 1.2 connected but delivered a black video stream on this
   build. Native **Volume Up + Power** screenshots are the reliable frame-capture method.
-- Minecraft 1.5.201.0 installs but starts with `Unavailable` (`-2143322111`); the WP8.1
-  0.14.0.1 APPX was rejected during registration. Talking Tom has the same start error;
-  My Talking Tom is the working XAP alternative.
+- Minecraft 1.5.201.0 was installed and removed after it failed to start with
+  `Unavailable` (`-2143322111`); the WP8.1 0.14.0.1 APPX was rejected during registration.
+  Talking Tom has the same start error; My Talking Tom is the working XAP alternative.
 - The Zuma and Where's My Water packages are patched/repacked builds. They are not
   byte-identical to the original publisher packages and should be treated as provisional.
 - The phone's sleep timeout was temporarily set to `Never` for the pass and restored to

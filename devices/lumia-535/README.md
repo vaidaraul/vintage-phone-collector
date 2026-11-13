@@ -1,7 +1,7 @@
 # Nokia Lumia 535 RM-1089 — Windows Phone restoration
 
 **Status:** Windows 10 Mobile running; 15 of 24 HTC-list game titles installed, 14 launch-confirmed  
-**Last updated:** November 13, 2026
+**Last updated:** November 14, 2026
 
 Part of the [Vintage Phone Collector](../../README.md) project. This log documents a **Nokia Lumia 535 RM-1089**, upgraded from Windows Phone 8.1 to Windows 10 Mobile and used to test classic Windows Phone and Windows 10 Mobile software on original hardware.
 
@@ -20,7 +20,7 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | Developer Mode | Enabled |
 | USB XAP deployment | Working with Microsoft Windows Phone SDK 8.0 |
 | Classic XAP games | 15 of 24 HTC-list titles installed; 14 launch-confirmed |
-| Minecraft APPX | `1.5.201.0` installed through Device Portal; start returns `Unavailable` (`-2143322111`); not playable |
+| Minecraft APPX | Removed; `1.5.201.0` installed but start returned `Unavailable` (`-2143322111`); no working build found |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
 
 ### Games tested on the Lumia 535
@@ -35,6 +35,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | Angry Birds Classic | `1.5.3.0` | **Functional** | Remaining full XNA build; launches and is playable. Archive contains an `AppCracked` marker, so original distribution has not been independently verified. |
 | Angry Birds Seasons | `4.0.1.0` | **Launch-confirmed** | Installed from an archived vnokia copy with the title patched to “Angry Birds Seasons”; menu and gameplay were not captured. |
 | Asphalt 5 | `1.33.0.0` | **Functional** | Installed and runs. |
+| Bad Piggies | `1.6.1.0` | **Launch-confirmed** | Official Rovio Silverlight XAP; installed and running. |
 | Bubble Blast 2 | `1.4.0.0` | **Launch-confirmed** | Installed from an archived vnokia copy; menu and gameplay were not captured. |
 | Candy Crush Saga | `1.0.0.1` | **Functional (user-reported)** | Original pre-microtransaction XAP per the user; package authenticity not independently verified. |
 | Cut the Rope | `1.7.0.0` | **Functional (user-confirmed)** | User confirms it is fully working. |
@@ -44,7 +45,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | Fruit Ninja | `1.1.0.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
 | Hill Climb Racing | `1.16.0.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
 | Jetpack Joyride | `1.0.1.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
-| Minecraft | `1.5.201.0` | **Installed; start fails** | Installed through Device Portal; start returns `Unavailable` (`-2143322111`). |
+| Minecraft | `1.5.201.0` | **Removed** | Installed through Device Portal but start returned `Unavailable` (`-2143322111`); uninstalled. |
 | Minecraft PE | `0.140.1.0` APPX | **Registration failed** | WP8.1 APPX, developer-signed; attempted with its signing certificate and rejected with “Package could not be registered”. Not installed. |
 | Minecraft | `1.5.300.0` | **Under investigation** | Manifest inspected on the PC; not installed. |
 | Mou | `3.8.2.9` | **Launch-confirmed** | Windows Phone clone of Pou; not the official Zakeh game. |
@@ -175,6 +176,7 @@ The statuses below are based on behavior observed on the phone, not package meta
 | Angry Birds `5.0.2.0` | WindowsViet (`file.windowsviet.com`) | Archived XAP package; purchase prompt observed during testing. |
 | Angry Birds `1.5.3.0` | Winphone Iz | XAP package; contains an `AppCracked` marker and may be modified. |
 | Asphalt 5 `1.33.0.0` | WindowsViet (`file.windowsviet.com`) | XAP package; tested and runs. |
+| Bad Piggies `1.6.1.0` | Archive.org (`bad-piggies-windows-phone`) | Official Rovio Silverlight XAP; SHA-1 verified; installed and launch-confirmed. |
 | Candy Crush Saga `1.0.0.1` | WindowsViet (`file.windowsviet.com`) | XAP downloaded to `E:\Projects\Lumia\Candy Crush Saga v1.0.0.1 [WindowsViet].xap`; user identifies it as the original pre-microtransaction build and reports it fully working. Package authenticity has not been independently verified. |
 | Cut the Rope `1.7.0.0` | Winphone Iz | XAP package; user confirms it is fully working on the Lumia 535. |
 | Fruit Ninja `1.0.0.0` | WindowsViet (`file.windowsviet.com`) | XAP package; deployment failed with an optimization input-file error. |
@@ -199,6 +201,7 @@ The source names above are provenance notes, not endorsements or proof that the 
 | Angry Birds Classic `5.0.2.0` | Windows Phone 8.0 / Modern Native | Rovio Entertainment Ltd; executable `AngryBirdsClassic.exe` | Not recorded in the original notes. |
 | Angry Birds Classic `1.5.3.0` | Windows Phone 7.0 / XNA | Microsoft Game Studios; product ID `{e4571a02-0b87-e011-986b-78e7d1fa76f8}` | `21,053,919` bytes |
 | Asphalt 5 `1.33.0.0` | Windows Phone 7.1 / XNA | GAMELOFT SA; product ID `{97e360f9-f018-4c39-ae54-139590c9b048}` | `115,669,153` bytes |
+| Bad Piggies `1.6.1.0` | Windows Phone 8.0 / Silverlight | Rovio Entertainment Ltd; product ID `{9ccfb504-1e48-4fc4-ba6d-8f0d2400a8f5}` | `34,363,149` bytes |
 | Temple Run `1.5.3.0` | Windows Phone 8.0 / Silverlight; package includes Unity components | Imangi Studios, LLC; product ID `{1a7cb5f8-792a-4992-b07a-83874c0795ae}` | `23,401,108` bytes |
 | Candy Crush Saga `1.0.0.1` | Windows Phone 7.1 / XNA | Author `king.com`; manifest publisher `XiaomiCandy`; product ID `{dee79c09-37b8-4143-8d2f-4faabc74b378}` | `16,282,183` bytes |
 | Cut the Rope `1.7.0.0` | Windows Phone 7.1 / Silverlight; XNA library present | Zeptolab UK Ltd; product ID `{4c0cf9f4-31f0-444e-9321-0237d04f6a38}` | `39,367,460` bytes |
@@ -339,9 +342,11 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
 - Re-test Temple Run stability; the latest pass confirmed a process, not gameplay.
 - Re-check the patched/repacked builds: Zuma's Revenge (manifest-patched), Where's My
   Water? (uploader repack, title corrected) and Mou (Pou clone).
-- Find a Minecraft build that registers and starts; `1.5.201.0` installs but returns
+- Minecraft: no working build found. `1.5.201.0` was removed after start returned
   `Unavailable`, and the WP8.1 `0.14.0.1` APPX was rejected with “Package could not be
   registered”.
+- Bad Piggies is installed and launch-confirmed; capture a menu/gameplay frame and
+  exercise one level.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
 - Recover verified original URLs and reference hashes for the packages and procedures.
 
