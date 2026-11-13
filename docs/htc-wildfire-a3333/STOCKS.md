@@ -297,20 +297,15 @@ and returns the legacy chart shape:
       <marketclose>1794585000</marketclose>
       <gmtoffset>0</gmtoffset>
     </meta>
-    <list count="215" total="215">
-      <point>
-        <close>353.57</close>
-        <open>353.30</open>
-        <high>353.70</high>
-        <low>353.275</low>
-        <timestamp>1794409980</timestamp>
-        <volume>84116</volume>
-      </point>
+    <list count="173" total="173">
+      <point close="353.57" open="353.30" high="353.70" low="353.275" timestamp="1794409980" volume="84116"/>
       ...
     </list>
   </result>
 </response>
 ```
+
+The Wildfire parser reads the `<point>` fields from **attributes** (`getAttributeValue`), while the `<meta>` fields are child elements (`nextText`). Keep that split; child-element points are silently parsed as empty and the chart stays on the “Tap to update prices” placeholder.
 
 Range mapping:
 

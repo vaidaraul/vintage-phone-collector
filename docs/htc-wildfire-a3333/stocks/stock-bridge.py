@@ -432,10 +432,11 @@ def build_chart_response(symbol, range_):
     )
     parts.append(f'<list count="{len(points)}" total="{len(points)}">')
     for point in points:
-        parts.append("<point>")
-        for tag in ("close", "open", "high", "low", "timestamp", "volume"):
-            parts.append(f"<{tag}>{xml_escape(point.get(tag))}</{tag}>")
-        parts.append("</point>")
+        attrs = " ".join(
+            f'{tag}="{xml_escape(point.get(tag))}"'
+            for tag in ("close", "open", "high", "low", "timestamp", "volume")
+        )
+        parts.append(f"<point {attrs}/>")
     parts.append("</list></result></response>")
     return "".join(parts).encode("utf-8")
 
