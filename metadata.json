@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-11-13T22:37:37.047Z",
+  "market": "en-gb",
+  "count": 3,
+  "articleIds": [
+    "TEST0001",
+    "TEST0002",
+    "TEST0003"
+  ],
+  "endpoints": {
+    "oldSearch": "https://cdn.query.prod.cms.msn.com/cms/api/amp/search?$filter='%24type'eq'article'and'_locale'eq'en-gb'&$orderby='_lastPublishedDateTime'%20desc&$top=30",
+    "modernFeed": "https://assets.msn.com/service/news/feed/pages/channelfeed?apikey=REDACTED&cm=en-gb&contentType=article&query=Top%20Stories&count=30"
+  },
+  "note": "Candidate legacy envelopes. Test each variant on the phone before publishing a final feed."
+}
