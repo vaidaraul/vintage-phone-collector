@@ -67,6 +67,8 @@ So:
 
 If the app fails at the certificate step, the phone’s 2010 CA store is the likely cause. A local TLS proxy on a trusted PC can terminate modern TLS and serve old TLS/plain to the phone, but that exposes the mail password to the proxy. Use it only on a machine you control.
 
+**Common mistake:** the incoming server is `imap.gmail.com`, not `imap.google.com`. The wrong name produces `UnknownHostException: Host is unresolved: imap.google.com:993` and the app reports “Cannot connect to the mail server to verify your account information.” The outgoing server is `smtp.gmail.com`, not `smtp.google.com`.
+
 ### Other providers
 
 A provider may still work if it allows TLS 1.0 and basic authentication or app passwords. Test it with `openssl s_client` before spending time in the app:
