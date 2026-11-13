@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8 — 2026-11-13
+
+- Verified HTC Mail with Gmail on the phone: App Password, `imap.gmail.com:993` SSL/TLS, `smtp.gmail.com:587` TLS; the Inbox synced.
+- Documented the `imap.google.com`/`smtp.google.com` hostname mistake that causes `UnknownHostException`.
+- Updated the modern-web notes and device history with the working Gmail setup.
+
 ## 0.7 — 2026-11-13
 
 - Added `MODERN-WEB.md`: Google account sign-in is permanently blocked on Android 2.3.7 and lower; Play Store is not usable; modern browsing has workarounds.

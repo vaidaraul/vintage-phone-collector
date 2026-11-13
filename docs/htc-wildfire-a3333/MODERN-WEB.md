@@ -1,6 +1,6 @@
 # Modern web and Google services on Froyo
 
-**Status:** researched and partly tested on the Wildfire A3333 on 2026-11-13. Some limits are permanent Google policy; the web-browsing limit has practical workarounds.
+**Status:** researched and partly tested on the Wildfire A3333 on 2026-11-13. Some limits are permanent Google policy; the web-browsing limit has practical workarounds. **Gmail via HTC Mail is verified working with an App Password.**
 
 This page separates the things that cannot be fixed from the things that can.
 
@@ -42,14 +42,14 @@ Tested on 2026-11-13 with OpenSSL:
 
 | Provider | IMAP 993 TLS 1.0 | Result |
 | --- | --- | --- |
-| Gmail | **Accepted** | TLS 1.0 with AES128-SHA or AES256-SHA; IMAP and SMTP both work |
+| Gmail | **Accepted** | TLS 1.0 with AES128-SHA or AES256-SHA; **verified working in HTC Mail with an App Password** |
 | Outlook.com | Rejected | `tlsv1 alert protocol version`; TLS 1.2 required |
 | Yahoo Mail | Rejected | `tlsv1 alert protocol version`; TLS 1.2 required |
 | iCloud Mail | Rejected | `tlsv1 alert protocol version`; TLS 1.2 required |
 
 So:
 
-- **Gmail is the best chance.** Google still accepts TLS 1.0 on `imap.gmail.com:993` and `smtp.gmail.com:587` with the AES-SHA ciphers that Froyo supports.
+- **Gmail works.** Google still accepts TLS 1.0 on `imap.gmail.com:993` and `smtp.gmail.com:587` with the AES-SHA ciphers that Froyo supports. Verified on the phone: the Inbox synced after entering the App Password.
 - **Outlook, Yahoo, and iCloud are dead for this app.** Their servers require TLS 1.2.
 - **Exchange ActiveSync for Microsoft 365/Outlook is dead.** Modern Exchange requires TLS 1.2 and OAuth.
 
@@ -166,6 +166,6 @@ https://archive.mozilla.org/pub/mobile/releases/31.3.0esr/android-armv6/en-US/fe
 | Play Store / Android Market | Yes | Sideload APKs manually |
 | Modern HTTPS in stock browser | Yes, OS TLS | Opera Mini (tested) or WebOne proxy |
 | Google Search in stock browser | Mostly | Opera Mini loaded Google in testing |
-| HTC Mail with Gmail | No, if App Password works | Use a Gmail App Password and test the certificate |
+| HTC Mail with Gmail | **Works** | Use a Gmail App Password; verified with the Inbox |
 | HTC Mail with Outlook/Yahoo/iCloud | Yes, TLS 1.2 required | Webmail or a local TLS proxy |
 | News and weather | No | Already working locally |
