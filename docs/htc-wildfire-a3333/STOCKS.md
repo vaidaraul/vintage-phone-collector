@@ -58,7 +58,7 @@ All files are in the [`stocks/`](stocks/) folder next to this document. They are
 
 | File | Purpose |
 | --- | --- |
-| `stock-bridge.py` | Python 3 DGW bridge; pre-warmed per-symbol cache, CNBC quotes, Nasdaq symbol search, legacy XML, optional Yahoo fallback |
+| `stock-bridge.py` | Python 3 DGW bridge; pre-warmed per-symbol cache, CNBC quotes and historical charts, Nasdaq symbol search, legacy XML, optional Yahoo fallback |
 | `start-bridge.sh` | Starts the bridge, with `--if-needed` support for a cron watchdog |
 | `stock-boot.sh` | Phone boot hook that re-adds the DNAT rule |
 | `install-phone.sh` | Phone installer: hosts entry, DNAT rule, boot hook |
@@ -270,6 +270,62 @@ https://api.nasdaq.com/api/autocomplete/slookup/10?search=aapl
 
 Exact symbol matches are ranked first, then `STOCKS`, then other asset types. If Nasdaq is unavailable, the bridge falls back to a small ticker/company-name alias map and accepts plain ticker-shaped input. The magnifying-glass button mainly manages the local search history; pressing **Enter** is what submits the DCS query in the app.
 
+### Charts (`getchart`)
+
+The stock detail chart and the 1D/5D/1M/3M/6M/1Y/2Y buttons send:
+
+```xml
+<query id="0" timestamp="0" type="getchart">
+<symbol>AAPL</symbol><range>1d</range>
+</query>
+```
+
+The bridge fetches CNBC's historical chart JSON:
+
+```text
+https://ts-api.cnbc.com/harmony/app/charts/1D.json?symbol=AAPL
+```
+
+and returns the legacy chart shape:
+
+```xml
+<response>
+  <result type="getchart" timestamp="...">
+    <meta>
+      <symbol>AAPL</symbol>
+      <marketopen>0</marketopen>
+      <marketclose>0</marketclose>
+      <gmtoffset>0</gmtoffset>
+    </meta>
+    <list count="215" total="215">
+      <point>
+        <close>353.57</close>
+        <open>353.30</open>
+        <high>353.70</high>
+        <low>353.275</low>
+        <timestamp>1794409980</timestamp>
+        <volume>84116</volume>
+      </point>
+      ...
+    </list>
+  </result>
+</response>
+```
+
+Range mapping:
+
+| App range | CNBC endpoint |
+| --- | --- |
+| `1d` | `1D` |
+| `5d` | `5D` |
+| `1m` | `1M` |
+| `3m` | `3M` |
+| `6m` | `6M` |
+| `1y` | `1Y` |
+| `2y` | `1Y` (CNBC's 2Y endpoint returned no bars in testing) |
+
+The bridge downsamples intraday series to about 240 points so the Wildfire's chart view stays responsive, and caches chart data for five minutes. `marketopen` and `marketclose` are set to `0`, so the chart line and axes render but the regular-session shading is not drawn.
+
 ### Symbol mapping
 
 The bridge translates Yahoo-style symbols to CNBC symbols:
@@ -324,6 +380,7 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 | The app opens the browser to a dead Yahoo page | The **Finance** and **Quotes delayed** links are legacy browser links; they are not the quote feed |
 | NASDAQ/GOOG change shows `0.00` | CNBC returned an incomplete after-hours quote; the price is still valid. Refresh later or wait for the next session |
 | Search returns no results | Check the bridge log for `type='getsymbol' phrase=...`; the host must be able to reach `api.nasdaq.com`. Type the symbol/company and press **Enter** in the app |
+| Chart says **Tap to update prices** / interval buttons do nothing | Check the bridge log for `type='getchart'` and the requested `range`; close and reopen the stock detail to discard an empty cached chart. The host must reach `ts-api.cnbc.com` |
 
 ## What still does not work
 
@@ -331,6 +388,8 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 - Adding arbitrary symbols may require extending the CNBC symbol mapping. Search can return funds, ETFs, and notes as well as common stocks; the exact ticker is ranked first, but the quote view is most useful for ordinary stocks.
 - Fresh quotes require the bridge host to be running. When it is offline, the app keeps the last values in `stock.db`.
 - CNBC sometimes returns zero `change`, `open`, `high`, `low`, or `volume` for US symbols outside the regular session. The bridge passes through the fields it receives; the last price is still displayed. Refresh later or wait for the next market session.
+- The 2Y chart button reuses 1Y data because CNBC's 2Y endpoint returned no bars in testing. Chart session shading is not drawn because `marketopen`/`marketclose` are set to `0`.
+- The chart view can keep an empty cached chart until the stock detail is reopened; tapping the chart area or an interval button should request fresh data.
 - The app has a pre-existing DCS lifecycle race. If it is opened while the screen is off or behind the keyguard, the DCS component can be destroyed before the response is parsed and the app shows **Connection error**. Open Stocks with the screen on and unlocked; tap **Yes** to retry if needed.
 - The Stocks widget uses the same database as the app. It should show the cached values after a refresh, but it was not separately verified in this restore.
 
@@ -345,6 +404,7 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 - The bridge returned valid DGW XML for `^FTSE`, `^IXIC`, `2498.TW`, and `GOOG`.
 - The phone's Stocks app showed FTSE 100, NASDAQ Composite, HTC Corporation, and Alphabet Class C with live prices and changes.
 - Searching for `aapl` returned 10 results; AAPL/Apple Inc. was first with a live quote, and the AAPL detail view showed price, change, open/high/low, and volume.
+- A direct `getchart` request for AAPL `1d` returned 215 downsampled points; the app requested `getchart` for AAPL and the bridge returned 200.
 - `stock.db` contained non-`NULL` prices, update times, and volumes.
 - Foreground and cold-cache requests wrote to `stock.db`; the bridge answered from its pre-warmed cache and refreshed the quotes in the background.
 - A background refresh after the 60-second cache interval completed and updated the database.

@@ -32,6 +32,19 @@ DEFAULT_SYMBOLS = ["^FTSE", "^IXIC", "2498.TW", "GOOG"]
 SEARCH_CACHE = {}
 SEARCH_TTL = 300
 NASDAQ_SEARCH_URL = "https://api.nasdaq.com/api/autocomplete/slookup/10"
+CNBC_CHART_URL = "https://ts-api.cnbc.com/harmony/app/charts/{}.json"
+CHART_CACHE = {}
+CHART_TTL = 300
+MAX_CHART_POINTS = 240
+CHART_RANGES = {
+    "1d": "1D",
+    "5d": "5D",
+    "1m": "1M",
+    "3m": "3M",
+    "6m": "6M",
+    "1y": "1Y",
+    "2y": "1Y",
+}
 SEARCH_ALIASES = {
     "apple": "AAPL",
     "alphabet": "GOOG",
@@ -350,6 +363,81 @@ def fallback_search(phrase):
     return [quote_stub(symbol)]
 
 
+def cnbc_chart(symbol, range_):
+    key = (symbol, range_)
+    now = time.time()
+    if key in CHART_CACHE and now - CHART_CACHE[key][0] < CHART_TTL:
+        return CHART_CACHE[key][1]
+    endpoint = CHART_RANGES.get(range_.strip().lower(), "1D")
+    cnbc_sym = cnbc_symbol(symbol)
+    url = (
+        CNBC_CHART_URL.format(endpoint)
+        + "?"
+        + urllib.parse.urlencode({"symbol": cnbc_sym})
+    )
+    req = urllib.request.Request(
+        url, headers={"User-Agent": UA, "Accept": "application/json"}
+    )
+    with urllib.request.urlopen(req, timeout=20) as response:
+        data = json.load(response)
+    bars = (data.get("barData") or {}).get("priceBars") or []
+    points = []
+    for bar in bars:
+        try:
+            points.append(
+                {
+                    "close": float(bar["close"]),
+                    "open": float(bar["open"]),
+                    "high": float(bar["high"]),
+                    "low": float(bar["low"]),
+                    "timestamp": int(bar["tradeTimeinMills"]) // 1000,
+                    "volume": int(bar.get("volume") or 0),
+                }
+            )
+        except (KeyError, TypeError, ValueError):
+            continue
+    if len(points) > MAX_CHART_POINTS:
+        step = (len(points) + MAX_CHART_POINTS - 1) // MAX_CHART_POINTS
+        sampled = points[::step]
+        if sampled[-1] != points[-1]:
+            sampled.append(points[-1])
+        points = sampled
+    CHART_CACHE[key] = (now, points)
+    return points
+
+
+def build_chart_response(symbol, range_):
+    points = []
+    try:
+        points = cnbc_chart(symbol, range_)
+    except Exception as exc:
+        print(
+            f"{time.strftime('%H:%M:%S')} CNBC chart error: {exc}",
+            flush=True,
+        )
+    parts = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        "<response>",
+        f'<result type="getchart" timestamp="{int(time.time())}">',
+    ]
+    parts.append(
+        "<meta>"
+        f"<symbol>{xml_escape(symbol)}</symbol>"
+        "<marketopen>0</marketopen>"
+        "<marketclose>0</marketclose>"
+        "<gmtoffset>0</gmtoffset>"
+        "</meta>"
+    )
+    parts.append(f'<list count="{len(points)}" total="{len(points)}">')
+    for point in points:
+        parts.append("<point>")
+        for tag in ("close", "open", "high", "low", "timestamp", "volume"):
+            parts.append(f"<{tag}>{xml_escape(point.get(tag))}</{tag}>")
+        parts.append("</point>")
+    parts.append("</list></result></response>")
+    return "".join(parts).encode("utf-8")
+
+
 def build_response(result_type, quotes):
     now = int(time.time())
     parts = ['<?xml version="1.0" encoding="UTF-8"?>', "<response>"]
@@ -421,15 +509,24 @@ class Handler(BaseHTTPRequestHandler):
             qtype = query.get("type") if query is not None else ""
             symbols = [e.text for e in root.findall(".//symbol") if e.text]
             phrase = (root.findtext(".//phrase") or "").strip()
+            range_ = (
+                root.findtext(".//range")
+                or root.findtext(".//interval")
+                or "1d"
+            ).strip()
             print(
                 f"{time.strftime('%H:%M:%S')} request type={qtype!r} "
-                f"symbols={symbols} phrase={phrase!r}",
+                f"symbols={symbols} phrase={phrase!r} range={range_!r}",
                 flush=True,
             )
             if qtype in ("getquotes", "getsymbolquote"):
                 response = build_quotes_response(symbols)
             elif qtype == "getsymbol":
                 response = build_search_response(phrase)
+            elif qtype == "getchart":
+                response = build_chart_response(
+                    symbols[0] if symbols else "", range_
+                )
             else:
                 response = (
                     '<?xml version="1.0" encoding="UTF-8"?>'
