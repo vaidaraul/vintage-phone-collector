@@ -16,8 +16,8 @@ Use `sha256sum` (Linux) or `Get-FileHash -Algorithm SHA256` (Windows) to verify 
 | `revolutionary-nocheck.exe` | 14,310,912 | `cc8c59d4ff8f189841e96defeec161413f80a2394064086c3cc2daae8b1984f8` | Patched from the public Revolutionary 0.4pre4 archive | Skips the interactive root-prompt check. |
 | `caroline-buzz.bin` | 524,472 | `1a4a546c536b266b37db81689eef09ca8dc526f3191cfe414941cad5b435084f` | Extracted from the patched exe | `buzz`-specific. Never use on another model. |
 | `busybox-arm` | 1,109,128 | `df4ab816838de40625dfed77e113672538e8c1c54a2a9b75a033a0bcccde25dc` | BusyBox binary / private copy | BusyBox 1.21.1 with `su`, `httpd`, `wget`, `awk`, `tar`, `cp`, `chmod`. |
-| `misc-wwe-2.22.405.1.img` | 655,360 | `F9687AAA2467484F76E8FC29648CAC6EA094F4AF7402BD777D8907A6007C60DD` | Private `root-work/` copy | Sets the main version to `2.22.405.1`; keeps the existing CID. |
-| `misc-vodap102-1.11.111.2.img` | 655,360 | `DD1BBCF23FA1969DD604BFE3019B6F4CDD661B6F6137F4D8314446F7A0DCBC70` | Private `root-work/` copy | Restores the original Vodafone CID/main-version state; historical. |
+| `misc-wwe-2.22.405.1.img` | 655,360 | `F9687AAA2467484F76E8FC29648CAC6EA094F4AF7402BD777D8907A6007C60DD` | Private local copy | Sets the main version to `2.22.405.1`; keeps the existing CID. |
+| `misc-vodap102-1.11.111.2.img` | 655,360 | `DD1BBCF23FA1969DD604BFE3019B6F4CDD661B6F6137F4D8314446F7A0DCBC70` | Private local copy | Restores the original Vodafone CID/main-version state; historical. |
 | `su` (unrevoked/CM7) | 22,232 | `1D2312911E1F65724E182226FDD2B18B115A6FBAF454F347064F154CDF419A40` | CM 7.2 archive / private copy | Temporary root for Phase 2. Not the final BusyBox `su`. |
 | `Superuser.apk` (old) | 760,637 | `D26A50F33985832DAF2AE9F895D91489759CD5051809C6DC0290FA9FD29E196C` | CM 7.2 archive / private copy | Optional; the final root does not use it. |
 | `cm-7.2.0-buzz.zip` | 76,300,468 | MD5 `AC47D97D55133DFA7561B5B7FE37BC64` | CyanogenMod archive / private copy | Optional fallback ROM and source of `su`. |

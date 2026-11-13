@@ -1,6 +1,6 @@
 # Documentation
 
-This folder is the user-facing documentation for the HTC Wildfire A3333 restoration. It is separate from the engineering logs in `root-work/` and the device history in `devices/`.
+This folder is the user-facing documentation for the HTC Wildfire A3333 restoration. It is separate from the private engineering log and the device history in `devices/`.
 
 ## Start here
 

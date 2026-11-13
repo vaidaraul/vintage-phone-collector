@@ -5,7 +5,7 @@
 - **Difficulty:** advanced. Read the whole document before touching the phone.
 - **Risk:** high. A wrong bootloader payload or an interrupted flash can brick the phone.
 
-This document is the process. The engineering notes, raw captures, and historical dead ends are in [`root-work/README.md`](../../../root-work/README.md). The device history is in [`devices/htc-wildfire-a3333/README.md`](../../devices/htc-wildfire-a3333/README.md).
+This document is the process. The engineering notes, raw captures, and historical dead ends are kept in a private engineering log outside this repository. The device history is in [`devices/htc-wildfire-a3333/README.md`](../../devices/htc-wildfire-a3333/README.md).
 
 ## Contents
 
@@ -176,7 +176,7 @@ adb push flash_image /sdcard/flash_image
 adb shell "chmod 755 /sdcard/flash_image"
 ```
 
-`misc-wwe-2.22.405.1.img` sets the main version to `2.22.405.1` while keeping the existing CID. It is in the private `root-work/` folder. If you do not have it, skip the `misc` flash; the system flash does not require it. Do not flash a MISC image from another device.
+`misc-wwe-2.22.405.1.img` sets the main version to `2.22.405.1` while keeping the existing CID. It is in the private local working folder. If you do not have it, skip the `misc` flash; the system flash does not require it. Do not flash a MISC image from another device.
 
 ### 2.3 Flash boot, system, splash, and misc
 
@@ -623,5 +623,6 @@ If you test an unverified path, record the exact device state, commands, and res
 - [Changelog](CHANGELOG.md)
 - [Helper scripts](scripts/)
 - [Weather files](weather/)
-- [Engineering log](../../../root-work/README.md)
 - [Device history](../../devices/htc-wildfire-a3333/README.md)
+
+The detailed engineering log (raw captures, failed attempts, reverse-engineering notes) is kept privately and is not part of this repository.

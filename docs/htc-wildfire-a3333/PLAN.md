@@ -152,7 +152,7 @@ The verified column is currently one device. Mark every other case as "not teste
 
 ## Immediate next actions
 
-1. Review `PROCESS.md` against `root-work/README.md` and fix any contradiction.
+1. Review `PROCESS.md` against the private engineering log and fix any contradiction.
 2. Parameterize the capture scripts and add the artifact check script.
 3. Run the full guide on a clean device or after a full restore.
 4. Add screenshots and expected outputs.
