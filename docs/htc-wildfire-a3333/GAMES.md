@@ -10,6 +10,7 @@ Tested on the rooted HTC Wildfire A3333 running the WWE Froyo `2.22.405.1` build
 | Skater Boy | `com.game.SkaterBoy` 1.6 (versionCode 10) | Playable, marginal | Re-signed 0.75x timing-cap build; ~19 FPS, visibly choppy |
 | Angry Birds | `com.rovio.angrybirds` 3.1.0 | Not playable | Requires OpenGL ES 2.0; stock kernel has no GPU device |
 | Angry Birds | `com.rovio.angrybirds` 1.0.0 KA3D port | Not playable | ES 1.x, but its EGL config chooser throws |
+| Temple Run | `com.imangi.templerun` 1.0.0 | Not playable | armeabi-v7a only and requires ES 2.0; install fails with native ABI mismatch |
 | Fruit Ninja | `com.halfbrick.fruitninja` 1.7.5 | Launches, stutters | Historical observation; not re-measured |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 
@@ -69,6 +70,22 @@ Two builds were tested. Both install, but neither reaches gameplay.
 - Angry Birds was uninstalled after testing.
 - `egl.cfg` was removed; `/system/lib/egl/libGLES_android.so` was restored to the stock 114,120-byte Froyo file; `/system` was remounted read-only.
 - Doodle Jump and the patched Skater Boy build remain installed and verified.
+
+## Temple Run
+
+- Package `com.imangi.templerun`; versionName `1.0.0`; versionCode `3`; `minSdkVersion 7`; `targetSdkVersion 15`. The tested APK is the earliest official Android release, obtained from APKMirror: 26,998,867 bytes; SHA-256 `d42e8799fa7b43365e0390bc7f27b3718ef7df366d873f8f1a439bafcbbb60ec`. It stays outside Git.
+- The manifest requires OpenGL ES 2.0 (`uses-feature android:glEsVersion="0x00020000"`), an accelerometer, and multitouch.
+
+### Why it fails
+
+- Native code is `armeabi-v7a` only: `lib/armeabi-v7a/libmono.so` and `libunity.so`. Both are ELF ARMv7 shared objects with `Tag_CPU_arch: v7`, Thumb-2, and VFPv2.
+- The Wildfire reports `ro.product.cpu.abi=armeabi` (ARMv6). Installation is rejected with `INSTALL_FAILED_INVALID_APK`; logcat shows `Native ABI mismatch from package file` and `Package couldn't be installed`.
+- Bypassing the ABI check would not help: the game requires ES 2.0, while this stock Froyo image has no `/system/lib/egl/egl.cfg`, no `/dev/hw3dc`, and only the software `libGLES_android.so` path. This is the same GPU limitation documented under Angry Birds. A working ES 2.0 driver and kernel GPU device would be required.
+- Unofficial “ARMv6” repacks circulated in 2012, but their hashes do not match the official APK and at least one was publicly flagged as modified. They were not trusted or tested.
+
+### Cleanup
+
+- The failed install left only `/data/data/com.imangi.templerun`; it was removed. The game is not installed.
 
 ## Testing notes
 
