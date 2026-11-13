@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.24 — 2026-11-13
+
+- Found the original Glow Hockey 1.2.15 and 1.2.12 APKs on Uptodown; both carry the official Natenai Ariyatrakool signature.
+- 1.2.15 installs on SD but crashes on Froyo in AdWorker #1 with `java.lang.NoSuchMethodError: java.io.IOException.<init>`; 1.2.16 remains minSdk 9 and is rejected by Froyo.
+- Verified the older original 1.2.12 (versionCode 13, minSdk 4) on SD: the free splash, cross-promo and original neon match render. Glow Hockey 2 1.0.4 remains installed but is slower.
+- Updated the game table, guide summary, and device history.
+
 ## 0.23 — 2026-11-13
 
 - Verified Bubble Blast 2 1.0.45 (pure Java, official Magma Mobile build): installed on SD; menu, Puzzle Level Pack 1 and level 1 work, with a 20-point chain reaction advancing to level 2 and combo 1.
