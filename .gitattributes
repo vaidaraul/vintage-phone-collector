@@ -1,2 +1,4 @@
 .githooks/* text eol=lf
 scripts/*.mjs text eol=lf
+docs/htc-wildfire-a3333/scripts/* text eol=lf
+docs/htc-wildfire-a3333/weather/* text eol=lf

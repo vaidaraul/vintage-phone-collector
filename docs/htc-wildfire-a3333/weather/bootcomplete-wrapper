@@ -1,0 +1,13 @@
+#!/system/bin/sh
+BB=/system/bin/busybox
+
+# Stop any stale phone-local httpd.
+for p in $($BB ps 2>/dev/null | $BB grep "[b]usybox httpd" | $BB awk '{print $1}'); do
+  kill -9 $p
+done
+
+# Start the weather proxy on port 80 as root, detached.
+$BB nohup $BB httpd -c /data/local/weather-www/httpd.conf -p 127.0.0.1:80 -h /data/local/weather-www >/dev/null 2>&1 &
+
+sleep 1
+exec /system/bin/bootcomplete.orig

@@ -11,7 +11,7 @@ Each device has its own restoration log. This page is only the project index; id
 | Device | Platform | Current state | Log |
 | --- | --- | --- | --- |
 | Nokia Lumia 535 (RM-1089) | Windows 10 Mobile `10.0.14393.2551` | Running; several classic XAP games installed and tested; APPX and Minecraft deployment still under investigation | [Lumia 535](devices/lumia-535/README.md) |
-| HTC Wildfire A3333 | Android 2.2.1 Froyo with HTC Sense | Stock firmware preserved; HTC Weather restored against a live Open-Meteo backend; bootloader/downgrade research documented | [Wildfire A3333](devices/htc-wildfire-a3333/README.md) |
+| HTC Wildfire A3333 | Android 2.2.1 Froyo with HTC Sense | Rooted, S-OFF, WWE Froyo, full stock app set restored; HTC Weather phone-local; process guide available | [Wildfire A3333](devices/htc-wildfire-a3333/README.md) · [Process guide](docs/htc-wildfire-a3333/PROCESS.md) |
 
 Other devices in the collection, not yet documented: HTC Desire, Apple iPhone 6 and 6S, Samsung Corby, Vodafone Smart 858, Huawei P8 Lite, and other early Android and feature phones.
 
@@ -22,12 +22,19 @@ README.md                     project index (this file)
 .githooks/pre-push            local secret and binary guard
 .opencode/skills/             reusable OpenCode workflows
 codex-skill/                  reusable Codex workflow instructions
+docs/                         user-facing process documentation
 scripts/                      pre-push guard and its tests
 devices/
   lumia-535/                  Windows Phone / Windows 10 Mobile log
   htc-wildfire-a3333/         Android Froyo log
     mock-server/              compatibility backend and tests
 ```
+
+## Documentation
+
+The user-facing process docs live in [`docs/`](docs/README.md). The HTC Wildfire A3333 guide starts at [`docs/htc-wildfire-a3333/README.md`](docs/htc-wildfire-a3333/README.md), with the end-to-end procedure in [`PROCESS.md`](docs/htc-wildfire-a3333/PROCESS.md).
+
+The device logs under `devices/` remain the historical record. They may contain pre-restoration observations and superseded plans; the process docs are the current, tested procedure.
 
 ## Project principles
 
@@ -78,4 +85,4 @@ node scripts/pre-push-guard.mjs --range origin/main..HEAD
 
 The reusable instructions are in [`codex-skill/vintage-phone-collector/SKILL.md`](codex-skill/vintage-phone-collector/SKILL.md). They define a cautious, repeatable workflow for inspection, package analysis, device testing and documentation.
 
-**Last updated:** November 12, 2026.
+**Last updated:** November 13, 2026.
