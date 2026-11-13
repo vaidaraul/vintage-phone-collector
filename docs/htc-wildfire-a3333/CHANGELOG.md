@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.21 — 2026-11-13
+
+- Verified Paper Toss 1.2.3: no native libraries, installed on SD; menu, Easy office and swipe toss work (Best 2).
+- Tested Where's My Water? 1.2.0 and the HTC-specific 1.5.1-bn build: both are official Disney ARMv6/ES 1.1 builds, but both SIGSEGV in `libwmw.so` when gameplay loads after unimplemented GL calls; both were uninstalled.
+- Tested Peggle 1.0's only available APK, a debug-signed repack, after an SD-install patch and local re-sign: it stays on a black screen with no GL context; uninstalled.
+- Updated the game table, guide summary, and device history.
+
 ## 0.20 — 2026-11-13
 
 - Moved Logo Quiz Ultimate, Cut the Rope, Candle, Lighter and Pou to the SD card in place with `pm install -s -r`; Jetpack Joyride was already there. `/data` free rose from about 11.6 MB to about 70 MB and the low-storage notification cleared.

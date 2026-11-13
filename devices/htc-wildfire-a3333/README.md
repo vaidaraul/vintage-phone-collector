@@ -86,6 +86,13 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - Fruit Ninja and Skater Boy are locally re-signed. Froyo failed their in-place moves (`INSTALL_FAILED_INSUFFICIENT_STORAGE`; the asec container was busy/restored) and left them internal. Moving them would require backup, uninstall, install to SD, and data restore. Doodle Jump, iBeer, Talking Tom and Opera Mini lack external-install support and cannot be moved.
 - Current install location is `2[external]`; future large APKs should be pushed to `/sdcard` and installed with `pm install -s`.
 
+## 2026-11-13: Paper Toss, Where's My Water? and Peggle
+
+- **Paper Toss 1.2.3** (`com.bfs.papertoss`, versionCode 7005) is installed on the SD card and works. It has no native libraries; the office menu, Easy office and swipe toss were verified (Best 2). Offline MoPub/Flurry requests fail without blocking play.
+- **Where's My Water?** 1.2.0 (`com.disney.WMW`) and the HTC-specific 1.5.1-bn build (`com.disney.WMW_BN`) are official Disney/ARMv6/ES 1.1 apps. The menu can render, but both die with a native `SIGSEGV` in `libwmw.so` at `0000000c` when gameplay loads, after repeated `called unimplemented OpenGL ES API` messages. Both were uninstalled; Stocks was not the cause.
+- **Peggle 1.0** (`com.popcap.peggle`) was available only as a debug-signed repack. After patching it for SD and re-signing locally, it installed but stayed on a black screen with `call to OpenGL ES API with no current context`. It was uninstalled.
+- Paper Toss remains on SD; `/data` has about 68 MB free. Details and hashes are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+
 ## 2026-11-13: casual sensor apps
 
 - **iBeer FREE 1.28** (`com.hottrix.ibeerfree`, versionCode 18) is installed and verified. The phone's accelerometer drives the beer glass: flat shows the top-down view, tilting pours/drinks, and shaking makes foam. The later 1.35 build requires API 9, so 1.28 is the Froyo build. The APK stays outside Git.

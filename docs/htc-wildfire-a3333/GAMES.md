@@ -26,6 +26,9 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Talking Tom Cat | `com.outfit7.talkingtom` 1.0 (1) | Works | Original ARMv6 build; full scene, head and milk interactions verified |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.3.5 (1360) | Runs, ~5 FPS | ARMv6/ES 1.1; SD install; decorative only; half-res patch rejected |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
+| Paper Toss | `com.bfs.papertoss` 1.2.3 (7005) | Works | No native libs; SD install; menu, Easy and swipe toss verified |
+| Where's My Water? | `com.disney.WMW` 1.2.0 / `com.disney.WMW_BN` 1.5.1 | Not playable | ARMv6/ES 1.1, but native SIGSEGV in `libwmw.so` when gameplay loads |
+| Peggle | `com.popcap.peggle` 1.0 | Not playable | Only debug-signed repack; black screen, no GL context; uninstalled |
 
 ## Doodle Jump
 
@@ -197,6 +200,30 @@ Three builds were tested. All install, but none reaches gameplay.
 - A 160x120 half-res experiment was attempted: forcing `SurfaceHolder.setFixedSize(160,120)`, switching to the single-touch handler and halving touch coordinates. The game rendered in a small centered window instead of scaling to the 320x240 view, and the texture cache still filled `/data`; the patch was rejected and the full-res SD APK restored.
 - Caveats: the game extracts its 5.2 MB native library and writes a large downscaled-texture cache into `/data`. After the first run `/data` had only 1.4 MB free; clearing `cache/cache13050` restored about 11.7 MB. The re-signed APK cannot be updated over the official Halfbrick build; back up `/data/data/com.halfbrick.jetpackjoyride` before uninstall/reinstall. Offline CDN/ad requests fail (`wac.76ff.edgecastcdn.net`), and the game logs a `Can't create handler...` exception from `MortarGameActivity.onCreateDialog`, but play continues.
 - No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and SD-patched APKs stay outside Git.
+
+## Paper Toss
+
+- Package `com.bfs.papertoss`; tested version `1.2.3` (versionCode `7005`; `minSdkVersion 7`; 6,796,574 bytes; SHA-256 `f2d5cd96e46aeb366b779fd84a0aca8dc0bf3fe3da9e23148e76d9ade3df969d`). It was obtained from APKMirror and stays outside Git.
+- The APK has no native libraries; it is the classic Backflip Studios build and installs to SD at `/mnt/asec/com.bfs.papertoss-1/pkg.apk`.
+- Verified on the phone: it launches to the office menu (Easy, Medium, Hard, Airport, Basement, Restroom), opens the Easy office, and a swipe toss works; the scoreboard showed Best 2. MoPub/Flurry requests fail offline, but they do not block play.
+- No firmware, `/system`, or GPU changes were made. The APK stays outside Git.
+
+## Where's My Water?
+
+- Two official Disney-signed builds were tested:
+  - `com.disney.WMW` 1.2.0 (versionCode `2`; `minSdkVersion 7`; 24,448,822 bytes; SHA-256 `96831c84c92bdbd7838a61b896b56e613d009f14a35a05b7a2689b0203b556cd`).
+  - `com.disney.WMW_BN` 1.5.1, the HTC-specific build (versionCode `11`; `minSdkVersion 7`; `installLocation=preferExternal`; 33,543,143 bytes; SHA-256 `2630538bffd4364a2a93cf48047aa1dfdec04b52d03a63e393686f3b7a107ef8`).
+- Both ship ARMv5TE/ES 1.1 `libwmw.so` libraries linking `libGLESv1_CM.so`, so they are not blocked by ABI or ES 2.0 on paper.
+- Result: 1.2.0 crashes during startup/splash; 1.5.1-bn reaches the main menu at 240x320, but both processes then die with `SIGSEGV` at fault address `0000000c` in `libwmw.so` when gameplay loads. Logcat repeatedly logs `E/libEGL: called unimplemented OpenGL ES API` beforehand; tombstones confirm native crashes. Stocks was not the cause.
+- The stock software GL driver does not implement the API path this engine needs; a different GL driver or engine would be required. Both packages were uninstalled.
+- The APKs stay outside Git.
+
+## Peggle
+
+- Package `com.popcap.peggle`; tested version `1.0` (versionCode `1`; `minSdkVersion 3`; 77,724,519 bytes; SHA-256 `485025983a22210cb380eba1e3b5eda8776ae8746722cdf7e03a294e87f56c1b`). The only APK located was an Internet Archive upload that is **debug-signed**, not signed by PopCap; its `lib/armeabi/libpeggle.so` is ARMv5T and references GLES 1.x/2.x.
+- Because the APK is an untrusted repack, it was tested only after patching `installLocation` to `preferExternal` and re-signing locally. Patched APK: 77,724,761 bytes; SHA-256 `5c2c79e83fc13afa8f0ffdddd6e197d31ab6f4017d203d9533af5dbaba94db9c`. It installed to SD.
+- Result: the process starts but stays on a black screen; logcat repeats `called unimplemented OpenGL ES API` and `call to OpenGL ES API with no current context`. No menu or frame was reached. It was uninstalled.
+- No official-signed classic Peggle APK was available to verify against, so the repack result is provisional. The APKs stay outside Git.
 
 ## Testing notes
 
