@@ -86,6 +86,7 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - Opera Mini 7.6.4 (official Opera archive) installs and loads Google on the phone. It is the easiest modern-web workaround, with the caveat that Opera’s proxy decrypts traffic.
 - Firefox 31.3.0esr ARMv6 installs but crashes on launch; it is not usable on this unit.
 - The stock browser remains limited to TLS 1.0; a WebOne proxy on a trusted PC is the full-page workaround for the stock browser.
+- HTC Mail is a working IMAP/POP3/SMTP/Exchange client. Gmail still accepts TLS 1.0 on IMAP/SMTP, so it may work with a Gmail App Password; Outlook, Yahoo, and iCloud reject TLS 1.0 and will not work without a local TLS proxy.
 
 ## Investigation observations (2026-11-08 to 2026-11-10) — historical
 

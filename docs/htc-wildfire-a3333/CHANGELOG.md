@@ -6,6 +6,7 @@
 - Tested Opera Mini 7.6.4 on the phone: it installs, launches, and loads Google.
 - Tested Firefox 31.3.0esr ARMv6: it installs but crashes on launch; not recommended.
 - Documented WebOne as the stock-browser proxy option, with security caveats.
+- Tested HTC Mail: Gmail IMAP/SMTP still accept TLS 1.0; Outlook, Yahoo, and iCloud require TLS 1.2.
 - Recorded the News widget as verified working.
 
 ## 0.6 — 2026-11-13

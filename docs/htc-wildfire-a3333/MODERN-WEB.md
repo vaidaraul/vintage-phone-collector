@@ -34,6 +34,49 @@ There is no official fix. Google ended Android Market support for Android 2.1 an
 - Amazon Appstore is not an option: Amazon discontinued it for non-Fire Android devices in August 2025.
 - F-Droid’s current client targets newer Android; old F-Droid versions may install but may fail to fetch the index over modern TLS. Manual APK sideloading is more reliable.
 
+## HTC Mail: not dead, but provider-dependent
+
+The stock `com.htc.android.mail` app is a full mail client. It supports IMAP, POP3, SMTP, and Exchange ActiveSync. The app itself still works; the question is whether the mail provider still accepts the old TLS and authentication.
+
+Tested on 2026-11-13 with OpenSSL:
+
+| Provider | IMAP 993 TLS 1.0 | Result |
+| --- | --- | --- |
+| Gmail | **Accepted** | TLS 1.0 with AES128-SHA or AES256-SHA; IMAP and SMTP both work |
+| Outlook.com | Rejected | `tlsv1 alert protocol version`; TLS 1.2 required |
+| Yahoo Mail | Rejected | `tlsv1 alert protocol version`; TLS 1.2 required |
+| iCloud Mail | Rejected | `tlsv1 alert protocol version`; TLS 1.2 required |
+
+So:
+
+- **Gmail is the best chance.** Google still accepts TLS 1.0 on `imap.gmail.com:993` and `smtp.gmail.com:587` with the AES-SHA ciphers that Froyo supports.
+- **Outlook, Yahoo, and iCloud are dead for this app.** Their servers require TLS 1.2.
+- **Exchange ActiveSync for Microsoft 365/Outlook is dead.** Modern Exchange requires TLS 1.2 and OAuth.
+
+### Gmail setup
+
+1. Enable 2-Step Verification on the Google account.
+2. Create an **App Password** for Mail: <https://myaccount.google.com/apppasswords>
+3. In HTC Mail, add **Other (POP3/IMAP)**:
+   - Email: your full Gmail address.
+   - Password: the 16-character App Password, not your normal password.
+   - Incoming: `imap.gmail.com`, port `993`, SSL/TLS.
+   - Outgoing: `smtp.gmail.com`, port `587`, TLS (STARTTLS), or port `465` SSL.
+   - Username: your full Gmail address.
+4. If the app warns about the certificate, check that the chain is valid before accepting. Gmail’s chain uses Google Trust Services and a GlobalSign root; Froyo may or may not trust the current chain.
+
+If the app fails at the certificate step, the phone’s 2010 CA store is the likely cause. A local TLS proxy on a trusted PC can terminate modern TLS and serve old TLS/plain to the phone, but that exposes the mail password to the proxy. Use it only on a machine you control.
+
+### Other providers
+
+A provider may still work if it allows TLS 1.0 and basic authentication or app passwords. Test it with `openssl s_client` before spending time in the app:
+
+```bash
+openssl s_client -connect imap.example.com:993 -tls1 -cipher 'AES128-SHA:@SECLEVEL=0' -brief
+```
+
+If the server rejects TLS 1.0, HTC Mail cannot connect without a proxy.
+
 ## Web browsing: the stock browser cannot be fixed
 
 The stock Android 2.2 browser supports TLS 1.0 only. Most modern sites require TLS 1.2 or 1.3, so they fail with “A secure connection could not be established” or redirect loops. This is in the OS, not a setting you can toggle.
@@ -121,4 +164,6 @@ https://archive.mozilla.org/pub/mobile/releases/31.3.0esr/android-armv6/en-US/fe
 | Play Store / Android Market | Yes | Sideload APKs manually |
 | Modern HTTPS in stock browser | Yes, OS TLS | Opera Mini (tested) or WebOne proxy |
 | Google Search in stock browser | Mostly | Opera Mini loaded Google in testing |
+| HTC Mail with Gmail | No, if App Password works | Use a Gmail App Password and test the certificate |
+| HTC Mail with Outlook/Yahoo/iCloud | Yes, TLS 1.2 required | Webmail or a local TLS proxy |
 | News and weather | No | Already working locally |
