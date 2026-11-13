@@ -8,6 +8,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [End-to-end process](htc-wildfire-a3333/PROCESS.md)
 - [Printable checklist](htc-wildfire-a3333/CHECKLIST.md)
 - [Phone-local weather details](htc-wildfire-a3333/WEATHER.md)
+- [Game compatibility](htc-wildfire-a3333/GAMES.md)
 - [Troubleshooting](htc-wildfire-a3333/TROUBLESHOOTING.md)
 - [Artifacts and hashes](htc-wildfire-a3333/ARTIFACTS.md)
 - [Documentation plan](htc-wildfire-a3333/PLAN.md)
