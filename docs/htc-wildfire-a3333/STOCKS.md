@@ -399,7 +399,7 @@ The bridge formats `volume` as an integer because the app parses it with `Long.v
 - The bridge returned valid DGW XML for `^FTSE`, `^IXIC`, `2498.TW`, and `GOOG`.
 - The phone's Stocks app showed FTSE 100, NASDAQ Composite, HTC Corporation, and Alphabet Class C with live prices and changes.
 - Searching for `aapl` returned 10 results; AAPL/Apple Inc. was first with a live quote, and the AAPL detail view showed price, change, open/high/low, and volume.
-- A direct `getchart` request for AAPL `1d` returned 215 downsampled points; the app requested `getchart` for AAPL and the bridge returned 200.
+- A direct `getchart` request for AAPL `1d` returned 173 attribute-based points; the app requested `getchart` for AAPL and the bridge returned 200.
 - `stock.db` contained non-`NULL` prices, update times, and volumes.
 - Foreground and cold-cache requests wrote to `stock.db`; the bridge answered from its pre-warmed cache and refreshed the quotes in the background.
 - A background refresh after the 60-second cache interval completed and updated the database.
