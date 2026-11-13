@@ -57,7 +57,7 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | Package | Type | Size (bytes) | Status on this phone |
 | --- | --- | ---: | --- |
 | `Angry Birds v1.5.3.0.0 [Winphone Iz].xap` | XAP | 21,053,919 | Functional; preferred version. Contains an `AppCracked` marker. |
-| `Angry Birds v5.0.2.0 [file.windowsviet.com].xap` | XAP | 32,943,252 | Partially functional; purchase prompt blocks progression. |
+| `Angry Birds v5.0.2.0 [file.windowsviet.com].xap` | XAP | 32,943,252 | Removed; trial build showed the BUY THE FULL GAME prompt. |
 | `Asphalt 5 v1.33.0.0 [file.windowsviet.com].xap` | XAP | 115,669,153 | Functional. |
 | `Candy Crush Saga v1.0.0.1 [file.windowsviet.com].xap` | XAP | 16,282,183 | Functional (user-reported). |
 | `Candy Crush Saga v1.0.0.1 [WindowsViet].xap` | XAP | 16,282,183 | Duplicate copy of the same version; not separately tested. |
@@ -83,7 +83,8 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | `Xbox v44.44.7002.0 [file.windowsviet.com].appxbundle` | APPXBUNDLE | 55,739,670 | Rejected with `0x80073D06`; a higher version is already installed. |
 | `8aa013601e01fb7cfe59ec5dd53b89ae.appxbundle` | APPXBUNDLE | 15,974,043 | `LiveStore-Ammonium 1.2.0.0`, x86/x64 only; not applicable to the ARM phone. |
 | `Ambient Weather v1.4.1.6 [file.windowsviet.com].Appx` | APPX | 10,163,783 | Untested. |
-| `Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | XAP | 34,036,549 | Installed; launch-confirmed. Manifest title is “Angry Birds”. |
+| `Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | XAP | 34,036,549 | Original copy; title “Angry Birds”. Superseded by the title-patched build. |
+| `Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | XAP | 34,590,280 | Installed; launch-confirmed. Title patched to “Angry Birds Seasons”. |
 | `Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | XAP | 8,242,980 | Installed; launch-confirmed. |
 | `Doodle Jump v1.8.10 [Archive.org].xap` | XAP | 7,724,376 | Installed; launch-confirmed. |
 | `Hill Climb Racing v1.16.0.0 [Archive.org].xap` | XAP | 18,373,763 | Installed; launch-confirmed. |

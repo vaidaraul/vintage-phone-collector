@@ -22,8 +22,8 @@ checked.
 | HTC title | Lumia status |
 |---|---|
 | Abduction! World Attack | Not installed — no Windows Phone package found |
-| Angry Birds | Installed — 1.5.3.0 and 5.0.2.0 |
-| Angry Birds Seasons | Installed — 4.0.1.0 (Wayback vnokia copy) |
+| Angry Birds | Installed — 1.5.3.0 only; 5.0.2.0 trial removed |
+| Angry Birds Seasons | Installed — 4.0.1.0 (title-patched) |
 | Bonsai Blast | Not installed — no Windows Phone package found |
 | Bubble Blast 2 | Installed — 1.4.0.0 (Wayback vnokia copy) |
 | Cut the Rope | Installed — 1.7.0.0 |
@@ -50,8 +50,8 @@ checked.
 
 | Game | Package / version | Runtime | Launch | Frame | Classification |
 |---|---|---|---|---|---|
-| Angry Birds | `Angry Birds v5.0.2.0 [file.windowsviet.com].xap` / 5.0.2.0 | Modern Native | PASS, 2.1 s | Not captured | Launch-only |
-| Angry Birds Seasons | `Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` / 4.0.1.0 | Modern Native | PASS | Not captured | Launch-only |
+| Angry Birds | `Angry Birds v1.5.3.0.0 [Winphone Iz].xap` / 1.5.3.0 | XNA | PASS | Not captured | Launch-only; repack marker |
+| Angry Birds Seasons | `Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` / 4.0.1.0 | Modern Native | PASS | Not captured | Launch-only; title-patched |
 | Bubble Blast 2 | `Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` / 1.4.0.0 | Silverlight | PASS | Not captured | Launch-only |
 | Cut The Rope | `Cut The Rope v1.7.0.0 [Winphone Iz].xap` / 1.7.0.0 | Silverlight | PASS, 1.5 s | Not captured | Launch-only |
 | Doodle Jump | `Doodle Jump v1.8.10 [Archive.org].xap` / 1.8.10.0 | XNA | PASS | Not captured | Launch-only |
@@ -76,8 +76,8 @@ Also installed, not part of the HTC list:
 | Asphalt 5 | `Asphalt 5 v1.33.0.0 [file.windowsviet.com].xap` / 1.0.0.0 | XNA | PASS, 1.5 s | Not captured | Launch-only |
 | NFS: Hot Pursuit | `NFS Hot Pursuit v1.0.0.0 [Winphone Iz].xap` / 1.0.0.0 | XNA | PASS, 1.5 s | Not captured | Launch-only |
 
-Angry Birds **1.5.3.0** (`e4571a02-0b87-e011-986b-78e7d1fa76f8`) is also installed
-alongside 5.0.2.0. It was not part of the launch pass.
+Angry Birds **1.5.3.0** (`e4571a02-0b87-e011-986b-78e7d1fa76f8`) is the remaining full
+XNA build. The 5.0.2.0 trial was removed; Angry Birds Seasons now has its own title.
 
 Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 **WUT Mini 1.5.1.0**.
@@ -112,10 +112,21 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 - **Robo Defense FREE** — no Windows Phone package found.
 - **Skater Boy** — no Windows Phone package found.
 
+## APPX notes
+
+- **Minecraft 1.5.201.0** installs through Device Portal but starts with `Unavailable`
+  (`-2143322111`). The Windows Phone 8.1 `0.14.0.1` APPX was also tried, including its
+  signing certificate; registration failed with `Package could not be registered`.
+  No working Minecraft build has been found for this phone.
+- **Fruit Ninja 1.8.1.66 APPX** is blocked by the missing
+  `Microsoft.VCLibs.110.00` dependency.
+- **Talking Tom 3.1.0.0 APPX** installs, but Device Portal start returns `Unavailable`.
+  The **My Talking Tom 1.2.0.0 XAP** launches and is the working Talking Tom build.
+
 ## Patches, repacks and naming notes
 
-- **Angry Birds Seasons 4.0.1.0** — the XAP manifest uses the title “Angry Birds”, so the
-  phone may show it as another Angry Birds entry. Use version 4.0.1.0 to identify it.
+- **Angry Birds Seasons 4.0.1.0** — the original manifest title was “Angry Birds”; the
+  title was patched to “Angry Birds Seasons” and the patched XAP reinstalled.
 - **Zuma's Revenge!** — the original XAP was rejected with
   `Fix the Capabilities in WMAppManifest.xml file`. The legacy
   `ID_FUNCCAP_EXTEND_MEM` block and `ID_REQ_MEMORY_300` requirement were removed from
@@ -144,6 +155,7 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 |---|---|
 | `apk/Bejeweled Live+ 1.0.0.0 [Archive.org].xap` | `5A19EE07D8321BA4EAD972926AAD8D3E066F3A44D19C6555FF049DF022690D80` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | `E5FEAA5B7942C2DD6A9235A88ABB86D7E0880C76DBAD09C049EEC9F809EB4134` |
+| `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | `4736EFA73922BC94496CC960EDA35CE1A2AD5FCD6EB93B81896682E91C48E39B` |
 | `apk/Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | `F750A93F95CA2A34E8FB11A19400E46FBC236CBDDF2210837BE73A71C7F794D7` |
 | `apk/My Talking Tom v1.2.0.0 [Wayback vnokia].xap` | `C0AC52EB1B585E5DBC093630A0FC58B9D2FCEF130D90D57B14E37FB99FB9293A` |
 | `apk/Doodle Jump v1.8.10 [Archive.org].xap` | `1B9D696B161CC382B130C0D3D357BB7683E16186FB33C7B541194CC58B0BB3A7` |
@@ -201,9 +213,9 @@ Git.
   `/api/resourcemanager/processes` proves the package started, not that it is on screen.
 - Microsoft Project My Screen 1.2 connected but delivered a black video stream on this
   build. Native **Volume Up + Power** screenshots are the reliable frame-capture method.
-- Talking Tom installs, but the portal start endpoint returns `Unavailable`
-  (`-2143322111`), the same error as Minecraft. Manual launch from the phone is not yet
-  verified.
+- Minecraft 1.5.201.0 installs but starts with `Unavailable` (`-2143322111`); the WP8.1
+  0.14.0.1 APPX was rejected during registration. Talking Tom has the same start error;
+  My Talking Tom is the working XAP alternative.
 - The Zuma and Where's My Water packages are patched/repacked builds. They are not
   byte-identical to the original publisher packages and should be treated as provisional.
 - The phone's sleep timeout was temporarily set to `Never` for the pass and restored to
