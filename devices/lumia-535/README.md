@@ -1,13 +1,13 @@
 # Nokia Lumia 535 RM-1089 — Windows Phone restoration
 
-**Status:** Windows 10 Mobile running; classic XAP and APPX compatibility testing ongoing  
-**Last updated:** November 7, 2026
+**Status:** Windows 10 Mobile running; 15 of 24 HTC-list game titles installed, 14 launch-confirmed  
+**Last updated:** November 13, 2026
 
 Part of the [Vintage Phone Collector](../../README.md) project. This log documents a **Nokia Lumia 535 RM-1089**, upgraded from Windows Phone 8.1 to Windows 10 Mobile and used to test classic Windows Phone and Windows 10 Mobile software on original hardware.
 
 The idea is not simply to make an old phone turn on. It is to recover as much of its original software experience as possible, understand what still works, and publish reproducible notes so other collectors can learn from the process.
 
-The local package and tool archive is catalogued in [archive.md](archive.md); binaries stay outside the repository.
+The local package and tool archive is catalogued in [archive.md](archive.md); binaries stay outside the repository. The current 24-title game suite and HTC-list coverage are in [GAMES.md](GAMES.md).
 
 ## Device status
 
@@ -19,26 +19,47 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | Firmware | `02074.00000.15234.28006` |
 | Developer Mode | Enabled |
 | USB XAP deployment | Working with Microsoft Windows Phone SDK 8.0 |
-| Classic XAP games | Several packages installed and tested |
-| Minecraft APPX | Device Portal install attempted; failed with `0x80073CF3`; not installed |
+| Classic XAP games | 15 of 24 HTC-list titles installed; 14 launch-confirmed |
+| Minecraft APPX | `1.5.201.0` installed through Device Portal; start returns `Unavailable` (`-2143322111`); not playable |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
 
 ### Games tested on the Lumia 535
 
-These statuses describe observed behavior on this particular phone. They are not universal compatibility guarantees.
+These statuses describe observed behavior on this particular phone. They are not universal compatibility guarantees. The full 24-title HTC-list coverage, package IDs, hashes and launch evidence are in [GAMES.md](GAMES.md).
+
+“Launch-confirmed” means a live process appeared after deployment; it does not prove that the menu, gameplay or input work.
 
 | Game | Version | Result | Notes |
 | --- | --- | --- | --- |
-| Angry Birds Classic | `5.0.2.0` | **Partially functional** | Launches, but progression is blocked by a full-version purchase prompt. |
-| Angry Birds Classic | `1.5.3.0` | **Functional** | The traditional XNA version launches and is playable. Preferred version in this collection. Its archive contains an `AppCracked` marker, so original distribution has not been independently verified. |
-| Asphalt 5 | `1.33.0.0` | **Functional** | Installed and runs. The experience reflects an old game running on limited hardware. |
-| Candy Crush Saga | `1.0.0.1` | **Functional (user-reported)** | User reports this XNA XAP is the original, pre-microtransaction version and is fully working on the phone. The local package has not been independently authenticated. |
-| Cut the Rope | `1.7.0.0` | **Functional (user-confirmed)** | User confirms the game is fully working on the Lumia 535. |
-| Fruit Ninja | `1.0.0.0` | **Deployment failed (reproduced)** | XAP Deployment again reported `Deployment Optimization failed` / `Unable to read input file`. The archive opens and its manifest was readable on the PC; the deployment error does not by itself identify the cause. |
-| Temple Run | `1.5.3.0` | **Unstable** | Launched once; subsequent attempts close during startup. Not classified as functional. |
-| Minecraft | `1.5.300.0` | **Under investigation** | ARM APPX manifest and package structure inspected on the PC. Not installed or tested on the phone. |
-| FIFA 14 | `1.0.0.0` | **Deployment failed** | XAP Deployment reported an invalid-assembly error during deployment optimization. The package is about 947 MB (about 1.15 GB expanded); no installation was confirmed. |
-| NFS Hot Pursuit | `1.0.0.0` | **Functional (user-reported)** | User reports it works well and is enjoyable; it also awarded an Xbox achievement. |
+| Angry Birds Classic | `5.0.2.0` | **Partially functional** | Launches, but progression is blocked by a full-version purchase prompt (user-reported). |
+| Angry Birds Classic | `1.5.3.0` | **Functional** | Traditional XNA version; launches and is playable. Archive contains an `AppCracked` marker, so original distribution has not been independently verified. |
+| Angry Birds Seasons | `4.0.1.0` | **Launch-confirmed** | Installed from an archived vnokia copy. The manifest title is “Angry Birds”; menu and gameplay were not captured. |
+| Asphalt 5 | `1.33.0.0` | **Functional** | Installed and runs. |
+| Bubble Blast 2 | `1.4.0.0` | **Launch-confirmed** | Installed from an archived vnokia copy; menu and gameplay were not captured. |
+| Candy Crush Saga | `1.0.0.1` | **Functional (user-reported)** | Original pre-microtransaction XAP per the user; package authenticity not independently verified. |
+| Cut the Rope | `1.7.0.0` | **Functional (user-confirmed)** | User confirms it is fully working. |
+| Doodle Jump | `1.8.10.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
+| FIFA 14 | `1.0.0.0` | **Deployment failed** | Invalid-assembly error during deployment optimization; not installed. |
+| Fruit Ninja | `1.0.0.0` | **Deployment failed** | Superseded by the `1.1.0.0` build below. |
+| Fruit Ninja | `1.1.0.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
+| Hill Climb Racing | `1.16.0.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
+| Jetpack Joyride | `1.0.1.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
+| Minecraft | `1.5.201.0` | **Installed; start fails** | Installed through Device Portal; start returns `Unavailable` (`-2143322111`). |
+| Minecraft | `1.5.300.0` | **Under investigation** | Manifest inspected on the PC; not installed. |
+| Mou | `3.8.2.9` | **Launch-confirmed** | Windows Phone clone of Pou; not the official Zakeh game. |
+| My Talking Tom | `1.2.0.0` | **Launch-confirmed** | Installed from an archived vnokia copy. |
+| NFS Hot Pursuit | `1.0.0.0` | **Functional (user-reported)** | User reports it works well and awarded an Xbox achievement. |
+| Plants vs. Zombies | `1.0.0.0` | **Launch-confirmed** | Installed; menu and gameplay were not captured. |
+| Subway Surfers | `1.36.0.0` | **Launch-confirmed** | Installed; menu and gameplay were not captured. |
+| Talking Tom | `3.1.0.0` APPX | **Installed; start fails** | Device Portal start returns `Unavailable`; manual launch not verified. |
+| Temple Run | `1.5.3.0` | **Launch-confirmed** | Earlier startup instability was not re-tested in the latest pass. |
+| Where's My Water? | `1.0.4.0` | **Launch-confirmed** | Uploader repack; root manifest title was corrected from “Find Water by reker”. |
+| Zuma's Revenge! | `1.0.0.0` | **Launch-confirmed** | Manifest-patched to remove the legacy 300 MB capability requirement. |
+
+### Applications and deployment notes
+
+| App | Version | Result | Notes |
+| --- | --- | --- | --- |
 | Instagram | `10.1096.22713.0` | **Outdated; reaches sign-in page (user-reported)** | User reports it installs and launches, but the app is outdated. It reaches the sign-in page; successful sign-in and other online features are unconfirmed. |
 | Free Player for YouTube | `1.1.23.0` | **Uninstalled; nonfunctional (user-confirmed)** | It installed, but the user reports it was worthless and did not work; it has since been uninstalled. |
 | MSN Weather | `4.26.12153.0` | **Functional; current data confirmed (user-reported)** | User confirms the app works and displays correct weather data, so its API is active. A separate APPXBUNDLE deployment attempt failed with `0x80073CF3`; that failure did not represent the working app's status. |
@@ -49,8 +70,6 @@ These statuses describe observed behavior on this particular phone. They are not
 | Windows Camera candidate bundle | `2018.426.70.0` | **Deployment failed; package requires newer OS** | Device Portal reported `0x80073CFD`. This specific ARM bundle requires Windows `10.0.15063.0`, above the phone's `10.0.14393.2551`; it is distinct from the working Camera update reported above. |
 | Microsoft People | `10.2.2351.0` | **Deployment failed (policy error)** | Device Portal reported `0x80073CFF`. The ARM manifest targets Windows Mobile from `10.0.14393.0`, which matches the phone. The PC has the required .NET Native Framework 1.6 and VCLibs 14.0 package files, and the local archive now also contains Runtime 1.6 (`1.6.24903.0`); no Runtime package was available during the failed attempt. |
 | Screen Sketch | `10.1805.1191.0` | **Deployment failed; incompatible OS minimum** | Device Portal reported `0x80073CFD`. The ARM manifest requires Windows `10.0.17636.0`, above the phone's `10.0.14393.2551`. SignTool verified the bundle signature on the PC. |
-| Jetpack Joyride | Unknown | **Not obtained / untested** | No verified package in the project yet. |
-| Subway Surfers | Unknown | **Planned / untested** | No package installed or tested yet. |
 
 See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes. Additional untested packages in the local archive are catalogued in [archive.md](archive.md).
 
@@ -146,7 +165,7 @@ These findings update the earlier note that `signtool.exe` and `MakeAppx.exe` we
 
 ## Games and package records
 
-The statuses below are based on behavior observed on the phone, not package metadata alone.
+The statuses below are based on behavior observed on the phone, not package metadata alone. The tables in this section preserve the original November 7 provenance notes; some statuses are superseded by the November 13 suite in [GAMES.md](GAMES.md). The local archive inventory is in [archive.md](archive.md).
 
 ### Package provenance
 
@@ -208,7 +227,7 @@ Error - Deployment Optimization failed with error
 XAP is not optimized for device already.
 ```
 
-The XAP opens as a ZIP archive and its Windows Phone manifest was readable on the PC. The same error was reported again in a later attempt; the screenshot still shows the `Fruit Ninja v1.0.0.0` file selected. This deployment-stage message does not prove whether the package is already device-optimized, malformed for this tool, or affected by another issue. No installation was confirmed. A separate Fruit Ninja `1.1.0.0` Windows Phone 7.1/XNA package was later found; it has not yet been deployed.
+The XAP opens as a ZIP archive and its Windows Phone manifest was readable on the PC. The same error was reported again in a later attempt; the screenshot still shows the `Fruit Ninja v1.0.0.0` file selected. This deployment-stage message does not prove whether the package is already device-optimized, malformed for this tool, or affected by another issue. No installation was confirmed. A separate Fruit Ninja `1.1.0.0` Windows Phone 7.1/XNA package was later installed and launch-confirmed; see [GAMES.md](GAMES.md).
 
 FIFA 14 was then selected in the same deployment tool. It reported:
 
@@ -308,15 +327,21 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
 
 ## Unknowns and next steps
 
-- Seek detailed AppXDeployment-Server event information if it can be read from the phone; the Device Portal state endpoint returned only the generic error code.
-- Verify the complete APPX integrity, including block map validation and the signature's binding to the package.
-- Find an independent reference hash for this exact APPX and check whether it matches.
-- Confirm the APPX sideloading method supported on Windows 10 Mobile 14393 before using it.
-- Research Minecraft 1.5.300 ARM compatibility with the Lumia 535; the result remains unknown until tested on the phone.
-- Reproduce the Temple Run crash after relaunch and after a device restart; do not reclassify it as functional based on the single successful launch.
+- Capture menus and one gameplay action for the launch-confirmed titles; the only frame
+  evidence so far is the Bejeweled main menu.
+- Nine HTC-list titles remain uninstalled: Abduction! World Attack, Bonsai Blast, Glow
+  Hockey, Glow Hockey 2, Logo Quiz Ultimate, Paper Toss, Peggle, Robo Defense FREE and
+  Skater Boy. No usable Windows Phone package was found for them.
+- Get the AppXDeployment-Server error for Talking Tom `3.1.0.0`; Device Portal returns
+  only `Unavailable` (`-2143322111`). My Talking Tom `1.2.0.0` launches, but the original
+  Talking Tom APPX is still unverified.
+- Re-test Temple Run stability; the latest pass confirmed a process, not gameplay.
+- Re-check the patched/repacked builds: Zuma's Revenge (manifest-patched), Where's My
+  Water? (uploader repack, title corrected) and Mou (Pou clone).
+- Research Minecraft 1.5.300 compatibility; the installed 1.5.201.0 build starts with
+  `Unavailable`.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
-- Recover verified original URLs for the packages and procedures.
-- Find and test packages for Jetpack Joyride, Subway Surfers, and Fruit Ninja.
+- Recover verified original URLs and reference hashes for the packages and procedures.
 
 ## Sources
 
