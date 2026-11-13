@@ -86,6 +86,7 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | `Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | XAP | 34,036,549 | Original copy; title “Angry Birds”. Superseded by the title-patched build. |
 | `Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | XAP | 34,590,280 | Installed; launch-confirmed. Title patched to “Angry Birds Seasons”. |
 | `Bad Piggies v1.6.1.0 [Archive.org].xap` | XAP | 34,363,149 | Installed; launch-confirmed. Official Rovio build; SHA-1 verified. |
+| `Amazing Alex v1.0.7.0 [Archive.org].xap` | XAP | 21,298,962 | Installed; launch-confirmed. Official Rovio build; SHA-1 verified. |
 | `Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | XAP | 8,242,980 | Installed; launch-confirmed. |
 | `Doodle Jump v1.8.10 [Archive.org].xap` | XAP | 7,724,376 | Installed; launch-confirmed. |
 | `Hill Climb Racing v1.16.0.0 [Archive.org].xap` | XAP | 18,373,763 | Installed; launch-confirmed. |

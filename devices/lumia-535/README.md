@@ -36,6 +36,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | Angry Birds Seasons | `4.0.1.0` | **Launch-confirmed** | Installed from an archived vnokia copy with the title patched to “Angry Birds Seasons”; menu and gameplay were not captured. |
 | Asphalt 5 | `1.33.0.0` | **Functional** | Installed and runs. |
 | Bad Piggies | `1.6.1.0` | **Launch-confirmed** | Official Rovio Silverlight XAP; installed and running. |
+| Amazing Alex | `1.0.7.0` | **Launch-confirmed** | Official Rovio Silverlight XAP; installed and running. |
 | Bubble Blast 2 | `1.4.0.0` | **Launch-confirmed** | Installed from an archived vnokia copy; menu and gameplay were not captured. |
 | Candy Crush Saga | `1.0.0.1` | **Functional (user-reported)** | Original pre-microtransaction XAP per the user; package authenticity not independently verified. |
 | Cut the Rope | `1.7.0.0` | **Functional (user-confirmed)** | User confirms it is fully working. |
@@ -177,6 +178,7 @@ The statuses below are based on behavior observed on the phone, not package meta
 | Angry Birds `1.5.3.0` | Winphone Iz | XAP package; contains an `AppCracked` marker and may be modified. |
 | Asphalt 5 `1.33.0.0` | WindowsViet (`file.windowsviet.com`) | XAP package; tested and runs. |
 | Bad Piggies `1.6.1.0` | Archive.org (`bad-piggies-windows-phone`) | Official Rovio Silverlight XAP; SHA-1 verified; installed and launch-confirmed. |
+| Amazing Alex `1.0.7.0` | Archive.org (`amazing-alex-windows-phone`) | Official Rovio Silverlight XAP; SHA-1 verified; installed and launch-confirmed. |
 | Candy Crush Saga `1.0.0.1` | WindowsViet (`file.windowsviet.com`) | XAP downloaded to `E:\Projects\Lumia\Candy Crush Saga v1.0.0.1 [WindowsViet].xap`; user identifies it as the original pre-microtransaction build and reports it fully working. Package authenticity has not been independently verified. |
 | Cut the Rope `1.7.0.0` | Winphone Iz | XAP package; user confirms it is fully working on the Lumia 535. |
 | Fruit Ninja `1.0.0.0` | WindowsViet (`file.windowsviet.com`) | XAP package; deployment failed with an optimization input-file error. |
@@ -202,6 +204,7 @@ The source names above are provenance notes, not endorsements or proof that the 
 | Angry Birds Classic `1.5.3.0` | Windows Phone 7.0 / XNA | Microsoft Game Studios; product ID `{e4571a02-0b87-e011-986b-78e7d1fa76f8}` | `21,053,919` bytes |
 | Asphalt 5 `1.33.0.0` | Windows Phone 7.1 / XNA | GAMELOFT SA; product ID `{97e360f9-f018-4c39-ae54-139590c9b048}` | `115,669,153` bytes |
 | Bad Piggies `1.6.1.0` | Windows Phone 8.0 / Silverlight | Rovio Entertainment Ltd; product ID `{9ccfb504-1e48-4fc4-ba6d-8f0d2400a8f5}` | `34,363,149` bytes |
+| Amazing Alex `1.0.7.0` | Windows Phone 7.0 / Silverlight | Rovio Entertainment Ltd; product ID `{fac2552c-25bb-420c-b0b5-bb3059418933}` | `21,298,962` bytes |
 | Temple Run `1.5.3.0` | Windows Phone 8.0 / Silverlight; package includes Unity components | Imangi Studios, LLC; product ID `{1a7cb5f8-792a-4992-b07a-83874c0795ae}` | `23,401,108` bytes |
 | Candy Crush Saga `1.0.0.1` | Windows Phone 7.1 / XNA | Author `king.com`; manifest publisher `XiaomiCandy`; product ID `{dee79c09-37b8-4143-8d2f-4faabc74b378}` | `16,282,183` bytes |
 | Cut the Rope `1.7.0.0` | Windows Phone 7.1 / Silverlight; XNA library present | Zeptolab UK Ltd; product ID `{4c0cf9f4-31f0-444e-9321-0237d04f6a38}` | `39,367,460` bytes |
@@ -345,8 +348,8 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
 - Minecraft: no working build found. `1.5.201.0` was removed after start returned
   `Unavailable`, and the WP8.1 `0.14.0.1` APPX was rejected with “Package could not be
   registered”.
-- Bad Piggies is installed and launch-confirmed; capture a menu/gameplay frame and
-  exercise one level.
+- Bad Piggies and Amazing Alex are installed and launch-confirmed; capture a
+  menu/gameplay frame and exercise one level in each.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
 - Recover verified original URLs and reference hashes for the packages and procedures.
 

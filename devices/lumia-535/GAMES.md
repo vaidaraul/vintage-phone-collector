@@ -76,12 +76,17 @@ Also installed, not part of the HTC list:
 | Asphalt 5 | `Asphalt 5 v1.33.0.0 [file.windowsviet.com].xap` / 1.0.0.0 | XNA | PASS, 1.5 s | Not captured | Launch-only |
 | NFS: Hot Pursuit | `NFS Hot Pursuit v1.0.0.0 [Winphone Iz].xap` / 1.0.0.0 | XNA | PASS, 1.5 s | Not captured | Launch-only |
 | Bad Piggies | `Bad Piggies v1.6.1.0 [Archive.org].xap` / 1.6.1.0 | Silverlight | PASS | Not captured | Launch-only |
+| Amazing Alex | `Amazing Alex v1.0.7.0 [Archive.org].xap` / 1.0.7.0 | Silverlight | PASS | Not captured | Launch-only |
 
 Angry Birds **1.5.3.0** (`e4571a02-0b87-e011-986b-78e7d1fa76f8`) is the remaining full
 XNA build. The 5.0.2.0 trial was removed; Angry Birds Seasons now has its own title.
 
 Bad Piggies **1.6.1.0** is an official Rovio Silverlight XAP from Archive.org item
 `bad-piggies-windows-phone`; its SHA-1 (`8CEE8C70E6AA616B1C35B48D6620CA2CAB57B171`) was
+verified, and its SHA-256 matches the VirusTotal hash in the item metadata.
+
+Amazing Alex **1.0.7.0** is an official Rovio Silverlight XAP from Archive.org item
+`amazing-alex-windows-phone`; its SHA-1 (`31D82B674C7EFE561788EC12AA33F9B2994DD03C`) was
 verified, and its SHA-256 matches the VirusTotal hash in the item metadata.
 
 Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
@@ -102,6 +107,7 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 | Zuma's Revenge! | `06da2c13-d8f1-4693-9ef9-11cbfa291e4c` |
 | Mou | `c032d62c-7f6a-4538-8150-f77034dcf335` |
 | Bad Piggies | `9ccfb504-1e48-4fc4-ba6d-8f0d2400a8f5` |
+| Amazing Alex | `fac2552c-25bb-420c-b0b5-bb3059418933` |
 | Talking Tom | `OutFit7Limited.TalkingTomCat_3.1.0.0_arm__rmf98d2bjqpyp` |
 
 ## HTC titles not installed
@@ -161,6 +167,7 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 |---|---|
 | `apk/Bejeweled Live+ 1.0.0.0 [Archive.org].xap` | `5A19EE07D8321BA4EAD972926AAD8D3E066F3A44D19C6555FF049DF022690D80` |
 | `apk/Bad Piggies v1.6.1.0 [Archive.org].xap` | `BD0D1B52609C766D0F080D25F3E204E623055DF7276D9D4581C46A567A8DA814` |
+| `apk/Amazing Alex v1.0.7.0 [Archive.org].xap` | `7F291A0B7E7B910501A8C10C396B20B658C3FD44A8212E6D559E97CE549BB018` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | `E5FEAA5B7942C2DD6A9235A88ABB86D7E0880C76DBAD09C049EEC9F809EB4134` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | `4736EFA73922BC94496CC960EDA35CE1A2AD5FCD6EB93B81896682E91C48E39B` |
 | `apk/Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | `F750A93F95CA2A34E8FB11A19400E46FBC236CBDDF2210837BE73A71C7F794D7` |

@@ -10,7 +10,7 @@ Each device has its own restoration log. This page is only the project index; id
 
 | Device | Platform | Current state | Log |
 | --- | --- | --- | --- |
-| Nokia Lumia 535 (RM-1089) | Windows 10 Mobile `10.0.14393.2551` | Running; 15 of 24 HTC-list games installed, 14 launch-confirmed; Bad Piggies added; Minecraft removed because no build starts | [Lumia 535](devices/lumia-535/README.md); [Game suite](devices/lumia-535/GAMES.md) |
+| Nokia Lumia 535 (RM-1089) | Windows 10 Mobile `10.0.14393.2551` | Running; 15 of 24 HTC-list games installed, 14 launch-confirmed; Bad Piggies and Amazing Alex added; Minecraft removed because no build starts | [Lumia 535](devices/lumia-535/README.md); [Game suite](devices/lumia-535/GAMES.md) |
 | HTC Wildfire A3333 | Android 2.2.1 Froyo with HTC Sense | Rooted, S-OFF, WWE Froyo, full stock app set restored; HTC Weather phone-local; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today | [Wildfire A3333](devices/htc-wildfire-a3333/README.md) · [Process guide](docs/htc-wildfire-a3333/PROCESS.md) · [News notes](docs/htc-wildfire-a3333/NEWS.md) |
 
 Other devices in the collection, not yet documented: HTC Desire, Apple iPhone 6 and 6S, Samsung Corby, Vodafone Smart 858, Huawei P8 Lite, and other early Android and feature phones.
