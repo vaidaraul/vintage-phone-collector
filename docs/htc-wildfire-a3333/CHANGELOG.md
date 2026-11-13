@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.26 — 2026-11-13
+
+- Added [TESTING.md](TESTING.md) with the shared APK inspection, SD install, launch/focus, framebuffer capture, input and logcat/tombstone evidence harness.
+- Documented the per-game steps for every title in the compatibility table, including the failed and rejected builds.
+- Linked the testing process from the game guide and the main guide.
+
 ## 0.25 — 2026-11-13
 
 - Recorded the hands-on comparison: the original Glow Hockey 1.2.12 is better; Glow Hockey 2 1.0.4 is worse and slower but is kept installed for fun.

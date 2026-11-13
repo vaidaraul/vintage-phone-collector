@@ -4,7 +4,7 @@ Tested on the rooted HTC Wildfire A3333 running the WWE Froyo `2.22.405.1` build
 
 As of 2026-11-13, Logo Quiz Ultimate, Cut the Rope, Candle, Lighter, Pou, Jetpack Joyride, Paper Toss, Bonsai Blast, Bubble Blast 2, Abduction! World Attack, Robo Defense FREE, Glow Hockey 1.2.12 and Glow Hockey 2 are installed on the SD card. Fruit Ninja and Skater Boy remain internal because their re-signed APKs could not be moved in place; Doodle Jump, iBeer and Talking Tom are internal-only.
 
-For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md).
+For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md). For the repeatable inspection, install, input and evidence procedure used for every title, see [TESTING.md](TESTING.md).
 
 ## Summary
 
