@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.12 — 2026-11-13
+
+- Tested Logo Quiz Ultimate 2.2 (symblCrowd, `de.androidcrowd.logoquiz`): pure-Java `minSdk 8` build with no native libraries; menu, Play, Level 1 grid and an answer entry were verified on the phone.
+- Tested Angry Birds Seasons 1.1.1: the ARMv6 ES 1.1 build installs and starts, but stays on a solid blue frame with no menu or gameplay; it was uninstalled.
+- Added both results, hashes and caveats to the game compatibility table and device history.
+
 ## 0.11 — 2026-11-13
 
 - Tested Hill Climb Racing 1.0.0: it installs because it ships an ARMv6 `armeabi` library, but it links `libGLESv2.so` and requires OpenGL ES 2.0. Launch logs "Your device doesn't support OpenGLES 2.0" and crashes in the ad manager; it was uninstalled.

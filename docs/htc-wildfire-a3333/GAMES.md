@@ -12,9 +12,11 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Skater Boy | `com.game.SkaterBoy` 1.6 (versionCode 10) | Playable, marginal | Re-signed 0.75x timing-cap build; ~19 FPS, visibly choppy |
 | Angry Birds | `com.rovio.angrybirds` 3.1.0 | Not playable | Requires OpenGL ES 2.0; stock kernel has no GPU device |
 | Angry Birds | `com.rovio.angrybirds` 1.0.0 KA3D port | Not playable | ES 1.x, but its EGL config chooser throws |
+| Angry Birds Seasons | `com.rovio.angrybirdsseasons` 1.1.1 | Not playable | ARMv6 ES 1.1 build installs, but hangs on a blue frame; no menu |
 | Temple Run | `com.imangi.templerun` 1.0.0 | Not playable | armeabi-v7a only and requires ES 2.0; install fails with native ABI mismatch |
 | Fruit Ninja | `com.halfbrick.fruitninja` 1.3 (1301) | Playable with patch | Official build ~8 FPS; 160x120 half-res patched build ~25–50 FPS, softer image |
 | Hill Climb Racing | `com.fingersoft.hillclimb` 1.0.0 | Not playable | Cocos2d-x; ARMv6 `armeabi` library exists, but it links `libGLESv2.so` and needs ES 2.0 |
+| Logo Quiz Ultimate | `de.androidcrowd.logoquiz` 2.2 | Works | Pure Java, minSdk 8; menu, level grid and answer input verified |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 
 ## Doodle Jump
@@ -62,9 +64,18 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 - The Wildfire's kernel exposes no `/dev/kgsl-3d0` and the system has only the software `libGLES_android.so` ES 1.1 path, so there is no ES 2.0 context to create. This is the same limitation documented under Angry Birds.
 - Hill Climb Racing was uninstalled after testing. The APK stays outside Git for provenance.
 
+## Logo Quiz Ultimate
+
+- Package `de.androidcrowd.logoquiz`; tested version `2.2` (versionCode `34`; `minSdkVersion 8`; 27,302,516 bytes; SHA-256 `52efaf205401a94004d4d0b71df0024719ffc38a82373d52b349b304e7484307`). This is the symblCrowd release; the APK stays outside Git.
+- The APK has no native libraries. It is a pure Java/Android app with 1,593 assets, mostly logo PNGs, so the Wildfire's ARMv6 CPU and software GL are not a compatibility problem.
+- Verified on the phone: the first launch shows an "update database, do not cancel" dialog while it unpacks `logoquiz.sqlite`; the main menu then shows Play, Leaderboard, Statistics, Achievements, About, and More Games. Tapping Play opens the level list; Level 1 shows the 50-logo grid. Tapping Apple opens the answer screen with the on-screen keyboard; typing `apple` and pressing Enter marks the logo with a green check.
+- The app is ad-supported (InMobi, AdMob, Flurry, Swarm, and others). On this phone it logs some ad/network errors and repeated `IllegalStateException` messages from the level loader, but the offline quiz flow remains usable. The first launch's database update takes a little time.
+- Uptodown lists 2.5 as the other Android 2.2-compatible build; 4.3 requires Android 2.3 and is not Froyo-compatible. The 2.2 build is the one verified.
+- No firmware, `/system`, or GPU changes were made. The APK stays outside Git.
+
 ## Angry Birds
 
-Two builds were tested. Both install, but neither reaches gameplay.
+Three builds were tested. All install, but none reaches gameplay.
 
 ### Official 3.1.0
 
@@ -77,6 +88,13 @@ Two builds were tested. Both install, but neither reaches gameplay.
 - Package `com.rovio.angrybirds`; activity `com.rovio.ka3d.App`; ARMv5TE `libangrybirds.so`; uses `GL10` (ES 1.x); the manifest marks ES 2.0 as optional. It is signed with a debug key, so treat it as an untrusted repack, not an official Rovio build.
 - SHA-256: `c80ed55b5a7e594653402217b61569049300358d2c2f6c4515c867608104c477`.
 - Launch result: the process and activity start, then `FATAL EXCEPTION: GLThread 7`: `java.lang.IllegalArgumentException` at `com.google.android.gles_jni.EGLImpl.eglGetConfigAttrib`, called from `MySurfaceView$ConfigChooser.findConfigAttrib` (`App.java:245`).
+
+### Angry Birds Seasons 1.1.1
+
+- Package `com.rovio.angrybirdsseasons`; versionName `1.1.1`; versionCode `111`; `minSdkVersion 4`; 12,872,398 bytes; SHA-256 `114b810306ceab1e04fac49d3581cece65acdc988524384914a19995c40be2f2`. It was obtained from APKMirror and stays outside Git.
+- This is an ARMv6 build: `lib/armeabi/libangrybirds.so` is ARMv5TE and links only `libGLESv1_CM.so`, so it does not need ES 2.0. It installs and starts on the Wildfire.
+- Result: the activity reaches the foreground and loads the software GL driver, but the screen stays a solid blue frame for more than a minute. No menu, loading graphic, or gameplay appears. AdMob and Flurry requests complete with "No fill"; the process remains CPU-busy. It was uninstalled after testing.
+- This is a different failure from the ES 2.0 builds: the app is ES 1.1 and ARMv6-compatible, but the KA3D renderer does not reach a usable frame on this software-GL/528 MHz device.
 
 ### Why it fails
 
