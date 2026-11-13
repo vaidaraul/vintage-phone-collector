@@ -19,6 +19,11 @@ Other devices in the collection, not yet documented: HTC Desire, Apple iPhone 6 
 
 ```text
 README.md                     project index (this file)
+AGENTS.md                     instructions for AI assistants
+LEGAL.md                      copyright, licensing, and distribution notes
+LICENSE-CODE                  MIT license for the original code
+LICENSE-DOCS                  CC BY 4.0 license for the documentation
+.github/workflows/pages.yml   GitHub Pages deployment
 .githooks/pre-push            local secret and binary guard
 .opencode/skills/             reusable OpenCode workflows
 codex-skill/                  reusable Codex workflow instructions
@@ -35,6 +40,20 @@ devices/
 The user-facing process docs live in [`docs/`](docs/README.md). The HTC Wildfire A3333 guide starts at [`docs/htc-wildfire-a3333/README.md`](docs/htc-wildfire-a3333/README.md), with the end-to-end procedure in [`PROCESS.md`](docs/htc-wildfire-a3333/PROCESS.md).
 
 The device logs under `devices/` remain the historical record. They may contain pre-restoration observations and superseded plans; the process docs are the current, tested procedure.
+
+The docs are also published as a static site by [`.github/workflows/pages.yml`](.github/workflows/pages.yml); see [docs/PUBLISHING.md](docs/PUBLISHING.md).
+
+## Legal and licensing
+
+- [Legal and licensing](LEGAL.md)
+- Code: [MIT](LICENSE-CODE)
+- Documentation: [CC BY 4.0](LICENSE-DOCS)
+
+This repository does not provide firmware, RUU payloads, HBOOT images, APK/ODEX files, Caroline payloads, or patched proprietary tools. Obtain those from your own device or a source that has the right to distribute them.
+
+## For AI assistants
+
+[`AGENTS.md`](AGENTS.md) defines the rules an AI assistant should follow: read the process, ask the user for private artifacts, verify hashes, do not invent files, and do not skip backups or safety checks. The documentation index includes a ready-to-use starting prompt.
 
 ## Project principles
 

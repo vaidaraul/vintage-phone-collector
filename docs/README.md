@@ -15,6 +15,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [Changelog](htc-wildfire-a3333/CHANGELOG.md)
 - [Helper scripts](htc-wildfire-a3333/scripts/)
 - [Weather files](htc-wildfire-a3333/weather/)
+- [Publishing this site](PUBLISHING.md)
 
 ## What this documentation is
 
@@ -38,6 +39,28 @@ The repository must not contain:
 - Raw logs containing personal data or private network details.
 
 Keep those files in a private working directory. The docs refer to them by filename and hash only.
+
+## Legal and licensing
+
+- [Legal and licensing](https://github.com/vaidaraul/vintage-phone-collector/blob/main/LEGAL.md)
+- [Code license: MIT](https://github.com/vaidaraul/vintage-phone-collector/blob/main/LICENSE-CODE)
+- [Documentation license: CC BY 4.0](https://github.com/vaidaraul/vintage-phone-collector/blob/main/LICENSE-DOCS)
+
+This project does not provide firmware, APKs, HBOOT images, Caroline payloads, or patched tools. Obtain those from your own device or a source that has the right to distribute them.
+
+## For AI assistants
+
+An AI assistant can walk you through the process, but it must not invent artifacts or skip safety checks. The rules are in [AGENTS.md](https://github.com/vaidaraul/vintage-phone-collector/blob/main/AGENTS.md).
+
+A good starting prompt:
+
+```text
+Read AGENTS.md and docs/htc-wildfire-a3333/PROCESS.md.
+I have an HTC Wildfire A3333 (buzz, PC4910000).
+Walk me through Phase 0 and ask me for the artifacts in ARTIFACTS.md.
+Verify the hashes before we use anything.
+Do not give me proprietary binaries, do not skip backups, and stop if a hash does not match.
+```
 
 ## Status
 

@@ -75,6 +75,7 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 - [PROCESS.md](PROCESS.md) — the step-by-step procedure.
 - [CHECKLIST.md](CHECKLIST.md) — a printable progress checklist.
 - [WEATHER.md](WEATHER.md) — the phone-local weather design, XML schema, and files.
+- [GAMES.md](GAMES.md) — game compatibility notes.
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) — known failure modes and fixes.
 - [ARTIFACTS.md](ARTIFACTS.md) — files, sizes, hashes, and provenance.
 - [PLAN.md](PLAN.md) — how this documentation will be tested and finished.

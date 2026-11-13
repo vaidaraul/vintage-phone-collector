@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2 — 2026-11-13
+
+- Added MIT code license and CC BY 4.0 documentation license.
+- Added `LEGAL.md` with the distribution and copyright boundaries.
+- Added `AGENTS.md` with rules and a prompt template for AI assistants.
+- Added a GitHub Pages workflow and `docs/_config.yml`.
+- Added `docs/PUBLISHING.md`.
+- Made the published docs self-contained by using absolute GitHub links for files outside `docs/`.
+
 ## 0.1 — 2026-11-13
 
 - First complete draft of the user-facing process documentation.

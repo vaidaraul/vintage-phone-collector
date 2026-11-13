@@ -1,0 +1,21 @@
+title: HTC Wildfire A3333 Restoration
+description: Root, S-OFF, WWE Froyo, and phone-local HTC Weather
+theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+relative_links:
+  enabled: true
+
+readme_index:
+  enabled: true
+
+titles_from_headings:
+  enabled: true

@@ -5,7 +5,7 @@
 - **Difficulty:** advanced. Read the whole document before touching the phone.
 - **Risk:** high. A wrong bootloader payload or an interrupted flash can brick the phone.
 
-This document is the process. The engineering notes, raw captures, and historical dead ends are kept in a private engineering log outside this repository. The device history is in [`devices/htc-wildfire-a3333/README.md`](../../devices/htc-wildfire-a3333/README.md).
+This document is the process. The engineering notes, raw captures, and historical dead ends are kept in a private engineering log outside this repository. The device history is in [`devices/htc-wildfire-a3333/README.md`](https://github.com/vaidaraul/vintage-phone-collector/blob/main/devices/htc-wildfire-a3333/README.md).
 
 ## Contents
 
@@ -623,6 +623,6 @@ If you test an unverified path, record the exact device state, commands, and res
 - [Changelog](CHANGELOG.md)
 - [Helper scripts](scripts/)
 - [Weather files](weather/)
-- [Device history](../../devices/htc-wildfire-a3333/README.md)
+- [Device history](https://github.com/vaidaraul/vintage-phone-collector/blob/main/devices/htc-wildfire-a3333/README.md)
 
 The detailed engineering log (raw captures, failed attempts, reverse-engineering notes) is kept privately and is not part of this repository.
