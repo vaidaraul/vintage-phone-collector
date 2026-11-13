@@ -9,5 +9,9 @@ done
 # Start the weather proxy on port 80 as root, detached.
 $BB nohup $BB httpd -c /data/local/weather-www/httpd.conf -p 127.0.0.1:80 -h /data/local/weather-www >/dev/null 2>&1 &
 
+# Optional: HTC Stocks bridge DNAT rule. Uses BusyBox sh's '[' builtin;
+# the stock Android sh on this ROM has no '[' or 'test' builtin.
+$BB sh -c '[ -x /data/local/stock-proxy/stock-boot.sh ] && /system/bin/sh /data/local/stock-proxy/stock-boot.sh'
+
 sleep 1
 exec /system/bin/bootcomplete.orig

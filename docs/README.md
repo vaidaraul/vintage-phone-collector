@@ -8,6 +8,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [End-to-end process](htc-wildfire-a3333/PROCESS.md)
 - [Printable checklist](htc-wildfire-a3333/CHECKLIST.md)
 - [Phone-local weather details](htc-wildfire-a3333/WEATHER.md)
+- [HTC Stocks bridge](htc-wildfire-a3333/STOCKS.md)
 - [News and handpicked RSS feeds](htc-wildfire-a3333/NEWS.md)
 - [Modern web and Google services](htc-wildfire-a3333/MODERN-WEB.md)
 - [Game compatibility](htc-wildfire-a3333/GAMES.md)
@@ -18,6 +19,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [Changelog](htc-wildfire-a3333/CHANGELOG.md)
 - [Helper scripts](htc-wildfire-a3333/scripts/)
 - [Weather files](htc-wildfire-a3333/weather/)
+- [Stock bridge files](htc-wildfire-a3333/stocks/)
 - [News test feed and OPML](htc-wildfire-a3333/news/)
 - [Publishing this site](PUBLISHING.md)
 
@@ -31,6 +33,7 @@ The process is a **verified restoration path for one HTC Wildfire A3333** (coden
 4. Installing ClockworkMod recovery and permanent BusyBox `su`.
 5. Keeping the full stock app set (no general debloat).
 6. Making HTC Weather work without HTC/AccuWeather or a server.
+7. Restoring HTC Stocks with a small LAN bridge; the original Yahoo DGW feed is gone.
 
 It is an advanced guide. It is not a one-click tool and it is not a guarantee for every Wildfire variant.
 

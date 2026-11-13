@@ -1,0 +1,18 @@
+#!/system/bin/sh
+# Combined bootcomplete wrapper: weather httpd + HTC Stocks DNAT rule.
+BB=/system/bin/busybox
+
+# Stop any stale phone-local httpd.
+for p in $($BB ps 2>/dev/null | $BB grep "[b]usybox httpd" | $BB awk '{print $1}'); do
+  kill -9 $p
+done
+
+# Start the weather proxy on port 80 as root, detached.
+$BB nohup $BB httpd -c /data/local/weather-www/httpd.conf -p 127.0.0.1:80 -h /data/local/weather-www >/dev/null 2>&1 &
+
+# Optional: HTC Stocks bridge DNAT rule. Uses BusyBox sh's '[' builtin;
+# the stock Android sh on this ROM has no '[' or 'test' builtin.
+$BB sh -c '[ -x /data/local/stock-proxy/stock-boot.sh ] && /system/bin/sh /data/local/stock-proxy/stock-boot.sh'
+
+sleep 1
+exec /system/bin/bootcomplete.orig

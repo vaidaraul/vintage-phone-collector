@@ -151,6 +151,10 @@ https://archive.mozilla.org/pub/mobile/releases/31.3.0esr/android-armv6/en-US/fe
 - APK sideloading and root shell.
 - The stock browser for plain HTTP and a few old HTTPS endpoints (BBC works; most others do not).
 
+## HTC Stocks
+
+The stock app's Yahoo DGW endpoint is dead. It is restored with a small LAN bridge that translates CNBC quotes into the legacy XML; see [STOCKS.md](STOCKS.md). This is the same pattern as WebOne: the phone cannot do modern TLS, so a trusted host does the HTTPS fetch. The bridge only serves public quote data and must not be exposed to the internet.
+
 ## Security notes
 
 - Opera Mini and WebOne both break end-to-end encryption. Treat them as compatibility tools, not secure browsers.
@@ -168,4 +172,5 @@ https://archive.mozilla.org/pub/mobile/releases/31.3.0esr/android-armv6/en-US/fe
 | Google Search in stock browser | Mostly | Opera Mini loaded Google in testing |
 | HTC Mail with Gmail | **Works** | Use a Gmail App Password; verified receive and send |
 | HTC Mail with Outlook/Yahoo/iCloud | Yes, TLS 1.2 required | Webmail or a local TLS proxy |
+| HTC Stocks quotes | Yes, Yahoo DGW is gone | Small LAN bridge; see [STOCKS.md](STOCKS.md) |
 | News and weather | No | Already working locally |
