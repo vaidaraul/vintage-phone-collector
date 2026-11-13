@@ -16,6 +16,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Temple Run | `com.imangi.templerun` 1.0.0 | Not playable | armeabi-v7a only and requires ES 2.0; install fails with native ABI mismatch |
 | Subway Surfers | `com.kiloo.subwaysurf` 1.0 (3) | Not playable | Unity/Mono; `armeabi-v7a` only; Froyo rejects install with native ABI mismatch |
 | Fruit Ninja | `com.halfbrick.fruitninja` 1.3 (1301) | Playable with patch | Official build ~8 FPS; 160x120 half-res patched build ~25–50 FPS, softer image |
+| Cut the Rope | `com.zeptolab.ctr.ads` 1.4.1 (9) | Playable, slow | Free ad build; ARMv6/ES 1.1; two levels played, somewhat slow |
 | Hill Climb Racing | `com.fingersoft.hillclimb` 1.0.0 | Not playable | Cocos2d-x; ARMv6 `armeabi` library exists, but it links `libGLESv2.so` and needs ES 2.0 |
 | Logo Quiz Ultimate | `de.androidcrowd.logoquiz` 2.2 | Works | Pure Java, minSdk 8; menu, level grid and answer input verified |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
@@ -55,6 +56,14 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 - The patched APK is re-signed with a local compatibility key. It cannot be installed over the original Halfbrick-signed APK. Back up `/data/data/com.halfbrick.fruitninja` first (root required), uninstall, install the patched APK, then restore the data with the new package UID. An in-place update produced `INSTALL_FAILED_INSUFFICIENT_STORAGE` despite free space; a clean uninstall/install worked.
 - No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and patched APKs and the save backup stay outside Git.
 - The earlier note about 1.7.5 was a historical observation from a different build and was not re-measured in this pass.
+
+## Cut the Rope
+
+- Package `com.zeptolab.ctr.ads`; tested version `1.4.1` (versionCode `9`; `minSdkVersion 4`; `targetSdkVersion 13`; 21,823,043 bytes; SHA-256 `e2355938a886ac5e70c93f02bf35f4413f8693c519fd3c5dfd05746789b80d60`). This is the free, ad-supported ZeptoLab build; it was obtained from APKMirror and stays outside Git.
+- The APK ships `lib/armeabi/libctr-jni.so` and `lib/armeabi-v7a/libctr-jni.so`. The ARMv6 library is ARMv5TE (`Tag_CPU_arch: v5TE`) and links `libGLESv1_CM.so`, not `libGLESv2.so`, so it runs on the Wildfire's software OpenGL ES 1.1 path.
+- Install and launch succeed. The splash screen takes about 16 seconds to appear on first launch. The game then opens the tutorial in landscape at 320x240. Ad/analytics calls fail offline (`UnknownHostException: data.flurry.com`), but they do not block the game.
+- Verified on the phone: the owner played two levels. The game is somewhat slow but playable; no frame-rate measurement was taken in this pass. It remains installed.
+- No firmware, GPU driver, `/system`, or CPU-governor changes were made. The APK stays outside Git.
 
 ## Hill Climb Racing
 

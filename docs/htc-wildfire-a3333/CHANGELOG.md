@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.14 — 2026-11-13
+
+- Verified Cut the Rope 1.4.1 (free ZeptoLab build, `com.zeptolab.ctr.ads`): the APK includes an ARMv5TE/ES 1.1 library, installs, launches, and the owner played two levels. It is somewhat slow but playable.
+- Documented the native-library details, the roughly 16-second first launch, the offline ad/analytics failures, and the APK hash.
+- Updated the game table, guide summary, and device history.
+
 ## 0.13 — 2026-11-13
 
 - Tested Subway Surfers 1.0 (versionCode 3), the only Android 2.2-compatible release: it is a Unity/Mono APK with `armeabi-v7a`-only native libraries, and installation fails on the ARMv6 Wildfire with a native ABI mismatch.
