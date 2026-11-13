@@ -2,6 +2,8 @@
 
 Tested on the rooted HTC Wildfire A3333 running the WWE Froyo `2.22.405.1` build: Android 2.2.1 (API 8), 528 MHz ARM11, Adreno 200, 240x320, 384 MB RAM. Test APKs are kept outside Git.
 
+As of 2026-11-13, Logo Quiz Ultimate, Cut the Rope, Candle, Lighter, Pou and Jetpack Joyride are installed on the SD card. Fruit Ninja and Skater Boy remain internal because their re-signed APKs could not be moved in place; Doodle Jump, iBeer and Talking Tom are internal-only.
+
 For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md).
 
 ## Summary

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.20 — 2026-11-13
+
+- Moved Logo Quiz Ultimate, Cut the Rope, Candle, Lighter and Pou to the SD card in place with `pm install -s -r`; Jetpack Joyride was already there. `/data` free rose from about 11.6 MB to about 70 MB and the low-storage notification cleared.
+- Recorded that Fruit Ninja and Skater Boy are re-signed and Froyo refused their in-place moves; they remain internal. Doodle Jump, iBeer, Talking Tom and Opera Mini lack external-install support.
+- Updated the game guide intro and device history.
+
 ## 0.19 — 2026-11-13
 
 - Measured Jetpack Joyride 1.3.5 at about 5 FPS on the Wildfire; it is decorative rather than playable.
