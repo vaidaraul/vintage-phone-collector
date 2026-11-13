@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11 — 2026-11-13
+
+- Tested Hill Climb Racing 1.0.0: it installs because it ships an ARMv6 `armeabi` library, but it links `libGLESv2.so` and requires OpenGL ES 2.0. Launch logs "Your device doesn't support OpenGLES 2.0" and crashes in the ad manager; it was uninstalled.
+- Added the blocker to the game compatibility table and device history.
+
 ## 0.10 — 2026-11-13
 
 - Added Fruit Ninja 1.3 (1301) to the game compatibility notes: the official build runs at about 8 FPS on the software-GL Wildfire, while a locally patched 160x120 build runs at about 25–50 FPS and was confirmed playable.

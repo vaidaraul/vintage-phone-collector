@@ -14,6 +14,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Angry Birds | `com.rovio.angrybirds` 1.0.0 KA3D port | Not playable | ES 1.x, but its EGL config chooser throws |
 | Temple Run | `com.imangi.templerun` 1.0.0 | Not playable | armeabi-v7a only and requires ES 2.0; install fails with native ABI mismatch |
 | Fruit Ninja | `com.halfbrick.fruitninja` 1.3 (1301) | Playable with patch | Official build ~8 FPS; 160x120 half-res patched build ~25–50 FPS, softer image |
+| Hill Climb Racing | `com.fingersoft.hillclimb` 1.0.0 | Not playable | Cocos2d-x; ARMv6 `armeabi` library exists, but it links `libGLESv2.so` and needs ES 2.0 |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 
 ## Doodle Jump
@@ -51,6 +52,15 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 - The patched APK is re-signed with a local compatibility key. It cannot be installed over the original Halfbrick-signed APK. Back up `/data/data/com.halfbrick.fruitninja` first (root required), uninstall, install the patched APK, then restore the data with the new package UID. An in-place update produced `INSTALL_FAILED_INSUFFICIENT_STORAGE` despite free space; a clean uninstall/install worked.
 - No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and patched APKs and the save backup stay outside Git.
 - The earlier note about 1.7.5 was a historical observation from a different build and was not re-measured in this pass.
+
+## Hill Climb Racing
+
+- Package `com.fingersoft.hillclimb`; tested version `1.0.0` (versionCode `5`; `minSdkVersion 8`; 7,156,298 bytes; SHA-256 `ecf63cab1c2cfe4c93d602bce3735dc48bdd1e5b66ea738ce4158b03e7d8325`). It was obtained from APKMirror and stays outside Git.
+- The APK contains both `lib/armeabi/libgame.so` and `lib/armeabi-v7a/libgame.so`. The `armeabi` library is ARMv5TE, so installation on the Wildfire succeeds.
+- Both libraries link `libGLESv2.so`, and the APK ships Cocos2d-x vertex and fragment shaders under `assets/shaders/`. This is an OpenGL ES 2.0 renderer, not an ES 1.x path.
+- Launch result: the process starts and loads `libgame.so`, then logs `D/activity: Your device doesn't support OpenGLES 2.0`. The app aborts into a `NullPointerException` in `AdManager.getPrefValueString` (`AdManager.java:353`) instead of exiting cleanly. No gameplay is reached.
+- The Wildfire's kernel exposes no `/dev/kgsl-3d0` and the system has only the software `libGLES_android.so` ES 1.1 path, so there is no ES 2.0 context to create. This is the same limitation documented under Angry Birds.
+- Hill Climb Racing was uninstalled after testing. The APK stays outside Git for provenance.
 
 ## Angry Birds
 

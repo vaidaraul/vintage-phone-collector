@@ -62,6 +62,8 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - **Angry Birds:** not playable on this ROM. The Android builds require OpenGL ES 2.0, but the stock kernel exposes no `hw3dc` GPU device; the ES 1.x 1.0 build also crashes in its EGL config chooser. Details, hashes and cleanup are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Temple Run 1.0.0:** not playable. The official APK contains only `armeabi-v7a` native libraries and requires OpenGL ES 2.0; the Wildfire is ARMv6 and has no working ES 2.0 GPU path. Installation fails with `Native ABI mismatch from package file`. Unofficial ARMv6 repacks are modified and were not trusted. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 
+- **Hill Climb Racing 1.0.0:** not playable. It ships an ARMv6 `armeabi` library, so it installs, but the Cocos2d-x renderer links `libGLESv2.so` and requires OpenGL ES 2.0. Launch logs "Your device doesn't support OpenGLES 2.0" and crashes in the ad manager; no gameplay is reached. It was uninstalled. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+
 ## 2026-11-13: casual sensor apps
 
 - **iBeer FREE 1.28** (`com.hottrix.ibeerfree`, versionCode 18) is installed and verified. The phone's accelerometer drives the beer glass: flat shows the top-down view, tilting pours/drinks, and shaking makes foam. The later 1.35 build requires API 9, so 1.28 is the Froyo build. The APK stays outside Git.
