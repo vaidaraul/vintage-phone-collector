@@ -1,6 +1,6 @@
 # HTC News and handpicked RSS feeds
 
-**Status:** verified working on one HTC Wildfire A3333 on 2026-11-13. Final set: BBC News plus BBC World, Technology, Science, Business, and Sport; Ars Technica; Engadget; ScienceDaily; Universe Today. The local test feed was a diagnostic and has been removed.
+**Status:** verified working on one HTC Wildfire A3333 on 2026-11-13. Final set: BBC News plus BBC World, Technology, Science, Business, and Sport; Ars Technica; Engadget; ScienceDaily; Universe Today. The News widget is also verified working. The local test feed was a diagnostic and has been removed.
 
 This page answers one question: can the stock HTC News app on the Wildfire A3333 load a feed you choose yourself? **Yes.** The app is a real RSS/Atom reader with an "Add from URL" screen and OPML import. The final set below is live on the phone.
 
@@ -160,6 +160,7 @@ Build a static ARMv6 `curl` or `wget` with a modern TLS library, then call it fr
 | 2026-11-13 | Engadget | **Pass** | 20 items via FeedBurner |
 | 2026-11-13 | ScienceDaily | **Pass** | 50 items |
 | 2026-11-13 | Universe Today | **Pass** | 20 items |
+| 2026-11-13 | News widget | **Pass** | Fully working with the final feed set |
 | 2026-11-13 | CNN Top Stories | **Removed** | 50 items, but from April 2023 |
 | 2026-11-13 | Yahoo!/Engadget old/CNET | **Removed** | 0 headlines; legacy URLs |
 | 2026-11-13 | Local test feed | **Removed** | Diagnostic only; the public feeds work |

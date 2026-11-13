@@ -9,6 +9,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [Printable checklist](htc-wildfire-a3333/CHECKLIST.md)
 - [Phone-local weather details](htc-wildfire-a3333/WEATHER.md)
 - [News and handpicked RSS feeds](htc-wildfire-a3333/NEWS.md)
+- [Modern web and Google services](htc-wildfire-a3333/MODERN-WEB.md)
 - [Game compatibility](htc-wildfire-a3333/GAMES.md)
 - [Casual sensor apps](htc-wildfire-a3333/CASUAL.md)
 - [Troubleshooting](htc-wildfire-a3333/TROUBLESHOOTING.md)

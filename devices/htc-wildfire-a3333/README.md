@@ -72,12 +72,20 @@ Serial numbers and private network details are intentionally omitted. Values abo
 
 - The stock `com.htc.newsreader` (`NewsReader.apk`) is a real RSS/Atom front end over the Rosedata `com.rosedata.android.rss` (`RSS.apk`) engine. It supports direct subscription by URL, OPML import/export, categories, refresh intervals, and a home-screen widget.
 - Supported formats are RSS 0.90–2.0 and Atom 0.3/1.0. The URL field is limited to 255 characters. Google Reader sync code is present but optional; direct feeds use the local engine.
-- **Final working set on the phone:** BBC News (39), BBC World (13), BBC Technology (9), BBC Science (31), BBC Business (45), BBC Sport (43), Ars Technica (20), Engadget (20), ScienceDaily (50), and Universe Today (20).
+- **Final working set on the phone:** BBC News (39), BBC World (13), BBC Technology (9), BBC Science (31), BBC Business (45), BBC Sport (43), Ars Technica (20), Engadget (20), ScienceDaily (50), and Universe Today (20). The News widget is verified working with this set.
 - **BBC News is verified working:** its legacy HTTP URL redirects to HTTPS and the app follows it, so HTTPS is not universally broken on Froyo. The BBC topic feeds use the same endpoint.
 - **Ars Technica works in the app** via its plain-HTTP URL (`http://feeds.arstechnica.com/arstechnica/index`). The stock browser shows a TLS dialog for the HTTPS URL because of a subresource; the feed itself is fetched and parsed correctly.
 - **CNN was stale:** the preinstalled `rss.cnn.com` feed loaded 50 items, but they were from April 2023. The app stamps the fetch time on each headline, so they looked current. It was removed.
 - Yahoo!, Engadget (old URL), and CNET's preinstalled feed URLs returned 0 headlines and were removed.
 - The local test feed was a diagnostic only and was removed. See [NEWS.md](../../docs/htc-wildfire-a3333/NEWS.md).
+
+## 2026-11-13: modern web and Google limits
+
+- Google account sign-in is permanently blocked on Android 2.3.7 and lower. The “invalid pass and user combination” error is expected; see [MODERN-WEB.md](../../docs/htc-wildfire-a3333/MODERN-WEB.md).
+- The Play Store / Android Market is not usable on Froyo. APKs must be sideloaded.
+- Opera Mini 7.6.4 (official Opera archive) installs and loads Google on the phone. It is the easiest modern-web workaround, with the caveat that Opera’s proxy decrypts traffic.
+- Firefox 31.3.0esr ARMv6 installs but crashes on launch; it is not usable on this unit.
+- The stock browser remains limited to TLS 1.0; a WebOne proxy on a trusted PC is the full-page workaround for the stock browser.
 
 ## Investigation observations (2026-11-08 to 2026-11-10) — historical
 

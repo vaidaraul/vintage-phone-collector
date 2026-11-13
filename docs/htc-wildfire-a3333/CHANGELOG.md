@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7 — 2026-11-13
+
+- Added `MODERN-WEB.md`: Google account sign-in is permanently blocked on Android 2.3.7 and lower; Play Store is not usable; modern browsing has workarounds.
+- Tested Opera Mini 7.6.4 on the phone: it installs, launches, and loads Google.
+- Tested Firefox 31.3.0esr ARMv6: it installs but crashes on launch; not recommended.
+- Documented WebOne as the stock-browser proxy option, with security caveats.
+- Recorded the News widget as verified working.
+
 ## 0.6 — 2026-11-13
 
 - Added `CASUAL.md`: iBeer FREE 1.28, Lighter 8.0, and Candle 6.2 (versionCode 19) verified working with their tilt, touch, flame and blow-to-extinguish functions.

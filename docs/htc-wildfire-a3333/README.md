@@ -78,6 +78,7 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 - [CHECKLIST.md](CHECKLIST.md) — a printable progress checklist.
 - [WEATHER.md](WEATHER.md) — the phone-local weather design, XML schema, and files.
 - [NEWS.md](NEWS.md) — HTC NewsReader, handpicked RSS/Atom feeds, and the HTTP/HTTPS constraint.
+- [MODERN-WEB.md](MODERN-WEB.md) — Google account limits, Play Store, and modern browsing workarounds.
 - [GAMES.md](GAMES.md) — game compatibility notes.
 - [CASUAL.md](CASUAL.md) — classic accelerometer/microphone novelty apps.
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) — known failure modes and fixes.
