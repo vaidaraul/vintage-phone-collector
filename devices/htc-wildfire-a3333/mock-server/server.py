@@ -29,6 +29,10 @@ CACHE_SECONDS = int(os.environ.get("WEATHER_CACHE_SECONDS", "600"))
 STALE_SECONDS = int(os.environ.get("WEATHER_STALE_SECONDS", str(6 * 60 * 60)))
 DEFAULT_LATITUDE = float(os.environ.get("WEATHER_LATITUDE", "44.4268"))
 DEFAULT_LONGITUDE = float(os.environ.get("WEATHER_LONGITUDE", "26.1025"))
+# The stock HTC client gives up after about five seconds. Keep the upstream
+# fetch shorter than that so a slow provider does not burn the client's whole
+# window; the stale-cache path can then answer in time.
+UPSTREAM_TIMEOUT = float(os.environ.get("WEATHER_UPSTREAM_TIMEOUT", "4"))
 
 # HTC/AccuWeather legacy location codes do not always use ISO 3166-1 alpha-2.
 # The client's own data uses EUR|UK|UK124|LONDON, but the geocoder expects GB.
@@ -52,7 +56,7 @@ def _search_geocoder(name: str, country: str) -> list[dict]:
         f"{GEOCODING_URL}?{urlencode(params)}",
         headers={"User-Agent": "HTC-Wildfire-Legacy-Weather/0.2"},
     )
-    with urlopen(request, timeout=10) as response:
+    with urlopen(request, timeout=UPSTREAM_TIMEOUT) as response:
         payload = json.loads(response.read().decode("utf-8"))
     return payload.get("results") or []
 
@@ -211,7 +215,7 @@ def fetch_weather(latitude: float, longitude: float) -> bytes:
         headers={"User-Agent": "HTC-Wildfire-Legacy-Weather/0.2"},
     )
     try:
-        with urlopen(request, timeout=10) as response:
+        with urlopen(request, timeout=UPSTREAM_TIMEOUT) as response:
             payload = json.loads(response.read().decode("utf-8"))
         current = payload["current"]
         daily = payload["daily"]
