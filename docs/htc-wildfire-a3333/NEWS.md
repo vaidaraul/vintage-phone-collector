@@ -95,6 +95,36 @@ Froyo's TLS stack is old, but it is not useless. The results depend on the endpo
 
 The practical rule is: **test each feed on the phone**. A redirect to HTTPS is not automatically fatal; BBC proves that. A feed that returns HTTP 200 is not automatically live; CNN proves that.
 
+### Feeds that fail on this phone
+
+These HTTPS endpoints failed with **“A secure connection could not be established”** in the stock browser on 2026-11-13:
+
+- Ars Technica: `https://feeds.arstechnica.com/arstechnica/index`
+- Hackaday: `https://hackaday.com/feed/`
+
+Ars Technica’s HTTP URL also redirects to the HTTPS endpoint, which explains why it did not work in NewsReader. Do not recommend it for this phone.
+
+The following HTTPS feeds were fresh from a desktop client but were **not** tested on the phone; assume they may fail until proven otherwise: The Verge, Engadget HTTPS, Phys.org, NASA, New Scientist, Space.com, Polygon, Eurogamer, and Rock Paper Shotgun.
+
+### Feeds that load on the phone
+
+These were opened in the stock browser and returned XML with current dates:
+
+| Feed | URL | Notes |
+| --- | --- | --- |
+| BBC World | `http://feeds.bbci.co.uk/news/world/rss.xml` | Same BBC endpoint as the working front page |
+| BBC Technology | `http://feeds.bbci.co.uk/news/technology/rss.xml` | Same endpoint |
+| BBC Science | `http://feeds.bbci.co.uk/news/science_and_environment/rss.xml` | Same endpoint |
+| BBC Business | `http://feeds.bbci.co.uk/news/business/rss.xml` | Same endpoint |
+| BBC Sport | `http://feeds.bbci.co.uk/sport/rss.xml` | Same endpoint |
+| ScienceDaily | `http://www.sciencedaily.com/rss/top/science.xml` | HTTP; XML loaded; a secure-subresource dialog appeared |
+| Universe Today | `http://feeds.feedburner.com/Universetoday` | HTTP; XML loaded; a secure-subresource dialog appeared |
+| Engadget | `http://feeds.feedburner.com/engadget` | HTTP; XML loaded; a secure-subresource dialog appeared |
+
+The secure-subresource dialog comes from an HTTPS image or stylesheet inside the feed page. The XML itself is already visible behind it. NewsReader’s RSS parser may ignore that subresource; test the feed in the app to confirm.
+
+A ready-to-import list is [`news/recommended.opml`](news/recommended.opml). It contains the five BBC topic feeds plus ScienceDaily, Universe Today, and Engadget.
+
 This has two consequences:
 
 - **Headlines and summaries work** when the feed is reachable and fresh.

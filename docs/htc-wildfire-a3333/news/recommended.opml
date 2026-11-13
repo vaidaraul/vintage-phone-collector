@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Wildfire Recommended Feeds</title>
+    <dateModified>Fri, 13 Nov 2026 10:40:00 GMT</dateModified>
+  </head>
+  <body>
+    <outline text="Handpicked" title="Handpicked">
+      <outline type="rss" text="BBC World" title="BBC World" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="http://www.bbc.co.uk/news/world/"/>
+      <outline type="rss" text="BBC Technology" title="BBC Technology" xmlUrl="http://feeds.bbci.co.uk/news/technology/rss.xml" htmlUrl="http://www.bbc.co.uk/news/technology/"/>
+      <outline type="rss" text="BBC Science" title="BBC Science" xmlUrl="http://feeds.bbci.co.uk/news/science_and_environment/rss.xml" htmlUrl="http://www.bbc.co.uk/news/science_and_environment/"/>
+      <outline type="rss" text="BBC Business" title="BBC Business" xmlUrl="http://feeds.bbci.co.uk/news/business/rss.xml" htmlUrl="http://www.bbc.co.uk/news/business/"/>
+      <outline type="rss" text="BBC Sport" title="BBC Sport" xmlUrl="http://feeds.bbci.co.uk/sport/rss.xml" htmlUrl="http://www.bbc.co.uk/sport/"/>
+      <outline type="rss" text="ScienceDaily" title="ScienceDaily" xmlUrl="http://www.sciencedaily.com/rss/top/science.xml" htmlUrl="http://www.sciencedaily.com/"/>
+      <outline type="rss" text="Universe Today" title="Universe Today" xmlUrl="http://feeds.feedburner.com/Universetoday" htmlUrl="http://www.universetoday.com/"/>
+      <outline type="rss" text="Engadget" title="Engadget" xmlUrl="http://feeds.feedburner.com/engadget" htmlUrl="http://www.engadget.com/"/>
+    </outline>
+  </body>
+</opml>

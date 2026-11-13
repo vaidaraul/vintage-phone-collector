@@ -9,6 +9,7 @@ These files prove that the stock HTC NewsReader can load a handpicked RSS feed f
 | `test-feed.xml` | Five-item RSS 2.0 feed with plain text, CDATA, entities, and dates |
 | `item-1.html` … `item-5.html` | Local article pages linked from the test feed |
 | `handpicked.opml` | BBC, four fresh public HTTP feeds, and the local test feed, in a `Handpicked` category |
+| `recommended.opml` | Eight feeds that load on the phone: BBC World/Technology/Science/Business/Sport, ScienceDaily, Universe Today, Engadget |
 
 ## Serve the test feed from the phone
 
@@ -67,6 +68,15 @@ The OPML contains:
 BBC was verified working on the phone on 2026-11-13; its HTTP URL redirects to HTTPS and the app follows it. The four other public feeds were checked over plain HTTP, are small (31–71 KB), and are fresh. The local test feed only works while the phone-local httpd is running.
 
 Do not use CNN's legacy `rss.cnn.com` feed as a live source. It returns 50 items, but they are from April 2023; the app stamps the fetch time on them, so they look current. See [`../NEWS.md`](../NEWS.md).
+
+## Recommended import
+
+`recommended.opml` is the current list for this phone:
+
+- BBC World, Technology, Science, Business, and Sport (same BBC endpoint as the working front page).
+- ScienceDaily, Universe Today, and Engadget (plain HTTP; the XML loads in the phone browser).
+
+Push it to `/sdcard/recommended.opml` and use **News > menu > Import**. Delete any feed that shows 0 headlines after a refresh. Ars Technica and Hackaday are not in the list: their HTTPS endpoints fail on this phone with “A secure connection could not be established.”
 
 ## Expected results
 
