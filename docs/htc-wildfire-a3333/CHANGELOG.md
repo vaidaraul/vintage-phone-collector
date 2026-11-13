@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.17 — 2026-11-13
+
+- Restored HTC Stocks with a small LAN bridge. The stock app still POSTs to the dead Yahoo DGW endpoint; `stock-bridge.py` implements the legacy `getquotes` response and sources quotes from CNBC's public JSON for `^FTSE`, `^IXIC`, `2498.TW`, and `GOOG`.
+- Recovered the DGW request/response schema and the `StockServiceImpl` parser behaviour. The stock app writes prices into `/data/data/com.htc.dcs.service.stock/databases/stock.db`.
+- Fixed the `NullPointerException` in `StockServiceImpl.updateCacheData` by matching the original Yahoo response headers (`Connection: close`, `X-YSTATUS: 200`, `text/plain;charset=UTF-8`). The app's `onComponentDestroy()` sets `mContext = null`, so a slow keep-alive response loses the race.
+- Added a phone boot hook that re-adds the iptables DNAT rule, and documented the stock Android `sh` caveat: it has no `[` or `test` builtin, so the boot wrapper calls the hook directly.
+- Added [STOCKS.md](STOCKS.md) and the [`stocks/`](stocks/) bridge, installer, boot hook, and host start script.
+- Verified a cold-cache refresh and a full phone reboot: the boot hook restored the DNAT rule, Stocks fetched fresh quotes, and `stock.db` updated.
+- Updated the documentation index, guide summary, and device history.
+
+## 0.16 — 2026-11-13
+
+- Verified Pou 1.0.31: pure-Java `minSdk 4` build; kitchen, food carousel and Fridge UI work. The newer 1.4.70 build does not fit the current `/data` free space; 1.0.31 was installed directly from the SD card.
+- Verified Talking Tom Cat 1.0: the original Outfit7 ARMv6 build ships only an audio native library; the full scene and head/milk interactions work.
+- Feeding and voice repeat were left for hands-on testing; both apps remain installed.
+- Updated the game table, guide summary, and device history.
+
 ## 0.15 — 2026-11-13
 
 - Tested Plants vs. Zombies FREE 1.1.44, APKMirror's earliest listed free ARM build: it declares `minSdkVersion 9`, so installation on Froyo (API 8) fails with `INSTALL_FAILED_OLDER_SDK`; its ARMv5TE library also links `libGLESv2.so`, requiring OpenGL ES 2.0.

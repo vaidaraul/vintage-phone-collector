@@ -1,6 +1,6 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
-**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today; iBeer, Lighter and Candle verified; Fruit Ninja 1.3 playable with a 160x120 half-res patch
+**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today; HTC Stocks refreshed through a small LAN bridge; iBeer, Lighter and Candle verified; Fruit Ninja 1.3 playable with a 160x120 half-res patch
 
 **Last updated:** 2026-11-13
 
@@ -16,7 +16,7 @@ This project started as an investigation into restoring the original HTC Weather
 - Prefer reversible, reproducible steps; do not flash or alter system partitions without a verified recovery path.
 - Keep observations, hypotheses, and unverified assumptions explicitly separate.
 - Do not publish HTC APK/ODEX binaries, device serials, raw logs, credentials, vendor request parameters, or private network secrets.
-- A locally hosted lab service is useful for protocol compatibility tests. The final Wildfire design is fully phone-local: it works on ordinary Wi-Fi or mobile data and does not need a home LAN service, a VPS, or a public endpoint.
+- A locally hosted lab service is useful for protocol compatibility tests. Weather and News are fully phone-local: they work on ordinary Wi-Fi or mobile data and do not need a home LAN service, a VPS, or a public endpoint. HTC Stocks uses a small LAN bridge because the Yahoo DGW endpoint is gone and the phone cannot do modern TLS; the bridge serves public quote data only and is not exposed to the internet.
 - Do not weaken TLS by disabling certificate or hostname verification or by silently falling back to plaintext HTTP for a public service.
 
 ## Device record
@@ -68,6 +68,11 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - **Plants vs. Zombies 1.1.44:** not playable. The earliest official free APKMirror build declares `minSdkVersion 9`, so installation on Froyo fails with `INSTALL_FAILED_OLDER_SDK`. Its ARMv5TE library also links `libGLESv2.so`, so the engine requires OpenGL ES 2.0; the Wildfire has only software ES 1.1. The 2011 paid release claimed Android 2.2 support but excluded the HTC Aria and listed HVGA as the minimum resolution, above the Wildfire's 240x320. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Hill Climb Racing 1.0.0:** not playable. It ships an ARMv6 `armeabi` library, so it installs, but the Cocos2d-x renderer links `libGLESv2.so` and requires OpenGL ES 2.0. Launch logs "Your device doesn't support OpenGLES 2.0" and crashes in the ad manager; no gameplay is reached. It was uninstalled. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 
+## 2026-11-13: kids' virtual pets
+
+- **Pou 1.0.31** (`me.pou.app`, versionCode 31) is installed and working. It is a pure-Java `minSdk 4` app with no native libraries. It launches in about 3.7 seconds; the 240x320 kitchen, food carousel and Fridge inventory were verified. The newer 1.4.70 build is also `minSdk 4` but did not fit in the current `/data` free space (`INSTALL_FAILED_INSUFFICIENT_STORAGE`); 1.0.31 was installed directly from the SD card. Feeding was left for a hands-on test because the HTC Stocks app repeatedly stole focus. Details and hashes are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+- **Talking Tom Cat 1.0** (`com.outfit7.talkingtom`, versionCode 1) is installed and working. The original Outfit7 build ships only `libsoundtouch.so` for audio, renders the full 240x320 cat scene, and reacts to head and milk-carton taps. AdMob requests fail offline without blocking play. Voice repeat was not exercised remotely. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+
 ## 2026-11-13: casual sensor apps
 
 - **iBeer FREE 1.28** (`com.hottrix.ibeerfree`, versionCode 18) is installed and verified. The phone's accelerometer drives the beer glass: flat shows the top-down view, tilting pours/drinks, and shaking makes foam. The later 1.35 build requires API 9, so 1.28 is the Froyo build. The APK stays outside Git.
@@ -85,6 +90,16 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - **CNN was stale:** the preinstalled `rss.cnn.com` feed loaded 50 items, but they were from April 2023. The app stamps the fetch time on each headline, so they looked current. It was removed.
 - Yahoo!, Engadget (old URL), and CNET's preinstalled feed URLs returned 0 headlines and were removed.
 - The local test feed was a diagnostic only and was removed. See [NEWS.md](../../docs/htc-wildfire-a3333/NEWS.md).
+
+## 2026-11-13: HTC Stocks
+
+- The stock app (`com.htc.android.Stock` 2.00) POSTs to `http://api.htc.go.yahoo.com/dgw?...` and expects the old Yahoo DGW XML. The endpoint is dead; the app showed “Connection error” and left `stock.db` prices `NULL`.
+- Recovered the request/response schema from `Stock.odex`/`DCSStock.odex` and built `stock-bridge.py`: it implements `getquotes` and sources quotes from CNBC's public JSON. Default symbols: FTSE 100, NASDAQ Composite, HTC Corporation, Alphabet Class C.
+- The phone resolves `api.htc.go.yahoo.com` to the bridge host in `/system/etc/hosts`; an iptables DNAT rule maps port 80 to the bridge's 8090.
+- The first successful write exposed a race: `StockServiceImpl.onComponentDestroy()` sets `mContext = null`, so a slow keep-alive response produced `NullPointerException` at `updateCacheData(StockServiceImpl.java:427)`. Matching the original Yahoo headers (`Connection: close`, `X-YSTATUS: 200`, `text/plain;charset=UTF-8`) fixed it.
+- A boot hook in `/system/bin/bootcomplete` re-adds the DNAT rule. The stock Android `sh` has no `[`/`test` builtin; the hook is called directly.
+- Verified cold-cache refresh and a full reboot: the rule returned, the app fetched fresh quotes, and `stock.db` updated. The “Finance”/“Quotes delayed” links remain dead Yahoo browser links.
+- Details and scripts: [STOCKS.md](../../docs/htc-wildfire-a3333/STOCKS.md).
 
 ## 2026-11-13: modern web and Google limits
 

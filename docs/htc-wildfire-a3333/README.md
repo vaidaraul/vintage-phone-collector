@@ -6,8 +6,10 @@
 - **Recovery:** ClockworkMod `5.0.2.0`
 - **Root:** BusyBox `su` at `/system/bin/su` (promptless)
 - **Weather:** phone-local, no VPS or HTC/AccuWeather dependency
+- **Stocks:** restored via a small LAN bridge; the default symbols refresh from CNBC
 - **Stock apps:** restored; no general debloat
 - **Games:** Doodle Jump verified working; Skater Boy 1.6 playable but marginal with a 0.75x timing-cap build; Fruit Ninja 1.3 playable with a 160x120 half-res patch (~25–50 FPS, softer image); Cut the Rope 1.4.1 playable but slow (two levels played); Logo Quiz Ultimate 2.2 verified working; Angry Birds, Angry Birds Seasons, Temple Run, Subway Surfers, Plants vs. Zombies and Hill Climb Racing not playable due GPU/API, CPU-ABI or Android-version limits — see [GAMES.md](GAMES.md)
+- **Kids:** Pou 1.0.31 and Talking Tom Cat 1.0 verified working; Pou's kitchen/Fridge UI and Tom's head/milk reactions work — see [GAMES.md](GAMES.md)
 - **Casual apps:** iBeer, Lighter and Candle verified working, including tilt, touch and blow interactions — see [CASUAL.md](CASUAL.md)
 - **Last verified:** 2026-11-13
 
@@ -19,6 +21,7 @@ This is the complete restoration path for a Wildfire A3333 that should keep the 
 - S-OFF, SuperCID, custom recovery, permanent root.
 - All stock HTC apps kept, including FriendStream, HTC Facebook/Twitter, Flickr, Stock, YouTube, Gmail, Maps, and the Sense widgets.
 - HTC Weather working on ordinary Wi-Fi or mobile data without HTC services.
+- HTC Stocks working through a small LAN bridge; the original Yahoo DGW endpoint is gone.
 
 ## Glossary
 
@@ -61,6 +64,8 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 | [6. Phone-local weather](PROCESS.md#phase-6-phone-local-weather) | HTC Weather without HTC services | You do not need Weather |
 | [7. Verify and back up](PROCESS.md#phase-7-verify-and-back-up) | Final checklist and raw images | — |
 
+HTC Stocks is documented separately in [STOCKS.md](STOCKS.md). It needs a small LAN bridge because the Yahoo DGW quote endpoint is gone and the phone cannot do modern TLS. Weather and News remain phone-local.
+
 ## Final verified state
 
 - WWE Froyo `2.22.405.1` (`ro.build.description` = `2.22.405.1 CL295397 release-keys`).
@@ -70,6 +75,7 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 - All pre-debloat `/system/app` files present except the old `Superuser.apk` (intentionally replaced by BusyBox `su`).
 - Weather CGI returns the legacy `<weather>` XML for all saved cities and the current location.
 - BusyBox httpd listens on `127.0.0.1:80` and starts at boot.
+- Stocks refreshes the four default symbols through a LAN bridge; `stock.db` contains non-`NULL` prices.
 - News works with BBC News plus BBC World/Technology/Science/Business/Sport, Ars Technica, Engadget, ScienceDaily, and Universe Today.
 
 ## Related documents
@@ -77,6 +83,7 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 - [PROCESS.md](PROCESS.md) — the step-by-step procedure.
 - [CHECKLIST.md](CHECKLIST.md) — a printable progress checklist.
 - [WEATHER.md](WEATHER.md) — the phone-local weather design, XML schema, and files.
+- [STOCKS.md](STOCKS.md) — the HTC Stocks DGW bridge, symbol mapping, and boot hook.
 - [NEWS.md](NEWS.md) — HTC NewsReader, handpicked RSS/Atom feeds, and the HTTP/HTTPS constraint.
 - [MODERN-WEB.md](MODERN-WEB.md) — Google account limits, Play Store, and modern browsing workarounds.
 - [GAMES.md](GAMES.md) — game compatibility notes.
@@ -91,4 +98,5 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 - **Back up first.** The WWE flash wipes data. The S-OFF path can leave the phone at a fastboot screen or with a wedged USB stack.
 - **Use the correct payload.** The `buzz` Caroline stub uses `0x9C...` addresses. Stubs from other devices use `0x9D...` and freeze the Wildfire USB stack.
 - **Do not publish identifiers.** Serials, IMEI, SD-card CID, and private keys stay out of the repository.
+- **Keep the Stocks bridge private.** The DGW bridge has no authentication; do not expose its port to the internet.
 - **This is a vintage device.** A failed flash may be recoverable with fastboot or a RUU, but not every failure is reversible.

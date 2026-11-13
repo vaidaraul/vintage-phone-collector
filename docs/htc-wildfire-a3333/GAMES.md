@@ -20,6 +20,8 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Cut the Rope | `com.zeptolab.ctr.ads` 1.4.1 (9) | Playable, slow | Free ad build; ARMv6/ES 1.1; two levels played, somewhat slow |
 | Hill Climb Racing | `com.fingersoft.hillclimb` 1.0.0 | Not playable | Cocos2d-x; ARMv6 `armeabi` library exists, but it links `libGLESv2.so` and needs ES 2.0 |
 | Logo Quiz Ultimate | `de.androidcrowd.logoquiz` 2.2 | Works | Pure Java, minSdk 8; menu, level grid and answer input verified |
+| Pou | `me.pou.app` 1.0.31 (31) | Works | Pure Java, minSdk 4; kitchen, food carousel and Fridge UI verified |
+| Talking Tom Cat | `com.outfit7.talkingtom` 1.0 (1) | Works | Original ARMv6 build; full scene, head and milk interactions verified |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 
 ## Doodle Jump
@@ -82,6 +84,22 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 - Verified on the phone: the first launch shows an "update database, do not cancel" dialog while it unpacks `logoquiz.sqlite`; the main menu then shows Play, Leaderboard, Statistics, Achievements, About, and More Games. Tapping Play opens the level list; Level 1 shows the 50-logo grid. Tapping Apple opens the answer screen with the on-screen keyboard; typing `apple` and pressing Enter marks the logo with a green check.
 - The app is ad-supported (InMobi, AdMob, Flurry, Swarm, and others). On this phone it logs some ad/network errors and repeated `IllegalStateException` messages from the level loader, but the offline quiz flow remains usable. The first launch's database update takes a little time.
 - Uptodown lists 2.5 as the other Android 2.2-compatible build; 4.3 requires Android 2.3 and is not Froyo-compatible. The 2.2 build is the one verified.
+- No firmware, `/system`, or GPU changes were made. The APK stays outside Git.
+
+## Pou
+
+- Package `me.pou.app`; tested version `1.0.31` (versionCode `31`; `minSdkVersion 4`; 8,238,768 bytes; SHA-256 `209f68cd0ed4ea49fa2e777cb35d1fc4d8041b5ed2206e9bc26b37baf7ac08da`). It is the Zakeh release and stays outside Git.
+- The APK has no native libraries; it is pure Java and installs on Froyo. Launch took about 3.7 seconds. The 240x320 kitchen renders correctly, the food carousel switches between Fries and Cherries, and the Fridge inventory opens. Touch input is confirmed.
+- The newer `1.4.70` build (versionCode `215`; 21,498,345 bytes; SHA-256 `8602bc76cf2c98a6ea8424594211c34d9e748a83528960afb5379b7b1906d278`) also declares `minSdkVersion 4`, but it could not be installed on the current phone: `/data` had about 25 MB free and `adb install` returned `INSTALL_FAILED_INSUFFICIENT_STORAGE`. The `1.0.31` APK was installed directly from `/sdcard` with `pm install`, avoiding the extra `/data/local/tmp` copy. With about 18 MB of free `/data`, 1.0.31 is the practical Froyo build.
+- The feeding drag was not completed during remote testing because the HTC Stocks app repeatedly auto-opened and stole focus. The kitchen, food carousel and Fridge were verified; the app remains installed for a hands-on feeding test.
+- No firmware, `/system`, or GPU changes were made. The APK stays outside Git.
+
+## Talking Tom Cat
+
+- Package `com.outfit7.talkingtom`; tested version `1.0` (versionCode `1`; `minSdkVersion 3`; 13,203,425 bytes; SHA-256 `b61e6d8b6d3e97f9af5e43e7fbaaa5c3b264c59b7e4b1ab497f514616e5ff7e9`). This is the original Outfit7 release and stays outside Git.
+- The only native library is `lib/armeabi/libsoundtouch.so`, an audio pitch-shift library. There is no native GL renderer and no ES 2.0 dependency. It installs and launches in about 2.1 seconds.
+- Verified on the phone: the full 240x320 cat scene renders, tapping Tom's head makes him close his eyes and change expression, and tapping the milk carton makes him drink. AdMob requests fail offline with `UnknownHostException`; they do not block the app.
+- The voice-repeat feature was not exercised because the test was remote and no audio was spoken into the microphone. The app holds `RECORD_AUDIO` and loads `libsoundtouch.so`; the phone's microphone is already verified by the Lighter and Candle blow tests. It remains installed.
 - No firmware, `/system`, or GPU changes were made. The APK stays outside Git.
 
 ## Angry Birds
