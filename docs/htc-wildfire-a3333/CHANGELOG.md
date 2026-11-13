@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.23 — 2026-11-13
+
+- Verified Bubble Blast 2 1.0.45 (pure Java, official Magma Mobile build): installed on SD; menu, Puzzle Level Pack 1 and level 1 work, with a 20-point chain reaction advancing to level 2 and combo 1.
+- Verified Abduction! World Attack 1.2.6 (official Phil Symonds build): Quick Game, Easy and gameplay work; the score advanced from 2686 to 4522 and pause/resume responded.
+- Verified Robo Defense FREE BETA 2.0.0 (official free beta): installed on SD; the welcome dialog, menu, level select, 320x240 game board and pause menu work.
+- Confirmed the original Glow Hockey 1.2.15 APK was not found in the sources checked and that 1.2.16+ requires Android 2.3 (Froyo rejects 1.2.16 with `INSTALL_FAILED_OLDER_SDK`). Verified Glow Hockey 2 FREE 1.0.4 instead: the upsell, free-version menu and a 1-player match work.
+- Updated the game table, guide summary, and device history.
+
 ## 0.22 — 2026-11-13
 
 - Verified Bonsai Blast 1.8 (official Glu build, no native libraries): installed on SD; main menu, Adventure mode and a marble shot work, with the score advancing from 100 to 425.

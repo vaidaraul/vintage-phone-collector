@@ -10,7 +10,7 @@
 - **Stock apps:** restored; no general debloat
 - **Games:** Doodle Jump verified working; Skater Boy 1.6 playable but marginal with a 0.75x timing-cap build; Fruit Ninja 1.3 playable with a 160x120 half-res patch (~25–50 FPS, softer image); Cut the Rope 1.4.1 playable but slow (two levels played); Logo Quiz Ultimate 2.2 verified working; Angry Birds, Angry Birds Seasons, Temple Run, Subway Surfers, Plants vs. Zombies and Hill Climb Racing not playable due GPU/API, CPU-ABI or Android-version limits — see [GAMES.md](GAMES.md)
 - **Kids:** Pou 1.0.31 and Talking Tom Cat 1.0 verified working; Pou's kitchen/Fridge UI and Tom's head/milk reactions work — see [GAMES.md](GAMES.md)
-- **More games:** Paper Toss 1.2.3 and Bonsai Blast 1.8 work from SD; Where's My Water? and Peggle are not playable due native GL failures; no trustworthy classic Zuma APK was found - see [GAMES.md](GAMES.md)
+- **More games:** Paper Toss 1.2.3, Bonsai Blast 1.8, Bubble Blast 2 1.0.45, Abduction! World Attack 1.2.6 and Robo Defense FREE 2.0.0 work from SD; Glow Hockey 2 1.0.4 runs, but the original Glow Hockey 1.2.15 is unavailable and 1.2.16+ needs Android 2.3. Where's My Water? and Peggle fail on native GL; no trustworthy classic Zuma APK was found - see [GAMES.md](GAMES.md)
 - **Storage:** Froyo is set to prefer external storage; large APKs are installed from `/sdcard` with `pm install -s`. Jetpack Joyride 1.3.5 installs and runs from SD after a manifest-only `preferExternal` patch, but at ~5 FPS it is decorative only; the half-res experiment was rejected — see [GAMES.md](GAMES.md)
 - **Casual apps:** iBeer, Lighter and Candle verified working, including tilt, touch and blow interactions — see [CASUAL.md](CASUAL.md)
 - **Last verified:** 2026-11-13

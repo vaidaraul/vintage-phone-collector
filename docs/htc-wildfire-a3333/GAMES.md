@@ -2,7 +2,7 @@
 
 Tested on the rooted HTC Wildfire A3333 running the WWE Froyo `2.22.405.1` build: Android 2.2.1 (API 8), 528 MHz ARM11, Adreno 200, 240x320, 384 MB RAM. Test APKs are kept outside Git.
 
-As of 2026-11-13, Logo Quiz Ultimate, Cut the Rope, Candle, Lighter, Pou, Jetpack Joyride, Paper Toss and Bonsai Blast are installed on the SD card. Fruit Ninja and Skater Boy remain internal because their re-signed APKs could not be moved in place; Doodle Jump, iBeer and Talking Tom are internal-only.
+As of 2026-11-13, Logo Quiz Ultimate, Cut the Rope, Candle, Lighter, Pou, Jetpack Joyride, Paper Toss, Bonsai Blast, Bubble Blast 2, Abduction! World Attack, Robo Defense FREE and Glow Hockey 2 are installed on the SD card. Fruit Ninja and Skater Boy remain internal because their re-signed APKs could not be moved in place; Doodle Jump, iBeer and Talking Tom are internal-only.
 
 For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md).
 
@@ -28,6 +28,11 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 | Paper Toss | `com.bfs.papertoss` 1.2.3 (7005) | Works | No native libs; SD install; menu, Easy and swipe toss verified |
 | Bonsai Blast | `com.glu.android.bonsai` 1.8 (86513) | Works | Official Glu build; no native libs; SD install; menu, Adventure and shot verified |
+| Bubble Blast 2 | `com.magmamobile.game.BubbleBlast2` 1.0.45 (61) | Works | Pure Java, official Magma Mobile signature; SD install; Puzzle level and chain reaction verified |
+| Abduction! World Attack | `au.com.phil.abduction` 1.2.6 (22) | Works | Pure Java, official Phil Symonds build; SD install; Quick Game, gameplay and score verified |
+| Robo Defense FREE | `com.magicwach.rdefense_hd_free_beta` 2.0.0 (2221) | Works | Pure Java, official build; SD install; menu, level select and game board verified; beta-expired notice |
+| Glow Hockey 2 | `com.natenai.glowhockey2` 1.0.4 (5) | Works | ARMv6/ES 1.1; SD install; free-version prompt, menu and 1-player match verified |
+| Glow Hockey | `com.natenai.glowhockey` 1.2.15 | Not testable | 1.2.15 APK unavailable; 1.2.16+ is minSdk 9 and Froyo rejects it with INSTALL_FAILED_OLDER_SDK |
 | Where's My Water? | `com.disney.WMW` 1.2.0 / `com.disney.WMW_BN` 1.5.1 | Not playable | ARMv6/ES 1.1, but native SIGSEGV in `libwmw.so` when gameplay loads |
 | Peggle | `com.popcap.peggle` 1.0 | Not playable | Only debug-signed repack; black screen, no GL context; uninstalled |
 | Zuma | No trustworthy build | Not tested | Classic Zuma never had an official Android APK; all candidates were stream clients, renamed PC zips or minSdk 21 fan ports |
@@ -209,6 +214,34 @@ Three builds were tested. All install, but none reaches gameplay.
 - Official Glu Mobile signature. The APK is pure Java with no native libraries and installs to SD at `/mnt/asec/com.glu.android.bonsai-1/pkg.apk`.
 - Verified on the phone: the main menu renders, Adventure mode loads with the marble path, score, timer and shooter, and a tap fires a marble; the score advanced from 100 to 425.
 - The offline Google ad request (`pagead2.googlesyndication.com`) fails without blocking play.
+- No firmware, `/system`, or GPU changes were made.
+
+## Bubble Blast 2
+
+- Package `com.magmamobile.game.BubbleBlast2`; tested version `1.0.45` (versionCode `61`; `minSdkVersion 3`; 8,052,423 bytes; SHA-256 `d36724296a5584d4daf9eaffa4e0c59b19f76270e9d6c52924910da40130490a`). It is signed by Nicolas SOREL (Magma Mobile) and stays outside Git.
+- It has no native libraries and installs to SD at `/mnt/asec/com.magmamobile.game.BubbleBlast2-1/pkg.apk`.
+- Verified on the phone: the main menu renders, Puzzle opens Level Pack 1, and level 1 loads. Tapping the central bubble scored 20 points, advanced to level 2 and recorded combo 1; the chain reaction is visible.
+- The APK contains MoPub, Google Ads and InMobi classes; offline ad requests fail without blocking play. No firmware, `/system`, or GPU changes were made.
+
+## Abduction! World Attack
+
+- Package `au.com.phil.abduction`; tested version `1.2.6` (versionCode `22`; `minSdkVersion 1`; 1,420,189 bytes; SHA-256 `d827ee0edad2289c1b22dfd088838d01e9cebbaf75b2b0ee11b2d19664be3ec0`). It is signed by Phil Symonds and stays outside Git. Version 1.3 was not available in the archives checked; 1.2.6 is the older official build.
+- It has no native libraries and installs to SD at `/mnt/asec/au.com.phil.abduction-1/pkg.apk`.
+- Verified on the phone: the landscape menu renders, Quick Game opens the difficulty screen, and Easy starts the game scene. The cow, platforms and Stonehenge background render; the score advanced from 2686 to 4522, and tapping paused/resumed the game. Accelerometer input was not exercised remotely.
+- No firmware, `/system`, or GPU changes were made.
+
+## Robo Defense FREE
+
+- Package `com.magicwach.rdefense_hd_free_beta`; tested version `2.0.0` (versionCode `2221`; `minSdkVersion 4`; 6,456,871 bytes; SHA-256 `489c19435b61726e783cef900fd855634e3d8de2faea4d480437da8613b92e5a`). It is signed by Magic & Wachowski and stays outside Git.
+- It has no native libraries and installs to SD at `/mnt/asec/com.magicwach.rdefense_hd_free_beta-1/pkg.apk`.
+- Verified on the phone: the welcome dialog renders (it warns that the BETA period is over and points to Robo Defense FREE on the Marketplace), the title menu works, New Game opens level select, and Start Game enters a 320x240 game board with the grass map, enemies, HUD and pause menu. Difficulty 0 and the Basic Level map were used.
+- No firmware, `/system`, or GPU changes were made.
+
+## Glow Hockey
+
+- The exact original **Glow Hockey 1.2.15** APK was not found in APKMirror, APKPure or the Internet Archive. The official 1.2.16 build (`com.natenai.glowhockey`, versionCode `16`; 6,948,119 bytes; SHA-256 `ea7aa0566826ee8447651ba04916404fb41e04483a6931e87458ed326e33ac12`) has `minSdkVersion 9`, and Froyo rejected it with `INSTALL_FAILED_OLDER_SDK`. The 1.2.18 listing also requires Android 2.3.
+- As a Froyo-compatible fallback, **Glow Hockey 2 FREE 1.0.4** was tested: package `com.natenai.glowhockey2` (versionCode `5`; `minSdkVersion 4`; 7,497,309 bytes; SHA-256 `74d80c28ddea62306b6fb83b19280800bd22fbb293f588d24288343276f8ee48`). It is signed by Natenai Ariyatrakool, installs to SD at `/mnt/asec/com.natenai.glowhockey2-1/pkg.apk`, and its `lib/armeabi/libnategame.so` is ARMv5TE and links `libGLESv1_CM.so`.
+- Verified on the phone: the full-version upsell renders, Continue Free Version opens the main menu, and 1 Player starts a match with the neon table, paddles, pucks and 0-0 score. This is the sequel, not the original 1.2.15 build.
 - No firmware, `/system`, or GPU changes were made.
 
 ## Paper Toss
