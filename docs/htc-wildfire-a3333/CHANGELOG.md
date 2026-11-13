@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.13 — 2026-11-13
+
+- Tested Subway Surfers 1.0 (versionCode 3), the only Android 2.2-compatible release: it is a Unity/Mono APK with `armeabi-v7a`-only native libraries, and installation fails on the ARMv6 Wildfire with a native ABI mismatch.
+- Added the blocker to the game compatibility table and device history.
+
 ## 0.12 — 2026-11-13
 
 - Tested Logo Quiz Ultimate 2.2 (symblCrowd, `de.androidcrowd.logoquiz`): pure-Java `minSdk 8` build with no native libraries; menu, Play, Level 1 grid and an answer entry were verified on the phone.

@@ -14,6 +14,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Angry Birds | `com.rovio.angrybirds` 1.0.0 KA3D port | Not playable | ES 1.x, but its EGL config chooser throws |
 | Angry Birds Seasons | `com.rovio.angrybirdsseasons` 1.1.1 | Not playable | ARMv6 ES 1.1 build installs, but hangs on a blue frame; no menu |
 | Temple Run | `com.imangi.templerun` 1.0.0 | Not playable | armeabi-v7a only and requires ES 2.0; install fails with native ABI mismatch |
+| Subway Surfers | `com.kiloo.subwaysurf` 1.0 (3) | Not playable | Unity/Mono; `armeabi-v7a` only; Froyo rejects install with native ABI mismatch |
 | Fruit Ninja | `com.halfbrick.fruitninja` 1.3 (1301) | Playable with patch | Official build ~8 FPS; 160x120 half-res patched build ~25–50 FPS, softer image |
 | Hill Climb Racing | `com.fingersoft.hillclimb` 1.0.0 | Not playable | Cocos2d-x; ARMv6 `armeabi` library exists, but it links `libGLESv2.so` and needs ES 2.0 |
 | Logo Quiz Ultimate | `de.androidcrowd.logoquiz` 2.2 | Works | Pure Java, minSdk 8; menu, level grid and answer input verified |
@@ -133,6 +134,15 @@ Three builds were tested. All install, but none reaches gameplay.
 ### Cleanup
 
 - The failed install left only `/data/data/com.imangi.templerun`; it was removed. The game is not installed.
+
+## Subway Surfers
+
+- Package `com.kiloo.subwaysurf`; tested version `1.0` (versionCode `3`; `minSdkVersion 8`; `targetSdkVersion 15`; 22,882,094 bytes; SHA-256 `7843365cf5726abfcde31964e268ed3b4944e4df8efe9bb181be1aacea2d6e71`). This is the earliest official Android release and the only one that lists Android 2.2 support. It was obtained from APKMirror and stays outside Git.
+- The APK is a Unity 3.x/Mono game. Its only native libraries are `lib/armeabi-v7a/libmono.so` and `lib/armeabi-v7a/libunity.so`, with matching copies under `assets/libs/armeabi-v7a/`. `readelf -A` on `libunity.so` reports `Tag_CPU_name: "7-A"` and `Tag_CPU_arch: v7`, so the code is ARMv7, not ARMv6.
+- The full engine under `assets/libs/armeabi-v7a/libunity.so` references both `libGLESv1` and `libGLESv2`, so the renderer has an ES 1.x path. The blocker is the CPU architecture: the Wildfire reports `ro.product.cpu.abi=armeabi` (ARMv6).
+- `adb install` fails. The client prints `Failure [INSTALL_FAILED_INVALID_APK]`; logcat shows `W/PackageManager: Native ABI mismatch from package file` followed by `Package couldn't be installed`. This is the same installer behavior seen with Temple Run.
+- There is no ARMv6 build to fall back to. Version 1.0.1 and later require Android 2.3.3 (`minSdkVersion 10`), so 1.0 is the only Froyo-compatible release, and it is ARMv7-only. Bypassing the ABI check would not make it run on the ARMv6 CPU.
+- The failed install left only an empty `/data/data/com.kiloo.subwaysurf/lib` directory; it was removed. No package, APK, or save data was created. The APK stays outside Git for provenance.
 
 ## Testing notes
 
