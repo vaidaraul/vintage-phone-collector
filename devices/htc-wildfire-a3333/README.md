@@ -1,6 +1,6 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
-**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today; iBeer, Lighter and Candle verified
+**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News working with BBC topics, Ars Technica, Engadget, ScienceDaily, and Universe Today; iBeer, Lighter and Candle verified; Fruit Ninja 1.3 playable with a 160x120 half-res patch
 
 **Last updated:** 2026-11-13
 
@@ -58,6 +58,7 @@ Serial numbers and private network details are intentionally omitted. Values abo
 
 - **Doodle Jump 1.3.0** (`com.realarcade.DOJ`, RealArcade/RealNetworks 2009 signature) is installed and verified. It launches to the sound prompt, main menu, high-score screen, help overlay and in-game view at 240x320; the optical trackpad/DPAD navigates the menus. It is a self-contained Java/MIDlet port with no network dependency, so it works offline. The APK stays outside Git; SHA-256 `db578b60fb16e2cf17e9968d8541e6cb21f33f3f3615ced26f71842576f60bf2`.
 - **Skater Boy 1.6** (`com.game.SkaterBoy`, versionCode 10) is installed and playable, but marginal. The stock build clamps updates to 1/35 s; at the Wildfire's ~19 FPS that ran at about 0.5x. A locally re-signed build raises the cap to 0.04 s, giving about 0.75x at 19 FPS and native speed above ~25 FPS. It is visibly choppy but close to the intended speed. The original and patched APKs stay outside Git; hashes and reinstall caveats are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+- **Fruit Ninja 1.3** (`com.halfbrick.fruitninja`, versionCode 1301) is installed and playable with a local half-resolution patch. The stock menu runs at about 8 FPS; the patched build renders at 160x120 and SurfaceFlinger scales it 2x to the 320x240 view, with touch coordinates halved. Measured gameplay is about 25–50 FPS, and the owner confirmed it works. The image is visibly softer. A 30 FPS swap-interval cap made it slower (~18 FPS) and was reverted. The original and patched APKs stay outside Git; hashes, the OpenFeint background-retry note, and re-sign caveats are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Angry Birds:** not playable on this ROM. The Android builds require OpenGL ES 2.0, but the stock kernel exposes no `hw3dc` GPU device; the ES 1.x 1.0 build also crashes in its EGL config chooser. Details, hashes and cleanup are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Temple Run 1.0.0:** not playable. The official APK contains only `armeabi-v7a` native libraries and requires OpenGL ES 2.0; the Wildfire is ARMv6 and has no working ES 2.0 GPU path. Installation fails with `Native ABI mismatch from package file`. Unofficial ARMv6 repacks are modified and were not trusted. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 
@@ -100,7 +101,7 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - The live Open-Meteo adapter and city-code resolver are deployed and verified on the phone; London rendered 9 °C on 2026-11-10.
 - Forecast display works: four tiles with distinct `MM/dd/yy` dates and three-letter labels. The client consumes the first entry as today, so the adapter sends today plus four future days.
 - The "more details" link opens the adapter's script-free details page through the lab DNS redirect. On a network without that redirect, the app follows AccuWeather to HTTPS and Froyo's TLS stack fails.
-- Fruit Ninja 1.7.5 launches but reportedly stutters severely during gameplay. Cause has not been measured.
+- Fruit Ninja 1.7.5 launches but reportedly stutters severely during gameplay. Cause has not been measured. This historical observation was superseded by the 2026-11-13 Fruit Ninja 1.3 test; see the verified games section above.
 - Jetpack Joyride 1.5 installs but reportedly crashes at startup with native signal 4 (SIGILL) in `libmortargame.so`; the exact instruction/failure has not been decoded.
 - A read-only package inventory of the original Vodafone base found four Vodafone packages under `/system/app`: `com.vodafone.shop`, `com.vodafone.vodafone360updates`, `com.vodafone.android.app.music`, and `de.vodafone.meinvodafone`. They are not present on the current WWE build; flashing WWE replaced that base, so no separate Vodafone debloat step is needed.
 

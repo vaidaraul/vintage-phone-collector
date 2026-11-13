@@ -13,7 +13,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Angry Birds | `com.rovio.angrybirds` 3.1.0 | Not playable | Requires OpenGL ES 2.0; stock kernel has no GPU device |
 | Angry Birds | `com.rovio.angrybirds` 1.0.0 KA3D port | Not playable | ES 1.x, but its EGL config chooser throws |
 | Temple Run | `com.imangi.templerun` 1.0.0 | Not playable | armeabi-v7a only and requires ES 2.0; install fails with native ABI mismatch |
-| Fruit Ninja | `com.halfbrick.fruitninja` 1.7.5 | Launches, stutters | Historical observation; not re-measured |
+| Fruit Ninja | `com.halfbrick.fruitninja` 1.3 (1301) | Playable with patch | Official build ~8 FPS; 160x120 half-res patched build ~25–50 FPS, softer image |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 
 ## Doodle Jump
@@ -34,6 +34,23 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 - Verified on the phone: it launches, loads the restored save, and is playable. The result is marginal but usable: slower than a true 1x and visibly choppy at 19 FPS, but considerably closer to the intended speed than the stock build. There is no low-quality or render-scale setting in this release.
 - The patched APK is re-signed with a local self-signed compatibility key. The signer differs from the original RunnerGames APK, so future official updates cannot be installed over it. Back up `/data/data/com.game.SkaterBoy` first (root is required), uninstall the patched build, install the replacement, then restore the data with the new package UID. On this Froyo image an in-place reinstall failed with `INSTALL_FAILED_INSUFFICIENT_STORAGE` despite free space; a clean uninstall/install succeeded.
 - No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and patched APKs are kept outside Git.
+
+## Fruit Ninja
+
+- Package `com.halfbrick.fruitninja`; the tested build is Fruit Ninja Classic `1.3`, versionCode `1301`, `minSdkVersion 4`. Its only native library is `lib/armeabi/libfruitninja.so` (ARMv5TE), and it links `libGLESv1_CM.so`, so it does not require OpenGL ES 2.0.
+- Original APK: 14,821,263 bytes; SHA-256 `cbae071b4fc1a600ce59bafd94e6b629ee15810e9673b1791fdc22e3b7a7f964`. It was obtained from APKMirror and stays outside Git.
+- Stock behavior: it installs and launches, but the menu holds about 125 ms/frame (~8 FPS). Gameplay is variable and visibly slow. The bottleneck is the 528 MHz ARM11 rendering through `libGLES_android.so`; the kernel exposes no `/dev/kgsl-3d0` GPU device. Moving the app from the SD card to internal storage removed one variable but did not make the stock build playable.
+- A later official build, `1.5.2` (versionCode `1502`; 11,920,424 bytes; SHA-256 `ac8f4988922256948afe5c6bdbd65145c582a94cbff08eb15b025df628edce9e`), was tested and was worse: about 218 ms/frame (~4.6 FPS) on the menu. It is not recommended.
+- The recommended build is a locally patched 1.3:
+  - `FruitNinjaView.init` is changed to call `SurfaceHolder.setFixedSize(160, 120)` after `setFormat`. SurfaceFlinger scales the 160x120 surface by 2x to the 320x240 landscape view.
+  - `FruitNinjaView.onTouchEvent` halves the X/Y values before passing them to `NativeGameLib.touchEvent`, so the visible UI and touch targets stay aligned.
+  - Patched APK: 14,804,806 bytes; SHA-256 `67322e0b00b55c8699ece623f377224a036173758c9882f16f2e9fd8fd0c6472`; patched `classes.dex` SHA-256 `f90cca591fa18bf59d4c70438c30b149b998841c37cf6c3ad636e69f6f346c3a`.
+  - Measured on the phone: menu about 44–48 ms/frame (~21–23 FPS); gameplay samples 16–44 ms, mostly 20–35 ms (about 25–50 FPS). The owner confirmed it is playable. The 160x120 internal resolution makes text and fruit edges visibly soft.
+- A hard 30 FPS cap was attempted by setting `debug.egl.swapinterval 2`. On the software EGL path the observed frame time rose to about 56 ms (~18 FPS) instead of a clean 33 ms cap, so the setting was reverted. The recommended APK stays uncapped and uses the game's normal frame pacing.
+- OpenFeint 0.9 is embedded. On this phone it repeatedly tries to reach the dead `api.openfeint.com` service and logs SSL hostname errors; it does not block offline play and no account is required. The core modes work without network.
+- The patched APK is re-signed with a local compatibility key. It cannot be installed over the original Halfbrick-signed APK. Back up `/data/data/com.halfbrick.fruitninja` first (root required), uninstall, install the patched APK, then restore the data with the new package UID. An in-place update produced `INSTALL_FAILED_INSUFFICIENT_STORAGE` despite free space; a clean uninstall/install worked.
+- No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and patched APKs and the save backup stay outside Git.
+- The earlier note about 1.7.5 was a historical observation from a different build and was not re-measured in this pass.
 
 ## Angry Birds
 

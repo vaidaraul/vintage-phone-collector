@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10 — 2026-11-13
+
+- Added Fruit Ninja 1.3 (1301) to the game compatibility notes: the official build runs at about 8 FPS on the software-GL Wildfire, while a locally patched 160x120 build runs at about 25–50 FPS and was confirmed playable.
+- Documented the half-resolution patch (`SurfaceHolder.setFixedSize(160, 120)` plus halved touch coordinates), APK and DEX hashes, the 1.5.2 regression, the failed 30 FPS swap-interval experiment, and the OpenFeint/re-sign caveats.
+- Updated the guide summary and device history.
+
 ## 0.9 — 2026-11-13
 
 - Verified HTC Mail Gmail sending as well as receiving: a test message sent from the phone arrived in the same Gmail inbox.
