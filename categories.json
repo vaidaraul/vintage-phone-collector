@@ -1,192 +1,66 @@
-[
-  {
-    "id": "topstories",
-    "name": "Top Stories",
-    "title": "Top Stories",
-    "displayName": "Top Stories",
-    "categoryId": "topstories",
-    "categoryName": "Top Stories",
-    "categoryKey": "topstories",
-    "categoryType": "News",
-    "categoryContentId": "topstories",
-    "isNewsCategory": true,
-    "isFeatured": true,
-    "interests": [
-      {
-        "id": "topstories",
-        "interestId": "topstories",
-        "name": "Top Stories",
-        "displayName": "Top Stories",
-        "interestName": "Top Stories",
-        "interestType": "News",
-        "type": "News",
-        "isFeatured": true,
-        "isFollowed": false,
-        "categoryId": "topstories",
-        "categoryName": "Top Stories",
-        "categoryKey": "topstories",
-        "categoryType": "News",
-        "isNewsCategory": true,
-        "categoryContentId": "topstories",
-        "providerDisplayName": "MSN",
-        "providers": [
-          {
-            "providerId": "AAPEDK",
-            "providerName": "MSN",
-            "displayName": "MSN",
-            "providerDisplayName": "MSN",
-            "bingProviderDisplayName": "MSN",
-            "logoUrl": "",
-            "faviconUrl": "",
-            "mainLogo": "",
-            "articleLogo": "",
-            "mastheadLogo": ""
-          }
-        ]
-      }
-    ],
-    "providers": [
-      {
-        "providerId": "AAPEDK",
-        "providerName": "MSN",
-        "displayName": "MSN",
-        "providerDisplayName": "MSN",
-        "bingProviderDisplayName": "MSN",
-        "logoUrl": "",
-        "faviconUrl": "",
-        "mainLogo": "",
-        "articleLogo": "",
-        "mastheadLogo": ""
-      }
-    ],
-    "categories": [
-      {
-        "id": "topstories",
-        "name": "Top Stories",
-        "title": "Top Stories",
-        "displayName": "Top Stories",
-        "categoryId": "topstories",
-        "categoryName": "Top Stories",
-        "categoryKey": "topstories",
-        "categoryType": "News",
-        "categoryContentId": "topstories",
-        "isNewsCategory": true,
-        "isFeatured": true,
-        "interests": [
-          {
-            "id": "topstories",
-            "interestId": "topstories",
-            "name": "Top Stories",
-            "displayName": "Top Stories",
-            "interestName": "Top Stories",
-            "interestType": "News",
-            "type": "News",
-            "isFeatured": true,
-            "isFollowed": false,
-            "categoryId": "topstories",
-            "categoryName": "Top Stories",
-            "categoryKey": "topstories",
-            "categoryType": "News",
-            "isNewsCategory": true,
-            "categoryContentId": "topstories",
-            "providerDisplayName": "MSN",
-            "providers": [
-              {
-                "providerId": "AAPEDK",
-                "providerName": "MSN",
-                "displayName": "MSN",
-                "providerDisplayName": "MSN",
-                "bingProviderDisplayName": "MSN",
-                "logoUrl": "",
-                "faviconUrl": "",
-                "mainLogo": "",
-                "articleLogo": "",
-                "mastheadLogo": ""
-              }
-            ]
-          }
-        ],
-        "providers": [
-          {
-            "providerId": "AAPEDK",
-            "providerName": "MSN",
-            "displayName": "MSN",
-            "providerDisplayName": "MSN",
-            "bingProviderDisplayName": "MSN",
-            "logoUrl": "",
-            "faviconUrl": "",
-            "mainLogo": "",
-            "articleLogo": "",
-            "mastheadLogo": ""
-          }
-        ]
-      }
-    ],
-    "categoryList": [
-      {
-        "id": "topstories",
-        "name": "Top Stories",
-        "title": "Top Stories",
-        "displayName": "Top Stories",
-        "categoryId": "topstories",
-        "categoryName": "Top Stories",
-        "categoryKey": "topstories",
-        "categoryType": "News",
-        "categoryContentId": "topstories",
-        "isNewsCategory": true,
-        "isFeatured": true,
-        "interests": [
-          {
-            "id": "topstories",
-            "interestId": "topstories",
-            "name": "Top Stories",
-            "displayName": "Top Stories",
-            "interestName": "Top Stories",
-            "interestType": "News",
-            "type": "News",
-            "isFeatured": true,
-            "isFollowed": false,
-            "categoryId": "topstories",
-            "categoryName": "Top Stories",
-            "categoryKey": "topstories",
-            "categoryType": "News",
-            "isNewsCategory": true,
-            "categoryContentId": "topstories",
-            "providerDisplayName": "MSN",
-            "providers": [
-              {
-                "providerId": "AAPEDK",
-                "providerName": "MSN",
-                "displayName": "MSN",
-                "providerDisplayName": "MSN",
-                "bingProviderDisplayName": "MSN",
-                "logoUrl": "",
-                "faviconUrl": "",
-                "mainLogo": "",
-                "articleLogo": "",
-                "mastheadLogo": ""
-              }
-            ]
-          }
-        ],
-        "providers": [
-          {
-            "providerId": "AAPEDK",
-            "providerName": "MSN",
-            "displayName": "MSN",
-            "providerDisplayName": "MSN",
-            "bingProviderDisplayName": "MSN",
-            "logoUrl": "",
-            "faviconUrl": "",
-            "mainLogo": "",
-            "articleLogo": "",
-            "mastheadLogo": ""
-          }
-        ]
-      }
-    ],
-    "perMarketCategories": {
-      "en-gb": [
+{
+  "CategoryList": [
+    {
+      "id": "topstories",
+      "name": "Top Stories",
+      "title": "Top Stories",
+      "displayName": "Top Stories",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "categoryType": "News",
+      "categoryContentId": "topstories",
+      "isNewsCategory": true,
+      "isFeatured": true,
+      "interests": [
+        {
+          "id": "topstories",
+          "interestId": "topstories",
+          "name": "Top Stories",
+          "displayName": "Top Stories",
+          "interestName": "Top Stories",
+          "interestType": "News",
+          "type": "News",
+          "isFeatured": true,
+          "isFollowed": false,
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "isNewsCategory": true,
+          "categoryContentId": "topstories",
+          "providerDisplayName": "MSN",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ],
+      "categories": [
         {
           "id": "topstories",
           "name": "Top Stories",
@@ -248,105 +122,8 @@
             }
           ]
         }
-      ]
-    },
-    "category": {
-      "id": "topstories",
-      "name": "Top Stories",
-      "title": "Top Stories",
-      "displayName": "Top Stories",
-      "categoryId": "topstories",
-      "categoryName": "Top Stories",
-      "categoryKey": "topstories",
-      "categoryType": "News",
-      "categoryContentId": "topstories",
-      "isNewsCategory": true,
-      "isFeatured": true,
-      "interests": [
-        {
-          "id": "topstories",
-          "interestId": "topstories",
-          "name": "Top Stories",
-          "displayName": "Top Stories",
-          "interestName": "Top Stories",
-          "interestType": "News",
-          "type": "News",
-          "isFeatured": true,
-          "isFollowed": false,
-          "categoryId": "topstories",
-          "categoryName": "Top Stories",
-          "categoryKey": "topstories",
-          "categoryType": "News",
-          "isNewsCategory": true,
-          "categoryContentId": "topstories",
-          "providerDisplayName": "MSN",
-          "providers": [
-            {
-              "providerId": "AAPEDK",
-              "providerName": "MSN",
-              "displayName": "MSN",
-              "providerDisplayName": "MSN",
-              "bingProviderDisplayName": "MSN",
-              "logoUrl": "",
-              "faviconUrl": "",
-              "mainLogo": "",
-              "articleLogo": "",
-              "mastheadLogo": ""
-            }
-          ]
-        }
       ],
-      "providers": [
-        {
-          "providerId": "AAPEDK",
-          "providerName": "MSN",
-          "displayName": "MSN",
-          "providerDisplayName": "MSN",
-          "bingProviderDisplayName": "MSN",
-          "logoUrl": "",
-          "faviconUrl": "",
-          "mainLogo": "",
-          "articleLogo": "",
-          "mastheadLogo": ""
-        }
-      ]
-    },
-    "personalizedNewsData": {
-      "interests": [
-        {
-          "id": "topstories",
-          "interestId": "topstories",
-          "name": "Top Stories",
-          "displayName": "Top Stories",
-          "interestName": "Top Stories",
-          "interestType": "News",
-          "type": "News",
-          "isFeatured": true,
-          "isFollowed": false,
-          "categoryId": "topstories",
-          "categoryName": "Top Stories",
-          "categoryKey": "topstories",
-          "categoryType": "News",
-          "isNewsCategory": true,
-          "categoryContentId": "topstories",
-          "providerDisplayName": "MSN",
-          "providers": [
-            {
-              "providerId": "AAPEDK",
-              "providerName": "MSN",
-              "displayName": "MSN",
-              "providerDisplayName": "MSN",
-              "bingProviderDisplayName": "MSN",
-              "logoUrl": "",
-              "faviconUrl": "",
-              "mainLogo": "",
-              "articleLogo": "",
-              "mastheadLogo": ""
-            }
-          ]
-        }
-      ],
-      "categories": [
+      "categoryList": [
         {
           "id": "topstories",
           "name": "Top Stories",
@@ -473,7 +250,3595 @@
             ]
           }
         ]
+      },
+      "category": {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ]
+      },
+      "personalizedNewsData": {
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        }
       }
     }
-  }
-]
+  ],
+  "Categories": [
+    {
+      "id": "topstories",
+      "name": "Top Stories",
+      "title": "Top Stories",
+      "displayName": "Top Stories",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "categoryType": "News",
+      "categoryContentId": "topstories",
+      "isNewsCategory": true,
+      "isFeatured": true,
+      "interests": [
+        {
+          "id": "topstories",
+          "interestId": "topstories",
+          "name": "Top Stories",
+          "displayName": "Top Stories",
+          "interestName": "Top Stories",
+          "interestType": "News",
+          "type": "News",
+          "isFeatured": true,
+          "isFollowed": false,
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "isNewsCategory": true,
+          "categoryContentId": "topstories",
+          "providerDisplayName": "MSN",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "categoryList": [
+        {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "perMarketCategories": {
+        "en-gb": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ]
+      },
+      "category": {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ]
+      },
+      "personalizedNewsData": {
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "topstories",
+      "name": "Top Stories",
+      "title": "Top Stories",
+      "displayName": "Top Stories",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "categoryType": "News",
+      "categoryContentId": "topstories",
+      "isNewsCategory": true,
+      "isFeatured": true,
+      "interests": [
+        {
+          "id": "topstories",
+          "interestId": "topstories",
+          "name": "Top Stories",
+          "displayName": "Top Stories",
+          "interestName": "Top Stories",
+          "interestType": "News",
+          "type": "News",
+          "isFeatured": true,
+          "isFollowed": false,
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "isNewsCategory": true,
+          "categoryContentId": "topstories",
+          "providerDisplayName": "MSN",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "categoryList": [
+        {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "perMarketCategories": {
+        "en-gb": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ]
+      },
+      "category": {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ]
+      },
+      "personalizedNewsData": {
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "categoryList": [
+    {
+      "id": "topstories",
+      "name": "Top Stories",
+      "title": "Top Stories",
+      "displayName": "Top Stories",
+      "categoryId": "topstories",
+      "categoryName": "Top Stories",
+      "categoryKey": "topstories",
+      "categoryType": "News",
+      "categoryContentId": "topstories",
+      "isNewsCategory": true,
+      "isFeatured": true,
+      "interests": [
+        {
+          "id": "topstories",
+          "interestId": "topstories",
+          "name": "Top Stories",
+          "displayName": "Top Stories",
+          "interestName": "Top Stories",
+          "interestType": "News",
+          "type": "News",
+          "isFeatured": true,
+          "isFollowed": false,
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "isNewsCategory": true,
+          "categoryContentId": "topstories",
+          "providerDisplayName": "MSN",
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "providers": [
+        {
+          "providerId": "AAPEDK",
+          "providerName": "MSN",
+          "displayName": "MSN",
+          "providerDisplayName": "MSN",
+          "bingProviderDisplayName": "MSN",
+          "logoUrl": "",
+          "faviconUrl": "",
+          "mainLogo": "",
+          "articleLogo": "",
+          "mastheadLogo": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "categoryList": [
+        {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        }
+      ],
+      "perMarketCategories": {
+        "en-gb": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ]
+      },
+      "category": {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ]
+      },
+      "personalizedNewsData": {
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "PerMarketCategories": {
+    "en-gb": [
+      {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categoryList": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        },
+        "category": {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        },
+        "personalizedNewsData": {
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "perMarketCategories": {
+            "en-gb": [
+              {
+                "id": "topstories",
+                "name": "Top Stories",
+                "title": "Top Stories",
+                "displayName": "Top Stories",
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "categoryContentId": "topstories",
+                "isNewsCategory": true,
+                "isFeatured": true,
+                "interests": [
+                  {
+                    "id": "topstories",
+                    "interestId": "topstories",
+                    "name": "Top Stories",
+                    "displayName": "Top Stories",
+                    "interestName": "Top Stories",
+                    "interestType": "News",
+                    "type": "News",
+                    "isFeatured": true,
+                    "isFollowed": false,
+                    "categoryId": "topstories",
+                    "categoryName": "Top Stories",
+                    "categoryKey": "topstories",
+                    "categoryType": "News",
+                    "isNewsCategory": true,
+                    "categoryContentId": "topstories",
+                    "providerDisplayName": "MSN",
+                    "providers": [
+                      {
+                        "providerId": "AAPEDK",
+                        "providerName": "MSN",
+                        "displayName": "MSN",
+                        "providerDisplayName": "MSN",
+                        "bingProviderDisplayName": "MSN",
+                        "logoUrl": "",
+                        "faviconUrl": "",
+                        "mainLogo": "",
+                        "articleLogo": "",
+                        "mastheadLogo": ""
+                      }
+                    ]
+                  }
+                ],
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "ro-ro": [
+      {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categoryList": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        },
+        "category": {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        },
+        "personalizedNewsData": {
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "perMarketCategories": {
+            "en-gb": [
+              {
+                "id": "topstories",
+                "name": "Top Stories",
+                "title": "Top Stories",
+                "displayName": "Top Stories",
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "categoryContentId": "topstories",
+                "isNewsCategory": true,
+                "isFeatured": true,
+                "interests": [
+                  {
+                    "id": "topstories",
+                    "interestId": "topstories",
+                    "name": "Top Stories",
+                    "displayName": "Top Stories",
+                    "interestName": "Top Stories",
+                    "interestType": "News",
+                    "type": "News",
+                    "isFeatured": true,
+                    "isFollowed": false,
+                    "categoryId": "topstories",
+                    "categoryName": "Top Stories",
+                    "categoryKey": "topstories",
+                    "categoryType": "News",
+                    "isNewsCategory": true,
+                    "categoryContentId": "topstories",
+                    "providerDisplayName": "MSN",
+                    "providers": [
+                      {
+                        "providerId": "AAPEDK",
+                        "providerName": "MSN",
+                        "displayName": "MSN",
+                        "providerDisplayName": "MSN",
+                        "bingProviderDisplayName": "MSN",
+                        "logoUrl": "",
+                        "faviconUrl": "",
+                        "mainLogo": "",
+                        "articleLogo": "",
+                        "mastheadLogo": ""
+                      }
+                    ]
+                  }
+                ],
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "perMarketCategories": {
+    "en-gb": [
+      {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categoryList": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        },
+        "category": {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        },
+        "personalizedNewsData": {
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "perMarketCategories": {
+            "en-gb": [
+              {
+                "id": "topstories",
+                "name": "Top Stories",
+                "title": "Top Stories",
+                "displayName": "Top Stories",
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "categoryContentId": "topstories",
+                "isNewsCategory": true,
+                "isFeatured": true,
+                "interests": [
+                  {
+                    "id": "topstories",
+                    "interestId": "topstories",
+                    "name": "Top Stories",
+                    "displayName": "Top Stories",
+                    "interestName": "Top Stories",
+                    "interestType": "News",
+                    "type": "News",
+                    "isFeatured": true,
+                    "isFollowed": false,
+                    "categoryId": "topstories",
+                    "categoryName": "Top Stories",
+                    "categoryKey": "topstories",
+                    "categoryType": "News",
+                    "isNewsCategory": true,
+                    "categoryContentId": "topstories",
+                    "providerDisplayName": "MSN",
+                    "providers": [
+                      {
+                        "providerId": "AAPEDK",
+                        "providerName": "MSN",
+                        "displayName": "MSN",
+                        "providerDisplayName": "MSN",
+                        "bingProviderDisplayName": "MSN",
+                        "logoUrl": "",
+                        "faviconUrl": "",
+                        "mainLogo": "",
+                        "articleLogo": "",
+                        "mastheadLogo": ""
+                      }
+                    ]
+                  }
+                ],
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "ro-ro": [
+      {
+        "id": "topstories",
+        "name": "Top Stories",
+        "title": "Top Stories",
+        "displayName": "Top Stories",
+        "categoryId": "topstories",
+        "categoryName": "Top Stories",
+        "categoryKey": "topstories",
+        "categoryType": "News",
+        "categoryContentId": "topstories",
+        "isNewsCategory": true,
+        "isFeatured": true,
+        "interests": [
+          {
+            "id": "topstories",
+            "interestId": "topstories",
+            "name": "Top Stories",
+            "displayName": "Top Stories",
+            "interestName": "Top Stories",
+            "interestType": "News",
+            "type": "News",
+            "isFeatured": true,
+            "isFollowed": false,
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "isNewsCategory": true,
+            "categoryContentId": "topstories",
+            "providerDisplayName": "MSN",
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "providers": [
+          {
+            "providerId": "AAPEDK",
+            "providerName": "MSN",
+            "displayName": "MSN",
+            "providerDisplayName": "MSN",
+            "bingProviderDisplayName": "MSN",
+            "logoUrl": "",
+            "faviconUrl": "",
+            "mainLogo": "",
+            "articleLogo": "",
+            "mastheadLogo": ""
+          }
+        ],
+        "categories": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "categoryList": [
+          {
+            "id": "topstories",
+            "name": "Top Stories",
+            "title": "Top Stories",
+            "displayName": "Top Stories",
+            "categoryId": "topstories",
+            "categoryName": "Top Stories",
+            "categoryKey": "topstories",
+            "categoryType": "News",
+            "categoryContentId": "topstories",
+            "isNewsCategory": true,
+            "isFeatured": true,
+            "interests": [
+              {
+                "id": "topstories",
+                "interestId": "topstories",
+                "name": "Top Stories",
+                "displayName": "Top Stories",
+                "interestName": "Top Stories",
+                "interestType": "News",
+                "type": "News",
+                "isFeatured": true,
+                "isFollowed": false,
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "isNewsCategory": true,
+                "categoryContentId": "topstories",
+                "providerDisplayName": "MSN",
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ],
+            "providers": [
+              {
+                "providerId": "AAPEDK",
+                "providerName": "MSN",
+                "displayName": "MSN",
+                "providerDisplayName": "MSN",
+                "bingProviderDisplayName": "MSN",
+                "logoUrl": "",
+                "faviconUrl": "",
+                "mainLogo": "",
+                "articleLogo": "",
+                "mastheadLogo": ""
+              }
+            ]
+          }
+        ],
+        "perMarketCategories": {
+          "en-gb": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ]
+        },
+        "category": {
+          "id": "topstories",
+          "name": "Top Stories",
+          "title": "Top Stories",
+          "displayName": "Top Stories",
+          "categoryId": "topstories",
+          "categoryName": "Top Stories",
+          "categoryKey": "topstories",
+          "categoryType": "News",
+          "categoryContentId": "topstories",
+          "isNewsCategory": true,
+          "isFeatured": true,
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "providers": [
+            {
+              "providerId": "AAPEDK",
+              "providerName": "MSN",
+              "displayName": "MSN",
+              "providerDisplayName": "MSN",
+              "bingProviderDisplayName": "MSN",
+              "logoUrl": "",
+              "faviconUrl": "",
+              "mainLogo": "",
+              "articleLogo": "",
+              "mastheadLogo": ""
+            }
+          ]
+        },
+        "personalizedNewsData": {
+          "interests": [
+            {
+              "id": "topstories",
+              "interestId": "topstories",
+              "name": "Top Stories",
+              "displayName": "Top Stories",
+              "interestName": "Top Stories",
+              "interestType": "News",
+              "type": "News",
+              "isFeatured": true,
+              "isFollowed": false,
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "isNewsCategory": true,
+              "categoryContentId": "topstories",
+              "providerDisplayName": "MSN",
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "id": "topstories",
+              "name": "Top Stories",
+              "title": "Top Stories",
+              "displayName": "Top Stories",
+              "categoryId": "topstories",
+              "categoryName": "Top Stories",
+              "categoryKey": "topstories",
+              "categoryType": "News",
+              "categoryContentId": "topstories",
+              "isNewsCategory": true,
+              "isFeatured": true,
+              "interests": [
+                {
+                  "id": "topstories",
+                  "interestId": "topstories",
+                  "name": "Top Stories",
+                  "displayName": "Top Stories",
+                  "interestName": "Top Stories",
+                  "interestType": "News",
+                  "type": "News",
+                  "isFeatured": true,
+                  "isFollowed": false,
+                  "categoryId": "topstories",
+                  "categoryName": "Top Stories",
+                  "categoryKey": "topstories",
+                  "categoryType": "News",
+                  "isNewsCategory": true,
+                  "categoryContentId": "topstories",
+                  "providerDisplayName": "MSN",
+                  "providers": [
+                    {
+                      "providerId": "AAPEDK",
+                      "providerName": "MSN",
+                      "displayName": "MSN",
+                      "providerDisplayName": "MSN",
+                      "bingProviderDisplayName": "MSN",
+                      "logoUrl": "",
+                      "faviconUrl": "",
+                      "mainLogo": "",
+                      "articleLogo": "",
+                      "mastheadLogo": ""
+                    }
+                  ]
+                }
+              ],
+              "providers": [
+                {
+                  "providerId": "AAPEDK",
+                  "providerName": "MSN",
+                  "displayName": "MSN",
+                  "providerDisplayName": "MSN",
+                  "bingProviderDisplayName": "MSN",
+                  "logoUrl": "",
+                  "faviconUrl": "",
+                  "mainLogo": "",
+                  "articleLogo": "",
+                  "mastheadLogo": ""
+                }
+              ]
+            }
+          ],
+          "perMarketCategories": {
+            "en-gb": [
+              {
+                "id": "topstories",
+                "name": "Top Stories",
+                "title": "Top Stories",
+                "displayName": "Top Stories",
+                "categoryId": "topstories",
+                "categoryName": "Top Stories",
+                "categoryKey": "topstories",
+                "categoryType": "News",
+                "categoryContentId": "topstories",
+                "isNewsCategory": true,
+                "isFeatured": true,
+                "interests": [
+                  {
+                    "id": "topstories",
+                    "interestId": "topstories",
+                    "name": "Top Stories",
+                    "displayName": "Top Stories",
+                    "interestName": "Top Stories",
+                    "interestType": "News",
+                    "type": "News",
+                    "isFeatured": true,
+                    "isFollowed": false,
+                    "categoryId": "topstories",
+                    "categoryName": "Top Stories",
+                    "categoryKey": "topstories",
+                    "categoryType": "News",
+                    "isNewsCategory": true,
+                    "categoryContentId": "topstories",
+                    "providerDisplayName": "MSN",
+                    "providers": [
+                      {
+                        "providerId": "AAPEDK",
+                        "providerName": "MSN",
+                        "displayName": "MSN",
+                        "providerDisplayName": "MSN",
+                        "bingProviderDisplayName": "MSN",
+                        "logoUrl": "",
+                        "faviconUrl": "",
+                        "mainLogo": "",
+                        "articleLogo": "",
+                        "mastheadLogo": ""
+                      }
+                    ]
+                  }
+                ],
+                "providers": [
+                  {
+                    "providerId": "AAPEDK",
+                    "providerName": "MSN",
+                    "displayName": "MSN",
+                    "providerDisplayName": "MSN",
+                    "bingProviderDisplayName": "MSN",
+                    "logoUrl": "",
+                    "faviconUrl": "",
+                    "mainLogo": "",
+                    "articleLogo": "",
+                    "mastheadLogo": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "ActiveCategoryIds": [
+    "topstories"
+  ],
+  "activeCategoryIds": [
+    "topstories"
+  ]
+}
