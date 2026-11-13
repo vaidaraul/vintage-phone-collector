@@ -11,7 +11,7 @@ Each device has its own restoration log. This page is only the project index; id
 | Device | Platform | Current state | Log |
 | --- | --- | --- | --- |
 | Nokia Lumia 535 (RM-1089) | Windows 10 Mobile `10.0.14393.2551` | Running; several classic XAP games installed and tested; APPX and Minecraft deployment still under investigation | [Lumia 535](devices/lumia-535/README.md) |
-| HTC Wildfire A3333 | Android 2.2.1 Froyo with HTC Sense | Rooted, S-OFF, WWE Froyo, full stock app set restored; HTC Weather phone-local; process guide available | [Wildfire A3333](devices/htc-wildfire-a3333/README.md) · [Process guide](docs/htc-wildfire-a3333/PROCESS.md) |
+| HTC Wildfire A3333 | Android 2.2.1 Froyo with HTC Sense | Rooted, S-OFF, WWE Froyo, full stock app set restored; HTC Weather phone-local; BBC News working, CNN feed stale | [Wildfire A3333](devices/htc-wildfire-a3333/README.md) · [Process guide](docs/htc-wildfire-a3333/PROCESS.md) · [News notes](docs/htc-wildfire-a3333/NEWS.md) |
 
 Other devices in the collection, not yet documented: HTC Desire, Apple iPhone 6 and 6S, Samsung Corby, Vodafone Smart 858, Huawei P8 Lite, and other early Android and feature phones.
 

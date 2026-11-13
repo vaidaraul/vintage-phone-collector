@@ -8,6 +8,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [End-to-end process](htc-wildfire-a3333/PROCESS.md)
 - [Printable checklist](htc-wildfire-a3333/CHECKLIST.md)
 - [Phone-local weather details](htc-wildfire-a3333/WEATHER.md)
+- [News and handpicked RSS feeds](htc-wildfire-a3333/NEWS.md)
 - [Game compatibility](htc-wildfire-a3333/GAMES.md)
 - [Troubleshooting](htc-wildfire-a3333/TROUBLESHOOTING.md)
 - [Artifacts and hashes](htc-wildfire-a3333/ARTIFACTS.md)
@@ -15,6 +16,7 @@ This folder is the user-facing documentation for the HTC Wildfire A3333 restorat
 - [Changelog](htc-wildfire-a3333/CHANGELOG.md)
 - [Helper scripts](htc-wildfire-a3333/scripts/)
 - [Weather files](htc-wildfire-a3333/weather/)
+- [News test feed and OPML](htc-wildfire-a3333/news/)
 - [Publishing this site](PUBLISHING.md)
 
 ## What this documentation is

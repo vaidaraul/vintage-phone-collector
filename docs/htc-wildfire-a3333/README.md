@@ -7,7 +7,7 @@
 - **Root:** BusyBox `su` at `/system/bin/su` (promptless)
 - **Weather:** phone-local, no VPS or HTC/AccuWeather dependency
 - **Stock apps:** restored; no general debloat
-- **Games:** Doodle Jump verified working; Skater Boy 1.6 playable but marginal with a 0.75x timing-cap build; Angry Birds blocked by missing OpenGL ES 2.0/GPU kernel device — see [GAMES.md](GAMES.md)
+- **Games:** Doodle Jump verified working; Skater Boy 1.6 playable but marginal with a 0.75x timing-cap build; Angry Birds and Temple Run not playable due GPU/CPU limits — see [GAMES.md](GAMES.md)
 - **Last verified:** 2026-11-13
 
 ## What this guide does
@@ -75,6 +75,7 @@ Do not start until you have read [PROCESS.md](PROCESS.md) completely. Do not use
 - [PROCESS.md](PROCESS.md) — the step-by-step procedure.
 - [CHECKLIST.md](CHECKLIST.md) — a printable progress checklist.
 - [WEATHER.md](WEATHER.md) — the phone-local weather design, XML schema, and files.
+- [NEWS.md](NEWS.md) — HTC NewsReader, handpicked RSS/Atom feeds, and the HTTP/HTTPS constraint.
 - [GAMES.md](GAMES.md) — game compatibility notes.
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) — known failure modes and fixes.
 - [ARTIFACTS.md](ARTIFACTS.md) — files, sizes, hashes, and provenance.

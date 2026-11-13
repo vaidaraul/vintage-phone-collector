@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Wildfire Local Test Feed</title>
+    <link>http://127.0.0.1/news/</link>
+    <description>Original test items for HTC NewsReader on the Wildfire.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Nov 2026 09:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Local feed works</title>
+      <link>http://127.0.0.1/news/item-1.html</link>
+      <guid isPermaLink="false">wildfire-test-1</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 GMT</pubDate>
+      <author>test@example.invalid (Local Test)</author>
+      <category>Test</category>
+      <description>If HTC NewsReader shows this item, it can load a handpicked feed from the phone itself.</description>
+    </item>
+    <item>
+      <title>Second item with plain text</title>
+      <link>http://127.0.0.1/news/item-2.html</link>
+      <guid isPermaLink="false">wildfire-test-2</guid>
+      <pubDate>Fri, 13 Nov 2026 08:30:00 GMT</pubDate>
+      <description>This item has no CDATA and no HTML. It tests the simplest RSS 2.0 path.</description>
+    </item>
+    <item>
+      <title><![CDATA[Third item with CDATA]]></title>
+      <link>http://127.0.0.1/news/item-3.html</link>
+      <guid isPermaLink="false">wildfire-test-3</guid>
+      <pubDate>Fri, 13 Nov 2026 08:00:00 GMT</pubDate>
+      <description><![CDATA[This item uses CDATA. It also contains <b>bold</b> markup and an ampersand: A & B.]]></description>
+    </item>
+    <item>
+      <title>Fourth item with an entity</title>
+      <link>http://127.0.0.1/news/item-4.html</link>
+      <guid isPermaLink="false">wildfire-test-4</guid>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 GMT</pubDate>
+      <description>Entities such as &amp; and &lt; should decode correctly.</description>
+    </item>
+    <item>
+      <title>Fifth item, older date</title>
+      <link>http://127.0.0.1/news/item-5.html</link>
+      <guid isPermaLink="false">wildfire-test-5</guid>
+      <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+      <description>The app should sort this below the newer items if sorting is enabled.</description>
+    </item>
+  </channel>
+</rss>

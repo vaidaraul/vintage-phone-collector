@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4 — 2026-11-13
+
+- Added `NEWS.md`: HTC NewsReader is a real RSS/Atom reader with add-by-URL and OPML import.
+- Added `news/test-feed.xml`, five local article pages, and `news/handpicked.opml`.
+- Verified on the phone: BBC News loads 36 fresh headlines through an HTTPS redirect; CNN's preinstalled feed loads 50 stale items from April 2023; Yahoo!, Engadget, and CNET's preinstalled URLs are dead.
+- Documented that HTTPS is not universally broken on Froyo: BBC works, CNN's HTTPS endpoint failed a TLS handshake.
+- Added the on-device test plan; the local-feed UI test is still pending.
+
 ## 0.3 — 2026-11-13
 
 - Recorded Skater Boy 1.6 as playable but marginal using a re-signed timing-cap build: about 0.75x at the Wildfire's ~19 FPS, with full speed above ~25 FPS.

@@ -1,6 +1,6 @@
 # HTC Wildfire A3333 — HTC Weather restoration
 
-**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; News skipped
+**Status:** rooted, S-OFF, SuperCID, ClockworkMod recovery, WWE Froyo with all stock apps restored; HTC Weather fully phone-local and working for saved cities plus Bucharest; BBC News verified working; CNN's preinstalled feed is stale (2023)
 
 **Last updated:** 2026-11-13
 
@@ -59,6 +59,17 @@ Serial numbers and private network details are intentionally omitted. Values abo
 - **Doodle Jump 1.3.0** (`com.realarcade.DOJ`, RealArcade/RealNetworks 2009 signature) is installed and verified. It launches to the sound prompt, main menu, high-score screen, help overlay and in-game view at 240x320; the optical trackpad/DPAD navigates the menus. It is a self-contained Java/MIDlet port with no network dependency, so it works offline. The APK stays outside Git; SHA-256 `db578b60fb16e2cf17e9968d8541e6cb21f33f3f3615ced26f71842576f60bf2`.
 - **Skater Boy 1.6** (`com.game.SkaterBoy`, versionCode 10) is installed and playable, but marginal. The stock build clamps updates to 1/35 s; at the Wildfire's ~19 FPS that ran at about 0.5x. A locally re-signed build raises the cap to 0.04 s, giving about 0.75x at 19 FPS and native speed above ~25 FPS. It is visibly choppy but close to the intended speed. The original and patched APKs stay outside Git; hashes and reinstall caveats are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
 - **Angry Birds:** not playable on this ROM. The Android builds require OpenGL ES 2.0, but the stock kernel exposes no `hw3dc` GPU device; the ES 1.x 1.0 build also crashes in its EGL config chooser. Details, hashes and cleanup are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+- **Temple Run 1.0.0:** not playable. The official APK contains only `armeabi-v7a` native libraries and requires OpenGL ES 2.0; the Wildfire is ARMv6 and has no working ES 2.0 GPU path. Installation fails with `Native ABI mismatch from package file`. Unofficial ARMv6 repacks are modified and were not trusted. Details and hash are in [GAMES.md](../../docs/htc-wildfire-a3333/GAMES.md).
+
+## 2026-11-13: news assessment
+
+- The stock `com.htc.newsreader` (`NewsReader.apk`) is a real RSS/Atom front end over the Rosedata `com.rosedata.android.rss` (`RSS.apk`) engine. It supports direct subscription by URL, OPML import/export, categories, refresh intervals, and a home-screen widget.
+- Supported formats are RSS 0.90–2.0 and Atom 0.3/1.0. The URL field is limited to 255 characters. Google Reader sync code is present but optional; direct feeds use the local engine.
+- **BBC News is verified working on the phone:** 36 current headlines, latest 2026-11-13 09:34. Its legacy HTTP URL redirects to HTTPS and the app follows it, so HTTPS is not universally broken on Froyo.
+- **CNN is stale:** the preinstalled `rss.cnn.com` feed loads 50 items, but they are from April 2023. The app stamps the fetch time on each headline, so they look current. CNN's HTTPS endpoint failed a TLS handshake from a modern client.
+- Yahoo!, Engadget, and CNET's preinstalled feed URLs return 0 headlines (dead).
+- Four fresh plain-HTTP feeds were also verified: Ars Technica, Engadget (FeedBurner), ScienceDaily, and Universe Today.
+- The local-feed UI test and OPML import are pending. See [NEWS.md](../../docs/htc-wildfire-a3333/NEWS.md).
 
 ## Investigation observations (2026-11-08 to 2026-11-10) — historical
 
