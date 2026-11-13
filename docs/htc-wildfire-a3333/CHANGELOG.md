@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.18 — 2026-11-13
+
+- Set Froyo to prefer external storage and documented the SD-install workflow; large APKs are installed from `/sdcard` with `pm install -s`.
+- Verified Jetpack Joyride 1.3.5: ARMv5TE/ES 1.1; a manifest-only `preferExternal` patch and local re-sign let it install to `/mnt/asec`; title, gameplay past 23 m (best 80 m) and pause/missions screen work. The historical 1.5 SIGILL is version-specific.
+- Noted the game's 5.2 MB native library and texture cache in `/data`; cleared the regenerable cache to restore about 11.7 MB.
+- Updated the game table, guide summary, and device history.
+
 ## 0.17 — 2026-11-13
 
 - Restored HTC Stocks with a small LAN bridge. The stock app still POSTs to the dead Yahoo DGW endpoint; `stock-bridge.py` implements the legacy `getquotes` response and sources quotes from CNBC's public JSON for `^FTSE`, `^IXIC`, `2498.TW`, and `GOOG`.

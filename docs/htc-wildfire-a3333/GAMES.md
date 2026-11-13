@@ -22,6 +22,7 @@ For the classic accelerometer/microphone novelty apps, see [CASUAL.md](CASUAL.md
 | Logo Quiz Ultimate | `de.androidcrowd.logoquiz` 2.2 | Works | Pure Java, minSdk 8; menu, level grid and answer input verified |
 | Pou | `me.pou.app` 1.0.31 (31) | Works | Pure Java, minSdk 4; kitchen, food carousel and Fridge UI verified |
 | Talking Tom Cat | `com.outfit7.talkingtom` 1.0 (1) | Works | Original ARMv6 build; full scene, head and milk interactions verified |
+| Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.3.5 (1360) | Playable, SD install | ARMv6/ES 1.1; manifest patched to `preferExternal`; runs from `/mnt/asec` |
 | Jetpack Joyride | `com.halfbrick.jetpackjoyride` 1.5 | Crashes | Historical: SIGILL in `libmortargame.so` |
 
 ## Doodle Jump
@@ -181,6 +182,17 @@ Three builds were tested. All install, but none reaches gameplay.
 - The original paid 2011 release claimed Android 2.2 support, but PopCap's published compatibility list explicitly excluded the HTC Aria, another ARMv6 HTC phone, and the contemporaneous requirements listed HVGA (320x480) as the smallest supported resolution. The Wildfire is 240x320.
 - A trustworthy original 1.0 APK was not located. An Internet Archive upload labeled "paid version" was a debug-signed 6.1.11 repack requiring Android 4.0.3, so it was inspected and rejected without installation.
 - No firmware, GPU driver, `/system`, or CPU-governor changes were made. The official 1.1.44 APK stays outside Git.
+
+## Jetpack Joyride
+
+- Package `com.halfbrick.jetpackjoyride`; tested version `1.3.5` (versionCode `1360`; `minSdkVersion 8`; 31,322,624 bytes; SHA-256 `9294d016754cf7a421bfc48984afba91ea7957a57e28a0f93b03de3ee7592c00`). It is the ARM build from APKMirror and stays outside Git.
+- The only native library is `lib/armeabi/libmortargame.so`. It is ARMv5TE (`Tag_CPU_arch: v5TE`) and links `libGLESv1_CM.so`; the manifest declares OpenGL ES 1.1. This is the version-specific difference from the historical 1.5 build, which crashed with SIGILL.
+- The original APK declares `installLocation="auto"`. Froyo refused `pm install -s` with `INSTALL_FAILED_INVALID_INSTALL_LOCATION`, and a normal install chose internal storage and failed with `INSTALL_FAILED_INSUFFICIENT_STORAGE`.
+- The manifest root was patched only from `installLocation=0` (auto) to `installLocation=2` (preferExternal), and the APK was re-signed with a local compatibility key. `pm install -s` then installed it at `/mnt/asec/com.halfbrick.jetpackjoyride-1/pkg.apk`. The game code, assets and native library are unchanged; only `AndroidManifest.xml` and the signature files differ.
+- SD-patched APK: 31,277,982 bytes; SHA-256 `f3b6032351e3bca3265607183eeb0fce7ff26f9b1a131776ab03de5367c5165b`.
+- Verified on the phone: the Halfbrick splash and lab title screen render; tapping starts a run; the HUD advanced past 23 m, the best shown was 80 m, Sector 01 scrolled, and the pause/missions screen works. No SIGILL or ES 2.0 error.
+- Caveats: the game extracts its 5.2 MB native library and writes a large downscaled-texture cache into `/data`. After the first run `/data` had only 1.4 MB free; clearing `cache/cache13050` restored about 11.7 MB. The re-signed APK cannot be updated over the official Halfbrick build; back up `/data/data/com.halfbrick.jetpackjoyride` before uninstall/reinstall. Offline CDN/ad requests fail (`wac.76ff.edgecastcdn.net`), and the game logs a `Can't create handler...` exception from `MortarGameActivity.onCreateDialog`, but play continues.
+- No firmware, GPU driver, `/system`, or CPU-governor changes were made. The original and SD-patched APKs stay outside Git.
 
 ## Testing notes
 
