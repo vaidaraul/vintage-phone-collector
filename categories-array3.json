@@ -1,0 +1,47 @@
+[
+  {
+    "Category": {
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "DisplayName": "Top Stories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json",
+      "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json",
+      "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json"
+    },
+    "CategoryList": [
+      {
+        "CategoryId": "topstories",
+        "CategoryName": "Top Stories",
+        "CategoryKey": "topstories",
+        "CategoryType": "News",
+        "IsNewsCategory": true,
+        "DisplayName": "Top Stories",
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json",
+        "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json",
+        "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json"
+      }
+    ],
+    "BingNewsCategory": {
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "DisplayName": "Top Stories"
+    },
+    "ExploreSectionType": "News",
+    "ExploreSectionDefinition": {
+      "Title": "Top Stories",
+      "DisplayName": "Top Stories"
+    },
+    "ExploreSections": [],
+    "ExploreSectionContents": [],
+    "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json",
+    "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream-pascal.json",
+    "ShowFirstCategoryOnLoad": true,
+    "showFirstCategoryOnLoad": true
+  }
+]
