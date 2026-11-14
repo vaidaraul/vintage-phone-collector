@@ -1,7 +1,7 @@
 # Nokia Lumia 535 RM-1089 — Windows Phone restoration
 
 **Status:** Windows 10 Mobile running; 15 of 24 HTC-list game titles installed, 14 launch-confirmed  
-**Last updated:** November 14, 2026
+**Last updated:** November 15, 2026
 
 Part of the [Vintage Phone Collector](../../README.md) project. This log documents a **Nokia Lumia 535 RM-1089**, upgraded from Windows Phone 8.1 to Windows 10 Mobile and used to test classic Windows Phone and Windows 10 Mobile software on original hardware.
 
@@ -24,6 +24,7 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | Internal storage | About 0.9 GB free (2026-11-14); user data moved to SD |
 | SD card | About 7.05 GB free; Downloads, Pictures and Documents moved here |
 | XAP/APPX move to SD | Not supported on this build (`0x80073D0B` / `0x80070490`) |
+| Web browser | UC Browser 3.4.0.374 installed; loads pages (user-confirmed) |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
 
 ### Games tested on the Lumia 535
@@ -69,6 +70,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | App | Version | Result | Notes |
 | --- | --- | --- | --- |
 | Instagram | `10.1096.22713.0` | **Outdated; reaches sign-in page (user-reported)** | User reports it installs and launches, but the app is outdated. It reaches the sign-in page; successful sign-in and other online features are unconfirmed. |
+| UC Browser | `3.4.0.374` XAP | **Functional; loads pages (user-confirmed)** | Repacked WP8.1 build from WindowsViet; installed package `UCMobileLimited.UC_4.2.1.2_arm__6n7f2ndsr2206`; welcome screen captured; user confirms pages load. |
 | Free Player for YouTube | `1.1.23.0` | **Uninstalled; nonfunctional (user-confirmed)** | It installed, but the user reports it was worthless and did not work; it has since been uninstalled. |
 | MSN Weather | `4.26.12153.0` | **Functional; current data confirmed (user-reported)** | User confirms the app works and displays correct weather data, so its API is active. A separate APPXBUNDLE deployment attempt failed with `0x80073CF3`; that failure did not represent the working app's status. |
 | Bing Sports | `3.1.4.486` (observed) | **Update path works; API down (user-reported)** | User reports Sports can be updated, but its online API is down. The version shown here is from the earlier Device Portal inventory; the updated version was not recorded. |
@@ -78,6 +80,10 @@ These statuses describe observed behavior on this particular phone. They are not
 | Windows Camera candidate bundle | `2018.426.70.0` | **Deployment failed; package requires newer OS** | Device Portal reported `0x80073CFD`. This specific ARM bundle requires Windows `10.0.15063.0`, above the phone's `10.0.14393.2551`; it is distinct from the working Camera update reported above. |
 | Microsoft People | `10.2.2351.0` | **Deployment failed (policy error)** | Device Portal reported `0x80073CFF`. The ARM manifest targets Windows Mobile from `10.0.14393.0`, which matches the phone. The PC has the required .NET Native Framework 1.6 and VCLibs 14.0 package files, and the local archive now also contains Runtime 1.6 (`1.6.24903.0`); no Runtime package was available during the failed attempt. |
 | Screen Sketch | `10.1805.1191.0` | **Deployment failed; incompatible OS minimum** | Device Portal reported `0x80073CFD`. The ARM manifest requires Windows `10.0.17636.0`, above the phone's `10.0.14393.2551`. SignTool verified the bundle signature on the PC. |
+
+### Browser
+
+The built-in browser experience is limited on modern sites. Opera Mini 9.1 is a PlayReady-encrypted Store XAP and cannot be sideloaded; the unofficial Opera Mini 5.1 WP7 port installs but is stuck at its first-run screen. **UC Browser 3.4.0.374** installs from an unencrypted WP8.1 XAP and **loads pages** (user-confirmed). It is the working browser on this phone.
 
 See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes. Additional untested packages in the local archive are catalogued in [archive.md](archive.md).
 
@@ -390,6 +396,8 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
 - Storage: Downloads, Pictures and Documents were moved to SD on 2026-11-14; new files
   still default to internal storage until the save locations are changed in
   Settings > System > Storage.
+- UC Browser 3.4.0.374 loads pages (user-confirmed); capture a page frame and test a
+  few modern HTTPS sites.
 - Bad Piggies and Amazing Alex are installed and launch-confirmed; capture a
   menu/gameplay frame and exercise one level in each.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
