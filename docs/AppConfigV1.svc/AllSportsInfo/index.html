@@ -1,12 +1,17 @@
 {
   "Results": [
     {
-      "Type": "AppAllSportsInfo",
-      "SchemaType": "AppAllSportsInfo",
       "SportsInfo": [
         {
           "SportName": "football",
-          "SportDisplayName": "Football"
+          "SportDisplayName": "Football",
+          "SportId": "football",
+          "Id": "football",
+          "Key": "football",
+          "Name": "Football",
+          "DisplayName": "Football",
+          "LogoUrl": "",
+          "IconUrl": ""
         }
       ],
       "LeaguesInfo": [
@@ -14,8 +19,26 @@
           "LeagueName": "premier-league",
           "LeagueDisplayName": "Premier League",
           "LeagueGroupName": "Football",
+          "LeagueId": "premier-league",
+          "LeagueKey": "premier-league",
+          "Id": "premier-league",
+          "Key": "premier-league",
+          "Name": "Premier League",
+          "DisplayName": "Premier League",
+          "LeagueLogoUrl": "",
+          "LogoUrl": "",
           "MarketWeight": 100,
-          "NavLinks": [],
+          "NavLinks": [
+            {
+              "Title": "Scores",
+              "Text": "Scores",
+              "DisplayText": "Scores",
+              "Name": "Scores",
+              "Url": "https://www.msn.com/en-gb/sports",
+              "Link": "https://www.msn.com/en-gb/sports",
+              "Href": "https://www.msn.com/en-gb/sports"
+            }
+          ],
           "IsNewLeague": false,
           "IsDefaultLeague": true,
           "PotentialPrimary": true,
@@ -25,6 +48,8 @@
       "GroupsOfLeagues": [
         {
           "LeagueGroupName": "Football",
+          "Name": "Football",
+          "DisplayName": "Football",
           "Leagues": [
             "premier-league"
           ]
@@ -36,38 +61,5 @@
       "CustomKeyValueConfig": {}
     }
   ],
-  "Schema": {
-    "SportsInfo": [
-      {
-        "SportName": "football",
-        "SportDisplayName": "Football"
-      }
-    ],
-    "LeaguesInfo": [
-      {
-        "LeagueName": "premier-league",
-        "LeagueDisplayName": "Premier League",
-        "LeagueGroupName": "Football",
-        "MarketWeight": 100,
-        "NavLinks": [],
-        "IsNewLeague": false,
-        "IsDefaultLeague": true,
-        "PotentialPrimary": true,
-        "IsNewsEnabled": true
-      }
-    ],
-    "GroupsOfLeagues": [
-      {
-        "LeagueGroupName": "Football",
-        "Leagues": [
-          "premier-league"
-        ]
-      }
-    ],
-    "DefaultLeagues": [
-      "premier-league"
-    ],
-    "CustomKeyValueConfig": {}
-  },
   "TimeStamp": "2026-11-15T00:00:00Z"
 }
