@@ -1,0 +1,63 @@
+{
+  "PersonalizedInterests": [
+    {
+      "InterestId": "topstories",
+      "DisplayName": "Top Stories",
+      "InterestType": "News",
+      "IsFeatured": true,
+      "IsFollowed": true,
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "Providers": [
+        {
+          "ProviderId": "AAPEDK",
+          "ProviderName": "MSN",
+          "DisplayName": "MSN"
+        }
+      ],
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "FeedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "feedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "feedUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "StreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+    }
+  ],
+  "Interests": [
+    {
+      "InterestId": "topstories",
+      "DisplayName": "Top Stories",
+      "InterestType": "News",
+      "IsFeatured": true,
+      "IsFollowed": true,
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "Providers": [
+        {
+          "ProviderId": "AAPEDK",
+          "ProviderName": "MSN",
+          "DisplayName": "MSN"
+        }
+      ]
+    }
+  ],
+  "DeletedInterests": [],
+  "HasUserCustomizations": true,
+  "CategoryList": [
+    "topstories"
+  ],
+  "ActiveCategoryIds": [
+    "topstories"
+  ],
+  "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test2/stream.json",
+  "IsPersonalizationEnabled": true
+}
