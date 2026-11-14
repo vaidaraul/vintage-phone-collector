@@ -1,0 +1,43 @@
+{
+  "streamElement": {
+    "streamEntities": [
+      {
+        "cluster": "News",
+        "clusterType": "News",
+        "entityType": "cluster",
+        "entitySize": "medium",
+        "templateClass": "EntityClusterGenericPageTemplate",
+        "sectionName": "Top Stories",
+        "isHeroEnabled": false,
+        "isHeroContent": false,
+        "entityList": [
+          {
+            "id": "TEST0001",
+            "contentId": "TEST0001",
+            "entityType": "article",
+            "entitySize": "medium",
+            "templateClass": "NewsClusterLargeItemTemplate",
+            "title": "Synthetic headline 1",
+            "abstract": "Synthetic abstract 1. This is a schema test, not a real article.",
+            "image": null,
+            "provider": {
+              "name": "Test Provider"
+            },
+            "providerName": "Test Provider",
+            "articleUrl": "https://example.com/test-1",
+            "url": "https://example.com/test-1",
+            "sectionName": "Top Stories",
+            "isHeroContent": false,
+            "isBreakingNews": false,
+            "isCategoryKickerEnabled": false,
+            "isBingAttributionEnabled": false,
+            "isLiveCoverage": false
+          }
+        ]
+      }
+    ]
+  },
+  "streamNext": null,
+  "streamLinks": [],
+  "streamDetails": {}
+}
