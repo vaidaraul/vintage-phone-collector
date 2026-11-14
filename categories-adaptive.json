@@ -1,0 +1,22 @@
+[
+  {
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "id": "topstories",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Top Stories",
+        "size": "Large",
+        "weight": "Bolder",
+        "wrap": true
+      },
+      {
+        "type": "TextBlock",
+        "text": "Synthetic explore section for schema testing.",
+        "wrap": true
+      }
+    ],
+    "actions": []
+  }
+]
