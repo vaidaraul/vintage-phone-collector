@@ -1,30 +1,37 @@
 {
   "Results": [
     {
-      "Id": "football",
-      "Name": "Football",
-      "DisplayName": "Football",
-      "Type": "Sport",
-      "SportId": "football",
-      "Key": "football",
-      "Leagues": [
+      "SportsInfo": [
         {
-          "Id": "premier-league",
-          "Name": "Premier League",
-          "DisplayName": "Premier League",
-          "Type": "League",
-          "LeagueId": "premier-league",
-          "Teams": [
-            {
-              "Id": "arsenal",
-              "Name": "Arsenal",
-              "DisplayName": "Arsenal",
-              "Type": "Team",
-              "TeamId": "arsenal"
-            }
+          "SportName": "football",
+          "SportDisplayName": "Football"
+        }
+      ],
+      "LeaguesInfo": [
+        {
+          "LeagueName": "premier-league",
+          "LeagueDisplayName": "Premier League",
+          "LeagueGroupName": "Football",
+          "MarketWeight": 100,
+          "NavLinks": [],
+          "IsNewLeague": false,
+          "IsDefaultLeague": true,
+          "PotentialPrimary": true,
+          "IsNewsEnabled": true
+        }
+      ],
+      "GroupsOfLeagues": [
+        {
+          "LeagueGroupName": "Football",
+          "Leagues": [
+            "premier-league"
           ]
         }
-      ]
+      ],
+      "DefaultLeagues": [
+        "premier-league"
+      ],
+      "CustomKeyValueConfig": {}
     }
   ],
   "TimeStamp": "2026-11-15T00:00:00Z"
