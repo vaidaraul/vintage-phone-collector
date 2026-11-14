@@ -1,0 +1,38 @@
+{
+  "Value": [
+    {
+      "ArticleData": 123,
+      "Data": 123,
+      "Image": 123,
+      "Images": 123,
+      "ImageData": 123,
+      "ImageUrl": 123,
+      "Title": 123,
+      "Abstract": 123,
+      "Url": 123,
+      "ArticleUrl": 123,
+      "ExternalUrl": 123,
+      "BingArticleUrl": 123,
+      "Headline": 123,
+      "HeadlineAbstract": 123,
+      "ProviderDisplayName": 123,
+      "PublishedDateTime": 123,
+      "PublishedDateTimeOffset": 123,
+      "Body": 123,
+      "Summary": 123,
+      "Snippet": 123,
+      "Tags": 123,
+      "TagEvaluationGroups": 123,
+      "Videos": 123,
+      "FocalRegion": 123,
+      "Ad": 123,
+      "IsHero": 123,
+      "IsHeroContent": 123,
+      "IsBreakingNews": 123,
+      "IsLiveCoverage": 123,
+      "Self": 123,
+      "Type": 123,
+      "DocumentId": 123
+    }
+  ]
+}
