@@ -1,10 +1,90 @@
-[
-  {
-    "CategoryId": "topstories",
-    "CategoryName": "Top Stories",
-    "CategoryKey": "topstories",
-    "CategoryType": "News",
-    "IsNewsCategory": true,
-    "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test/stream.json"
+{
+  "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+  "CategoryList": [
+    {
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "Interests": [
+        {
+          "InterestId": "topstories",
+          "DisplayName": "Top Stories",
+          "InterestType": "News",
+          "IsFeatured": true,
+          "CategoryId": "topstories",
+          "CategoryName": "Top Stories",
+          "Providers": [
+            {
+              "ProviderId": "AAPEDK",
+              "ProviderName": "MSN",
+              "DisplayName": "MSN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TopicList": [],
+  "SourceDefinitionList": [],
+  "ReleaseNumber": "1",
+  "IsPersonalizationEnabled": true,
+  "PerMarketCategories": {
+    "en-gb": [
+      {
+        "CategoryId": "topstories",
+        "CategoryName": "Top Stories",
+        "CategoryKey": "topstories",
+        "CategoryType": "News",
+        "IsNewsCategory": true,
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Interests": [
+          {
+            "InterestId": "topstories",
+            "DisplayName": "Top Stories",
+            "InterestType": "News",
+            "IsFeatured": true,
+            "CategoryId": "topstories",
+            "CategoryName": "Top Stories",
+            "Providers": [
+              {
+                "ProviderId": "AAPEDK",
+                "ProviderName": "MSN",
+                "DisplayName": "MSN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ro-ro": [
+      {
+        "CategoryId": "topstories",
+        "CategoryName": "Top Stories",
+        "CategoryKey": "topstories",
+        "CategoryType": "News",
+        "IsNewsCategory": true,
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Interests": [
+          {
+            "InterestId": "topstories",
+            "DisplayName": "Top Stories",
+            "InterestType": "News",
+            "IsFeatured": true,
+            "CategoryId": "topstories",
+            "CategoryName": "Top Stories",
+            "Providers": [
+              {
+                "ProviderId": "AAPEDK",
+                "ProviderName": "MSN",
+                "DisplayName": "MSN"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
-]
+}
