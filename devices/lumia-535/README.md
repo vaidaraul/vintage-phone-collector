@@ -40,7 +40,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | Bubble Blast 2 | `1.4.0.0` | **Launch-confirmed** | Installed from an archived vnokia copy; menu and gameplay were not captured. |
 | Candy Crush Saga | `1.0.0.1` | **Functional (user-reported)** | Original pre-microtransaction XAP per the user; package authenticity not independently verified. |
 | Cut the Rope | `1.7.0.0` | **Functional (user-confirmed)** | User confirms it is fully working. |
-| Cut the Rope 2 | `1.0.0.22` | **Removed** | Repaired patched XAP installs but exits after about 4 seconds; retail/test WP8.1 APPX installs but start returns `0x803F8001` (no Store entitlement). Clean 4PDA XAP requires a 4PDA login. |
+| Cut the Rope 2 | `1.0.0.22` | **Removed** | Repaired patched XAP installs but exits after about 4 seconds; retail/test WP8.1 APPX installs but start returns `0x803F8001` (no Store entitlement). Clean 4PDA attachment no longer downloads; treated as lost media. |
 | Doodle Jump | `1.8.10.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
 | FIFA 14 | `1.0.0.0` | **Deployment failed** | Invalid-assembly error during deployment optimization; not installed. |
 | Fruit Ninja | `1.0.0.0` | **Deployment failed** | Superseded by the `1.1.0.0` build below. |
@@ -350,10 +350,10 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
 - Minecraft: no working build found. `1.5.201.0` was removed after start returned
   `Unavailable`, and the WP8.1 `0.14.0.1` APPX was rejected with “Package could not be
   registered”.
-- Cut the Rope 2: obtain the clean 4PDA XAP (`Cut_the_Rope_2_v1.0.0.22.xap`, 94.2 MB)
-  with a 4PDA account. The unencrypted copies found are a broken patched build; the
-  Store XAP is PlayReady-encrypted and the retail APPX cannot run without a Store
-  entitlement.
+- Cut the Rope 2: the clean WP8 XAP is currently unavailable. The 4PDA attachment no
+  longer downloads, the unencrypted copies found are a broken patched build, the Store
+  XAP is PlayReady-encrypted, and the retail APPX cannot run without a Store
+  entitlement. Treat the WP8 build as lost media unless a private copy surfaces.
 - Bad Piggies and Amazing Alex are installed and launch-confirmed; capture a
   menu/gameplay frame and exercise one level in each.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.

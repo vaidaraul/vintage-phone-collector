@@ -120,8 +120,9 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
   CRCs. Rebuilding the CRCs and restoring the DLL certificate table installs, but the
   game exits after about 4 seconds. The retail/test WP8.1 APPX installs but fails to
   start with `0x803F8001` (no Store entitlement); the Microsoft Store is retired. The
-  clean 4PDA attachment requires a 4PDA login and was not retrievable. Removed from the
-  phone.
+  clean 4PDA attachment no longer downloads (clicking it refreshes the page), so the
+  clean WP8 XAP is currently unavailable and the title is treated as lost media. Removed
+  from the phone.
 - **Glow Hockey** — no Windows Phone package found.
 - **Glow Hockey 2** — no Windows Phone package found.
 - **Logo Quiz Ultimate** — no Windows Phone package found.
@@ -245,7 +246,8 @@ Git.
 - Cut the Rope 2 could not be made playable. The unencrypted archive copies are a
   patched build with stale ZIP CRCs; after repair it installs but exits after about
   4 seconds. The WP8.1 APPX installs but fails with `0x803F8001` (no Store entitlement),
-  and the Store is retired. The clean 4PDA XAP requires a 4PDA login.
+  and the Store is retired. The clean 4PDA attachment no longer downloads, so the WP8
+  XAP is currently unavailable.
 - The Zuma and Where's My Water packages are patched/repacked builds. They are not
   byte-identical to the original publisher packages and should be treated as provisional.
 - The phone's sleep timeout was temporarily set to `Never` for the pass and restored to
