@@ -589,6 +589,18 @@ selected automatically. No tapping or input injection is needed.
 The original Microsoft News UWP app on the Lumia 535 renders live news again
 from a public HTTPS static feed. No PC or local server is in the path.
 
+Verified on-device:
+
+- Top Stories is selected automatically and shows real, current headlines.
+- Provider names and relative timestamps render.
+- Card images load from the MSN image CDN.
+- Tapping a card opens the native article reader with body text and lead image.
+
+Known cosmetic issue: the hero card shows the red gradient placeholder instead
+of its image. Regular card images render, so the feed schema is correct; the
+hero template appears to want a different image binding. This does not affect
+content or navigation.
+
 ### Remaining cleanup
 
 - Restore the original 1,820-byte `Error.xbf` (diagnostic build is installed).
