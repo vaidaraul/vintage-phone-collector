@@ -1,0 +1,54 @@
+{
+  "PersonalizedInterests": [
+    {
+      "InterestId": "topstories",
+      "DisplayName": "Top Stories",
+      "InterestType": "News",
+      "IsFeatured": true,
+      "IsFollowed": true,
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "Providers": [
+        {
+          "ProviderId": "AAPEDK",
+          "ProviderName": "MSN",
+          "DisplayName": "MSN"
+        }
+      ]
+    }
+  ],
+  "Interests": [
+    {
+      "InterestId": "topstories",
+      "DisplayName": "Top Stories",
+      "InterestType": "News",
+      "IsFeatured": true,
+      "IsFollowed": true,
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "Providers": [
+        {
+          "ProviderId": "AAPEDK",
+          "ProviderName": "MSN",
+          "DisplayName": "MSN"
+        }
+      ]
+    }
+  ],
+  "DeletedInterests": [],
+  "HasUserCustomizations": true,
+  "CategoryList": [
+    "topstories"
+  ],
+  "ActiveCategoryIds": [
+    "topstories"
+  ],
+  "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test2/stream.json",
+  "IsPersonalizationEnabled": true
+}
