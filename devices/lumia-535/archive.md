@@ -79,6 +79,7 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | `Subway Surfers Mumbai v1.36.0.0 [Winphone Iz].xap` | XAP | 38,809,013 | Installed; launch-confirmed. |
 | `Temple Run v1.5.3.0 [Winphone Iz].xap` | XAP | 23,401,108 | Launch-confirmed in the latest pass; earlier startup instability not re-tested. |
 | `UC Browser v3.4.0.374 [WindowsViet].xap` | XAP | 12,089,539 | Installed; loads pages (user-confirmed). Repacked WP8.1 build; product ID `{6cda5651-56b9-48b0-8771-91dbc188f873}`; installed as `UCMobileLimited.UC_4.2.1.2_arm__6n7f2ndsr2206`. |
+| `reCortana 2.0.0.1 [Live Store].appx` | APPX | 4,001,958 | Installed; answers (user-confirmed). Cortana revival from Live Store App ID 812; self-signed `CN=lukem`; install to internal with `MinDeployAppX /AddToVolume /Volume:C:\`. |
 | `Windows Camera v2017.1003.21.2000 [file.windowsviet.com].appxbundle` | APPXBUNDLE | 4,575,292 | Local candidate. A Camera update is confirmed working, but this exact file was not tied to the installed version. |
 | `Windows Maps v5.1705.1391.1000 [file.windowsviet.com].AppxBundle` | APPXBUNDLE | 32,558,497 | Untested. |
 | `Word Mobile v16002.10730.20050.0 [file.windowsviet.com].appxbundle` | APPXBUNDLE | 173,390,895 | Untested. |
@@ -102,6 +103,8 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 The root copy of the `8aa013…appxbundle` is identical in size to the copy under `apk`; treat it as a duplicate. Several packages are local copies of archived builds; a filename is provenance evidence only, not proof of authenticity.
 
 UC Browser XAP SHA-256: `650A75204DCA2FC06736A3349E00CCA4DF4379760E73BF49E9B22860715C9438` (SHA-1 `C57FB424D57EBB87D05BD0A940AB4EDA77556D37`).
+
+reCortana APPX SHA-256: `35FD4FCBE77A224C7600D5A127CD1AF3A876FFD855AF7F42028FF39B9564AA4C` (SHA-1 `CD6C0F0327C56272C06FEFE26381C8186E47F120`).
 
 ## What is not committed
 

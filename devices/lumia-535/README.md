@@ -7,7 +7,7 @@ Part of the [Vintage Phone Collector](../../README.md) project. This log documen
 
 The idea is not simply to make an old phone turn on. It is to recover as much of its original software experience as possible, understand what still works, and publish reproducible notes so other collectors can learn from the process.
 
-The local package and tool archive is catalogued in [archive.md](archive.md); binaries stay outside the repository. The current 24-title game suite and HTC-list coverage are in [GAMES.md](GAMES.md). The Microsoft News revival investigation, including the public-feed decision, is in [NEWS.md](NEWS.md).
+The local package and tool archive is catalogued in [archive.md](archive.md); binaries stay outside the repository. The current 24-title game suite and HTC-list coverage are in [GAMES.md](GAMES.md). The Microsoft News revival investigation, including the public-feed decision, is in [NEWS.md](NEWS.md). The Cortana revival and voice-assistant notes are in [ASSISTANT.md](ASSISTANT.md).
 
 ## Device status
 
@@ -25,7 +25,8 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | SD card | About 7.05 GB free; Downloads, Pictures and Documents moved here |
 | XAP/APPX move to SD | Not supported on this build (`0x80073D0B` / `0x80070490`) |
 | Web browser | UC Browser 3.4.0.374 installed; loads pages (user-confirmed) |
-| Search key | Remapped to UC Browser (`WEHButton4`) |
+| Voice assistant | reCortana 2.0.0.1 installed; answers (user-confirmed) |
+| Search key | Remapped to reCortana (`WEHButton4`) |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
 
 ### Games tested on the Lumia 535
@@ -72,6 +73,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | --- | --- | --- | --- |
 | Instagram | `10.1096.22713.0` | **Outdated; reaches sign-in page (user-reported)** | User reports it installs and launches, but the app is outdated. It reaches the sign-in page; successful sign-in and other online features are unconfirmed. |
 | UC Browser | `3.4.0.374` XAP | **Functional; loads pages (user-confirmed)** | Repacked WP8.1 build from WindowsViet; installed package `UCMobileLimited.UC_4.2.1.2_arm__6n7f2ndsr2206`; welcome screen captured; user confirms pages load. |
+| reCortana | `2.0.0.1` APPX | **Functional; answers (user-confirmed)** | Cortana revival from Live Store (App ID 812); WP8.1 WinRT, self-signed `CN=lukem`; needs a One Live ID; Live Store downloaded but did not install, so it was deployed manually; installed to internal storage because the SD install crashed after reboot. |
 | Free Player for YouTube | `1.1.23.0` | **Uninstalled; nonfunctional (user-confirmed)** | It installed, but the user reports it was worthless and did not work; it has since been uninstalled. |
 | MSN Weather | `4.26.12153.0` | **Functional; current data confirmed (user-reported)** | User confirms the app works and displays correct weather data, so its API is active. A separate APPXBUNDLE deployment attempt failed with `0x80073CF3`; that failure did not represent the working app's status. |
 | Bing Sports | `3.1.4.486` (observed) | **Update path works; API down (user-reported)** | User reports Sports can be updated, but its online API is down. The version shown here is from the earlier Device Portal inventory; the updated version was not recorded. |
@@ -84,19 +86,23 @@ These statuses describe observed behavior on this particular phone. They are not
 
 ### Browser
 
-The built-in browser experience is limited on modern sites. Opera Mini 9.1 is a PlayReady-encrypted Store XAP and cannot be sideloaded; the unofficial Opera Mini 5.1 WP7 port installs but is stuck at its first-run screen. **UC Browser 3.4.0.374** installs from an unencrypted WP8.1 XAP and **loads pages** (user-confirmed). It is the working browser on this phone.
+The built-in browser experience is limited on modern sites. Opera Mini 9.1 is a PlayReady-encrypted Store XAP and cannot be sideloaded; the unofficial Opera Mini 5.1 WP7 port installs but is stuck at its first-run screen. **UC Browser 3.4.0.374** installs from an unencrypted WP8.1 XAP and **loads pages** (user-confirmed). It remains installed and can be opened from the app list.
+
+### Cortana revival
+
+The original Cortana backend is retired. **reCortana 2.0.0.1** is a WP8.1 WinRT assistant from Live Store (App ID 812) that uses an AI service and a One Live ID. It installs, signs in and answers questions on the phone (user-confirmed). Live Store downloaded the APPX but did not install it; the package was deployed manually with `MinDeployAppX.exe /Add ... /DeploymentOption:32768`. The first install went to the SD card and crashed after reboot because its data junctions pointed at the stale SD package volume. Reinstalling to internal storage with `/AddToVolume /Volume:C:\` fixed it. See [ASSISTANT.md](ASSISTANT.md) for the full revival notes and future options.
 
 ### Search button remap
 
-The hardware Search key (`WEHButton4`) originally opened Cortana, which is now a dead end. It is remapped to UC Browser using CMD Injector's search-button remap keys:
+The hardware Search key (`WEHButton4`) originally opened Cortana, which is now a dead end. It is remapped to reCortana using CMD Injector's search-button remap keys:
 
 | Registry value | Data |
 | --- | --- |
-| `HKLM\SYSTEM\Input\WEH\Buttons\WEHButton4\Press\AppID` | `{6cda5651-56b9-48b0-8771-91dbc188f873}` |
+| `HKLM\SYSTEM\Input\WEH\Buttons\WEHButton4\Press\AppID` | `{62cf5dbd-ec59-49e9-b6c3-5af9a0ee8031}` |
 | `HKLM\SYSTEM\Input\WEH\Buttons\WEHButton4\PressAndHold\AppID` | `{None}` |
 | `HKLM\SYSTEM\Features\ButtonRemapping` | `WEHButtonRouter.dll` |
 
-The GUID is UC Browser's `PhoneProductId`. A reboot is required. The press-and-hold action is disabled because the Cortana service is retired.
+The GUID is reCortana's `PhoneProductId`. A reboot is required. The press-and-hold action is disabled because the Cortana service is retired. The key previously opened UC Browser; to restore that, replace the GUID with `{6cda5651-56b9-48b0-8771-91dbc188f873}`.
 
 To revert, set both `AppID` values back to empty and delete `HKLM\SYSTEM\Features\ButtonRemapping`, then reboot.
 
@@ -413,6 +419,11 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
   Settings > System > Storage.
 - UC Browser 3.4.0.374 loads pages (user-confirmed); capture a page frame and test a
   few modern HTTPS sites.
+- reCortana 2.0.0.1 answers (user-confirmed); capture an answer frame, verify the One
+  Live ID session persists across reboots, and test more queries. The Search key now
+  opens reCortana; UC Browser remains available from the app list.
+- The SD package volume is still stale/offline; install APPX packages to `C:\` with
+  `MinDeployAppX.exe /AddToVolume /Volume:C:\` instead of relying on the default volume.
 - Bad Piggies and Amazing Alex are installed and launch-confirmed; capture a
   menu/gameplay frame and exercise one level in each.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
