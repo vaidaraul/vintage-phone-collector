@@ -1,0 +1,23 @@
+[
+  {
+    "BingNewsCategory": {
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "DisplayName": "Top Stories"
+    },
+    "ExploreSectionType": "News",
+    "ExploreSectionDefinition": {
+      "Title": "Top Stories",
+      "DisplayName": "Top Stories"
+    },
+    "ExploreSections": [],
+    "ExploreSectionContents": [],
+    "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+    "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+    "ShowFirstCategoryOnLoad": true,
+    "showFirstCategoryOnLoad": true
+  }
+]
