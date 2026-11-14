@@ -1,0 +1,41 @@
+{
+  "$type": "compositeStream",
+  "_id": "BBAXrsz",
+  "_name": "today",
+  "_sourceMetering": {
+    "isMetered": false
+  },
+  "_lastEditedDateTime": "2017-05-10T03:38:43Z",
+  "_links": {
+    "sources": [
+      {
+        "$type": "cmscollectionsource",
+        "href": "https://cdn.query.prod.cms.msn.com/cms/api/amp/list/AA53VaF",
+        "sourceName": "Weather",
+        "categoryKey": "weather",
+        "top": 50,
+        "safeToRemove": true
+      }
+    ]
+  },
+  "labels": {},
+  "tagEvaluationGroups": {
+    "tags": [],
+    "vectors": [],
+    "_tagsHash": "3145739"
+  },
+  "_locale": "es-es",
+  "keywords": [],
+  "facets": [],
+  "orderingCriteria": "DateTime",
+  "displayNames": [],
+  "_systemName": "today",
+  "_systemTags": [],
+  "isDiscoverable": true,
+  "sourceId": "BBkEBd6",
+  "updatedDateTime": "2017-05-10T03:38:23Z",
+  "_lastPublishedDateTime": "2017-05-10T03:38:56Z",
+  "_lastPublishedSequence": 3,
+  "_createdDateTime": "2017-05-10T03:38:22Z",
+  "summary": "Weather"
+}
