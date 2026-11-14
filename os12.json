@@ -1,0 +1,22 @@
+{
+  "Value": [
+    {
+      "Title": "Synthetic headline 1",
+      "Abstract": "Synthetic abstract 1. This is a schema test, not a real article.",
+      "Url": "https://example.com/test-1",
+      "ArticleUrl": "https://example.com/test-1",
+      "PublishedDateTime": "2026-11-14T12:00:00Z",
+      "Provider": {
+        "Name": "Test Provider",
+        "DisplayName": "Test Provider"
+      },
+      "Images": [
+        {
+          "Url": "https://th.bing.com/th?id=ORMS.ea20100fe6cf8e520f3eba90ca2a7aaf&pid=Wdp"
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    }
+  ]
+}
