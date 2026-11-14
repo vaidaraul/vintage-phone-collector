@@ -25,6 +25,7 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | SD card | About 7.05 GB free; Downloads, Pictures and Documents moved here |
 | XAP/APPX move to SD | Not supported on this build (`0x80073D0B` / `0x80070490`) |
 | Web browser | UC Browser 3.4.0.374 installed; loads pages (user-confirmed) |
+| Search key | Remapped to UC Browser (`WEHButton4`) |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
 
 ### Games tested on the Lumia 535
@@ -84,6 +85,20 @@ These statuses describe observed behavior on this particular phone. They are not
 ### Browser
 
 The built-in browser experience is limited on modern sites. Opera Mini 9.1 is a PlayReady-encrypted Store XAP and cannot be sideloaded; the unofficial Opera Mini 5.1 WP7 port installs but is stuck at its first-run screen. **UC Browser 3.4.0.374** installs from an unencrypted WP8.1 XAP and **loads pages** (user-confirmed). It is the working browser on this phone.
+
+### Search button remap
+
+The hardware Search key (`WEHButton4`) originally opened Cortana, which is now a dead end. It is remapped to UC Browser using CMD Injector's search-button remap keys:
+
+| Registry value | Data |
+| --- | --- |
+| `HKLM\SYSTEM\Input\WEH\Buttons\WEHButton4\Press\AppID` | `{6cda5651-56b9-48b0-8771-91dbc188f873}` |
+| `HKLM\SYSTEM\Input\WEH\Buttons\WEHButton4\PressAndHold\AppID` | `{None}` |
+| `HKLM\SYSTEM\Features\ButtonRemapping` | `WEHButtonRouter.dll` |
+
+The GUID is UC Browser's `PhoneProductId`. A reboot is required. The press-and-hold action is disabled because the Cortana service is retired.
+
+To revert, set both `AppID` values back to empty and delete `HKLM\SYSTEM\Features\ButtonRemapping`, then reboot.
 
 See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes. Additional untested packages in the local archive are catalogued in [archive.md](archive.md).
 
