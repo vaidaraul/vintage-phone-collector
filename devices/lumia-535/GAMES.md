@@ -137,6 +137,11 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 - **Angry Birds Go! 1.8.7.0** — installs and launches, but hangs on “Installing update”
   with Wi-Fi and shows “No internet” offline; the Rovio update service is no longer
   available. Removed from the phone. The XAP is preserved locally for reference.
+- **Asphalt 7: Heat 1.0.0.7** — official WP8 XAP verified (`536,253,160` bytes,
+  SHA-1 `5213F7A260C47E81FC736711F5BE3D8222201BE8`), but not installed: the
+  deployment peak is about 1.3 GB versus about 0.9 GB free internal, and XAPs cannot
+  be moved to SD on this build. Installing it would require removing archived games.
+  The package remains in the local archive.
 
 ## APPX notes
 
@@ -209,6 +214,7 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 | `apk/Temple Run v1.5.3.0 [Winphone Iz].xap` | `2BD8E90CD0ACADF8B50A981FEDC3FDB2D974BF88F0D85DA81E5728B14FAE8A45` |
 | `apk/HalfbrickStudiosPtyLtd_FruitNinja_1_8_1_66_arm_w77bc8x1h5kya.Appx` | `8080013EC5FD0F20A8476CEFD3B329B154F343FE4087DA169193D3C3E3277B4F` |
 | `apk/Minecraft for Windows 10 Mobile v1.5.201.0 [file.windowsviet.com].appx` | `1D93090F8156431F3671412F87AC3645E4FB65FFD376A4412DC0A057FEDF2E70` |
+| `apk/Asphalt 7 Heat v1.0.0.7 [Archive.org].xap` | `D9E40A20146EEFD70F0BFAC99CDD6852E7AC5D1C4026893BE8A17D279B16E74A` |
 
 Raw package inspection and launch-pass JSON are kept with the local archive, outside
 Git.
@@ -264,6 +270,29 @@ Git.
   **180 seconds** on AC and battery afterward.
 - The per-user CoreCon registration lives under `HKCU\Software\Classes`. It can be removed
   later if the deployer is no longer needed.
+
+## Storage and SD card
+
+On **2026-11-14** the phone's movable user data was moved to the SD card:
+
+| Category | Size | Destination |
+| --- | --- | --- |
+| Downloads (CMD Injector and Universal Updater archives) | `197,885,566` bytes | `D:\Downloads` |
+| Pictures (9 files) | `25,903,341` bytes | `D:\Pictures` |
+| Documents (86 files) | `30,821,639` bytes | `D:\Documents` |
+
+Final reported free space is about **0.9 GB internal** and **7.05 GB on SD**. The internal
+figure fluctuates with the system cache.
+
+Sideloaded XAP and APPX packages cannot be moved to SD on this build. The system
+deployment tool returns `0x80070490` (package volume not found) for `/MoveToVolume`; the
+SD package-volume record is stale/offline (`Flags=0`), and `AddPackageVolume` /
+`RemovePackageVolume` do not repair it. The XAP move path is also reported to fail with
+`0x80073D0B`. Store apps installed to SD earlier (Bing News) remain there, but the game
+XAPs stay on internal storage. App data (~178 MB) remains app-managed.
+
+New photos, downloads and documents still save to internal storage by default; set the
+save locations in **Settings > System > Storage** to use the card.
 
 ## Bejeweled source
 

@@ -21,6 +21,9 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | USB XAP deployment | Working with Microsoft Windows Phone SDK 8.0 |
 | Classic XAP games | 15 of 24 HTC-list titles installed; 14 launch-confirmed |
 | Minecraft APPX | Removed; `1.5.201.0` installed but start returned `Unavailable` (`-2143322111`); no working build found |
+| Internal storage | About 0.9 GB free (2026-11-14); user data moved to SD |
+| SD card | About 7.05 GB free; Downloads, Pictures and Documents moved here |
+| XAP/APPX move to SD | Not supported on this build (`0x80073D0B` / `0x80070490`) |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
 
 ### Games tested on the Lumia 535
@@ -94,6 +97,28 @@ See [Games and package records](#games-and-package-records) for package sources,
 | Kernel | `2.6.32.21-g6c55ee4` |
 
 These specifications describe the device used for testing. A package targeting ARM or declaring a minimum Windows version does not automatically guarantee that it will install, launch or perform acceptably on this hardware.
+
+## Storage and SD card
+
+The phone has 8 GB internal storage and an SD card. On **2026-11-14** the movable user data was audited and relocated to the card. Packages, app data and the game suite were left alone.
+
+Moved to SD:
+
+| Category | Size | Destination |
+| --- | --- | --- |
+| Downloads (CMD Injector and Universal Updater archives) | `197,885,566` bytes (~189 MiB) | `D:\Downloads` |
+| Pictures (9 files: Camera Roll, Saved Pictures, Screenshots, Sample Pictures) | `25,903,341` bytes (~24.7 MiB) | `D:\Pictures` |
+| Documents (86 files, including diagnostic captures and Sound recordings) | `30,821,639` bytes (~29.4 MiB) | `D:\Documents` |
+
+Music and Videos were empty, and temporary files were negligible. Final reported free space is about **0.9 GB internal** and **7.05 GB on SD**. The internal figure fluctuates with the system cache, so it did not rise by the full moved size.
+
+The transfer used the SYSTEM shell exposed by CMD Injector (`telnetd.exe` on TCP 9999): `xcopy /E /I /Y /Q` to the SD card, file-count/size verification, then `del` / `rd` on the internal copies. A reboot cleared the transient cache.
+
+**What cannot be moved:** Windows 10 Mobile 14393 does not move sideloaded XAP or APPX packages to SD on this device. `MinDeployAppX.exe /MoveToVolume` returns `0x80070490` ("Finding the associated package volume failed"); the SD package-volume record is present but stale/offline (`Flags=0`), and `AddPackageVolume` / `RemovePackageVolume` do not repair it. The XAP move path is also reported to fail with `0x80073D0B`. Store apps installed to SD earlier (Bing News) remain there, but new sideloaded games stay on internal storage. App data (~178 MB) is managed by the apps; some apps (Maps, Groove, WhatsApp) have their own SD settings.
+
+New photos, downloads and documents still save to internal storage by default. To send new files to the card, set the save locations in **Settings > System > Storage**.
+
+**Asphalt 7: Heat** was requested but is **not installed**. The XAP is `536,253,160` bytes (511 MiB) and expands to about 753 MB; the deployment peak is about 1.3 GB, while internal free space is about 0.9 GB. Because XAPs cannot be moved to SD, installing it would require removing archived games (for example Zuma's Revenge and Asphalt 5). The suite was left unchanged.
 
 ## Getting started
 
@@ -358,6 +383,13 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
   entitlement. Treat the WP8 build as lost media unless a private copy surfaces.
 - Angry Birds Go! 1.8.7.0: not playable. The Rovio update service is gone; the XAP is
   preserved locally but removed from the phone.
+- Asphalt 7: Heat is not installed. The official WP8 XAP needs about 1.3 GB at peak;
+  internal free space is about 0.9 GB, and XAPs cannot be moved to SD on this build.
+  Installing it would require removing archived games. See
+  [Storage and SD card](#storage-and-sd-card).
+- Storage: Downloads, Pictures and Documents were moved to SD on 2026-11-14; new files
+  still default to internal storage until the save locations are changed in
+  Settings > System > Storage.
 - Bad Piggies and Amazing Alex are installed and launch-confirmed; capture a
   menu/gameplay frame and exercise one level in each.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.

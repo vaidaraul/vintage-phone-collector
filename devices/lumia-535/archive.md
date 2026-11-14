@@ -59,6 +59,7 @@ The `apk` directory uses the historical folder name; these are Windows Phone pac
 | `Angry Birds v1.5.3.0.0 [Winphone Iz].xap` | XAP | 21,053,919 | Functional; preferred version. Contains an `AppCracked` marker. |
 | `Angry Birds v5.0.2.0 [file.windowsviet.com].xap` | XAP | 32,943,252 | Removed; trial build showed the BUY THE FULL GAME prompt. |
 | `Asphalt 5 v1.33.0.0 [file.windowsviet.com].xap` | XAP | 115,669,153 | Functional. |
+| `Asphalt 7 Heat v1.0.0.7 [Archive.org].xap` | XAP | 536,253,160 | Not installed; official WP8 XAP verified (SHA-1 `5213F7A260C47E81FC736711F5BE3D8222201BE8`). Needs ~1.3 GB peak versus ~0.9 GB free; XAPs cannot move to SD on this build. |
 | `Candy Crush Saga v1.0.0.1 [file.windowsviet.com].xap` | XAP | 16,282,183 | Functional (user-reported). |
 | `Candy Crush Saga v1.0.0.1 [WindowsViet].xap` | XAP | 16,282,183 | Duplicate copy of the same version; not separately tested. |
 | `Candy Crush Saga v1.95.5.0 [file.windowsviet.com].Appx` | APPX | 72,331,216 | Untested; later APPX build. |
