@@ -12,10 +12,6 @@ This is an investigation record, not a completed restoration. The app was instal
 launched for testing, then removed again; the phone's OS, bootloader, firmware and
 partitions were not changed.
 
-Artifact paths such as `captures/` and `tools/news-shim` refer to the local Lumia
-workspace/archive, which stays outside this repository, matching the other Lumia device
-notes.
-
 ## Executive summary
 
 - The W10M News app is **not** blocked by Windows version or a certificate. It is a
@@ -72,8 +68,8 @@ The local `apk/Deps` folder already contained the ARM dependency set used for th
 - Deployment state returned `Success: true`.
 - Launched with `POST /api/taskmanager/app` using the base64 `PackageRelativeId`
   (`Microsoft.BingNews_8wekyb3d8bbwe!AppexNews`) and the full package name.
-- `Microsoft.Msn.News.exe` appeared in `/api/resourcemanager/processes` under the
-  phone's app account, using roughly 42-69 MB working set depending on state.
+- `Microsoft.Msn.News.exe` appeared in `/api/resourcemanager/processes` as user
+  `DefApps`, using roughly 42-69 MB working set depending on state.
 
 ### First observed failure
 
@@ -149,8 +145,8 @@ not the `EndOfLife` screen.
 
 ## Lab shim experiment (development only)
 
-A temporary local HTTP service was run on a development PC. This was a
-reverse-engineering bench, not the intended product. The installed
+A temporary local HTTP service was run on the project PC at `192.168.1.137:8080`. This
+was a reverse-engineering bench, not the intended product. The installed
 `configuration.sqlite` was edited (with a backup) to point the config update, stream,
 category, `Sources.js`, `partner.js` and ad-settings templates at that server, changing
 only those templates from `https://` to `http://`.
@@ -350,3 +346,141 @@ app testing, not just News.
 - The `Sources.js` / `partner.js` / ad-settings payloads were stubbed with empty
   fixtures; their real schemas were not recovered.
 - No OS, firmware, bootloader or partition changes were made.
+
+## 2026-11-14 follow-up: error-detail breakthrough and contract findings
+
+The app was reinstalled and kept on the phone. The hardcoded PDP URL in
+`Microsoft.Msn.News.dll` was redirected to a public fixture, and the app's hidden
+error detail was surfaced. This produced the first exact deserialization errors and
+several contract facts.
+
+### Surfacing the hidden error detail
+
+The `Microsoft.Msn.Shell.Controls.Error` control uses a custom
+`local:AutomationStackPanel` and compiled `x:Bind` against its own `ViewModel`
+(`ViewModel.ErrorText`, `ViewModel.ErrorSource`, `ViewModel.ErrorDetailText`,
+`ViewModel.ShowErrorDetail`). The `ErrorViewModel` is not the control's DataContext
+(the DataContext is `Microsoft.Msn.Shell.Controls.Chrome`).
+
+Recompiling the whole control with XbfKit broke `{ThemeResource}` /
+`{StaticResource}` markup extensions, so the original XBF was patched at the
+instruction level instead:
+
+- Read the original `Error.xbf` with `XbfDocumentReader`.
+- Insert four instructions before the TextBox `EndInitPopScope`:
+  `PushScopeCreateTypeBeginInit` (Binding, stable id 564),
+  `SetValueConstant` (Binding.Path, id 493, shared string `ErrorDetailText`),
+  `EndInitPopScope`,
+  `SetValueFromMarkupExtension` (TextBox.Text, id 981).
+- Add a top-aligned `TextBlock` bound with
+  `<Binding ElementName="RootError" Path="ViewModel.ErrorDetailText" />`; the root
+  control gets an `x:Name` via the `SetName` opcode.
+- Write the document back with `XbfDocumentWriter`. The original custom panel type
+  and all resource markup extensions are preserved.
+
+This revealed, in order:
+
+```text
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object
+(e.g. {"name":"value"}) into type
+'Microsoft.Msn.News.DataModels.Explore.ExploreSectionCollectionDataModel' because the
+type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+Path 'ViewType', line 1, position 12.
+```
+
+The categories endpoint (`ExploreSections`, config id 170) must return a **JSON
+array**. An empty array is accepted; the app then proceeds to the stream endpoints.
+
+```text
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array
+(e.g. [1,2,3]) into type
+'Microsoft.Msn.News.DataModels.Streams.StreamCollection' because the type requires a
+JSON object (e.g. {"name":"value"}) to deserialize correctly.
+Path '', line 1, position 1.
+```
+
+The default stream/categories endpoint (config id 108, `compositestreambyname/today`)
+must return a **JSON object** of type `StreamCollection`.
+
+### Configuration facts
+
+| Id | Name | Role |
+| --- | --- | --- |
+| 108 | `DefaultCategoriesEndpoint` / `URLTemplate` | Today stream; `compositestreambyname/today` |
+| 114 | `DefaultStreamEndpoint` / `URLTemplate` | default stream; `compositestreambyname/today?count=...` |
+| 170 | `ExploreSections` / `URLTemplate` | categories list; `data/news/interests/categories` |
+| 173 | `ExploreSectionContents` / `URLTemplate` | category details; `.../categories/{CategoryId}` |
+
+The PDP response is normalized by the app into this shape (observed in
+`Cache/cachedb.sqlite`):
+
+```json
+{
+  "TopicList": [],
+  "PerMarketCategories": [{ "Market": "EN-GB", "CategoryList": [] }],
+  "SourceDefinitionList": [],
+  "IsPersonalizationEnabled": true,
+  "PersonalizedInterests": [ ... ]
+}
+```
+
+Supplying `PerMarketCategories` directly in the PDP response did not populate
+`CategoryList`; the app appears to build that list from the categories endpoint. The
+exact `ExploreSectionDataModel` item schema is still unresolved. PascalCase,
+camelCase, `Category`, `CategoryList`, `BingNewsCategory`, and Adaptive Card
+(`type`/`body`/`actions`) item shapes were all accepted without error but produced no
+category.
+
+### The Top Stories tab
+
+With the original DLL, `categories-array2.json`, and a stream whose `summary` was
+`"Top Stories"`, the Today Pivot rendered **My News / My Sources / Top Stories**.
+The tab could not be selected without touch input and was not consistently
+reproducible after switching the stream fixture. It confirms the category pipeline
+can reach the Pivot, but the stream body still renders empty.
+
+### Live CMS findings
+
+- `cdn.content.prod.cms.msn.com` (the configured `ContentServiceDomain`) is dead
+  (503 DNS failure).
+- `cdn.query.prod.cms.msn.com` is alive. It serves:
+  - `cms/api/amp/compositeStream/{id}` — a compositeStream definition with
+    `_links.sources` pointing at `topicStream` / `list` documents.
+  - `cms/api/amp/topicStream/{id}` and `cms/api/amp/list/{id}` — definitions, not
+    resolved article lists.
+  - `cms/api/amp/search?$filter=...` — live article documents (real content works).
+- The modern web feed is live and returns real articles:
+  `https://assets.msn.com/service/news/feed?$top=5&market=en-gb&query=topstories`
+  (the public web feed also requires a public API-key query parameter, omitted here)
+  → `value[0].subCards[]` with id, type, title, abstract, url, images, provider,
+  publishedDateTime. This can be the content source for a generated feed.
+
+### Current phone state
+
+- Installed DLL: original unpatched `Microsoft.Msn.News.dll` (restored after a
+  patched build temporarily failed to start during an OS update).
+- Installed config: a test config pointing at public `lumia-news-feed-test3`
+  fixtures; the original config is preserved on the PC.
+- Installed `Error.xbf`: the diagnostic version with the visible
+  `ViewModel.ErrorDetailText` TextBlock. The original 1,820-byte file is in
+  `D:\Pictures\Camera Roll\Error.xbf`.
+- Sleep timeout: restored to 180 seconds. Display timeout: still 10 seconds at the
+  last check; the phone went offline during the restore.
+- The phone was intermittently offline/rebooting (Windows Update components ran);
+  the Device Portal file upload often returns 500 "Access is denied" but the file
+  still lands in `Documents`. The portal's upload to `CameraRoll` is less reliable.
+
+### Next moves
+
+1. When the phone is back online, restore the display timeout to 180 and either
+   restore the original `Error.xbf`/config or continue with the diagnostic build.
+2. Recover the `StreamCollection` envelope. The strongest remaining candidates are
+   a PascalCase `StreamBody`/`StreamEntities` object and a `Streams` dictionary keyed
+   by stream name (`today`, `topStories`). The app metadata names are `StreamBody`,
+   `StreamEntities`, `StreamElements`, `EntityList`, `TemplateClass`, `StreamNext`,
+   `StreamNextList`, `StreamLinks`, `StreamDetails`, `MainStreamLinks`,
+   `TopicStreams`, and `TopicStreamsByTerm`.
+3. Generate real content from the live `assets.msn.com` feed and wrap it in the
+   recovered stream envelope. Keep the production path public HTTPS only.
+4. Clean up the phone: restore the original `Error.xbf`, restore the original
+   config, remove test fixtures, and restore the display timeout.
