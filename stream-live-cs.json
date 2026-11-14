@@ -1,0 +1,80 @@
+{
+  "$type": "compositeStream",
+  "_id": "BBAXrsz",
+  "_name": "today",
+  "_sourceMetering": {
+    "isMetered": false
+  },
+  "_lastEditedDateTime": "2017-05-10T03:38:43Z",
+  "_links": {
+    "self": [
+      {
+        "href": "cms/api/amp/compositeStream/BBAXrsz"
+      }
+    ],
+    "parent": [
+      {
+        "href": "cms/api/amp/section/BBuGGJX"
+      }
+    ],
+    "sources": [
+      {
+        "$type": "cmscollectionsource",
+        "roundRobinProperties": {
+          "takePerRound": 20,
+          "startRound": 0,
+          "endRound": 0
+        },
+        "href": "https://cdn.query.prod.cms.msn.com/cms/api/amp/cms/api/amp/list/AAltdRD",
+        "sourceName": "Infopane",
+        "categoryKey": "topStories",
+        "top": 50,
+        "safeToRemove": true
+      },
+      {
+        "$type": "cmscollectionsource",
+        "href": "https://cdn.query.prod.cms.msn.com/cms/api/amp/cms/api/amp/topicStream/AAavGbi",
+        "sourceName": "España",
+        "categoryKey": "rt_Spain",
+        "top": 50,
+        "safeToRemove": true
+      },
+      {
+        "$type": "cmscollectionsource",
+        "href": "https://cdn.query.prod.cms.msn.com/cms/api/amp/cms/api/amp/topicStream/AAavKXb",
+        "sourceName": "Deportes",
+        "categoryKey": "rt_Sports",
+        "top": 50,
+        "safeToRemove": true
+      },
+      {
+        "$type": "cmscollectionsource",
+        "href": "https://cdn.query.prod.cms.msn.com/cms/api/amp/cms/api/amp/topicStream/AAavKXm",
+        "sourceName": "Internacional",
+        "categoryKey": "rt_World",
+        "top": 50,
+        "safeToRemove": true
+      }
+    ]
+  },
+  "labels": {},
+  "tagEvaluationGroups": {
+    "tags": [],
+    "vectors": [],
+    "_tagsHash": "3145739"
+  },
+  "_locale": "es-es",
+  "keywords": [],
+  "facets": [],
+  "orderingCriteria": "DateTime",
+  "displayNames": [],
+  "_systemName": "today",
+  "_systemTags": [],
+  "isDiscoverable": true,
+  "sourceId": "BBkEBd6",
+  "updatedDateTime": "2017-05-10T03:38:23Z",
+  "_lastPublishedDateTime": "2017-05-10T03:38:56Z",
+  "_lastPublishedSequence": 3,
+  "_createdDateTime": "2017-05-10T03:38:22Z",
+  "summary": "Top Stories"
+}
