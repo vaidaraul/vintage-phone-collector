@@ -1,0 +1,22 @@
+[
+  {
+    "BingNewsCategory": 1,
+    "Category": 1,
+    "CategoryId": 1,
+    "CategoryName": 1,
+    "CategoryKey": 1,
+    "CategoryType": 1,
+    "ExploreSectionType": 1,
+    "ExploreSectionDefinition": 1,
+    "ExploreSections": 1,
+    "ExploreSectionContents": 1,
+    "CategoryStreamEndpoint": 1,
+    "PaginatedStreamEndpoint": 1,
+    "OneServiceInterestEndpoint": 1,
+    "Interests": 1,
+    "Providers": 1,
+    "IsNewsCategory": 1,
+    "DisplayName": 1,
+    "Title": 1
+  }
+]
