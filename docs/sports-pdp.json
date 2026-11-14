@@ -1,0 +1,17 @@
+{
+  "TopicList": [],
+  "PerMarketCategories": [
+    {
+      "Market": "RO-RO",
+      "CategoryList": []
+    }
+  ],
+  "SourceDefinitionList": [],
+  "IsPersonalizationEnabled": false,
+  "PersonalizedInterests": [],
+  "Interests": [],
+  "DeletedInterests": [],
+  "HasUserCustomizations": false,
+  "CategoryList": [],
+  "ActiveCategoryIds": []
+}
