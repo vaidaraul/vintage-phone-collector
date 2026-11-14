@@ -503,3 +503,96 @@ can reach the Pivot, but the stream body still renders empty.
    confirmed compositeStream envelope. Keep the production path public HTTPS only.
 4. Clean up the phone: restore the original `Error.xbf`, restore the original
    config, remove test fixtures, and restore the display timeout.
+
+## Breakthrough: the resolver never fetches the source href (2026-11-15)
+
+### Root cause
+
+ETW (`Microsoft-Windows-WinINet`) proved that the platform source resolver does
+**not** request `_links.sources[].href`. For every source it calls:
+
+```
+https://{OneServiceDomain}/Common/Search
+  ?market={Market}&count={ArticleCount}&ocid={OCID}
+  &offset={Offset}&q={SourceName}&documentId={Href}
+```
+
+The default `OneServiceDomain` is `prod.oneservice.msn.com` (config id 1126).
+That host still serves an **expired** certificate:
+
+- leaf `CN=*.appex-rf.msn.com`: 2022-07-30 .. **2023-07-25**
+- intermediate `Microsoft Azure TLS Issuing CA 06`: 2020-07-29 .. **2024-06-27**
+
+WinINet therefore returns error 12037 / `0x80072f05` (certificate date invalid).
+This was never a missing root on the phone. Installing roots, rebooting, and
+testing GitHub Pages, jsDelivr, and the live MSN CDN could not help because the
+resolver always talked to the expired OneService host.
+
+The OneService service itself is dead: direct requests return HTTP 503
+(`X-Azure-ExternalError: 0x8007232b,DNSNameNotResolved`).
+
+### Fix
+
+Config row 126 (`OneServiceInterestEndpoint.URLTemplate`) is editable. Point it
+at a public static JSON file. The response deserializes into
+`Microsoft.Msn.News.DataModels.OneService.OneServiceArticleListDataModel`,
+which has a single list property `Value`.
+
+Confirmed schema:
+
+```json
+{
+  "Value": [
+    {
+      "Title": "...",
+      "Abstract": "...",
+      "Url": "https://...",
+      "ArticleUrl": "https://...",
+      "ExternalUrl": "https://...",
+      "PublishedDateTime": "2026-11-14T12:00:00Z",
+      "Provider": { "Name": "Daily Mail", "DisplayName": "Daily Mail" },
+      "Images": [
+        { "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA....img?w=1200&h=675&q=80",
+          "Width": 1200, "Height": 675, "Quality": 80 }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    }
+  ]
+}
+```
+
+The app renders the cards in the original Today/Pivot UI with real headlines,
+provider names, relative timestamps, and card images. The hero card still shows
+the red gradient placeholder; card images render. That is a cosmetic follow-up.
+
+### Production pipeline
+
+- `scripts/generate-lumia-feed.mjs` queries Microsoft's public CMS search:
+  `https://cdn.query.prod.cms.msn.com/cms/api/amp/search?$filter='$type'eq'article'and'_locale'eq'en-gb'and'_lastPublishedDateTime'gt'...&$top=12&$orderby='_lastPublishedDateTime' desc`
+  then resolves each article's provider and primary image documents.
+- `.github/workflows/lumia-feed.yml` refreshes `docs/oneservice.json` every
+  30 minutes and deploys it with GitHub Pages.
+- `docs/stream.json` is the compositeStream that creates the Top Stories tab.
+- Phone config (final):
+  - id 108/114: `https://vaidaraul.github.io/vintage-phone-collector/stream.json`
+  - id 126: `https://vaidaraul.github.io/vintage-phone-collector/oneservice.json?market={Market}&count={ArticleCount}&ocid={OCID}&offset={Offset}&q={Term}{OptionalContentIdParam}`
+  - id 530/531 `MyNews.Enabled` = 0
+  - id 994 `NewsSourcesCustomization.Enabled` = 0
+  - all other rows original
+
+Disabling My News and My Sources makes Top Stories the only pivot item, so it is
+selected automatically. No tapping or input injection is needed.
+
+### Result
+
+The original Microsoft News UWP app on the Lumia 535 renders live news again
+from a public HTTPS static feed. No PC or local server is in the path.
+
+### Remaining cleanup
+
+- Restore the original 1,820-byte `Error.xbf` (diagnostic build is installed).
+- Remove test fixtures/scripts from the phone's `Documents`.
+- Verify sleep/display timeouts are still 180 seconds.
+- The phone powered off during the final verification (shutdown screen), so the
+  final config install and screenshot should be re-checked after it boots.
