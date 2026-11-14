@@ -1,0 +1,362 @@
+{
+  "ViewType": "Pivot",
+  "View": "Pivot",
+  "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+  "ViewDefinitions": [
+    {
+      "ViewType": "NewsStream",
+      "View": "NewsStream",
+      "Template": "NewsStreamTemplate",
+      "Name": "NewsStream",
+      "Id": "NewsStream",
+      "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "DataUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "DataSource": {
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+      },
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "HeaderText": "Top Stories",
+      "ViewDefinitions": [],
+      "HeroNavigationLinksViewDefinitions": [],
+      "HeroNavigationLinksInOneColumnViewDefinitions": [],
+      "HeaderViewDefinition": null,
+      "CustomViewDefinition": null,
+      "SelectedViewDefinition": null,
+      "ItemViewDefinition": null,
+      "MaxNumberOfRows": 3,
+      "MaxNumberOfRowsSmallScreen": 1,
+      "StructuredData": null,
+      "EnableFlushedBottom": false,
+      "SelectedItemID": null,
+      "ArticleReaderViewDefinitions": []
+    }
+  ],
+  "CategoryList": [
+    {
+      "CategoryId": "topstories",
+      "CategoryName": "Top Stories",
+      "CategoryKey": "topstories",
+      "CategoryType": "News",
+      "IsNewsCategory": true,
+      "HeaderText": "Top Stories",
+      "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+      "ItemViewDefinition": {
+        "ViewType": "NewsStream",
+        "View": "NewsStream",
+        "Template": "NewsStreamTemplate",
+        "Name": "NewsStream",
+        "Id": "NewsStream",
+        "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "DataUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "DataSource": {
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+        },
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "HeaderText": "Top Stories",
+        "ViewDefinitions": [],
+        "HeroNavigationLinksViewDefinitions": [],
+        "HeroNavigationLinksInOneColumnViewDefinitions": [],
+        "HeaderViewDefinition": null,
+        "CustomViewDefinition": null,
+        "SelectedViewDefinition": null,
+        "ItemViewDefinition": null,
+        "MaxNumberOfRows": 3,
+        "MaxNumberOfRowsSmallScreen": 1,
+        "StructuredData": null,
+        "EnableFlushedBottom": false,
+        "SelectedItemID": null,
+        "ArticleReaderViewDefinitions": []
+      },
+      "ViewDefinition": {
+        "ViewType": "NewsStream",
+        "View": "NewsStream",
+        "Template": "NewsStreamTemplate",
+        "Name": "NewsStream",
+        "Id": "NewsStream",
+        "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "DataUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "DataSource": {
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+        },
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "HeaderText": "Top Stories",
+        "ViewDefinitions": [],
+        "HeroNavigationLinksViewDefinitions": [],
+        "HeroNavigationLinksInOneColumnViewDefinitions": [],
+        "HeaderViewDefinition": null,
+        "CustomViewDefinition": null,
+        "SelectedViewDefinition": null,
+        "ItemViewDefinition": null,
+        "MaxNumberOfRows": 3,
+        "MaxNumberOfRowsSmallScreen": 1,
+        "StructuredData": null,
+        "EnableFlushedBottom": false,
+        "SelectedItemID": null,
+        "ArticleReaderViewDefinitions": []
+      },
+      "Interests": [
+        {
+          "InterestId": "topstories",
+          "DisplayName": "Top Stories",
+          "InterestType": "News",
+          "IsFeatured": true,
+          "CategoryId": "topstories",
+          "CategoryName": "Top Stories",
+          "Providers": [
+            {
+              "ProviderId": "AAPEDK",
+              "ProviderName": "MSN",
+              "DisplayName": "MSN"
+            }
+          ]
+        }
+      ],
+      "Providers": [
+        {
+          "ProviderId": "AAPEDK",
+          "ProviderName": "MSN",
+          "DisplayName": "MSN"
+        }
+      ]
+    }
+  ],
+  "TopicList": [],
+  "SourceDefinitionList": [],
+  "ReleaseNumber": "1",
+  "IsPersonalizationEnabled": true,
+  "PerMarketCategories": {
+    "en-gb": [
+      {
+        "CategoryId": "topstories",
+        "CategoryName": "Top Stories",
+        "CategoryKey": "topstories",
+        "CategoryType": "News",
+        "IsNewsCategory": true,
+        "HeaderText": "Top Stories",
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "ItemViewDefinition": {
+          "ViewType": "NewsStream",
+          "View": "NewsStream",
+          "Template": "NewsStreamTemplate",
+          "Name": "NewsStream",
+          "Id": "NewsStream",
+          "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataSource": {
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+          },
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "HeaderText": "Top Stories",
+          "ViewDefinitions": [],
+          "HeroNavigationLinksViewDefinitions": [],
+          "HeroNavigationLinksInOneColumnViewDefinitions": [],
+          "HeaderViewDefinition": null,
+          "CustomViewDefinition": null,
+          "SelectedViewDefinition": null,
+          "ItemViewDefinition": null,
+          "MaxNumberOfRows": 3,
+          "MaxNumberOfRowsSmallScreen": 1,
+          "StructuredData": null,
+          "EnableFlushedBottom": false,
+          "SelectedItemID": null,
+          "ArticleReaderViewDefinitions": []
+        },
+        "ViewDefinition": {
+          "ViewType": "NewsStream",
+          "View": "NewsStream",
+          "Template": "NewsStreamTemplate",
+          "Name": "NewsStream",
+          "Id": "NewsStream",
+          "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataSource": {
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+          },
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "HeaderText": "Top Stories",
+          "ViewDefinitions": [],
+          "HeroNavigationLinksViewDefinitions": [],
+          "HeroNavigationLinksInOneColumnViewDefinitions": [],
+          "HeaderViewDefinition": null,
+          "CustomViewDefinition": null,
+          "SelectedViewDefinition": null,
+          "ItemViewDefinition": null,
+          "MaxNumberOfRows": 3,
+          "MaxNumberOfRowsSmallScreen": 1,
+          "StructuredData": null,
+          "EnableFlushedBottom": false,
+          "SelectedItemID": null,
+          "ArticleReaderViewDefinitions": []
+        },
+        "Interests": [
+          {
+            "InterestId": "topstories",
+            "DisplayName": "Top Stories",
+            "InterestType": "News",
+            "IsFeatured": true,
+            "CategoryId": "topstories",
+            "CategoryName": "Top Stories",
+            "Providers": [
+              {
+                "ProviderId": "AAPEDK",
+                "ProviderName": "MSN",
+                "DisplayName": "MSN"
+              }
+            ]
+          }
+        ],
+        "Providers": [
+          {
+            "ProviderId": "AAPEDK",
+            "ProviderName": "MSN",
+            "DisplayName": "MSN"
+          }
+        ]
+      }
+    ],
+    "ro-ro": [
+      {
+        "CategoryId": "topstories",
+        "CategoryName": "Top Stories",
+        "CategoryKey": "topstories",
+        "CategoryType": "News",
+        "IsNewsCategory": true,
+        "HeaderText": "Top Stories",
+        "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "CategoryStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "PaginatedStreamEndpoint": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+        "ItemViewDefinition": {
+          "ViewType": "NewsStream",
+          "View": "NewsStream",
+          "Template": "NewsStreamTemplate",
+          "Name": "NewsStream",
+          "Id": "NewsStream",
+          "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataSource": {
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+          },
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "HeaderText": "Top Stories",
+          "ViewDefinitions": [],
+          "HeroNavigationLinksViewDefinitions": [],
+          "HeroNavigationLinksInOneColumnViewDefinitions": [],
+          "HeaderViewDefinition": null,
+          "CustomViewDefinition": null,
+          "SelectedViewDefinition": null,
+          "ItemViewDefinition": null,
+          "MaxNumberOfRows": 3,
+          "MaxNumberOfRowsSmallScreen": 1,
+          "StructuredData": null,
+          "EnableFlushedBottom": false,
+          "SelectedItemID": null,
+          "ArticleReaderViewDefinitions": []
+        },
+        "ViewDefinition": {
+          "ViewType": "NewsStream",
+          "View": "NewsStream",
+          "Template": "NewsStreamTemplate",
+          "Name": "NewsStream",
+          "Id": "NewsStream",
+          "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataUri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "DataSource": {
+            "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+            "Data": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json"
+          },
+          "FeedURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "StreamURI": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Uri": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "Url": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/stream.json",
+          "HeaderText": "Top Stories",
+          "ViewDefinitions": [],
+          "HeroNavigationLinksViewDefinitions": [],
+          "HeroNavigationLinksInOneColumnViewDefinitions": [],
+          "HeaderViewDefinition": null,
+          "CustomViewDefinition": null,
+          "SelectedViewDefinition": null,
+          "ItemViewDefinition": null,
+          "MaxNumberOfRows": 3,
+          "MaxNumberOfRowsSmallScreen": 1,
+          "StructuredData": null,
+          "EnableFlushedBottom": false,
+          "SelectedItemID": null,
+          "ArticleReaderViewDefinitions": []
+        },
+        "Interests": [
+          {
+            "InterestId": "topstories",
+            "DisplayName": "Top Stories",
+            "InterestType": "News",
+            "IsFeatured": true,
+            "CategoryId": "topstories",
+            "CategoryName": "Top Stories",
+            "Providers": [
+              {
+                "ProviderId": "AAPEDK",
+                "ProviderName": "MSN",
+                "DisplayName": "MSN"
+              }
+            ]
+          }
+        ],
+        "Providers": [
+          {
+            "ProviderId": "AAPEDK",
+            "ProviderName": "MSN",
+            "DisplayName": "MSN"
+          }
+        ]
+      }
+    ]
+  }
+}
