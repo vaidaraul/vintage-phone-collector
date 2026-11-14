@@ -1,0 +1,29 @@
+{
+  "streamBody": {
+    "streamEntities": [
+      {
+        "cluster": {},
+        "clusterItemId": {},
+        "clusterType": {},
+        "entityType": {},
+        "entitySize": {},
+        "templateClass": {},
+        "sectionName": {},
+        "isHeroEnabled": {},
+        "isHeroContent": {},
+        "isCategoryKickerEnabled": {},
+        "isBingAttributionEnabled": {},
+        "isLiveCoverage": {},
+        "entityList": {}
+      }
+    ],
+    "streamNext": {},
+    "streamNextList": {},
+    "streamLinks": {},
+    "streamDetails": {}
+  },
+  "mainStreamLinks": {},
+  "topicStreams": {},
+  "streamLinks": {},
+  "streamDetails": {}
+}
