@@ -115,6 +115,13 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 - **Abduction! World Attack** — no Windows Phone package found in Archive.org,
   WindowsViet, vnokia or Appx4Fun.
 - **Bonsai Blast** — no Windows Phone package found.
+- **Cut the Rope 2** — the Store XAP is PlayReady-encrypted; the only unencrypted
+  copies found (WindowsViet, Archive.org, eipapa) are a patched build with stale ZIP
+  CRCs. Rebuilding the CRCs and restoring the DLL certificate table installs, but the
+  game exits after about 4 seconds. The retail/test WP8.1 APPX installs but fails to
+  start with `0x803F8001` (no Store entitlement); the Microsoft Store is retired. The
+  clean 4PDA attachment requires a 4PDA login and was not retrievable. Removed from the
+  phone.
 - **Glow Hockey** — no Windows Phone package found.
 - **Glow Hockey 2** — no Windows Phone package found.
 - **Logo Quiz Ultimate** — no Windows Phone package found.
@@ -134,6 +141,9 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
   `Microsoft.VCLibs.110.00` dependency.
 - **Talking Tom 3.1.0.0 APPX** installs, but Device Portal start returns `Unavailable`.
   The **My Talking Tom 1.2.0.0 XAP** launches and is the working Talking Tom build.
+- **Cut the Rope 2 1.0.0.46 APPX** installs but start returns `Unavailable`
+  (`0x803F8001`, no Store entitlement). The Store is retired, so the license cannot be
+  obtained. The retail and test bundles behave the same.
 
 ## Patches, repacks and naming notes
 
@@ -168,6 +178,8 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 | `apk/Bejeweled Live+ 1.0.0.0 [Archive.org].xap` | `5A19EE07D8321BA4EAD972926AAD8D3E066F3A44D19C6555FF049DF022690D80` |
 | `apk/Bad Piggies v1.6.1.0 [Archive.org].xap` | `BD0D1B52609C766D0F080D25F3E204E623055DF7276D9D4581C46A567A8DA814` |
 | `apk/Amazing Alex v1.0.7.0 [Archive.org].xap` | `7F291A0B7E7B910501A8C10C396B20B658C3FD44A8212E6D559E97CE549BB018` |
+| `apk/Cut the Rope 2 v1.0.0.22 [Archive.org].xap` | `34109E51B7BE522A012DA5804EDE1173023E1EACFA93B1AD2A2B5D940861A574` |
+| `apk/Cut the Rope 2 v1.0.0.22 [rebuilt original dll].xap` | `46AAA00D0C6366932D4B40E21394423286088384760627757781175DCE3782DC` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | `E5FEAA5B7942C2DD6A9235A88ABB86D7E0880C76DBAD09C049EEC9F809EB4134` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | `4736EFA73922BC94496CC960EDA35CE1A2AD5FCD6EB93B81896682E91C48E39B` |
 | `apk/Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | `F750A93F95CA2A34E8FB11A19400E46FBC236CBDDF2210837BE73A71C7F794D7` |
@@ -230,6 +242,10 @@ Git.
 - Minecraft 1.5.201.0 was installed and removed after it failed to start with
   `Unavailable` (`-2143322111`); the WP8.1 0.14.0.1 APPX was rejected during registration.
   Talking Tom has the same start error; My Talking Tom is the working XAP alternative.
+- Cut the Rope 2 could not be made playable. The unencrypted archive copies are a
+  patched build with stale ZIP CRCs; after repair it installs but exits after about
+  4 seconds. The WP8.1 APPX installs but fails with `0x803F8001` (no Store entitlement),
+  and the Store is retired. The clean 4PDA XAP requires a 4PDA login.
 - The Zuma and Where's My Water packages are patched/repacked builds. They are not
   byte-identical to the original publisher packages and should be treated as provisional.
 - The phone's sleep timeout was temporarily set to `Never` for the pass and restored to
