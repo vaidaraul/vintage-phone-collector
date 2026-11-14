@@ -1,7 +1,8 @@
 {
   "Results": [
     {
-      "$type": "Microsoft.AppEx.Sports.Schemas.Sdi.AppAllSportsInfoSchema, Microsoft.Msn.Sports",
+      "Type": "AppAllSportsInfo",
+      "SchemaType": "AppAllSportsInfo",
       "SportsInfo": [
         {
           "SportName": "football",
@@ -35,5 +36,38 @@
       "CustomKeyValueConfig": {}
     }
   ],
+  "Schema": {
+    "SportsInfo": [
+      {
+        "SportName": "football",
+        "SportDisplayName": "Football"
+      }
+    ],
+    "LeaguesInfo": [
+      {
+        "LeagueName": "premier-league",
+        "LeagueDisplayName": "Premier League",
+        "LeagueGroupName": "Football",
+        "MarketWeight": 100,
+        "NavLinks": [],
+        "IsNewLeague": false,
+        "IsDefaultLeague": true,
+        "PotentialPrimary": true,
+        "IsNewsEnabled": true
+      }
+    ],
+    "GroupsOfLeagues": [
+      {
+        "LeagueGroupName": "Football",
+        "Leagues": [
+          "premier-league"
+        ]
+      }
+    ],
+    "DefaultLeagues": [
+      "premier-league"
+    ],
+    "CustomKeyValueConfig": {}
+  },
   "TimeStamp": "2026-11-15T00:00:00Z"
 }
