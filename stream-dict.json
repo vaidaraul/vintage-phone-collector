@@ -1,0 +1,89 @@
+{
+  "_type": "streamCollection",
+  "_id": "lumia-streams",
+  "_name": "today",
+  "summary": "Top Stories",
+  "Streams": {
+    "today": {
+      "StreamBody": {
+        "StreamEntities": [
+          {
+            "Cluster": "News",
+            "ClusterType": "News",
+            "ClusterItemId": "topstories",
+            "EntityType": "cluster",
+            "EntitySize": "medium",
+            "TemplateClass": "EntityClusterGenericPageTemplate",
+            "SectionName": "Top Stories",
+            "IsHeroEnabled": false,
+            "IsHeroContent": false,
+            "EntityList": [
+              {
+                "Id": "TEST0001",
+                "ContentId": "TEST0001",
+                "EntityType": "article",
+                "EntitySize": "medium",
+                "TemplateClass": "NewsClusterLargeItemTemplate",
+                "Title": "Synthetic headline 1",
+                "Abstract": "Synthetic abstract 1. This is a schema test, not a real article.",
+                "Image": {
+                  "Url": "https://th.bing.com/th?id=ORMS.ea20100fe6cf8e520f3eba90ca2a7aaf&pid=Wdp",
+                  "Href": "https://th.bing.com/th?id=ORMS.ea20100fe6cf8e520f3eba90ca2a7aaf&pid=Wdp"
+                },
+                "ImageUrl": "https://th.bing.com/th?id=ORMS.ea20100fe6cf8e520f3eba90ca2a7aaf&pid=Wdp",
+                "Provider": { "Name": "Test Provider", "Href": "" },
+                "ProviderName": "Test Provider",
+                "ArticleUrl": "https://example.com/test-1",
+                "Url": "https://example.com/test-1",
+                "PublishedDateTime": "2026-11-13T22:37:37Z",
+                "DisplayPublishedDateTime": "2026-11-13T22:37:37Z",
+                "UpdatedDateTime": "2026-11-13T22:37:37Z",
+                "SectionName": "Top Stories",
+                "IsHeroContent": false,
+                "IsBreakingNews": false,
+                "IsCategoryKickerEnabled": false,
+                "IsBingAttributionEnabled": false,
+                "IsLiveCoverage": false
+              }
+            ]
+          }
+        ],
+        "StreamElements": [],
+        "StreamNextList": [],
+        "StreamLinks": [],
+        "StreamDetails": {}
+      }
+    },
+    "topStories": {
+      "StreamBody": {
+        "StreamEntities": [
+          {
+            "Cluster": "News",
+            "ClusterType": "News",
+            "ClusterItemId": "topstories",
+            "EntityType": "cluster",
+            "EntitySize": "medium",
+            "TemplateClass": "EntityClusterGenericPageTemplate",
+            "SectionName": "Top Stories",
+            "EntityList": [
+              {
+                "Id": "TEST0001",
+                "EntityType": "article",
+                "EntitySize": "medium",
+                "TemplateClass": "NewsClusterLargeItemTemplate",
+                "Title": "Synthetic headline 1",
+                "Abstract": "Synthetic abstract 1.",
+                "Provider": { "Name": "Test Provider" },
+                "ArticleUrl": "https://example.com/test-1",
+                "SectionName": "Top Stories"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "MainStreamLinks": [],
+  "StreamLinks": [],
+  "StreamDetails": {}
+}
