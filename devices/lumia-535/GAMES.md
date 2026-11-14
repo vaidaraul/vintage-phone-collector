@@ -132,6 +132,12 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 - **Robo Defense FREE** — no Windows Phone package found.
 - **Skater Boy** — no Windows Phone package found.
 
+## Other requested titles not working
+
+- **Angry Birds Go! 1.8.7.0** — installs and launches, but hangs on “Installing update”
+  with Wi-Fi and shows “No internet” offline; the Rovio update service is no longer
+  available. Removed from the phone. The XAP is preserved locally for reference.
+
 ## APPX notes
 
 - **Minecraft 1.5.201.0** installed through Device Portal but started with `Unavailable`
@@ -181,6 +187,7 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 | `apk/Amazing Alex v1.0.7.0 [Archive.org].xap` | `7F291A0B7E7B910501A8C10C396B20B658C3FD44A8212E6D559E97CE549BB018` |
 | `apk/Cut the Rope 2 v1.0.0.22 [Archive.org].xap` | `34109E51B7BE522A012DA5804EDE1173023E1EACFA93B1AD2A2B5D940861A574` |
 | `apk/Cut the Rope 2 v1.0.0.22 [rebuilt original dll].xap` | `46AAA00D0C6366932D4B40E21394423286088384760627757781175DCE3782DC` |
+| `apk/Angry Birds Go v1.8.7.0 [Archive.org].xap` | `94EAC82414D29BC33FBCC899EF629AF4D1761DCCCE0D0F9D68E66B16FDE9291C` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia].xap` | `E5FEAA5B7942C2DD6A9235A88ABB86D7E0880C76DBAD09C049EEC9F809EB4134` |
 | `apk/Angry Birds Seasons v4.0.1.0 [Wayback vnokia, title-patched].xap` | `4736EFA73922BC94496CC960EDA35CE1A2AD5FCD6EB93B81896682E91C48E39B` |
 | `apk/Bubble Blast 2 v1.4.0.0 [Wayback vnokia].xap` | `F750A93F95CA2A34E8FB11A19400E46FBC236CBDDF2210837BE73A71C7F794D7` |
@@ -248,6 +255,9 @@ Git.
   4 seconds. The WP8.1 APPX installs but fails with `0x803F8001` (no Store entitlement),
   and the Store is retired. The clean 4PDA attachment no longer downloads, so the WP8
   XAP is currently unavailable.
+- Angry Birds Go! 1.8.7.0 installs and launches, but cannot get past “Installing update”
+  online and shows “No internet” offline; the Rovio update service is unavailable.
+  Removed from the phone.
 - The Zuma and Where's My Water packages are patched/repacked builds. They are not
   byte-identical to the original publisher packages and should be treated as provisional.
 - The phone's sleep timeout was temporarily set to `Never` for the pass and restored to

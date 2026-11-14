@@ -34,6 +34,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | Angry Birds Classic | `5.0.2.0` | **Removed** | Modern trial build showed the BUY THE FULL GAME prompt; uninstalled to remove the duplicate and purchase nag. |
 | Angry Birds Classic | `1.5.3.0` | **Functional** | Remaining full XNA build; launches and is playable. Archive contains an `AppCracked` marker, so original distribution has not been independently verified. |
 | Angry Birds Seasons | `4.0.1.0` | **Launch-confirmed** | Installed from an archived vnokia copy with the title patched to “Angry Birds Seasons”; menu and gameplay were not captured. |
+| Angry Birds Go! | `1.8.7.0` | **Removed** | Installs and launches, but hangs on “Installing update” online and shows “No internet” offline; Rovio update service unavailable. |
 | Asphalt 5 | `1.33.0.0` | **Functional** | Installed and runs. |
 | Bad Piggies | `1.6.1.0` | **Launch-confirmed** | Official Rovio Silverlight XAP; installed and running. |
 | Amazing Alex | `1.0.7.0` | **Launch-confirmed** | Official Rovio Silverlight XAP; installed and running. |
@@ -177,6 +178,7 @@ The statuses below are based on behavior observed on the phone, not package meta
 | --- | --- | --- |
 | Angry Birds `5.0.2.0` | WindowsViet (`file.windowsviet.com`) | Archived XAP package; purchase prompt observed during testing. |
 | Angry Birds `1.5.3.0` | Winphone Iz | XAP package; contains an `AppCracked` marker and may be modified. |
+| Angry Birds Go! `1.8.7.0` | Archive.org (`angry-birds-go-windows-phone`) | Official Rovio native XAP; SHA-1/SHA-256 verified; installed but not playable because the update service is dead. Removed. |
 | Asphalt 5 `1.33.0.0` | WindowsViet (`file.windowsviet.com`) | XAP package; tested and runs. |
 | Bad Piggies `1.6.1.0` | Archive.org (`bad-piggies-windows-phone`) | Official Rovio Silverlight XAP; SHA-1 verified; installed and launch-confirmed. |
 | Amazing Alex `1.0.7.0` | Archive.org (`amazing-alex-windows-phone`) | Official Rovio Silverlight XAP; SHA-1 verified; installed and launch-confirmed. |
@@ -354,6 +356,8 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
   longer downloads, the unencrypted copies found are a broken patched build, the Store
   XAP is PlayReady-encrypted, and the retail APPX cannot run without a Store
   entitlement. Treat the WP8 build as lost media unless a private copy surfaces.
+- Angry Birds Go! 1.8.7.0: not playable. The Rovio update service is gone; the XAP is
+  preserved locally but removed from the phone.
 - Bad Piggies and Amazing Alex are installed and launch-confirmed; capture a
   menu/gameplay frame and exercise one level in each.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.
