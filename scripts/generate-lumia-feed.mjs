@@ -86,7 +86,7 @@ for (const item of results) {
         DisplayName: providerName
       },
       Images: image?.href
-        ? [{ Url: image.href, Width: image.width || 0, Height: image.height || 0, Quality: image.quality || 0 }]
+        ? [{ Url: `${image.href}?w=1200&h=675&q=80`, Width: 1200, Height: 675, Quality: 80 }]
         : [],
       Categories: [],
       TagEvaluationGroups: []
