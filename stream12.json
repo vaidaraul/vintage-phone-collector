@@ -1,0 +1,17 @@
+{
+  "$type": "compositeStream",
+  "_id": "lumiacs",
+  "_name": "Lumia News",
+  "_links": {
+    "sources": [
+      {
+        "$type": "cmscollectionsource",
+        "href": "https://raw.githubusercontent.com/vaidaraul/vintage-phone-collector/lumia-news-feed-test3/list-real.json",
+        "sourceName": "Top Stories",
+        "categoryKey": "topStories",
+        "top": 50,
+        "safeToRemove": true
+      }
+    ]
+  }
+}
