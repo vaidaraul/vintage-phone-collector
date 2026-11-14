@@ -476,12 +476,13 @@ can reach the Pivot, but the stream body still renders empty.
 - Installed DLL: original unpatched `Microsoft.Msn.News.dll` (restored after a
   patched build temporarily failed to start during an OS update).
 - Installed config: a test config pointing at public `lumia-news-feed-test3`
-  fixtures; the original config is preserved on the PC.
-- Installed `Error.xbf`: the diagnostic version with the visible
-  `ViewModel.ErrorDetailText` TextBlock. The original 1,820-byte file is in
-  `D:\Pictures\Camera Roll\Error.xbf`.
-- Sleep timeout: restored to 180 seconds. Display timeout: still 10 seconds at the
-  last check; the phone went offline during the restore.
+  fixtures (compositeStream + relative source). The original config is preserved
+  on the PC; the Device Portal upload failed before it could be restored.
+- Installed `Error.xbf`: the original 1,820-byte file was restored. The diagnostic
+  build is preserved in `D:\Pictures\Camera Roll\Error.top.xbf`.
+- Sleep timeout and display timeout: both restored to 180 seconds.
+- Large patched DLL test copies were removed from the phone. Test configs,
+  screenshots, and scripts remain in `Documents` / `Camera Roll`.
 - The phone was intermittently offline/rebooting (Windows Update components ran);
   the Device Portal file upload often returns 500 "Access is denied" but the file
   still lands in `Documents`. The portal's upload to `CameraRoll` is less reliable.
