@@ -454,6 +454,22 @@ can reach the Pivot, but the stream body still renders empty.
   (the public web feed also requires a public API-key query parameter, omitted here)
   → `value[0].subCards[]` with id, type, title, abstract, url, images, provider,
   publishedDateTime. This can be the content source for a generated feed.
+- A real `compositeStream` document (`BBAXrsz`) fed to the app's stream endpoint
+  created Pivot tabs from `_links.sources[].sourceName` (Infopane, España). This
+  confirms the `StreamCollection` envelope: a compositeStream object with
+  `_links.sources[]`, where each source has `$type`, `href`, `sourceName`,
+  `categoryKey`, `top`, and `safeToRemove`.
+- The source resolver then fails on TLS:
+  `Microsoft.Msn.Services.Platform.HttpException` →
+  `System.Net.Http.HttpRequestException` (`net_http_client_execution_error`) →
+  "The date in the certificate is invalid or has expired". This happens for
+  `raw.githubusercontent.com`, `cdn.jsdelivr.net`, and
+  `cdn.query.prod.cms.msn.com` when fetched through `_links.sources[].href`.
+  The app's normal WinINet stream fetch trusts raw GitHub, but the platform
+  source resolver does not. Absolute and relative source hrefs both fail.
+- Live CMS `list` documents (for example `cms/api/amp/list/AA53VaF`) contain
+  `reference` items pointing at `cms/api/amp/article/{id}`. They are the right
+  shape for a source, but the same certificate error blocks the resolver.
 
 ### Current phone state
 
@@ -474,13 +490,15 @@ can reach the Pivot, but the stream body still renders empty.
 
 1. When the phone is back online, restore the display timeout to 180 and either
    restore the original `Error.xbf`/config or continue with the diagnostic build.
-2. Recover the `StreamCollection` envelope. The strongest remaining candidates are
-   a PascalCase `StreamBody`/`StreamEntities` object and a `Streams` dictionary keyed
-   by stream name (`today`, `topStories`). The app metadata names are `StreamBody`,
-   `StreamEntities`, `StreamElements`, `EntityList`, `TemplateClass`, `StreamNext`,
-   `StreamNextList`, `StreamLinks`, `StreamDetails`, `MainStreamLinks`,
-   `TopicStreams`, and `TopicStreamsByTerm`.
+2. The `StreamCollection` envelope is now confirmed: a compositeStream object
+   with `_links.sources[]`. The remaining blocker is the platform source
+   resolver's certificate validation. Options:
+   - patch the resolver's certificate callback (native code patch), or
+   - host the list on a host whose certificate the resolver trusts (the original
+     MSN content host is dead), or
+   - avoid the source resolver and serve a fully resolved stream through the
+     normal stream endpoint (id 108), whose WinINet client trusts raw GitHub.
 3. Generate real content from the live `assets.msn.com` feed and wrap it in the
-   recovered stream envelope. Keep the production path public HTTPS only.
+   confirmed compositeStream envelope. Keep the production path public HTTPS only.
 4. Clean up the phone: restore the original `Error.xbf`, restore the original
    config, remove test fixtures, and restore the display timeout.
