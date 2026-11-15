@@ -1,6 +1,6 @@
 # Nokia Lumia 535 RM-1089 — Windows Phone restoration
 
-**Status:** Windows 10 Mobile running; 15 of 24 HTC-list game titles installed, 14 launch-confirmed  
+**Status:** Windows 10 Mobile running; 15 of 24 HTC-list game titles installed, 14 launch-confirmed; Crossy Road installed to SD from Live Store  
 **Last updated:** November 15, 2026
 
 Part of the [Vintage Phone Collector](../../README.md) project. This log documents a **Nokia Lumia 535 RM-1089**, upgraded from Windows Phone 8.1 to Windows 10 Mobile and used to test classic Windows Phone and Windows 10 Mobile software on original hardware.
@@ -21,11 +21,12 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | USB XAP deployment | Working with Microsoft Windows Phone SDK 8.0 |
 | Classic XAP games | 15 of 24 HTC-list titles installed; 14 launch-confirmed |
 | Minecraft APPX | Removed; `1.5.201.0` installed but start returned `Unavailable` (`-2143322111`); no working build found |
-| Internal storage | About 0.9 GB free (2026-11-14); user data moved to SD |
-| SD card | About 7.05 GB free; Downloads, Pictures and Documents moved here |
-| XAP/APPX move to SD | Not supported on this build (`0x80073D0B` / `0x80070490`) |
+| Internal storage | About 0.86 GB free (2026-11-15); user data and APPX payloads go to SD |
+| SD card | About 7.38 GB free (FAT32); Downloads, Pictures, Documents and APPX payloads (`D:\WPSystem\Apps\WindowsApps`) |
+| XAP move to SD | Not supported on this build (`0x80073D0B`); XAP games stay internal |
+| APPX install to SD | Working via Live Store; Crossy Road `1.3.4.0` confirmed after reboot |
 | Web browser | UC Browser 3.4.0.374 installed; loads pages (user-confirmed) |
-| Live Store | 1.2.0.0; installs and launches apps (CMD Injector injected) |
+| Live Store | 1.2.0.0; installs and launches apps to SD (CMD Injector injected) |
 | Voice assistant | reCortana 2.0.0.1 installed; answers (user-confirmed) |
 | Search key | Remapped to reCortana (`WEHButton4`) |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
@@ -47,6 +48,7 @@ These statuses describe observed behavior on this particular phone. They are not
 | Amazing Alex | `1.0.7.0` | **Launch-confirmed** | Official Rovio Silverlight XAP; installed and running. |
 | Bubble Blast 2 | `1.4.0.0` | **Launch-confirmed** | Installed from an archived vnokia copy; menu and gameplay were not captured. |
 | Candy Crush Saga | `1.0.0.1` | **Functional (user-reported)** | Original pre-microtransaction XAP per the user; package authenticity not independently verified. |
+| Crossy Road | `1.3.4.0` APPX | **Launch-confirmed (user-confirmed after reboot)** | UWP game installed from Live Store to `D:\WPSystem\Apps\WindowsApps`; the internal package folder is a junction to SD. Not part of the HTC list. |
 | Cut the Rope | `1.7.0.0` | **Functional (user-confirmed)** | User confirms it is fully working. |
 | Cut the Rope 2 | `1.0.0.22` | **Removed** | Repaired patched XAP installs but exits after about 4 seconds; retail/test WP8.1 APPX installs but start returns `0x803F8001` (no Store entitlement). Clean 4PDA attachment no longer downloads; treated as lost media. |
 | Doodle Jump | `1.8.10.0` | **Launch-confirmed** | Installed from Archive.org; menu and gameplay were not captured. |
@@ -91,7 +93,7 @@ The built-in browser experience is limited on modern sites. Opera Mini 9.1 is a 
 
 ### Cortana revival
 
-The original Cortana backend is retired. **reCortana 2.0.0.1** is a WP8.1 WinRT assistant from Live Store (App ID 812) that uses an AI service and a One Live ID. It installs, signs in and answers questions on the phone (user-confirmed). Live Store downloaded the APPX but did not install it; the package was deployed manually with `MinDeployAppX.exe /Add ... /DeploymentOption:32768`. The first install went to the SD card and crashed after reboot because its data junctions pointed at the stale SD package volume. Reinstalling to internal storage with `/AddToVolume /Volume:C:\` fixed it. See [ASSISTANT.md](ASSISTANT.md) for the full revival notes and future options.
+The original Cortana backend is retired. **reCortana 2.0.0.1** is a WP8.1 WinRT assistant from Live Store (App ID 812) that uses an AI service and a One Live ID. It installs, signs in and answers questions on the phone (user-confirmed). Live Store downloaded the APPX but did not install it; the package was deployed manually with `MinDeployAppX.exe /Add ... /DeploymentOption:32768`. The first install went to the SD card and crashed after reboot because its data junctions pointed at the stale SD package volume. Reinstalling to internal storage with `/AddToVolume /Volume:C:\` fixed it. The SD volume was later repaired (see [Storage and SD card](#storage-and-sd-card)), but reCortana remains on internal storage. See [ASSISTANT.md](ASSISTANT.md) for the full revival notes and future options.
 
 ### Search button remap
 
@@ -120,11 +122,24 @@ The Microsoft Store's pending updates are not a reliable indicator on this devic
 
 Live Store catalog versions match the installed apps: reCortana `2.0.0.1`, CMD Injector `4.0.6.0`, WUT Mini `1.5.1.0`, Live Store `1.2.0.0`, UC Browser `3.4.0.374`. No installed ARM32 app has a newer compatible version.
 
-The Store's failures are expected. Live Store deployment was failing because the default package volume was the stale SD card (`DefaultVolumeKey=2`). It is now set to `1` (C:), and a small Live Store app installs and launches (user-confirmed). Keep APPX installs on `C:\`; the SD package volume is not reliable.
+The Store's failures are expected. Live Store deployment initially failed because the default package volume was the stale SD card (`DefaultVolumeKey=2`). It was temporarily set to `C:` to restore installs; after the card was reformatted and the volume record re-registered on 2026-11-15, the default is the SD volume again (`DefaultVolumeKey=4`). Live Store now installs to `D:` and apps launch after reboot. The Microsoft Store's own update failures are unrelated.
 
 ### Live Store and CMD Injector
 
-CMD Injector is fully injected system-wide: `Bootsh` Start=`2`, `UMCIAuditMode`=`1`, and `MinDeployAppX.exe`, `telnetd.exe`, `CMDInjectorSetup.bat`, `startup.bsc`, `bootshsvc.dll` and `PowerTool.exe` are present in `System32`. Live Store can deploy apps through this injection. The remaining failure was the default package volume; setting it to `C:` fixed installs. Do not set it back to `2` unless the SD package volume is repaired.
+CMD Injector is fully injected system-wide: `Bootsh` Start=`2`, `UMCIAuditMode`=`1`, and `MinDeployAppX.exe`, `telnetd.exe`, `CMDInjectorSetup.bat`, `startup.bsc`, `bootshsvc.dll` and `PowerTool.exe` are present in `System32`. Live Store deploys through this injection.
+
+The package volume was the remaining problem. On 2026-11-15 the SD card was formatted in Settings and the stale volume record was replaced with the Appx PowerShell cmdlets:
+
+```powershell
+$d = Get-AppxVolume | Where-Object { -not $_.IsSystemVolume } | Select-Object -First 1
+Remove-AppxVolume -Volume $d
+Add-AppxVolume -Path 'D:\WPSystem\Apps\WindowsApps'
+Set-AppxDefaultVolume -Volume $d
+```
+
+Pass the actual volume object; passing `D:\` as a string to `Set-AppxDefaultVolume`, `Remove-AppxVolume` or `Mount-AppxVolume` returned `0x80070490`. Reboot after re-registering. The registry then points `DefaultVolumeKey` at the new SD volume key (`4`), and Live Store installs to `D:`. Crossy Road `1.3.4.0` installed to SD and launched before and after a reboot (user-confirmed).
+
+`MinDeployAppX.exe /FindPackageVolume /Volume:D:\` still returns `0x80070490`, so the legacy tool cannot target the SD volume. Live Store works because it uses the modern Appx deployment API. For manual APPX installs, use `/AddToVolume /Volume:C:\` for internal storage or `Add-AppxPackage` as the signed-in user. XAP packages still cannot be moved to SD.
 
 See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes. Additional untested packages in the local archive are catalogued in [archive.md](archive.md).
 
@@ -157,15 +172,34 @@ Moved to SD:
 | Pictures (9 files: Camera Roll, Saved Pictures, Screenshots, Sample Pictures) | `25,903,341` bytes (~24.7 MiB) | `D:\Pictures` |
 | Documents (86 files, including diagnostic captures and Sound recordings) | `30,821,639` bytes (~29.4 MiB) | `D:\Documents` |
 
-Music and Videos were empty, and temporary files were negligible. Final reported free space is about **0.9 GB internal** and **7.05 GB on SD**. The internal figure fluctuates with the system cache, so it did not rise by the full moved size.
+Music and Videos were empty, and temporary files were negligible. At the time, reported free space was about **0.9 GB internal** and **7.05 GB on SD**. The internal figure fluctuates with the system cache, so it did not rise by the full moved size.
 
 The transfer used the SYSTEM shell exposed by CMD Injector (`telnetd.exe` on TCP 9999): `xcopy /E /I /Y /Q` to the SD card, file-count/size verification, then `del` / `rd` on the internal copies. A reboot cleared the transient cache.
 
-**What cannot be moved:** Windows 10 Mobile 14393 does not move sideloaded XAP or APPX packages to SD on this device. `MinDeployAppX.exe /MoveToVolume` returns `0x80070490` ("Finding the associated package volume failed"); the SD package-volume record is present but stale/offline (`Flags=0`), and `AddPackageVolume` / `RemovePackageVolume` do not repair it. The XAP move path is also reported to fail with `0x80073D0B`. Store apps installed to SD earlier (Bing News) remain there, but new sideloaded games stay on internal storage. App data (~178 MB) is managed by the apps; some apps (Maps, Groove, WhatsApp) have their own SD settings.
+### SD app storage (2026-11-15)
+
+The card was formatted from **Settings > System > Storage > SD card > Format**. The tool archives were copied to `C:\Data\Users\Public\Downloads` first. The format created a fresh FAT32 volume (serial `3875-7F1C`, 32 KB clusters) with the standard `Music`, `Pictures`, `Videos`, `Downloads` and `WindowsApps` folders.
+
+The package volume did not become usable automatically. `Get-AppxVolume` listed it as online, but `MinDeployAppX.exe /FindPackageVolume` returned `0x80070490` and the registry record stayed `Flags=0`. Re-registering the volume through the Appx cmdlets fixed it:
+
+```powershell
+$d = Get-AppxVolume | Where-Object { -not $_.IsSystemVolume } | Select-Object -First 1
+Remove-AppxVolume -Volume $d
+Add-AppxVolume -Path 'D:\WPSystem\Apps\WindowsApps'
+Set-AppxDefaultVolume -Volume $d
+```
+
+A reboot is required. The registry then points `DefaultVolumeKey` at the new SD volume key (`4`), and Live Store installs to `D:`. The internal package folder is a junction:
+
+`C:\Data\PROGRAMS\WINDOWSAPPS\Yodo1Ltd.CrossyRoad_1.3.4.0_arm__s3s3f300emkze` → `D:\WPSystem\Apps\WindowsApps\Yodo1Ltd.CrossyRoad_1.3.4.0_arm__s3s3f300emkze`
+
+Crossy Road `1.3.4.0` (245 files, `112,947,069` bytes on `D:`) installed from Live Store and launched before and after a reboot (user-confirmed). Free space after the test is about **0.86 GB internal** and **7.38 GB on SD**.
+
+**Limits:** `MinDeployAppX.exe /FindPackageVolume /Volume:D:\` still fails with `0x80070490`; the legacy tool cannot target the SD volume. Live Store works because it uses the modern Appx deployment API. Manual APPX installs should use `/AddToVolume /Volume:C:\` or `Add-AppxPackage` as the signed-in user. XAP packages still cannot be installed to or moved to SD (`0x80073D0B`), so XAP games remain internal-only.
 
 New photos, downloads and documents still save to internal storage by default. To send new files to the card, set the save locations in **Settings > System > Storage**.
 
-**Asphalt 7: Heat** was requested but is **not installed**. The XAP is `536,253,160` bytes (511 MiB) and expands to about 753 MB; the deployment peak is about 1.3 GB, while internal free space is about 0.9 GB. Because XAPs cannot be moved to SD, installing it would require removing archived games (for example Zuma's Revenge and Asphalt 5). The suite was left unchanged.
+**Asphalt 7: Heat** was requested but is **not installed**. The XAP is `536,253,160` bytes (511 MiB) and expands to about 753 MB; the deployment peak is about 1.3 GB, while internal free space is about 0.86 GB. The SD card has room, but XAPs cannot be moved to SD, so installing it would require removing archived games (for example Zuma's Revenge and Asphalt 5). The suite was left unchanged.
 
 ## Getting started
 
@@ -431,19 +465,22 @@ This restoration does not involve bootloader unlocking, rooting, custom ROM inst
 - Angry Birds Go! 1.8.7.0: not playable. The Rovio update service is gone; the XAP is
   preserved locally but removed from the phone.
 - Asphalt 7: Heat is not installed. The official WP8 XAP needs about 1.3 GB at peak;
-  internal free space is about 0.9 GB, and XAPs cannot be moved to SD on this build.
+  internal free space is about 0.86 GB, and XAPs cannot be moved to SD on this build.
   Installing it would require removing archived games. See
   [Storage and SD card](#storage-and-sd-card).
-- Storage: Downloads, Pictures and Documents were moved to SD on 2026-11-14; new files
-  still default to internal storage until the save locations are changed in
-  Settings > System > Storage.
+- Storage: Downloads, Pictures and Documents were moved to SD on 2026-11-14; Live Store
+  APPX payloads now install to SD as well. New files still default to internal storage
+  until the save locations are changed in Settings > System > Storage.
 - UC Browser 3.4.0.374 loads pages (user-confirmed); capture a page frame and test a
   few modern HTTPS sites.
 - reCortana 2.0.0.1 answers (user-confirmed); capture an answer frame, verify the One
   Live ID session persists across reboots, and test more queries. The Search key now
   opens reCortana; UC Browser remains available from the app list.
-- The SD package volume is still stale/offline; install APPX packages to `C:\` with
-  `MinDeployAppX.exe /AddToVolume /Volume:C:\` instead of relying on the default volume.
+- Crossy Road 1.3.4.0 is installed from Live Store to SD and launch-confirmed after a
+  reboot; capture a frame and exercise gameplay.
+- Live Store now installs APPX packages to SD. Keep `DefaultVolumeKey` pointed at the SD
+  volume key (`4`) and use Live Store for SD installs; the legacy `MinDeployAppX` SD path
+  still fails with `0x80070490`.
 - Bad Piggies and Amazing Alex are installed and launch-confirmed; capture a
   menu/gameplay frame and exercise one level in each.
 - Recover the exact Windows 10 Mobile upgrade sequence and OUP details.

@@ -28,7 +28,7 @@ Live Store downloaded the package to `D:\Downloads\reCortana.appx` (`4,001,958` 
 MinDeployAppX.exe /Add /PackagePath:"D:\Downloads\reCortana.appx" /DeploymentOption:32768
 ```
 
-That installs to the default package volume. On this phone the default is the SD card, and the SD package volume is stale/offline. The app launched once, then crashed after reboot because its data folders were junctions to `D:\WPSystem\AppData\...`.
+That installs to the default package volume. At the time, the default was the SD card, but its package-volume record was stale/offline. The app launched once, then crashed after reboot because its data folders were junctions to `D:\WPSystem\AppData\...`. The SD volume was later repaired on 2026-11-15 (see the README's [Storage and SD card](README.md#storage-and-sd-card) section); reCortana remains on internal storage.
 
 The working install targets internal storage:
 
@@ -72,5 +72,5 @@ To revert, set both `AppID` values to empty and delete `HKLM\SYSTEM\Features\But
 
 - 1 GB RAM; a thin client is fine, local speech/LLM inference is not.
 - No background wake word for sideloaded apps; push-to-talk via the Search key is the practical UX.
-- APPX packages install but may need manual deployment; target `C:\` with `MinDeployAppX.exe /AddToVolume /Volume:C:\` because the SD package volume is stale.
+- APPX packages install but may need manual deployment. reCortana is kept on `C:\` with `MinDeployAppX.exe /AddToVolume /Volume:C:\`; the SD volume now works for Live Store installs (see the README).
 - The phone's Microsoft Store is retired; Live Store is the working distribution channel for reCortana.

@@ -2,7 +2,7 @@
 
 Phone: **Lumia 535 (RM-1089)**, Windows 10 Mobile **10.0.14393.2551 (1607)**  
 Deployer: `tools/DeviceTool.exe` (CoreCon 11, per-user COM registration, no admin install)  
-Test pass: **2026-11-14**
+Test pass: **2026-11-14**; Live Store SD install added **2026-11-15**
 
 This file follows the evidence standard in the HTC Wildfire testing process:
 [TESTING.md](../../docs/htc-wildfire-a3333/TESTING.md).
@@ -77,6 +77,7 @@ Also installed, not part of the HTC list:
 | NFS: Hot Pursuit | `NFS Hot Pursuit v1.0.0.0 [Winphone Iz].xap` / 1.0.0.0 | XNA | PASS, 1.5 s | Not captured | Launch-only |
 | Bad Piggies | `Bad Piggies v1.6.1.0 [Archive.org].xap` / 1.6.1.0 | Silverlight | PASS | Not captured | Launch-only |
 | Amazing Alex | `Amazing Alex v1.0.7.0 [Archive.org].xap` / 1.0.7.0 | Silverlight | PASS | Not captured | Launch-only |
+| Crossy Road | `Yodo1Ltd.CrossyRoad_1.3.4.0_arm__s3s3f300emkze` / 1.3.4.0 | WinRT (UWP) | PASS (user-confirmed after reboot) | Not captured | Installed to SD; launch-confirmed |
 
 Angry Birds **1.5.3.0** (`e4571a02-0b87-e011-986b-78e7d1fa76f8`) is the remaining full
 XNA build. The 5.0.2.0 trial was removed; Angry Birds Seasons now has its own title.
@@ -156,6 +157,9 @@ Portal-confirmed utilities: **CMD Injector 4.0.6.0**, **Live Store 1.2.0.0**,
 - **Cut the Rope 2 1.0.0.46 APPX** installs but start returns `Unavailable`
   (`0x803F8001`, no Store entitlement). The Store is retired, so the license cannot be
   obtained. The retail and test bundles behave the same.
+- **Crossy Road 1.3.4.0 APPX** installed from Live Store to the SD card and launched
+  before and after a reboot (user-confirmed). The internal package folder is a junction
+  to `D:\WPSystem\Apps\WindowsApps`.
 
 ## Patches, repacks and naming notes
 
@@ -281,15 +285,32 @@ On **2026-11-14** the phone's movable user data was moved to the SD card:
 | Pictures (9 files) | `25,903,341` bytes | `D:\Pictures` |
 | Documents (86 files) | `30,821,639` bytes | `D:\Documents` |
 
-Final reported free space is about **0.9 GB internal** and **7.05 GB on SD**. The internal
-figure fluctuates with the system cache.
+At the time, reported free space was about **0.9 GB internal** and **7.05 GB on SD**. The
+internal figure fluctuates with the system cache.
 
-Sideloaded XAP and APPX packages cannot be moved to SD on this build. The system
-deployment tool returns `0x80070490` (package volume not found) for `/MoveToVolume`; the
-SD package-volume record is stale/offline (`Flags=0`), and `AddPackageVolume` /
-`RemovePackageVolume` do not repair it. The XAP move path is also reported to fail with
-`0x80073D0B`. Store apps installed to SD earlier (Bing News) remain there, but the game
-XAPs stay on internal storage. App data (~178 MB) remains app-managed.
+### SD app storage (2026-11-15)
+
+The card was formatted in Settings and re-registered as a package volume with the Appx
+cmdlets. Live Store now installs APPX packages to `D:\WPSystem\Apps\WindowsApps`.
+Crossy Road `1.3.4.0` (`Yodo1Ltd.CrossyRoad_1.3.4.0_arm__s3s3f300emkze`, 245 files,
+`112,947,069` bytes on `D:`) installed from Live Store and launched before and after a
+reboot (user-confirmed). The internal package folder is a junction to SD.
+
+```powershell
+$d = Get-AppxVolume | Where-Object { -not $_.IsSystemVolume } | Select-Object -First 1
+Remove-AppxVolume -Volume $d
+Add-AppxVolume -Path 'D:\WPSystem\Apps\WindowsApps'
+Set-AppxDefaultVolume -Volume $d
+```
+
+Pass the volume object, not a path string; `D:\` returned `0x80070490`. Reboot afterward.
+The registry then has `DefaultVolumeKey=4`. Free space after the test is about
+**0.86 GB internal** and **7.38 GB on SD**.
+
+XAP packages still cannot be installed to or moved to SD (`0x80073D0B`), so the game XAPs
+stay on internal storage. The legacy `MinDeployAppX.exe /FindPackageVolume /Volume:D:\`
+still fails with `0x80070490`; Live Store uses the modern Appx deployment API and works.
+App data (~178 MB) remains app-managed.
 
 New photos, downloads and documents still save to internal storage by default; set the
 save locations in **Settings > System > Storage** to use the card.
