@@ -106,6 +106,21 @@ The GUID is reCortana's `PhoneProductId`. A reboot is required. The press-and-ho
 
 To revert, set both `AppID` values back to empty and delete `HKLM\SYSTEM\Features\ButtonRemapping`, then reboot.
 
+### Store update audit
+
+The Microsoft Store's pending updates are not a reliable indicator on this device. Its catalog has moved past ARM32/Windows 10 Mobile:
+
+| App | Installed | Latest catalog | Finding |
+| --- | --- | --- | --- |
+| Feedback Hub | `1.1712.1141.0` | `2025.903.1447.0` (ARM64/x64/x86; requires Windows 10 1903) | No ARM32 build in the latest. A compatible `2018.425.657.0` ARM/14393 build exists, but the Store does not select it. |
+| Store Purchase App | `1.0.45.0` | `22609.1401.1.0` (x64/x86/ARM64; requires Windows 10 1903) | No ARM32 build; cannot update. |
+| Xbox Identity Provider | `11.18.16009.0` | `12.130.16001.0` (ARM; requires 16299) | OS too old. A compatible `2017.523.613.1000` ARM/14316 build exists, but the Store does not select it. |
+| Instagram | `10.1096.22713.0` | `42.0.23.0` (Windows.Desktop PWA) | Not a Windows Mobile app; the installed build is the last WP8.1 version. |
+
+Live Store catalog versions match the installed apps: reCortana `2.0.0.1`, CMD Injector `4.0.6.0`, WUT Mini `1.5.1.0`, Live Store `1.2.0.0`, UC Browser `3.4.0.374`. No installed ARM32 app has a newer compatible version.
+
+The Store's failures are expected. The Live Store install path should target `C:\` because the default package volume is the stale SD card; set `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\PackageVolumes\DefaultVolumeKey` to `1` or use `MinDeployAppX.exe /AddToVolume /Volume:C:\`.
+
 See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes. Additional untested packages in the local archive are catalogued in [archive.md](archive.md).
 
 ## The test device
