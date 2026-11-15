@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-15T19:26:33.497Z",
+  "Updated": "2026-11-15T19:28:22.364Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -547,8 +547,8 @@
           "id": "401873058",
           "name": "Kansas City Chiefs at Atlanta Falcons",
           "date": "2026-11-15T18:00Z",
-          "status": "In Progress",
-          "detail": "0:12 - 2nd Quarter",
+          "status": "Halftime",
+          "detail": "Halftime",
           "state": "in",
           "completed": false,
           "home": {
@@ -600,7 +600,7 @@
           "name": "Minnesota Vikings at Green Bay Packers",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "1:51 - 2nd Quarter",
+          "detail": "0:44 - 2nd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -704,7 +704,7 @@
           "name": "Buffalo Bills at New York Jets",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "0:25 - 2nd Quarter",
+          "detail": "0:16 - 2nd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -922,7 +922,7 @@
           "name": "Indiana Pacers at Philadelphia 76ers",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "9:53 - 3rd Quarter",
+          "detail": "8:27 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -930,7 +930,7 @@
             "short": "76ers",
             "abbreviation": "PHI",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-            "score": "63",
+            "score": "69",
             "winner": false
           },
           "away": {
@@ -938,7 +938,7 @@
             "short": "Pacers",
             "abbreviation": "IND",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-            "score": "62",
+            "score": "66",
             "winner": false
           },
           "venue": "Xfinity Mobile Arena"
