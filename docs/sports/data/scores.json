@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-15T19:48:46.681Z",
+  "Updated": "2026-11-15T19:49:43.814Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -554,6 +554,22 @@
           "status": "Scheduled",
           "detail": "Sat, November 21st at 11:00 PM EST",
           "url": "https://www.espn.com/f1/race/_/id/600057449",
+          "home": {
+            "name": "",
+            "short": "",
+            "abbreviation": "",
+            "logo": "",
+            "score": "",
+            "winner": false
+          },
+          "away": {
+            "name": "",
+            "short": "",
+            "abbreviation": "",
+            "logo": "",
+            "score": "",
+            "winner": false
+          },
           "drivers": [
             {
               "rank": "1",
@@ -622,7 +638,7 @@
           "name": "Kansas City Chiefs at Atlanta Falcons",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "11:41 - 3rd Quarter",
+          "detail": "10:42 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -648,7 +664,7 @@
           "name": "Houston Texans at Cleveland Browns",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "12:58 - 3rd Quarter",
+          "detail": "12:21 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -674,7 +690,7 @@
           "name": "Minnesota Vikings at Green Bay Packers",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "12:52 - 3rd Quarter",
+          "detail": "12:10 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -699,8 +715,8 @@
           "id": "401873057",
           "name": "Jacksonville Jaguars at Tennessee Titans",
           "date": "2026-11-15T18:00Z",
-          "status": "Halftime",
-          "detail": "Halftime",
+          "status": "In Progress",
+          "detail": "14:55 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -726,7 +742,7 @@
           "name": "Miami Dolphins at Indianapolis Colts",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "13:28 - 3rd Quarter",
+          "detail": "13:14 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -752,7 +768,7 @@
           "name": "Carolina Panthers at New Orleans Saints",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "11:27 - 3rd Quarter",
+          "detail": "10:38 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -778,7 +794,7 @@
           "name": "Buffalo Bills at New York Jets",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "13:11 - 3rd Quarter",
+          "detail": "12:29 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -996,7 +1012,7 @@
           "name": "Indiana Pacers at Philadelphia 76ers",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "2:09 - 3rd Quarter",
+          "detail": "1:20 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -1004,7 +1020,7 @@
             "short": "76ers",
             "abbreviation": "PHI",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-            "score": "89",
+            "score": "91",
             "winner": false
           },
           "away": {

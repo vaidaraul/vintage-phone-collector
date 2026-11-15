@@ -1,13 +1,38 @@
 {
-  "Updated": "2026-11-15T19:48:42.333Z",
+  "Updated": "2026-11-15T19:49:42.054Z",
   "Value": [
+    {
+      "Title": "Tennis-Djokovic returns to Basel for first time since 2011 in ATP Finals bid",
+      "Abstract": "Oct 16 (Reuters) - Novak Djokovic on Friday received a wildcard entry into the Swiss Indoors Basel, setting up his first appearance at the tournament since 2011 as the 24-times Grand Slam champion pursues a place at the ATP Finals and the 103rd title of his career. • The 39-year-old Serbian arrives in Switzerland after a mixed Asian swing, where he captured a record seventh China Open crown",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2eoUeZ",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2eoUeZ",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2eoUeZ",
+      "PublishedDateTime": "2026-10-16T17:18:53Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2eogms.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Tennis"
+      ],
+      "Sport": "Tennis",
+      "TagEvaluationGroups": []
+    },
     {
       "Title": "NFL week 10: Lions thrash Patriots, Vikings v Packers and more – live",
       "Abstract": "Minute-by-minute updates: Join Graham Searles as Sunday’s NFL action started with a crushing 35-10 win for the Lions over the Patriots in Munich and continues with a huge Vikings v Packers matchup",
       "Url": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
       "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
       "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "PublishedDateTime": "2026-11-15T19:45:00Z",
+      "PublishedDateTime": "2026-11-15T19:32:00Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
@@ -32,7 +57,7 @@
       "Url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
       "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
       "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "PublishedDateTime": "2026-11-15T19:45:00Z",
+      "PublishedDateTime": "2026-11-15T19:41:00Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
@@ -349,24 +374,6 @@
         "NFL"
       ],
       "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Morocco's AS FAR win record third CAF Women's Champions League title",
-      "Abstract": "Nov 15 (Reuters) - Morocco's AS FAR became the first team to win the CAF Women’s Champions League three times after beating South Africa's Mamelodi Sundowns 3-1 in Sunday's final in Egypt. Imane Touriss scored twice and Hiba Youssoufi was also on target for AS FAR, while Refilwe Tholakele netted for Sundowns. The victory took AS FAR, who became the first team to retain the trophy, clear of",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2htZ2D",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2htZ2D",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2htZ2D",
-      "PublishedDateTime": "2026-11-15T18:48:01Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
       "TagEvaluationGroups": []
     },
     {

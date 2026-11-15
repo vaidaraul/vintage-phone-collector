@@ -242,6 +242,9 @@ async function buildRaceLeague(league) {
     detail: (raceComp && raceComp.status && raceComp.status.type && raceComp.status.type.detail) ||
       (event.status && event.status.type && event.status.type.detail) || '',
     url: raceUrl,
+    // Backward-compatible shape for cached older versions of the web app.
+    home: { name: "", short: "", abbreviation: "", logo: "", score: "", winner: false },
+    away: { name: "", short: "", abbreviation: "", logo: "", score: "", winner: false },
     drivers: drivers,
     constructors: constructors
   });
