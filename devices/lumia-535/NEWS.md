@@ -608,3 +608,97 @@ content or navigation.
 - Verify sleep/display timeouts are still 180 seconds.
 - The phone powered off during the final verification (shutdown screen), so the
   final config install and screenshot should be re-checked after it boots.
+
+## Sports (Microsoft.BingSports 4.25.11762.0) — investigation state
+
+Sports is a separate problem from News: every Sports middle-tier and PDP host is
+dead, so the app's startup data has to be reconstructed. The app launches and
+gets past its loading spinner when PDP, ad settings, A/B, config-update and
+AllSportsInfo are served from fixtures.
+
+### What is confirmed
+
+- The Sports package is an appxbundle; the ARM appx is cached at
+  `E:\Projects\Lumia\apk\MSN Sports v4.25.11762.0 [file.windowsviet.com].appx`.
+  Its `Microsoft.Msn.Sports.dll` is identical (SHA-256) to the hydrated DLL at
+  `%TEMP%\sports-dll2.dll`. It is .NET Native; ILSpy cannot read it.
+- The Sports `resources.pri` contains the Sports-specific XBFs. They were
+  extracted with a small `PriFormat`-based tool and decompiled with
+  `chausner/XbfTools`:
+  - `Files_Views_LandingPageDataTemplates.xbf`
+  - `Files_Views_LeagueAndTeamTiles.xbf`
+  - `Files_Views_ListClusterPanel.xbf`
+  - `Files_Views_MatchupTiles.xbf`
+  - `Files_Views_ScheduleTiles.xbf`
+  - `Files_Views_MiscellaneousTiles.xbf`
+  - `Files_Views_PlayerTiles.xbf`
+  - `Files_Views_InlinedItemsTemplate.xbf`
+  - `Files_App.xbf` and the theme dictionaries.
+  The landing-page model is an `EntityCluster`: groups have a `Header` and
+  `Items`; each item has `Data` (the schema entity), `Data.Data` (the tile
+  payload), `Data.ClickTarget`, `Data.NavigateCommand`, and template names such
+  as `LandingPageLiveTile`, `LandingPageNonLiveTile`,
+  `LandingPageScheduleGameTile`, `LeagueTile`, `MyFavoriteTeamTile`,
+  `CommonLeagueSummaryTile`, etc.
+- `AllSportsInfo` is a `SdiResponse`: `{"Results":[...],"TimeStamp":"..."}`.
+  `Results` is `System.Collections.Generic.List<object>` (confirmed by a JSON
+  error on `Results:123`). An archived 2015 `AllLeaguesV1.svc/Roster` response
+  confirms the same shape: `{"Results":[],"TimeStamp":"02/19/2015 22:14:17"}`.
+- The app's `SdiResponse` converter takes the first item/property of each
+  `Results` entry, converts it to an intermediate schema object, reads a field
+  at offset `0x18`, converts that to `AppAllSportsInfoSchema`, then calls
+  `SportsPDPManager.UpdateAllSportsInfo`.
+- Recognized schema keys found so far: `League` and `SportMetaInfo` (a
+  `League` item reaches the EndOfLife screen when EOL is enabled; a
+  `SportMetaInfo` item also reaches EOL). `Sport`, `Sports`, `SportInfo`,
+  `LeagueInfo`, `LeagueMetaInfo`, `LeagueGroup`, `LeagueGroupInfo`, `TypeDefs`,
+  `LandingPage`, `AppAllSportsInfo`, `SearchableEntities`, `NavLink` and the
+  `Name`/`Value` wrapper were not recognized or did not change the crash.
+- EOL is config-driven. Adding a global `AppEOLStartDate` (market `NULL`) of
+  `2099-01-01` plus `AppEOLAdvanceNoticeStartDate` `2099-01-01` and
+  `AppEOLShowAdvanceNoticeEveryXDays` `0` removes the "Goodbye" screen. The
+  app's EOL lookup ignores the `en-gb`/`ro-ro`-specific rows; the global row
+  works.
+- The config-update URL is id 9:
+  `https://{TargetEnvironment}.blob.core.windows.net/configcontainer/full/{AppID}/{AppMajorMinorVersion}/{BuildNumber}/configuration.sqlite`.
+  It 404s in production. Pointing it at a local config causes the app to
+  replace its installed config with the downloaded one, so serve a 404 during
+  tests and install the test config directly.
+- The app requests `AllLeaguesV1.svc/MyTeamsData/today` and (later) the
+  landing-page data source. The MyTeamsData response is a `SdiResponse`; an
+  empty `{"Results":[],"TimeStamp":"..."}` is accepted by the app's Roster
+  parser but the current startup crash happens before MyTeamsData/landing-page
+  requests are made.
+
+### Current blocker
+
+With PDP and AllSportsInfo served from local fixtures and EOL disabled, the app
+still throws `System.NullReferenceException` at
+`Microsoft.Msn.Sports!<BaseAddress>+0xc02917` (caller `+0x7f6029`, then
+`+0xc02faf`). The same crash occurs for every AllSportsInfo shape that gets
+past the initial `+0xb1c8c1` constructor null-ref. The crashing function is the
+`SdiResponse` converter at `0xc0281c`; `0xc02917` is
+`ldr r0, [r0, #0x18]` after a `ToObject<T>` call, so the intermediate schema
+object's field at `+0x18` is null.
+
+The missing piece is the exact `AllSportsInfo` `Results` schema shape — most
+likely a wrapper object whose field at `+0x18` is the `AppAllSportsInfoSchema`
+payload. `ResponseString`, nested `Results`, `League`/`SportMetaInfo` arrays,
+`Data`/`Result`/`Value` wrappers, kitchen-sink schema objects and
+`Name`/`Value` pairs have all been tried. A live process dump or a debugger
+that can resolve the `ToObject<T>` type handle would settle it.
+
+### Test rig (temporary, not production)
+
+- Local HTTP fixture server:
+  `node %TEMP%\sports-fixture-server.mjs E:\Projects\Lumia\sports-fixtures 8080`
+  (PC IP `192.168.1.137`; phone reaches it over Wi-Fi).
+- Config currently installed on the phone: `sports-config-eol4.sqlite`
+  (PDP/AB/adsettings/AllSportsInfo local, config-update 404, global EOL 2099).
+- AllSportsInfo fixture: `E:\Projects\Lumia\sports-fixtures\allsportsinfo.json`.
+- Screenshot/probe loop: `probe-loop*.ps1` in the same folder.
+- The phone's date was set to `2016-01-01` during EOL experiments; it should be
+  restored to the correct date when done.
+- The SIM error dialog is suppressed with
+  `HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Experience\AllowSIMErrorDialogPromptWhenNoSIM = 0`
+  (reboot required).
