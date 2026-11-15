@@ -86,6 +86,9 @@ can be pinned to Start, so no deployment/developer-license gate is involved.
 
 **URL:** <https://vaidaraul.github.io/vintage-phone-collector/sports/>
 
+**Status:** live on Pages and pinned to Start on the Lumia 535 (2026-11-15).
+The 30-minute workflow refreshes `news.json` and `scores.json` automatically.
+
 ### Features
 
 - **Today** — hero story, Top Stories list, horizontal score strip.
