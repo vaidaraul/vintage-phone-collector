@@ -1,13 +1,38 @@
 {
-  "Updated": "2026-11-15T19:45:48.079Z",
+  "Updated": "2026-11-15T19:48:42.333Z",
   "Value": [
+    {
+      "Title": "NFL week 10: Lions thrash Patriots, Vikings v Packers and more – live",
+      "Abstract": "Minute-by-minute updates: Join Graham Searles as Sunday’s NFL action started with a crushing 35-10 win for the Lions over the Patriots in Munich and continues with a huge Vikings v Packers matchup",
+      "Url": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
+      "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
+      "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
+      "PublishedDateTime": "2026-11-15T19:45:00Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htYXp.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
     {
       "Title": "Spain v England: Nations League – live",
       "Abstract": "Minute-by-minute updates: Join Daniel Harris for England’s group decider against the world champions",
       "Url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
       "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
       "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "PublishedDateTime": "2026-11-15T19:41:00Z",
+      "PublishedDateTime": "2026-11-15T19:45:00Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
@@ -49,31 +74,6 @@
         "Football"
       ],
       "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "NFL week 10: Lions thrash Patriots, Vikings v Packers and more – live",
-      "Abstract": "Minute-by-minute updates: Join Graham Searles as Sunday’s NFL action started with a crushing 35-10 win for the Lions over the Patriots in Munich and continues with a huge Vikings v Packers matchup",
-      "Url": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "PublishedDateTime": "2026-11-15T19:32:00Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htYXp.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {

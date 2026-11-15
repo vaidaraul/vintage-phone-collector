@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-15T19:45:49.649Z",
+  "Updated": "2026-11-15T19:48:46.681Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -622,7 +622,7 @@
           "name": "Kansas City Chiefs at Atlanta Falcons",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "13:02 - 3rd Quarter",
+          "detail": "11:41 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -648,7 +648,7 @@
           "name": "Houston Texans at Cleveland Browns",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "13:46 - 3rd Quarter",
+          "detail": "12:58 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -673,8 +673,8 @@
           "id": "401873060",
           "name": "Minnesota Vikings at Green Bay Packers",
           "date": "2026-11-15T18:00Z",
-          "status": "Halftime",
-          "detail": "Halftime",
+          "status": "In Progress",
+          "detail": "12:52 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -726,7 +726,7 @@
           "name": "Miami Dolphins at Indianapolis Colts",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "14:48 - 3rd Quarter",
+          "detail": "13:28 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -752,7 +752,7 @@
           "name": "Carolina Panthers at New Orleans Saints",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "13:49 - 3rd Quarter",
+          "detail": "11:27 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -777,8 +777,8 @@
           "id": "401873054",
           "name": "Buffalo Bills at New York Jets",
           "date": "2026-11-15T18:00Z",
-          "status": "Halftime",
-          "detail": "Halftime",
+          "status": "In Progress",
+          "detail": "13:11 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -996,7 +996,7 @@
           "name": "Indiana Pacers at Philadelphia 76ers",
           "date": "2026-11-15T18:00Z",
           "status": "In Progress",
-          "detail": "2:23 - 3rd Quarter",
+          "detail": "2:09 - 3rd Quarter",
           "state": "in",
           "completed": false,
           "home": {
@@ -1004,7 +1004,7 @@
             "short": "76ers",
             "abbreviation": "PHI",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-            "score": "87",
+            "score": "89",
             "winner": false
           },
           "away": {
