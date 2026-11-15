@@ -1,17 +1,53 @@
 {
+  "DefaultLeagues": [
+    "premier-league"
+  ],
+  "FavoriteLeagues": [],
+  "FavoriteTeams": [],
+  "FavoriteTeamLeagues": [],
+  "GroupOfLeagues": [],
+  "LeaguesInfo": [],
+  "PersonalizedInterests": [
+    {
+      "InterestId": "football",
+      "DisplayName": "Football",
+      "InterestType": "Sports",
+      "CategoryId": "football",
+      "CategoryName": "Football",
+      "CategoryKey": "football",
+      "CategoryType": "Sports",
+      "IsNewsCategory": false,
+      "Providers": []
+    }
+  ],
+  "Interests": [
+    {
+      "InterestId": "football",
+      "DisplayName": "Football",
+      "InterestType": "Sports",
+      "CategoryId": "football",
+      "CategoryName": "Football",
+      "CategoryKey": "football",
+      "CategoryType": "Sports",
+      "IsNewsCategory": false,
+      "Providers": []
+    }
+  ],
+  "DeletedInterests": [],
+  "HasUserCustomizations": true,
+  "CategoryList": [
+    "football"
+  ],
+  "ActiveCategoryIds": [
+    "football"
+  ],
+  "IsPersonalizationEnabled": true,
   "TopicList": [],
   "PerMarketCategories": [
     {
-      "Market": "RO-RO",
+      "Market": "EN-GB",
       "CategoryList": []
     }
   ],
-  "SourceDefinitionList": [],
-  "IsPersonalizationEnabled": false,
-  "PersonalizedInterests": [],
-  "Interests": [],
-  "DeletedInterests": [],
-  "HasUserCustomizations": false,
-  "CategoryList": [],
-  "ActiveCategoryIds": []
+  "SourceDefinitionList": []
 }
