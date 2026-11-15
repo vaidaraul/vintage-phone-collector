@@ -702,3 +702,33 @@ that can resolve the `ToObject<T>` type handle would settle it.
 - The SIM error dialog is suppressed with
   `HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Experience\AllowSIMErrorDialogPromptWhenNoSIM = 0`
   (reboot required).
+
+### Re-sign / sideload attempt (blocked)
+
+To get a patched DLL past Code Integrity, the appx was re-signed with a
+self-signed cert matching the manifest publisher
+(`CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US`),
+using `makeappx.exe` / `signtool.exe` from the
+`Microsoft.Windows.SDK.BuildTools` NuGet package. The cert was installed into
+the phone's `LocalMachine\TrustedPeople` store with `certmgr.exe`.
+
+Device Portal accepts the upload (`202 Accepted`) but the deployment service
+always fails with:
+
+```
+0x80073CFF - To install this application you need either a Windows developer
+license or a sideloading-enabled system.
+```
+
+This happens even with **Sideload apps** selected and with
+`AllowAllTrustedApps=1` in `AppModelUnlock`, `Policies\Microsoft\Windows\Appx`
+and `PolicyManager\current\device\ApplicationManagement`. The WDP deployment
+runs in the SYSTEM context, which does not carry the per-user developer
+license. Setting those policy keys also locks the Settings "For developers"
+page with "some settings are set by the organisation"; setting the values to
+`0xFFFF` (not configured) clears that message, but the WDP install still fails.
+
+The original Sports DLL has been restored and the app still launches. The
+remaining viable path is the offline .NET Native TypeManager parser (resolve
+type handle `0x417230` and the field at `+0x18`), or acquiring a Microsoft
+account developer license in Settings and retrying the WDP install.
