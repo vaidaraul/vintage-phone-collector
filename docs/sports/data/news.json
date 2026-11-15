@@ -1,20 +1,45 @@
 {
-  "Updated": "2026-11-15T19:28:21.949Z",
+  "Updated": "2026-11-15T19:45:48.079Z",
   "Value": [
     {
-      "Title": "Soccer-Goodwin strikes, Earps saves as London City hold Arsenal to stay third",
-      "Abstract": "LONDON, Nov 15 (Reuters) - London City Lionesses tightened their grip on third place in the Women's Super League after goalkeeper Mary Earps produced a string of superb saves, including a stunning late intervention, to secure a 1-1 draw at Arsenal on Sunday. Earps finished with eight saves in her third start for Lionesses, preserving a valuable point in the closing stages when Frida Maanum lofted",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
-      "PublishedDateTime": "2026-11-15T19:24:10Z",
+      "Title": "Spain v England: Nations League – live",
+      "Abstract": "Minute-by-minute updates: Join Daniel Harris for England’s group decider against the world champions",
+      "Url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
+      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
+      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
+      "PublishedDateTime": "2026-11-15T19:41:00Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htTQG.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huCC8.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Andy Robertson has 'carried' Scotland as Switzerland boss vows to make radical changes in Nations League finale",
+      "Abstract": "Yakin insists he will rotate his squad for Monday's final Nations League fixture against the Scots in St Gallen",
+      "Url": "https://www.dailyrecord.co.uk/sport/football/football-news/andy-robertson-carried-scotland-switzerland-37879436",
+      "ArticleUrl": "https://www.dailyrecord.co.uk/sport/football/football-news/andy-robertson-carried-scotland-switzerland-37879436",
+      "ExternalUrl": "https://www.dailyrecord.co.uk/sport/football/football-news/andy-robertson-carried-scotland-switzerland-37879436",
+      "PublishedDateTime": "2026-11-15T15:29:35Z",
+      "Provider": {
+        "Name": "Daily Record",
+        "DisplayName": "Daily Record"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hu0jy.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -32,7 +57,7 @@
       "Url": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
       "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
       "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "PublishedDateTime": "2026-11-15T19:26:00Z",
+      "PublishedDateTime": "2026-11-15T19:32:00Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
@@ -52,19 +77,169 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Spain v England: Nations League – live",
-      "Abstract": "Minute-by-minute updates: Join Daniel Harris for England’s group decider against the world champions",
-      "Url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "PublishedDateTime": "2026-11-15T19:25:00Z",
+      "Title": "Trident nuclear submarine concludes record underwater deployment",
+      "Abstract": "A Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland where its crew was greeted by the defence secretary, Wes Streeting. HMS Vengeance began its patrol on 12 April and spent 217 days submerged before returning on Sunday, having left the country when Keir Starmer was in Downing Street and Manchester United were third in the Premier League. Its tour surpasses the previous...",
+      "Url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+      "ArticleUrl": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+      "ExternalUrl": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+      "PublishedDateTime": "2026-11-15T18:50:33Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huCC8.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hsYFJ.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Ronaldinho makes stunning return to professional football at 46 after 11 years away",
+      "Abstract": "The Brazilian pulled on Ravenna’s No. 10 against Forli on Sunday afternoon, his first competitive appearance since leaving Fluminense in September 2015.",
+      "Url": "https://lentedesportiva.com/ronaldinho-makes-stunning-return-to-professional-football-at-46-after-11-years-away/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/ronaldinho-makes-stunning-return-to-professional-football-at-46-after-11-years-away/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/ronaldinho-makes-stunning-return-to-professional-football-at-46-after-11-years-away/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-15T19:30:00Z",
+      "Provider": {
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hubY3.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Landman beauty Michelle Randolph spotted on sideline in TCU cheerleader outfit",
+      "Abstract": "Randolph, who plays cheerleader Ainsley Norris on the show, was seen cheering enthusiastically at Amon G Carter Stadium during the college football showdown on Saturday afternoon.",
+      "Url": "https://www.dailymail.com/sport/college-football/article-16294595/michelle-randolph-tcu-cheerleader-landman-filming.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16294595/michelle-randolph-tcu-cheerleader-landman-filming.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16294595/michelle-randolph-tcu-cheerleader-landman-filming.html",
+      "PublishedDateTime": "2026-11-15T19:06:57Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huMEl.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Viktor Gyökeres Extends Nations League Record as Sweden Seal Promotion",
+      "Abstract": "Viktor Gyökeres scored twice as Sweden beat Bosnia and Herzegovina 3-2 on Saturday night, becoming the first player to score in eight consecutive Nations League appearances.",
+      "Url": "https://www.yardbarker.com/soccer/articles/viktor_gykeres_extends_nations_league_record_as_sweden_seal_promotion/s1_15968_44565426",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/viktor_gykeres_extends_nations_league_record_as_sweden_seal_promotion/s1_15968_44565426",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/viktor_gykeres_extends_nations_league_record_as_sweden_seal_promotion/s1_15968_44565426",
+      "PublishedDateTime": "2026-11-15T19:24:31Z",
+      "Provider": {
+        "Name": "Just Arsenal",
+        "DisplayName": "Just Arsenal"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA25Dl5E.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Tuchel Confirms Ezri Konsa Return as Arsenal Teammates Could Face Off in Madrid",
+      "Abstract": "Ezri Konsa is back in contention for England’s Nations League clash with Spain tonight after missing Thursday’s game against Croatia with a knee knock.",
+      "Url": "https://www.yardbarker.com/soccer/articles/tuchel_confirms_ezri_konsa_return_as_arsenal_teammates_could_face_off_in_madrid/s1_15968_44565425",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/tuchel_confirms_ezri_konsa_return_as_arsenal_teammates_could_face_off_in_madrid/s1_15968_44565425",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/tuchel_confirms_ezri_konsa_return_as_arsenal_teammates_could_face_off_in_madrid/s1_15968_44565425",
+      "PublishedDateTime": "2026-11-15T19:25:21Z",
+      "Provider": {
+        "Name": "Just Arsenal",
+        "DisplayName": "Just Arsenal"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htM5q.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "'A brilliant game for us' - Michael O’Neill hungry for more with Northern Ireland as Budapest decider looms",
+      "Abstract": "Michael O’Neill is relishing the challenge of a Nations League promotion decider away to Hungary on Tuesday – even if the Northern Ireland boss will have to watch from the stand in Budapest.",
+      "Url": "https://www.newsletter.co.uk/sport/football/northern-ireland/a-brilliant-game-for-us-michael-oneill-hungry-for-more-with-northern-ireland-as-budapest-decider-looms-9352292",
+      "ArticleUrl": "https://www.newsletter.co.uk/sport/football/northern-ireland/a-brilliant-game-for-us-michael-oneill-hungry-for-more-with-northern-ireland-as-budapest-decider-looms-9352292",
+      "ExternalUrl": "https://www.newsletter.co.uk/sport/football/northern-ireland/a-brilliant-game-for-us-michael-oneill-hungry-for-more-with-northern-ireland-as-budapest-decider-looms-9352292",
+      "PublishedDateTime": "2026-11-15T19:15:30Z",
+      "Provider": {
+        "Name": "News Letter",
+        "DisplayName": "News Letter"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hulv1.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Goodwin strikes, Earps saves as London City hold Arsenal to stay third",
+      "Abstract": "LONDON, Nov 15 (Reuters) - London City Lionesses tightened their grip on third place in the Women's Super League after goalkeeper Mary Earps produced a string of superb saves, including a stunning late intervention, to secure a 1-1 draw at Arsenal on Sunday. Earps finished with eight saves in her third start for Lionesses, preserving a valuable point in the closing stages when Frida Maanum lofted",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
+      "PublishedDateTime": "2026-11-15T19:24:10Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htTQG.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -102,31 +277,6 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "How to watch France vs Turkey: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture",
-      "Abstract": "How you can watch France vs Turkey in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
-      "Url": "https://www.techradar.com/entertainment/football/watch-france-vs-turkey-nations-league-2026-27-free",
-      "ArticleUrl": "https://www.techradar.com/entertainment/football/watch-france-vs-turkey-nations-league-2026-27-free",
-      "ExternalUrl": "https://www.techradar.com/entertainment/football/watch-france-vs-turkey-nations-league-2026-27-free",
-      "PublishedDateTime": "2026-11-15T17:05:00Z",
-      "Provider": {
-        "Name": "TechRadar",
-        "DisplayName": "TechRadar"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huAm6.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
       "Title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
       "Abstract": "When you walk up from Haydons Road train station to Plough Lane there is a blue AFC Wimbledon billboard that reads “Fan owned football”, directly opposite the site of the old Plough Lane stadium where there are now blocks of flats. There is a memorial to the old Wimbledon FC – a reminder that supporters can often have little say in the running of their club – on the same corner, just up the road from the new Cherry Red Records Stadium. AFC...",
       "Url": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
@@ -152,56 +302,6 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Relegation? Klopp only thinking about Nations League quarter-finals",
-      "Abstract": "",
-      "Url": "https://dpa-international.com/sports/urn:newsml:dpa.com:20090101:261115-930-999919/",
-      "ArticleUrl": "https://dpa-international.com/sports/urn:newsml:dpa.com:20090101:261115-930-999919/",
-      "ExternalUrl": "https://dpa-international.com/sports/urn:newsml:dpa.com:20090101:261115-930-999919/",
-      "PublishedDateTime": "2026-11-15T19:09:24Z",
-      "Provider": {
-        "Name": "DPA International",
-        "DisplayName": "DPA International"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huCRk.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Aston Villa handed further injury concern ahead of Sunderland clash",
-      "Abstract": "Aston Villa are awaiting news on the fitness of several players ahead of Saturday’s Premier League home game with Sunderland.",
-      "Url": "https://www.sunderlandecho.com/sport/football/sunderland-afc/aston-villa-injury-concern-sunderland-clash-9352112",
-      "ArticleUrl": "https://www.sunderlandecho.com/sport/football/sunderland-afc/aston-villa-injury-concern-sunderland-clash-9352112",
-      "ExternalUrl": "https://www.sunderlandecho.com/sport/football/sunderland-afc/aston-villa-injury-concern-sunderland-clash-9352112",
-      "PublishedDateTime": "2026-11-15T19:00:59Z",
-      "Provider": {
-        "Name": "Sunderland Echo",
-        "DisplayName": "Sunderland Echo"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huAjD.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
       "Title": "Soccer-Ronaldinho returns at 46 to play first competitive match in 11 years",
       "Abstract": "Nov 15 (Reuters) - Brazilian World Cup winner Ronaldinho played his first competitive match in 11 years at the age of 46, starting for Italian third-tier side Ravenna in their derby against Forli on Sunday. Wearing the number 10 shirt, Ronaldinho played the entire first half. At the interval, he took a lap of the pitch at the Stadio Bruno Benelli, waving to supporters as they stood to applaud him",
       "Url": "https://www.msn.com/en-gb/news/ar-AA2hu908",
@@ -224,31 +324,6 @@
         "Football"
       ],
       "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Armagh’s Aimee Mackin wins fourth career All-Star",
-      "Abstract": "The Camlough forward is joined by seven players from All-Ireland champions Galway, five from Kerry - including Player of the Year Siofra O’Shea - and one each from Dublin and Waterford",
-      "Url": "https://www.irishnews.com/gaa/gaelic-football/armaghs-aimee-mackin-wins-fourth-career-all-star-IJ3BCH7KFZAZFE54ZOOD7NKLOY/",
-      "ArticleUrl": "https://www.irishnews.com/gaa/gaelic-football/armaghs-aimee-mackin-wins-fourth-career-all-star-IJ3BCH7KFZAZFE54ZOOD7NKLOY/",
-      "ExternalUrl": "https://www.irishnews.com/gaa/gaelic-football/armaghs-aimee-mackin-wins-fourth-career-all-star-IJ3BCH7KFZAZFE54ZOOD7NKLOY/",
-      "PublishedDateTime": "2026-11-15T18:45:44Z",
-      "Provider": {
-        "Name": "The Irish News",
-        "DisplayName": "The Irish News"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hubMd.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "GAA"
-      ],
-      "Sport": "GAA",
       "TagEvaluationGroups": []
     },
     {
@@ -292,31 +367,6 @@
         "Football"
       ],
       "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Bill Belichick, 74, races into postgame brawl to pull his North Carolina players away",
-      "Abstract": "North Carolina football coach Bill Belichick tried to break up an ugly scene at the end of Saturday's Tar Heel football game against Louisville.",
-      "Url": "https://www.dailymail.com/sport/college-football/article-16294505/bill-belichick-north-carolina-louisville-brawl.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16294505/bill-belichick-north-carolina-louisville-brawl.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16294505/bill-belichick-north-carolina-louisville-brawl.html",
-      "PublishedDateTime": "2026-11-15T18:12:01Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htYY0.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {
@@ -417,31 +467,6 @@
         "NBA"
       ],
       "Sport": "NBA",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Rugby-Lions lock Andrews dies before Champions Cup fixture in France",
-      "Abstract": "CAPE TOWN, Oct 16 (Reuters) - Lions lock Hyron Andrews died at the team hotel on Friday, the day before the South African club are due to play French side La Rochelle in the European Champions Cup, a fixture that will go ahead in his honour, the team said. French media reported that Andrews, 31, was found unconscious in a shower cubicle at a hotel on the Ile de Re in France, where the team had",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2eo7zm",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2eo7zm",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2eo7zm",
-      "PublishedDateTime": "2026-10-16T14:37:13Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2enSmg.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Rugby"
-      ],
-      "Sport": "Rugby",
       "TagEvaluationGroups": []
     }
   ]

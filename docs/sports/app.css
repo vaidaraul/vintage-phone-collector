@@ -373,6 +373,83 @@ main {
   color: var(--muted);
 }
 
+/* ---------- Formula 1 ---------- */
+
+.race-card {
+  flex-basis: 260px;
+}
+
+.race-name {
+  margin-top: 2px;
+  font-size: 15px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.race-circuit {
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.race-block {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px solid var(--surface-2);
+}
+
+.race-block-title {
+  margin-bottom: 2px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.race-driver {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  font-size: 12px;
+}
+
+.race-pos {
+  width: 16px;
+  flex: 0 0 16px;
+  color: var(--accent-bright);
+  font-weight: 600;
+}
+
+.driver-flag {
+  width: 18px;
+  height: 12px;
+  flex: 0 0 18px;
+  margin-right: 6px;
+  object-fit: cover;
+}
+
+.team-color {
+  width: 4px;
+  height: 12px;
+  flex: 0 0 4px;
+  margin-right: 7px;
+  border-radius: 1px;
+}
+
+.driver-name {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.driver-pts {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
 /* ---------- Leagues ---------- */
 
 .league-grid {

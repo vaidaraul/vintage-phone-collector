@@ -33,6 +33,7 @@ const LEAGUES = [
   { id: 'esp.1', sport: 'soccer', name: 'La Liga', shortName: 'La Liga', path: 'soccer/esp.1' },
   { id: 'uefa.champions', sport: 'soccer', name: 'Champions League', shortName: 'Champions League', path: 'soccer/uefa.champions' },
   { id: 'rou.1', sport: 'soccer', name: 'Liga I', shortName: 'Liga I', path: 'soccer/rou.1' },
+  { id: 'f1', sport: 'racing', name: 'Formula 1', shortName: 'F1', path: 'racing/f1', kind: 'race' },
   { id: 'nfl', sport: 'football', name: 'NFL', shortName: 'NFL', path: 'football/nfl' },
   { id: 'nba', sport: 'basketball', name: 'NBA', shortName: 'NBA', path: 'basketball/nba' },
   { id: 'mlb', sport: 'baseball', name: 'MLB', shortName: 'MLB', path: 'baseball/mlb' },
@@ -177,9 +178,88 @@ function teamFromCompetitor(c) {
   };
 }
 
+async function buildRaceLeague(league) {
+  const out = { ...league, logo: '', events: [] };
+  const json = await getJson(`https://site.api.espn.com/apis/site/v2/sports/${league.path}/scoreboard`);
+  const event = (json.events || [])[0];
+  if (!event) return out;
+
+  const comps = event.competitions || [];
+  const raceComp = comps.reduce(function (a, b) {
+    return !a || String(b.date || '') > String(a.date || '') ? b : a;
+  }, null);
+  const raceDate = (raceComp && raceComp.date) || event.date;
+  const raceUrl = ((event.links || []).find(function (l) {
+    return (l.rel || []).indexOf('summary') >= 0;
+  }) || (event.links || [])[0] || {}).href || '';
+
+  out.logo = ((json.leagues && json.leagues[0] && json.leagues[0].logos) || [])[0]?.href || '';
+
+  let drivers = [];
+  let constructors = [];
+  try {
+    const year = (event.season && event.season.year) || new Date().getFullYear();
+    const standings = await getJson(`https://site.api.espn.com/apis/v2/sports/${league.path}/standings?season=${year}`);
+    const children = standings.children || [];
+    const driverChild = children.find(function (c) { return /driver/i.test(c.name || ''); });
+    const constructorChild = children.find(function (c) { return /constructor/i.test(c.name || ''); });
+
+    function topThree(entries) {
+      return (entries || []).slice(0, 3).map(function (e) {
+        const stats = e.stats || [];
+        function stat(name) {
+          const s = stats.find(function (x) { return x.name === name; });
+          return s ? (s.displayValue != null ? s.displayValue : s.value) : '';
+        }
+        const athlete = e.athlete || {};
+        const team = e.team || {};
+        return {
+          rank: stat('rank'),
+          name: athlete.displayName || team.displayName || '',
+          short: athlete.shortName || team.shortDisplayName || '',
+          flag: (athlete.flag && athlete.flag.href) || '',
+          color: team.color ? '#' + team.color : '',
+          points: stat('championshipPts') || stat('points') || ''
+        };
+      });
+    }
+
+    drivers = topThree(driverChild && driverChild.standings && driverChild.standings.entries);
+    constructors = topThree(constructorChild && constructorChild.standings && constructorChild.standings.entries);
+  } catch (err) {
+    console.error(`f1 standings failed: ${err.message}`);
+  }
+
+  out.events.push({
+    id: event.id,
+    kind: 'race',
+    name: event.name || event.shortName || 'Formula 1',
+    shortName: event.shortName || '',
+    circuit: (event.circuit && event.circuit.fullName) || '',
+    date: raceDate,
+    status: (raceComp && raceComp.status && raceComp.status.type && raceComp.status.type.description) ||
+      (event.status && event.status.type && event.status.type.description) || '',
+    detail: (raceComp && raceComp.status && raceComp.status.type && raceComp.status.type.detail) ||
+      (event.status && event.status.type && event.status.type.detail) || '',
+    url: raceUrl,
+    drivers: drivers,
+    constructors: constructors
+  });
+  return out;
+}
+
 async function buildScores() {
   const leagues = [];
   for (const league of LEAGUES) {
+    if (league.kind === 'race') {
+      try {
+        leagues.push(await buildRaceLeague(league));
+      } catch (err) {
+        console.error(`race league ${league.id} failed: ${err.message}`);
+        leagues.push({ ...league, logo: '', events: [], error: err.message });
+      }
+      continue;
+    }
     const out = { ...league, logo: '', events: [] };
     try {
       const json = await getJson(`https://site.api.espn.com/apis/site/v2/sports/${league.path}/scoreboard`);

@@ -132,7 +132,46 @@
     );
   }
 
-  function scoreCardHtml(league, event, showLeague) {
+  function raceCardHtml(league, event, showLeague, compact) {
+    var status = statusText(event);
+    var drivers = event.drivers || [];
+    var constructors = compact ? [] : (event.constructors || []);
+    var driverRows = drivers.slice(0, 3).map(function (d) {
+      return (
+        '<div class="race-driver">' +
+        '<span class="race-pos">' + esc(d.rank || "") + "</span>" +
+        (d.flag ? '<img class="driver-flag" src="' + esc(d.flag) + '" alt="" onerror="this.style.visibility=\'hidden\'">' : "") +
+        '<span class="driver-name">' + esc(d.name || d.short) + "</span>" +
+        '<span class="driver-pts">' + esc(d.points || "") + "</span>" +
+        "</div>"
+      );
+    }).join("");
+    var teamRows = constructors.slice(0, 3).map(function (t) {
+      return (
+        '<div class="race-driver">' +
+        '<span class="race-pos">' + esc(t.rank || "") + "</span>" +
+        (t.color ? '<span class="team-color" style="background:' + esc(t.color) + '"></span>' : "") +
+        '<span class="driver-name">' + esc(t.name || t.short) + "</span>" +
+        '<span class="driver-pts">' + esc(t.points || "") + "</span>" +
+        "</div>"
+      );
+    }).join("");
+    return (
+      '<div class="score-card race-card' + (event.url ? " tap" : "") + '"' + (event.url ? ' data-url="' + esc(event.url) + '"' : "") + ">" +
+      (showLeague ? '<div class="score-league">Formula 1</div>' : "") +
+      '<div class="score-status ' + status.cls + '">' + esc(status.text) + "</div>" +
+      '<div class="race-name">' + esc(event.name) + "</div>" +
+      (event.circuit ? '<div class="race-circuit">' + esc(event.circuit) + "</div>" : "") +
+      (driverRows ? '<div class="race-block"><div class="race-block-title">Drivers</div>' + driverRows + "</div>" : "") +
+      (teamRows ? '<div class="race-block"><div class="race-block-title">Constructors</div>' + teamRows + "</div>" : "") +
+      "</div>"
+    );
+  }
+
+  function scoreCardHtml(league, event, showLeague, compact) {
+    if (event.kind === "race" || league.kind === "race") {
+      return raceCardHtml(league, event, showLeague, compact);
+    }
     var status = statusText(event);
     return (
       '<div class="score-card">' +
@@ -145,11 +184,14 @@
   }
 
   function leagueHeadHtml(league) {
+    var sub = league.kind === "race"
+      ? "Next race"
+      : league.events.length + (league.events.length === 1 ? " game" : " games");
     return (
       '<div class="league-head">' +
       (league.logo ? '<img src="' + esc(league.logo) + '" alt="" onerror="this.style.visibility=\'hidden\'">' : "") +
       "<h3>" + esc(league.name) + "</h3>" +
-      '<span class="count">' + league.events.length + (league.events.length === 1 ? " game" : " games") + "</span>" +
+      '<span class="count">' + sub + "</span>" +
       "</div>"
     );
   }
@@ -189,11 +231,19 @@
       }
     }
 
+    var f1 = state.scores.filter(function (league) {
+      return league.id === "f1" && league.events && league.events.length;
+    })[0];
+    if (f1) {
+      html += '<div class="section-head"><h2>Formula 1</h2><button class="more" type="button" data-tab="scores">See all</button></div>';
+      html += '<div class="score-grid">' + raceCardHtml(f1, f1.events[0], true) + "</div>";
+    }
+
     var events = allEvents();
     if (events.length) {
       html += '<div class="section-head"><h2>Scores</h2><button class="more" type="button" data-tab="scores">See all</button></div>';
       html += '<div class="score-strip">' + events.slice(0, 8).map(function (item) {
-        return scoreCardHtml(item.league, item.event, true);
+        return scoreCardHtml(item.league, item.event, true, true);
       }).join("") + "</div>";
     }
 
@@ -237,11 +287,12 @@
     }
     var html = '<div class="league-grid">' + state.scores.map(function (league) {
       var count = league.events ? league.events.length : 0;
+      var sub = league.kind === "race" ? "Next race" : (count ? count + (count === 1 ? " game" : " games") : "No games");
       return (
         '<button class="league-tile" type="button" data-league="' + esc(league.id) + '">' +
         (league.logo ? '<img src="' + esc(league.logo) + '" alt="" onerror="this.style.visibility=\'hidden\'">' : "") +
         '<span class="name">' + esc(league.name) + "</span>" +
-        '<span class="sub">' + (count ? count + (count === 1 ? " game" : " games") : "No games") + "</span>" +
+        '<span class="sub">' + sub + "</span>" +
         "</button>"
       );
     }).join("") + "</div>";

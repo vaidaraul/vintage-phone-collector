@@ -93,6 +93,7 @@ The 30-minute workflow refreshes `news.json` and `scores.json` automatically.
 
 - **Today** — hero story, Top Stories list, horizontal score strip.
 - **Scores** — all leagues with match cards (team logos, scores, status).
+- **Formula 1** — next-race card with the drivers' and constructors' championship top 3.
 - **News** — full sports news list.
 - **Leagues** — 2-column league grid; tapping a league filters Scores.
 - Side drawer with the same sections.
@@ -110,6 +111,8 @@ The 30-minute workflow refreshes `news.json` and `scores.json` automatically.
 - **Scores:** ESPN's public scoreboard API
   (`https://site.api.espn.com/apis/site/v2/sports/<sport>/<league>/scoreboard`)
   for Premier League, La Liga, Champions League, Liga I, NFL, NBA, MLB and NHL.
+- **Formula 1:** ESPN `racing/f1` scoreboard (next race) and
+  `racing/f1/standings` (drivers' and constructors' championship).
 - **Images:** MSN image CDN (`img-s-msn-com.akamaized.net`) and ESPN
   (`a.espncdn.com`).
 - **Generator:** `scripts/generate-sports-feed.mjs`; runs every 30 minutes in
