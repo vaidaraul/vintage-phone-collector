@@ -732,3 +732,24 @@ The original Sports DLL has been restored and the app still launches. The
 remaining viable path is the offline .NET Native TypeManager parser (resolve
 type handle `0x417230` and the field at `+0x18`), or acquiring a Microsoft
 account developer license in Settings and retrying the WDP install.
+
+### TypeManager parser investigation (blocked)
+
+The .NET Native image does **not** contain the CoreRT/NativeAOT
+`ReadyToRunHeader`:
+- No `RTR\0`, `MRT\0`, big-endian `RTR`/`MRT`, or UTF-16 `RTR` signature exists
+  anywhere in `Microsoft.Msn.Sports.dll`.
+- The CoreRT `ReadyToRunSectionType` patterns (`StringTable = 200`,
+  `TypeManagerIndirection = 204`) do not appear as a `ModuleInfoRow` table.
+- The vtable at RVA `0x240000` (the EEType pointer from type handle
+  `0x417230`) is preceded by a long run of method pointers; the EEType header
+  is not laid out as the documented CoreRT `EEType` structure.
+- The `dotnet/runtime` NativeAOT parsers (`NativeAotDumper`,
+  `ghidra-nativeaot`, `ida-nativeaot`, `morluto/rea`) all expect the
+  CoreCLR/NativeAOT `RTR` metadata format, which this 2016 .NET Native image
+  does not use.
+
+So the TypeManager route needs a dedicated **.NET Native (MRT)** metadata
+parser, which is not publicly available. Without it, the only remaining paths
+are a Microsoft-account developer license (then WDP can install the re-signed
+patched appx) or a debugger on the device (not present).
