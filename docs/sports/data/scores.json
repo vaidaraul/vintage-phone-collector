@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-15T19:51:11.428Z",
+  "Updated": "2026-11-15T23:28:45.861Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -634,186 +634,82 @@
       "logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
       "events": [
         {
-          "id": "401873058",
-          "name": "Kansas City Chiefs at Atlanta Falcons",
-          "date": "2026-11-15T18:00Z",
+          "id": "401873062",
+          "name": "Seattle Seahawks at Las Vegas Raiders",
+          "date": "2026-11-15T21:05Z",
           "status": "In Progress",
-          "detail": "10:29 - 3rd Quarter",
+          "detail": "8:28 - 4th Quarter",
           "state": "in",
           "completed": false,
           "home": {
-            "name": "Atlanta Falcons",
-            "short": "Falcons",
-            "abbreviation": "ATL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
-            "score": "3",
-            "winner": false
-          },
-          "away": {
-            "name": "Kansas City Chiefs",
-            "short": "Chiefs",
-            "abbreviation": "KC",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-            "score": "14",
-            "winner": false
-          },
-          "venue": "Mercedes-Benz Stadium"
-        },
-        {
-          "id": "401873056",
-          "name": "Houston Texans at Cleveland Browns",
-          "date": "2026-11-15T18:00Z",
-          "status": "In Progress",
-          "detail": "12:05 - 3rd Quarter",
-          "state": "in",
-          "completed": false,
-          "home": {
-            "name": "Cleveland Browns",
-            "short": "Browns",
-            "abbreviation": "CLE",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "name": "Las Vegas Raiders",
+            "short": "Raiders",
+            "abbreviation": "LV",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
             "score": "10",
             "winner": false
           },
           "away": {
-            "name": "Houston Texans",
-            "short": "Texans",
-            "abbreviation": "HOU",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-            "score": "17",
-            "winner": false
-          },
-          "venue": "Huntington Bank Field"
-        },
-        {
-          "id": "401873060",
-          "name": "Minnesota Vikings at Green Bay Packers",
-          "date": "2026-11-15T18:00Z",
-          "status": "In Progress",
-          "detail": "11:25 - 3rd Quarter",
-          "state": "in",
-          "completed": false,
-          "home": {
-            "name": "Green Bay Packers",
-            "short": "Packers",
-            "abbreviation": "GB",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-            "score": "0",
-            "winner": false
-          },
-          "away": {
-            "name": "Minnesota Vikings",
-            "short": "Vikings",
-            "abbreviation": "MIN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-            "score": "17",
-            "winner": false
-          },
-          "venue": "Lambeau Field"
-        },
-        {
-          "id": "401873057",
-          "name": "Jacksonville Jaguars at Tennessee Titans",
-          "date": "2026-11-15T18:00Z",
-          "status": "In Progress",
-          "detail": "14:28 - 3rd Quarter",
-          "state": "in",
-          "completed": false,
-          "home": {
-            "name": "Tennessee Titans",
-            "short": "Titans",
-            "abbreviation": "TEN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-            "score": "10",
-            "winner": false
-          },
-          "away": {
-            "name": "Jacksonville Jaguars",
-            "short": "Jaguars",
-            "abbreviation": "JAX",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-            "score": "16",
-            "winner": false
-          },
-          "venue": "Nissan Stadium"
-        },
-        {
-          "id": "401873059",
-          "name": "Miami Dolphins at Indianapolis Colts",
-          "date": "2026-11-15T18:00Z",
-          "status": "In Progress",
-          "detail": "13:14 - 3rd Quarter",
-          "state": "in",
-          "completed": false,
-          "home": {
-            "name": "Indianapolis Colts",
-            "short": "Colts",
-            "abbreviation": "IND",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "name": "Seattle Seahawks",
+            "short": "Seahawks",
+            "abbreviation": "SEA",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
             "score": "21",
             "winner": false
           },
-          "away": {
-            "name": "Miami Dolphins",
-            "short": "Dolphins",
-            "abbreviation": "MIA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
-            "score": "7",
-            "winner": false
-          },
-          "venue": "Lucas Oil Stadium"
+          "venue": "Allegiant Stadium"
         },
         {
-          "id": "401873055",
-          "name": "Carolina Panthers at New Orleans Saints",
-          "date": "2026-11-15T18:00Z",
+          "id": "401873061",
+          "name": "Los Angeles Rams at Arizona Cardinals",
+          "date": "2026-11-15T21:05Z",
           "status": "In Progress",
-          "detail": "10:38 - 3rd Quarter",
+          "detail": "12:29 - 4th Quarter",
           "state": "in",
           "completed": false,
           "home": {
-            "name": "New Orleans Saints",
-            "short": "Saints",
-            "abbreviation": "NO",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-            "score": "0",
-            "winner": false
-          },
-          "away": {
-            "name": "Carolina Panthers",
-            "short": "Panthers",
-            "abbreviation": "CAR",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-            "score": "7",
-            "winner": false
-          },
-          "venue": "Caesars Superdome"
-        },
-        {
-          "id": "401873054",
-          "name": "Buffalo Bills at New York Jets",
-          "date": "2026-11-15T18:00Z",
-          "status": "In Progress",
-          "detail": "11:16 - 3rd Quarter",
-          "state": "in",
-          "completed": false,
-          "home": {
-            "name": "New York Jets",
-            "short": "Jets",
-            "abbreviation": "NYJ",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "name": "Arizona Cardinals",
+            "short": "Cardinals",
+            "abbreviation": "ARI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
             "score": "6",
             "winner": false
           },
           "away": {
-            "name": "Buffalo Bills",
-            "short": "Bills",
-            "abbreviation": "BUF",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-            "score": "10",
+            "name": "Los Angeles Rams",
+            "short": "Rams",
+            "abbreviation": "LAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "score": "34",
             "winner": false
           },
-          "venue": "MetLife Stadium"
+          "venue": "State Farm Stadium"
+        },
+        {
+          "id": "401873063",
+          "name": "San Francisco 49ers at Dallas Cowboys",
+          "date": "2026-11-15T21:25Z",
+          "status": "In Progress",
+          "detail": "7:55 - 3rd Quarter",
+          "state": "in",
+          "completed": false,
+          "home": {
+            "name": "Dallas Cowboys",
+            "short": "Cowboys",
+            "abbreviation": "DAL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "score": "19",
+            "winner": false
+          },
+          "away": {
+            "name": "San Francisco 49ers",
+            "short": "49ers",
+            "abbreviation": "SF",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "score": "24",
+            "winner": false
+          },
+          "venue": "AT&T Stadium"
         },
         {
           "id": "401873053",
@@ -842,82 +738,186 @@
           "venue": "FC Bayern Munich Stadium"
         },
         {
-          "id": "401873062",
-          "name": "Seattle Seahawks at Las Vegas Raiders",
-          "date": "2026-11-15T21:05Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 4:05 PM EST",
-          "state": "pre",
-          "completed": false,
+          "id": "401873058",
+          "name": "Kansas City Chiefs at Atlanta Falcons",
+          "date": "2026-11-15T18:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
-            "name": "Las Vegas Raiders",
-            "short": "Raiders",
-            "abbreviation": "LV",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-            "score": "0",
+            "name": "Atlanta Falcons",
+            "short": "Falcons",
+            "abbreviation": "ATL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "score": "13",
             "winner": false
           },
           "away": {
-            "name": "Seattle Seahawks",
-            "short": "Seahawks",
-            "abbreviation": "SEA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-            "score": "0",
-            "winner": false
+            "name": "Kansas City Chiefs",
+            "short": "Chiefs",
+            "abbreviation": "KC",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "score": "35",
+            "winner": true
           },
-          "venue": "Allegiant Stadium"
+          "venue": "Mercedes-Benz Stadium"
         },
         {
-          "id": "401873061",
-          "name": "Los Angeles Rams at Arizona Cardinals",
-          "date": "2026-11-15T21:05Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 4:05 PM EST",
-          "state": "pre",
-          "completed": false,
+          "id": "401873056",
+          "name": "Houston Texans at Cleveland Browns",
+          "date": "2026-11-15T18:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
-            "name": "Arizona Cardinals",
-            "short": "Cardinals",
-            "abbreviation": "ARI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-            "score": "0",
-            "winner": false
+            "name": "Cleveland Browns",
+            "short": "Browns",
+            "abbreviation": "CLE",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "score": "27",
+            "winner": true
           },
           "away": {
-            "name": "Los Angeles Rams",
-            "short": "Rams",
-            "abbreviation": "LAR",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
-            "score": "0",
+            "name": "Houston Texans",
+            "short": "Texans",
+            "abbreviation": "HOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "score": "24",
             "winner": false
           },
-          "venue": "State Farm Stadium"
+          "venue": "Huntington Bank Field"
         },
         {
-          "id": "401873063",
-          "name": "San Francisco 49ers at Dallas Cowboys",
-          "date": "2026-11-15T21:25Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 4:25 PM EST",
-          "state": "pre",
-          "completed": false,
+          "id": "401873060",
+          "name": "Minnesota Vikings at Green Bay Packers",
+          "date": "2026-11-15T18:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
-            "name": "Dallas Cowboys",
-            "short": "Cowboys",
-            "abbreviation": "DAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
-            "score": "0",
+            "name": "Green Bay Packers",
+            "short": "Packers",
+            "abbreviation": "GB",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "score": "10",
             "winner": false
           },
           "away": {
-            "name": "San Francisco 49ers",
-            "short": "49ers",
-            "abbreviation": "SF",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
-            "score": "0",
+            "name": "Minnesota Vikings",
+            "short": "Vikings",
+            "abbreviation": "MIN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "score": "30",
+            "winner": true
+          },
+          "venue": "Lambeau Field"
+        },
+        {
+          "id": "401873057",
+          "name": "Jacksonville Jaguars at Tennessee Titans",
+          "date": "2026-11-15T18:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
+          "home": {
+            "name": "Tennessee Titans",
+            "short": "Titans",
+            "abbreviation": "TEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+            "score": "23",
             "winner": false
           },
-          "venue": "AT&T Stadium"
+          "away": {
+            "name": "Jacksonville Jaguars",
+            "short": "Jaguars",
+            "abbreviation": "JAX",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "score": "40",
+            "winner": true
+          },
+          "venue": "Nissan Stadium"
+        },
+        {
+          "id": "401873059",
+          "name": "Miami Dolphins at Indianapolis Colts",
+          "date": "2026-11-15T18:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
+          "home": {
+            "name": "Indianapolis Colts",
+            "short": "Colts",
+            "abbreviation": "IND",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "score": "24",
+            "winner": true
+          },
+          "away": {
+            "name": "Miami Dolphins",
+            "short": "Dolphins",
+            "abbreviation": "MIA",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "score": "22",
+            "winner": false
+          },
+          "venue": "Lucas Oil Stadium"
+        },
+        {
+          "id": "401873055",
+          "name": "Carolina Panthers at New Orleans Saints",
+          "date": "2026-11-15T18:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
+          "home": {
+            "name": "New Orleans Saints",
+            "short": "Saints",
+            "abbreviation": "NO",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "score": "17",
+            "winner": false
+          },
+          "away": {
+            "name": "Carolina Panthers",
+            "short": "Panthers",
+            "abbreviation": "CAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+            "score": "20",
+            "winner": true
+          },
+          "venue": "Caesars Superdome"
+        },
+        {
+          "id": "401873054",
+          "name": "Buffalo Bills at New York Jets",
+          "date": "2026-11-15T18:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
+          "home": {
+            "name": "New York Jets",
+            "short": "Jets",
+            "abbreviation": "NYJ",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "score": "12",
+            "winner": false
+          },
+          "away": {
+            "name": "Buffalo Bills",
+            "short": "Bills",
+            "abbreviation": "BUF",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+            "score": "31",
+            "winner": true
+          },
+          "venue": "MetLife Stadium"
         },
         {
           "id": "401873064",
@@ -1011,24 +1011,24 @@
           "id": "401909985",
           "name": "Indiana Pacers at Philadelphia 76ers",
           "date": "2026-11-15T18:00Z",
-          "status": "In Progress",
-          "detail": "52.7 - 3rd Quarter",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Philadelphia 76ers",
             "short": "76ers",
             "abbreviation": "PHI",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-            "score": "95",
-            "winner": false
+            "score": "131",
+            "winner": true
           },
           "away": {
             "name": "Indiana Pacers",
             "short": "Pacers",
             "abbreviation": "IND",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-            "score": "85",
+            "score": "124",
             "winner": false
           },
           "venue": "Xfinity Mobile Arena"
@@ -1037,16 +1037,16 @@
           "id": "401909986",
           "name": "Los Angeles Lakers at Phoenix Suns",
           "date": "2026-11-15T21:00Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 4:00 PM EST",
-          "state": "pre",
+          "status": "In Progress",
+          "detail": "4:54 - 4th Quarter",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Phoenix Suns",
             "short": "Suns",
             "abbreviation": "PHX",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-            "score": "0",
+            "score": "108",
             "winner": false
           },
           "away": {
@@ -1054,7 +1054,7 @@
             "short": "Lakers",
             "abbreviation": "LAL",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-            "score": "0",
+            "score": "117",
             "winner": false
           },
           "venue": "Mortgage Matchup Center"
@@ -1063,16 +1063,16 @@
           "id": "401909987",
           "name": "Charlotte Hornets at LA Clippers",
           "date": "2026-11-15T21:30Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 4:30 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 3rd Quarter",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "LA Clippers",
             "short": "Clippers",
             "abbreviation": "LAC",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-            "score": "0",
+            "score": "84",
             "winner": false
           },
           "away": {
@@ -1080,7 +1080,7 @@
             "short": "Hornets",
             "abbreviation": "CHA",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-            "score": "0",
+            "score": "83",
             "winner": false
           },
           "venue": "Intuit Dome"
@@ -1089,16 +1089,16 @@
           "id": "401909988",
           "name": "San Antonio Spurs at Utah Jazz",
           "date": "2026-11-15T22:00Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 5:00 PM EST",
-          "state": "pre",
+          "status": "In Progress",
+          "detail": "7:28 - 3rd Quarter",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Utah Jazz",
             "short": "Jazz",
             "abbreviation": "UTAH",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-            "score": "0",
+            "score": "67",
             "winner": false
           },
           "away": {
@@ -1106,7 +1106,7 @@
             "short": "Spurs",
             "abbreviation": "SA",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-            "score": "0",
+            "score": "69",
             "winner": false
           },
           "venue": "Delta Center"
@@ -1115,16 +1115,16 @@
           "id": "401909989",
           "name": "Dallas Mavericks at Boston Celtics",
           "date": "2026-11-15T23:00Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 6:00 PM EST",
-          "state": "pre",
+          "status": "In Progress",
+          "detail": "2:21 - 1st Quarter",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Boston Celtics",
             "short": "Celtics",
             "abbreviation": "BOS",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-            "score": "0",
+            "score": "34",
             "winner": false
           },
           "away": {
@@ -1132,7 +1132,7 @@
             "short": "Mavericks",
             "abbreviation": "DAL",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-            "score": "0",
+            "score": "9",
             "winner": false
           },
           "venue": "TD Garden"
@@ -1141,16 +1141,16 @@
           "id": "401909990",
           "name": "New York Knicks at Toronto Raptors",
           "date": "2026-11-15T23:00Z",
-          "status": "Scheduled",
-          "detail": "Sun, November 15th at 6:00 PM EST",
-          "state": "pre",
+          "status": "In Progress",
+          "detail": "4:46 - 1st Quarter",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Toronto Raptors",
             "short": "Raptors",
             "abbreviation": "TOR",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-            "score": "0",
+            "score": "13",
             "winner": false
           },
           "away": {
@@ -1158,7 +1158,7 @@
             "short": "Knicks",
             "abbreviation": "NY",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-            "score": "0",
+            "score": "13",
             "winner": false
           },
           "venue": "Scotiabank Arena"

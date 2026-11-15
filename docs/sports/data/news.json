@@ -1,20 +1,95 @@
 {
-  "Updated": "2026-11-15T19:51:10.999Z",
+  "Updated": "2026-11-15T23:28:45.311Z",
   "Value": [
     {
-      "Title": "Tennis-Djokovic returns to Basel for first time since 2011 in ATP Finals bid",
-      "Abstract": "Oct 16 (Reuters) - Novak Djokovic on Friday received a wildcard entry into the Swiss Indoors Basel, setting up his first appearance at the tournament since 2011 as the 24-times Grand Slam champion pursues a place at the ATP Finals and the 103rd title of his career. • The 39-year-old Serbian arrives in Switzerland after a mixed Asian swing, where he captured a record seventh China Open crown",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2eoUeZ",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2eoUeZ",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2eoUeZ",
-      "PublishedDateTime": "2026-10-16T17:18:53Z",
+      "Title": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
+      "Abstract": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel’s words, had “forgotten how to lose.” Before this Nations League group decider, they had been beaten only once in 43 matches – on penalties against Portugal in the final of this competition last year. What England produced for 65 minutes was extraordinary. What...",
+      "Url": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
+      "PublishedDateTime": "2026-11-15T21:56:41Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huXyw.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "‘Clear winners’: Tuchel reveals key reason why England beat Spain",
+      "Abstract": "Thomas Tuchel reveals key reason why England beat Spain in ‘best performance’ of his tenure - Three Lions topped Nations League group with shock win in Madrid",
+      "Url": "https://www.standard.co.uk/sport/football/why-england-beat-spain-tuchel-nations-league-b1304959.html",
+      "ArticleUrl": "https://www.standard.co.uk/sport/football/why-england-beat-spain-tuchel-nations-league-b1304959.html",
+      "ExternalUrl": "https://www.standard.co.uk/sport/football/why-england-beat-spain-tuchel-nations-league-b1304959.html",
+      "PublishedDateTime": "2026-11-15T23:00:44Z",
+      "Provider": {
+        "Name": "Evening Standard",
+        "DisplayName": "Evening Standard"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huQkx.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-England end Spain's long unbeaten run, Italy crash out of Nations League",
+      "Abstract": "MADRID, Nov 15 (Reuters) - England ended world champions Spain's record unbeaten run with a 3-2 win in Madrid to top their Nations League group, but Italy's hopes of joining them in next year's quarter-finals were dashed as they lost 4-1 in Belgium on Sunday. Captain Harry Kane's penalty shortly before the interval and second-half goals by Ezri Konsa and Ben White meant England became the first",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2huXPt",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huXPt",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huXPt",
+      "PublishedDateTime": "2026-11-15T23:15:00Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2eogms.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huSze.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Tennis-Zverev beats Jodar to ignite hunt for third ATP Finals crown",
+      "Abstract": "TURIN, Nov 15 (Reuters) - World number one Alexander Zverev launched his bid for a third ATP Finals crown with a commanding 6-4 6-4 victory over Spanish debutant Rafael Jodar on Sunday. Zverev, who won the season-ending tournament for the world’s top eight players in 2018 and 2021, claimed a break in each set to see off the 20-year-old Spaniard, who has surged from outside the top 150 to the top",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2huVkD",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huVkD",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huVkD",
+      "PublishedDateTime": "2026-11-15T23:14:32Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huXPn.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -27,369 +102,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "NFL week 10: Lions thrash Patriots, Vikings v Packers and more – live",
-      "Abstract": "Minute-by-minute updates: Join Graham Searles as Sunday’s NFL action started with a crushing 35-10 win for the Lions over the Patriots in Munich and continues with a huge Vikings v Packers matchup",
-      "Url": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/15/nfl-week-10-lions-v-patriots-and-more-live",
-      "PublishedDateTime": "2026-11-15T19:45:00Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htYXp.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Spain v England: Nations League – live",
-      "Abstract": "Minute-by-minute updates: Join Daniel Harris for England’s group decider against the world champions",
-      "Url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "PublishedDateTime": "2026-11-15T19:45:00Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huCC8.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Andy Robertson has 'carried' Scotland as Switzerland boss vows to make radical changes in Nations League finale",
-      "Abstract": "Yakin insists he will rotate his squad for Monday's final Nations League fixture against the Scots in St Gallen",
-      "Url": "https://www.dailyrecord.co.uk/sport/football/football-news/andy-robertson-carried-scotland-switzerland-37879436",
-      "ArticleUrl": "https://www.dailyrecord.co.uk/sport/football/football-news/andy-robertson-carried-scotland-switzerland-37879436",
-      "ExternalUrl": "https://www.dailyrecord.co.uk/sport/football/football-news/andy-robertson-carried-scotland-switzerland-37879436",
-      "PublishedDateTime": "2026-11-15T15:29:35Z",
-      "Provider": {
-        "Name": "Daily Record",
-        "DisplayName": "Daily Record"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hu0jy.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Trident nuclear submarine concludes record underwater deployment",
-      "Abstract": "A Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland where its crew was greeted by the defence secretary, Wes Streeting. HMS Vengeance began its patrol on 12 April and spent 217 days submerged before returning on Sunday, having left the country when Keir Starmer was in Downing Street and Manchester United were third in the Premier League. Its tour surpasses the previous...",
-      "Url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
-      "ArticleUrl": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
-      "ExternalUrl": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
-      "PublishedDateTime": "2026-11-15T18:50:33Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hsYFJ.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Ronaldinho makes stunning return to professional football at 46 after 11 years away",
-      "Abstract": "The Brazilian pulled on Ravenna’s No. 10 against Forli on Sunday afternoon, his first competitive appearance since leaving Fluminense in September 2015.",
-      "Url": "https://lentedesportiva.com/ronaldinho-makes-stunning-return-to-professional-football-at-46-after-11-years-away/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/ronaldinho-makes-stunning-return-to-professional-football-at-46-after-11-years-away/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/ronaldinho-makes-stunning-return-to-professional-football-at-46-after-11-years-away/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-15T19:30:00Z",
-      "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hubY3.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Landman beauty Michelle Randolph spotted on sideline in TCU cheerleader outfit",
-      "Abstract": "Randolph, who plays cheerleader Ainsley Norris on the show, was seen cheering enthusiastically at Amon G Carter Stadium during the college football showdown on Saturday afternoon.",
-      "Url": "https://www.dailymail.com/sport/college-football/article-16294595/michelle-randolph-tcu-cheerleader-landman-filming.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16294595/michelle-randolph-tcu-cheerleader-landman-filming.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16294595/michelle-randolph-tcu-cheerleader-landman-filming.html",
-      "PublishedDateTime": "2026-11-15T19:06:57Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huMEl.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Viktor Gyökeres Extends Nations League Record as Sweden Seal Promotion",
-      "Abstract": "Viktor Gyökeres scored twice as Sweden beat Bosnia and Herzegovina 3-2 on Saturday night, becoming the first player to score in eight consecutive Nations League appearances.",
-      "Url": "https://www.yardbarker.com/soccer/articles/viktor_gykeres_extends_nations_league_record_as_sweden_seal_promotion/s1_15968_44565426",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/viktor_gykeres_extends_nations_league_record_as_sweden_seal_promotion/s1_15968_44565426",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/viktor_gykeres_extends_nations_league_record_as_sweden_seal_promotion/s1_15968_44565426",
-      "PublishedDateTime": "2026-11-15T19:24:31Z",
-      "Provider": {
-        "Name": "Just Arsenal",
-        "DisplayName": "Just Arsenal"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA25Dl5E.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Tuchel Confirms Ezri Konsa Return as Arsenal Teammates Could Face Off in Madrid",
-      "Abstract": "Ezri Konsa is back in contention for England’s Nations League clash with Spain tonight after missing Thursday’s game against Croatia with a knee knock.",
-      "Url": "https://www.yardbarker.com/soccer/articles/tuchel_confirms_ezri_konsa_return_as_arsenal_teammates_could_face_off_in_madrid/s1_15968_44565425",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/tuchel_confirms_ezri_konsa_return_as_arsenal_teammates_could_face_off_in_madrid/s1_15968_44565425",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/tuchel_confirms_ezri_konsa_return_as_arsenal_teammates_could_face_off_in_madrid/s1_15968_44565425",
-      "PublishedDateTime": "2026-11-15T19:25:21Z",
-      "Provider": {
-        "Name": "Just Arsenal",
-        "DisplayName": "Just Arsenal"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htM5q.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "'A brilliant game for us' - Michael O’Neill hungry for more with Northern Ireland as Budapest decider looms",
-      "Abstract": "Michael O’Neill is relishing the challenge of a Nations League promotion decider away to Hungary on Tuesday – even if the Northern Ireland boss will have to watch from the stand in Budapest.",
-      "Url": "https://www.newsletter.co.uk/sport/football/northern-ireland/a-brilliant-game-for-us-michael-oneill-hungry-for-more-with-northern-ireland-as-budapest-decider-looms-9352292",
-      "ArticleUrl": "https://www.newsletter.co.uk/sport/football/northern-ireland/a-brilliant-game-for-us-michael-oneill-hungry-for-more-with-northern-ireland-as-budapest-decider-looms-9352292",
-      "ExternalUrl": "https://www.newsletter.co.uk/sport/football/northern-ireland/a-brilliant-game-for-us-michael-oneill-hungry-for-more-with-northern-ireland-as-budapest-decider-looms-9352292",
-      "PublishedDateTime": "2026-11-15T19:15:30Z",
-      "Provider": {
-        "Name": "News Letter",
-        "DisplayName": "News Letter"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hulv1.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Goodwin strikes, Earps saves as London City hold Arsenal to stay third",
-      "Abstract": "LONDON, Nov 15 (Reuters) - London City Lionesses tightened their grip on third place in the Women's Super League after goalkeeper Mary Earps produced a string of superb saves, including a stunning late intervention, to secure a 1-1 draw at Arsenal on Sunday. Earps finished with eight saves in her third start for Lionesses, preserving a valuable point in the closing stages when Frida Maanum lofted",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2htTQI",
-      "PublishedDateTime": "2026-11-15T19:24:10Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htTQG.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Mary Earps frustrates Arsenal as London City Lionesses earn battling draw",
-      "Abstract": "Arsenal and London City Lionesses played out an entertaining 1-1 draw but the result did little to bolster European qualification hopes for Renée Slegers’s side as the visitors’ goalkeeper Mary Earps produced a fine display to thwart the north London side. Frida Maanum finished off a superb team move for Arsenal to open the scoring early on but her goal was quickly cancelled out by a terrific finish from Isobel Goodwin and Arsenal eventually had...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
-      "PublishedDateTime": "2026-11-15T18:53:08Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huea7.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-      "Abstract": "When you walk up from Haydons Road train station to Plough Lane there is a blue AFC Wimbledon billboard that reads “Fan owned football”, directly opposite the site of the old Plough Lane stadium where there are now blocks of flats. There is a memorial to the old Wimbledon FC – a reminder that supporters can often have little say in the running of their club – on the same corner, just up the road from the new Cherry Red Records Stadium. AFC...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
-      "PublishedDateTime": "2026-11-15T08:00:09Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hthgB.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Ronaldinho returns at 46 to play first competitive match in 11 years",
-      "Abstract": "Nov 15 (Reuters) - Brazilian World Cup winner Ronaldinho played his first competitive match in 11 years at the age of 46, starting for Italian third-tier side Ravenna in their derby against Forli on Sunday. Wearing the number 10 shirt, Ronaldinho played the entire first half. At the interval, he took a lap of the pitch at the Stadio Bruno Benelli, waving to supporters as they stood to applaud him",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hu908",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hu908",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hu908",
-      "PublishedDateTime": "2026-11-15T18:58:00Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htTM1.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "The unexpected star of LSU's loss: its mascot tried to get into a fight with a Texas player",
-      "Abstract": "Mike the Tiger had to be restrained by staff members after a confrontation with wide receiver Chris Stewart, amid the incidents that occurred following the Longhorns' nail-biting 22-21 victory at Tiger Stadium.. LSU’s loss to Texas led to a scene that quickly drew attention in college football. After losing 22–21 in the final seconds, the Tigers’ mascot, Mike the Tiger, was involved in a tense confrontation with a Longhorns player and had to be...",
-      "Url": "https://www.marca.com/en/nfl/2026/11/15/the-unexpected-star-of-lsu-s-loss-its-mascot-tried-to-get-into-fight-with-texas-player.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/2026/11/15/the-unexpected-star-of-lsu-s-loss-its-mascot-tried-to-get-into-fight-with-texas-player.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/2026/11/15/the-unexpected-star-of-lsu-s-loss-its-mascot-tried-to-get-into-fight-with-texas-player.html",
-      "PublishedDateTime": "2026-11-15T18:43:16Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hulmx.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Jimmy Connors reveals cancer diagnosis as tennis icon gives encouraging health update",
-      "Abstract": "Wishing you the best, Jimmy!",
-      "Url": "https://www.tennis365.com/tennis-news/jimmy-connors-reveals-cancer-diagnosis-health-update",
-      "ArticleUrl": "https://www.tennis365.com/tennis-news/jimmy-connors-reveals-cancer-diagnosis-health-update",
-      "ExternalUrl": "https://www.tennis365.com/tennis-news/jimmy-connors-reveals-cancer-diagnosis-health-update",
-      "PublishedDateTime": "2026-11-15T17:00:22Z",
+      "Title": "Rafael Jodar says if Alexander Zverev deserves to be world No 1 after losing to him at the ATP Finals",
+      "Abstract": "Jodar is 0-2 against Zverev this season.",
+      "Url": "https://www.tennis365.com/tennis-news/rafael-jodar-alexander-zverev-world-no-1-atp-finals",
+      "ArticleUrl": "https://www.tennis365.com/tennis-news/rafael-jodar-alexander-zverev-world-no-1-atp-finals",
+      "ExternalUrl": "https://www.tennis365.com/tennis-news/rafael-jodar-alexander-zverev-world-no-1-atp-finals",
+      "PublishedDateTime": "2026-11-15T22:00:59Z",
       "Provider": {
         "Name": "Tennis365",
         "DisplayName": "Tennis365"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htE8d.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24yhTz.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -402,24 +127,167 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Rex Ryan is back on ESPN days after arrest in Nashville",
-      "Abstract": "Rex Ryan is back on ESPN days after arrest in Nashville - Former NFL coach Rex Ryan was back in his role as ESPN analyst on Sunday, a few days after his arrest",
-      "Url": "https://www.independent.co.uk/news/espn-nfl-new-york-jets-nashville-coach-b3085290.html",
-      "ArticleUrl": "https://www.independent.co.uk/news/espn-nfl-new-york-jets-nashville-coach-b3085290.html",
-      "ExternalUrl": "https://www.independent.co.uk/news/espn-nfl-new-york-jets-nashville-coach-b3085290.html",
-      "PublishedDateTime": "2026-11-15T18:07:22Z",
+      "Title": "Andy Burnham urges caution on axing football '3pm blackout' rule",
+      "Abstract": "The Everton-mad Prime Minister Andy Burnham said it protected the income of lower league clubs - but also complained about fixture scheduling impacting fans",
+      "Url": "https://www.mirror.co.uk/news/politics/andy-burnham-3am-blackout-rule-37877573",
+      "ArticleUrl": "https://www.mirror.co.uk/news/politics/andy-burnham-3am-blackout-rule-37877573",
+      "ExternalUrl": "https://www.mirror.co.uk/news/politics/andy-burnham-3am-blackout-rule-37877573",
+      "PublishedDateTime": "2026-11-15T22:36:10Z",
+      "Provider": {
+        "Name": "Mirror",
+        "DisplayName": "Mirror"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huSHX.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Arsenal dealt major injury blow in shock England victory over Spain",
+      "Abstract": "Arsenal dealt major injury blow as star limps off in England victory over Spain - Midfielder was forced off in Nations League clash",
+      "Url": "https://www.standard.co.uk/sport/football/arsenal-fc-injury-news-england-spain-zubimendi-b1304960.html",
+      "ArticleUrl": "https://www.standard.co.uk/sport/football/arsenal-fc-injury-news-england-spain-zubimendi-b1304960.html",
+      "ExternalUrl": "https://www.standard.co.uk/sport/football/arsenal-fc-injury-news-england-spain-zubimendi-b1304960.html",
+      "PublishedDateTime": "2026-11-15T22:56:30Z",
+      "Provider": {
+        "Name": "Evening Standard",
+        "DisplayName": "Evening Standard"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huQdj.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Arsenal make no sense – and defiant Mary Earps proves why",
+      "Abstract": "Arsenal make no sense – and defiant Mary Earps proves why - Arsenal 1-1 London City Lionesses: The Gunners drew at the Emirates for the fifth game in a row as Izzy Goodwin cancelled out Frida Maanum’s opener after just 98 seconds",
+      "Url": "https://www.independent.co.uk/sport/football/arsenal-women-london-city-lionesses-mary-earps-result-b3085308.html",
+      "ArticleUrl": "https://www.independent.co.uk/sport/football/arsenal-women-london-city-lionesses-mary-earps-result-b3085308.html",
+      "ExternalUrl": "https://www.independent.co.uk/sport/football/arsenal-women-london-city-lionesses-mary-earps-result-b3085308.html",
+      "PublishedDateTime": "2026-11-15T19:58:45Z",
       "Provider": {
         "Name": "The Independent",
         "DisplayName": "The Independent"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2htWgs.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huc7g.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Rice reveals bold England prediction that came true in Spain win",
+      "Abstract": "Declan Rice reveals bold England prediction that came true in stunning Spain victory - Arsenal star played crucial role in historic Nations League win",
+      "Url": "https://www.standard.co.uk/sport/football/england-spain-rice-prediction-nations-league-b1304958.html",
+      "ArticleUrl": "https://www.standard.co.uk/sport/football/england-spain-rice-prediction-nations-league-b1304958.html",
+      "ExternalUrl": "https://www.standard.co.uk/sport/football/england-spain-rice-prediction-nations-league-b1304958.html",
+      "PublishedDateTime": "2026-11-15T22:40:39Z",
+      "Provider": {
+        "Name": "Evening Standard",
+        "DisplayName": "Evening Standard"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvi2Y.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Justin Thomas Suggests Timeframe For PGA Tour Return Following Back Surgery",
+      "Abstract": "The former World No.1 has given his latest update on his recovery from back surgery, and a potential timeframe for his return to PGA Tour action",
+      "Url": "https://www.golfmonthly.com/news/justin-thomas-timeframe-pga-tour-return",
+      "ArticleUrl": "https://www.golfmonthly.com/news/justin-thomas-timeframe-pga-tour-return",
+      "ExternalUrl": "https://www.golfmonthly.com/news/justin-thomas-timeframe-pga-tour-return",
+      "PublishedDateTime": "2026-01-24T20:28:31Z",
+      "Provider": {
+        "Name": "Golf Monthly",
+        "DisplayName": "Golf Monthly"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1UUhB5.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Golf"
+      ],
+      "Sport": "Golf",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Justin Thomas Gives Brutally Honest Assessment Of 'Humiliating' Return To PGA Tour Action At Arnold Palmer Invitational",
+      "Abstract": "The former World No.1 admitted his return to PGA Tour action at the Arnold Palmer Invitational didn't go as he'd expected",
+      "Url": "https://www.golfmonthly.com/news/justin-thomas-assessment-arnold-palmer-invitational",
+      "ArticleUrl": "https://www.golfmonthly.com/news/justin-thomas-assessment-arnold-palmer-invitational",
+      "ExternalUrl": "https://www.golfmonthly.com/news/justin-thomas-assessment-arnold-palmer-invitational",
+      "PublishedDateTime": "2026-03-07T14:49:54Z",
+      "Provider": {
+        "Name": "Golf Monthly",
+        "DisplayName": "Golf Monthly"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1XIYSn.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Golf"
+      ],
+      "Sport": "Golf",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Raiders recreate Indiana’s title play for Fernando Mendoza’s first TD",
+      "Abstract": "Las Vegas Raiders fans just witnessed an unforgettable full-circle moment.. Fernando Mendoza’s first touchdown in the NFL carried special meaning: the Las Vegas Raiders rookie quarterback once again showcased the same play that defined one of the biggest moments of his college career. On his first offensive series as the Raiders’ starter, Fernando Mendoza capped an 11-play drive with a designed 10-yard run into the end zone to open the scoring...",
+      "Url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/15/raiders-recreate-indiana-s-title-play-for-fernando-mendoza-s-first-td.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/15/raiders-recreate-indiana-s-title-play-for-fernando-mendoza-s-first-td.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/15/raiders-recreate-indiana-s-title-play-for-fernando-mendoza-s-first-td.html",
+      "PublishedDateTime": "2026-11-15T22:33:54Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [],
       "Categories": [
         "NFL"
       ],
@@ -427,44 +295,69 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Tennis-WTA chair is fully confident of financial recovery in 2027",
-      "Abstract": "By Rory Carroll INDIAN WELLS, California, Nov 15 (Reuters) - Women's Tennis Association Chair Valerie Camillo said she expects a return to \"normal operations, normal financials\" in 2027 and that she has full confidence in its outlook despite reports the tour could run short of cash. The Telegraph reported in September that the WTA projects operating losses of $23 million this year, adding that",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hudMr",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hudMr",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hudMr",
-      "PublishedDateTime": "2026-11-15T18:02:16Z",
+      "Title": "Juve anxious over Celik: injury in warm-up ahead of France v Turkey",
+      "Abstract": "The Turkish player was set to start the Nations League clash but was replaced shortly before kick-off",
+      "Url": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/15-11-2026/celikf-injury-the-condition-of-the-juventus-defender.shtml",
+      "ArticleUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/15-11-2026/celikf-injury-the-condition-of-the-juventus-defender.shtml",
+      "ExternalUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/15-11-2026/celikf-injury-the-condition-of-the-juventus-defender.shtml",
+      "PublishedDateTime": "2026-11-15T22:28:14Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "La Gazzetta dello Sport EN",
+        "DisplayName": "La Gazzetta dello Sport EN"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hubvO.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huXGk.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Tennis"
+        "Football"
       ],
-      "Sport": "Tennis",
+      "Sport": "Football",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Damian Lillard sends four-word message after stunning NBA comeback following 19-month absence",
-      "Abstract": "Nineteen months after tearing his left Achilles in the playoffs, Damian Lillard is back in Portland, averaging more than 20 points a game at 36 and driving the Trail Blazers to a 9-3 start that nobody saw coming.",
-      "Url": "https://lentedesportiva.com/damian-lillard-sends-four-word-message-after-stunning-nba-comeback-following-19-month-absence/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/damian-lillard-sends-four-word-message-after-stunning-nba-comeback-following-19-month-absence/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/damian-lillard-sends-four-word-message-after-stunning-nba-comeback-following-19-month-absence/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-15T18:00:00Z",
+      "Title": "'No risks' - Didier Deschamps doubles down on decision to release Kylian Mbappe from France camp ahead of trip to Azerbaijan",
+      "Abstract": "France boss Didier Deschamps has doubled down on his decision to allow Kylian Mbappe to leave the squad early, saying there was no need to take any “risks” with the forward’s fitness after he fired his country to the 2026 World Cup. The Real Madrid star pulled out of his side’s final World Cup qualifier against Azerbaijan on Sunday after sustaining an ankle injury in Thursday’s win over Ukraine.",
+      "Url": "https://www.goal.com/en-gb/lists/no-risks-didier-deschamps-doubles-down-on-decision-to-release-kylian-mbappe-from-france-camp-ahead-of-trip-to-azerbaijan/blta094256dc1d30eda?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "ArticleUrl": "https://www.goal.com/en-gb/lists/no-risks-didier-deschamps-doubles-down-on-decision-to-release-kylian-mbappe-from-france-camp-ahead-of-trip-to-azerbaijan/blta094256dc1d30eda?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "ExternalUrl": "https://www.goal.com/en-gb/lists/no-risks-didier-deschamps-doubles-down-on-decision-to-release-kylian-mbappe-from-france-camp-ahead-of-trip-to-azerbaijan/blta094256dc1d30eda?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "PublishedDateTime": "2025-11-15T17:59:20Z",
+      "Provider": {
+        "Name": "GOAL",
+        "DisplayName": "GOAL"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1MiA9K.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Shaq ranks himself and Kobe Bryant above Michael Jordan and Scottie Pippen in NBA debate",
+      "Abstract": "Shaquille O’Neal has used an appearance on the Free Range Podcast to place his Los Angeles Lakers pairing with Kobe Bryant above Michael Jordan and Scottie Pippen’s Chicago Bulls and above Magic Johnson and Kareem Abdul-Jabbar’s Showtime Lakers.",
+      "Url": "https://lentedesportiva.com/shaq-ranks-himself-and-kobe-bryant-above-michael-jordan-and-scottie-pippen-in-nba-debate/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/shaq-ranks-himself-and-kobe-bryant-above-michael-jordan-and-scottie-pippen-in-nba-debate/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/shaq-ranks-himself-and-kobe-bryant-above-michael-jordan-and-scottie-pippen-in-nba-debate/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-15T22:30:00Z",
       "Provider": {
         "Name": "Lente Desportiva",
         "DisplayName": "Lente Desportiva"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hu3EZ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huoDS.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -474,6 +367,124 @@
         "NBA"
       ],
       "Sport": "NBA",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Two children, 10 and 11, and woman are killed in car crash moments after boy's football game win",
+      "Abstract": "Justice Larson, 11, and his cousin Kailee Thompson, 10, were both tragically killed in the crash, along with another woman, on Saturday night as they returned from a youth football game.",
+      "Url": "https://www.dailymail.com/news/article-16294547/children-woman-killed-horror-car-crash-florida.html",
+      "ArticleUrl": "https://www.dailymail.com/news/article-16294547/children-woman-killed-horror-car-crash-florida.html",
+      "ExternalUrl": "https://www.dailymail.com/news/article-16294547/children-woman-killed-horror-car-crash-florida.html",
+      "PublishedDateTime": "2026-11-15T21:36:24Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hulYR.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Fernando Mendoza scores touchdown just minutes into his NFL debut",
+      "Abstract": "Mendoza stepped up as the Raiders' starting quarterback this week after the franchise traded away veteran signal caller Kirk Cousins to the Minnesota Vikings at the deadline on Tuesday.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16294885/fernando-mendoza-raiders-touchdown-seahawks-las-vegas.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16294885/fernando-mendoza-raiders-touchdown-seahawks-las-vegas.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16294885/fernando-mendoza-raiders-touchdown-seahawks-las-vegas.html",
+      "PublishedDateTime": "2026-11-15T21:43:04Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvcPu.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Britain's Prince Harry visits war-wounded in Ukraine",
+      "Abstract": "LONDON, Nov 15 (Reuters) - Britain's Prince Harry met soldiers wounded in action during a two-day visit to Ukraine, expressing confidence that it could win the war against Russia and pledging to bring his Invictus Games to the country once there was peace. On his fourth visit to Ukraine since Russia's invasion in 2022, Harry visited Lviv in the west of the country and spoke at a conference for",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2huw9v",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huw9v",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huw9v",
+      "PublishedDateTime": "2026-11-15T22:04:10Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvhQz.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "England hold on for remarkable win in Madrid to end Spain’s 43-game unbeaten run",
+      "Abstract": "Tuchel’s side went through to the Nations League quarter-finals as Group A3 winners.",
+      "Url": "https://www.irishnews.com/sport/soccer/england-hold-on-for-remarkable-win-in-madrid-to-end-spains-43-game-unbeaten-run-256RB2K4BBNZ5FF24GLKVQTFQU/",
+      "ArticleUrl": "https://www.irishnews.com/sport/soccer/england-hold-on-for-remarkable-win-in-madrid-to-end-spains-43-game-unbeaten-run-256RB2K4BBNZ5FF24GLKVQTFQU/",
+      "ExternalUrl": "https://www.irishnews.com/sport/soccer/england-hold-on-for-remarkable-win-in-madrid-to-end-spains-43-game-unbeaten-run-256RB2K4BBNZ5FF24GLKVQTFQU/",
+      "PublishedDateTime": "2026-11-15T22:21:13Z",
+      "Provider": {
+        "Name": "The Irish News",
+        "DisplayName": "The Irish News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvflj.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Shedeur Sanders’ dream is dead: Watson’s latest masterclass just buried the QB for good",
+      "Abstract": "Deshaun Watson led another comeback. After his latest statement performance, Shedeur Sanders’ path back to the starting job looks more difficult than ever.. Shedeur Sanders’ chances of reclaiming the starting quarterback job for the Cleveland Browns are virtually nonexistent after Deshaun Watson orchestrated another comeback that reinforced the coaching staff’s confidence in the veteran, who is truly experiencing a career renaissance. The Browns...",
+      "Url": "https://www.marca.com/en/nfl/cleveland-browns/2026/11/15/shedeur-sanders-dream-is-dead-watson-s-latest-masterclass-just-buried-the-qb-for-good.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/cleveland-browns/2026/11/15/shedeur-sanders-dream-is-dead-watson-s-latest-masterclass-just-buried-the-qb-for-good.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/cleveland-browns/2026/11/15/shedeur-sanders-dream-is-dead-watson-s-latest-masterclass-just-buried-the-qb-for-good.html",
+      "PublishedDateTime": "2026-11-15T22:20:24Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     }
   ]
