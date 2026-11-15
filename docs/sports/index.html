@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#49409A">
+  <meta name="msapplication-TileColor" content="#49409A">
+  <meta name="msapplication-TileImage" content="assets/sports-logo.png">
+  <meta name="msapplication-square150x150logo" content="assets/sports-logo.png">
+  <meta name="description" content="Sports scores and news">
+  <title>Sports</title>
+  <link rel="icon" type="image/png" href="assets/sports-logo.png">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="app-header">
+    <button class="icon-btn" id="menuBtn" type="button" aria-label="Menu">&#9776;</button>
+    <h1 id="pageTitle">Today</h1>
+    <button class="icon-btn" id="refreshBtn" type="button" aria-label="Refresh">&#8635;</button>
+  </header>
+
+  <nav class="pivot" id="pivot">
+    <button type="button" data-tab="today" class="active">Today</button>
+    <button type="button" data-tab="scores">Scores</button>
+    <button type="button" data-tab="news">News</button>
+    <button type="button" data-tab="leagues">Leagues</button>
+  </nav>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer-brand">
+      <img src="assets/sports-logo.png" alt="" width="40" height="40">
+      <span>Sports</span>
+    </div>
+    <button type="button" data-tab="today">Today</button>
+    <button type="button" data-tab="scores">Scores</button>
+    <button type="button" data-tab="news">News</button>
+    <button type="button" data-tab="leagues">Leagues</button>
+    <div class="drawer-foot">Data: MSN + ESPN</div>
+  </aside>
+
+  <main id="app">
+    <div class="loading"><span class="spinner"></span>Loading Sports&hellip;</div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

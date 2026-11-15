@@ -32,15 +32,18 @@ jobs:
       - name: Generate feed
         run: node scripts/generate-lumia-feed.mjs docs/oneservice.json
 
-      - name: Commit feed
+      - name: Generate sports feed
+        run: node scripts/generate-sports-feed.mjs docs/sports/data/news.json docs/sports/data/scores.json
+
+      - name: Commit feeds
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/oneservice.json
+          git add docs/oneservice.json docs/sports/data/news.json docs/sports/data/scores.json
           if git diff --cached --quiet; then
-            echo "feed unchanged"
+            echo "feeds unchanged"
           else
-            git commit -m "chore(lumia-535): refresh OneService feed"
+            git commit -m "chore(lumia-535): refresh OneService and Sports feeds"
             git push
           fi
 

@@ -1,0 +1,566 @@
+:root {
+  --bg: #101010;
+  --surface: #1f1f1f;
+  --surface-2: #2a2a2a;
+  --text: #ffffff;
+  --muted: #a6a6a6;
+  --muted-2: #c0c0c0;
+  --accent: #6b69d6;
+  --accent-bright: #a1a1f7;
+  --accent-deep: #49409a;
+  --accent-dark: #373277;
+  --win: #8cbd18;
+  --live: #d13438;
+  --draw: #ffb900;
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", "Selawik", "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding-top: 92px;
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------- Header ---------- */
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  background: var(--surface);
+  border-bottom: 1px solid var(--surface-2);
+}
+
+.app-header h1 {
+  flex: 1;
+  margin: 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.icon-btn {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1;
+  padding: 0;
+}
+
+#refreshBtn.spinning {
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- Pivot ---------- */
+
+.pivot {
+  position: fixed;
+  top: 48px;
+  left: 0;
+  right: 0;
+  height: 44px;
+  z-index: 19;
+  display: flex;
+  background: var(--surface);
+  border-bottom: 1px solid var(--surface-2);
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.pivot button {
+  flex: 1 0 auto;
+  min-width: 88px;
+  height: 44px;
+  padding: 0 14px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 14px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.pivot button.active {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.pivot button.active::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+/* ---------- Main ---------- */
+
+main {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 12px 12px 40px;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 18px 2px 8px;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-head .more {
+  border: 0;
+  background: transparent;
+  color: var(--accent-bright);
+  font-size: 12px;
+  padding: 4px 0;
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  position: relative;
+  height: 200px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--accent-dark), var(--accent-deep));
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-grad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(16, 16, 16, 0.02) 0%, rgba(16, 16, 16, 0.45) 52%, rgba(16, 16, 16, 0.96) 100%);
+}
+
+.hero-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 14px;
+}
+
+.kicker {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent-bright);
+}
+
+.hero-title {
+  margin: 5px 0 0;
+  font-size: 19px;
+  line-height: 1.22;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-meta {
+  margin-top: 6px;
+  font-size: 11px;
+  color: var(--muted-2);
+}
+
+/* ---------- Story list ---------- */
+
+.story-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.story {
+  display: flex;
+  min-height: 76px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.story-thumb {
+  flex: 0 0 96px;
+  width: 96px;
+  min-height: 76px;
+  background-color: var(--surface-2);
+  background-size: cover;
+  background-position: center;
+}
+
+.story-body {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story-title {
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 600;
+  max-height: 2.5em;
+  overflow: hidden;
+}
+
+.story-meta {
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------- Scores ---------- */
+
+.score-strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.score-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.score-card {
+  flex: 0 0 220px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 10px 12px 12px;
+}
+
+.score-grid .score-card {
+  flex: 1 1 100%;
+}
+
+.score-league {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.score-status {
+  margin: 2px 0 7px;
+  font-size: 11px;
+  color: var(--accent-bright);
+}
+
+.score-status.live {
+  color: var(--live);
+  font-weight: 600;
+}
+
+.score-status.final {
+  color: var(--muted);
+}
+
+.team-row {
+  display: flex;
+  align-items: center;
+  height: 27px;
+}
+
+.team-logo {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+.team-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.team-score {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.team-row.winner .team-score {
+  color: var(--win);
+}
+
+.team-row.loser {
+  color: var(--muted);
+}
+
+.team-row.loser .team-score {
+  color: var(--muted);
+}
+
+/* ---------- Leagues ---------- */
+
+.league-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.league-tile {
+  flex: 0 0 calc(50% - 4px);
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 16px 10px 14px;
+  text-align: center;
+  border: 0;
+}
+
+.league-tile img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+}
+
+.league-tile .name {
+  display: block;
+  margin-top: 9px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.league-tile .sub {
+  display: block;
+  margin-top: 2px;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.league-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 2px 8px;
+}
+
+.league-head img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.league-head h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.league-head .count {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* ---------- States ---------- */
+
+.loading,
+.empty,
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 16px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.error {
+  flex-direction: column;
+}
+
+.error button {
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent-bright);
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-deep);
+  border-top-color: var(--accent-bright);
+  animation: spin 1s linear infinite;
+}
+
+/* ---------- Drawer ---------- */
+
+.drawer-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 30;
+}
+
+.drawer-backdrop.open {
+  display: block;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 264px;
+  z-index: 40;
+  background: var(--surface);
+  transform: translateX(-105%);
+  transition: transform 0.18s ease-out;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--surface-2);
+}
+
+.drawer.open {
+  transform: translateX(0);
+}
+
+.drawer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--surface-2);
+}
+
+.drawer-brand img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.drawer button {
+  display: block;
+  width: 100%;
+  padding: 14px 18px;
+  border: 0;
+  border-bottom: 1px solid var(--surface-2);
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  text-align: left;
+}
+
+.drawer button.active {
+  color: var(--accent-bright);
+  font-weight: 600;
+}
+
+.drawer-foot {
+  margin-top: auto;
+  padding: 18px;
+  font-size: 10px;
+  color: #6b6b6b;
+}
+
+/* ---------- Larger screens ---------- */
+
+@media (min-width: 600px) {
+  main {
+    padding: 16px 16px 48px;
+  }
+
+  .hero {
+    height: 260px;
+  }
+
+  .story-thumb {
+    flex-basis: 120px;
+    width: 120px;
+  }
+
+  .score-grid .score-card {
+    flex: 0 0 calc(50% - 4px);
+  }
+}
