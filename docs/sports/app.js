@@ -87,12 +87,16 @@
     return (article.Categories && article.Categories[0]) || article.Sport || "Sport";
   }
 
+  function imageOf(article) {
+    return (article.Images && article.Images[0] && article.Images[0].Url) || "";
+  }
+
   function heroHtml(article) {
     if (!article) return "";
-    var image = article.Images && article.Images[0] && article.Images[0].Url;
+    var image = imageOf(article);
     return (
       '<div class="hero tap" data-url="' + esc(article.Url) + '">' +
-      '<div class="hero-img" style="' + bg(image) + '"></div>' +
+      '<div class="hero-img"' + (image ? ' style="' + bg(image) + '"' : "") + "></div>" +
       '<div class="hero-grad"></div>' +
       '<div class="hero-content">' +
       '<div class="kicker">' + esc(kicker(article)) + "</div>" +
@@ -103,10 +107,10 @@
   }
 
   function storyHtml(article) {
-    var image = article.Images && article.Images[0] && article.Images[0].Url;
+    var image = imageOf(article);
     return (
       '<div class="story tap" data-url="' + esc(article.Url) + '">' +
-      '<div class="story-thumb" style="' + bg(image) + '"></div>' +
+      '<div class="story-thumb' + (image ? "" : " no-img") + '"' + (image ? ' style="' + bg(image) + '"' : "") + "></div>" +
       '<div class="story-body">' +
       '<div class="story-title">' + esc(article.Title) + "</div>" +
       '<div class="story-meta">' + esc(storyMeta(article)) + "</div>" +
@@ -170,8 +174,15 @@
     var html = "";
     var news = state.news;
     if (news.length) {
-      html += heroHtml(news[0]);
-      var stories = news.slice(1, 8);
+      var heroIndex = 0;
+      for (var hi = 0; hi < news.length; hi++) {
+        if (imageOf(news[hi])) {
+          heroIndex = hi;
+          break;
+        }
+      }
+      html += heroHtml(news[heroIndex]);
+      var stories = news.filter(function (_, idx) { return idx !== heroIndex; }).slice(0, 7);
       if (stories.length) {
         html += '<div class="section-head"><h2>Top Stories</h2><button class="more" type="button" data-tab="news">See all</button></div>';
         html += '<div class="story-list">' + stories.map(storyHtml).join("") + "</div>";
