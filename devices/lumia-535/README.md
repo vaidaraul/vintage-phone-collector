@@ -25,6 +25,7 @@ The local package and tool archive is catalogued in [archive.md](archive.md); bi
 | SD card | About 7.05 GB free; Downloads, Pictures and Documents moved here |
 | XAP/APPX move to SD | Not supported on this build (`0x80073D0B` / `0x80070490`) |
 | Web browser | UC Browser 3.4.0.374 installed; loads pages (user-confirmed) |
+| Live Store | 1.2.0.0; installs and launches apps (CMD Injector injected) |
 | Voice assistant | reCortana 2.0.0.1 installed; answers (user-confirmed) |
 | Search key | Remapped to reCortana (`WEHButton4`) |
 | System modifications | No bootloader unlock, custom ROM, root or firmware replacement |
@@ -119,7 +120,11 @@ The Microsoft Store's pending updates are not a reliable indicator on this devic
 
 Live Store catalog versions match the installed apps: reCortana `2.0.0.1`, CMD Injector `4.0.6.0`, WUT Mini `1.5.1.0`, Live Store `1.2.0.0`, UC Browser `3.4.0.374`. No installed ARM32 app has a newer compatible version.
 
-The Store's failures are expected. The Live Store install path should target `C:\` because the default package volume is the stale SD card; set `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\PackageVolumes\DefaultVolumeKey` to `1` or use `MinDeployAppX.exe /AddToVolume /Volume:C:\`.
+The Store's failures are expected. Live Store deployment was failing because the default package volume was the stale SD card (`DefaultVolumeKey=2`). It is now set to `1` (C:), and a small Live Store app installs and launches (user-confirmed). Keep APPX installs on `C:\`; the SD package volume is not reliable.
+
+### Live Store and CMD Injector
+
+CMD Injector is fully injected system-wide: `Bootsh` Start=`2`, `UMCIAuditMode`=`1`, and `MinDeployAppX.exe`, `telnetd.exe`, `CMDInjectorSetup.bat`, `startup.bsc`, `bootshsvc.dll` and `PowerTool.exe` are present in `System32`. Live Store can deploy apps through this injection. The remaining failure was the default package volume; setting it to `C:` fixed installs. Do not set it back to `2` unless the SD package volume is repaired.
 
 See [Games and package records](#games-and-package-records) for package sources, manifest facts and further notes. Additional untested packages in the local archive are catalogued in [archive.md](archive.md).
 
