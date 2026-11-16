@@ -1,19 +1,34 @@
 {
   "Value": [
     {
-      "Title": "Prince and Princess of Wales begin three-day visit to India for Earthshot Prize",
-      "Abstract": "Prince and Princess of Wales begin three-day visit to India for Earthshot Prize - The couple will also travel to New Delhi to meet India’s Prime Minister Narendra Modi.",
-      "Url": "https://www.independent.co.uk/news/uk/home-news/narendra-modi-india-prince-wales-b3085387.html",
-      "ArticleUrl": "https://www.independent.co.uk/news/uk/home-news/narendra-modi-india-prince-wales-b3085387.html",
-      "ExternalUrl": "https://www.independent.co.uk/news/uk/home-news/narendra-modi-india-prince-wales-b3085387.html",
-      "PublishedDateTime": "2026-11-16T02:45:44Z",
+      "Title": "Football in mourning: Dino Sani dies, former Milan player and 1958 World Cup winner with Brazil",
+      "Abstract": "The former midfielder and manager has passed away aged 94: with the Rossoneri he won the European Cup in 1963",
+      "Url": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
+      "ArticleUrl": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
+      "ExternalUrl": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
+      "PublishedDateTime": "2026-11-16T10:45:08Z",
       "Provider": {
-        "Name": "The Independent",
-        "DisplayName": "The Independent"
+        "Name": "La Gazzetta dello Sport EN",
+        "DisplayName": "La Gazzetta dello Sport EN"
+      },
+      "Images": [],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "As gimbal cameras add ever-more features the DJI Pocket makes the argument for keeping things simple",
+      "Abstract": "Americans might not even be allowed to choose – but there is a serious advantage to the DJI Pocket 3",
+      "Url": "https://www.digitalcameraworld.com/cameras/action-cameras/as-gimbal-cameras-add-ever-more-features-the-dji-pocket-makes-a-strong-argument-for-keeping-things-simple",
+      "ArticleUrl": "https://www.digitalcameraworld.com/cameras/action-cameras/as-gimbal-cameras-add-ever-more-features-the-dji-pocket-makes-a-strong-argument-for-keeping-things-simple",
+      "ExternalUrl": "https://www.digitalcameraworld.com/cameras/action-cameras/as-gimbal-cameras-add-ever-more-features-the-dji-pocket-makes-a-strong-argument-for-keeping-things-simple",
+      "PublishedDateTime": "2026-11-16T08:34:02Z",
+      "Provider": {
+        "Name": "Digital Camera World",
+        "DisplayName": "Digital Camera World"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvKGr.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1pooEs.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -23,41 +38,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "FDA rejects cancer drug invented in China in blow to Beijing’s biotech sector",
-      "Abstract": "Summit’s ivonescimab was seen as a test case for whether the country’s medicine could pass scrutiny in the US",
-      "Url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99",
-      "ArticleUrl": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99",
-      "ExternalUrl": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99",
-      "PublishedDateTime": "2026-11-16T02:46:20Z",
-      "Provider": {
-        "Name": "The Financial Times",
-        "DisplayName": "The Financial Times"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hu3qd.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "15-minute salmon and spinach pasta: the pasta water trick that makes the sauce silky without cream",
-      "Abstract": "Sometimes the simplest things really are the best. This pasta brings together salmon, wilted spinach, Parmesan, a splash of white wine, and a squeeze of lemon – nothing more. What makes it work is a technique straight out of Italian cooking: the pasta goes straight from the pot to the pan, starchy water and all, … Read more",
-      "Url": "https://gastrofun.net/article/15-minute-salmon-and-spinach-pasta-the-pasta-water-trick-that-makes-the-sauce-silky-without-cream/",
-      "ArticleUrl": "https://gastrofun.net/article/15-minute-salmon-and-spinach-pasta-the-pasta-water-trick-that-makes-the-sauce-silky-without-cream/",
-      "ExternalUrl": "https://gastrofun.net/article/15-minute-salmon-and-spinach-pasta-the-pasta-water-trick-that-makes-the-sauce-silky-without-cream/",
-      "PublishedDateTime": "2026-11-16T02:49:22Z",
+      "Title": "One-pot potato and leek soup, silky and done in under 45 minutes",
+      "Abstract": "Leek and potato soup is cold-weather cooking at its most practical. Both vegetables are at their best right now: the USDA SNAP-Ed seasonal produce guide lists leeks and potatoes among its winter staples, and in November that combination shows up at every farmers market and in the produce section for a reason. This version is … Read more",
+      "Url": "https://gastrofun.net/article/one-pot-potato-and-leek-soup-silky-and-done-in-under-45-minutes/",
+      "ArticleUrl": "https://gastrofun.net/article/one-pot-potato-and-leek-soup-silky-and-done-in-under-45-minutes/",
+      "ExternalUrl": "https://gastrofun.net/article/one-pot-potato-and-leek-soup-silky-and-done-in-under-45-minutes/",
+      "PublishedDateTime": "2026-11-16T10:53:53Z",
       "Provider": {
         "Name": "GastroFun.net",
         "DisplayName": "GastroFun.net"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hv7dY.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxon4.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -67,19 +60,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Only in Australia! Wildlife carer faces ban after taking sick wombat interstate without a permit",
-      "Abstract": "A dedicated wildlife carer could be banned from rescuing sick and injured animals.",
-      "Url": "https://www.dailymail.com/news/article-16294867/Jade-Whittingham-wildlife-rescue.html",
-      "ArticleUrl": "https://www.dailymail.com/news/article-16294867/Jade-Whittingham-wildlife-rescue.html",
-      "ExternalUrl": "https://www.dailymail.com/news/article-16294867/Jade-Whittingham-wildlife-rescue.html",
-      "PublishedDateTime": "2026-11-16T00:41:43Z",
+      "Title": "Care home residents and primary pupils in Bourne honour the fallen",
+      "Abstract": "",
+      "Url": "https://www.peterboroughtoday.co.uk/your-world/care-home-residents-and-primary-pupils-in-bourne-honour-the-fallen-9353045",
+      "ArticleUrl": "https://www.peterboroughtoday.co.uk/your-world/care-home-residents-and-primary-pupils-in-bourne-honour-the-fallen-9353045",
+      "ExternalUrl": "https://www.peterboroughtoday.co.uk/your-world/care-home-residents-and-primary-pupils-in-bourne-honour-the-fallen-9353045",
+      "PublishedDateTime": "2026-11-16T10:52:32Z",
       "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "Peterborough Telegraph",
+        "DisplayName": "Peterborough Telegraph"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hv6fB.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwZB2.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -89,19 +82,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Alleged victim arrested after home invader stabbed to death and sister charged - as mum speaks out",
-      "Abstract": "An alleged home invasion has left one man dead and his sister charged while cops hunt a third person, after they arrested the occupant of the house over the death.",
-      "Url": "https://www.dailymail.com/news/article-16294897/kanon-greene-frankston-home-invasion-stabbing-ghb-mother.html",
-      "ArticleUrl": "https://www.dailymail.com/news/article-16294897/kanon-greene-frankston-home-invasion-stabbing-ghb-mother.html",
-      "ExternalUrl": "https://www.dailymail.com/news/article-16294897/kanon-greene-frankston-home-invasion-stabbing-ghb-mother.html",
-      "PublishedDateTime": "2026-11-16T02:47:18Z",
+      "Title": "I Am Helen plot explained as Nicola Coughlan admits being 'scared every day'",
+      "Abstract": "Nicola Coughlan takes on a relationship darkened by online misogyny in I Am Helen, Channel 4's two-part drama.",
+      "Url": "https://www.dailyrecord.co.uk/tv/am-helen-plot-explained-nicola-37881003",
+      "ArticleUrl": "https://www.dailyrecord.co.uk/tv/am-helen-plot-explained-nicola-37881003",
+      "ExternalUrl": "https://www.dailyrecord.co.uk/tv/am-helen-plot-explained-nicola-37881003",
+      "PublishedDateTime": "2026-11-16T10:47:50Z",
       "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "Daily Record",
+        "DisplayName": "Daily Record"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huWGl.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hx6NF.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -111,19 +104,41 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Motor racing-F1 must push harder, move faster to open up motorsport careers, says Hamilton",
-      "Abstract": "Nov 16 (Reuters) - Lewis Hamilton has called on Formula One to be more proactive in creating career opportunities for young people after his foundation published a report on Monday saying the sport was at risk of missing out on engineering and technical talent. In its report titled \"Igniting Inclusion\", Hamilton's Mission 44 foundation called on Formula One to invest at least £50 million ($66",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
-      "PublishedDateTime": "2026-11-16T02:44:38Z",
+      "Title": "Fife dad's fury after finding sons among 27 children abandoned by nanny",
+      "Abstract": "A dad has said he was in 'disbelief' when he appeared at the nanny's house and found dozens of 'distressed' children alone",
+      "Url": "https://www.dailyrecord.co.uk/news/uk-world-news/fife-dads-fury-after-finding-37880940",
+      "ArticleUrl": "https://www.dailyrecord.co.uk/news/uk-world-news/fife-dads-fury-after-finding-37880940",
+      "ExternalUrl": "https://www.dailyrecord.co.uk/news/uk-world-news/fife-dads-fury-after-finding-37880940",
+      "PublishedDateTime": "2026-11-16T10:52:55Z",
+      "Provider": {
+        "Name": "Daily Record",
+        "DisplayName": "Daily Record"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwUoZ.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Belgium's record scorer Lukaku, 33, retires from internationals",
+      "Abstract": "Nov 16 (Reuters) - Romelu Lukaku, Belgium's all-time leading scorer, announced his retirement from international soccer on Monday after a 16-year career in which he scored 94 goals in 135 games. The 33-year-old striker, the fifth-highest scorer in men's international football history, helped Belgium finish third at the 2018 World Cup during their most successful period. \"These 16 years I gave",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
+      "PublishedDateTime": "2026-11-16T10:49:55Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvhcu.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwN0W.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -133,19 +148,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Hopkins’ late stunner sends Kansas City past Gotham and into NWSL final",
-      "Abstract": "After a week dominated by a headline-grabbing stadium imbroglio, Gotham FC and the Kansas City Current finally got down to the vital business of their NWSL semi-final on Sunday afternoon, a frigid encounter at an unlikely venue on New York City’s Randall’s Island with a place in next Saturday’s championship match at stake. Haley Hopkins delivered the knockout blow at the death, hitting an 89th-minute volley off the crossbar and in to seal a 2-1...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
-      "PublishedDateTime": "2026-11-15T23:03:38Z",
+      "Title": "Double decker bus crashes into railway bridge in Kibworth",
+      "Abstract": "Firefighters were called to the scene",
+      "Url": "https://www.harboroughmail.co.uk/news/traffic-and-travel/double-decker-bus-crashed-into-railway-bridge-in-kibworth-9352949",
+      "ArticleUrl": "https://www.harboroughmail.co.uk/news/traffic-and-travel/double-decker-bus-crashed-into-railway-bridge-in-kibworth-9352949",
+      "ExternalUrl": "https://www.harboroughmail.co.uk/news/traffic-and-travel/double-decker-bus-crashed-into-railway-bridge-in-kibworth-9352949",
+      "PublishedDateTime": "2026-11-16T10:43:39Z",
       "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
+        "Name": "Harborough Mail",
+        "DisplayName": "Harborough Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huIMS.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxoeh.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -155,19 +170,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "No one injured after gunman opens fire on Xbox studio",
-      "Abstract": "The Xbox-owned studio inXile Entertainment confirmed that no developers were hurt",
-      "Url": "https://www.polygon.com/inxile-entertainment-shooting-xbox/",
-      "ArticleUrl": "https://www.polygon.com/inxile-entertainment-shooting-xbox/",
-      "ExternalUrl": "https://www.polygon.com/inxile-entertainment-shooting-xbox/",
-      "PublishedDateTime": "2026-11-15T14:49:51Z",
+      "Title": "Ukraine strikes key bridge in Crimea",
+      "Abstract": "Ukraine strikes key bridge in Crimea",
+      "Url": "https://www.telegraph.co.uk/world-news/2026/11/16/ukraine-strikes-key-bridge-in-crimea/",
+      "ArticleUrl": "https://www.telegraph.co.uk/world-news/2026/11/16/ukraine-strikes-key-bridge-in-crimea/",
+      "ExternalUrl": "https://www.telegraph.co.uk/world-news/2026/11/16/ukraine-strikes-key-bridge-in-crimea/",
+      "PublishedDateTime": "2026-11-16T10:38:05Z",
       "Provider": {
-        "Name": "Polygon",
-        "DisplayName": "Polygon"
+        "Name": "The Telegraph",
+        "DisplayName": "The Telegraph"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvtcC.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hx6GE.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -177,19 +192,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Trump scolds Newsom for sparing death row prisoners who 'make Hannibal Lecter look like a nice guy'",
-      "Abstract": "Donald Trump has savaged Newsom for sparing 548 convicted killers from execution, claiming some of the depraved murderers make Hannibal Lecter look like 'a nice guy.'",
-      "Url": "https://www.dailymail.com/news/article-16294245/Trump-scolds-Gavin-Newsom-releasing-prisoners-death-row.html",
-      "ArticleUrl": "https://www.dailymail.com/news/article-16294245/Trump-scolds-Gavin-Newsom-releasing-prisoners-death-row.html",
-      "ExternalUrl": "https://www.dailymail.com/news/article-16294245/Trump-scolds-Gavin-Newsom-releasing-prisoners-death-row.html",
-      "PublishedDateTime": "2026-11-16T02:13:01Z",
+      "Title": "Cruel Ayrshire nursery worker who assaulted child has 'no desire to work with kids'",
+      "Abstract": "Louise Kitchen seized and dragged a child and used 'unnecessary force'.",
+      "Url": "https://www.dailyrecord.co.uk/ayrshire/cruel-ayrshire-nursery-who-assaulted-37873326",
+      "ArticleUrl": "https://www.dailyrecord.co.uk/ayrshire/cruel-ayrshire-nursery-who-assaulted-37873326",
+      "ExternalUrl": "https://www.dailyrecord.co.uk/ayrshire/cruel-ayrshire-nursery-who-assaulted-37873326",
+      "PublishedDateTime": "2026-11-13T09:54:15Z",
       "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "Daily Record",
+        "DisplayName": "Daily Record"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvHWp.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxqOO.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -199,19 +214,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Something to shout about! I Swear wins trio of Baftas... but Davidson watches from a separate room",
-      "Abstract": "Mr Davidson decided to watch the ceremony from a separate room after the film's Baftas win last February sparked a row when the campaigner shouted an offensive word.",
-      "Url": "https://www.dailymail.com/tvshowbiz/article-16295295/I-Swear-wins-trio-Baftas-Tourettes-campaigner.html",
-      "ArticleUrl": "https://www.dailymail.com/tvshowbiz/article-16295295/I-Swear-wins-trio-Baftas-Tourettes-campaigner.html",
-      "ExternalUrl": "https://www.dailymail.com/tvshowbiz/article-16295295/I-Swear-wins-trio-Baftas-Tourettes-campaigner.html",
-      "PublishedDateTime": "2026-11-16T01:41:26Z",
+      "Title": "EU clears UniCredit takeover of Germany's Commerzbank",
+      "Abstract": "The EU has approved UniCredit’s takeover of Germany’s Commerzbank, a cross-border deal aimed at strengthening Europe’s banking sector. View on euronews",
+      "Url": "https://www.euronews.com/2026/11/16/eu-clears-unicredit-takeover-of-germanys-commerzbank?utm_source=microsoft&utm_campaign=feeds_business&utm_medium=referral",
+      "ArticleUrl": "https://www.euronews.com/2026/11/16/eu-clears-unicredit-takeover-of-germanys-commerzbank?utm_source=microsoft&utm_campaign=feeds_business&utm_medium=referral",
+      "ExternalUrl": "https://www.euronews.com/2026/11/16/eu-clears-unicredit-takeover-of-germanys-commerzbank?utm_source=microsoft&utm_campaign=feeds_business&utm_medium=referral",
+      "PublishedDateTime": "2026-11-16T10:50:53Z",
       "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "Euronews",
+        "DisplayName": "Euronews"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvDhu.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2cdXsC.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -221,41 +236,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Biggest waves in more than a decade slam California coast",
-      "Abstract": "The California Bay Area's largest waves in more than a decade slammed into the coast over the weekend, as life-threatening swells flooded streets and sent onlookers into the sea.",
-      "Url": "https://www.dailymail.com/news/article-16293283/Waves-California-ElNino-flooding.html",
-      "ArticleUrl": "https://www.dailymail.com/news/article-16293283/Waves-California-ElNino-flooding.html",
-      "ExternalUrl": "https://www.dailymail.com/news/article-16293283/Waves-California-ElNino-flooding.html",
-      "PublishedDateTime": "2026-11-16T01:41:17Z",
+      "Title": "Karl Bushby supports charity drive to get Hull's kids out on bikes",
+      "Abstract": "Charity R-evolution will refurbish and fix any unwanted children’s bicycles, ready to sell at affordable prices in time for Christmas",
+      "Url": "https://www.hulldailymail.co.uk/news/hull-east-yorkshire-news/karl-bushby-supports-charity-drive-11242860",
+      "ArticleUrl": "https://www.hulldailymail.co.uk/news/hull-east-yorkshire-news/karl-bushby-supports-charity-drive-11242860",
+      "ExternalUrl": "https://www.hulldailymail.co.uk/news/hull-east-yorkshire-news/karl-bushby-supports-charity-drive-11242860",
+      "PublishedDateTime": "2026-11-16T10:45:39Z",
       "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "Hull Live",
+        "DisplayName": "Hull Live"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvgIL.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "George W. Bush and wife Laura carry out coin toss at NFL game as they continue busy football weekend",
-      "Abstract": "The 80-year-old ex-commander-in-chief was accompanied by his wife - and former First Lady - Laura as he took to midfield at the AT&T Stadium to conduct the ceremonial duties.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
-      "PublishedDateTime": "2026-11-16T01:27:31Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvqgl.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxepO.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80

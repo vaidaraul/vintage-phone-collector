@@ -1,20 +1,113 @@
 {
-  "Updated": "2026-11-16T02:58:52.313Z",
+  "Updated": "2026-11-16T10:57:11.749Z",
   "Value": [
     {
-      "Title": "Motor racing-F1 must push harder, move faster to open up motorsport careers, says Hamilton",
-      "Abstract": "Nov 16 (Reuters) - Lewis Hamilton has called on Formula One to be more proactive in creating career opportunities for young people after his foundation published a report on Monday saying the sport was at risk of missing out on engineering and technical talent. In its report titled \"Igniting Inclusion\", Hamilton's Mission 44 foundation called on Formula One to invest at least £50 million ($66",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
-      "PublishedDateTime": "2026-11-16T02:44:38Z",
+      "Title": "Football in mourning: Dino Sani dies, former Milan player and 1958 World Cup winner with Brazil",
+      "Abstract": "The former midfielder and manager has passed away aged 94: with the Rossoneri he won the European Cup in 1963",
+      "Url": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
+      "ArticleUrl": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
+      "ExternalUrl": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
+      "PublishedDateTime": "2026-11-16T10:45:08Z",
+      "Provider": {
+        "Name": "La Gazzetta dello Sport EN",
+        "DisplayName": "La Gazzetta dello Sport EN"
+      },
+      "Images": [],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Belgium's record scorer Lukaku, 33, retires from internationals",
+      "Abstract": "Nov 16 (Reuters) - Romelu Lukaku, Belgium's all-time leading scorer, announced his retirement from international soccer on Monday after a 16-year career in which he scored 94 goals in 135 games. The 33-year-old striker, the fifth-highest scorer in men's international football history, helped Belgium finish third at the 2018 World Cup during their most successful period. \"These 16 years I gave",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
+      "PublishedDateTime": "2026-11-16T10:49:55Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvhcu.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwN0W.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Premier League cult icon went on mega cocaine binge months before joining Bolton Wanderers",
+      "Abstract": "The former Porto and Sporting Lisbon goal machine admitted he still cannot fathom why boss Luiz Felipe Scolari left him out of the squad before he joined Bolton afte a drug binge",
+      "Url": "https://www.dailystar.co.uk/sport/football/premier-league-cult-icon-went-37880960",
+      "ArticleUrl": "https://www.dailystar.co.uk/sport/football/premier-league-cult-icon-went-37880960",
+      "ExternalUrl": "https://www.dailystar.co.uk/sport/football/premier-league-cult-icon-went-37880960",
+      "PublishedDateTime": "2026-11-16T10:36:25Z",
+      "Provider": {
+        "Name": "Daily Star",
+        "DisplayName": "Daily Star"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwzWs.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Lukaku ends Belgium career on the bench with 94 goals and no farewell",
+      "Abstract": "Romelu Lukaku has retired from international football on 135 caps and 94 goals, announcing the decision on Instagram a day after sitting out Belgium’s 4-1 win over Italy with a hip problem.",
+      "Url": "https://lentedesportiva.com/lukaku-ends-belgium-career-on-the-bench-with-94-goals-and-no-farewell/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/lukaku-ends-belgium-career-on-the-bench-with-94-goals-and-no-farewell/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/lukaku-ends-belgium-career-on-the-bench-with-94-goals-and-no-farewell/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-16T10:36:00Z",
+      "Provider": {
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwRGn.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "‘We can measure this too’: Hamilton pins £50m demand on F1 and the FIA",
+      "Abstract": "Mission 44’s new report, timed for the Las Vegas Grand Prix, tells Formula 1 and the FIA to count who enters the paddock, carve £50m out of the cost cap for new talent, and publish every paid early-career job on offer.",
+      "Url": "https://lentedesportiva.com/we-can-measure-this-too-hamilton-pins-50m-demand-on-f1-and-the-fia/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/we-can-measure-this-too-hamilton-pins-50m-demand-on-f1-and-the-fia/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/we-can-measure-this-too-hamilton-pins-50m-demand-on-f1-and-the-fia/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-16T10:35:00Z",
+      "Provider": {
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwxEN.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -27,69 +120,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "George W. Bush and wife Laura carry out coin toss at NFL game as they continue busy football weekend",
-      "Abstract": "The 80-year-old ex-commander-in-chief was accompanied by his wife - and former First Lady - Laura as he took to midfield at the AT&T Stadium to conduct the ceremonial duties.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
-      "PublishedDateTime": "2026-11-16T01:27:31Z",
+      "Title": "England player ratings vs. Spain: Newcastle & Leeds stars shine in superb win",
+      "Abstract": "Rating every England player out of 10 after their brilliant 3-2 Nations League win against Spain in Madrid.",
+      "Url": "https://www.3addedminutes.com/international-football/england/england-player-ratings-spain-newcastle-leeds-stars-shine-9352971",
+      "ArticleUrl": "https://www.3addedminutes.com/international-football/england/england-player-ratings-spain-newcastle-leeds-stars-shine-9352971",
+      "ExternalUrl": "https://www.3addedminutes.com/international-football/england/england-player-ratings-spain-newcastle-leeds-stars-shine-9352971",
+      "PublishedDateTime": "2026-11-16T10:43:46Z",
       "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "3 Added Minutes",
+        "DisplayName": "3 Added Minutes"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvqgl.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "‘Don’t you dare count us out’: KC women’s sports mogul hails US rugby double-header",
-      "Abstract": "Angie Long is co-owner with her husband Chris of the Kansas City Current, contenders in NWSL, proud occupants of the CPKC Stadium, built for the burgeoning world of women’s pro soccer. But on Friday night the venue will host a different sport, one Long fell for long ago. Rugby. “I think we might be sold out,” Long said, of the US Eagles’ match-up with the Australian Wallaroos in a Pacific Four Series double-header, New Zealand facing Canada...",
-      "Url": "https://www.theguardian.com/sport/2026/apr/17/dont-you-dare-count-us-out-kc-womens-sports-mogul-hails-us-rugby-double-header",
-      "ArticleUrl": "https://www.theguardian.com/sport/2026/apr/17/dont-you-dare-count-us-out-kc-womens-sports-mogul-hails-us-rugby-double-header",
-      "ExternalUrl": "https://www.theguardian.com/sport/2026/apr/17/dont-you-dare-count-us-out-kc-womens-sports-mogul-hails-us-rugby-double-header",
-      "PublishedDateTime": "2026-04-17T10:00:28Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA217sTj.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Rugby"
-      ],
-      "Sport": "Rugby",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Mary Earps frustrates Arsenal as London City Lionesses earn battling draw",
-      "Abstract": "Arsenal’s fifth draw from five home games in the Women’s Super League left them frustrated once again but this was a wholly different story to the previous four, as they played out an entertaining 1-1 draw with a London City Lionesses side inspired by their goalkeeper Mary Earps. Aston Villa, Birmingham, Manchester United and Crystal Palace all came to this stadium for a point, defending resolutely and exposing Arsenal’s inability to break down...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
-      "PublishedDateTime": "2026-11-15T18:53:08Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huea7.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwMWi.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -102,37 +145,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Fernando Mendoza gains valuable experience in his first NFL start as Raiders QB despite the loss",
-      "Abstract": "Mendoza’s first start as the Raiders’ quarterback gave Las Vegas an early glimpse of what may lie ahead. Fernando Mendoza’s first NFL start ended in a loss. But the scoreboard does not tell the whole story of his debut as the Las Vegas Raiders’ starting quarterback: he scored his first NFL touchdown, rallied his teammates before kickoff and got his first real look at the speed and pressure of the league. After Kirk Cousins was traded back to the...",
-      "Url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/16/fernando-mendoza-wins-despite-the-loss-in-his-first-nfl-start-as-the-raiders-starting-qb.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/16/fernando-mendoza-wins-despite-the-loss-in-his-first-nfl-start-as-the-raiders-starting-qb.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/16/fernando-mendoza-wins-despite-the-loss-in-his-first-nfl-start-as-the-raiders-starting-qb.html",
-      "PublishedDateTime": "2026-11-16T02:13:26Z",
+      "Title": "What WTA Finals champion Mirra Andreeva needs to do to overtake Elena Rybakina as world No 1",
+      "Abstract": "The No 1 ranking battle is hotting up.",
+      "Url": "https://www.tennis365.com/tennis-news/what-wta-finals-champion-mirra-andreeva-needs-overtake-elena-rybakina-no-1",
+      "ArticleUrl": "https://www.tennis365.com/tennis-news/what-wta-finals-champion-mirra-andreeva-needs-overtake-elena-rybakina-no-1",
+      "ExternalUrl": "https://www.tennis365.com/tennis-news/what-wta-finals-champion-mirra-andreeva-needs-overtake-elena-rybakina-no-1",
+      "PublishedDateTime": "2026-11-16T09:45:51Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Tennis-Power of positive thinking helps Andreeva to WTA Finals title",
-      "Abstract": "By Rory Carroll INDIAN WELLS, California, Nov 15 (Reuters) - Mirra Andreeva said a stream of positive self-talk helped her overcome her nerves and stay composed in the biggest moments as the teenager beat Elina Svitolina to win the WTA Finals title on Sunday. \"I was just basically trying to use a lot of positive words to try to encourage myself,\" the Russian told reporters after beating",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hvAmD",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hvAmD",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hvAmD",
-      "PublishedDateTime": "2026-11-16T01:19:25Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "Tennis365",
+        "DisplayName": "Tennis365"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvgCJ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwMUx.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -145,69 +170,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "NFL referee completes history-making 110-mile road trip to officiate two games in the SAME day",
-      "Abstract": "The league was thrown into chaos over the weekend after a nationwide ground stop forced thousands of flights to be delayed or cancelled on Friday, forcing the NFL to make changes.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16294507/nfl-referee-don-willard-indianapolis-cincinnati-games.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16294507/nfl-referee-don-willard-indianapolis-cincinnati-games.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16294507/nfl-referee-don-willard-indianapolis-cincinnati-games.html",
-      "PublishedDateTime": "2026-11-16T01:24:29Z",
+      "Title": "Carol Vorderman, 65, flaunts age-defying curves in skintight gown for football gala",
+      "Abstract": "Carol Vorderman wowed fans as she showed off her stunning figure in a sparkly floor-length black gown at the Football For Change Gala in Liverpool on Saturday night (November 14), joined by the likes of Coleen Rooney and Paddy McGuinness",
+      "Url": "https://www.dailystar.co.uk/showbiz/carol-vorderman-65-flaunts-age-37880867",
+      "ArticleUrl": "https://www.dailystar.co.uk/showbiz/carol-vorderman-65-flaunts-age-37880867",
+      "ExternalUrl": "https://www.dailystar.co.uk/showbiz/carol-vorderman-65-flaunts-age-37880867",
+      "PublishedDateTime": "2026-11-16T10:20:30Z",
       "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "Daily Star",
+        "DisplayName": "Daily Star"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvqgm.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Wild scenes as fire breaks out at MetLife Stadium just hours after hosting NFL game",
-      "Abstract": "Dramatic video footage circulating social media showed thick smoke and bright orange flames billowing near the exterior gates of the stadium in New Jersey.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16295255/metlife-stadium-fire-jets-bills-new-jersey.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16295255/metlife-stadium-fire-jets-bills-new-jersey.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16295255/metlife-stadium-fire-jets-bills-new-jersey.html",
-      "PublishedDateTime": "2026-11-16T00:24:01Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hv3mG.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Thomas Tuchel hails 'best night' as England boss but hits out at 'one out of 10' ref's red card call",
-      "Abstract": "OLIVER HOLT IN MADRID: England played the best football of Tuchel's two-year reign as coach to end Spain's world record 43-match unbeaten run.",
-      "Url": "https://www.dailymail.com/sport/football/article-16295093/Thomas-Tuchels-best-night-England-manager-Three-Lions-boss-hails-heroes-Spain-victory-hits-Elliot-Anderson-decision-referee-previously-labelled-one-10.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16295093/Thomas-Tuchels-best-night-England-manager-Three-Lions-boss-hails-heroes-Spain-victory-hits-Elliot-Anderson-decision-referee-previously-labelled-one-10.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16295093/Thomas-Tuchels-best-night-England-manager-Three-Lions-boss-hails-heroes-Spain-victory-hits-Elliot-Anderson-decision-referee-previously-labelled-one-10.html",
-      "PublishedDateTime": "2026-11-15T23:10:09Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvaQm.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxe6T.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -220,19 +195,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "England player ratings v Spain: Trafford, White, Hall, Bellingham brilliant but two let the team down",
-      "Abstract": "England were exceptional in beating world champions Spain to win their Nations League group - but who let the team down in victory?",
-      "Url": "https://www.football365.com/news/england-player-ratings-spain-trafford-white-hall-bellingham",
-      "ArticleUrl": "https://www.football365.com/news/england-player-ratings-spain-trafford-white-hall-bellingham",
-      "ExternalUrl": "https://www.football365.com/news/england-player-ratings-spain-trafford-white-hall-bellingham",
-      "PublishedDateTime": "2026-11-15T23:00:22Z",
+      "Title": "Prime Minister Andy Burnham steps in on blackout after Prince William's Aston Villa comments",
+      "Abstract": "The 3pm Premier League blackout has been in place since the 1960s and the Prime Minister has now offered a fresh take on Aston Villa fans not being able to watch their team’s matches",
+      "Url": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-burnham-blackout-william-34916781",
+      "ArticleUrl": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-burnham-blackout-william-34916781",
+      "ExternalUrl": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-burnham-blackout-william-34916781",
+      "PublishedDateTime": "2026-11-16T10:31:13Z",
       "Provider": {
-        "Name": "Football365",
-        "DisplayName": "Football365"
+        "Name": "Birmingham Live",
+        "DisplayName": "Birmingham Live"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huDYv.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hx1Ec.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -245,37 +220,119 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Fernando Mendoza gets reality check from Klint Kubiak after tough Raiders debut",
-      "Abstract": "Fernando Mendoza endured a brutal NFL debut against Seattle, and Klint Kubiak’s assessment revealed what the Raiders really think about their rookie quarterback.. The Las Vegas Raiders threw rookie Fernando Mendoza straight into the fire for his first NFL start. Waiting for him was one of the toughest possible tests: the Seattle Seahawks, owners of the league’s No. 1 defense this season, along with head coach Mike Macdonald, who entered the game...",
-      "Url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/16/fernando-mendoza-gets-reality-check-from-klint-kubiak-after-tough-raiders-debut.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/16/fernando-mendoza-gets-reality-check-from-klint-kubiak-after-tough-raiders-debut.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/16/fernando-mendoza-gets-reality-check-from-klint-kubiak-after-tough-raiders-debut.html",
-      "PublishedDateTime": "2026-11-16T00:52:39Z",
+      "Title": "Tennis-Davidovich to miss Spain's Davis Cup campaign",
+      "Abstract": "Nov 16 (Reuters) - Spain's Alejandro Davidovich will miss their Davis Cup Final 8 campaign this month after ending a physically demanding season early to prioritise his recovery for 2027. • Davidovich was named in a strong Spain squad comprising Carlos Alcaraz, Rafael Jodar, Pedro Martinez and Marcel Granollers for the Final 8. He will be replaced by Daniel Merida. • The world number 16 has",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hx6Dl",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hx6Dl",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hx6Dl",
+      "PublishedDateTime": "2026-11-16T10:21:48Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
       },
-      "Images": [],
-      "Categories": [
-        "NFL"
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxlIm.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
       ],
-      "Sport": "NFL",
+      "Categories": [
+        "Tennis"
+      ],
+      "Sport": "Tennis",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "United eye McKennie, Chelsea target Alajbegovic: Juve, beware the Premier League",
-      "Abstract": "The American courted by Pochettino, Chelsea reignite interest in the Bosnian",
-      "Url": "https://www.gazzetta.it/en/football/teams/juventus/news/16-11-2026/juventus-transfer-market-mckennie-and-alajbegovic-premier-league-sights.shtml",
-      "ArticleUrl": "https://www.gazzetta.it/en/football/teams/juventus/news/16-11-2026/juventus-transfer-market-mckennie-and-alajbegovic-premier-league-sights.shtml",
-      "ExternalUrl": "https://www.gazzetta.it/en/football/teams/juventus/news/16-11-2026/juventus-transfer-market-mckennie-and-alajbegovic-premier-league-sights.shtml",
-      "PublishedDateTime": "2026-11-16T00:32:37Z",
+      "Title": "Gout is on the rise – and excruciating. Why are sufferers still judged for it?",
+      "Abstract": "Brett McAllister-Byrne was in his early 30s when he first noticed a sharp ache in his ankle and big toe. “I felt it the night after playing football, and I thought I must have had a knock or something,” he says. “But then it just got worse and worse.” The next morning McAllister-Byrne, an urban planner, was in too much pain to go to work. When he described the episode to his family, they suggested it might be gout. “I was like, really?” he says....",
+      "Url": "https://www.theguardian.com/lifeandstyle/2026/nov/15/gout-is-on-the-rise-and-excruciating-why-are-sufferers-still-judged-for-it",
+      "ArticleUrl": "https://www.theguardian.com/lifeandstyle/2026/nov/15/gout-is-on-the-rise-and-excruciating-why-are-sufferers-still-judged-for-it",
+      "ExternalUrl": "https://www.theguardian.com/lifeandstyle/2026/nov/15/gout-is-on-the-rise-and-excruciating-why-are-sufferers-still-judged-for-it",
+      "PublishedDateTime": "2026-11-15T14:00:16Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hueWC.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Hojlund silences Ronaldo tribute as Denmark captain questions his own team's 4-1 win",
+      "Abstract": "Morten Hjulmand called Saturday’s result one of the greatest wins in Danish football history, then openly admitted he could not explain how his team had put four past Portugal in Braga.",
+      "Url": "https://lentedesportiva.com/hojlund-silences-ronaldo-tribute-as-denmark-captain-questions-his-own-teams-4-1-win/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/hojlund-silences-ronaldo-tribute-as-denmark-captain-questions-his-own-teams-4-1-win/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/hojlund-silences-ronaldo-tribute-as-denmark-captain-questions-his-own-teams-4-1-win/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-16T10:30:00Z",
+      "Provider": {
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwCiD.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Torino, setback for Vlasic on international duty: Granata medical staff to reassess him",
+      "Abstract": "The midfielder was not called up for the Croatia v Czech Republic clash due to hamstring discomfort",
+      "Url": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/16-11-2026/vlasic-injury-the-condition-of-the-torino-midfielder.shtml",
+      "ArticleUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/16-11-2026/vlasic-injury-the-condition-of-the-torino-midfielder.shtml",
+      "ExternalUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/16-11-2026/vlasic-injury-the-condition-of-the-torino-midfielder.shtml",
+      "PublishedDateTime": "2026-11-16T10:16:59Z",
       "Provider": {
         "Name": "La Gazzetta dello Sport EN",
         "DisplayName": "La Gazzetta dello Sport EN"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2cC5To.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwK5X.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "La Liga"
+      ],
+      "Sport": "La Liga",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Youri Tielemans snaps back at suggestion as he defends manager",
+      "Abstract": "Manchester United's former Leicester City midfielder Youri Tielemans has defended Belgium boss Mark van Bommel after the Red Devils came from behind to beat Italy 4-1 and seal their place in the UEFA Nations League quarter-finals",
+      "Url": "https://www.leicestermercury.co.uk/sport/football/football-news/youri-tielemans-snaps-back-suggestion-11242809",
+      "ArticleUrl": "https://www.leicestermercury.co.uk/sport/football/football-news/youri-tielemans-snaps-back-suggestion-11242809",
+      "ExternalUrl": "https://www.leicestermercury.co.uk/sport/football/football-news/youri-tielemans-snaps-back-suggestion-11242809",
+      "PublishedDateTime": "2026-11-16T10:15:28Z",
+      "Provider": {
+        "Name": "Leicestershire Live",
+        "DisplayName": "Leicestershire Live"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwuTh.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -288,112 +345,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "NFL icon Terry Bradshaw makes another embarrassing mistake amid calls for him to retire from Fox",
-      "Abstract": "NFL legend Terry Bradshaw suffered another humiliating moment live on air on Sunday with his latest blunder during Fox's preview of the Green Bay Packers' game against the Minnesota Vikings.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16294955/terry-bradshaw-fox-retirement-blunder-josh-jacobs.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16294955/terry-bradshaw-fox-retirement-blunder-josh-jacobs.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16294955/terry-bradshaw-fox-retirement-blunder-josh-jacobs.html",
-      "PublishedDateTime": "2026-11-15T23:36:32Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huNFJ.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "UK property asking prices fall more than usual in November, Rightmove says",
-      "Abstract": "LONDON, Nov 16 (Reuters) - Asking prices for British homes marketed in the four weeks to November 7 fell by more than usual for the time of year as high mortgage interest costs, caused by the Iran war, squeezed prospective buyers, property website Rightmove said on Monday. Asking prices dropped by a monthly 1.8%, a bigger decline than the usual 1.1% fall seen at that time of year over the past",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2huwMK",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huwMK",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huwMK",
-      "PublishedDateTime": "2026-11-16T00:09:08Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huubF.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Formula 1"
-      ],
-      "Sport": "Formula 1",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Tennis-Svitolina to return to Ukraine, vows continued support for war-hit homeland",
-      "Abstract": "By Rory Carroll INDIAN WELLS, California, Nov 15 (Reuters) - Elina Svitolina said she would return to Ukraine next week after finishing runner-up at the WTA Finals on Sunday, pledging to continue supporting her country through donations, her foundation and the platform she has built in tennis. The Ukrainian lost 7-5 6-3 to Russia's Mirra Andreeva in the season-ending championship match at Indian",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2huNRW",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huNRW",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huNRW",
-      "PublishedDateTime": "2026-11-16T00:27:33Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huVMQ.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Caitlin Clark’s Nike \"Caitlin 1\" takes center stage in Las Vegas as Michael Jordan refuses to fade",
-      "Abstract": "Caitlin Clark’s display is turning heads at Nike Las Vegas, where an NBA legend’s legacy is still very much alive. Entering Nike Las Vegas at The Forum Shops at Caesars feels like stepping into a basketball showcase. Roman-inspired columns and large screens frame the approach, but the first display inside quickly shifts the focus to Caitlin Clark. A blue court, basketballs, mannequins and an oversized \"Caitlin 1\" logo turn the entrance into a...",
-      "Url": "https://www.marca.com/en/basketball/wnba/indiana-fever/2026/11/16/caitlin-clark-s-nike-caitlin-1-takes-center-stage-in-vegas-as-michael-jordan-refuses-to-fade.html",
-      "ArticleUrl": "https://www.marca.com/en/basketball/wnba/indiana-fever/2026/11/16/caitlin-clark-s-nike-caitlin-1-takes-center-stage-in-vegas-as-michael-jordan-refuses-to-fade.html",
-      "ExternalUrl": "https://www.marca.com/en/basketball/wnba/indiana-fever/2026/11/16/caitlin-clark-s-nike-caitlin-1-takes-center-stage-in-vegas-as-michael-jordan-refuses-to-fade.html",
-      "PublishedDateTime": "2026-11-16T00:14:28Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [],
-      "Categories": [
-        "NBA"
-      ],
-      "Sport": "NBA",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Tuchel hails England’s statement win over Spain as ‘complete performance’",
-      "Abstract": "Thomas Tuchel hailed England’s 3-2 Nations League win over Spain at the Eastadio Metropolitano as a statement result and the best performance of his tenure. The manager watched his team surge into a 3-0 lead before the tone of a pulsating night changed when Elliot Anderson was sent off in the 63rd minute in the act of conceding a penalty. Mikel Oyarzabal scored from the spot and when Nico Williams pulled another goal back, England were forced to...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/thomas-tuchel-england-spain-nations-league",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/thomas-tuchel-england-spain-nations-league",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/thomas-tuchel-england-spain-nations-league",
-      "PublishedDateTime": "2026-11-15T23:41:59Z",
+      "Title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
+      "Abstract": "“Have you made up all these on your own?” asks Terry Butcher, sitting in a London office in the week he is presented with his England legacy cap. It turns out dozens of Guardian readers want to pick the brains of a much-loved centre-back who was feted en route to a World Cup semi-final and tormented four years previously by the mercurial genius of Diego Maradona. Did Maradona ever admit to the “Hand of God”? Butcher found himself in the...",
+      "Url": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
+      "PublishedDateTime": "2026-11-15T08:00:09Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huBI9.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwsdJ.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -406,19 +370,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "When Arsenal Witnessed Dixie Dean Make Football History",
-      "Abstract": "As many may or may not know, Highbury was a theatre when it came to all matters of sport, not only football, throughout its 93-year history (1913–2006).",
-      "Url": "https://www.yardbarker.com/soccer/articles/when_arsenal_witnessed_dixie_dean_make_football_history/s1_15968_44566500",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/when_arsenal_witnessed_dixie_dean_make_football_history/s1_15968_44566500",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/when_arsenal_witnessed_dixie_dean_make_football_history/s1_15968_44566500",
-      "PublishedDateTime": "2026-11-16T00:03:39Z",
+      "Title": "Northern Ireland boss Michael O'Neill set for sideline ban for Hungry promotion decider",
+      "Abstract": "Michael O'Neill is relishing the challenge of a Nations League promotion decider away to Hungary on Tuesday – even if the Northern Ireland boss will have to watch from the stand in Budapest",
+      "Url": "https://www.belfastlive.co.uk/sport/football/northern-ireland-boss-michael-oneill-34916795",
+      "ArticleUrl": "https://www.belfastlive.co.uk/sport/football/northern-ireland-boss-michael-oneill-34916795",
+      "ExternalUrl": "https://www.belfastlive.co.uk/sport/football/northern-ireland-boss-michael-oneill-34916795",
+      "PublishedDateTime": "2026-11-16T10:20:51Z",
       "Provider": {
-        "Name": "Just Arsenal",
-        "DisplayName": "Just Arsenal"
+        "Name": "Belfast Live",
+        "DisplayName": "Belfast Live"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huJch.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwK3B.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -431,62 +395,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "\"Walking NBA AI machine\": Rick Carlisle makes extraordinary LeBron James comparison",
-      "Abstract": "Indiana Pacers coach Rick Carlisle has given one of this NBA season’s more striking descriptions of LeBron James, framing the 41-year-old’s basketball intelligence as the reason his own team has moved away from called plays.",
-      "Url": "https://lentedesportiva.com/walking-nba-ai-machine-rick-carlisle-makes-extraordinary-lebron-james-comparison/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/walking-nba-ai-machine-rick-carlisle-makes-extraordinary-lebron-james-comparison/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/walking-nba-ai-machine-rick-carlisle-makes-extraordinary-lebron-james-comparison/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-16T00:00:00Z",
+      "Title": "Second Nottingham Forest star sent home from international duty as manager gives update",
+      "Abstract": "Nottingham Forest return to Premier League action on Saturday with a crunch clash against Bournemouth",
+      "Url": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-schlager-11242791",
+      "ArticleUrl": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-schlager-11242791",
+      "ExternalUrl": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-schlager-11242791",
+      "PublishedDateTime": "2026-11-16T10:09:59Z",
       "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
+        "Name": "Nottingham Post",
+        "DisplayName": "Nottingham Post"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hv3aU.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NBA"
-      ],
-      "Sport": "NBA",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Jerry Jones blasted by angry Cowboys fanbase after 49ers fans turn AT&T Stadium into a sea of red",
-      "Abstract": "The embarrassing home-field takeover sparked backlash against Jerry Jones.. Dallas Cowboys quarterback Dak Prescott had already issued the warning, but no one could prevent it from happening. Three days before the matchup against the San Francisco 49ers, Prescott challenged Dallas fans to make their home field count and stop visiting supporters from taking over AT&T Stadium. “We’ll prepare for anything and everything, and so I just challenge...",
-      "Url": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/16/jerry-jones-blasted-by-angry-cowboys-fanbase-after-49ers-fans-turn-at-t-stadium-into-sea-of-red.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/16/jerry-jones-blasted-by-angry-cowboys-fanbase-after-49ers-fans-turn-at-t-stadium-into-sea-of-red.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/16/jerry-jones-blasted-by-angry-cowboys-fanbase-after-49ers-fans-turn-at-t-stadium-into-sea-of-red.html",
-      "PublishedDateTime": "2026-11-15T23:44:30Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
-      "Abstract": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel’s words, had “forgotten how to lose.” Before this Nations League group decider, they had been beaten only once in 43 matches – on penalties against Portugal in the final of this competition last year. What England produced for 65 minutes was extraordinary. What...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "PublishedDateTime": "2026-11-15T21:56:41Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huwEX.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwRmD.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -499,19 +420,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Tennis-Unbeaten Andreeva captures WTA Finals crown on debut",
-      "Abstract": "By Rory Carroll INDIAN WELLS, California, Nov 15 (Reuters) - Russian teenager Mirra Andreeva beat Ukraine's Elina Svitolina 7-5 6-3 on Sunday to win the WTA Finals, completing an unbeaten singles debut at the season-ending championships in Indian Wells without dropping a set. Andreeva threw her racket into the air and jumped for joy when Svitolina put an overhead into the net on match point,",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hv5H7",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hv5H7",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hv5H7",
-      "PublishedDateTime": "2026-11-15T23:29:03Z",
+      "Title": "Eastbourne Table Tennis League – Weekly Report 6 – By Mike Savill",
+      "Abstract": "See the latest news from Your World at https://www.sussexexpress.co.uk/your-world",
+      "Url": "https://www.sussexexpress.co.uk/your-world/eastbourne-table-tennis-league-weekly-report-6-by-mike-savill-9352597",
+      "ArticleUrl": "https://www.sussexexpress.co.uk/your-world/eastbourne-table-tennis-league-weekly-report-6-by-mike-savill-9352597",
+      "ExternalUrl": "https://www.sussexexpress.co.uk/your-world/eastbourne-table-tennis-league-weekly-report-6-by-mike-savill-9352597",
+      "PublishedDateTime": "2026-11-16T08:59:40Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "SussexWorld",
+        "DisplayName": "SussexWorld"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hv31C.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hx5HV.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -524,19 +445,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Tennis-Zverev beats Jodar to ignite hunt for third ATP Finals crown",
-      "Abstract": "TURIN, Nov 15 (Reuters) - World number one Alexander Zverev launched his bid for a third ATP Finals crown with a commanding 6-4 6-4 victory over Spanish debutant Rafael Jodar on Sunday. Zverev, who won the season-ending tournament for the world’s top eight players in 2018 and 2021, claimed a break in each set to see off the 20-year-old Spaniard, who has surged from outside the top 150 to the top",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2huVkD",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huVkD",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huVkD",
-      "PublishedDateTime": "2026-11-15T23:14:32Z",
+      "Title": "‘Is he that good?’ – Tennis legend questions Carlos Alcaraz’s dominance over tennis rivals",
+      "Abstract": "\"Is he that far above them?\"",
+      "Url": "https://www.tennis365.com/tennis-news/that-good-tennis-legend-questions-carlos-alcarazs-dominance-tennis-rivals",
+      "ArticleUrl": "https://www.tennis365.com/tennis-news/that-good-tennis-legend-questions-carlos-alcarazs-dominance-tennis-rivals",
+      "ExternalUrl": "https://www.tennis365.com/tennis-news/that-good-tennis-legend-questions-carlos-alcarazs-dominance-tennis-rivals",
+      "PublishedDateTime": "2026-11-16T07:00:48Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "Tennis365",
+        "DisplayName": "Tennis365"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huXPn.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwa2h.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -546,31 +467,6 @@
         "Tennis"
       ],
       "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "\"It will be ridiculous\": NBA's top draft pick opens up on facing childhood idol Kevin Durant",
-      "Abstract": "Washington Wizards rookie AJ Dybantsa, the No. 1 pick in the 2026 NBA Draft, meets his childhood idol Kevin Durant in Houston’s visit to the Capital One Arena tonight, a moment the 19-year-old has openly described as “ridiculous” since the day he was drafted.",
-      "Url": "https://lentedesportiva.com/it-will-be-ridiculous-nbas-top-draft-pick-opens-up-on-facing-childhood-idol-kevin-durant/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/it-will-be-ridiculous-nbas-top-draft-pick-opens-up-on-facing-childhood-idol-kevin-durant/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/it-will-be-ridiculous-nbas-top-draft-pick-opens-up-on-facing-childhood-idol-kevin-durant/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-15T23:30:00Z",
-      "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvfNe.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NBA"
-      ],
-      "Sport": "NBA",
       "TagEvaluationGroups": []
     }
   ]
