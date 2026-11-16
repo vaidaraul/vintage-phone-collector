@@ -1,16 +1,116 @@
 {
-  "Updated": "2026-11-16T10:57:11.749Z",
+  "Updated": "2026-11-16T20:51:21.849Z",
   "Value": [
     {
-      "Title": "Football in mourning: Dino Sani dies, former Milan player and 1958 World Cup winner with Brazil",
-      "Abstract": "The former midfielder and manager has passed away aged 94: with the Rossoneri he won the European Cup in 1963",
-      "Url": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
-      "ArticleUrl": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
-      "ExternalUrl": "https://www.gazzetta.it/en/football/teams/milan/news/16-11-2026/dino-sani-dies-former-milan-player-passes-away-aged-94.shtml",
-      "PublishedDateTime": "2026-11-16T10:45:08Z",
+      "Title": "Big twist in Man City charges case amid fears over billion-pound pay out",
+      "Abstract": "Manchester City were found guilty of breaches of the Premier League's financial rules in September, with officials now navigating an appeals process",
+      "Url": "https://www.express.co.uk/sport/football/2266733/Manchester-City-Charges-Premier-League-Richard-Masters-2266733",
+      "ArticleUrl": "https://www.express.co.uk/sport/football/2266733/Manchester-City-Charges-Premier-League-Richard-Masters-2266733",
+      "ExternalUrl": "https://www.express.co.uk/sport/football/2266733/Manchester-City-Charges-Premier-League-Richard-Masters-2266733",
+      "PublishedDateTime": "2026-11-16T20:27:00Z",
       "Provider": {
-        "Name": "La Gazzetta dello Sport EN",
-        "DisplayName": "La Gazzetta dello Sport EN"
+        "Name": "Daily Express",
+        "DisplayName": "Daily Express"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzaqx.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Switzerland v Scotland, Germany v Netherlands, and more: Nations League – live",
+      "Abstract": "Clockwatch: Join Will Unwin for updates from across Europe as Andy Robertson sets a record and two heavyweights clash in Berlin",
+      "Url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+      "PublishedDateTime": "2026-11-16T20:42:00Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzwB3.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Should there be a 3pm blackout in the UK for Premier League football matches?",
+      "Abstract": "Andy Burnham, who is an Everton supporter, said the 3pm blackout protects the income of lower league clubs — but he also complained about fixture scheduling impacting fans",
+      "Url": "https://www.mirror.co.uk/news/uk-news/blackout-uk-rule-football-matches-37883733",
+      "ArticleUrl": "https://www.mirror.co.uk/news/uk-news/blackout-uk-rule-football-matches-37883733",
+      "ExternalUrl": "https://www.mirror.co.uk/news/uk-news/blackout-uk-rule-football-matches-37883733",
+      "PublishedDateTime": "2026-11-16T19:42:06Z",
+      "Provider": {
+        "Name": "Mirror",
+        "DisplayName": "Mirror"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hySBq.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Richard Masters issues plea to Premier League clubs over Man City sponsor threat",
+      "Abstract": "The Premier League's legal war with Manchester City doesn't only involve the club itself but has ramifications for their sponsors such as Etihad Airways and Etisalat",
+      "Url": "https://www.mirror.co.uk/sport/football/news/premier-league-manchester-city-sponsors-37883581",
+      "ArticleUrl": "https://www.mirror.co.uk/sport/football/news/premier-league-manchester-city-sponsors-37883581",
+      "ExternalUrl": "https://www.mirror.co.uk/sport/football/news/premier-league-manchester-city-sponsors-37883581",
+      "PublishedDateTime": "2026-11-16T20:15:33Z",
+      "Provider": {
+        "Name": "Mirror",
+        "DisplayName": "Mirror"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2dSwfK.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Krasava's unusual tale leads from Russian football exile to Cyprus' top division",
+      "Abstract": "By Karolos Grohmann Nov 16 (Reuters) - Only four years ago Krasava were a club without a city, players, fans or a competitive future, having been stripped of their licence in Russia following the owner's public criticism of the 2022 invasion of Ukraine. Fast forward to November 2026 and the club, created by Russian former footballer and entrepreneur Yevgeny Savin, has found a new home in Cyprus,",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hyX75",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hyX75",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hyX75",
+      "PublishedDateTime": "2026-11-16T18:28:14Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
       },
       "Images": [],
       "Categories": [
@@ -20,19 +120,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Soccer-Belgium's record scorer Lukaku, 33, retires from internationals",
-      "Abstract": "Nov 16 (Reuters) - Romelu Lukaku, Belgium's all-time leading scorer, announced his retirement from international soccer on Monday after a 16-year career in which he scored 94 goals in 135 games. The 33-year-old striker, the fifth-highest scorer in men's international football history, helped Belgium finish third at the 2018 World Cup during their most successful period. \"These 16 years I gave",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hx4pj",
-      "PublishedDateTime": "2026-11-16T10:49:55Z",
+      "Title": "Republic of Ireland searching for a spark in shoot-out for Nations League play-off spot",
+      "Abstract": "Republic of Ireland need a win against Kosovo and they should get it if they maintain standards from Austria clash",
+      "Url": "https://www.irishnews.com/sport/soccer/republic-of-ireland-searching-for-a-spark-in-shoot-out-for-nations-league-play-off-spot-N5VCRWKDPZFWFKV5ONFGVAWBAI/",
+      "ArticleUrl": "https://www.irishnews.com/sport/soccer/republic-of-ireland-searching-for-a-spark-in-shoot-out-for-nations-league-play-off-spot-N5VCRWKDPZFWFKV5ONFGVAWBAI/",
+      "ExternalUrl": "https://www.irishnews.com/sport/soccer/republic-of-ireland-searching-for-a-spark-in-shoot-out-for-nations-league-play-off-spot-N5VCRWKDPZFWFKV5ONFGVAWBAI/",
+      "PublishedDateTime": "2026-11-16T20:00:00Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "The Irish News",
+        "DisplayName": "The Irish News"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwN0W.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hjpzb.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -45,19 +145,37 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Premier League cult icon went on mega cocaine binge months before joining Bolton Wanderers",
-      "Abstract": "The former Porto and Sporting Lisbon goal machine admitted he still cannot fathom why boss Luiz Felipe Scolari left him out of the squad before he joined Bolton afte a drug binge",
-      "Url": "https://www.dailystar.co.uk/sport/football/premier-league-cult-icon-went-37880960",
-      "ArticleUrl": "https://www.dailystar.co.uk/sport/football/premier-league-cult-icon-went-37880960",
-      "ExternalUrl": "https://www.dailystar.co.uk/sport/football/premier-league-cult-icon-went-37880960",
-      "PublishedDateTime": "2026-11-16T10:36:25Z",
+      "Title": "Crystal Palace appoint Thomas Frank as ex-Tottenham boss takes major pay cut",
+      "Abstract": "Crystal Palace sacked Pierre Sage after just 16 games in charge and have tasked ex-Tottenham boss Thomas Frank with steering them away from the bottom of the Premier League table",
+      "Url": "https://www.mirror.co.uk/sport/football/news/crystal-palace-thomas-frank-manager-37883735",
+      "ArticleUrl": "https://www.mirror.co.uk/sport/football/news/crystal-palace-thomas-frank-manager-37883735",
+      "ExternalUrl": "https://www.mirror.co.uk/sport/football/news/crystal-palace-thomas-frank-manager-37883735",
+      "PublishedDateTime": "2026-11-16T20:08:13Z",
       "Provider": {
-        "Name": "Daily Star",
-        "DisplayName": "Daily Star"
+        "Name": "Mirror",
+        "DisplayName": "Mirror"
+      },
+      "Images": [],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Northern Ireland are ahead of their neighbours in Republic as Nations League campaigns come to the boiling point",
+      "Abstract": "Northern Ireland playing to win their group while Republic face battle for second place",
+      "Url": "https://www.irishnews.com/sport/soccer/northern-ireland-are-ahead-of-their-neighbours-in-republic-as-nations-league-campaigns-come-to-the-boiling-point-6H5R4TK34BFTJDMLINSRJHLH4Q/",
+      "ArticleUrl": "https://www.irishnews.com/sport/soccer/northern-ireland-are-ahead-of-their-neighbours-in-republic-as-nations-league-campaigns-come-to-the-boiling-point-6H5R4TK34BFTJDMLINSRJHLH4Q/",
+      "ExternalUrl": "https://www.irishnews.com/sport/soccer/northern-ireland-are-ahead-of-their-neighbours-in-republic-as-nations-league-campaigns-come-to-the-boiling-point-6H5R4TK34BFTJDMLINSRJHLH4Q/",
+      "PublishedDateTime": "2026-11-16T20:00:00Z",
+      "Provider": {
+        "Name": "The Irish News",
+        "DisplayName": "The Irish News"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwzWs.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hyVmb.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -70,194 +188,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Lukaku ends Belgium career on the bench with 94 goals and no farewell",
-      "Abstract": "Romelu Lukaku has retired from international football on 135 caps and 94 goals, announcing the decision on Instagram a day after sitting out Belgium’s 4-1 win over Italy with a hip problem.",
-      "Url": "https://lentedesportiva.com/lukaku-ends-belgium-career-on-the-bench-with-94-goals-and-no-farewell/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/lukaku-ends-belgium-career-on-the-bench-with-94-goals-and-no-farewell/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/lukaku-ends-belgium-career-on-the-bench-with-94-goals-and-no-farewell/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-16T10:36:00Z",
-      "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwRGn.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "‘We can measure this too’: Hamilton pins £50m demand on F1 and the FIA",
-      "Abstract": "Mission 44’s new report, timed for the Las Vegas Grand Prix, tells Formula 1 and the FIA to count who enters the paddock, carve £50m out of the cost cap for new talent, and publish every paid early-career job on offer.",
-      "Url": "https://lentedesportiva.com/we-can-measure-this-too-hamilton-pins-50m-demand-on-f1-and-the-fia/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/we-can-measure-this-too-hamilton-pins-50m-demand-on-f1-and-the-fia/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/we-can-measure-this-too-hamilton-pins-50m-demand-on-f1-and-the-fia/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-16T10:35:00Z",
-      "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwxEN.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Formula 1"
-      ],
-      "Sport": "Formula 1",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "England player ratings vs. Spain: Newcastle & Leeds stars shine in superb win",
-      "Abstract": "Rating every England player out of 10 after their brilliant 3-2 Nations League win against Spain in Madrid.",
-      "Url": "https://www.3addedminutes.com/international-football/england/england-player-ratings-spain-newcastle-leeds-stars-shine-9352971",
-      "ArticleUrl": "https://www.3addedminutes.com/international-football/england/england-player-ratings-spain-newcastle-leeds-stars-shine-9352971",
-      "ExternalUrl": "https://www.3addedminutes.com/international-football/england/england-player-ratings-spain-newcastle-leeds-stars-shine-9352971",
-      "PublishedDateTime": "2026-11-16T10:43:46Z",
-      "Provider": {
-        "Name": "3 Added Minutes",
-        "DisplayName": "3 Added Minutes"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwMWi.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "What WTA Finals champion Mirra Andreeva needs to do to overtake Elena Rybakina as world No 1",
-      "Abstract": "The No 1 ranking battle is hotting up.",
-      "Url": "https://www.tennis365.com/tennis-news/what-wta-finals-champion-mirra-andreeva-needs-overtake-elena-rybakina-no-1",
-      "ArticleUrl": "https://www.tennis365.com/tennis-news/what-wta-finals-champion-mirra-andreeva-needs-overtake-elena-rybakina-no-1",
-      "ExternalUrl": "https://www.tennis365.com/tennis-news/what-wta-finals-champion-mirra-andreeva-needs-overtake-elena-rybakina-no-1",
-      "PublishedDateTime": "2026-11-16T09:45:51Z",
-      "Provider": {
-        "Name": "Tennis365",
-        "DisplayName": "Tennis365"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwMUx.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Carol Vorderman, 65, flaunts age-defying curves in skintight gown for football gala",
-      "Abstract": "Carol Vorderman wowed fans as she showed off her stunning figure in a sparkly floor-length black gown at the Football For Change Gala in Liverpool on Saturday night (November 14), joined by the likes of Coleen Rooney and Paddy McGuinness",
-      "Url": "https://www.dailystar.co.uk/showbiz/carol-vorderman-65-flaunts-age-37880867",
-      "ArticleUrl": "https://www.dailystar.co.uk/showbiz/carol-vorderman-65-flaunts-age-37880867",
-      "ExternalUrl": "https://www.dailystar.co.uk/showbiz/carol-vorderman-65-flaunts-age-37880867",
-      "PublishedDateTime": "2026-11-16T10:20:30Z",
-      "Provider": {
-        "Name": "Daily Star",
-        "DisplayName": "Daily Star"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxe6T.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Prime Minister Andy Burnham steps in on blackout after Prince William's Aston Villa comments",
-      "Abstract": "The 3pm Premier League blackout has been in place since the 1960s and the Prime Minister has now offered a fresh take on Aston Villa fans not being able to watch their team’s matches",
-      "Url": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-burnham-blackout-william-34916781",
-      "ArticleUrl": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-burnham-blackout-william-34916781",
-      "ExternalUrl": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-burnham-blackout-william-34916781",
-      "PublishedDateTime": "2026-11-16T10:31:13Z",
-      "Provider": {
-        "Name": "Birmingham Live",
-        "DisplayName": "Birmingham Live"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hx1Ec.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Tennis-Davidovich to miss Spain's Davis Cup campaign",
-      "Abstract": "Nov 16 (Reuters) - Spain's Alejandro Davidovich will miss their Davis Cup Final 8 campaign this month after ending a physically demanding season early to prioritise his recovery for 2027. • Davidovich was named in a strong Spain squad comprising Carlos Alcaraz, Rafael Jodar, Pedro Martinez and Marcel Granollers for the Final 8. He will be replaced by Daniel Merida. • The world number 16 has",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hx6Dl",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hx6Dl",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hx6Dl",
-      "PublishedDateTime": "2026-11-16T10:21:48Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hxlIm.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Gout is on the rise – and excruciating. Why are sufferers still judged for it?",
-      "Abstract": "Brett McAllister-Byrne was in his early 30s when he first noticed a sharp ache in his ankle and big toe. “I felt it the night after playing football, and I thought I must have had a knock or something,” he says. “But then it just got worse and worse.” The next morning McAllister-Byrne, an urban planner, was in too much pain to go to work. When he described the episode to his family, they suggested it might be gout. “I was like, really?” he says....",
-      "Url": "https://www.theguardian.com/lifeandstyle/2026/nov/15/gout-is-on-the-rise-and-excruciating-why-are-sufferers-still-judged-for-it",
-      "ArticleUrl": "https://www.theguardian.com/lifeandstyle/2026/nov/15/gout-is-on-the-rise-and-excruciating-why-are-sufferers-still-judged-for-it",
-      "ExternalUrl": "https://www.theguardian.com/lifeandstyle/2026/nov/15/gout-is-on-the-rise-and-excruciating-why-are-sufferers-still-judged-for-it",
-      "PublishedDateTime": "2026-11-15T14:00:16Z",
+      "Title": "‘We want to win it’: Tuchel says Nations League can set up England for Euro 2028 glory",
+      "Abstract": "Thomas Tuchel believes winning the Nations League would provide England with the springboard to Euro 2028 glory. The head coach watched his team close out the calendar year with a sensational 3-2 victory against Spain at the Metropolitano Stadium on Sunday. It meant England leapfrogged the world champions to finish top of their Nations League group and ensured seeded status for the quarter-final draw on Friday. England will co‑host the European...",
+      "Url": "https://www.theguardian.com/football/2026/nov/16/england-winning-nations-league-euro-2028-thomas-tuchel",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/16/england-winning-nations-league-euro-2028-thomas-tuchel",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/16/england-winning-nations-league-euro-2028-thomas-tuchel",
+      "PublishedDateTime": "2026-11-16T19:00:51Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hueWC.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzoPu.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -270,19 +213,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Hojlund silences Ronaldo tribute as Denmark captain questions his own team's 4-1 win",
-      "Abstract": "Morten Hjulmand called Saturday’s result one of the greatest wins in Danish football history, then openly admitted he could not explain how his team had put four past Portugal in Braga.",
-      "Url": "https://lentedesportiva.com/hojlund-silences-ronaldo-tribute-as-denmark-captain-questions-his-own-teams-4-1-win/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/hojlund-silences-ronaldo-tribute-as-denmark-captain-questions-his-own-teams-4-1-win/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/hojlund-silences-ronaldo-tribute-as-denmark-captain-questions-his-own-teams-4-1-win/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-16T10:30:00Z",
+      "Title": "Preliminary study finds a clue in the quest to help diagnose CTE in the living",
+      "Abstract": "Preliminary study finds a clue in the quest to help diagnose CTE in the living - Scientists stumbled onto a hint that measuring a toxic protein tied to Alzheimer’s disease just might one day be useful in diagnosing a different brain disease in football players and others who have suffered repeated blows to the head",
+      "Url": "https://www.independent.co.uk/news/alzheimers-disease-scientists-washington-journalism-jama-b3084898.html",
+      "ArticleUrl": "https://www.independent.co.uk/news/alzheimers-disease-scientists-washington-journalism-jama-b3084898.html",
+      "ExternalUrl": "https://www.independent.co.uk/news/alzheimers-disease-scientists-washington-journalism-jama-b3084898.html",
+      "PublishedDateTime": "2026-11-14T04:00:35Z",
       "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
+        "Name": "The Independent",
+        "DisplayName": "The Independent"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwCiD.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hoMrh.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -295,44 +238,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Torino, setback for Vlasic on international duty: Granata medical staff to reassess him",
-      "Abstract": "The midfielder was not called up for the Croatia v Czech Republic clash due to hamstring discomfort",
-      "Url": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/16-11-2026/vlasic-injury-the-condition-of-the-torino-midfielder.shtml",
-      "ArticleUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/16-11-2026/vlasic-injury-the-condition-of-the-torino-midfielder.shtml",
-      "ExternalUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/16-11-2026/vlasic-injury-the-condition-of-the-torino-midfielder.shtml",
-      "PublishedDateTime": "2026-11-16T10:16:59Z",
+      "Title": "Arsenal star slammed for ‘nightmare’ display vs Belgium star who ‘does what he wants’ against him",
+      "Abstract": "Riccardo Calafiori had a game to forget for Italy vs Belgium as his opposite number 'does what he wants' against him in the 4-1 defeat.",
+      "Url": "https://www.football365.com/news/arsenal-star-nightmare-display-belgium",
+      "ArticleUrl": "https://www.football365.com/news/arsenal-star-nightmare-display-belgium",
+      "ExternalUrl": "https://www.football365.com/news/arsenal-star-nightmare-display-belgium",
+      "PublishedDateTime": "2026-11-16T19:10:53Z",
       "Provider": {
-        "Name": "La Gazzetta dello Sport EN",
-        "DisplayName": "La Gazzetta dello Sport EN"
+        "Name": "Football365",
+        "DisplayName": "Football365"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwK5X.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "La Liga"
-      ],
-      "Sport": "La Liga",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Youri Tielemans snaps back at suggestion as he defends manager",
-      "Abstract": "Manchester United's former Leicester City midfielder Youri Tielemans has defended Belgium boss Mark van Bommel after the Red Devils came from behind to beat Italy 4-1 and seal their place in the UEFA Nations League quarter-finals",
-      "Url": "https://www.leicestermercury.co.uk/sport/football/football-news/youri-tielemans-snaps-back-suggestion-11242809",
-      "ArticleUrl": "https://www.leicestermercury.co.uk/sport/football/football-news/youri-tielemans-snaps-back-suggestion-11242809",
-      "ExternalUrl": "https://www.leicestermercury.co.uk/sport/football/football-news/youri-tielemans-snaps-back-suggestion-11242809",
-      "PublishedDateTime": "2026-11-16T10:15:28Z",
-      "Provider": {
-        "Name": "Leicestershire Live",
-        "DisplayName": "Leicestershire Live"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwuTh.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzmDt.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -345,19 +263,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
-      "Abstract": "“Have you made up all these on your own?” asks Terry Butcher, sitting in a London office in the week he is presented with his England legacy cap. It turns out dozens of Guardian readers want to pick the brains of a much-loved centre-back who was feted en route to a World Cup semi-final and tormented four years previously by the mercurial genius of Diego Maradona. Did Maradona ever admit to the “Hand of God”? Butcher found himself in the...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-      "PublishedDateTime": "2026-11-15T08:00:09Z",
+      "Title": "The boyish, Lego-loving farmer's son who quit Man City to be England's No 1: Leeds' James Trafford",
+      "Abstract": "'It was like meeting a kid at a sixth-form careers day'. That was the verdict, slightly unflattering but endearing all the same, of one Premier League chief after encountering James Trafford.",
+      "Url": "https://www.dailymail.com/sport/football/article-16296111/james-trafford-england-goalkeeper-manchester-city.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16296111/james-trafford-england-goalkeeper-manchester-city.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16296111/james-trafford-england-goalkeeper-manchester-city.html",
+      "PublishedDateTime": "2026-11-16T19:00:46Z",
       "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwsdJ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hyXzK.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -370,19 +288,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Northern Ireland boss Michael O'Neill set for sideline ban for Hungry promotion decider",
-      "Abstract": "Michael O'Neill is relishing the challenge of a Nations League promotion decider away to Hungary on Tuesday – even if the Northern Ireland boss will have to watch from the stand in Budapest",
-      "Url": "https://www.belfastlive.co.uk/sport/football/northern-ireland-boss-michael-oneill-34916795",
-      "ArticleUrl": "https://www.belfastlive.co.uk/sport/football/northern-ireland-boss-michael-oneill-34916795",
-      "ExternalUrl": "https://www.belfastlive.co.uk/sport/football/northern-ireland-boss-michael-oneill-34916795",
-      "PublishedDateTime": "2026-11-16T10:20:51Z",
+      "Title": "Bleed From Within are sponsoring their local football club Clyde F.C.'s new kit",
+      "Abstract": "Football meets heavy metal as Bleed From Within sponsor their local club",
+      "Url": "https://www.loudersound.com/music-industry/an-opportunity-to-bring-the-scottish-community-together-in-a-unique-way-scottish-league-two-football-club-clyde-f-c-have-found-some-heavy-new-sponsors-local-metal-heroes-bleed-from-within",
+      "ArticleUrl": "https://www.loudersound.com/music-industry/an-opportunity-to-bring-the-scottish-community-together-in-a-unique-way-scottish-league-two-football-club-clyde-f-c-have-found-some-heavy-new-sponsors-local-metal-heroes-bleed-from-within",
+      "ExternalUrl": "https://www.loudersound.com/music-industry/an-opportunity-to-bring-the-scottish-community-together-in-a-unique-way-scottish-league-two-football-club-clyde-f-c-have-found-some-heavy-new-sponsors-local-metal-heroes-bleed-from-within",
+      "PublishedDateTime": "2026-11-16T16:00:00Z",
       "Provider": {
-        "Name": "Belfast Live",
-        "DisplayName": "Belfast Live"
+        "Name": "LouderSound",
+        "DisplayName": "LouderSound"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwK3B.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzbVS.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -395,44 +313,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Second Nottingham Forest star sent home from international duty as manager gives update",
-      "Abstract": "Nottingham Forest return to Premier League action on Saturday with a crunch clash against Bournemouth",
-      "Url": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-schlager-11242791",
-      "ArticleUrl": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-schlager-11242791",
-      "ExternalUrl": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-schlager-11242791",
-      "PublishedDateTime": "2026-11-16T10:09:59Z",
+      "Title": "British tennis star publicly calls out ATP bosses live on court at ATP Finals",
+      "Abstract": "Henry Patten called out the ATP CEO and Chairman while accepting his year-end No. 1 trophy.",
+      "Url": "https://www.express.co.uk/sport/tennis/2266637/Henry-Patten-Harri-Heliovaara-ATP-Finals-bosses-speech-2266637",
+      "ArticleUrl": "https://www.express.co.uk/sport/tennis/2266637/Henry-Patten-Harri-Heliovaara-ATP-Finals-bosses-speech-2266637",
+      "ExternalUrl": "https://www.express.co.uk/sport/tennis/2266637/Henry-Patten-Harri-Heliovaara-ATP-Finals-bosses-speech-2266637",
+      "PublishedDateTime": "2026-11-16T14:29:00Z",
       "Provider": {
-        "Name": "Nottingham Post",
-        "DisplayName": "Nottingham Post"
+        "Name": "Daily Express",
+        "DisplayName": "Daily Express"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwRmD.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Eastbourne Table Tennis League – Weekly Report 6 – By Mike Savill",
-      "Abstract": "See the latest news from Your World at https://www.sussexexpress.co.uk/your-world",
-      "Url": "https://www.sussexexpress.co.uk/your-world/eastbourne-table-tennis-league-weekly-report-6-by-mike-savill-9352597",
-      "ArticleUrl": "https://www.sussexexpress.co.uk/your-world/eastbourne-table-tennis-league-weekly-report-6-by-mike-savill-9352597",
-      "ExternalUrl": "https://www.sussexexpress.co.uk/your-world/eastbourne-table-tennis-league-weekly-report-6-by-mike-savill-9352597",
-      "PublishedDateTime": "2026-11-16T08:59:40Z",
-      "Provider": {
-        "Name": "SussexWorld",
-        "DisplayName": "SussexWorld"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hx5HV.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hy79C.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -445,19 +338,69 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "‘Is he that good?’ – Tennis legend questions Carlos Alcaraz’s dominance over tennis rivals",
-      "Abstract": "\"Is he that far above them?\"",
-      "Url": "https://www.tennis365.com/tennis-news/that-good-tennis-legend-questions-carlos-alcarazs-dominance-tennis-rivals",
-      "ArticleUrl": "https://www.tennis365.com/tennis-news/that-good-tennis-legend-questions-carlos-alcarazs-dominance-tennis-rivals",
-      "ExternalUrl": "https://www.tennis365.com/tennis-news/that-good-tennis-legend-questions-carlos-alcarazs-dominance-tennis-rivals",
-      "PublishedDateTime": "2026-11-16T07:00:48Z",
+      "Title": "Real Madrid's most \"extreme\" signings",
+      "Abstract": "Diomande, JJ Gabriel, Ciria... The club has turned wing talent into an obsession that runs through its entire structure, from the first team to the lowest rung of La Fábrica. There is one position that Real Madrid has decided to lock down at every level, and it is neither the goal nor the heart of the defense. It is the wing. In just one year, the club has assembled a striking number of footballers who share the same trait —beating defenders...",
+      "Url": "https://www.marca.com/en/football/spanish-football/2026/11/16/real-madrid-s-most-extreme-signings.html",
+      "ArticleUrl": "https://www.marca.com/en/football/spanish-football/2026/11/16/real-madrid-s-most-extreme-signings.html",
+      "ExternalUrl": "https://www.marca.com/en/football/spanish-football/2026/11/16/real-madrid-s-most-extreme-signings.html",
+      "PublishedDateTime": "2026-11-16T19:31:56Z",
       "Provider": {
-        "Name": "Tennis365",
-        "DisplayName": "Tennis365"
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hwa2h.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hz2VJ.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+      "Abstract": "“With every game, defeat gets closer,” Luis de la Fuente had said and on Sunday night it finally came. Spain had lost only one competitive game since Scotland in March 2023 back when the coach hadn’t won anything and didn’t look like he ever would – and that solitary loss was on penalties in the 2025 Nations League final. Statistically, they said, penalties don’t count, so while Portugal lifted the trophy that night, the team that won the...",
+      "Url": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+      "PublishedDateTime": "2026-11-16T17:48:38Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hz2fm.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Hat-tricks for Horrocks and Smalley as Westfield stay top of the Kettering League pile",
+      "Abstract": "Westfield maintain Kettering Table Tennis League lead with win over Burton",
+      "Url": "https://www.northantstelegraph.co.uk/sport/other-sport/hat-tricks-for-horrocks-and-smalley-as-westfield-stay-top-of-the-kettering-league-pile-9354878",
+      "ArticleUrl": "https://www.northantstelegraph.co.uk/sport/other-sport/hat-tricks-for-horrocks-and-smalley-as-westfield-stay-top-of-the-kettering-league-pile-9354878",
+      "ExternalUrl": "https://www.northantstelegraph.co.uk/sport/other-sport/hat-tricks-for-horrocks-and-smalley-as-westfield-stay-top-of-the-kettering-league-pile-9354878",
+      "PublishedDateTime": "2026-11-16T17:45:16Z",
+      "Provider": {
+        "Name": "Northamptonshire Telegraph",
+        "DisplayName": "Northamptonshire Telegraph"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hysF1.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
