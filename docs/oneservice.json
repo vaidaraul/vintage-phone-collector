@@ -1,19 +1,19 @@
 {
   "Value": [
     {
-      "Title": "Zelda Notes Reveal Ocarina Of Time's Hardest Boss And Enemy",
-      "Abstract": "30 years later, the ReDeads still haven't gotten their redemption, as they continue to harass another generation of Zelda fans.",
-      "Url": "https://www.thegamer.com/the-legend-of-zelda-ocarina-of-time-zelda-notes-stats-number-one-cause-of-death/",
-      "ArticleUrl": "https://www.thegamer.com/the-legend-of-zelda-ocarina-of-time-zelda-notes-stats-number-one-cause-of-death/",
-      "ExternalUrl": "https://www.thegamer.com/the-legend-of-zelda-ocarina-of-time-zelda-notes-stats-number-one-cause-of-death/",
-      "PublishedDateTime": "2026-11-15T11:23:00Z",
+      "Title": "Prince and Princess of Wales begin three-day visit to India for Earthshot Prize",
+      "Abstract": "Prince and Princess of Wales begin three-day visit to India for Earthshot Prize - The couple will also travel to New Delhi to meet India’s Prime Minister Narendra Modi.",
+      "Url": "https://www.independent.co.uk/news/uk/home-news/narendra-modi-india-prince-wales-b3085387.html",
+      "ArticleUrl": "https://www.independent.co.uk/news/uk/home-news/narendra-modi-india-prince-wales-b3085387.html",
+      "ExternalUrl": "https://www.independent.co.uk/news/uk/home-news/narendra-modi-india-prince-wales-b3085387.html",
+      "PublishedDateTime": "2026-11-16T02:45:44Z",
       "Provider": {
-        "Name": "TheGamer",
-        "DisplayName": "TheGamer"
+        "Name": "The Independent",
+        "DisplayName": "The Independent"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hummS.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvKGr.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -23,19 +23,63 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Coles calls in global experts over 'cyber security incident' amid increasing attacks worldwide",
-      "Abstract": "At this stage, Coles Group Limited said it has not identified evidence customer, team or supplier data had been compromised.",
-      "Url": "https://www.dailymail.com/news/article-16295077/coles-cyber-security-incident-global-experts-increasing-threat.html",
-      "ArticleUrl": "https://www.dailymail.com/news/article-16295077/coles-cyber-security-incident-global-experts-increasing-threat.html",
-      "ExternalUrl": "https://www.dailymail.com/news/article-16295077/coles-cyber-security-incident-global-experts-increasing-threat.html",
-      "PublishedDateTime": "2026-11-15T23:05:07Z",
+      "Title": "FDA rejects cancer drug invented in China in blow to Beijing’s biotech sector",
+      "Abstract": "Summit’s ivonescimab was seen as a test case for whether the country’s medicine could pass scrutiny in the US",
+      "Url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99",
+      "ArticleUrl": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99",
+      "ExternalUrl": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99",
+      "PublishedDateTime": "2026-11-16T02:46:20Z",
+      "Provider": {
+        "Name": "The Financial Times",
+        "DisplayName": "The Financial Times"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hu3qd.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "15-minute salmon and spinach pasta: the pasta water trick that makes the sauce silky without cream",
+      "Abstract": "Sometimes the simplest things really are the best. This pasta brings together salmon, wilted spinach, Parmesan, a splash of white wine, and a squeeze of lemon – nothing more. What makes it work is a technique straight out of Italian cooking: the pasta goes straight from the pot to the pan, starchy water and all, … Read more",
+      "Url": "https://gastrofun.net/article/15-minute-salmon-and-spinach-pasta-the-pasta-water-trick-that-makes-the-sauce-silky-without-cream/",
+      "ArticleUrl": "https://gastrofun.net/article/15-minute-salmon-and-spinach-pasta-the-pasta-water-trick-that-makes-the-sauce-silky-without-cream/",
+      "ExternalUrl": "https://gastrofun.net/article/15-minute-salmon-and-spinach-pasta-the-pasta-water-trick-that-makes-the-sauce-silky-without-cream/",
+      "PublishedDateTime": "2026-11-16T02:49:22Z",
+      "Provider": {
+        "Name": "GastroFun.net",
+        "DisplayName": "GastroFun.net"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hv7dY.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Only in Australia! Wildlife carer faces ban after taking sick wombat interstate without a permit",
+      "Abstract": "A dedicated wildlife carer could be banned from rescuing sick and injured animals.",
+      "Url": "https://www.dailymail.com/news/article-16294867/Jade-Whittingham-wildlife-rescue.html",
+      "ArticleUrl": "https://www.dailymail.com/news/article-16294867/Jade-Whittingham-wildlife-rescue.html",
+      "ExternalUrl": "https://www.dailymail.com/news/article-16294867/Jade-Whittingham-wildlife-rescue.html",
+      "PublishedDateTime": "2026-11-16T00:41:43Z",
       "Provider": {
         "Name": "Daily Mail",
         "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hummP.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hv6fB.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -45,19 +89,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "How to watch Grey Cup 2026 on CFL+ — it's *FREE*",
-      "Abstract": "Here's our guide on how to watch the Grey Cup 2026 for free as Edmonton Elks take on Montreal Alouettes.",
-      "Url": "https://www.techradar.com/entertainment/american-football/how-to-watch-grey-cup-2026-on-cfl-its-free",
-      "ArticleUrl": "https://www.techradar.com/entertainment/american-football/how-to-watch-grey-cup-2026-on-cfl-its-free",
-      "ExternalUrl": "https://www.techradar.com/entertainment/american-football/how-to-watch-grey-cup-2026-on-cfl-its-free",
-      "PublishedDateTime": "2026-11-15T21:00:00Z",
+      "Title": "Alleged victim arrested after home invader stabbed to death and sister charged - as mum speaks out",
+      "Abstract": "An alleged home invasion has left one man dead and his sister charged while cops hunt a third person, after they arrested the occupant of the house over the death.",
+      "Url": "https://www.dailymail.com/news/article-16294897/kanon-greene-frankston-home-invasion-stabbing-ghb-mother.html",
+      "ArticleUrl": "https://www.dailymail.com/news/article-16294897/kanon-greene-frankston-home-invasion-stabbing-ghb-mother.html",
+      "ExternalUrl": "https://www.dailymail.com/news/article-16294897/kanon-greene-frankston-home-invasion-stabbing-ghb-mother.html",
+      "PublishedDateTime": "2026-11-16T02:47:18Z",
       "Provider": {
-        "Name": "TechRadar",
-        "DisplayName": "TechRadar"
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huNvo.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huWGl.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -67,19 +111,41 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
-      "Abstract": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel’s words, had “forgotten how to lose.” Before this Nations League group decider, they had been beaten only once in 43 matches – on penalties against Portugal in the final of this competition last year. What England produced for 65 minutes was extraordinary. What...",
-      "Url": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "PublishedDateTime": "2026-11-15T21:56:41Z",
+      "Title": "Motor racing-F1 must push harder, move faster to open up motorsport careers, says Hamilton",
+      "Abstract": "Nov 16 (Reuters) - Lewis Hamilton has called on Formula One to be more proactive in creating career opportunities for young people after his foundation published a report on Monday saying the sport was at risk of missing out on engineering and technical talent. In its report titled \"Igniting Inclusion\", Hamilton's Mission 44 foundation called on Formula One to invest at least £50 million ($66",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2huZ8z",
+      "PublishedDateTime": "2026-11-16T02:44:38Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvhcu.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Hopkins’ late stunner sends Kansas City past Gotham and into NWSL final",
+      "Abstract": "After a week dominated by a headline-grabbing stadium imbroglio, Gotham FC and the Kansas City Current finally got down to the vital business of their NWSL semi-final on Sunday afternoon, a frigid encounter at an unlikely venue on New York City’s Randall’s Island with a place in next Saturday’s championship match at stake. Haley Hopkins delivered the knockout blow at the death, hitting an 89th-minute volley off the crossbar and in to seal a 2-1...",
+      "Url": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
+      "PublishedDateTime": "2026-11-15T23:03:38Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huXyw.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huIMS.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -89,19 +155,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Declan Rice makes bold claim after England’s win over Spain",
-      "Abstract": "",
-      "Url": "https://metro.co.uk/2026/11/15/arsenal-star-declan-rice-makes-bold-claim-englands-win-spain-29794330/?ITO=msn",
-      "ArticleUrl": "https://metro.co.uk/2026/11/15/arsenal-star-declan-rice-makes-bold-claim-englands-win-spain-29794330/?ITO=msn",
-      "ExternalUrl": "https://metro.co.uk/2026/11/15/arsenal-star-declan-rice-makes-bold-claim-englands-win-spain-29794330/?ITO=msn",
-      "PublishedDateTime": "2026-11-15T23:23:02Z",
+      "Title": "No one injured after gunman opens fire on Xbox studio",
+      "Abstract": "The Xbox-owned studio inXile Entertainment confirmed that no developers were hurt",
+      "Url": "https://www.polygon.com/inxile-entertainment-shooting-xbox/",
+      "ArticleUrl": "https://www.polygon.com/inxile-entertainment-shooting-xbox/",
+      "ExternalUrl": "https://www.polygon.com/inxile-entertainment-shooting-xbox/",
+      "PublishedDateTime": "2026-11-15T14:49:51Z",
       "Provider": {
-        "Name": "Metro",
-        "DisplayName": "Metro"
+        "Name": "Polygon",
+        "DisplayName": "Polygon"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huSTQ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvtcC.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -111,85 +177,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "‘Shocking development’: Trump hit with backlash over 'pathetic' response to flight chaos",
-      "Abstract": "",
-      "Url": "https://www.rawstory.com/faa-2678411757/",
-      "ArticleUrl": "https://www.rawstory.com/faa-2678411757/",
-      "ExternalUrl": "https://www.rawstory.com/faa-2678411757/",
-      "PublishedDateTime": "2026-11-15T17:01:59Z",
-      "Provider": {
-        "Name": "Raw Story",
-        "DisplayName": "Raw Story"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huLhb.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "'Big fight' brewing as Trump admin and Congress face off after airport meltdown: CNN",
-      "Abstract": "",
-      "Url": "https://www.rawstory.com/trump-faa-2678412520/",
-      "ArticleUrl": "https://www.rawstory.com/trump-faa-2678412520/",
-      "ExternalUrl": "https://www.rawstory.com/trump-faa-2678412520/",
-      "PublishedDateTime": "2026-11-15T20:39:30Z",
-      "Provider": {
-        "Name": "Raw Story",
-        "DisplayName": "Raw Story"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huDRZ.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Andy Burnham new gas field starts production to provide 'homegrown gas'",
-      "Abstract": "Gas has begun flowing from the Jackdaw gas field",
-      "Url": "https://www.birminghammail.co.uk/news/uk-news/andy-burnham-new-gas-field-34915842",
-      "ArticleUrl": "https://www.birminghammail.co.uk/news/uk-news/andy-burnham-new-gas-field-34915842",
-      "ExternalUrl": "https://www.birminghammail.co.uk/news/uk-news/andy-burnham-new-gas-field-34915842",
-      "PublishedDateTime": "2026-11-15T23:18:45Z",
-      "Provider": {
-        "Name": "Birmingham Live",
-        "DisplayName": "Birmingham Live"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huQlG.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Rupert Murdoch's son gives $30m to Democrats as he aims to get 'radical' elected to take down MAGA",
-      "Abstract": "Rupert Murdoch's son James is using proceeds from the sales of his stake in the family conservative media empire to boost liberals in media and politics.",
-      "Url": "https://www.dailymail.com/news/article-16294701/Murdoch-heir-30m-push-centrist-Democrat-2028.html",
-      "ArticleUrl": "https://www.dailymail.com/news/article-16294701/Murdoch-heir-30m-push-centrist-Democrat-2028.html",
-      "ExternalUrl": "https://www.dailymail.com/news/article-16294701/Murdoch-heir-30m-push-centrist-Democrat-2028.html",
-      "PublishedDateTime": "2026-11-15T22:09:40Z",
+      "Title": "Trump scolds Newsom for sparing death row prisoners who 'make Hannibal Lecter look like a nice guy'",
+      "Abstract": "Donald Trump has savaged Newsom for sparing 548 convicted killers from execution, claiming some of the depraved murderers make Hannibal Lecter look like 'a nice guy.'",
+      "Url": "https://www.dailymail.com/news/article-16294245/Trump-scolds-Gavin-Newsom-releasing-prisoners-death-row.html",
+      "ArticleUrl": "https://www.dailymail.com/news/article-16294245/Trump-scolds-Gavin-Newsom-releasing-prisoners-death-row.html",
+      "ExternalUrl": "https://www.dailymail.com/news/article-16294245/Trump-scolds-Gavin-Newsom-releasing-prisoners-death-row.html",
+      "PublishedDateTime": "2026-11-16T02:13:01Z",
       "Provider": {
         "Name": "Daily Mail",
         "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvhVl.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvHWp.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -199,63 +199,63 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "‘Pull back the curtain’ on treatment of sexual assault victims in court, says UK government adviser",
-      "Abstract": "The debate triggered by high-profile cases must “pull back the curtain” on the treatment of people making allegations of sexual offences in the criminal justice system in England and Wales, the government’s independent adviser on rape has told the Guardian. Prof Katrin Hohl, who has advised the government in an overhaul of how rape is treated by police forces and the Crown Prosecution Service (CPS), said the government should use the public...",
-      "Url": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
-      "ArticleUrl": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
-      "ExternalUrl": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
-      "PublishedDateTime": "2026-11-15T23:19:05Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2huo0e.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Wayne Rooney 'visibly shaking' as he reveals 'biggest fear' on I'm A Celeb",
-      "Abstract": "The former England star will be on our screens on Monday night",
-      "Url": "https://www.liverpoolecho.co.uk/news/tv/wayne-rooney-visibly-shaking-reveals-34915708",
-      "ArticleUrl": "https://www.liverpoolecho.co.uk/news/tv/wayne-rooney-visibly-shaking-reveals-34915708",
-      "ExternalUrl": "https://www.liverpoolecho.co.uk/news/tv/wayne-rooney-visibly-shaking-reveals-34915708",
-      "PublishedDateTime": "2026-11-15T23:01:43Z",
-      "Provider": {
-        "Name": "Liverpool Echo",
-        "DisplayName": "Liverpool Echo"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvi8d.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "England deliver the spectacular in Spain victory and give Tuchel the proof he demanded: HOLT",
-      "Abstract": "SPAIN 2-3 ENGLAND -OLIVER HOLT IN MADRID: Thomas Tuchel had said he wanted evidence. He needed to believe his coaching was working.",
-      "Url": "https://www.dailymail.com/sport/football/article-16290271/England-deliver-spectacular-Three-Lions-men-strip-world-champions-Spain-invincibility-Thomas-Tuchel-proof-coaching-working-writes-OLIVER-HOLT.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16290271/England-deliver-spectacular-Three-Lions-men-strip-world-champions-Spain-invincibility-Thomas-Tuchel-proof-coaching-working-writes-OLIVER-HOLT.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16290271/England-deliver-spectacular-Three-Lions-men-strip-world-champions-Spain-invincibility-Thomas-Tuchel-proof-coaching-working-writes-OLIVER-HOLT.html",
-      "PublishedDateTime": "2026-11-15T22:02:46Z",
+      "Title": "Something to shout about! I Swear wins trio of Baftas... but Davidson watches from a separate room",
+      "Abstract": "Mr Davidson decided to watch the ceremony from a separate room after the film's Baftas win last February sparked a row when the campaigner shouted an offensive word.",
+      "Url": "https://www.dailymail.com/tvshowbiz/article-16295295/I-Swear-wins-trio-Baftas-Tourettes-campaigner.html",
+      "ArticleUrl": "https://www.dailymail.com/tvshowbiz/article-16295295/I-Swear-wins-trio-Baftas-Tourettes-campaigner.html",
+      "ExternalUrl": "https://www.dailymail.com/tvshowbiz/article-16295295/I-Swear-wins-trio-Baftas-Tourettes-campaigner.html",
+      "PublishedDateTime": "2026-11-16T01:41:26Z",
       "Provider": {
         "Name": "Daily Mail",
         "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hujY1.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvDhu.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Biggest waves in more than a decade slam California coast",
+      "Abstract": "The California Bay Area's largest waves in more than a decade slammed into the coast over the weekend, as life-threatening swells flooded streets and sent onlookers into the sea.",
+      "Url": "https://www.dailymail.com/news/article-16293283/Waves-California-ElNino-flooding.html",
+      "ArticleUrl": "https://www.dailymail.com/news/article-16293283/Waves-California-ElNino-flooding.html",
+      "ExternalUrl": "https://www.dailymail.com/news/article-16293283/Waves-California-ElNino-flooding.html",
+      "PublishedDateTime": "2026-11-16T01:41:17Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvgIL.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "George W. Bush and wife Laura carry out coin toss at NFL game as they continue busy football weekend",
+      "Abstract": "The 80-year-old ex-commander-in-chief was accompanied by his wife - and former First Lady - Laura as he took to midfield at the AT&T Stadium to conduct the ceremonial duties.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16294943/george-bush-laura-cowboys-49ers-coin-toss-dallas.html",
+      "PublishedDateTime": "2026-11-16T01:27:31Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvqgl.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
