@@ -1,138 +1,245 @@
 {
-  "Updated": "2026-11-17T03:26:01.073Z",
+  "Updated": "2026-11-17T12:18:49.911Z",
   "Value": [
     {
-      "Title": "Rugby-New Zealand coach Rennie says All Blacks let country down with shock Wales loss",
-      "Abstract": "Nov 17 (Reuters) - New Zealand coach Dave Rennie has demanded a big response from the All Blacks against England after they \"let the country down\" with their shock defeat by Wales. New Zealand remain in pole position to finish top of their section and qualify for the first Nations Championship final in London despite the 35-28 loss in Cardiff at the weekend. But a first defeat to Wales in 73",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hAnKi",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hAnKi",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hAnKi",
-      "PublishedDateTime": "2026-11-17T02:59:29Z",
+      "Title": "Fire erupts outside MetLife Stadium after New York Jets’ latest defeat",
+      "Abstract": "Fire erupts outside MetLife Stadium after New York Jets’ latest crushing defeat - Blaze erupts in empty tent outside of NFL arena Sunday afternoon, sending smoke billowing overhead and bringing firefighters racing to the scene to put it out",
+      "Url": "https://www.independent.co.uk/news/world/americas/metlife-stadium-fire-new-jersey-jets-b3085595.html",
+      "ArticleUrl": "https://www.independent.co.uk/news/world/americas/metlife-stadium-fire-new-jersey-jets-b3085595.html",
+      "ExternalUrl": "https://www.independent.co.uk/news/world/americas/metlife-stadium-fire-new-jersey-jets-b3085595.html",
+      "PublishedDateTime": "2026-11-16T12:13:02Z",
+      "Provider": {
+        "Name": "The Independent",
+        "DisplayName": "The Independent"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA27Xre0.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Bruno Guimaraes makes ‘completely different’ Newcastle United claim ahead of return with Arsenal",
+      "Abstract": "Bruno Guimaraes returns to Newcastle United for the first time since joining Premier League champions Arsenal.",
+      "Url": "https://www.shieldsgazette.com/sport/football/newcastle-united/bruno-guimaraes-newcastle-united-arsenal-9356002",
+      "ArticleUrl": "https://www.shieldsgazette.com/sport/football/newcastle-united/bruno-guimaraes-newcastle-united-arsenal-9356002",
+      "ExternalUrl": "https://www.shieldsgazette.com/sport/football/newcastle-united/bruno-guimaraes-newcastle-united-arsenal-9356002",
+      "PublishedDateTime": "2026-11-17T12:00:21Z",
+      "Provider": {
+        "Name": "Shields Gazette",
+        "DisplayName": "Shields Gazette"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hClNa.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Philippe Diallo accepts Europe's invitation to run against Infantino",
+      "Abstract": "France’s football federation chief will challenge Gianni Infantino at the FIFA Congress in Rabat on 18 March, after all 55 UEFA member associations lined up behind his candidacy in a public break with the incumbent.",
+      "Url": "https://lentedesportiva.com/philippe-diallo-accepts-europes-invitation-to-run-against-infantino/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/philippe-diallo-accepts-europes-invitation-to-run-against-infantino/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/philippe-diallo-accepts-europes-invitation-to-run-against-infantino/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-17T12:00:00Z",
+      "Provider": {
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hC9tg.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Wayne Rooney reveals he considered suicide after hitting 'rock bottom'",
+      "Abstract": "Football great and current I'm A Celebrity camp-mate Wayne Rooney, 41, has opened up about his mental health crisis to broadcaster Gabby Logan on her newly-released podcast",
+      "Url": "https://www.mirror.co.uk/3am/celebrity-news/wayne-rooney-suicide-celebrity-jungle-37885117",
+      "ArticleUrl": "https://www.mirror.co.uk/3am/celebrity-news/wayne-rooney-suicide-celebrity-jungle-37885117",
+      "ExternalUrl": "https://www.mirror.co.uk/3am/celebrity-news/wayne-rooney-suicide-celebrity-jungle-37885117",
+      "PublishedDateTime": "2026-11-17T11:01:43Z",
+      "Provider": {
+        "Name": "Mirror",
+        "DisplayName": "Mirror"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hCb6Y.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "From \"Zizou-Christ\" to \"ordinary\": Zidane, nervous and already facing criticism as France manager",
+      "Abstract": "No easy ride at home for the new manager after the defeat to Italy and the laboured Nations League victory over Turkey",
+      "Url": "https://www.gazzetta.it/en/football/international-football/17-11-2026/zidane-under-fire-france-from-zizou-christ-to-ordinary.shtml",
+      "ArticleUrl": "https://www.gazzetta.it/en/football/international-football/17-11-2026/zidane-under-fire-france-from-zizou-christ-to-ordinary.shtml",
+      "ExternalUrl": "https://www.gazzetta.it/en/football/international-football/17-11-2026/zidane-under-fire-france-from-zizou-christ-to-ordinary.shtml",
+      "PublishedDateTime": "2026-11-17T11:52:00Z",
+      "Provider": {
+        "Name": "La Gazzetta dello Sport EN",
+        "DisplayName": "La Gazzetta dello Sport EN"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hC9md.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Gareth Bale interested in new club with $1bn partner after Cardiff City interest",
+      "Abstract": "Wales hero Gareth Bale has long hinted at football club ownership and he appears to have his eye on a huge European side",
+      "Url": "https://www.walesonline.co.uk/sport/football/football-news/gareth-bale-club-ownership-cardiff-34921630",
+      "ArticleUrl": "https://www.walesonline.co.uk/sport/football/football-news/gareth-bale-club-ownership-cardiff-34921630",
+      "ExternalUrl": "https://www.walesonline.co.uk/sport/football/football-news/gareth-bale-club-ownership-cardiff-34921630",
+      "PublishedDateTime": "2026-11-16T22:45:47Z",
+      "Provider": {
+        "Name": "Wales Online",
+        "DisplayName": "Wales Online"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzX2l.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "‘Absolute legend!’ - Antoine Griezmann pays emotional tribute to Cristiano Ronaldo following Portugal icon's retirement",
+      "Abstract": "Antoine Griezmann has publicly paid tribute to Cristiano Ronaldo following the forward's recent retirement from international football with Portugal. The former France international praised his longtime rival as an absolute legend of the game after he brought down the curtain on a historic career.",
+      "Url": "https://www.goal.com/en-gb/news/antoine-griezmann-tribute-cristiano-ronaldo-portugal-retirement/blt26d856a8968ca52b?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "ArticleUrl": "https://www.goal.com/en-gb/news/antoine-griezmann-tribute-cristiano-ronaldo-portugal-retirement/blt26d856a8968ca52b?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "ExternalUrl": "https://www.goal.com/en-gb/news/antoine-griezmann-tribute-cristiano-ronaldo-portugal-retirement/blt26d856a8968ca52b?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "PublishedDateTime": "2026-11-17T11:42:04Z",
+      "Provider": {
+        "Name": "GOAL",
+        "DisplayName": "GOAL"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hCqHc.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Wayne Rooney reveals he considered suicide after hitting rock bottom in alcohol binge",
+      "Abstract": "Wayne Rooney considered taking his own life at the height of his football career.",
+      "Url": "https://www.express.co.uk/sport/football/2266896/Wayne-Rooney-alcohol-rock-bottom-2266896",
+      "ArticleUrl": "https://www.express.co.uk/sport/football/2266896/Wayne-Rooney-alcohol-rock-bottom-2266896",
+      "ExternalUrl": "https://www.express.co.uk/sport/football/2266896/Wayne-Rooney-alcohol-rock-bottom-2266896",
+      "PublishedDateTime": "2026-11-17T11:26:00Z",
+      "Provider": {
+        "Name": "Daily Express",
+        "DisplayName": "Daily Express"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hC9gD.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Hebburn Town FC dedicates match to Jack Hanley after tragic death aged 20",
+      "Abstract": "The football club will pay tribute to Jack Hanley, a 20-year-old player who tragically lost his life, with a special matchday programme and a minute's applause on the 20th minute.",
+      "Url": "https://www.shieldsgazette.com/news/tributes-to-jack-hanley-9355934",
+      "ArticleUrl": "https://www.shieldsgazette.com/news/tributes-to-jack-hanley-9355934",
+      "ExternalUrl": "https://www.shieldsgazette.com/news/tributes-to-jack-hanley-9355934",
+      "PublishedDateTime": "2026-11-17T11:30:22Z",
+      "Provider": {
+        "Name": "Shields Gazette",
+        "DisplayName": "Shields Gazette"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hneLK.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Disney beats earnings forecasts, plans to increase content spending",
+      "Abstract": "By Lisa Richwine LOS ANGELES, Nov 17 (Reuters) - Walt Disney on Tuesday reported quarterly revenue and earnings that beat Wall Street expectations, helped by higher theme park attendance and strong NFL viewership, and said it would increase content spending by 9% in the next fiscal year. Disney reported adjusted earnings per share of $1.77 for the fiscal fourth quarter ended October 3. Analysts",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hCgkm",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hCgkm",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hCgkm",
+      "PublishedDateTime": "2026-11-17T11:38:39Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hAdtd.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Rugby"
-      ],
-      "Sport": "Rugby",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Everton enter race for €20m-rated Brazilian defensive sensation",
-      "Abstract": "Brighton and Everton are reportedly interested in signing Atletico Mineiro defender Vitao ahead of the January transfer window. According to a TEAMtalk report, both Premier League clubs are monitoring the 18-year-old Brazilian, although Brighton appear to be leading the race to sign him.",
-      "Url": "https://www.yardbarker.com/soccer/articles/everton_enter_race_for_20m_rated_brazilian_defensive_sensation/s1_15953_44571374",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/everton_enter_race_for_20m_rated_brazilian_defensive_sensation/s1_15953_44571374",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/everton_enter_race_for_20m_rated_brazilian_defensive_sensation/s1_15953_44571374",
-      "PublishedDateTime": "2026-11-17T02:44:52Z",
-      "Provider": {
-        "Name": "CaughtOffside",
-        "DisplayName": "CaughtOffside"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hApWZ.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Asia shares slide on tech weakness ahead of Nvidia earnings",
-      "Abstract": "By Rae Wee SINGAPORE, Nov 17 (Reuters) - Asian shares followed Wall Street lower on Tuesday, weighed down by weakness in technology companies after the US stepped up efforts to curb China's access to advanced AI chips, escalating the race for technological dominance. South Korea's tech-heavy KOSPI slid 2% shortly after the open, while Taiwan stocks fell 1.4%. Japan's Nikkei eased 1% and MSCI's",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hzwmh",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hzwmh",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hzwmh",
-      "PublishedDateTime": "2026-11-17T02:05:39Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA0Qo.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Formula 1"
-      ],
-      "Sport": "Formula 1",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Buckingham appointed New Zealand coach through to 2030 World Cup",
-      "Abstract": "Nov 17 (Reuters) - Former New Zealand under-23 coach Des Buckingham will take over the senior side from July next year and lead the All Whites through to the 2030 World Cup, New Zealand Football (NZF) said on Tuesday. The 41-year-old Englishman will also lead the under-23 side as they look to qualify for the 2028 Los Angeles Olympics. \"Des is a unique candidate for this role as he has a deep",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hzw9m",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hzw9m",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hzw9m",
-      "PublishedDateTime": "2026-11-17T01:30:03Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzO07.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Sean Payton shuts down ‘loophole’ talk, but Broncos still have a defensive problem without Henley",
-      "Abstract": "Denver must move forward without the linebacker they hoped would strengthen their defense. Denver Broncos head coach Sean Payton isn’t interested in fueling the controversy surrounding the team’s failed attempt to acquire Los Angeles Chargers linebacker Daiyan Henley. But he made one thing clear: Denver doesn’t believe it exploited a loophole in the NFL’s trade rules. Speaking during his regular Monday morning news conference, Payton pushed back...",
-      "Url": "https://www.marca.com/en/nfl/denver-broncos/2026/11/17/sean-payton-shuts-down-loophole-talk-but-broncos-still-have-defensive-problem-without-henley.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/denver-broncos/2026/11/17/sean-payton-shuts-down-loophole-talk-but-broncos-still-have-defensive-problem-without-henley.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/denver-broncos/2026/11/17/sean-payton-shuts-down-loophole-talk-but-broncos-still-have-defensive-problem-without-henley.html",
-      "PublishedDateTime": "2026-11-17T01:58:52Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "NFL star who went viral for his severe OCD is brutally cut by Miami after three mistakes in one game",
-      "Abstract": "The Miami Dolphins have ruthlessly cut kicker Zane Gonzalez just a day after he made a series of costly mistakes in their loss to the Indianapolis Colts.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16297563/zane-gonzalez-miami-dolphins-cut.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16297563/zane-gonzalez-miami-dolphins-cut.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16297563/zane-gonzalez-miami-dolphins-cut.html",
-      "PublishedDateTime": "2026-11-17T00:20:39Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA50O.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hCdVc.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -145,19 +252,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Five Gunners Make My Premier League Team of the Season So Far. Who Makes Yours?",
-      "Abstract": "I normally write my half-season reviews near Christmas. Yet I’ve noticed that several outlets have put together their team of the season so far during this international break.",
-      "Url": "https://www.yardbarker.com/soccer/articles/five_gunners_make_my_premier_league_team_of_the_season_so_far_who_makes_yours/s1_15968_44571215",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/five_gunners_make_my_premier_league_team_of_the_season_so_far_who_makes_yours/s1_15968_44571215",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/five_gunners_make_my_premier_league_team_of_the_season_so_far_who_makes_yours/s1_15968_44571215",
-      "PublishedDateTime": "2026-11-17T01:36:40Z",
+      "Title": "Bruno Guimaraes sends two-word message to Newcastle United youngster days ahead of Arsenal visit",
+      "Abstract": "Arsenal midfielder Bruno Guimaraes sent a message to one of Newcastle United’s young stars ahead of Saturday’s Premier League match at St James’ Park.",
+      "Url": "https://www.newcastleworld.com/sport/football/newcastle-united/bruno-guimaraes-matheos-ferreira-newcastle-united-brazil-9355410",
+      "ArticleUrl": "https://www.newcastleworld.com/sport/football/newcastle-united/bruno-guimaraes-matheos-ferreira-newcastle-united-brazil-9355410",
+      "ExternalUrl": "https://www.newcastleworld.com/sport/football/newcastle-united/bruno-guimaraes-matheos-ferreira-newcastle-united-brazil-9355410",
+      "PublishedDateTime": "2026-11-17T11:30:01Z",
       "Provider": {
-        "Name": "Just Arsenal",
-        "DisplayName": "Just Arsenal"
+        "Name": "NewcastleWorld",
+        "DisplayName": "NewcastleWorld"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hAcY7.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA26U3c3.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -170,44 +277,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Drake Maye injury update: Mike Vrabel could call on a familiar Patriots QB",
-      "Abstract": "Drake Maye’s injury may have changed everything in New England, and Mike Vrabel could turn to a former Titans QB for help.. The New England Patriots left Munich with a painful loss, but the final score quickly became secondary to the news that could change the course of their season: the injury to franchise quarterback Drake Maye. The young quarterback suffered the injury on the final play of New England’s opening drive against the Detroit Lions...",
-      "Url": "https://www.marca.com/en/nfl/new-england-patriots/2026/11/17/drake-maye-injury-update-mike-vrabel-could-call-on-familiar-patriots-qb.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/new-england-patriots/2026/11/17/drake-maye-injury-update-mike-vrabel-could-call-on-familiar-patriots-qb.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/new-england-patriots/2026/11/17/drake-maye-injury-update-mike-vrabel-could-call-on-familiar-patriots-qb.html",
-      "PublishedDateTime": "2026-11-17T00:43:56Z",
+      "Title": "Germany crush Netherlands 5-0 to top Nations League",
+      "Abstract": "A Florian Wirtz brace and three goals in 11 second-half minutes carried Germany to a 5-0 win over the Netherlands at the Olympiastadion on Monday, sealing top spot in Nations League Group A2 and sending Jürgen Klopp’s side into the quarter-finals.",
+      "Url": "https://lentedesportiva.com/germany-crush-netherlands-5-0-to-top-nations-league/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/germany-crush-netherlands-5-0-to-top-nations-league/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/germany-crush-netherlands-5-0-to-top-nations-league/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-17T11:30:00Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzG9R.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "John McGinn: Impossible to say Scotland on right track after Switzerland loss",
-      "Abstract": "Sebastien Pocognoli’s side have only beaten North Macedonia during their Nations League campaign.",
-      "Url": "https://www.irishnews.com/sport/soccer/john-mcginn-impossible-to-say-scotland-on-right-track-after-switzerland-loss-BVP7D3GQLRKI5EUUAYEWPVMFZU/",
-      "ArticleUrl": "https://www.irishnews.com/sport/soccer/john-mcginn-impossible-to-say-scotland-on-right-track-after-switzerland-loss-BVP7D3GQLRKI5EUUAYEWPVMFZU/",
-      "ExternalUrl": "https://www.irishnews.com/sport/soccer/john-mcginn-impossible-to-say-scotland-on-right-track-after-switzerland-loss-BVP7D3GQLRKI5EUUAYEWPVMFZU/",
-      "PublishedDateTime": "2026-11-17T00:58:24Z",
-      "Provider": {
-        "Name": "The Irish News",
-        "DisplayName": "The Irish News"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hAfeZ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hBMwg.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -220,153 +302,28 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Violence erupts in Brazilian women’s soccer final as Corinthians and Ferroviária face fallout",
-      "Abstract": "Referee Jéssica Aparecida Milani attempted to intervene, but the situation escalated before she could restore order. A championship celebration turned into an ugly scene in Brazilian women’s soccer after the Under-20 final between Ferroviária and Corinthians descended into a massive on-field brawl involving players, coaching staff and members of both teams. The incident occurred Sunday at Fonte Luminosa Stadium in Araraquara, São Paulo, during...",
-      "Url": "https://www.marca.com/en/football/2026/11/17/violence-erupts-in-brazilian-women-s-soccer-final-as-corinthians-and-ferroviaria-face-fallout.html",
-      "ArticleUrl": "https://www.marca.com/en/football/2026/11/17/violence-erupts-in-brazilian-women-s-soccer-final-as-corinthians-and-ferroviaria-face-fallout.html",
-      "ExternalUrl": "https://www.marca.com/en/football/2026/11/17/violence-erupts-in-brazilian-women-s-soccer-final-as-corinthians-and-ferroviaria-face-fallout.html",
-      "PublishedDateTime": "2026-11-17T00:50:58Z",
+      "Title": "Blackburn Rovers head coach Tony Mowbray steps down due to health issues",
+      "Abstract": "Tony Mowbray has stepped back from his role as the Blackburn Rovers head coach for health reasons. The 62-year-old rejoined Rovers in June and has guided a club threatened with relegation last season to 13th in the Championship, three points off the playoff places. However, he has been forced to step away from the game for a second time owing to a health issue. Mowbray temporarily left his job as Birmingham City’s manager in February 2024 for...",
+      "Url": "https://www.theguardian.com/football/2026/nov/17/blackburn-rovers-tony-mowbray-steps-down-due-to-health-issues",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/17/blackburn-rovers-tony-mowbray-steps-down-due-to-health-issues",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/17/blackburn-rovers-tony-mowbray-steps-down-due-to-health-issues",
+      "PublishedDateTime": "2026-11-17T11:16:06Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA2HJ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hCaCD.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Football"
+        "football"
       ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "John McGinn: Impossible to say Scotland on right track after Switzerland loss",
-      "Abstract": "Sebastien Pocognoli’s side have only beaten North Macedonia during their Nations League campaign.",
-      "Url": "https://content.api.pressassociation.io/v1/item/87c442d0-1ae1-4f3a-a4eb-f55932f50c21",
-      "ArticleUrl": "https://content.api.pressassociation.io/v1/item/87c442d0-1ae1-4f3a-a4eb-f55932f50c21",
-      "ExternalUrl": "https://content.api.pressassociation.io/v1/item/87c442d0-1ae1-4f3a-a4eb-f55932f50c21",
-      "PublishedDateTime": "2026-11-17T00:58:24Z",
-      "Provider": {
-        "Name": "PA Sport",
-        "DisplayName": "PA Sport"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzSRX.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Ten-year NFL veteran detained for 'attacking a cop' in latest legal drama",
-      "Abstract": "Police reports claim the Dareus, 36, was initially pulled over for erratic driving, before he then allegedly assaulted an officer and continued driving for a short distance.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16297667/marcell-dareus-arrest-cop-hoover-alabama.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16297667/marcell-dareus-arrest-cop-hoover-alabama.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16297667/marcell-dareus-arrest-cop-hoover-alabama.html",
-      "PublishedDateTime": "2026-11-16T21:45:32Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzKIC.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Glamorous former Patriots reporter slams NFL insider Ian Rapoport over 'botched' Drake Maye report",
-      "Abstract": "The Patriots star suffered a right ankle injury during Sunday's brutal loss to the Detroit Lions in Munich and is feared to require season-ending surgery.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16297783/Glamorous-former-Patriots-reporter-slams-NFL-insider-Ian-Rapoport-botched-Drake-Maye-report.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16297783/Glamorous-former-Patriots-reporter-slams-NFL-insider-Ian-Rapoport-botched-Drake-Maye-report.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16297783/Glamorous-former-Patriots-reporter-slams-NFL-insider-Ian-Rapoport-botched-Drake-Maye-report.html",
-      "PublishedDateTime": "2026-11-16T23:13:26Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA4z3.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Germany beat Netherlands 5-0 to win Nations League group",
-      "Abstract": "Florian Wirtz scored twice as Germany cruised to a comfortable 5-0 win over the Netherlands to qualify for the Nations League quarter-finals on Monday.",
-      "Url": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394",
-      "ArticleUrl": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394",
-      "ExternalUrl": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394",
-      "PublishedDateTime": "2026-11-16T23:48:00Z",
-      "Provider": {
-        "Name": "DW United Kingdom",
-        "DisplayName": "DW United Kingdom"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzFIc.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "A teammate of Fernando Mendoza makes a troubling revelation about the Raiders' quarterback",
-      "Abstract": "The Seahawks may have uncovered Fernando Mendoza’s biggest weakness, making the rookie’s first NFL start even tougher than it appeared.. Expectations remain sky-high for Las Vegas Raiders quarterback Fernando Mendoza, but his first NFL start raised more questions than answers. After an encouraging opening against the Seattle Seahawks, the rookie gradually lost control of the game as Seattle’s defense applied relentless pressure throughout the...",
-      "Url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/17/teammate-of-fernando-mendoza-makes-troubling-revelation-about-the-raiders-quarterback.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/17/teammate-of-fernando-mendoza-makes-troubling-revelation-about-the-raiders-quarterback.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/17/teammate-of-fernando-mendoza-makes-troubling-revelation-about-the-raiders-quarterback.html",
-      "PublishedDateTime": "2026-11-16T23:53:12Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hyCtM.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
+      "Sport": "football",
       "TagEvaluationGroups": []
     }
   ]
