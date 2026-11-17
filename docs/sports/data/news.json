@@ -1,281 +1,163 @@
 {
-  "Updated": "2026-11-16T20:51:21.849Z",
+  "Updated": "2026-11-17T03:26:01.073Z",
   "Value": [
     {
-      "Title": "Big twist in Man City charges case amid fears over billion-pound pay out",
-      "Abstract": "Manchester City were found guilty of breaches of the Premier League's financial rules in September, with officials now navigating an appeals process",
-      "Url": "https://www.express.co.uk/sport/football/2266733/Manchester-City-Charges-Premier-League-Richard-Masters-2266733",
-      "ArticleUrl": "https://www.express.co.uk/sport/football/2266733/Manchester-City-Charges-Premier-League-Richard-Masters-2266733",
-      "ExternalUrl": "https://www.express.co.uk/sport/football/2266733/Manchester-City-Charges-Premier-League-Richard-Masters-2266733",
-      "PublishedDateTime": "2026-11-16T20:27:00Z",
-      "Provider": {
-        "Name": "Daily Express",
-        "DisplayName": "Daily Express"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzaqx.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Switzerland v Scotland, Germany v Netherlands, and more: Nations League – live",
-      "Abstract": "Clockwatch: Join Will Unwin for updates from across Europe as Andy Robertson sets a record and two heavyweights clash in Berlin",
-      "Url": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
-      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
-      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
-      "PublishedDateTime": "2026-11-16T20:42:00Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzwB3.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Should there be a 3pm blackout in the UK for Premier League football matches?",
-      "Abstract": "Andy Burnham, who is an Everton supporter, said the 3pm blackout protects the income of lower league clubs — but he also complained about fixture scheduling impacting fans",
-      "Url": "https://www.mirror.co.uk/news/uk-news/blackout-uk-rule-football-matches-37883733",
-      "ArticleUrl": "https://www.mirror.co.uk/news/uk-news/blackout-uk-rule-football-matches-37883733",
-      "ExternalUrl": "https://www.mirror.co.uk/news/uk-news/blackout-uk-rule-football-matches-37883733",
-      "PublishedDateTime": "2026-11-16T19:42:06Z",
-      "Provider": {
-        "Name": "Mirror",
-        "DisplayName": "Mirror"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hySBq.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Richard Masters issues plea to Premier League clubs over Man City sponsor threat",
-      "Abstract": "The Premier League's legal war with Manchester City doesn't only involve the club itself but has ramifications for their sponsors such as Etihad Airways and Etisalat",
-      "Url": "https://www.mirror.co.uk/sport/football/news/premier-league-manchester-city-sponsors-37883581",
-      "ArticleUrl": "https://www.mirror.co.uk/sport/football/news/premier-league-manchester-city-sponsors-37883581",
-      "ExternalUrl": "https://www.mirror.co.uk/sport/football/news/premier-league-manchester-city-sponsors-37883581",
-      "PublishedDateTime": "2026-11-16T20:15:33Z",
-      "Provider": {
-        "Name": "Mirror",
-        "DisplayName": "Mirror"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2dSwfK.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Krasava's unusual tale leads from Russian football exile to Cyprus' top division",
-      "Abstract": "By Karolos Grohmann Nov 16 (Reuters) - Only four years ago Krasava were a club without a city, players, fans or a competitive future, having been stripped of their licence in Russia following the owner's public criticism of the 2022 invasion of Ukraine. Fast forward to November 2026 and the club, created by Russian former footballer and entrepreneur Yevgeny Savin, has found a new home in Cyprus,",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hyX75",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hyX75",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hyX75",
-      "PublishedDateTime": "2026-11-16T18:28:14Z",
+      "Title": "Rugby-New Zealand coach Rennie says All Blacks let country down with shock Wales loss",
+      "Abstract": "Nov 17 (Reuters) - New Zealand coach Dave Rennie has demanded a big response from the All Blacks against England after they \"let the country down\" with their shock defeat by Wales. New Zealand remain in pole position to finish top of their section and qualify for the first Nations Championship final in London despite the 35-28 loss in Cardiff at the weekend. But a first defeat to Wales in 73",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hAnKi",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hAnKi",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hAnKi",
+      "PublishedDateTime": "2026-11-17T02:59:29Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hAdtd.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Rugby"
+      ],
+      "Sport": "Rugby",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Everton enter race for €20m-rated Brazilian defensive sensation",
+      "Abstract": "Brighton and Everton are reportedly interested in signing Atletico Mineiro defender Vitao ahead of the January transfer window. According to a TEAMtalk report, both Premier League clubs are monitoring the 18-year-old Brazilian, although Brighton appear to be leading the race to sign him.",
+      "Url": "https://www.yardbarker.com/soccer/articles/everton_enter_race_for_20m_rated_brazilian_defensive_sensation/s1_15953_44571374",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/everton_enter_race_for_20m_rated_brazilian_defensive_sensation/s1_15953_44571374",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/everton_enter_race_for_20m_rated_brazilian_defensive_sensation/s1_15953_44571374",
+      "PublishedDateTime": "2026-11-17T02:44:52Z",
+      "Provider": {
+        "Name": "CaughtOffside",
+        "DisplayName": "CaughtOffside"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hApWZ.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Asia shares slide on tech weakness ahead of Nvidia earnings",
+      "Abstract": "By Rae Wee SINGAPORE, Nov 17 (Reuters) - Asian shares followed Wall Street lower on Tuesday, weighed down by weakness in technology companies after the US stepped up efforts to curb China's access to advanced AI chips, escalating the race for technological dominance. South Korea's tech-heavy KOSPI slid 2% shortly after the open, while Taiwan stocks fell 1.4%. Japan's Nikkei eased 1% and MSCI's",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hzwmh",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hzwmh",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hzwmh",
+      "PublishedDateTime": "2026-11-17T02:05:39Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA0Qo.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Buckingham appointed New Zealand coach through to 2030 World Cup",
+      "Abstract": "Nov 17 (Reuters) - Former New Zealand under-23 coach Des Buckingham will take over the senior side from July next year and lead the All Whites through to the 2030 World Cup, New Zealand Football (NZF) said on Tuesday. The 41-year-old Englishman will also lead the under-23 side as they look to qualify for the 2028 Los Angeles Olympics. \"Des is a unique candidate for this role as he has a deep",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hzw9m",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hzw9m",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hzw9m",
+      "PublishedDateTime": "2026-11-17T01:30:03Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzO07.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Sean Payton shuts down ‘loophole’ talk, but Broncos still have a defensive problem without Henley",
+      "Abstract": "Denver must move forward without the linebacker they hoped would strengthen their defense. Denver Broncos head coach Sean Payton isn’t interested in fueling the controversy surrounding the team’s failed attempt to acquire Los Angeles Chargers linebacker Daiyan Henley. But he made one thing clear: Denver doesn’t believe it exploited a loophole in the NFL’s trade rules. Speaking during his regular Monday morning news conference, Payton pushed back...",
+      "Url": "https://www.marca.com/en/nfl/denver-broncos/2026/11/17/sean-payton-shuts-down-loophole-talk-but-broncos-still-have-defensive-problem-without-henley.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/denver-broncos/2026/11/17/sean-payton-shuts-down-loophole-talk-but-broncos-still-have-defensive-problem-without-henley.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/denver-broncos/2026/11/17/sean-payton-shuts-down-loophole-talk-but-broncos-still-have-defensive-problem-without-henley.html",
+      "PublishedDateTime": "2026-11-17T01:58:52Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
       "Images": [],
       "Categories": [
-        "Football"
+        "NFL"
       ],
-      "Sport": "Football",
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Republic of Ireland searching for a spark in shoot-out for Nations League play-off spot",
-      "Abstract": "Republic of Ireland need a win against Kosovo and they should get it if they maintain standards from Austria clash",
-      "Url": "https://www.irishnews.com/sport/soccer/republic-of-ireland-searching-for-a-spark-in-shoot-out-for-nations-league-play-off-spot-N5VCRWKDPZFWFKV5ONFGVAWBAI/",
-      "ArticleUrl": "https://www.irishnews.com/sport/soccer/republic-of-ireland-searching-for-a-spark-in-shoot-out-for-nations-league-play-off-spot-N5VCRWKDPZFWFKV5ONFGVAWBAI/",
-      "ExternalUrl": "https://www.irishnews.com/sport/soccer/republic-of-ireland-searching-for-a-spark-in-shoot-out-for-nations-league-play-off-spot-N5VCRWKDPZFWFKV5ONFGVAWBAI/",
-      "PublishedDateTime": "2026-11-16T20:00:00Z",
-      "Provider": {
-        "Name": "The Irish News",
-        "DisplayName": "The Irish News"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hjpzb.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Crystal Palace appoint Thomas Frank as ex-Tottenham boss takes major pay cut",
-      "Abstract": "Crystal Palace sacked Pierre Sage after just 16 games in charge and have tasked ex-Tottenham boss Thomas Frank with steering them away from the bottom of the Premier League table",
-      "Url": "https://www.mirror.co.uk/sport/football/news/crystal-palace-thomas-frank-manager-37883735",
-      "ArticleUrl": "https://www.mirror.co.uk/sport/football/news/crystal-palace-thomas-frank-manager-37883735",
-      "ExternalUrl": "https://www.mirror.co.uk/sport/football/news/crystal-palace-thomas-frank-manager-37883735",
-      "PublishedDateTime": "2026-11-16T20:08:13Z",
-      "Provider": {
-        "Name": "Mirror",
-        "DisplayName": "Mirror"
-      },
-      "Images": [],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Northern Ireland are ahead of their neighbours in Republic as Nations League campaigns come to the boiling point",
-      "Abstract": "Northern Ireland playing to win their group while Republic face battle for second place",
-      "Url": "https://www.irishnews.com/sport/soccer/northern-ireland-are-ahead-of-their-neighbours-in-republic-as-nations-league-campaigns-come-to-the-boiling-point-6H5R4TK34BFTJDMLINSRJHLH4Q/",
-      "ArticleUrl": "https://www.irishnews.com/sport/soccer/northern-ireland-are-ahead-of-their-neighbours-in-republic-as-nations-league-campaigns-come-to-the-boiling-point-6H5R4TK34BFTJDMLINSRJHLH4Q/",
-      "ExternalUrl": "https://www.irishnews.com/sport/soccer/northern-ireland-are-ahead-of-their-neighbours-in-republic-as-nations-league-campaigns-come-to-the-boiling-point-6H5R4TK34BFTJDMLINSRJHLH4Q/",
-      "PublishedDateTime": "2026-11-16T20:00:00Z",
-      "Provider": {
-        "Name": "The Irish News",
-        "DisplayName": "The Irish News"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hyVmb.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "‘We want to win it’: Tuchel says Nations League can set up England for Euro 2028 glory",
-      "Abstract": "Thomas Tuchel believes winning the Nations League would provide England with the springboard to Euro 2028 glory. The head coach watched his team close out the calendar year with a sensational 3-2 victory against Spain at the Metropolitano Stadium on Sunday. It meant England leapfrogged the world champions to finish top of their Nations League group and ensured seeded status for the quarter-final draw on Friday. England will co‑host the European...",
-      "Url": "https://www.theguardian.com/football/2026/nov/16/england-winning-nations-league-euro-2028-thomas-tuchel",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/16/england-winning-nations-league-euro-2028-thomas-tuchel",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/16/england-winning-nations-league-euro-2028-thomas-tuchel",
-      "PublishedDateTime": "2026-11-16T19:00:51Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzoPu.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Preliminary study finds a clue in the quest to help diagnose CTE in the living",
-      "Abstract": "Preliminary study finds a clue in the quest to help diagnose CTE in the living - Scientists stumbled onto a hint that measuring a toxic protein tied to Alzheimer’s disease just might one day be useful in diagnosing a different brain disease in football players and others who have suffered repeated blows to the head",
-      "Url": "https://www.independent.co.uk/news/alzheimers-disease-scientists-washington-journalism-jama-b3084898.html",
-      "ArticleUrl": "https://www.independent.co.uk/news/alzheimers-disease-scientists-washington-journalism-jama-b3084898.html",
-      "ExternalUrl": "https://www.independent.co.uk/news/alzheimers-disease-scientists-washington-journalism-jama-b3084898.html",
-      "PublishedDateTime": "2026-11-14T04:00:35Z",
-      "Provider": {
-        "Name": "The Independent",
-        "DisplayName": "The Independent"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hoMrh.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Arsenal star slammed for ‘nightmare’ display vs Belgium star who ‘does what he wants’ against him",
-      "Abstract": "Riccardo Calafiori had a game to forget for Italy vs Belgium as his opposite number 'does what he wants' against him in the 4-1 defeat.",
-      "Url": "https://www.football365.com/news/arsenal-star-nightmare-display-belgium",
-      "ArticleUrl": "https://www.football365.com/news/arsenal-star-nightmare-display-belgium",
-      "ExternalUrl": "https://www.football365.com/news/arsenal-star-nightmare-display-belgium",
-      "PublishedDateTime": "2026-11-16T19:10:53Z",
-      "Provider": {
-        "Name": "Football365",
-        "DisplayName": "Football365"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzmDt.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "The boyish, Lego-loving farmer's son who quit Man City to be England's No 1: Leeds' James Trafford",
-      "Abstract": "'It was like meeting a kid at a sixth-form careers day'. That was the verdict, slightly unflattering but endearing all the same, of one Premier League chief after encountering James Trafford.",
-      "Url": "https://www.dailymail.com/sport/football/article-16296111/james-trafford-england-goalkeeper-manchester-city.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16296111/james-trafford-england-goalkeeper-manchester-city.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16296111/james-trafford-england-goalkeeper-manchester-city.html",
-      "PublishedDateTime": "2026-11-16T19:00:46Z",
+      "Title": "NFL star who went viral for his severe OCD is brutally cut by Miami after three mistakes in one game",
+      "Abstract": "The Miami Dolphins have ruthlessly cut kicker Zane Gonzalez just a day after he made a series of costly mistakes in their loss to the Indianapolis Colts.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16297563/zane-gonzalez-miami-dolphins-cut.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16297563/zane-gonzalez-miami-dolphins-cut.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16297563/zane-gonzalez-miami-dolphins-cut.html",
+      "PublishedDateTime": "2026-11-17T00:20:39Z",
       "Provider": {
         "Name": "Daily Mail",
         "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hyXzK.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA50O.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Five Gunners Make My Premier League Team of the Season So Far. Who Makes Yours?",
+      "Abstract": "I normally write my half-season reviews near Christmas. Yet I’ve noticed that several outlets have put together their team of the season so far during this international break.",
+      "Url": "https://www.yardbarker.com/soccer/articles/five_gunners_make_my_premier_league_team_of_the_season_so_far_who_makes_yours/s1_15968_44571215",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/five_gunners_make_my_premier_league_team_of_the_season_so_far_who_makes_yours/s1_15968_44571215",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/five_gunners_make_my_premier_league_team_of_the_season_so_far_who_makes_yours/s1_15968_44571215",
+      "PublishedDateTime": "2026-11-17T01:36:40Z",
+      "Provider": {
+        "Name": "Just Arsenal",
+        "DisplayName": "Just Arsenal"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hAcY7.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -288,69 +170,44 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Bleed From Within are sponsoring their local football club Clyde F.C.'s new kit",
-      "Abstract": "Football meets heavy metal as Bleed From Within sponsor their local club",
-      "Url": "https://www.loudersound.com/music-industry/an-opportunity-to-bring-the-scottish-community-together-in-a-unique-way-scottish-league-two-football-club-clyde-f-c-have-found-some-heavy-new-sponsors-local-metal-heroes-bleed-from-within",
-      "ArticleUrl": "https://www.loudersound.com/music-industry/an-opportunity-to-bring-the-scottish-community-together-in-a-unique-way-scottish-league-two-football-club-clyde-f-c-have-found-some-heavy-new-sponsors-local-metal-heroes-bleed-from-within",
-      "ExternalUrl": "https://www.loudersound.com/music-industry/an-opportunity-to-bring-the-scottish-community-together-in-a-unique-way-scottish-league-two-football-club-clyde-f-c-have-found-some-heavy-new-sponsors-local-metal-heroes-bleed-from-within",
-      "PublishedDateTime": "2026-11-16T16:00:00Z",
-      "Provider": {
-        "Name": "LouderSound",
-        "DisplayName": "LouderSound"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzbVS.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "British tennis star publicly calls out ATP bosses live on court at ATP Finals",
-      "Abstract": "Henry Patten called out the ATP CEO and Chairman while accepting his year-end No. 1 trophy.",
-      "Url": "https://www.express.co.uk/sport/tennis/2266637/Henry-Patten-Harri-Heliovaara-ATP-Finals-bosses-speech-2266637",
-      "ArticleUrl": "https://www.express.co.uk/sport/tennis/2266637/Henry-Patten-Harri-Heliovaara-ATP-Finals-bosses-speech-2266637",
-      "ExternalUrl": "https://www.express.co.uk/sport/tennis/2266637/Henry-Patten-Harri-Heliovaara-ATP-Finals-bosses-speech-2266637",
-      "PublishedDateTime": "2026-11-16T14:29:00Z",
-      "Provider": {
-        "Name": "Daily Express",
-        "DisplayName": "Daily Express"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hy79C.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Real Madrid's most \"extreme\" signings",
-      "Abstract": "Diomande, JJ Gabriel, Ciria... The club has turned wing talent into an obsession that runs through its entire structure, from the first team to the lowest rung of La Fábrica. There is one position that Real Madrid has decided to lock down at every level, and it is neither the goal nor the heart of the defense. It is the wing. In just one year, the club has assembled a striking number of footballers who share the same trait —beating defenders...",
-      "Url": "https://www.marca.com/en/football/spanish-football/2026/11/16/real-madrid-s-most-extreme-signings.html",
-      "ArticleUrl": "https://www.marca.com/en/football/spanish-football/2026/11/16/real-madrid-s-most-extreme-signings.html",
-      "ExternalUrl": "https://www.marca.com/en/football/spanish-football/2026/11/16/real-madrid-s-most-extreme-signings.html",
-      "PublishedDateTime": "2026-11-16T19:31:56Z",
+      "Title": "Drake Maye injury update: Mike Vrabel could call on a familiar Patriots QB",
+      "Abstract": "Drake Maye’s injury may have changed everything in New England, and Mike Vrabel could turn to a former Titans QB for help.. The New England Patriots left Munich with a painful loss, but the final score quickly became secondary to the news that could change the course of their season: the injury to franchise quarterback Drake Maye. The young quarterback suffered the injury on the final play of New England’s opening drive against the Detroit Lions...",
+      "Url": "https://www.marca.com/en/nfl/new-england-patriots/2026/11/17/drake-maye-injury-update-mike-vrabel-could-call-on-familiar-patriots-qb.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/new-england-patriots/2026/11/17/drake-maye-injury-update-mike-vrabel-could-call-on-familiar-patriots-qb.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/new-england-patriots/2026/11/17/drake-maye-injury-update-mike-vrabel-could-call-on-familiar-patriots-qb.html",
+      "PublishedDateTime": "2026-11-17T00:43:56Z",
       "Provider": {
         "Name": "MARCA",
         "DisplayName": "MARCA"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hz2VJ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzG9R.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "John McGinn: Impossible to say Scotland on right track after Switzerland loss",
+      "Abstract": "Sebastien Pocognoli’s side have only beaten North Macedonia during their Nations League campaign.",
+      "Url": "https://www.irishnews.com/sport/soccer/john-mcginn-impossible-to-say-scotland-on-right-track-after-switzerland-loss-BVP7D3GQLRKI5EUUAYEWPVMFZU/",
+      "ArticleUrl": "https://www.irishnews.com/sport/soccer/john-mcginn-impossible-to-say-scotland-on-right-track-after-switzerland-loss-BVP7D3GQLRKI5EUUAYEWPVMFZU/",
+      "ExternalUrl": "https://www.irishnews.com/sport/soccer/john-mcginn-impossible-to-say-scotland-on-right-track-after-switzerland-loss-BVP7D3GQLRKI5EUUAYEWPVMFZU/",
+      "PublishedDateTime": "2026-11-17T00:58:24Z",
+      "Provider": {
+        "Name": "The Irish News",
+        "DisplayName": "The Irish News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hAfeZ.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -363,19 +220,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
-      "Abstract": "“With every game, defeat gets closer,” Luis de la Fuente had said and on Sunday night it finally came. Spain had lost only one competitive game since Scotland in March 2023 back when the coach hadn’t won anything and didn’t look like he ever would – and that solitary loss was on penalties in the 2025 Nations League final. Statistically, they said, penalties don’t count, so while Portugal lifted the trophy that night, the team that won the...",
-      "Url": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
-      "PublishedDateTime": "2026-11-16T17:48:38Z",
+      "Title": "Violence erupts in Brazilian women’s soccer final as Corinthians and Ferroviária face fallout",
+      "Abstract": "Referee Jéssica Aparecida Milani attempted to intervene, but the situation escalated before she could restore order. A championship celebration turned into an ugly scene in Brazilian women’s soccer after the Under-20 final between Ferroviária and Corinthians descended into a massive on-field brawl involving players, coaching staff and members of both teams. The incident occurred Sunday at Fonte Luminosa Stadium in Araraquara, São Paulo, during...",
+      "Url": "https://www.marca.com/en/football/2026/11/17/violence-erupts-in-brazilian-women-s-soccer-final-as-corinthians-and-ferroviaria-face-fallout.html",
+      "ArticleUrl": "https://www.marca.com/en/football/2026/11/17/violence-erupts-in-brazilian-women-s-soccer-final-as-corinthians-and-ferroviaria-face-fallout.html",
+      "ExternalUrl": "https://www.marca.com/en/football/2026/11/17/violence-erupts-in-brazilian-women-s-soccer-final-as-corinthians-and-ferroviaria-face-fallout.html",
+      "PublishedDateTime": "2026-11-17T00:50:58Z",
       "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hz2fm.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA2HJ.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -388,28 +245,128 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Hat-tricks for Horrocks and Smalley as Westfield stay top of the Kettering League pile",
-      "Abstract": "Westfield maintain Kettering Table Tennis League lead with win over Burton",
-      "Url": "https://www.northantstelegraph.co.uk/sport/other-sport/hat-tricks-for-horrocks-and-smalley-as-westfield-stay-top-of-the-kettering-league-pile-9354878",
-      "ArticleUrl": "https://www.northantstelegraph.co.uk/sport/other-sport/hat-tricks-for-horrocks-and-smalley-as-westfield-stay-top-of-the-kettering-league-pile-9354878",
-      "ExternalUrl": "https://www.northantstelegraph.co.uk/sport/other-sport/hat-tricks-for-horrocks-and-smalley-as-westfield-stay-top-of-the-kettering-league-pile-9354878",
-      "PublishedDateTime": "2026-11-16T17:45:16Z",
+      "Title": "John McGinn: Impossible to say Scotland on right track after Switzerland loss",
+      "Abstract": "Sebastien Pocognoli’s side have only beaten North Macedonia during their Nations League campaign.",
+      "Url": "https://content.api.pressassociation.io/v1/item/87c442d0-1ae1-4f3a-a4eb-f55932f50c21",
+      "ArticleUrl": "https://content.api.pressassociation.io/v1/item/87c442d0-1ae1-4f3a-a4eb-f55932f50c21",
+      "ExternalUrl": "https://content.api.pressassociation.io/v1/item/87c442d0-1ae1-4f3a-a4eb-f55932f50c21",
+      "PublishedDateTime": "2026-11-17T00:58:24Z",
       "Provider": {
-        "Name": "Northamptonshire Telegraph",
-        "DisplayName": "Northamptonshire Telegraph"
+        "Name": "PA Sport",
+        "DisplayName": "PA Sport"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hysF1.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzSRX.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Tennis"
+        "Football"
       ],
-      "Sport": "Tennis",
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Ten-year NFL veteran detained for 'attacking a cop' in latest legal drama",
+      "Abstract": "Police reports claim the Dareus, 36, was initially pulled over for erratic driving, before he then allegedly assaulted an officer and continued driving for a short distance.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16297667/marcell-dareus-arrest-cop-hoover-alabama.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16297667/marcell-dareus-arrest-cop-hoover-alabama.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16297667/marcell-dareus-arrest-cop-hoover-alabama.html",
+      "PublishedDateTime": "2026-11-16T21:45:32Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzKIC.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Glamorous former Patriots reporter slams NFL insider Ian Rapoport over 'botched' Drake Maye report",
+      "Abstract": "The Patriots star suffered a right ankle injury during Sunday's brutal loss to the Detroit Lions in Munich and is feared to require season-ending surgery.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16297783/Glamorous-former-Patriots-reporter-slams-NFL-insider-Ian-Rapoport-botched-Drake-Maye-report.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16297783/Glamorous-former-Patriots-reporter-slams-NFL-insider-Ian-Rapoport-botched-Drake-Maye-report.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16297783/Glamorous-former-Patriots-reporter-slams-NFL-insider-Ian-Rapoport-botched-Drake-Maye-report.html",
+      "PublishedDateTime": "2026-11-16T23:13:26Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hA4z3.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Germany beat Netherlands 5-0 to win Nations League group",
+      "Abstract": "Florian Wirtz scored twice as Germany cruised to a comfortable 5-0 win over the Netherlands to qualify for the Nations League quarter-finals on Monday.",
+      "Url": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394",
+      "ArticleUrl": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394",
+      "ExternalUrl": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394",
+      "PublishedDateTime": "2026-11-16T23:48:00Z",
+      "Provider": {
+        "Name": "DW United Kingdom",
+        "DisplayName": "DW United Kingdom"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hzFIc.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "A teammate of Fernando Mendoza makes a troubling revelation about the Raiders' quarterback",
+      "Abstract": "The Seahawks may have uncovered Fernando Mendoza’s biggest weakness, making the rookie’s first NFL start even tougher than it appeared.. Expectations remain sky-high for Las Vegas Raiders quarterback Fernando Mendoza, but his first NFL start raised more questions than answers. After an encouraging opening against the Seattle Seahawks, the rookie gradually lost control of the game as Seattle’s defense applied relentless pressure throughout the...",
+      "Url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/17/teammate-of-fernando-mendoza-makes-troubling-revelation-about-the-raiders-quarterback.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/17/teammate-of-fernando-mendoza-makes-troubling-revelation-about-the-raiders-quarterback.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/17/teammate-of-fernando-mendoza-makes-troubling-revelation-about-the-raiders-quarterback.html",
+      "PublishedDateTime": "2026-11-16T23:53:12Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hyCtM.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     }
   ]
