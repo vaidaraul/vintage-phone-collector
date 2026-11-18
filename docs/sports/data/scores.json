@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-18T12:04:33.668Z",
+  "Updated": "2026-11-18T20:48:05.972Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -982,71 +982,175 @@
       "logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
       "events": [
         {
-          "id": "401910002",
-          "name": "New York Knicks at Toronto Raptors",
-          "date": "2026-11-18T00:30Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401910007",
+          "name": "Memphis Grizzlies at Cleveland Cavaliers",
+          "date": "2026-11-19T00:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Cleveland Cavaliers",
+            "short": "Cavaliers",
+            "abbreviation": "CLE",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Memphis Grizzlies",
+            "short": "Grizzlies",
+            "abbreviation": "MEM",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Rocket Arena"
+        },
+        {
+          "id": "401910008",
+          "name": "Houston Rockets at Indiana Pacers",
+          "date": "2026-11-19T00:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Indiana Pacers",
+            "short": "Pacers",
+            "abbreviation": "IND",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Houston Rockets",
+            "short": "Rockets",
+            "abbreviation": "HOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Gainbridge Fieldhouse"
+        },
+        {
+          "id": "401910009",
+          "name": "Milwaukee Bucks at Miami Heat",
+          "date": "2026-11-19T00:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Miami Heat",
+            "short": "Heat",
+            "abbreviation": "MIA",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Milwaukee Bucks",
+            "short": "Bucks",
+            "abbreviation": "MIL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Kaseya Center"
+        },
+        {
+          "id": "401910010",
+          "name": "Philadelphia 76ers at Orlando Magic",
+          "date": "2026-11-19T00:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Orlando Magic",
+            "short": "Magic",
+            "abbreviation": "ORL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Philadelphia 76ers",
+            "short": "76ers",
+            "abbreviation": "PHI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Kia Center"
+        },
+        {
+          "id": "401910011",
+          "name": "Chicago Bulls at Brooklyn Nets",
+          "date": "2026-11-19T00:30Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:30 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Brooklyn Nets",
+            "short": "Nets",
+            "abbreviation": "BKN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Chicago Bulls",
+            "short": "Bulls",
+            "abbreviation": "CHI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Barclays Center"
+        },
+        {
+          "id": "401910012",
+          "name": "Washington Wizards at Toronto Raptors",
+          "date": "2026-11-19T00:30Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:30 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
             "name": "Toronto Raptors",
             "short": "Raptors",
             "abbreviation": "TOR",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-            "score": "102",
+            "score": "0",
             "winner": false
           },
           "away": {
-            "name": "New York Knicks",
-            "short": "Knicks",
-            "abbreviation": "NY",
-            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-            "score": "111",
-            "winner": true
+            "name": "Washington Wizards",
+            "short": "Wizards",
+            "abbreviation": "WSH",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+            "score": "0",
+            "winner": false
           },
           "venue": "Scotiabank Arena"
         },
         {
-          "id": "401910003",
-          "name": "Portland Trail Blazers at Minnesota Timberwolves",
-          "date": "2026-11-18T01:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401910013",
+          "name": "Detroit Pistons at New Orleans Pelicans",
+          "date": "2026-11-19T01:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 8:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Minnesota Timberwolves",
-            "short": "Timberwolves",
-            "abbreviation": "MIN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-            "score": "106",
-            "winner": true
-          },
-          "away": {
-            "name": "Portland Trail Blazers",
-            "short": "Trail Blazers",
-            "abbreviation": "POR",
-            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-            "score": "105",
-            "winner": false
-          },
-          "venue": "Target Center"
-        },
-        {
-          "id": "401910004",
-          "name": "Detroit Pistons at San Antonio Spurs",
-          "date": "2026-11-18T01:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "San Antonio Spurs",
-            "short": "Spurs",
-            "abbreviation": "SA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-            "score": "93",
+            "name": "New Orleans Pelicans",
+            "short": "Pelicans",
+            "abbreviation": "NO",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+            "score": "0",
             "winner": false
           },
           "away": {
@@ -1054,25 +1158,103 @@
             "short": "Pistons",
             "abbreviation": "DET",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-            "score": "105",
-            "winner": true
+            "score": "0",
+            "winner": false
           },
-          "venue": "Frost Bank Center"
+          "venue": "Smoothie King Center"
         },
         {
-          "id": "401910006",
-          "name": "Utah Jazz at LA Clippers",
-          "date": "2026-11-18T03:30Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401910014",
+          "name": "Atlanta Hawks at Oklahoma City Thunder",
+          "date": "2026-11-19T01:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 8:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "LA Clippers",
-            "short": "Clippers",
-            "abbreviation": "LAC",
-            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-            "score": "107",
+            "name": "Oklahoma City Thunder",
+            "short": "Thunder",
+            "abbreviation": "OKC",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Atlanta Hawks",
+            "short": "Hawks",
+            "abbreviation": "ATL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Paycom Center"
+        },
+        {
+          "id": "401910016",
+          "name": "Golden State Warriors at Dallas Mavericks",
+          "date": "2026-11-19T01:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 8:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Dallas Mavericks",
+            "short": "Mavericks",
+            "abbreviation": "DAL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Golden State Warriors",
+            "short": "Warriors",
+            "abbreviation": "GS",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "American Airlines Center"
+        },
+        {
+          "id": "401910015",
+          "name": "Boston Celtics at Denver Nuggets",
+          "date": "2026-11-19T02:30Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 9:30 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Denver Nuggets",
+            "short": "Nuggets",
+            "abbreviation": "DEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Boston Celtics",
+            "short": "Celtics",
+            "abbreviation": "BOS",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Ball Arena"
+        },
+        {
+          "id": "401910017",
+          "name": "Utah Jazz at Los Angeles Lakers",
+          "date": "2026-11-19T03:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 10:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Los Angeles Lakers",
+            "short": "Lakers",
+            "abbreviation": "LAL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+            "score": "0",
             "winner": false
           },
           "away": {
@@ -1080,36 +1262,36 @@
             "short": "Jazz",
             "abbreviation": "UTAH",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-            "score": "132",
-            "winner": true
-          },
-          "venue": "Intuit Dome"
-        },
-        {
-          "id": "401910005",
-          "name": "Charlotte Hornets at Los Angeles Lakers",
-          "date": "2026-11-18T04:00Z",
-          "status": "Final",
-          "detail": "Final/OT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Los Angeles Lakers",
-            "short": "Lakers",
-            "abbreviation": "LAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-            "score": "118",
-            "winner": true
-          },
-          "away": {
-            "name": "Charlotte Hornets",
-            "short": "Hornets",
-            "abbreviation": "CHA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-            "score": "114",
+            "score": "0",
             "winner": false
           },
           "venue": "crypto.com Arena"
+        },
+        {
+          "id": "401910018",
+          "name": "Phoenix Suns at Sacramento Kings",
+          "date": "2026-11-19T03:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 10:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Sacramento Kings",
+            "short": "Kings",
+            "abbreviation": "SAC",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Phoenix Suns",
+            "short": "Suns",
+            "abbreviation": "PHX",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Golden 1 Center"
         }
       ]
     },
@@ -1158,14 +1340,22 @@
       "logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
       "events": [
         {
-          "id": "401892728",
-          "name": "Los Angeles Kings at Boston Bruins",
-          "date": "2026-11-18T00:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401892739",
+          "name": "Boston Bruins at Detroit Red Wings",
+          "date": "2026-11-19T00:30Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:30 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
+            "name": "Detroit Red Wings",
+            "short": "Red Wings",
+            "abbreviation": "DET",
+            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
             "name": "Boston Bruins",
             "short": "Bruins",
             "abbreviation": "BOS",
@@ -1173,275 +1363,59 @@
             "score": "0",
             "winner": false
           },
-          "away": {
-            "name": "Los Angeles Kings",
-            "short": "Kings",
-            "abbreviation": "LA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
-            "score": "3",
-            "winner": true
-          },
-          "venue": "TD Garden"
+          "venue": "Little Caesars Arena"
         },
         {
-          "id": "401892730",
-          "name": "Edmonton Oilers at Florida Panthers",
-          "date": "2026-11-18T00:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401892740",
+          "name": "Montreal Canadiens at New Jersey Devils",
+          "date": "2026-11-19T00:30Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 7:30 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Florida Panthers",
-            "short": "Panthers",
-            "abbreviation": "FLA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-            "score": "2",
+            "name": "New Jersey Devils",
+            "short": "Devils",
+            "abbreviation": "NJ",
+            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
+            "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Edmonton Oilers",
-            "short": "Oilers",
-            "abbreviation": "EDM",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-            "score": "5",
-            "winner": true
-          },
-          "venue": "Amerant Bank Arena"
-        },
-        {
-          "id": "401892731",
-          "name": "Columbus Blue Jackets at New York Islanders",
-          "date": "2026-11-18T00:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "New York Islanders",
-            "short": "Islanders",
-            "abbreviation": "NYI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
-            "score": "5",
-            "winner": true
-          },
-          "away": {
-            "name": "Columbus Blue Jackets",
-            "short": "Blue Jackets",
-            "abbreviation": "CBJ",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
-            "score": "1",
+            "name": "Montreal Canadiens",
+            "short": "Canadiens",
+            "abbreviation": "MTL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "UBS Arena"
+          "venue": "Prudential Center"
         },
         {
-          "id": "401892732",
-          "name": "Buffalo Sabres at Philadelphia Flyers",
-          "date": "2026-11-18T00:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401892741",
+          "name": "Colorado Avalanche at Utah Mammoth",
+          "date": "2026-11-19T03:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 18th at 10:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Philadelphia Flyers",
-            "short": "Flyers",
-            "abbreviation": "PHI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
-            "score": "4",
-            "winner": true
-          },
-          "away": {
-            "name": "Buffalo Sabres",
-            "short": "Sabres",
-            "abbreviation": "BUF",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
-            "score": "3",
-            "winner": false
-          },
-          "venue": "Xfinity Mobile Arena"
-        },
-        {
-          "id": "401892736",
-          "name": "Ottawa Senators at Winnipeg Jets",
-          "date": "2026-11-18T00:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Winnipeg Jets",
-            "short": "Jets",
-            "abbreviation": "WPG",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
-            "score": "1",
+            "name": "Utah Mammoth",
+            "short": "Mammoth",
+            "abbreviation": "UTA",
+            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
+            "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Ottawa Senators",
-            "short": "Senators",
-            "abbreviation": "OTT",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
-            "score": "2",
-            "winner": true
-          },
-          "venue": "Canada Life Centre"
-        },
-        {
-          "id": "401892729",
-          "name": "Washington Capitals at Tampa Bay Lightning",
-          "date": "2026-11-18T00:30Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Tampa Bay Lightning",
-            "short": "Lightning",
-            "abbreviation": "TB",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
-            "score": "5",
-            "winner": true
-          },
-          "away": {
-            "name": "Washington Capitals",
-            "short": "Capitals",
-            "abbreviation": "WSH",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
-            "score": "2",
+            "name": "Colorado Avalanche",
+            "short": "Avalanche",
+            "abbreviation": "COL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "Benchmark International Arena"
-        },
-        {
-          "id": "401892733",
-          "name": "Toronto Maple Leafs at Chicago Blackhawks",
-          "date": "2026-11-18T00:30Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Chicago Blackhawks",
-            "short": "Blackhawks",
-            "abbreviation": "CHI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
-            "score": "6",
-            "winner": true
-          },
-          "away": {
-            "name": "Toronto Maple Leafs",
-            "short": "Maple Leafs",
-            "abbreviation": "TOR",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
-            "score": "3",
-            "winner": false
-          },
-          "venue": "United Center"
-        },
-        {
-          "id": "401892734",
-          "name": "Anaheim Ducks at St. Louis Blues",
-          "date": "2026-11-18T01:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "St. Louis Blues",
-            "short": "Blues",
-            "abbreviation": "STL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-            "score": "8",
-            "winner": true
-          },
-          "away": {
-            "name": "Anaheim Ducks",
-            "short": "Ducks",
-            "abbreviation": "ANA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
-            "score": "6",
-            "winner": false
-          },
-          "venue": "Enterprise Center"
-        },
-        {
-          "id": "401892735",
-          "name": "Nashville Predators at Minnesota Wild",
-          "date": "2026-11-18T01:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Minnesota Wild",
-            "short": "Wild",
-            "abbreviation": "MIN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png",
-            "score": "7",
-            "winner": true
-          },
-          "away": {
-            "name": "Nashville Predators",
-            "short": "Predators",
-            "abbreviation": "NSH",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
-            "score": "3",
-            "winner": false
-          },
-          "venue": "Grand Casino Arena"
-        },
-        {
-          "id": "401892737",
-          "name": "Dallas Stars at Vegas Golden Knights",
-          "date": "2026-11-18T03:00Z",
-          "status": "Final",
-          "detail": "Final/OT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Vegas Golden Knights",
-            "short": "Golden Knights",
-            "abbreviation": "VGK",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-            "score": "3",
-            "winner": false
-          },
-          "away": {
-            "name": "Dallas Stars",
-            "short": "Stars",
-            "abbreviation": "DAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
-            "score": "4",
-            "winner": true
-          },
-          "venue": "T-Mobile Arena"
-        },
-        {
-          "id": "401892738",
-          "name": "Calgary Flames at San Jose Sharks",
-          "date": "2026-11-18T03:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "San Jose Sharks",
-            "short": "Sharks",
-            "abbreviation": "SJ",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-            "score": "2",
-            "winner": false
-          },
-          "away": {
-            "name": "Calgary Flames",
-            "short": "Flames",
-            "abbreviation": "CGY",
-            "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
-            "score": "5",
-            "winner": true
-          },
-          "venue": "SAP Center at San Jose"
+          "venue": "Delta Center"
         }
       ]
     }
