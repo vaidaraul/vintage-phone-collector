@@ -1,20 +1,20 @@
 {
-  "Updated": "2026-11-19T10:37:58.982Z",
+  "Updated": "2026-11-19T19:22:36.082Z",
   "Value": [
     {
-      "Title": "Soccer-Healthy again, Kompany wants to shift focus back to football normality",
-      "Abstract": "MUNICH, Germany, Nov 19 (Reuters) - Bayern Munich coach Vincent Kompany is thankful for the support he received after falling ill and collapsing but said on Thursday he was eager to go back to football normality, with the focus on results. Kompany returns to the bench on Friday after almost a month out. The Belgian coach had been rushed to hospital on October 23 after collapsing during a",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hM7gF",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hM7gF",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hM7gF",
-      "PublishedDateTime": "2026-11-19T10:28:18Z",
+      "Title": "Arsenal v OL Lyonnes: Women’s Champions League – live",
+      "Abstract": "Minute-by-minute report: Join Yara El-Shaboury for updates as Arsenal face a tough test from the eight-times champions",
+      "Url": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
+      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
+      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
+      "PublishedDateTime": "2026-11-19T19:18:00Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hLZMJ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNNLg.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -27,19 +27,94 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Rugby-France name Jalibert at flyhalf for Argentina clash",
-      "Abstract": "PARIS, Nov 19 (Reuters) - France's Matthieu Jalibert will start at flyhalf for Saturday's Nations Championship clash against Argentina, alongside Antoine Dupont at scrumhalf, ending an injury crisis in the pivot position, coach Fabien Galthie said on Thursday. • Jalibert hurt his quadriceps in French Top 14 rugby in September and suffered a further setback in training last month. He has not",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hLtpn",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hLtpn",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hLtpn",
-      "PublishedDateTime": "2026-11-19T10:23:44Z",
+      "Title": "Fernando Torres reveals why he really left Liverpool with 'everything changed' admission",
+      "Abstract": "Fernando Torres was an icon at Liverpool before his controversial January transfer deadline day move to Premier League rivals Chelsea",
+      "Url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-fernando-torres-34938916",
+      "ArticleUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-fernando-torres-34938916",
+      "ExternalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-fernando-torres-34938916",
+      "PublishedDateTime": "2026-11-19T19:12:12Z",
+      "Provider": {
+        "Name": "Liverpool Echo",
+        "DisplayName": "Liverpool Echo"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNSSC.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Alexander Zverev v Arthur Fils: ATP Finals tennis group stage – live",
+      "Abstract": "Join Katy Murrells for updates from Turin, where only a straight-sets win for Arthur Fils will put him into the semi-finals",
+      "Url": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
+      "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
+      "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
+      "PublishedDateTime": "2026-11-19T19:12:00Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNqQu.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Tennis"
+      ],
+      "Sport": "Tennis",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Football Manager 27 review: Back on form, but not without its wayward touches",
+      "Abstract": "The football management sim is back on form, but not without its wayward touches.",
+      "Url": "https://www.pcgamer.com/games/sports/football-manager-27-review/",
+      "ArticleUrl": "https://www.pcgamer.com/games/sports/football-manager-27-review/",
+      "ExternalUrl": "https://www.pcgamer.com/games/sports/football-manager-27-review/",
+      "PublishedDateTime": "2026-11-19T16:48:49Z",
+      "Provider": {
+        "Name": "PC Gamer",
+        "DisplayName": "PC Gamer"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNG9x.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Rugby-Sheehan starts at number eight for Ireland against South Africa",
+      "Abstract": "Nov 19 (Reuters) - Dan Sheehan will captain Ireland at number eight in their Nations Championship clash with South Africa in Dublin on Saturday, while fullback Hugo Keenan is set to win his 50th cap. • Sam Prendergast has been selected at flyhalf after an independent disciplinary committee dismissed his citing for an alleged hip-drop tackle against Fiji last weekend, and he forms a halfback",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hNmiv",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hNmiv",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hNmiv",
+      "PublishedDateTime": "2026-11-19T18:45:18Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hLlz4.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNVez.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -52,37 +127,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Cricket-South Africa seal nine-wicket win over Bangladesh in first test",
-      "Abstract": "Nov 19 (Reuters) - South Africa wrapped up a nine-wicket victory in the first test against Bangladesh at the Wanderers on Thursday to go ahead in the two-match series and stay on course for a place in the World Test Championship final in London next year. South Africa needed 12 runs to win the test after dismissing Bangladesh for 168 in their second innings with off spinner Simon Harmer taking",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hLdIx",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hLdIx",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hLdIx",
-      "PublishedDateTime": "2026-11-19T10:17:23Z",
+      "Title": "Naomi’s back: Girma returns to USWNT as Emma Hayes names 26-player roster for Italy friendlies; Trinity Rodman and Phallon Tullis-Joyce left out",
+      "Abstract": "Naomi Girma has returned to the U.S. women’s national team as manager Emma Hayes named a 26-player squad for the year-ending friendlies against Italy. Manchester United goalkeeper Phallon Tullis-Joyce misses out after suffering an eye socket fracture, while Trinity Rodman was not called in following a limited appearance in the Washington Spirit’s playoff win last weekend.",
+      "Url": "https://www.goal.com/en-gb/lists/naomi-s-back-girma-returns-to-uswnt-as-emma-hayes-names-26-player-roster-for-italy-friendlies-trinity-rodman-and-phallon-tullis-joyce-left-out/blta3c138023943e02c?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "ArticleUrl": "https://www.goal.com/en-gb/lists/naomi-s-back-girma-returns-to-uswnt-as-emma-hayes-names-26-player-roster-for-italy-friendlies-trinity-rodman-and-phallon-tullis-joyce-left-out/blta3c138023943e02c?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "ExternalUrl": "https://www.goal.com/en-gb/lists/naomi-s-back-girma-returns-to-uswnt-as-emma-hayes-names-26-player-roster-for-italy-friendlies-trinity-rodman-and-phallon-tullis-joyce-left-out/blta3c138023943e02c?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
+      "PublishedDateTime": "2025-11-19T14:54:21Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [],
-      "Categories": [
-        "Cricket"
-      ],
-      "Sport": "Cricket",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "\"No limits\": AC Milan owner reportedly approves €100m transfer war chest",
-      "Abstract": "Calciomercato reports that AC Milan owner Gerry Cardinale has told incoming Head of Football Markus Krösche he has no ceiling on January spending, with a working budget of around €100m to rebuild the squad around Ruben Amorim.",
-      "Url": "https://lentedesportiva.com/no-limits-ac-milan-owner-reportedly-approves-e100m-transfer-war-chest/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/no-limits-ac-milan-owner-reportedly-approves-e100m-transfer-war-chest/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/no-limits-ac-milan-owner-reportedly-approves-e100m-transfer-war-chest/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-19T10:30:00Z",
-      "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
+        "Name": "GOAL",
+        "DisplayName": "GOAL"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hLKl0.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1F8Hgw.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -95,248 +152,12 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Mudryk blames Ukrainian FA for doping ban",
-      "Abstract": "Mykhailo Mudryk is preparing for a return to the Tottenham lineup this weekend against Ipswich Town, but the winger has also opened up about the circumstances surrounding his lengthy absence from football.",
-      "Url": "https://www.playmakerstats.com/news/mudryk-blames-ukrainian-fa-for-doping-ban/1263068",
-      "ArticleUrl": "https://www.playmakerstats.com/news/mudryk-blames-ukrainian-fa-for-doping-ban/1263068",
-      "ExternalUrl": "https://www.playmakerstats.com/news/mudryk-blames-ukrainian-fa-for-doping-ban/1263068",
-      "PublishedDateTime": "2026-11-19T10:27:57Z",
-      "Provider": {
-        "Name": "playmakerstats.com",
-        "DisplayName": "playmakerstats.com"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hL8Mi.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Influencer Tiffanie Ray Accuses NFL Star Stefon Diggs of 'Abuse' and 'Neglect' in Disturbing Instagram Posts",
-      "Abstract": "",
-      "Url": "https://www.ibtimes.co.uk/stefon-diggs-accused-abuse-neglect-tiffanie-ray-1833332",
-      "ArticleUrl": "https://www.ibtimes.co.uk/stefon-diggs-accused-abuse-neglect-tiffanie-ray-1833332",
-      "ExternalUrl": "https://www.ibtimes.co.uk/stefon-diggs-accused-abuse-neglect-tiffanie-ray-1833332",
-      "PublishedDateTime": "2026-11-19T10:21:16Z",
-      "Provider": {
-        "Name": "IBTimes UK",
-        "DisplayName": "IBTimes UK"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hLPxG.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Premier League panel AGREE with Daniel Farke verdict on controversy that saw rival complain",
-      "Abstract": "Not all members of the Premier League panel agreed with the final verdict given on Jayden Bogle's tackle on Mathys Tel, which left Tottenham Hotspur furious but was called \"unlucky\" by Daniel Farke",
-      "Url": "https://www.leeds-live.co.uk/sport/leeds-united/premier-league-panel-agree-daniel-34934405",
-      "ArticleUrl": "https://www.leeds-live.co.uk/sport/leeds-united/premier-league-panel-agree-daniel-34934405",
-      "ExternalUrl": "https://www.leeds-live.co.uk/sport/leeds-united/premier-league-panel-agree-daniel-34934405",
-      "PublishedDateTime": "2026-11-19T10:26:20Z",
-      "Provider": {
-        "Name": "Leeds Live",
-        "DisplayName": "Leeds Live"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2h81Gr.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Inside Fifa’s power struggle and the game-changer to defeat Infantino",
-      "Abstract": "Inside the Fifa power struggle – and one last game-changer that could defeat Infantino - Infantino now looks likely to hold onto power in March’s elections, while the complex nature of football politics has resulted in Uefa increasingly mirroring Fifa",
-      "Url": "https://www.independent.co.uk/sport/football/fifa-elections-gianni-infantino-aleksander-ceferin-arsene-wenger-b3087496.html",
-      "ArticleUrl": "https://www.independent.co.uk/sport/football/fifa-elections-gianni-infantino-aleksander-ceferin-arsene-wenger-b3087496.html",
-      "ExternalUrl": "https://www.independent.co.uk/sport/football/fifa-elections-gianni-infantino-aleksander-ceferin-arsene-wenger-b3087496.html",
-      "PublishedDateTime": "2026-11-19T10:24:12Z",
-      "Provider": {
-        "Name": "The Independent",
-        "DisplayName": "The Independent"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2dhbp8.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Torino, latest news ahead of Napoli: partial group training for Vlasic and Belghali",
-      "Abstract": "Abate hopes to have the midfielder and the wing-back available ahead of Saturday's match at the Maradona",
-      "Url": "https://www.gazzetta.it/en/football/teams/torino/news/19-11-2026/torino-latest-injury-news-ahead-of-napoli-abate-aims-to-recover-vlasic-and-belghali.shtml",
-      "ArticleUrl": "https://www.gazzetta.it/en/football/teams/torino/news/19-11-2026/torino-latest-injury-news-ahead-of-napoli-abate-aims-to-recover-vlasic-and-belghali.shtml",
-      "ExternalUrl": "https://www.gazzetta.it/en/football/teams/torino/news/19-11-2026/torino-latest-injury-news-ahead-of-napoli-abate-aims-to-recover-vlasic-and-belghali.shtml",
-      "PublishedDateTime": "2026-11-19T10:20:42Z",
-      "Provider": {
-        "Name": "La Gazzetta dello Sport EN",
-        "DisplayName": "La Gazzetta dello Sport EN"
-      },
-      "Images": [],
-      "Categories": [
-        "La Liga"
-      ],
-      "Sport": "La Liga",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Fantasy football Matchday 12 budget guide: who to start position by position",
-      "Abstract": "Defenders, midfielders and forwards: the budget players not to leave out in Fantacampionato ahead of the next round of Serie A",
-      "Url": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/guide/19-11-2026/fantasy-football-tips-budget-players-to-start-serie-matchday-12.shtml",
-      "ArticleUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/guide/19-11-2026/fantasy-football-tips-budget-players-to-start-serie-matchday-12.shtml",
-      "ExternalUrl": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/guide/19-11-2026/fantasy-football-tips-budget-players-to-start-serie-matchday-12.shtml",
-      "PublishedDateTime": "2026-11-19T10:21:40Z",
-      "Provider": {
-        "Name": "La Gazzetta dello Sport EN",
-        "DisplayName": "La Gazzetta dello Sport EN"
-      },
-      "Images": [],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Yamal, Flick and Garcia: Barcelona sweep La Liga's major end-of-season awards",
-      "Abstract": "A 19-year-old with 16 goals, 12 assists and a third-place Ballon d’Or finish has just added one more line to his 2026, as Barcelona claim three of La Liga’s five end-of-season prizes.",
-      "Url": "https://lentedesportiva.com/yamal-flick-and-garcia-barcelona-sweep-la-ligas-major-end-of-season-awards/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/yamal-flick-and-garcia-barcelona-sweep-la-ligas-major-end-of-season-awards/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/yamal-flick-and-garcia-barcelona-sweep-la-ligas-major-end-of-season-awards/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-19T10:15:00Z",
-      "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hM29r.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Rugby-Wales make 4 changes for Australia test",
-      "Abstract": "Nov 19 (Reuters) - Wales coach Steve Tandy has made four changes to his starting XV, including the return of winger Josh Adams and No. 8 Aaron Wainwright, for the Nations Championship test against Australia in Cardiff on Saturday. • Wales produced a shock 35-28 victory over New Zealand last weekend, one of their best-ever results, but Tandy has still chosen to rotate his players • Adams returns",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hL8kK",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hL8kK",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hL8kK",
-      "PublishedDateTime": "2026-11-19T09:33:05Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hLP0J.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Rugby"
-      ],
-      "Sport": "Rugby",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Nearly all euro zone banks are struggling with tech risks, ECB says",
-      "Abstract": "FRANKFURT, Nov 19 (Reuters) - Almost all major euro zone lenders are showing deficiencies in how they manage their cybersecurity, the European Central Bank said on Thursday, adding that supervisors will zoom in on AI-enabled attacks in the next two years. • In its annual report on the state of the euro zone banking system, the ECB said 96% of the large banks on its watch received mediocre or poor",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hLEML",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hLEML",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hLEML",
-      "PublishedDateTime": "2026-11-19T09:03:10Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hM1NY.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Formula 1"
-      ],
-      "Sport": "Formula 1",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Lynch yacht crew unaware of wind risk before fatal sinking, UK report finds",
-      "Abstract": "By Paul Sandle LONDON, Nov 19 (Reuters) - The crew of British tech tycoon Mike Lynch's yacht, which sank off Sicily in 2024 killing him and six others, was unaware of its vulnerability to strong winds because the risk had never been assessed, a British investigation found on Thursday. The 56-metre-long (184-foot) Bayesian was moored off Porticello, near Palermo, in August 2024 when it was hit by",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hLljL",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hLljL",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hLljL",
-      "PublishedDateTime": "2026-11-19T10:08:02Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hLMGt.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Formula 1"
-      ],
-      "Sport": "Formula 1",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Messi's mother reveals her message to Nico Paz: \"You are my son's successor\"",
-      "Abstract": "Fabián Paz, Nico Paz's uncle, recounts the previously unreleased conversation between the Como footballer and Celia Cuccittini,. The Canary Islander Nico Paz, a Como 1907 player whom Real Madrid could bring back with a unilateral 80 million euro clause, is making a case through his goals to become Leo Messi's successor with Argentina's iconic number 10. \"Nico came out of the locker room and Messi's mother was there, emotional, crying. She took...",
-      "Url": "https://www.marca.com/en/football/2026/11/19/messi-s-mother-reveals-her-message-to-nico-paz-you-are-my-son-s-successor.html",
-      "ArticleUrl": "https://www.marca.com/en/football/2026/11/19/messi-s-mother-reveals-her-message-to-nico-paz-you-are-my-son-s-successor.html",
-      "ExternalUrl": "https://www.marca.com/en/football/2026/11/19/messi-s-mother-reveals-her-message-to-nico-paz-you-are-my-son-s-successor.html",
-      "PublishedDateTime": "2026-11-19T10:05:51Z",
+      "Title": "Manchester City begins to suffer setbacks: loses 2 billion in a day",
+      "Abstract": "The investor group fears the sanctions that may be coming for the English club. The multinational Apollo has canceled a loan of around 2 billion dollars (about 1.82 billion euros) )to the owner of Manchester City following the English club’s breach of regulations and the possible sanction looming from the Premier League, according to sources from the English newspaper \"Finantial Times\". Apollo Global Management, the American private equity group...",
+      "Url": "https://www.marca.com/en/football/premier-league/2026/11/19/manchester-city-begins-to-suffer-setbacks-loses-2-billion-in-day.html",
+      "ArticleUrl": "https://www.marca.com/en/football/premier-league/2026/11/19/manchester-city-begins-to-suffer-setbacks-loses-2-billion-in-day.html",
+      "ExternalUrl": "https://www.marca.com/en/football/premier-league/2026/11/19/manchester-city-begins-to-suffer-setbacks-loses-2-billion-in-day.html",
+      "PublishedDateTime": "2026-11-19T18:25:13Z",
       "Provider": {
         "Name": "MARCA",
         "DisplayName": "MARCA"
@@ -349,19 +170,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "\"Very, very, very good\": Zinedine Zidane stunned by Real Madrid wonderkid",
-      "Abstract": "Hours after his France side beat Turkey 2-1 in Bordeaux to top their Nations League group, Zinedine Zidane spent much of his press conference praising the 21-year-old on the losing side.",
-      "Url": "https://lentedesportiva.com/very-very-very-good-zinedine-zidane-stunned-by-real-madrid-wonderkid/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/very-very-very-good-zinedine-zidane-stunned-by-real-madrid-wonderkid/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/very-very-very-good-zinedine-zidane-stunned-by-real-madrid-wonderkid/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-19T10:00:00Z",
+      "Title": "Mauricio Pochettino calls for Manchester United to show no fear against Liverpool",
+      "Abstract": "Mauricio Pochettino has called on Manchester United to have “no fear” when they travel to Anfield on Sunday for his first game. The Argentinian does not want his players to take a backward step as he targets a fast start. United are 18th in the Premier League and Liverpool fourth but the head coach will not accept any self-doubt. Pochettino is known for being attack-minded and is keen to instil those ideals, but will have had only three days...",
+      "Url": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
+      "PublishedDateTime": "2026-11-19T12:38:05Z",
       "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hL1hv.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hMP40.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -374,19 +195,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Premier League stadium sounded out ahead of England v New Zealand Test series",
-      "Abstract": "England are due to host the Kiwis in the Northern Hemisphere next year",
-      "Url": "https://www.alloutrugbyleague.co.uk/news/premier-league-stadium-sounded-out-2115697",
-      "ArticleUrl": "https://www.alloutrugbyleague.co.uk/news/premier-league-stadium-sounded-out-2115697",
-      "ExternalUrl": "https://www.alloutrugbyleague.co.uk/news/premier-league-stadium-sounded-out-2115697",
-      "PublishedDateTime": "2026-11-19T09:46:06Z",
+      "Title": "Fifa sparks tension with demand for tax-free status in UK for Women’s World Cup",
+      "Abstract": "Fifa is at loggerheads with the UK’s government and four football associations over the world governing body’s demands for tax-free status and exemptions from exchange-rate fees at the 2035 Women’s World Cup. The UK bid to host the tournament is due to be ratified at an extraordinary Fifa congress in Zurich on Monday and the Guardian has learned there is tension behind the scenes over many of Fifa’s requirements, which multiple sources involved...",
+      "Url": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
+      "PublishedDateTime": "2026-11-19T16:00:06Z",
       "Provider": {
-        "Name": "All Out Rugby League",
-        "DisplayName": "All Out Rugby League"
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hLqfp.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNdJj.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -396,6 +217,192 @@
         "Football"
       ],
       "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Glorious failure no more: How Scotland ended 27-year FIFA World Cup exile in ridiculous fashion",
+      "Abstract": "Scotland booked their place at next summer's 2026 FIFA World Cup with a dramatic 4-2 victory over Denmark at Hampden Park",
+      "Url": "https://www.fourfourtwo.com/competition/glorious-failure-no-more-how-scotland-ended-27-year-fifa-world-cup-exile-in-ridiculous-fashion",
+      "ArticleUrl": "https://www.fourfourtwo.com/competition/glorious-failure-no-more-how-scotland-ended-27-year-fifa-world-cup-exile-in-ridiculous-fashion",
+      "ExternalUrl": "https://www.fourfourtwo.com/competition/glorious-failure-no-more-how-scotland-ended-27-year-fifa-world-cup-exile-in-ridiculous-fashion",
+      "PublishedDateTime": "2025-11-19T14:13:50Z",
+      "Provider": {
+        "Name": "FourFourTwo",
+        "DisplayName": "FourFourTwo"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QKw5d.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Palmer and Rogers lead Premier League in combined stat – but still wait for first mutual assist",
+      "Abstract": "Chelsea pair Morgan Rogers and Cole Palmer have linked up just as we all hoped they would, and we can’t wait to see them assist one another. The international",
+      "Url": "https://www.yardbarker.com/soccer/articles/palmer_and_rogers_lead_premier_league_in_combined_stat_but_still_wait_for_first_mutual_assist/s1_15956_44587329",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/palmer_and_rogers_lead_premier_league_in_combined_stat_but_still_wait_for_first_mutual_assist/s1_15956_44587329",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/palmer_and_rogers_lead_premier_league_in_combined_stat_but_still_wait_for_first_mutual_assist/s1_15956_44587329",
+      "PublishedDateTime": "2026-11-19T18:23:06Z",
+      "Provider": {
+        "Name": "Chelsea News",
+        "DisplayName": "Chelsea News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNQ2S.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Premier League clubs vote through new rules to increase legal protection for board",
+      "Abstract": "Clubs rallied behind the Premier League’s leadership in a key vote on Thursday, overwhelmingly backing new rules that would protect the chief executive, Richard Masters, from potentially damaging lawsuits. A vote to expand the legal indemnity afforded to Premier League directors was won 18-2 at a shareholders’ meeting in central London, granting Masters and other figures greater protection in the event they were subjected to legal action as a...",
+      "Url": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits",
+      "PublishedDateTime": "2026-11-19T16:03:07Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hMzrR.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Ravens star sent home for a week as punishment for claiming Baltimore is 'best at making criminals'",
+      "Abstract": "The ten-year NFL veteran was asked what the city of Baltimore is best at on his eponymous podcast earlier this week before insulting the only team he's ever played for.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16306565/marlon-humphrey-ravens-baltimore-criminals.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16306565/marlon-humphrey-ravens-baltimore-criminals.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16306565/marlon-humphrey-ravens-baltimore-criminals.html",
+      "PublishedDateTime": "2026-11-19T16:57:57Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNeuV.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Six things you don't know about Provstgaard: winning the Champions League on PlayStation, his idol Van Dijk and...",
+      "Abstract": "The Danish centre-back, who has also become a mainstay for his national team, is in Inter's sights",
+      "Url": "https://www.gazzetta.it/en/football/teams/inter/news/storie/19-11-2026/provstgaard-six-things-you-don-t-know-about-him-who-he-is-and-trivia.shtml",
+      "ArticleUrl": "https://www.gazzetta.it/en/football/teams/inter/news/storie/19-11-2026/provstgaard-six-things-you-don-t-know-about-him-who-he-is-and-trivia.shtml",
+      "ExternalUrl": "https://www.gazzetta.it/en/football/teams/inter/news/storie/19-11-2026/provstgaard-six-things-you-don-t-know-about-him-who-he-is-and-trivia.shtml",
+      "PublishedDateTime": "2026-11-19T18:04:38Z",
+      "Provider": {
+        "Name": "La Gazzetta dello Sport EN",
+        "DisplayName": "La Gazzetta dello Sport EN"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNlZv.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "NFL Week 11 2026: Schedule and where to watch all the weekend's games",
+      "Abstract": "The 49ers and Vikings close out a day of sudden death for those chasing the playoffs.. The 2026-2027 NFL season reaches Week 11 with the schedule divided into two very different realities. On one hand, a group of eight teams tied with a 7-2 record are battling for every seeding position; on the other, a handful of struggling franchises are playing for pride. It's one of those days where a single defeat can send a contender from second place to...",
+      "Url": "https://www.marca.com/en/nfl/2026/11/19/nfl-week-112026-schedule-and-where-to-watch-all-the-weekend-s-games.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/2026/11/19/nfl-week-112026-schedule-and-where-to-watch-all-the-weekend-s-games.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/2026/11/19/nfl-week-112026-schedule-and-where-to-watch-all-the-weekend-s-games.html",
+      "PublishedDateTime": "2026-11-19T17:05:43Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Lakers Luka Doncic and NBA referee have an unbelievable face-off as Lakers coach steps in",
+      "Abstract": "Doncic’s tense halftime exchange with referee Tre Maddox. A tense video from the Lakers’ 109-97 loss to the Utah Jazz shows Luka walking toward the locker room at halftime when referee Tre Maddox stops him and appears to ask, “What did you say?” Maddox steps toward the Lakers star, who looks surprised. Lakers assistant coach Scott Brooks quickly moves between them and guides Maddox away. Austin Reaves and Matisse Thybulle are also nearby as Luka...",
+      "Url": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/19/lakers-luka-doncic-and-nba-referee-have-an-unbelievable-face-off-as-lakers-coach-steps-in.html",
+      "ArticleUrl": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/19/lakers-luka-doncic-and-nba-referee-have-an-unbelievable-face-off-as-lakers-coach-steps-in.html",
+      "ExternalUrl": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/19/lakers-luka-doncic-and-nba-referee-have-an-unbelievable-face-off-as-lakers-coach-steps-in.html",
+      "PublishedDateTime": "2026-11-19T17:43:29Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [],
+      "Categories": [
+        "NBA"
+      ],
+      "Sport": "NBA",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Troy Aikman aims savage dig at ESPN nemesis Joe Buck amid ugly fallout of NFL commentary partners",
+      "Abstract": "The feud between the legendary pair - who have called games together for 25 seasons - continued on Thursday during Aikman's weekly appearance on a Dallas radio station.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16306345/troy-aikman-joe-buck-espn-feud.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16306345/troy-aikman-joe-buck-espn-feud.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16306345/troy-aikman-joe-buck-espn-feud.html",
+      "PublishedDateTime": "2026-11-19T17:32:37Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hN9Ta.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     }
   ]
