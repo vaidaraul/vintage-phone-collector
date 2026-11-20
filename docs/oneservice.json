@@ -1,19 +1,129 @@
 {
   "Value": [
     {
-      "Title": "Burnham says UK and Europe are ‘stronger together’ ahead of summit",
-      "Abstract": "Politics live: Burnham says UK and Europe are ‘stronger together’ ahead of crunch summit - Britain has set to allow 100,000 young Europeans come to the UK each year as part of a youth mobility scheme",
-      "Url": "https://www.independent.co.uk/news/uk/politics/burnham-uk-eu-summit-brexit-latest-updates-today-b3088431.html",
-      "ArticleUrl": "https://www.independent.co.uk/news/uk/politics/burnham-uk-eu-summit-brexit-latest-updates-today-b3088431.html",
-      "ExternalUrl": "https://www.independent.co.uk/news/uk/politics/burnham-uk-eu-summit-brexit-latest-updates-today-b3088431.html",
-      "PublishedDateTime": "2026-11-20T08:30:34Z",
+      "Title": "Terrifying Formula E explosion leaves car engulfed in huge fireball as statement issued",
+      "Abstract": "The session was ended prematurely.",
+      "Url": "https://www.express.co.uk/sport/f1-autosport/2268047/formula-e-testing-explosion-taylor-barnard-2268047",
+      "ArticleUrl": "https://www.express.co.uk/sport/f1-autosport/2268047/formula-e-testing-explosion-taylor-barnard-2268047",
+      "ExternalUrl": "https://www.express.co.uk/sport/f1-autosport/2268047/formula-e-testing-explosion-taylor-barnard-2268047",
+      "PublishedDateTime": "2026-11-20T17:31:00Z",
+      "Provider": {
+        "Name": "Daily Express",
+        "DisplayName": "Daily Express"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSseo.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Andy Burnham slammed for 'betrayal' as talks on reversing Brexit to begin in 2027",
+      "Abstract": "The Prime Minister admitted he could start talks with the EU within 12 months",
+      "Url": "https://www.express.co.uk/news/politics/2268051/andy-burnham-slammed-betrayal-talks-2268051",
+      "ArticleUrl": "https://www.express.co.uk/news/politics/2268051/andy-burnham-slammed-betrayal-talks-2268051",
+      "ExternalUrl": "https://www.express.co.uk/news/politics/2268051/andy-burnham-slammed-betrayal-talks-2268051",
+      "PublishedDateTime": "2026-11-20T17:26:00Z",
+      "Provider": {
+        "Name": "Daily Express",
+        "DisplayName": "Daily Express"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hS0u9.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Cast announced for new tour of Punch starting in Nottingham",
+      "Abstract": "Ashfield playwright James Graham’s award-winning play is back on the road",
+      "Url": "https://www.chad.co.uk/whats-on/cast-announced-for-new-tour-of-punch-starting-in-nottingham-9364988",
+      "ArticleUrl": "https://www.chad.co.uk/whats-on/cast-announced-for-new-tour-of-punch-starting-in-nottingham-9364988",
+      "ExternalUrl": "https://www.chad.co.uk/whats-on/cast-announced-for-new-tour-of-punch-starting-in-nottingham-9364988",
+      "PublishedDateTime": "2026-11-20T17:27:46Z",
+      "Provider": {
+        "Name": "Mansfield and Ashfield Chad",
+        "DisplayName": "Mansfield and Ashfield Chad"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSaTg.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Prince Harry talks about life with royals as Sandringham invite in doubt",
+      "Abstract": "The Duke of Sussex spoke about Christmas at Sandringham.",
+      "Url": "https://www.express.co.uk/news/royal/2268052/prince-harry-sandringham-turkey-2268052",
+      "ArticleUrl": "https://www.express.co.uk/news/royal/2268052/prince-harry-sandringham-turkey-2268052",
+      "ExternalUrl": "https://www.express.co.uk/news/royal/2268052/prince-harry-sandringham-turkey-2268052",
+      "PublishedDateTime": "2026-11-20T17:32:00Z",
+      "Provider": {
+        "Name": "Daily Express",
+        "DisplayName": "Daily Express"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSaTc.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "German court bars Unilever’s sustainability claim on dumpling mix",
+      "Abstract": "",
+      "Url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:261120-930-27773/",
+      "ArticleUrl": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:261120-930-27773/",
+      "ExternalUrl": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:261120-930-27773/",
+      "PublishedDateTime": "2026-11-20T17:24:48Z",
+      "Provider": {
+        "Name": "DPA International",
+        "DisplayName": "DPA International"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hRBik.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Florist hopes UK-EU deal eases post-Brexit trading burdens in Northern Ireland",
+      "Abstract": "Florist hopes UK-EU deal eases post-Brexit trading burdens in Northern Ireland - Gary Connolly, owner of Memento flower shop on the Ormeau Road, built a wreath with Northern Ireland Secretary Sir Chris Bryant.",
+      "Url": "https://www.independent.co.uk/news/uk/home-news/chris-bryant-northern-ireland-andy-burnham-mps-brussels-b3088899.html",
+      "ArticleUrl": "https://www.independent.co.uk/news/uk/home-news/chris-bryant-northern-ireland-andy-burnham-mps-brussels-b3088899.html",
+      "ExternalUrl": "https://www.independent.co.uk/news/uk/home-news/chris-bryant-northern-ireland-andy-burnham-mps-brussels-b3088899.html",
+      "PublishedDateTime": "2026-11-20T17:26:05Z",
       "Provider": {
         "Name": "The Independent",
         "DisplayName": "The Independent"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hPWEn.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSpEU.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -23,19 +133,41 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Group winners England to discover Nations League last-eight opponents",
-      "Abstract": "Nations League draw LIVE: Group winners England to discover quarter-final opponents - Follow live updates as England find out which of Belgium, the Netherlands or Norway they will face in March’s quarter-finals",
-      "Url": "https://www.independent.co.uk/sport/football/nations-league-draw-live-england-quarter-finals-b3087542.html",
-      "ArticleUrl": "https://www.independent.co.uk/sport/football/nations-league-draw-live-england-quarter-finals-b3087542.html",
-      "ExternalUrl": "https://www.independent.co.uk/sport/football/nations-league-draw-live-england-quarter-finals-b3087542.html",
-      "PublishedDateTime": "2026-11-20T08:33:42Z",
+      "Title": "Spain requires data centres to draw 80% of their electricity from renewables",
+      "Abstract": "Spain tightens regulation of data centres with new requirements on renewable energy, efficiency and digital sovereignty to limit their impact on the power grid and attract sustainable investment. View on euronews",
+      "Url": "https://www.euronews.com/2026/11/20/spain-requires-data-centres-to-draw-80-of-their-electricity-from-renewables?utm_source=microsoft&utm_campaign=feeds_green&utm_medium=referral",
+      "ArticleUrl": "https://www.euronews.com/2026/11/20/spain-requires-data-centres-to-draw-80-of-their-electricity-from-renewables?utm_source=microsoft&utm_campaign=feeds_green&utm_medium=referral",
+      "ExternalUrl": "https://www.euronews.com/2026/11/20/spain-requires-data-centres-to-draw-80-of-their-electricity-from-renewables?utm_source=microsoft&utm_campaign=feeds_green&utm_medium=referral",
+      "PublishedDateTime": "2026-11-20T17:19:11Z",
+      "Provider": {
+        "Name": "Euronews (English)",
+        "DisplayName": "Euronews (English)"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hS2IX.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "EU-UK summit live: Burnham hails ‘win-win’ deal worth £17bn to UK",
+      "Abstract": "EU-UK summit live: Burnham hails ‘win-win’ Brexit reset worth £17bn to UK economy - Andy Burnham is now preparing to open a national conversation about the UK’s future relationship with the bloc",
+      "Url": "https://www.independent.co.uk/news/uk/politics/eu-uk-deal-summit-burnham-budget-negotiations-brexit-youth-mobiiity-europe-b3088544.html",
+      "ArticleUrl": "https://www.independent.co.uk/news/uk/politics/eu-uk-deal-summit-burnham-budget-negotiations-brexit-youth-mobiiity-europe-b3088544.html",
+      "ExternalUrl": "https://www.independent.co.uk/news/uk/politics/eu-uk-deal-summit-burnham-budget-negotiations-brexit-youth-mobiiity-europe-b3088544.html",
+      "PublishedDateTime": "2026-11-20T16:17:16Z",
       "Provider": {
         "Name": "The Independent",
         "DisplayName": "The Independent"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hQc7q.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hRwZt.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -45,19 +177,63 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "What’s in the UK-EU relationship reset draft – and what’s at stake?",
-      "Abstract": "What’s in the UK-EU relationship reset draft – and what else is at stake for Burnham? - Andy Burnham’s hopes of a much closer relationship with the EU could write him into the history books – but Friday’s ‘reset’ summit has to be a success first",
-      "Url": "https://www.independent.co.uk/news/uk/politics/uk-eu-reset-burnham-brexit-deal-whats-stake-b3088478.html",
-      "ArticleUrl": "https://www.independent.co.uk/news/uk/politics/uk-eu-reset-burnham-brexit-deal-whats-stake-b3088478.html",
-      "ExternalUrl": "https://www.independent.co.uk/news/uk/politics/uk-eu-reset-burnham-brexit-deal-whats-stake-b3088478.html",
-      "PublishedDateTime": "2026-11-20T08:48:55Z",
+      "Title": "Hebburn fraudster conned two home building firms out of more than £78,000",
+      "Abstract": "A Hebburn man stole more than £78,000 from his employers by cashing dodgy cheques.",
+      "Url": "https://www.shieldsgazette.com/news/hebburn-fraudster-conned-two-home-building-firms-out-of-more-than-ps78000-9364968",
+      "ArticleUrl": "https://www.shieldsgazette.com/news/hebburn-fraudster-conned-two-home-building-firms-out-of-more-than-ps78000-9364968",
+      "ExternalUrl": "https://www.shieldsgazette.com/news/hebburn-fraudster-conned-two-home-building-firms-out-of-more-than-ps78000-9364968",
+      "PublishedDateTime": "2026-11-20T17:24:28Z",
+      "Provider": {
+        "Name": "Shields Gazette",
+        "DisplayName": "Shields Gazette"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSCjq.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Prince Harry makes heartbreaking Archie and Lilibet confession in new bombshell",
+      "Abstract": "The royal made his first UK television appearance today (Friday, November 20).",
+      "Url": "https://www.express.co.uk/news/royal/2268043/harry-opens-1-huge-change-uk-2268043",
+      "ArticleUrl": "https://www.express.co.uk/news/royal/2268043/harry-opens-1-huge-change-uk-2268043",
+      "ExternalUrl": "https://www.express.co.uk/news/royal/2268043/harry-opens-1-huge-change-uk-2268043",
+      "PublishedDateTime": "2026-11-20T17:23:13Z",
+      "Provider": {
+        "Name": "Daily Express",
+        "DisplayName": "Daily Express"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSfGw.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [],
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "FTSE 100 tumbles as global tech rout takes hold",
+      "Abstract": "FTSE 100 tumbles as global tech rout takes hold - On Wall Street, leading tech names including SpaceX and Nvidia took a hammering.",
+      "Url": "https://www.independent.co.uk/news/business/anthropic-andy-burnham-nvidia-wall-street-spacex-b3088898.html",
+      "ArticleUrl": "https://www.independent.co.uk/news/business/anthropic-andy-burnham-nvidia-wall-street-spacex-b3088898.html",
+      "ExternalUrl": "https://www.independent.co.uk/news/business/anthropic-andy-burnham-nvidia-wall-street-spacex-b3088898.html",
+      "PublishedDateTime": "2026-11-20T17:29:32Z",
       "Provider": {
         "Name": "The Independent",
         "DisplayName": "The Independent"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hPDlP.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hRBhv.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -67,195 +243,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Israel upgrades David's Sling air defense system, extends interception range to counter Iran threat",
-      "Abstract": "Israel has extended the range of its David's Sling air defense system, enabling it to counter more ballistic missile threats and withstand weeks of attacks, Bloomberg reported on Friday.",
-      "Url": "https://www.jpost.com/defense-and-tech/article-915574",
-      "ArticleUrl": "https://www.jpost.com/defense-and-tech/article-915574",
-      "ExternalUrl": "https://www.jpost.com/defense-and-tech/article-915574",
-      "PublishedDateTime": "2026-11-20T10:45:51Z",
+      "Title": "Spain requires data centres to draw 80% of their electricity from renewables",
+      "Abstract": "Spain tightens regulation of data centres with new requirements on renewable energy, efficiency and digital sovereignty to limit their impact on the power grid and attract sustainable investment. View on euronews",
+      "Url": "https://www.euronews.com/2026/11/20/spain-requires-data-centres-to-draw-80-of-their-electricity-from-renewables?utm_source=microsoft&utm_campaign=feeds_green&utm_medium=referral",
+      "ArticleUrl": "https://www.euronews.com/2026/11/20/spain-requires-data-centres-to-draw-80-of-their-electricity-from-renewables?utm_source=microsoft&utm_campaign=feeds_green&utm_medium=referral",
+      "ExternalUrl": "https://www.euronews.com/2026/11/20/spain-requires-data-centres-to-draw-80-of-their-electricity-from-renewables?utm_source=microsoft&utm_campaign=feeds_green&utm_medium=referral",
+      "PublishedDateTime": "2026-11-20T17:19:11Z",
       "Provider": {
-        "Name": "The Jerusalem Post",
-        "DisplayName": "The Jerusalem Post"
+        "Name": "Euronews",
+        "DisplayName": "Euronews"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hPXpn.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Welsh-dubbed Star Wars cast hope S4C Christmas Day premiere will inspire new generation of speakers",
-      "Abstract": "Star Wars: Gobaith Newydd (A New Hope) will air on S4C and across its platforms from Christmas Day",
-      "Url": "https://www.dailypost.co.uk/news/north-wales-news/welsh-dubbed-star-wars-cast-34940091",
-      "ArticleUrl": "https://www.dailypost.co.uk/news/north-wales-news/welsh-dubbed-star-wars-cast-34940091",
-      "ExternalUrl": "https://www.dailypost.co.uk/news/north-wales-news/welsh-dubbed-star-wars-cast-34940091",
-      "PublishedDateTime": "2026-11-20T08:48:44Z",
-      "Provider": {
-        "Name": "North Wales Live",
-        "DisplayName": "North Wales Live"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hQm9k.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Birmingham pupils explore careers in growing green economy",
-      "Abstract": "Year 9 learners at Cockshut Hill School took part in a Green Careers Week event highlighting jobs in renewable energy, engineering and environmental protection",
-      "Url": "https://www.birminghamworld.uk/your-world/birmingham-pupils-explore-careers-green-economy-9362890",
-      "ArticleUrl": "https://www.birminghamworld.uk/your-world/birmingham-pupils-explore-careers-green-economy-9362890",
-      "ExternalUrl": "https://www.birminghamworld.uk/your-world/birmingham-pupils-explore-careers-green-economy-9362890",
-      "PublishedDateTime": "2026-11-20T08:38:04Z",
-      "Provider": {
-        "Name": "BirminghamWorld",
-        "DisplayName": "BirminghamWorld"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hPG12.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Edinburgh Waverley 'evacuated' as police close station for hours",
-      "Abstract": "Police sealed off the station for more than three hours last night - the reason why has not been given",
-      "Url": "https://www.dailyrecord.co.uk/news/scottish-news/edinburgh-waverley-closed-police-evacuation-37897117",
-      "ArticleUrl": "https://www.dailyrecord.co.uk/news/scottish-news/edinburgh-waverley-closed-police-evacuation-37897117",
-      "ExternalUrl": "https://www.dailyrecord.co.uk/news/scottish-news/edinburgh-waverley-closed-police-evacuation-37897117",
-      "PublishedDateTime": "2026-11-20T04:20:25Z",
-      "Provider": {
-        "Name": "Daily Record",
-        "DisplayName": "Daily Record"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hOUyo.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "BBC viewers distracted by Nigel Farage interview as they ask 'is he in a toilet?'",
-      "Abstract": "Nigel Farage appeared on BBC Breakfast on Friday for a live interview from Brussels",
-      "Url": "https://www.dailystar.co.uk/tv/bbc-viewers-distracted-nigel-farage-37897431",
-      "ArticleUrl": "https://www.dailystar.co.uk/tv/bbc-viewers-distracted-nigel-farage-37897431",
-      "ExternalUrl": "https://www.dailystar.co.uk/tv/bbc-viewers-distracted-nigel-farage-37897431",
-      "PublishedDateTime": "2026-11-20T08:36:50Z",
-      "Provider": {
-        "Name": "Daily Star",
-        "DisplayName": "Daily Star"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hPLd0.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Fund nominations pay dividends for Angus community groups",
-      "Abstract": "Several Angus community groups are celebrating sharing a more than £11,500 funding boost from Co-op’s Local Community Fund.",
-      "Url": "https://www.anguscountyworld.co.uk/news/people/fund-nominations-pay-dividends-for-angus-community-groups-9362928",
-      "ArticleUrl": "https://www.anguscountyworld.co.uk/news/people/fund-nominations-pay-dividends-for-angus-community-groups-9362928",
-      "ExternalUrl": "https://www.anguscountyworld.co.uk/news/people/fund-nominations-pay-dividends-for-angus-community-groups-9362928",
-      "PublishedDateTime": "2026-11-20T08:48:00Z",
-      "Provider": {
-        "Name": "Angus World",
-        "DisplayName": "Angus World"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hQ7lO.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "These Are The Best Pieces In The Skims Black Friday Sale Today",
-      "Abstract": "See the pieces our editors have tried and tested",
-      "Url": "https://www.elle.com/uk/fashion/a38357946/skims-black-friday/",
-      "ArticleUrl": "https://www.elle.com/uk/fashion/a38357946/skims-black-friday/",
-      "ExternalUrl": "https://www.elle.com/uk/fashion/a38357946/skims-black-friday/",
-      "PublishedDateTime": "2026-11-20T08:36:41Z",
-      "Provider": {
-        "Name": "ELLE UK",
-        "DisplayName": "ELLE UK"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hPItz.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "What To Do With Collectible Cards In GTA 6",
-      "Abstract": "Collectible Cards in GTA 6 can be an easy source of money if you know where to sell them.",
-      "Url": "https://gamerant.com/gta-6-what-do-collectible-cards-how-sell-where/",
-      "ArticleUrl": "https://gamerant.com/gta-6-what-do-collectible-cards-how-sell-where/",
-      "ExternalUrl": "https://gamerant.com/gta-6-what-do-collectible-cards-how-sell-where/",
-      "PublishedDateTime": "2026-11-19T20:46:24Z",
-      "Provider": {
-        "Name": "GameRant",
-        "DisplayName": "GameRant"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hQrkk.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [],
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "YouTube channel CC Overview DELETES Manchester United drone footage after backlash",
-      "Abstract": "The Argentine boss took to the training ground with his new squad for the first time on Thursday, just a day after touching down at Manchester Airport via private jet, and a 12-minute clip of his first session surfaced on YouTube",
-      "Url": "https://www.dailystar.co.uk/sport/football/breaking-youtube-channel-cc-overview-37897343",
-      "ArticleUrl": "https://www.dailystar.co.uk/sport/football/breaking-youtube-channel-cc-overview-37897343",
-      "ExternalUrl": "https://www.dailystar.co.uk/sport/football/breaking-youtube-channel-cc-overview-37897343",
-      "PublishedDateTime": "2026-11-20T07:50:17Z",
-      "Provider": {
-        "Name": "Daily Star",
-        "DisplayName": "Daily Star"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNzLk.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hS2IX.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
