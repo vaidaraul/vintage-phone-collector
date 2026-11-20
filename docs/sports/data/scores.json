@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-20T17:34:30.012Z",
+  "Updated": "2026-11-20T23:42:07.951Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -205,10 +205,10 @@
           "id": "401882805",
           "name": "Espanyol at Athletic Club",
           "date": "2026-11-20T20:00Z",
-          "status": "Scheduled",
-          "detail": "Fri, November 20th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Athletic Club",
             "short": "Athletic",
@@ -222,8 +222,8 @@
             "short": "Espanyol",
             "abbreviation": "ESP",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-            "score": "0",
-            "winner": false
+            "score": "1",
+            "winner": true
           },
           "venue": "San Mamés"
         }
