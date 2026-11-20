@@ -1,166 +1,59 @@
 {
-  "Updated": "2026-11-19T19:22:36.082Z",
+  "Updated": "2026-11-20T01:23:27.563Z",
   "Value": [
     {
-      "Title": "Arsenal v OL Lyonnes: Women’s Champions League – live",
-      "Abstract": "Minute-by-minute report: Join Yara El-Shaboury for updates as Arsenal face a tough test from the eight-times champions",
-      "Url": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
-      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
-      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live",
-      "PublishedDateTime": "2026-11-19T19:18:00Z",
+      "Title": "Cowboys WR CeeDee Lamb fires back after bizarre NFL fine",
+      "Abstract": "CeeDee Lamb had a message for the NFL after a controversial fine left him frustrated following Dallas’ loss to San Francisco.. The Dallas Cowboys stayed competitive with the San Francisco 49ers until the gap became clear in Week 10, falling 46-40 in a high-scoring shootout. The loss was already painful, but the controversy intensified after CeeDee Lamb was fined $30,000 for a hit he delivered on a 49ers defender — while the helmet-to-helmet...",
+      "Url": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/20/cowboys-wr-ceedee-lamb-fires-back-after-bizarre-nfl-fine.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/20/cowboys-wr-ceedee-lamb-fires-back-after-bizarre-nfl-fine.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/20/cowboys-wr-ceedee-lamb-fires-back-after-bizarre-nfl-fine.html",
+      "PublishedDateTime": "2026-11-20T00:58:02Z",
       "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
       },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNNLg.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
+      "Images": [],
       "Categories": [
-        "Football"
+        "NFL"
       ],
-      "Sport": "Football",
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Fernando Torres reveals why he really left Liverpool with 'everything changed' admission",
-      "Abstract": "Fernando Torres was an icon at Liverpool before his controversial January transfer deadline day move to Premier League rivals Chelsea",
-      "Url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-fernando-torres-34938916",
-      "ArticleUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-fernando-torres-34938916",
-      "ExternalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-fernando-torres-34938916",
-      "PublishedDateTime": "2026-11-19T19:12:12Z",
-      "Provider": {
-        "Name": "Liverpool Echo",
-        "DisplayName": "Liverpool Echo"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNSSC.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Alexander Zverev v Arthur Fils: ATP Finals tennis group stage – live",
-      "Abstract": "Join Katy Murrells for updates from Turin, where only a straight-sets win for Arthur Fils will put him into the semi-finals",
-      "Url": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
-      "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
-      "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
-      "PublishedDateTime": "2026-11-19T19:12:00Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNqQu.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Football Manager 27 review: Back on form, but not without its wayward touches",
-      "Abstract": "The football management sim is back on form, but not without its wayward touches.",
-      "Url": "https://www.pcgamer.com/games/sports/football-manager-27-review/",
-      "ArticleUrl": "https://www.pcgamer.com/games/sports/football-manager-27-review/",
-      "ExternalUrl": "https://www.pcgamer.com/games/sports/football-manager-27-review/",
-      "PublishedDateTime": "2026-11-19T16:48:49Z",
-      "Provider": {
-        "Name": "PC Gamer",
-        "DisplayName": "PC Gamer"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNG9x.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Rugby-Sheehan starts at number eight for Ireland against South Africa",
-      "Abstract": "Nov 19 (Reuters) - Dan Sheehan will captain Ireland at number eight in their Nations Championship clash with South Africa in Dublin on Saturday, while fullback Hugo Keenan is set to win his 50th cap. • Sam Prendergast has been selected at flyhalf after an independent disciplinary committee dismissed his citing for an alleged hip-drop tackle against Fiji last weekend, and he forms a halfback",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hNmiv",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hNmiv",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hNmiv",
-      "PublishedDateTime": "2026-11-19T18:45:18Z",
+      "Title": "Motor racing-Cool weather, settled championships weigh on Las Vegas F1 ticket demand",
+      "Abstract": "By Rory Carroll LAS VEGAS, Nov 19 (Reuters) - Ticket prices for Saturday's Las Vegas Grand Prix are on course to be their lowest since Formula One debuted on the Strip in 2023, secondary-market platform TickPick said, as a lack of championship suspense and chilly weather weigh on demand. The average purchase price for Saturday race-day tickets stood at $781, down 12% from $889 last year and 36%",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hOoGB",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hOoGB",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hOoGB",
+      "PublishedDateTime": "2026-11-20T00:29:28Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNVez.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hOjGn.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Rugby"
+        "Formula 1"
       ],
-      "Sport": "Rugby",
+      "Sport": "Formula 1",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Naomi’s back: Girma returns to USWNT as Emma Hayes names 26-player roster for Italy friendlies; Trinity Rodman and Phallon Tullis-Joyce left out",
-      "Abstract": "Naomi Girma has returned to the U.S. women’s national team as manager Emma Hayes named a 26-player squad for the year-ending friendlies against Italy. Manchester United goalkeeper Phallon Tullis-Joyce misses out after suffering an eye socket fracture, while Trinity Rodman was not called in following a limited appearance in the Washington Spirit’s playoff win last weekend.",
-      "Url": "https://www.goal.com/en-gb/lists/naomi-s-back-girma-returns-to-uswnt-as-emma-hayes-names-26-player-roster-for-italy-friendlies-trinity-rodman-and-phallon-tullis-joyce-left-out/blta3c138023943e02c?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
-      "ArticleUrl": "https://www.goal.com/en-gb/lists/naomi-s-back-girma-returns-to-uswnt-as-emma-hayes-names-26-player-roster-for-italy-friendlies-trinity-rodman-and-phallon-tullis-joyce-left-out/blta3c138023943e02c?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
-      "ExternalUrl": "https://www.goal.com/en-gb/lists/naomi-s-back-girma-returns-to-uswnt-as-emma-hayes-names-26-player-roster-for-italy-friendlies-trinity-rodman-and-phallon-tullis-joyce-left-out/blta3c138023943e02c?utm_medium=feed&utm_id=kp0y2tvoffhdawxg&utm_source_platform=msn&utm_source=msn_en",
-      "PublishedDateTime": "2025-11-19T14:54:21Z",
+      "Title": "Soccer-Mexican federation confident of maintaining a closed system after CAS hearing",
+      "Abstract": "By Janina Nuno Rios MEXICO CITY, Nov 19 (Reuters) - Mexico's football federation (FMF) believes it has a strong case in a legal dispute over the country's promotion and relegation system, FMF Secretary General Inigo Riestra said on Thursday, after two days of hearings involving five second-tier clubs. Five Liga de Expansion clubs are challenging rules that keep Mexico's top two divisions closed",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hOT07",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hOT07",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hOT07",
+      "PublishedDateTime": "2026-11-20T00:43:19Z",
       "Provider": {
-        "Name": "GOAL",
-        "DisplayName": "GOAL"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1F8Hgw.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Manchester City begins to suffer setbacks: loses 2 billion in a day",
-      "Abstract": "The investor group fears the sanctions that may be coming for the English club. The multinational Apollo has canceled a loan of around 2 billion dollars (about 1.82 billion euros) )to the owner of Manchester City following the English club’s breach of regulations and the possible sanction looming from the Premier League, according to sources from the English newspaper \"Finantial Times\". Apollo Global Management, the American private equity group...",
-      "Url": "https://www.marca.com/en/football/premier-league/2026/11/19/manchester-city-begins-to-suffer-setbacks-loses-2-billion-in-day.html",
-      "ArticleUrl": "https://www.marca.com/en/football/premier-league/2026/11/19/manchester-city-begins-to-suffer-setbacks-loses-2-billion-in-day.html",
-      "ExternalUrl": "https://www.marca.com/en/football/premier-league/2026/11/19/manchester-city-begins-to-suffer-setbacks-loses-2-billion-in-day.html",
-      "PublishedDateTime": "2026-11-19T18:25:13Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
       },
       "Images": [],
       "Categories": [
@@ -170,19 +63,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Mauricio Pochettino calls for Manchester United to show no fear against Liverpool",
-      "Abstract": "Mauricio Pochettino has called on Manchester United to have “no fear” when they travel to Anfield on Sunday for his first game. The Argentinian does not want his players to take a backward step as he targets a fast start. United are 18th in the Premier League and Liverpool fourth but the head coach will not accept any self-doubt. Pochettino is known for being attack-minded and is keen to instil those ideals, but will have had only three days...",
-      "Url": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
-      "PublishedDateTime": "2026-11-19T12:38:05Z",
+      "Title": "Premier League: 10 things to look out for this weekend",
+      "Abstract": "Fulham ideal visitors for flagging City After three Premier League defeats on the spin, Manchester City need something or someone to come along and put some pep in their step, and Fulham look like just the thing – after all, in the past 15 years these teams have played 20 times in all competitions, and City have won precisely 20 of those games. Their current run of 17 successive league wins against Fulham is the longest run of victories by one...",
+      "Url": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend",
+      "PublishedDateTime": "2026-11-20T00:00:15Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hMP40.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hOLdf.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -195,19 +88,94 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Fifa sparks tension with demand for tax-free status in UK for Women’s World Cup",
-      "Abstract": "Fifa is at loggerheads with the UK’s government and four football associations over the world governing body’s demands for tax-free status and exemptions from exchange-rate fees at the 2035 Women’s World Cup. The UK bid to host the tournament is due to be ratified at an extraordinary Fifa congress in Zurich on Monday and the Guardian has learned there is tension behind the scenes over many of Fifa’s requirements, which multiple sources involved...",
-      "Url": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
-      "PublishedDateTime": "2026-11-19T16:00:06Z",
+      "Title": "Nike joins F1 as apparel partner",
+      "Abstract": "Nike to replace Puma as Formula 1's official supplier, release F1-themed collections",
+      "Url": "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/",
+      "ArticleUrl": "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/",
+      "ExternalUrl": "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/",
+      "PublishedDateTime": "2026-11-20T00:24:50Z",
+      "Provider": {
+        "Name": "Autosport",
+        "DisplayName": "Autosport"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hOBpt.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Pochettino’s Manchester United rebuild: Key problems awaiting the former USMNT coach",
+      "Abstract": "Unveiled as the new boss at Premier League giants Manchester United, Mauricio Pochettino has taken over at a club in crisis.",
+      "Url": "https://en.as.com/soccer/pochettinos-manchester-united-rebuild-key-problems-awaiting-the-former-usmnt-coach-f202611-n/",
+      "ArticleUrl": "https://en.as.com/soccer/pochettinos-manchester-united-rebuild-key-problems-awaiting-the-former-usmnt-coach-f202611-n/",
+      "ExternalUrl": "https://en.as.com/soccer/pochettinos-manchester-united-rebuild-key-problems-awaiting-the-former-usmnt-coach-f202611-n/",
+      "PublishedDateTime": "2026-11-19T20:37:02Z",
+      "Provider": {
+        "Name": "AS UK (English)",
+        "DisplayName": "AS UK (English)"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hO3nu.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Liverpool send scouts regularly to watch 21-year-old striker amid growing transfer interest",
+      "Abstract": "Liverpool are reportedly keeping a close eye on Monza striker Gustavo Varela as they consider strengthening their attacking options, with the Portuguese youngster emerging as one of the most exciting prospects in Italian football.",
+      "Url": "https://www.yardbarker.com/soccer/articles/liverpool_send_scouts_regularly_to_watch_21_year_old_striker_amid_growing_transfer_interest/s1_15953_44588906",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/liverpool_send_scouts_regularly_to_watch_21_year_old_striker_amid_growing_transfer_interest/s1_15953_44588906",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/liverpool_send_scouts_regularly_to_watch_21_year_old_striker_amid_growing_transfer_interest/s1_15953_44588906",
+      "PublishedDateTime": "2026-11-19T23:56:51Z",
+      "Provider": {
+        "Name": "CaughtOffside",
+        "DisplayName": "CaughtOffside"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hONEH.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "OL Lyonnes show their class to hit Arsenal’s ambitions for a top-four WCL finish",
+      "Abstract": "Arsenal’s hopes of earning automatic progression to the Champions League quarter-finals were dashed by OL Lyonnes, as the French side continued their statement form in Europe. Goals in either half from Jule Brand and Melchie Dumornay were the difference at Meadow Park and Lyonnes are joint-top of the table and still yet to concede in the league phase with one game remaining. It feels like Lyonnes are playing with a fire and intensity fuelled by...",
+      "Url": "https://www.theguardian.com/football/2026/nov/19/arsenal-ol-lyonnes-womens-champions-league-match-report",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/arsenal-ol-lyonnes-womens-champions-league-match-report",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/arsenal-ol-lyonnes-womens-champions-league-match-report",
+      "PublishedDateTime": "2026-11-19T22:05:36Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNdJj.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hOqiX.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -220,19 +188,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Glorious failure no more: How Scotland ended 27-year FIFA World Cup exile in ridiculous fashion",
-      "Abstract": "Scotland booked their place at next summer's 2026 FIFA World Cup with a dramatic 4-2 victory over Denmark at Hampden Park",
-      "Url": "https://www.fourfourtwo.com/competition/glorious-failure-no-more-how-scotland-ended-27-year-fifa-world-cup-exile-in-ridiculous-fashion",
-      "ArticleUrl": "https://www.fourfourtwo.com/competition/glorious-failure-no-more-how-scotland-ended-27-year-fifa-world-cup-exile-in-ridiculous-fashion",
-      "ExternalUrl": "https://www.fourfourtwo.com/competition/glorious-failure-no-more-how-scotland-ended-27-year-fifa-world-cup-exile-in-ridiculous-fashion",
-      "PublishedDateTime": "2025-11-19T14:13:50Z",
+      "Title": "Let's bring that Aviva spirit onto our own streets this Christmas - View from the Foyle",
+      "Abstract": "I called into Paul Martin Menswear this week to collect a new suit. As anyone who knows Paul Cooley will tell you, you're unlikely to get out of his shop without a good chat, particularly about football. While there, I bumped into Mark Connolly, fresh from leading Derry City to that magnificent FAI Cup Final victory.",
+      "Url": "https://www.derryjournal.com/news/people/lets-bring-that-aviva-spirit-onto-our-own-streets-this-christmas-view-from-the-foyle-9357126",
+      "ArticleUrl": "https://www.derryjournal.com/news/people/lets-bring-that-aviva-spirit-onto-our-own-streets-this-christmas-view-from-the-foyle-9357126",
+      "ExternalUrl": "https://www.derryjournal.com/news/people/lets-bring-that-aviva-spirit-onto-our-own-streets-this-christmas-view-from-the-foyle-9357126",
+      "PublishedDateTime": "2026-11-20T00:00:00Z",
       "Provider": {
-        "Name": "FourFourTwo",
-        "DisplayName": "FourFourTwo"
+        "Name": "Derry Journal",
+        "DisplayName": "Derry Journal"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QKw5d.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hOtjp.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -245,69 +213,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Palmer and Rogers lead Premier League in combined stat – but still wait for first mutual assist",
-      "Abstract": "Chelsea pair Morgan Rogers and Cole Palmer have linked up just as we all hoped they would, and we can’t wait to see them assist one another. The international",
-      "Url": "https://www.yardbarker.com/soccer/articles/palmer_and_rogers_lead_premier_league_in_combined_stat_but_still_wait_for_first_mutual_assist/s1_15956_44587329",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/palmer_and_rogers_lead_premier_league_in_combined_stat_but_still_wait_for_first_mutual_assist/s1_15956_44587329",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/palmer_and_rogers_lead_premier_league_in_combined_stat_but_still_wait_for_first_mutual_assist/s1_15956_44587329",
-      "PublishedDateTime": "2026-11-19T18:23:06Z",
-      "Provider": {
-        "Name": "Chelsea News",
-        "DisplayName": "Chelsea News"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNQ2S.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Premier League clubs vote through new rules to increase legal protection for board",
-      "Abstract": "Clubs rallied behind the Premier League’s leadership in a key vote on Thursday, overwhelmingly backing new rules that would protect the chief executive, Richard Masters, from potentially damaging lawsuits. A vote to expand the legal indemnity afforded to Premier League directors was won 18-2 at a shareholders’ meeting in central London, granting Masters and other figures greater protection in the event they were subjected to legal action as a...",
-      "Url": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits",
-      "PublishedDateTime": "2026-11-19T16:03:07Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hMzrR.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Ravens star sent home for a week as punishment for claiming Baltimore is 'best at making criminals'",
-      "Abstract": "The ten-year NFL veteran was asked what the city of Baltimore is best at on his eponymous podcast earlier this week before insulting the only team he's ever played for.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16306565/marlon-humphrey-ravens-baltimore-criminals.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16306565/marlon-humphrey-ravens-baltimore-criminals.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16306565/marlon-humphrey-ravens-baltimore-criminals.html",
-      "PublishedDateTime": "2026-11-19T16:57:57Z",
+      "Title": "911 call reveals new details of break-in at Madison Beer and Justin Herbert's Hollywood home",
+      "Abstract": "A 911 call about the break-in at NFL star Justin Herbert and singer Madison Beer's Hollywood Hills home has surfaced, revealing a potentially larger crime.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16307339/911-call-Madison-Beer-NFL-fiance-Justin-Herbert.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16307339/911-call-Madison-Beer-NFL-fiance-Justin-Herbert.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16307339/911-call-Madison-Beer-NFL-fiance-Justin-Herbert.html",
+      "PublishedDateTime": "2026-11-19T23:41:26Z",
       "Provider": {
         "Name": "Daily Mail",
         "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNeuV.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hO29H.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -320,19 +238,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Six things you don't know about Provstgaard: winning the Champions League on PlayStation, his idol Van Dijk and...",
-      "Abstract": "The Danish centre-back, who has also become a mainstay for his national team, is in Inter's sights",
-      "Url": "https://www.gazzetta.it/en/football/teams/inter/news/storie/19-11-2026/provstgaard-six-things-you-don-t-know-about-him-who-he-is-and-trivia.shtml",
-      "ArticleUrl": "https://www.gazzetta.it/en/football/teams/inter/news/storie/19-11-2026/provstgaard-six-things-you-don-t-know-about-him-who-he-is-and-trivia.shtml",
-      "ExternalUrl": "https://www.gazzetta.it/en/football/teams/inter/news/storie/19-11-2026/provstgaard-six-things-you-don-t-know-about-him-who-he-is-and-trivia.shtml",
-      "PublishedDateTime": "2026-11-19T18:04:38Z",
+      "Title": "Andriy Shevchenko fires back at Mykhailo Mudryk over failed drugs test with fresh allegation",
+      "Abstract": "Mykhailo Mudryk has sparked a huge row with Andriy Shevchenko and the Ukrainian Association of Football (UAF) after making a series of allegations about his failed drugs test",
+      "Url": "https://www.mirror.co.uk/sport/football/news/shevchenko-mudryk-failed-drugs-test-37896936",
+      "ArticleUrl": "https://www.mirror.co.uk/sport/football/news/shevchenko-mudryk-failed-drugs-test-37896936",
+      "ExternalUrl": "https://www.mirror.co.uk/sport/football/news/shevchenko-mudryk-failed-drugs-test-37896936",
+      "PublishedDateTime": "2026-11-19T22:27:36Z",
       "Provider": {
-        "Name": "La Gazzetta dello Sport EN",
-        "DisplayName": "La Gazzetta dello Sport EN"
+        "Name": "Mirror",
+        "DisplayName": "Mirror"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNlZv.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hO41e.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -345,64 +263,103 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "NFL Week 11 2026: Schedule and where to watch all the weekend's games",
-      "Abstract": "The 49ers and Vikings close out a day of sudden death for those chasing the playoffs.. The 2026-2027 NFL season reaches Week 11 with the schedule divided into two very different realities. On one hand, a group of eight teams tied with a 7-2 record are battling for every seeding position; on the other, a handful of struggling franchises are playing for pride. It's one of those days where a single defeat can send a contender from second place to...",
-      "Url": "https://www.marca.com/en/nfl/2026/11/19/nfl-week-112026-schedule-and-where-to-watch-all-the-weekend-s-games.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/2026/11/19/nfl-week-112026-schedule-and-where-to-watch-all-the-weekend-s-games.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/2026/11/19/nfl-week-112026-schedule-and-where-to-watch-all-the-weekend-s-games.html",
-      "PublishedDateTime": "2026-11-19T17:05:43Z",
+      "Title": "Renee Slegers admits Lyon were too strong for Arsenal in Champions League clash",
+      "Abstract": "The French team were yet to concede a goal in Europe this season and had won all of their nine domestic league matches so far.",
+      "Url": "https://content.api.pressassociation.io/v1/item/1982aeb5-8c14-465d-ac07-202c50d856fa",
+      "ArticleUrl": "https://content.api.pressassociation.io/v1/item/1982aeb5-8c14-465d-ac07-202c50d856fa",
+      "ExternalUrl": "https://content.api.pressassociation.io/v1/item/1982aeb5-8c14-465d-ac07-202c50d856fa",
+      "PublishedDateTime": "2026-11-19T23:21:30Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Lakers Luka Doncic and NBA referee have an unbelievable face-off as Lakers coach steps in",
-      "Abstract": "Doncic’s tense halftime exchange with referee Tre Maddox. A tense video from the Lakers’ 109-97 loss to the Utah Jazz shows Luka walking toward the locker room at halftime when referee Tre Maddox stops him and appears to ask, “What did you say?” Maddox steps toward the Lakers star, who looks surprised. Lakers assistant coach Scott Brooks quickly moves between them and guides Maddox away. Austin Reaves and Matisse Thybulle are also nearby as Luka...",
-      "Url": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/19/lakers-luka-doncic-and-nba-referee-have-an-unbelievable-face-off-as-lakers-coach-steps-in.html",
-      "ArticleUrl": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/19/lakers-luka-doncic-and-nba-referee-have-an-unbelievable-face-off-as-lakers-coach-steps-in.html",
-      "ExternalUrl": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/19/lakers-luka-doncic-and-nba-referee-have-an-unbelievable-face-off-as-lakers-coach-steps-in.html",
-      "PublishedDateTime": "2026-11-19T17:43:29Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [],
-      "Categories": [
-        "NBA"
-      ],
-      "Sport": "NBA",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Troy Aikman aims savage dig at ESPN nemesis Joe Buck amid ugly fallout of NFL commentary partners",
-      "Abstract": "The feud between the legendary pair - who have called games together for 25 seasons - continued on Thursday during Aikman's weekly appearance on a Dallas radio station.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16306345/troy-aikman-joe-buck-espn-feud.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16306345/troy-aikman-joe-buck-espn-feud.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16306345/troy-aikman-joe-buck-espn-feud.html",
-      "PublishedDateTime": "2026-11-19T17:32:37Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
+        "Name": "PA Sport",
+        "DisplayName": "PA Sport"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hN9Ta.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNHjC.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "NFL"
+        "Football"
       ],
-      "Sport": "NFL",
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "I'm A Celebrity's Wayne Rooney addresses 'horrible' aftermath of Wagatha Christie for Coleen",
+      "Abstract": "The football legend supported his wife in 2022 during her court case",
+      "Url": "https://www.manchestereveningnews.co.uk/news/tv/im-celebritys-wayne-rooney-addresses-34939311",
+      "ArticleUrl": "https://www.manchestereveningnews.co.uk/news/tv/im-celebritys-wayne-rooney-addresses-34939311",
+      "ExternalUrl": "https://www.manchestereveningnews.co.uk/news/tv/im-celebritys-wayne-rooney-addresses-34939311",
+      "PublishedDateTime": "2026-11-19T21:04:35Z",
+      "Provider": {
+        "Name": "Manchester Evening News",
+        "DisplayName": "Manchester Evening News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hOqcm.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Thomas Frank admits he has a point to prove after taking reins at Crystal Palace",
+      "Abstract": "Thomas Frank has admitted he has a point to prove on his return to management as he aims to steer Crystal Palace away from relegation trouble after taking over from Pierre Sage. The Dane was confirmed as manager on Monday with Palace at the bottom of the table after 10 matches having conceded 24 goals – the most in the Premier League. They face a crucial trip to Coventry on Saturday and Frank said he had been “surprised about how good it feels”...",
+      "Url": "https://www.theguardian.com/football/2026/nov/19/thomas-frank-crystal-palace-premier-league",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/19/thomas-frank-crystal-palace-premier-league",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/19/thomas-frank-crystal-palace-premier-league",
+      "PublishedDateTime": "2026-11-19T19:50:10Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNJkA.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Arsenal’s Champions League qualification hopes dented by home loss to Lyon",
+      "Abstract": "Jule Brand and Melchie Dumornay scored for the French side, who are already through to the last eight.",
+      "Url": "https://content.api.pressassociation.io/v1/item/b5dda396-7d51-49e2-b30e-d570e0ee053a",
+      "ArticleUrl": "https://content.api.pressassociation.io/v1/item/b5dda396-7d51-49e2-b30e-d570e0ee053a",
+      "ExternalUrl": "https://content.api.pressassociation.io/v1/item/b5dda396-7d51-49e2-b30e-d570e0ee053a",
+      "PublishedDateTime": "2026-11-19T22:03:57Z",
+      "Provider": {
+        "Name": "PA Sport",
+        "DisplayName": "PA Sport"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hNOTj.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
       "TagEvaluationGroups": []
     }
   ]
