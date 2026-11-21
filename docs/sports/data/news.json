@@ -1,154 +1,429 @@
 {
-  "Updated": "2026-11-20T23:42:06.939Z",
+  "Updated": "2026-11-21T05:44:27.318Z",
   "Value": [
     {
-      "Title": "Bayern Munich confirm Harry Kane ‘out for next few months’ with ankle injury",
-      "Abstract": "Bayern Munich have confirmed Harry Kane will be “out for the next few months” with ankle ligament damage sustained in their 1-1 draw with Cologne on Friday. Kane was substituted after 20 minutes of the Bundesliga game, having been left limping after a challenge from the Cologne defender Joël Schmied. The Ballon d’Or winner was substituted with the returning Bayern coach, Vincent Kompany, saying afterwards that the injury would take “months”...",
-      "Url": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
-      "PublishedDateTime": "2026-11-20T22:43:40Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSSU0.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Premier League news: Moyes demands more from Grealish, Iraola wary of United threat",
-      "Abstract": "Moyes: ‘I want Jack to show more’ David Moyes has said he wants Jack Grealish to produce more for Everton as he prepares to reintegrate the playmaker into the squad. Grealish has missed Everton’s past four games mainly for disciplinary reasons having failed to report for training before last month’s Carabao Cup win over Newcastle. His last appearance for the team was in the 2-0 loss to Chelsea on 17 October but he is fit and available for...",
-      "Url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
-      "PublishedDateTime": "2026-11-20T22:31:19Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hRGl3.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Heartbroken family reveals tragic details of how NFL fan, 36, died after brawl at 49ers-Cowboys game",
-      "Abstract": "A Dallas Cowboys fan has died after falling during a fight at Sunday's game in Arlington, Texas. Details of the circumstances of the fight are still being determined by police.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16309915/NFL-fan-36-dies-falling-brutal-fight-stands-49ers-Cowboys-game.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16309915/NFL-fan-36-dies-falling-brutal-fight-stands-49ers-Cowboys-game.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16309915/NFL-fan-36-dies-falling-brutal-fight-stands-49ers-Cowboys-game.html",
-      "PublishedDateTime": "2026-11-20T18:50:55Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTfJK.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "NFL insider Dianna Russini 'writing tell-all book' in the wake of Mike Vrabel affair scandal",
-      "Abstract": "Russini resigned from her $800,000-a-year position at The Athletic in April after she was accused of having an affair with the New England Patriots coach. Russini and Vrabel denied the allegations.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16310435/dianna-russini-mike-vrabel-affair-book.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16310435/dianna-russini-mike-vrabel-affair-book.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16310435/dianna-russini-mike-vrabel-affair-book.html",
-      "PublishedDateTime": "2026-11-20T23:05:44Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSVCB.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Harry Kane set to be ruled out for MONTHS after tearing ankle ligaments - and may need surgery",
-      "Abstract": "A Bayern club statement confirmed the blow, reading: 'Harry Kane suffered a tear of the syndesmosis ligament in his left ankle in Bayern Munich's Bundesliga home match against 1. FC Köln.",
-      "Url": "https://www.dailymail.com/sport/football/article-16310357/Harry-Kane-Bayern-blow-England-captain-ruled-MONTHS.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16310357/Harry-Kane-Bayern-blow-England-captain-ruled-MONTHS.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16310357/Harry-Kane-Bayern-blow-England-captain-ruled-MONTHS.html",
-      "PublishedDateTime": "2026-11-20T22:58:58Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTdcA.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Tennis-Alcaraz eases injury concerns with Cobolli win, Medvedev books last four spot",
-      "Abstract": "TURIN, Italy, Nov 20 (Reuters) - Seven-times Grand Slam champion Carlos Alcaraz eased concerns about a hamstring injury by cruising past Italian fifth seed Flavio Cobolli 6-4 6-1 in his final ATP Finals round-robin match on Friday, completing an unbeaten group-stage campaign and securing momentum ahead of the semi-finals. The Spaniard, who will face American Ben Shelton in the semi-final, had",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hSGPj",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hSGPj",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hSGPj",
-      "PublishedDateTime": "2026-11-20T23:17:07Z",
+      "Title": "Cricket-Australia gives Cummins unanimous backing as captain",
+      "Abstract": "SYDNEY, Nov 21 (Reuters) - Cricket Australia (CA) backed Pat Cummins to remain as captain of the test and one-day international sides on Saturday and rejected any suggestion his integrity had been compromised amid the renewed furore over the 2018 ball-tampering incident. The board met on Friday and reaffirmed its unanimous support for Cummins, whose leadership has come under scrutiny after",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hTrZH",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hTrZH",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hTrZH",
+      "PublishedDateTime": "2026-11-21T05:16:40Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hR1kx.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTyFO.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Tennis"
+        "Cricket"
       ],
-      "Sport": "Tennis",
+      "Sport": "Cricket",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Pochettino the connector: will human touch lift Manchester United?",
+      "Abstract": "Mauricio Pochettino celebrated his 50th birthday in style. It was March 2022, he was in charge at Paris Saint-Germain and the venue was a stunning boutique hotel; the kind that many capitals have but only Paris truly does. Pochettino’s family and friends were there. So were his inner coaching circle, who are basically family. There were lots of people from PSG. And a good time was had by all. For Pochettino, it was emotional. As everybody knows,...",
+      "Url": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
+      "PublishedDateTime": "2026-11-20T19:00:37Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hRAsf.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Sheffield's best bits: Student opens up on his favourite things - including speedway and football",
+      "Abstract": "Here are some of Sheffield student Harry Jones’ favourite things in Sheffield",
+      "Url": "https://www.thestar.co.uk/news/people/sheffield-student-opens-up-on-his-favourite-things-harry-jones-9344796",
+      "ArticleUrl": "https://www.thestar.co.uk/news/people/sheffield-student-opens-up-on-his-favourite-things-harry-jones-9344796",
+      "ExternalUrl": "https://www.thestar.co.uk/news/people/sheffield-student-opens-up-on-his-favourite-things-harry-jones-9344796",
+      "PublishedDateTime": "2026-11-21T05:03:45Z",
+      "Provider": {
+        "Name": "Sheffield Star",
+        "DisplayName": "Sheffield Star"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTrR2.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Is Chelsea vs Leeds United on TV? Kick-off time, TV & live stream details for Premier League clash",
+      "Abstract": "All you need to know ahead of Leeds United’s Premier League trip to Chelsea this weekend.",
+      "Url": "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-chelsea-kick-off-time-tv-live-stream-details-premier-league-9356338",
+      "ArticleUrl": "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-chelsea-kick-off-time-tv-live-stream-details-premier-league-9356338",
+      "ExternalUrl": "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-chelsea-kick-off-time-tv-live-stream-details-premier-league-9356338",
+      "PublishedDateTime": "2026-11-21T04:56:16Z",
+      "Provider": {
+        "Name": "Yorkshire Evening Post",
+        "DisplayName": "Yorkshire Evening Post"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTptG.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Andoni Iraola sends clear message to Liverpool stars and makes Manchester United prediction",
+      "Abstract": "Liverpool take on a United side who are in the Premier League's relegation zone on Sunday afternoon",
+      "Url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sends-clear-message-34943689",
+      "ArticleUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sends-clear-message-34943689",
+      "ExternalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sends-clear-message-34943689",
+      "PublishedDateTime": "2026-11-21T05:00:00Z",
+      "Provider": {
+        "Name": "Liverpool Echo",
+        "DisplayName": "Liverpool Echo"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTVyP.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Bitcoin falls 3.57% to $56,814",
+      "Abstract": "Nov 20 (Reuters) - Bitcoin, the world's largest cryptocurrency by market value, was down by 3.57% to $56,813.68 at 10:50 p.m. ET on Friday (0350 GMT on Saturday). Earlier on Friday it fell below $60,000 for the first time since July, as lofty valuation concerns weighed on the AI trade and other risk assets. (Reporting by Gnaneshwar Rajan in Bengaluru; Editing by William Mallard)",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hTXPQ",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hTXPQ",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hTXPQ",
+      "PublishedDateTime": "2026-11-21T04:10:13Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTmnr.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Football Manager 27 - Best Teams To Manage",
+      "Abstract": "If you're on the hunt for an exciting new challenge in FM 27, here are the team we think you should manage (and why!).",
+      "Url": "https://www.thegamer.com/football-manager-27-best-teams-to-manage/",
+      "ArticleUrl": "https://www.thegamer.com/football-manager-27-best-teams-to-manage/",
+      "ExternalUrl": "https://www.thegamer.com/football-manager-27-best-teams-to-manage/",
+      "PublishedDateTime": "2026-11-20T16:34:28Z",
+      "Provider": {
+        "Name": "TheGamer",
+        "DisplayName": "TheGamer"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTVqp.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Meet the 12-year-old boy dreaming of an F1 career",
+      "Abstract": "Meet the 12-year-old boy dreaming of an F1 career -",
+      "Url": "https://www.independent.co.uk/bulletin/sport/theo-bobb-falkirk-karting-f1-driving-b2946013.html",
+      "ArticleUrl": "https://www.independent.co.uk/bulletin/sport/theo-bobb-falkirk-karting-f1-driving-b2946013.html",
+      "ExternalUrl": "https://www.independent.co.uk/bulletin/sport/theo-bobb-falkirk-karting-f1-driving-b2946013.html",
+      "PublishedDateTime": "2026-03-26T10:35:45Z",
+      "Provider": {
+        "Name": "The Independent",
+        "DisplayName": "The Independent"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZrN7q.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Norris hit by McLaren’s huge screw-up but one move can save F1 title",
+      "Abstract": "Lando Norris hit by McLaren’s all-time F1 screw-up but one move can still save title dream - Comment: With a maiden F1 world title so close for the 26-year-old British driver, his Vegas disqualification has brought Max Verstappen back in contention with two races left",
+      "Url": "https://www.independent.co.uk/f1/lando-norris-mclaren-f1-disqualified-oscar-piastri-verstappen-b2870776.html",
+      "ArticleUrl": "https://www.independent.co.uk/f1/lando-norris-mclaren-f1-disqualified-oscar-piastri-verstappen-b2870776.html",
+      "ExternalUrl": "https://www.independent.co.uk/f1/lando-norris-mclaren-f1-disqualified-oscar-piastri-verstappen-b2870776.html",
+      "PublishedDateTime": "2025-11-23T14:43:29Z",
+      "Provider": {
+        "Name": "The Independent",
+        "DisplayName": "The Independent"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QZjsv.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Man City lineup vs Fulham predicted as Enzo Maresca ignores Ayyoub Bouaddi clamour",
+      "Abstract": "Manchester City host Fulham at the Etihad today as the Premier League returns and there will be a lot of focus on the team news",
+      "Url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-lineup-vs-fulham-34945613",
+      "ArticleUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-lineup-vs-fulham-34945613",
+      "ExternalUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-lineup-vs-fulham-34945613",
+      "PublishedDateTime": "2026-11-21T04:01:00Z",
+      "Provider": {
+        "Name": "Manchester Evening News",
+        "DisplayName": "Manchester Evening News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTDA0.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Thomas Muller reignites MLS relegation debate with brutal criticism right before 1st seed Vancouver's playoff run",
+      "Abstract": "Muller's sentiments align with many others, but MLS is unwilling to change for the time being.. The MLS Playoffs are finally underway, but fans will have to wait until Sunday to watch the top-seeded teams in both conferences. Nashville SC will face FC Cincinnati to kick off that matchday, while the Vancouver Whitecaps finish the slate against Real Salt Lake. As always, eyes will be on Vancouver not only due to their incredibly talented team, but...",
+      "Url": "https://www.marca.com/en/football/mls/2026/11/21/thomas-muller-reignites-mls-relegation-debate-with-brutal-criticism-right-before-1st-seed-vancouver-s-playoff-run.html",
+      "ArticleUrl": "https://www.marca.com/en/football/mls/2026/11/21/thomas-muller-reignites-mls-relegation-debate-with-brutal-criticism-right-before-1st-seed-vancouver-s-playoff-run.html",
+      "ExternalUrl": "https://www.marca.com/en/football/mls/2026/11/21/thomas-muller-reignites-mls-relegation-debate-with-brutal-criticism-right-before-1st-seed-vancouver-s-playoff-run.html",
+      "PublishedDateTime": "2026-11-21T03:24:34Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSWIZ.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "football"
+      ],
+      "Sport": "football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Stephen A. Smith extends an olive branch to LeBron James after their bitter feud",
+      "Abstract": "Is the feud finally over?. Stephen A. Smith seems ready to make peace with LeBron James. After months of tension and a confrontation that was caught on camera, the sports commentator surprised fans with a much more conciliatory tone toward the Los Angeles Lakers star. This time, Smith made it clear that he has no interest in holding grudges and that, at 59, he would rather not waste his time on that kind of conflict. “Life is too short. I ain't...",
+      "Url": "https://www.marca.com/en/basketball/nba/philadelphia-76ers/2026/11/21/stephen-smith-extends-an-olive-branch-to-lebron-james-after-their-bitter-feud.html",
+      "ArticleUrl": "https://www.marca.com/en/basketball/nba/philadelphia-76ers/2026/11/21/stephen-smith-extends-an-olive-branch-to-lebron-james-after-their-bitter-feud.html",
+      "ExternalUrl": "https://www.marca.com/en/basketball/nba/philadelphia-76ers/2026/11/21/stephen-smith-extends-an-olive-branch-to-lebron-james-after-their-bitter-feud.html",
+      "PublishedDateTime": "2026-11-21T03:12:10Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTB6U.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NBA"
+      ],
+      "Sport": "NBA",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "49ers vs. Vikings: Everything you need to know about the Week 11 game in Mexico",
+      "Abstract": "The NFL returns to Mexico City with two NFC teams coming off winning records and plenty at stake as the season unfolds.. This Sunday, November 22, the 49ers and Vikings will face off at Estadio Banorte in Mexico City. San Francisco enters the matchup with an 8-1 record, while Minnesota boasts a 7-2 mark. The game will present an additional challenge: altitude. Mexico City sits approximately 7,350 feet above sea level, a condition that could...",
+      "Url": "https://www.marca.com/en/nfl/2026/11/21/49ers-vs-vikings-everything-you-need-to-know-about-the-week-11-game-in-mexico.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/2026/11/21/49ers-vs-vikings-everything-you-need-to-know-about-the-week-11-game-in-mexico.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/2026/11/21/49ers-vs-vikings-everything-you-need-to-know-about-the-week-11-game-in-mexico.html",
+      "PublishedDateTime": "2026-11-21T03:05:20Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT17u.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Mikel Arteta says he trusts key Arsenal figure to sort out star’s new contract",
+      "Abstract": "Arsenal manager Mikel Arteta says he is very happy with Kai Havertz and trusts club chief Andrea Berta to sort out a new contract for him. The Germany international has been a key player since joining the Gunners from Chelsea back in the summer of 2023, scoring 40 goals in 125 appearances for the club and helping them win the Premier League title.",
+      "Url": "https://www.yardbarker.com/soccer/articles/mikel_arteta_says_he_trusts_key_arsenal_figure_to_sort_out_stars_new_contract/s1_15953_44594464",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/mikel_arteta_says_he_trusts_key_arsenal_figure_to_sort_out_stars_new_contract/s1_15953_44594464",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/mikel_arteta_says_he_trusts_key_arsenal_figure_to_sort_out_stars_new_contract/s1_15953_44594464",
+      "PublishedDateTime": "2026-11-21T02:21:21Z",
+      "Provider": {
+        "Name": "CaughtOffside",
+        "DisplayName": "CaughtOffside"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTFCq.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Texans’ Kamari Lassiter could face one of the biggest NFL fines ever over one word yelled into the camera",
+      "Abstract": "The cornerback was understandably fired up after making the play. The Houston Texans earned an important victory over the Indianapolis Colts on Thursday Night Football, but cornerback Kamari Lassiter could end up paying a hefty price for one of the night’s most memorable moments. Lassiter delivered a crucial interception against quarterback Daniel Jones in the second quarter, helping Houston build momentum during its divisional showdown....",
+      "Url": "https://www.marca.com/en/nfl/houston-texans/2026/11/21/texans-kamari-lassiter-could-face-one-of-the-biggest-nfl-fines-ever-over-one-word-yelled-into-the-camera.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/houston-texans/2026/11/21/texans-kamari-lassiter-could-face-one-of-the-biggest-nfl-fines-ever-over-one-word-yelled-into-the-camera.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/houston-texans/2026/11/21/texans-kamari-lassiter-could-face-one-of-the-biggest-nfl-fines-ever-over-one-word-yelled-into-the-camera.html",
+      "PublishedDateTime": "2026-11-21T01:37:40Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT9q1.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Trump appears to take brutal swipe at $12m college football star: 'They're going crazy'",
+      "Abstract": "Underwood reportedly signed an NIL deal worth up to $12 million, turning his back on LSU to join the Wolverines. But he has been disappointing in his two seasons in Ann Arbor.",
+      "Url": "https://www.dailymail.com/sport/college-football/article-16310501/trump-swipe-bryce-underwood-michigan.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16310501/trump-swipe-bryce-underwood-michigan.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16310501/trump-swipe-bryce-underwood-michigan.html",
+      "PublishedDateTime": "2026-11-21T01:02:01Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT9hL.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Football Manager 27 - Best Tactics To Use",
+      "Abstract": "With the new Tactical Effectiveness feature in mind, a 4-2-3-1 Gegenpress is no longer the best tactic for every team, but here are some alternatives.",
+      "Url": "https://www.thegamer.com/football-manager-27-best-tactics/",
+      "ArticleUrl": "https://www.thegamer.com/football-manager-27-best-tactics/",
+      "ExternalUrl": "https://www.thegamer.com/football-manager-27-best-tactics/",
+      "PublishedDateTime": "2026-11-20T12:51:49Z",
+      "Provider": {
+        "Name": "TheGamer",
+        "DisplayName": "TheGamer"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTqjR.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
       "TagEvaluationGroups": []
     },
     {
@@ -177,19 +452,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "How Arsène Wenger Changed Arsenal Football Club Forever – Opinion",
-      "Abstract": "When talking about the greatest figures in Arsenal’s history, Arsène Wenger’s name is always one of the first to come up. During his 22 years at the club, from 1996 to 2018, Wenger did much more than win trophies.",
-      "Url": "https://www.yardbarker.com/soccer/articles/how_arsne_wenger_changed_arsenal_football_club_forever_opinion/s1_15968_44593841",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/how_arsne_wenger_changed_arsenal_football_club_forever_opinion/s1_15968_44593841",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/how_arsne_wenger_changed_arsenal_football_club_forever_opinion/s1_15968_44593841",
-      "PublishedDateTime": "2026-11-20T23:10:11Z",
+      "Title": "Bayern Munich confirm Harry Kane ‘out for next few months’ with ankle injury",
+      "Abstract": "Bayern Munich have confirmed Harry Kane will be “out for the next few months” with ankle ligament damage sustained in their 1-1 draw with Cologne on Friday. Kane was substituted after 20 minutes of the Bundesliga game, having been left limping after a challenge from the Cologne defender Joël Schmied. The Ballon d’Or winner was substituted and the returning Bayern coach, Vincent Kompany, said that the injury would take “months” rather than weeks...",
+      "Url": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
+      "PublishedDateTime": "2026-11-20T22:43:40Z",
       "Provider": {
-        "Name": "Just Arsenal",
-        "DisplayName": "Just Arsenal"
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSoQz.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSSU0.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -199,306 +474,6 @@
         "Football"
       ],
       "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "'Who knows' - David Moyes makes Jack Grealish admission and sets challenge to returning Everton star",
-      "Abstract": "Jack Grealish is expected to return to the Everton squad for Monday's Premier League match at Brentford",
-      "Url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jack-grealish-everton-david-moyes-34945555",
-      "ArticleUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/jack-grealish-everton-david-moyes-34945555",
-      "ExternalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/jack-grealish-everton-david-moyes-34945555",
-      "PublishedDateTime": "2026-11-20T22:30:00Z",
-      "Provider": {
-        "Name": "Liverpool Echo",
-        "DisplayName": "Liverpool Echo"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2gwVIS.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Pochettino must fix a club stuck in a cycle of failure but Man Utd's squad is a mish-mash: LADYMAN",
-      "Abstract": "Once again England's biggest football club is relying on a personality lift to drag them back to their feet. This is what happens when you get things wrong for so long.",
-      "Url": "https://www.dailymail.com/sport/football/article-16309693/Mauricio-Pochettino-fix-club-stuck-constant-cycle-failure-new-Man-United-boss-personality-squad-mish-mash-sits-coach-great-unknown-writes-IAN-LADYMAN.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16309693/Mauricio-Pochettino-fix-club-stuck-constant-cycle-failure-new-Man-United-boss-personality-squad-mish-mash-sits-coach-great-unknown-writes-IAN-LADYMAN.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16309693/Mauricio-Pochettino-fix-club-stuck-constant-cycle-failure-new-Man-United-boss-personality-squad-mish-mash-sits-coach-great-unknown-writes-IAN-LADYMAN.html",
-      "PublishedDateTime": "2026-11-20T21:51:22Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT0bY.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Former NFL quarterback splashes out on $4.59m apartment in luxurious Manhattan building",
-      "Abstract": "The big-money move comes shortly after Simms offloaded his 300-year-old farmhouse in Greenwich, Connecticut, for $5.5 million.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16306983/chris-simms-manhattan-apartment-purchase.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16306983/chris-simms-manhattan-apartment-purchase.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16306983/chris-simms-manhattan-apartment-purchase.html",
-      "PublishedDateTime": "2026-11-20T21:00:46Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSrw2.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Super Bowl champion secures release despite one year remaining on $31.5m deal as he posts farewell",
-      "Abstract": "Earlier this week, Reid surprised some at the Saints by asking to be released a year early from his three-year, $31.5 million contract - midway through the NFL season.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16309983/justin-reid-saints-release-new-orleans.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16309983/justin-reid-saints-release-new-orleans.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16309983/justin-reid-saints-release-new-orleans.html",
-      "PublishedDateTime": "2026-11-20T22:14:58Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSO0H.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Jannik Sinner’s ATP Tour absence said to be having a catastrophic effect on Italian tennis",
-      "Abstract": "Italian tennis is desperate for Sinner's return.",
-      "Url": "https://www.tennis365.com/tennis-news/jannik-sinners-atp-absence-catastrophic-effect-italian-tennis",
-      "ArticleUrl": "https://www.tennis365.com/tennis-news/jannik-sinners-atp-absence-catastrophic-effect-italian-tennis",
-      "ExternalUrl": "https://www.tennis365.com/tennis-news/jannik-sinners-atp-absence-catastrophic-effect-italian-tennis",
-      "PublishedDateTime": "2026-11-20T22:00:44Z",
-      "Provider": {
-        "Name": "Tennis365",
-        "DisplayName": "Tennis365"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2h98Zi.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "I'm A Celebrity fans 'falling in love' with Wayne Rooney after hearing 'adorable' music taste",
-      "Abstract": "The football hero is winning lots of new fans on the ITV reality show",
-      "Url": "https://www.manchestereveningnews.co.uk/news/tv/im-celebrity-fans-falling-love-34946488",
-      "ArticleUrl": "https://www.manchestereveningnews.co.uk/news/tv/im-celebrity-fans-falling-love-34946488",
-      "ExternalUrl": "https://www.manchestereveningnews.co.uk/news/tv/im-celebrity-fans-falling-love-34946488",
-      "PublishedDateTime": "2026-11-20T22:47:32Z",
-      "Provider": {
-        "Name": "Manchester Evening News",
-        "DisplayName": "Manchester Evening News"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSQDl.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Wayne Rooney reveals he would listen to Susan Boyle before game",
-      "Abstract": "Wayne Rooney reveals to camp he would listen to Susan Boyle before football game -",
-      "Url": "https://www.independent.co.uk/tv/culture/wayne-rooney-listen-susan-boyle-game-im-a-celeb-video-b3089011.html",
-      "ArticleUrl": "https://www.independent.co.uk/tv/culture/wayne-rooney-listen-susan-boyle-game-im-a-celeb-video-b3089011.html",
-      "ExternalUrl": "https://www.independent.co.uk/tv/culture/wayne-rooney-listen-susan-boyle-game-im-a-celeb-video-b3089011.html",
-      "PublishedDateTime": "2026-11-20T22:34:15Z",
-      "Provider": {
-        "Name": "The Independent",
-        "DisplayName": "The Independent"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTcXC.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "What Mikel Arteta really thinks about Mauricio Pochettino taking the Man Utd job",
-      "Abstract": "Mauricio Pochettino is back in the Premier League after deciding to take over at Arsenal's rivals Manchester United",
-      "Url": "https://www.football.london/arsenal-fc/news/mikel-arteta-mauricio-pochettino-phonecall-34941169",
-      "ArticleUrl": "https://www.football.london/arsenal-fc/news/mikel-arteta-mauricio-pochettino-phonecall-34941169",
-      "ExternalUrl": "https://www.football.london/arsenal-fc/news/mikel-arteta-mauricio-pochettino-phonecall-34941169",
-      "PublishedDateTime": "2026-11-20T22:30:00Z",
-      "Provider": {
-        "Name": "Football London",
-        "DisplayName": "Football London"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTi2d.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Arsenal is fighting Tottenham for Brazilian teenager",
-      "Abstract": "Arthur Dias is regarded as one of the finest young talents in South American football as he continues to impress with Athletico Paranaense in the Brazilian top flight.",
-      "Url": "https://www.yardbarker.com/soccer/articles/arsenal_is_fighting_tottenham_for_brazilian_teenager/s1_15968_44593618",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/arsenal_is_fighting_tottenham_for_brazilian_teenager/s1_15968_44593618",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/arsenal_is_fighting_tottenham_for_brazilian_teenager/s1_15968_44593618",
-      "PublishedDateTime": "2026-11-20T22:17:27Z",
-      "Provider": {
-        "Name": "Just Arsenal",
-        "DisplayName": "Just Arsenal"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT2XS.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "'We can’t change' Manager breaks silence as Arsenal wants his key player",
-      "Abstract": "Marco Rose is doing what any manager would do by trying to convince Alex Scott to sign a new contract and remain at Bournemouth. However, the Cherries boss also understands how the football business works and knows that he may not have complete control over the midfielder’s future.",
-      "Url": "https://www.yardbarker.com/soccer/articles/we_cant_change_manager_breaks_silence_as_arsenal_wants_his_key_player/s1_15968_44593617",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/we_cant_change_manager_breaks_silence_as_arsenal_wants_his_key_player/s1_15968_44593617",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/we_cant_change_manager_breaks_silence_as_arsenal_wants_his_key_player/s1_15968_44593617",
-      "PublishedDateTime": "2026-11-20T22:17:23Z",
-      "Provider": {
-        "Name": "Just Arsenal",
-        "DisplayName": "Just Arsenal"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ctxmU.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Report: Tom Brady 'buys stake in Premier League giants Chelsea'",
-      "Abstract": "It would see the seven-time Super Bowl champion make a swift return to investment in English football after he stepped away from Championship leaders Birmingham City earlier this month.",
-      "Url": "https://www.dailymail.com/vertical-galleries/article-16310253/Report-Tom-Brady-buys-stake-Premier-League-giants-Chelsea.html",
-      "ArticleUrl": "https://www.dailymail.com/vertical-galleries/article-16310253/Report-Tom-Brady-buys-stake-Premier-League-giants-Chelsea.html",
-      "ExternalUrl": "https://www.dailymail.com/vertical-galleries/article-16310253/Report-Tom-Brady-buys-stake-Premier-League-giants-Chelsea.html",
-      "PublishedDateTime": "2026-11-20T21:31:05Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSBKG.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "ATP star who beat Rafael Nadal now considering tennis return 21 months since last match",
-      "Abstract": "This is very exciting!",
-      "Url": "https://www.tennis365.com/tennis-news/atp-star-rafael-nadal",
-      "ArticleUrl": "https://www.tennis365.com/tennis-news/atp-star-rafael-nadal",
-      "ExternalUrl": "https://www.tennis365.com/tennis-news/atp-star-rafael-nadal",
-      "PublishedDateTime": "2026-11-20T21:00:29Z",
-      "Provider": {
-        "Name": "Tennis365",
-        "DisplayName": "Tennis365"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSNQ8.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
       "TagEvaluationGroups": []
     }
   ]
