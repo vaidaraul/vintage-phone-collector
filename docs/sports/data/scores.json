@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-21T05:44:27.696Z",
+  "Updated": "2026-11-21T14:15:36.084Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -13,16 +13,16 @@
           "id": "401879233",
           "name": "Fulham at Manchester City",
           "date": "2026-11-21T12:30Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:30 AM EST",
-          "state": "pre",
+          "status": "Second Half",
+          "detail": "87'",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Manchester City",
             "short": "Man City",
             "abbreviation": "MNC",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "away": {
@@ -30,7 +30,7 @@
             "short": "Fulham",
             "abbreviation": "FUL",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "venue": "Etihad Stadium"
@@ -202,30 +202,108 @@
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "events": [
         {
-          "id": "401882805",
-          "name": "Espanyol at Athletic Club",
-          "date": "2026-11-20T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401882806",
+          "name": "Deportivo at Alavés",
+          "date": "2026-11-21T13:00Z",
+          "status": "Second Half",
+          "detail": "56'",
+          "state": "in",
+          "completed": false,
           "home": {
-            "name": "Athletic Club",
-            "short": "Athletic",
-            "abbreviation": "ATH",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+            "name": "Alavés",
+            "short": "Alavés",
+            "abbreviation": "ALA",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+            "score": "1",
+            "winner": false
+          },
+          "away": {
+            "name": "Deportivo",
+            "short": "Deportivo",
+            "abbreviation": "DEP",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+            "score": "1",
+            "winner": false
+          },
+          "venue": "Mendizorrotza"
+        },
+        {
+          "id": "401882799",
+          "name": "Valencia at Rayo Vallecano",
+          "date": "2026-11-21T15:15Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 21st at 10:15 AM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Rayo Vallecano",
+            "short": "Rayo",
+            "abbreviation": "RAY",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
             "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Espanyol",
-            "short": "Espanyol",
-            "abbreviation": "ESP",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-            "score": "1",
-            "winner": true
+            "name": "Valencia",
+            "short": "Valencia",
+            "abbreviation": "VAL",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+            "score": "0",
+            "winner": false
           },
-          "venue": "San Mamés"
+          "venue": "Estadio de Vallecas"
+        },
+        {
+          "id": "401882797",
+          "name": "Real Betis at Sevilla",
+          "date": "2026-11-21T17:30Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 21st at 12:30 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Sevilla",
+            "short": "Sevilla",
+            "abbreviation": "SEV",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Real Betis",
+            "short": "Betis",
+            "abbreviation": "BET",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Ramón Sánchez Pizjuán Stadium"
+        },
+        {
+          "id": "401882798",
+          "name": "Celta Vigo at Real Madrid",
+          "date": "2026-11-21T20:00Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 21st at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Real Madrid",
+            "short": "Real Madrid",
+            "abbreviation": "RMA",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Celta Vigo",
+            "short": "Celta Vigo",
+            "abbreviation": "CEL",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Santiago Bernabéu"
         }
       ]
     },

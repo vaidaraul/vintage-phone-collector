@@ -1,20 +1,320 @@
 {
-  "Updated": "2026-11-21T05:44:27.318Z",
+  "Updated": "2026-11-21T14:15:35.540Z",
   "Value": [
     {
-      "Title": "Cricket-Australia gives Cummins unanimous backing as captain",
-      "Abstract": "SYDNEY, Nov 21 (Reuters) - Cricket Australia (CA) backed Pat Cummins to remain as captain of the test and one-day international sides on Saturday and rejected any suggestion his integrity had been compromised amid the renewed furore over the 2018 ball-tampering incident. The board met on Friday and reaffirmed its unanimous support for Cummins, whose leadership has come under scrutiny after",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hTrZH",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hTrZH",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hTrZH",
-      "PublishedDateTime": "2026-11-21T05:16:40Z",
+      "Title": "Legendary Chairman of Fylde coast football club steps down after 30 years",
+      "Abstract": "The club is now welcoming applications for a new Chair.",
+      "Url": "https://www.blackpoolgazette.co.uk/news/legendary-chairman-of-fylde-coast-football-club-steps-down-after-30-years-9363858",
+      "ArticleUrl": "https://www.blackpoolgazette.co.uk/news/legendary-chairman-of-fylde-coast-football-club-steps-down-after-30-years-9363858",
+      "ExternalUrl": "https://www.blackpoolgazette.co.uk/news/legendary-chairman-of-fylde-coast-football-club-steps-down-after-30-years-9363858",
+      "PublishedDateTime": "2026-11-21T14:00:52Z",
+      "Provider": {
+        "Name": "Blackpool Gazette",
+        "DisplayName": "Blackpool Gazette"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV1GK.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "ATP Finals tennis: Carlos Alcaraz v Ben Shelton – live semi-final updates",
+      "Abstract": "Join Katy Murrells for the latest in Turin, where Carlos Alcaraz takes on Ben Shelton in a rematch of their US Open thriller",
+      "Url": "https://www.theguardian.com/sport/live/2026/nov/21/atp-finals-tennis-carlos-alcaraz-v-ben-shelton-live-semi-final-updates",
+      "ArticleUrl": "https://www.theguardian.com/sport/live/2026/nov/21/atp-finals-tennis-carlos-alcaraz-v-ben-shelton-live-semi-final-updates",
+      "ExternalUrl": "https://www.theguardian.com/sport/live/2026/nov/21/atp-finals-tennis-carlos-alcaraz-v-ben-shelton-live-semi-final-updates",
+      "PublishedDateTime": "2026-11-21T14:11:00Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUF66.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Tennis"
+      ],
+      "Sport": "Tennis",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Manchester City v Fulham: Premier League – live",
+      "Abstract": "Minute-by-minute report: Will City return to winning ways at home after a run of three successive league defeats? Join Barry Glendenning",
+      "Url": "https://www.theguardian.com/football/live/2026/nov/21/manchester-city-v-fulham-premier-league-live",
+      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/21/manchester-city-v-fulham-premier-league-live",
+      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/21/manchester-city-v-fulham-premier-league-live",
+      "PublishedDateTime": "2026-11-21T14:11:00Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV4Gt.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Hull City pre-match notes - Sergej Jakirovic talks Sorba Thomas, tactics and next 10 games",
+      "Abstract": "The City boss is preparing for another huge Premier League test this weekend",
+      "Url": "https://www.hulldailymail.co.uk/sport/football/football-news/hull-city-pre-match-notes-11250680",
+      "ArticleUrl": "https://www.hulldailymail.co.uk/sport/football/football-news/hull-city-pre-match-notes-11250680",
+      "ExternalUrl": "https://www.hulldailymail.co.uk/sport/football/football-news/hull-city-pre-match-notes-11250680",
+      "PublishedDateTime": "2026-11-21T14:00:00Z",
+      "Provider": {
+        "Name": "Hull Live",
+        "DisplayName": "Hull Live"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVr9C.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Tottenham Hotspur Team vs Ipswich Town Confirmed",
+      "Abstract": "Tottenham Hotspur have confirmed their starting lineup for the visit of Ipswich Town in the Premier League this afternoon.",
+      "Url": "https://insidefutbol.com/2026/11/21/micky-van-de-ven-on-bench-tottenham-hotspur-team-vs-ipswich-town-confirmed/733421/",
+      "ArticleUrl": "https://insidefutbol.com/2026/11/21/micky-van-de-ven-on-bench-tottenham-hotspur-team-vs-ipswich-town-confirmed/733421/",
+      "ExternalUrl": "https://insidefutbol.com/2026/11/21/micky-van-de-ven-on-bench-tottenham-hotspur-team-vs-ipswich-town-confirmed/733421/",
+      "PublishedDateTime": "2026-11-21T13:52:29Z",
+      "Provider": {
+        "Name": "Inside Futbol",
+        "DisplayName": "Inside Futbol"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA270YIB.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "\"They should pay us extra'\" Bayern Munich boss makes bold Harry Kane claim",
+      "Abstract": "Jan-Christian Dreesen argues Bayern Munich have handed German football a marketing gift by landing a Ballon d’Or winner, and that the rest of the Bundesliga should help foot the bill.",
+      "Url": "https://lentedesportiva.com/they-should-pay-us-extra-bayern-munich-boss-makes-bold-harry-kane-claim/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/they-should-pay-us-extra-bayern-munich-boss-makes-bold-harry-kane-claim/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/they-should-pay-us-extra-bayern-munich-boss-makes-bold-harry-kane-claim/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-21T14:00:00Z",
+      "Provider": {
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVcBc.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Team News: Summer signing gets debut as Alonso picks attacking team to face Leeds",
+      "Abstract": "Chelsea take on Leeds at Stamford Bridge in the Premier League in just over an hour, and the teams are in! Xabi Alonso had a few questions over what team to pick today, and it’s a really interesting one!",
+      "Url": "https://www.yardbarker.com/soccer/articles/team_news_summer_signing_gets_debut_as_alonso_picks_attacking_team_to_face_leeds/s1_15956_44596017",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/team_news_summer_signing_gets_debut_as_alonso_picks_attacking_team_to_face_leeds/s1_15956_44596017",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/team_news_summer_signing_gets_debut_as_alonso_picks_attacking_team_to_face_leeds/s1_15956_44596017",
+      "PublishedDateTime": "2026-11-21T13:58:54Z",
+      "Provider": {
+        "Name": "Chelsea News",
+        "DisplayName": "Chelsea News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV4Hj.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Nottingham Forest handed big injury boost for crunch Bournemouth clash",
+      "Abstract": "Nottingham Forest face Bournemouth at the Vitality Stadium this afternoon in a key Premier League clash",
+      "Url": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-williams-11250570",
+      "ArticleUrl": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-williams-11250570",
+      "ExternalUrl": "https://www.nottinghampost.com/sport/football/football-news/nottingham-forest-injury-news-williams-11250570",
+      "PublishedDateTime": "2026-11-21T14:01:40Z",
+      "Provider": {
+        "Name": "Nottingham Post",
+        "DisplayName": "Nottingham Post"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV77a.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Two changes: Sunderland team news for Aston Villa clash explained",
+      "Abstract": "Sunderland return to Premier League action against Aston Villa on Saturday afternoon",
+      "Url": "https://www.sunderlandecho.com/sport/football/sunderland-afc/sunderland-team-news-aston-villa-team-news-9365511",
+      "ArticleUrl": "https://www.sunderlandecho.com/sport/football/sunderland-afc/sunderland-team-news-aston-villa-team-news-9365511",
+      "ExternalUrl": "https://www.sunderlandecho.com/sport/football/sunderland-afc/sunderland-team-news-aston-villa-team-news-9365511",
+      "PublishedDateTime": "2026-11-21T13:46:43Z",
+      "Provider": {
+        "Name": "Sunderland Echo",
+        "DisplayName": "Sunderland Echo"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hDTO7.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Leeds United Team vs Chelsea Confirmed",
+      "Abstract": "Leeds United have named their starting lineup and substitutes to take on Chelsea in the Premier League this afternoon.",
+      "Url": "https://insidefutbol.com/2026/11/21/harry-wilson-on-bench-leeds-united-team-vs-chelsea-confirmed/733419/",
+      "ArticleUrl": "https://insidefutbol.com/2026/11/21/harry-wilson-on-bench-leeds-united-team-vs-chelsea-confirmed/733419/",
+      "ExternalUrl": "https://insidefutbol.com/2026/11/21/harry-wilson-on-bench-leeds-united-team-vs-chelsea-confirmed/733419/",
+      "PublishedDateTime": "2026-11-21T13:48:16Z",
+      "Provider": {
+        "Name": "Inside Futbol",
+        "DisplayName": "Inside Futbol"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA27O2MC.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Premier League explain why Erling Haaland goal was disallowed as Man City left furious",
+      "Abstract": "Erling Haaland thought he'd equalised for Manchester City against Fulham, but his effort was ruled out",
+      "Url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-explain-erling-haaland-34947517",
+      "ArticleUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-explain-erling-haaland-34947517",
+      "ExternalUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/premier-league-explain-erling-haaland-34947517",
+      "PublishedDateTime": "2026-11-21T13:30:24Z",
+      "Provider": {
+        "Name": "Manchester Evening News",
+        "DisplayName": "Manchester Evening News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV6YA.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Perez announces record revenue for Real, UEFA to trial free viewing in India",
+      "Abstract": "BARCELONA, Nov 21 (Reuters) - UEFA will trial free-to-watch broadcasts for European competitions in India next season, Real Madrid president Florentino Perez said on Saturday as he announced record revenue for his club. Perez told Real Madrid's General Assembly that club annual revenue had reached €1.221 billion ($1.34 billion), with a profit of €26 million for the 2025-26 campaign. \"The best",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hUTVd",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hUTVd",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hUTVd",
+      "PublishedDateTime": "2026-11-21T13:02:06Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTyFO.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUBRf.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Cricket-Lehmann denies knowing of sandpaper ball-tampering plan",
+      "Abstract": "Nov 21 (Reuters) - Former Australia coach Darren Lehmann again denied any knowledge of the Sandpapergate plot on Saturday, amid renewed scrutiny of the 2018 tour of South Africa in the wake of player Cameron Bancroft's explosive 4,000-word account. The eight-year-old controversy resurfaced after former batter Usman Khawaja said the wider Australian team had known about the ball-tampering, not",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hV6Sh",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hV6Sh",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hV6Sh",
+      "PublishedDateTime": "2026-11-21T13:25:00Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV1sa.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -27,119 +327,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Pochettino the connector: will human touch lift Manchester United?",
-      "Abstract": "Mauricio Pochettino celebrated his 50th birthday in style. It was March 2022, he was in charge at Paris Saint-Germain and the venue was a stunning boutique hotel; the kind that many capitals have but only Paris truly does. Pochettino’s family and friends were there. So were his inner coaching circle, who are basically family. There were lots of people from PSG. And a good time was had by all. For Pochettino, it was emotional. As everybody knows,...",
-      "Url": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
-      "PublishedDateTime": "2026-11-20T19:00:37Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hRAsf.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Sheffield's best bits: Student opens up on his favourite things - including speedway and football",
-      "Abstract": "Here are some of Sheffield student Harry Jones’ favourite things in Sheffield",
-      "Url": "https://www.thestar.co.uk/news/people/sheffield-student-opens-up-on-his-favourite-things-harry-jones-9344796",
-      "ArticleUrl": "https://www.thestar.co.uk/news/people/sheffield-student-opens-up-on-his-favourite-things-harry-jones-9344796",
-      "ExternalUrl": "https://www.thestar.co.uk/news/people/sheffield-student-opens-up-on-his-favourite-things-harry-jones-9344796",
-      "PublishedDateTime": "2026-11-21T05:03:45Z",
-      "Provider": {
-        "Name": "Sheffield Star",
-        "DisplayName": "Sheffield Star"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTrR2.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Is Chelsea vs Leeds United on TV? Kick-off time, TV & live stream details for Premier League clash",
-      "Abstract": "All you need to know ahead of Leeds United’s Premier League trip to Chelsea this weekend.",
-      "Url": "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-chelsea-kick-off-time-tv-live-stream-details-premier-league-9356338",
-      "ArticleUrl": "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-chelsea-kick-off-time-tv-live-stream-details-premier-league-9356338",
-      "ExternalUrl": "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-chelsea-kick-off-time-tv-live-stream-details-premier-league-9356338",
-      "PublishedDateTime": "2026-11-21T04:56:16Z",
-      "Provider": {
-        "Name": "Yorkshire Evening Post",
-        "DisplayName": "Yorkshire Evening Post"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTptG.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Andoni Iraola sends clear message to Liverpool stars and makes Manchester United prediction",
-      "Abstract": "Liverpool take on a United side who are in the Premier League's relegation zone on Sunday afternoon",
-      "Url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sends-clear-message-34943689",
-      "ArticleUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sends-clear-message-34943689",
-      "ExternalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sends-clear-message-34943689",
-      "PublishedDateTime": "2026-11-21T05:00:00Z",
-      "Provider": {
-        "Name": "Liverpool Echo",
-        "DisplayName": "Liverpool Echo"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTVyP.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Bitcoin falls 3.57% to $56,814",
-      "Abstract": "Nov 20 (Reuters) - Bitcoin, the world's largest cryptocurrency by market value, was down by 3.57% to $56,813.68 at 10:50 p.m. ET on Friday (0350 GMT on Saturday). Earlier on Friday it fell below $60,000 for the first time since July, as lofty valuation concerns weighed on the AI trade and other risk assets. (Reporting by Gnaneshwar Rajan in Bengaluru; Editing by William Mallard)",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hTXPQ",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hTXPQ",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hTXPQ",
-      "PublishedDateTime": "2026-11-21T04:10:13Z",
+      "Title": "Kate, Britain's Princess of Wales, to feature in documentary about cancer recovery",
+      "Abstract": "LONDON, Nov 21 (Reuters) - Kate, Britain's Princess of Wales, will reflect on her experience with cancer and recovery in a documentary to be broadcast internationally this month, Kensington Palace said on Saturday. The film, Heal, will premiere on the BBC on November 29 before airing in the United States, Australia and Canada. \"Cancer does change you,\" Kate says in the documentary, according to",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hUP8d",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hUP8d",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hUP8d",
+      "PublishedDateTime": "2026-11-21T13:26:23Z",
       "Provider": {
         "Name": "Reuters",
         "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTmnr.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV9ub.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -152,19 +352,69 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Football Manager 27 - Best Teams To Manage",
-      "Abstract": "If you're on the hunt for an exciting new challenge in FM 27, here are the team we think you should manage (and why!).",
-      "Url": "https://www.thegamer.com/football-manager-27-best-teams-to-manage/",
-      "ArticleUrl": "https://www.thegamer.com/football-manager-27-best-teams-to-manage/",
-      "ExternalUrl": "https://www.thegamer.com/football-manager-27-best-teams-to-manage/",
-      "PublishedDateTime": "2026-11-20T16:34:28Z",
+      "Title": "French actor Depardieu and author Houellebecq under investigation for sexual assault",
+      "Abstract": "PARIS, Nov 21 (Reuters) - The Paris prosecutor's office said on Saturday it had opened a judicial investigation into actor Gerard Depardieu and author Michel Houellebecq over alleged sexual offences after a legal complaint was filed against them. • AFP News agency reported on Friday that the men had been jointly accused of the gang rape and assault of a woman during a 2018 film shoot • \"",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hVckD",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hVckD",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hVckD",
+      "PublishedDateTime": "2026-11-21T13:30:23Z",
       "Provider": {
-        "Name": "TheGamer",
-        "DisplayName": "TheGamer"
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTVqp.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUJMV.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Coco Gauff explains why men’s tennis is ‘sometimes boring’",
+      "Abstract": "Coco Gauff: \"Right now in the men's [game], sometimes it's boring.\"",
+      "Url": "https://www.tennis365.com/wta-tour/coco-gauff-explains-why-mens-tennis-sometimes-boring",
+      "ArticleUrl": "https://www.tennis365.com/wta-tour/coco-gauff-explains-why-mens-tennis-sometimes-boring",
+      "ExternalUrl": "https://www.tennis365.com/wta-tour/coco-gauff-explains-why-mens-tennis-sometimes-boring",
+      "PublishedDateTime": "2026-11-21T12:15:48Z",
+      "Provider": {
+        "Name": "Tennis365",
+        "DisplayName": "Tennis365"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2fNFk9.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Tennis"
+      ],
+      "Sport": "Tennis",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Market Weighton Town Football Club nets £1,000 donation for new kits",
+      "Abstract": "The club is 'an important part of the community' and has more than 150 local players",
+      "Url": "https://www.hulldailymail.co.uk/news/hull-east-yorkshire-news/market-weighton-town-football-club-11242980",
+      "ArticleUrl": "https://www.hulldailymail.co.uk/news/hull-east-yorkshire-news/market-weighton-town-football-club-11242980",
+      "ExternalUrl": "https://www.hulldailymail.co.uk/news/hull-east-yorkshire-news/market-weighton-town-football-club-11242980",
+      "PublishedDateTime": "2026-11-21T11:46:34Z",
+      "Provider": {
+        "Name": "Hull Live",
+        "DisplayName": "Hull Live"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTKqt.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -177,69 +427,119 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Meet the 12-year-old boy dreaming of an F1 career",
-      "Abstract": "Meet the 12-year-old boy dreaming of an F1 career -",
-      "Url": "https://www.independent.co.uk/bulletin/sport/theo-bobb-falkirk-karting-f1-driving-b2946013.html",
-      "ArticleUrl": "https://www.independent.co.uk/bulletin/sport/theo-bobb-falkirk-karting-f1-driving-b2946013.html",
-      "ExternalUrl": "https://www.independent.co.uk/bulletin/sport/theo-bobb-falkirk-karting-f1-driving-b2946013.html",
-      "PublishedDateTime": "2026-03-26T10:35:45Z",
+      "Title": "David Jeffrey's developing players 'care passionately about the club' as Portadown 'in a better place now' before bottom-two clash",
+      "Abstract": "Decades in Irish League football have left David Jeffrey clear “I live in the world of results” – but the veteran Portadown boss will reject any extra weight on today’s test between the bottom two.",
+      "Url": "https://www.newsletter.co.uk/sport/football/northern-ireland/david-jeffreys-developing-players-care-passionately-about-the-club-as-portadown-in-a-better-place-now-before-bottom-two-clash-9365479",
+      "ArticleUrl": "https://www.newsletter.co.uk/sport/football/northern-ireland/david-jeffreys-developing-players-care-passionately-about-the-club-as-portadown-in-a-better-place-now-before-bottom-two-clash-9365479",
+      "ExternalUrl": "https://www.newsletter.co.uk/sport/football/northern-ireland/david-jeffreys-developing-players-care-passionately-about-the-club-as-portadown-in-a-better-place-now-before-bottom-two-clash-9365479",
+      "PublishedDateTime": "2026-11-21T13:01:26Z",
       "Provider": {
-        "Name": "The Independent",
-        "DisplayName": "The Independent"
+        "Name": "News Letter",
+        "DisplayName": "News Letter"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZrN7q.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVjki.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Formula 1"
+        "Football"
       ],
-      "Sport": "Formula 1",
+      "Sport": "Football",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Norris hit by McLaren’s huge screw-up but one move can save F1 title",
-      "Abstract": "Lando Norris hit by McLaren’s all-time F1 screw-up but one move can still save title dream - Comment: With a maiden F1 world title so close for the 26-year-old British driver, his Vegas disqualification has brought Max Verstappen back in contention with two races left",
-      "Url": "https://www.independent.co.uk/f1/lando-norris-mclaren-f1-disqualified-oscar-piastri-verstappen-b2870776.html",
-      "ArticleUrl": "https://www.independent.co.uk/f1/lando-norris-mclaren-f1-disqualified-oscar-piastri-verstappen-b2870776.html",
-      "ExternalUrl": "https://www.independent.co.uk/f1/lando-norris-mclaren-f1-disqualified-oscar-piastri-verstappen-b2870776.html",
-      "PublishedDateTime": "2025-11-23T14:43:29Z",
+      "Title": "How to watch ATP Finals 2026 for FREE: Live Streams & TV Channels",
+      "Abstract": "Watch streams from the ATP Finlas 2026, including free trial options, as Zverev and Alcaraz lead the field – tennis TV channels, broadcasters and streams.",
+      "Url": "https://www.techradar.com/entertainment/tennis/atp-finals-2026-free-mens-tennis",
+      "ArticleUrl": "https://www.techradar.com/entertainment/tennis/atp-finals-2026-free-mens-tennis",
+      "ExternalUrl": "https://www.techradar.com/entertainment/tennis/atp-finals-2026-free-mens-tennis",
+      "PublishedDateTime": "2026-11-21T10:51:28Z",
       "Provider": {
-        "Name": "The Independent",
-        "DisplayName": "The Independent"
+        "Name": "TechRadar",
+        "DisplayName": "TechRadar"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QZjsv.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ht1Qs.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Formula 1"
+        "Tennis"
       ],
-      "Sport": "Formula 1",
+      "Sport": "Tennis",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Man City lineup vs Fulham predicted as Enzo Maresca ignores Ayyoub Bouaddi clamour",
-      "Abstract": "Manchester City host Fulham at the Etihad today as the Premier League returns and there will be a lot of focus on the team news",
-      "Url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-lineup-vs-fulham-34945613",
-      "ArticleUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-lineup-vs-fulham-34945613",
-      "ExternalUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-lineup-vs-fulham-34945613",
-      "PublishedDateTime": "2026-11-21T04:01:00Z",
+      "Title": "Italy's Serie A is now outscoring the Premier League",
+      "Abstract": "Italian football has scored 3.11 goals per game in the 2026-27 season, outpacing the Premier League by almost 0.4 goals a match in a reversal that almost nobody predicted in August.",
+      "Url": "https://lentedesportiva.com/italys-serie-a-is-now-outscoring-the-premier-league/?utm_source=msn&utm_medium=syndication",
+      "ArticleUrl": "https://lentedesportiva.com/italys-serie-a-is-now-outscoring-the-premier-league/?utm_source=msn&utm_medium=syndication",
+      "ExternalUrl": "https://lentedesportiva.com/italys-serie-a-is-now-outscoring-the-premier-league/?utm_source=msn&utm_medium=syndication",
+      "PublishedDateTime": "2026-11-21T13:00:00Z",
+      "Provider": {
+        "Name": "Lente Desportiva",
+        "DisplayName": "Lente Desportiva"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUTRE.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "FPL Gameweek 11 Tips: Fantasy Football Must-Haves, Captain Picks and Injury Report",
+      "Abstract": "",
+      "Url": "https://extratimetalk.com/fpl-gameweek-11-tips-must-haves-captain-injury/",
+      "ArticleUrl": "https://extratimetalk.com/fpl-gameweek-11-tips-must-haves-captain-injury/",
+      "ExternalUrl": "https://extratimetalk.com/fpl-gameweek-11-tips-must-haves-captain-injury/",
+      "PublishedDateTime": "2026-11-20T12:00:34Z",
+      "Provider": {
+        "Name": "ExtraTime Talk",
+        "DisplayName": "ExtraTime Talk"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVc3k.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Tributes as former MP and respected politician in Bolton dies aged 87",
+      "Abstract": "Frank White was a long-standing magistrate and football referee in the town",
+      "Url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/tributes-former-mp-respected-34947316",
+      "ArticleUrl": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/tributes-former-mp-respected-34947316",
+      "ExternalUrl": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/tributes-former-mp-respected-34947316",
+      "PublishedDateTime": "2026-11-21T12:40:58Z",
       "Provider": {
         "Name": "Manchester Evening News",
         "DisplayName": "Manchester Evening News"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTDA0.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUEtt.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -252,44 +552,44 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Thomas Muller reignites MLS relegation debate with brutal criticism right before 1st seed Vancouver's playoff run",
-      "Abstract": "Muller's sentiments align with many others, but MLS is unwilling to change for the time being.. The MLS Playoffs are finally underway, but fans will have to wait until Sunday to watch the top-seeded teams in both conferences. Nashville SC will face FC Cincinnati to kick off that matchday, while the Vancouver Whitecaps finish the slate against Real Salt Lake. As always, eyes will be on Vancouver not only due to their incredibly talented team, but...",
-      "Url": "https://www.marca.com/en/football/mls/2026/11/21/thomas-muller-reignites-mls-relegation-debate-with-brutal-criticism-right-before-1st-seed-vancouver-s-playoff-run.html",
-      "ArticleUrl": "https://www.marca.com/en/football/mls/2026/11/21/thomas-muller-reignites-mls-relegation-debate-with-brutal-criticism-right-before-1st-seed-vancouver-s-playoff-run.html",
-      "ExternalUrl": "https://www.marca.com/en/football/mls/2026/11/21/thomas-muller-reignites-mls-relegation-debate-with-brutal-criticism-right-before-1st-seed-vancouver-s-playoff-run.html",
-      "PublishedDateTime": "2026-11-21T03:24:34Z",
+      "Title": "NFL legend Tom Brady in talks to buy Chelsea stake after Birmingham City exit",
+      "Abstract": "Tom Brady recently left the ownership group in charge of Birmingham City and has already moved his focus to another English club, holding talks to become a minority stakeholder in Chelsea",
+      "Url": "https://www.mirror.co.uk/sport/football/news/nfl-tom-brady-chelsea-birmingham-37901566",
+      "ArticleUrl": "https://www.mirror.co.uk/sport/football/news/nfl-tom-brady-chelsea-birmingham-37901566",
+      "ExternalUrl": "https://www.mirror.co.uk/sport/football/news/nfl-tom-brady-chelsea-birmingham-37901566",
+      "PublishedDateTime": "2026-11-21T10:52:37Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
+        "Name": "Mirror",
+        "DisplayName": "Mirror"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSWIZ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUYda.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "football"
+        "NFL"
       ],
-      "Sport": "football",
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Stephen A. Smith extends an olive branch to LeBron James after their bitter feud",
-      "Abstract": "Is the feud finally over?. Stephen A. Smith seems ready to make peace with LeBron James. After months of tension and a confrontation that was caught on camera, the sports commentator surprised fans with a much more conciliatory tone toward the Los Angeles Lakers star. This time, Smith made it clear that he has no interest in holding grudges and that, at 59, he would rather not waste his time on that kind of conflict. “Life is too short. I ain't...",
-      "Url": "https://www.marca.com/en/basketball/nba/philadelphia-76ers/2026/11/21/stephen-smith-extends-an-olive-branch-to-lebron-james-after-their-bitter-feud.html",
-      "ArticleUrl": "https://www.marca.com/en/basketball/nba/philadelphia-76ers/2026/11/21/stephen-smith-extends-an-olive-branch-to-lebron-james-after-their-bitter-feud.html",
-      "ExternalUrl": "https://www.marca.com/en/basketball/nba/philadelphia-76ers/2026/11/21/stephen-smith-extends-an-olive-branch-to-lebron-james-after-their-bitter-feud.html",
-      "PublishedDateTime": "2026-11-21T03:12:10Z",
+      "Title": "The Lakers are on the verge of collapse",
+      "Abstract": "The Kings, one of the worst teams in the NBA (1-14), had a three-pointer to beat the Angelenos, with a human Doncic (25+4+6) and a decisive Grimes. The Lakers remain atop the NBA standings (14-3) after earning their tenth victory in 11 games. However, the feelings are not good during a stretch of the schedule that should be enjoyable. They lost to the Jazz and this time came close to disaster against the Kings (106-104). Sacramento, who are one...",
+      "Url": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/21/the-lakers-are-on-the-verge-of-collapse.html",
+      "ArticleUrl": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/21/the-lakers-are-on-the-verge-of-collapse.html",
+      "ExternalUrl": "https://www.marca.com/en/basketball/nba/los-angeles-lakers/2026/11/21/the-lakers-are-on-the-verge-of-collapse.html",
+      "PublishedDateTime": "2026-11-21T09:16:57Z",
       "Provider": {
         "Name": "MARCA",
         "DisplayName": "MARCA"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTB6U.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUjIl.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -299,181 +599,6 @@
         "NBA"
       ],
       "Sport": "NBA",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "49ers vs. Vikings: Everything you need to know about the Week 11 game in Mexico",
-      "Abstract": "The NFL returns to Mexico City with two NFC teams coming off winning records and plenty at stake as the season unfolds.. This Sunday, November 22, the 49ers and Vikings will face off at Estadio Banorte in Mexico City. San Francisco enters the matchup with an 8-1 record, while Minnesota boasts a 7-2 mark. The game will present an additional challenge: altitude. Mexico City sits approximately 7,350 feet above sea level, a condition that could...",
-      "Url": "https://www.marca.com/en/nfl/2026/11/21/49ers-vs-vikings-everything-you-need-to-know-about-the-week-11-game-in-mexico.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/2026/11/21/49ers-vs-vikings-everything-you-need-to-know-about-the-week-11-game-in-mexico.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/2026/11/21/49ers-vs-vikings-everything-you-need-to-know-about-the-week-11-game-in-mexico.html",
-      "PublishedDateTime": "2026-11-21T03:05:20Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT17u.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Mikel Arteta says he trusts key Arsenal figure to sort out star’s new contract",
-      "Abstract": "Arsenal manager Mikel Arteta says he is very happy with Kai Havertz and trusts club chief Andrea Berta to sort out a new contract for him. The Germany international has been a key player since joining the Gunners from Chelsea back in the summer of 2023, scoring 40 goals in 125 appearances for the club and helping them win the Premier League title.",
-      "Url": "https://www.yardbarker.com/soccer/articles/mikel_arteta_says_he_trusts_key_arsenal_figure_to_sort_out_stars_new_contract/s1_15953_44594464",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/mikel_arteta_says_he_trusts_key_arsenal_figure_to_sort_out_stars_new_contract/s1_15953_44594464",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/mikel_arteta_says_he_trusts_key_arsenal_figure_to_sort_out_stars_new_contract/s1_15953_44594464",
-      "PublishedDateTime": "2026-11-21T02:21:21Z",
-      "Provider": {
-        "Name": "CaughtOffside",
-        "DisplayName": "CaughtOffside"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTFCq.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Texans’ Kamari Lassiter could face one of the biggest NFL fines ever over one word yelled into the camera",
-      "Abstract": "The cornerback was understandably fired up after making the play. The Houston Texans earned an important victory over the Indianapolis Colts on Thursday Night Football, but cornerback Kamari Lassiter could end up paying a hefty price for one of the night’s most memorable moments. Lassiter delivered a crucial interception against quarterback Daniel Jones in the second quarter, helping Houston build momentum during its divisional showdown....",
-      "Url": "https://www.marca.com/en/nfl/houston-texans/2026/11/21/texans-kamari-lassiter-could-face-one-of-the-biggest-nfl-fines-ever-over-one-word-yelled-into-the-camera.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/houston-texans/2026/11/21/texans-kamari-lassiter-could-face-one-of-the-biggest-nfl-fines-ever-over-one-word-yelled-into-the-camera.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/houston-texans/2026/11/21/texans-kamari-lassiter-could-face-one-of-the-biggest-nfl-fines-ever-over-one-word-yelled-into-the-camera.html",
-      "PublishedDateTime": "2026-11-21T01:37:40Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT9q1.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Trump appears to take brutal swipe at $12m college football star: 'They're going crazy'",
-      "Abstract": "Underwood reportedly signed an NIL deal worth up to $12 million, turning his back on LSU to join the Wolverines. But he has been disappointing in his two seasons in Ann Arbor.",
-      "Url": "https://www.dailymail.com/sport/college-football/article-16310501/trump-swipe-bryce-underwood-michigan.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16310501/trump-swipe-bryce-underwood-michigan.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16310501/trump-swipe-bryce-underwood-michigan.html",
-      "PublishedDateTime": "2026-11-21T01:02:01Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hT9hL.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Football Manager 27 - Best Tactics To Use",
-      "Abstract": "With the new Tactical Effectiveness feature in mind, a 4-2-3-1 Gegenpress is no longer the best tactic for every team, but here are some alternatives.",
-      "Url": "https://www.thegamer.com/football-manager-27-best-tactics/",
-      "ArticleUrl": "https://www.thegamer.com/football-manager-27-best-tactics/",
-      "ExternalUrl": "https://www.thegamer.com/football-manager-27-best-tactics/",
-      "PublishedDateTime": "2026-11-20T12:51:49Z",
-      "Provider": {
-        "Name": "TheGamer",
-        "DisplayName": "TheGamer"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTqjR.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Celtic boss O'Neill seeks Europa League stand-in as Baur set for lengthy spell on the sidelines",
-      "Abstract": "Martin O'Neill will weigh up replacing Mika Baur in the Europa League squad after the midfielder was ruled out for up to 10 weeks with an ankle injury.",
-      "Url": "https://www.dailymail.com/sport/football/article-16309853/celtic-mika-baur-martin-oneill-europa-league.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16309853/celtic-mika-baur-martin-oneill-europa-league.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16309853/celtic-mika-baur-martin-oneill-europa-league.html",
-      "PublishedDateTime": "2026-11-20T22:30:46Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hTd17.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Bayern Munich confirm Harry Kane ‘out for next few months’ with ankle injury",
-      "Abstract": "Bayern Munich have confirmed Harry Kane will be “out for the next few months” with ankle ligament damage sustained in their 1-1 draw with Cologne on Friday. Kane was substituted after 20 minutes of the Bundesliga game, having been left limping after a challenge from the Cologne defender Joël Schmied. The Ballon d’Or winner was substituted and the returning Bayern coach, Vincent Kompany, said that the injury would take “months” rather than weeks...",
-      "Url": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
-      "PublishedDateTime": "2026-11-20T22:43:40Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSSU0.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
       "TagEvaluationGroups": []
     }
   ]
