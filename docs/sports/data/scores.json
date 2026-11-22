@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-21T20:38:17.884Z",
+  "Updated": "2026-11-22T00:58:06.603Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -283,17 +283,17 @@
           "id": "401882798",
           "name": "Celta Vigo at Real Madrid",
           "date": "2026-11-21T20:00Z",
-          "status": "First Half",
-          "detail": "30'",
-          "state": "in",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Real Madrid",
             "short": "Real Madrid",
             "abbreviation": "RMA",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "score": "0",
-            "winner": false
+            "score": "2",
+            "winner": true
           },
           "away": {
             "name": "Celta Vigo",
@@ -1089,16 +1089,16 @@
           "id": "401910024",
           "name": "Portland Trail Blazers at New York Knicks",
           "date": "2026-11-22T00:30Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:30 PM EST",
-          "state": "pre",
+          "status": "In Progress",
+          "detail": "2:57 - 1st Quarter",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "New York Knicks",
             "short": "Knicks",
             "abbreviation": "NY",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-            "score": "0",
+            "score": "31",
             "winner": false
           },
           "away": {
@@ -1106,7 +1106,7 @@
             "short": "Trail Blazers",
             "abbreviation": "POR",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-            "score": "0",
+            "score": "17",
             "winner": false
           },
           "venue": "Madison Square Garden"
@@ -1265,17 +1265,17 @@
           "id": "401892754",
           "name": "Edmonton Oilers at Carolina Hurricanes",
           "date": "2026-11-21T18:00Z",
-          "status": "In Progress",
-          "detail": "9:21 - 3rd Period",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Carolina Hurricanes",
             "short": "Hurricanes",
             "abbreviation": "CAR",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
-            "score": "6",
-            "winner": false
+            "score": "7",
+            "winner": true
           },
           "away": {
             "name": "Edmonton Oilers",
@@ -1291,16 +1291,16 @@
           "id": "401892755",
           "name": "Chicago Blackhawks at Calgary Flames",
           "date": "2026-11-21T20:30Z",
-          "status": "In Progress",
-          "detail": "20:00 - 1st Period",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final/OT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Calgary Flames",
             "short": "Flames",
             "abbreviation": "CGY",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
-            "score": "0",
+            "score": "3",
             "winner": false
           },
           "away": {
@@ -1308,8 +1308,8 @@
             "short": "Blackhawks",
             "abbreviation": "CHI",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
-            "score": "0",
-            "winner": false
+            "score": "4",
+            "winner": true
           },
           "venue": "Scotiabank Saddledome"
         },
@@ -1317,16 +1317,16 @@
           "id": "401892756",
           "name": "Buffalo Sabres at Florida Panthers",
           "date": "2026-11-21T23:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 6:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 2nd Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Florida Panthers",
             "short": "Panthers",
             "abbreviation": "FLA",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "away": {
@@ -1334,7 +1334,7 @@
             "short": "Sabres",
             "abbreviation": "BUF",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "venue": "Amerant Bank Arena"
@@ -1343,16 +1343,16 @@
           "id": "401892757",
           "name": "Pittsburgh Penguins at Nashville Predators",
           "date": "2026-11-21T23:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 6:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 2nd Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Nashville Predators",
             "short": "Predators",
             "abbreviation": "NSH",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
-            "score": "0",
+            "score": "3",
             "winner": false
           },
           "away": {
@@ -1360,7 +1360,7 @@
             "short": "Penguins",
             "abbreviation": "PIT",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
-            "score": "0",
+            "score": "3",
             "winner": false
           },
           "venue": "Bridgestone Arena"
@@ -1369,16 +1369,16 @@
           "id": "401892758",
           "name": "Washington Capitals at Boston Bruins",
           "date": "2026-11-22T00:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 1st Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Boston Bruins",
             "short": "Bruins",
             "abbreviation": "BOS",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "away": {
@@ -1386,7 +1386,7 @@
             "short": "Capitals",
             "abbreviation": "WSH",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "venue": "TD Garden"
@@ -1395,16 +1395,16 @@
           "id": "401892759",
           "name": "Columbus Blue Jackets at Toronto Maple Leafs",
           "date": "2026-11-22T00:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 1st Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Toronto Maple Leafs",
             "short": "Maple Leafs",
             "abbreviation": "TOR",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "away": {
@@ -1412,7 +1412,7 @@
             "short": "Blue Jackets",
             "abbreviation": "CBJ",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "venue": "Scotiabank Arena"
@@ -1421,16 +1421,16 @@
           "id": "401892760",
           "name": "Philadelphia Flyers at Montreal Canadiens",
           "date": "2026-11-22T00:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 1st Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Montreal Canadiens",
             "short": "Canadiens",
             "abbreviation": "MTL",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "away": {
@@ -1438,7 +1438,7 @@
             "short": "Flyers",
             "abbreviation": "PHI",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "venue": "Bell Centre"
@@ -1447,9 +1447,9 @@
           "id": "401892761",
           "name": "Los Angeles Kings at Ottawa Senators",
           "date": "2026-11-22T00:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 1st Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Ottawa Senators",
@@ -1464,7 +1464,7 @@
             "short": "Kings",
             "abbreviation": "LA",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "venue": "Canadian Tire Centre"
@@ -1473,16 +1473,16 @@
           "id": "401892762",
           "name": "New York Islanders at Detroit Red Wings",
           "date": "2026-11-22T00:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:00 PM EST",
-          "state": "pre",
+          "status": "In Progress",
+          "detail": "20:00 - 2nd Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Detroit Red Wings",
             "short": "Red Wings",
             "abbreviation": "DET",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "away": {
@@ -1499,16 +1499,16 @@
           "id": "401892763",
           "name": "New Jersey Devils at St. Louis Blues",
           "date": "2026-11-22T00:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 1st Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "St. Louis Blues",
             "short": "Blues",
             "abbreviation": "STL",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-            "score": "0",
+            "score": "4",
             "winner": false
           },
           "away": {
@@ -1516,7 +1516,7 @@
             "short": "Devils",
             "abbreviation": "NJ",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
-            "score": "0",
+            "score": "3",
             "winner": false
           },
           "venue": "Enterprise Center"
@@ -1525,16 +1525,16 @@
           "id": "401892764",
           "name": "Vegas Golden Knights at Winnipeg Jets",
           "date": "2026-11-22T00:00Z",
-          "status": "Scheduled",
-          "detail": "Sat, November 21st at 7:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 1st Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Winnipeg Jets",
             "short": "Jets",
             "abbreviation": "WPG",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "away": {
@@ -1542,7 +1542,7 @@
             "short": "Golden Knights",
             "abbreviation": "VGK",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "venue": "Canada Life Centre"

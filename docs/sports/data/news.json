@@ -1,45 +1,70 @@
 {
-  "Updated": "2026-11-21T20:38:17.507Z",
+  "Updated": "2026-11-22T00:58:06.369Z",
   "Value": [
     {
-      "Title": "Every word Mikel Arteta said on Arsenal collapse to Newcastle, Raya injury and missed chances",
-      "Abstract": "Here is every word Mikel Arteta said during his post-match press conference after Arsenal’s Premier League clash with Newcastle United",
-      "Url": "https://www.football.london/arsenal-fc/news/every-word-mikel-arteta-said-34948197",
-      "ArticleUrl": "https://www.football.london/arsenal-fc/news/every-word-mikel-arteta-said-34948197",
-      "ExternalUrl": "https://www.football.london/arsenal-fc/news/every-word-mikel-arteta-said-34948197",
-      "PublishedDateTime": "2026-11-21T20:21:16Z",
+      "Title": "Rugby-Injury-hit France's run to final a tour de force, says Galthie",
+      "Abstract": "By Vincent Daheron PARIS, Nov 22 (Reuters) - France coach Fabien Galthie hailed his side's run to the inaugural Nations Championship final as a \"tour de force\" after Les Bleus overcame a lengthy injury list to set up a showdown with South Africa. The Six Nations champions booked their place in the final with a 45-17 bonus-point victory over Argentina at the Stade de France on Saturday. France",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hWk9y",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hWk9y",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hWk9y",
+      "PublishedDateTime": "2026-11-22T00:40:19Z",
       "Provider": {
-        "Name": "Football London",
-        "DisplayName": "Football London"
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVCn4.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hWEls.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Football"
+        "Rugby"
       ],
-      "Sport": "Football",
+      "Sport": "Rugby",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "CRAIG HOPE: Arsenal fortunate to escape with a draw against Newcastle after not killing the game",
-      "Abstract": "CRAIG HOPE AT ST JAMES' PARK: Do not invite the hostility, Arsenal were warned. Do not prod the bear. Do not start Bruno Guimaraes. The champions belligerently ignored all of that.",
-      "Url": "https://www.dailymail.com/sport/football/article-16308775/Newcastle-2-2-Arsenal-Premier-League-2026-27-Result.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16308775/Newcastle-2-2-Arsenal-Premier-League-2026-27-Result.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16308775/Newcastle-2-2-Arsenal-Premier-League-2026-27-Result.html",
-      "PublishedDateTime": "2026-11-21T20:17:17Z",
+      "Title": "Shocking moment LSU coach Lane Kiffin targeted with golf balls and mustard bottles thrown by fans",
+      "Abstract": "A college football game between the University of Tennessee and LSU had to be stopped when Tennessee fans began throwing objects aimed at LSU coach Lane Kiffin.",
+      "Url": "https://www.dailymail.com/sport/college-football/article-16312453/lsu-lane-kiffin-tennessee-fans-golf-balls.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16312453/lsu-lane-kiffin-tennessee-fans-golf-balls.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16312453/lsu-lane-kiffin-tennessee-fans-golf-balls.html",
+      "PublishedDateTime": "2026-11-22T00:31:08Z",
       "Provider": {
         "Name": "Daily Mail",
         "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVRRI.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hW5Xx.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Golf"
+      ],
+      "Sport": "Golf",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Thomas Frank to banish ‘traitors’ in Arsenal team ahead of derby",
+      "Abstract": "Tottenham coach Thomas Frank votes to banish ‘traitors’ in Arsenal team ahead of north London derby - The Spurs boss coached both David Raya and Christian Norgaard at Brentford. The pair now play for Arsenal",
+      "Url": "https://www.independent.co.uk/sport/football/arsenal-tottenham-nld-premier-league-thomas-frank-b2870270.html",
+      "ArticleUrl": "https://www.independent.co.uk/sport/football/arsenal-tottenham-nld-premier-league-thomas-frank-b2870270.html",
+      "ExternalUrl": "https://www.independent.co.uk/sport/football/arsenal-tottenham-nld-premier-league-thomas-frank-b2870270.html",
+      "PublishedDateTime": "2025-11-21T23:20:33Z",
+      "Provider": {
+        "Name": "The Independent",
+        "DisplayName": "The Independent"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QUI1Y.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -52,19 +77,312 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Pochettino needs New Manager Bounce to break torrid Manchester United turnover",
-      "Abstract": "Everybody knows the pattern. Performances fade. Results falter. A title challenge becomes clinging on for the last Champions League spot becomes mid-table. Or a promising start becomes a troubling dip, becomes a full-on battle against relegation. Fans begin to grumble. The media wonder whether the spark has gone. Players look disaffected. A dressing room, once lost, is seldom rediscovered, and few managers are given the opportunity to find it...",
-      "Url": "https://www.theguardian.com/football/2026/nov/21/pochettino-needs-new-manager-bounce-to-break-torrid-manchester-united-turnover",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/21/pochettino-needs-new-manager-bounce-to-break-torrid-manchester-united-turnover",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/21/pochettino-needs-new-manager-bounce-to-break-torrid-manchester-united-turnover",
-      "PublishedDateTime": "2026-11-21T20:00:06Z",
+      "Title": "Army cadets pull savage prank on Navy's college football team after breaking into their stadium",
+      "Abstract": "There are still three weeks before the 127th edition of the Army-Navy Game takes place, but the Cadets decided to get the jump on the Midshipmen long before the game kicks off.",
+      "Url": "https://www.dailymail.com/sport/college-football/article-16312023/army-cadets-navy-football-stadium-prank-annapolis.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16312023/army-cadets-navy-football-stadium-prank-annapolis.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16312023/army-cadets-navy-football-stadium-prank-annapolis.html",
+      "PublishedDateTime": "2026-11-21T23:43:22Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hW5G7.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Mikel Arteta gives David Raya injury update after Newcastle 2-2 Arsenal: ‘Not good news’",
+      "Abstract": "The Premier League champions’ manager has bad news regarding the Spanish goalkeeper",
+      "Url": "https://www.teamtalk.com/arsenal/breaking-mikel-arteta-gives-david-raya-injury-update-after-newcastle-2-2-arsenal-not-good-news",
+      "ArticleUrl": "https://www.teamtalk.com/arsenal/breaking-mikel-arteta-gives-david-raya-injury-update-after-newcastle-2-2-arsenal-not-good-news",
+      "ExternalUrl": "https://www.teamtalk.com/arsenal/breaking-mikel-arteta-gives-david-raya-injury-update-after-newcastle-2-2-arsenal-not-good-news",
+      "PublishedDateTime": "2026-11-21T20:28:31Z",
+      "Provider": {
+        "Name": "TEAMtalk",
+        "DisplayName": "TEAMtalk"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hWhFX.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Rugby-France secure bonus-point win over Argentina to reach final",
+      "Abstract": "By Vincent Daheron PARIS, Nov 21 (Reuters) - France booked another showdown against world champions South Africa in the first Nations Championship final after securing a 45-17 bonus-point victory over Argentina at the Stade de France on Saturday. Mickael Guillard, Peato Mauvaka, Kalvin Gourgues (two), Emilien Gailleton, Tyler Duguid and Louis Bielle-Biarrey scored tries to earn the Six Nations",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hVy9w",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hVy9w",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hVy9w",
+      "PublishedDateTime": "2026-11-21T22:46:42Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVSlI.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Rugby"
+      ],
+      "Sport": "Rugby",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Espi spares Mbappe's blushes as Real Madrid beat Celta Vigo",
+      "Abstract": "Nov 21 (Reuters) - Kylian Mbappe’s third miss in his last six penalty attempts for club and country did not prove costly as Carlos Espi’s late winner helped Real Madrid to a 2-1 home victory over Celta Vigo in LaLiga on Saturday. Real have 33 points from 13 LaLiga games, level with leaders Barcelona, but have now played a game more. The Catalans are in action on Sunday at home to Villarreal.",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hVCSN",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hVCSN",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hVCSN",
+      "PublishedDateTime": "2026-11-21T22:36:30Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVNsX.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Cole Palmer involved in ‘angry exchange of words’ with Chelsea’s best player as Xabi Alonso ‘sack’ claim emerges",
+      "Abstract": "Chelsea suffered a heavy 4-1 defeat to Leeds United at Stamford Bridge in London in the Premier League on Saturday",
+      "Url": "https://www.teamtalk.com/chelsea/cole-palmer-joao-pedro-chelsea-leeds-xabi-alonso-sack",
+      "ArticleUrl": "https://www.teamtalk.com/chelsea/cole-palmer-joao-pedro-chelsea-leeds-xabi-alonso-sack",
+      "ExternalUrl": "https://www.teamtalk.com/chelsea/cole-palmer-joao-pedro-chelsea-leeds-xabi-alonso-sack",
+      "PublishedDateTime": "2026-11-21T18:41:42Z",
+      "Provider": {
+        "Name": "TEAMtalk",
+        "DisplayName": "TEAMtalk"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24sNy5.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Man United sale update as unhappy Glazers ‘set £7.5bn plan’ after two INEOS agreements",
+      "Abstract": "The Glazer family have owned Manchester United for more than two decades, but have their eye on a sale, provided the correct valuation is met for the Premier League giants",
+      "Url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-sale-glazer-family-34948998",
+      "ArticleUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-sale-glazer-family-34948998",
+      "ExternalUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-united-sale-glazer-family-34948998",
+      "PublishedDateTime": "2026-11-21T22:21:10Z",
+      "Provider": {
+        "Name": "Manchester Evening News",
+        "DisplayName": "Manchester Evening News"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hW2yY.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Carlos Espí gets Madrid out of yet another jam",
+      "Abstract": "The forward once again scored the game-winning goal late in the match against a strong Celta side that put the Whites on the defensive as early as the fifth minute, with a goal by Williot. Bellingham shines once again. Espí. Carlos Espí. Real Madrid called upon their go-to problem-solver, and he once again delivered. A tough, tightly contested match—one in which Celta played well and defended strongly—went the Whites’ way when the striker...",
+      "Url": "https://www.marca.com/en/football/spanish-football/2026/11/21/carlos-espi-gets-madrid-out-of-yet-another-jam.html",
+      "ArticleUrl": "https://www.marca.com/en/football/spanish-football/2026/11/21/carlos-espi-gets-madrid-out-of-yet-another-jam.html",
+      "ExternalUrl": "https://www.marca.com/en/football/spanish-football/2026/11/21/carlos-espi-gets-madrid-out-of-yet-another-jam.html",
+      "PublishedDateTime": "2026-11-21T22:34:57Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Rugby-France secure bonus-point win over Argentina to reach final",
+      "Abstract": "PARIS, Nov 21 (Reuters) - France booked another showdown against world champions South Africa in the first Nations Championship final after securing a 45-17 bonus-point victory over Argentina at the Stade de France on Saturday. Mickael Guillard, Peato Mauvaka, Kalvin Gourgues (two), Emilien Gailleton, Tyler Duguid and Louis Bielle-Biarrey scored tries to help the Six Nations champions clinch the",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hWpdX",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hWpdX",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hWpdX",
+      "PublishedDateTime": "2026-11-21T22:16:25Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVSlI.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Rugby"
+      ],
+      "Sport": "Rugby",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Arguing couple goes viral as their heated debate is caught on cameras during college football game",
+      "Abstract": "The couple, who were sitting in the stands of Bobby Dodd Stadium, were seen having a tiff toward the end of Wake Forest's win over Georgia Tech.",
+      "Url": "https://www.dailymail.com/sport/college-football/article-16312039/college-football-couple-argument-georgia-tech.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/college-football/article-16312039/college-football-couple-argument-georgia-tech.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/college-football/article-16312039/college-football-couple-argument-georgia-tech.html",
+      "PublishedDateTime": "2026-11-21T22:02:19Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVKO2.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "NFL"
+      ],
+      "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Arsenal face nervous wait with David Raya set for scan as 'petrified' Ian Wright fears losing star",
+      "Abstract": "The Gunners' No 1 went off in the second half in the 2-2 draw at St James' Park, supporting his arm or shoulder before he was replaced by back-up Kepa Arrizabalaga.",
+      "Url": "https://www.dailymail.com/sport/football/article-16312085/Arsenal-David-Raya-arm-scan-Newcastle.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16312085/Arsenal-David-Raya-arm-scan-Newcastle.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16312085/Arsenal-David-Raya-arm-scan-Newcastle.html",
+      "PublishedDateTime": "2026-11-21T21:37:02Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hWfmv.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Paris St Germain win 3-2 at Nice, Doue suffers serious injury",
+      "Abstract": "NICE, France, Nov 21 (Reuters) - Champions Paris St Germain fought back after conceding early at Nice on Saturday to win 3-2 and extend their Ligue 1 lead, but it came at a potentially heavy cost as France international Desire Doue injured his knee. PSG advanced to 26 points from 11 matches, moving further ahead of second-placed Lille, who lost 1-0 at home to Olympique Lyonnais and stayed on 21",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2hVSeA",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hVSeA",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hVSeA",
+      "PublishedDateTime": "2026-11-21T21:58:25Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hW4eF.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Arsenal is falling behind Barcelona in race for Premier League star",
+      "Abstract": "Arsenal are among the clubs interested in signing Eli Junior Kroupi following his impressive performances for Bournemouth last season. However, the Gunners face competition from several major European clubs who are also monitoring the young striker’s development.",
+      "Url": "https://www.yardbarker.com/soccer/articles/arsenal_is_falling_behind_barcelona_in_race_for_premier_league_star/s1_15968_44598380",
+      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/arsenal_is_falling_behind_barcelona_in_race_for_premier_league_star/s1_15968_44598380",
+      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/arsenal_is_falling_behind_barcelona_in_race_for_premier_league_star/s1_15968_44598380",
+      "PublishedDateTime": "2026-11-21T22:14:54Z",
+      "Provider": {
+        "Name": "Just Arsenal",
+        "DisplayName": "Just Arsenal"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2gFnCu.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "‘Obviously it’s not good’: Arteta sweating over David Raya’s fitness after injury",
+      "Abstract": "Arsenal were left sweating on the fitness of their goalkeeper David Raya after the Spaniard was forced off with a shoulder injury during the second half of the 2-2 draw at Newcastle on Saturday evening. It left Mikel Arteta’s side six points clear of Brighton and Manchester City at the top of the Premier League but Arsenal’s manager was more concerned about Raya following an accidental collision with Newcastle’s William Osula. The Spaniard was...",
+      "Url": "https://www.theguardian.com/football/2026/nov/21/david-raya-shoulder-injury-arsenal-newcastle-mikel-arteta",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/21/david-raya-shoulder-injury-arsenal-newcastle-mikel-arteta",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/21/david-raya-shoulder-injury-arsenal-newcastle-mikel-arteta",
+      "PublishedDateTime": "2026-11-21T21:48:21Z",
       "Provider": {
         "Name": "The Guardian",
         "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVK8S.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVKFz.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -78,7 +396,7 @@
     },
     {
       "Title": "Raya injured but Madueke rescues point for Arsenal in seesaw Newcastle draw",
-      "Abstract": "If Mikel Arteta was delighted to see the back of Eddie Howe as Newcastle’s head coach, the bad news is that another similarly awkward technical area adversary has been installed at St James’ Park. Arsenal’s manager never seemed to relish trips to face Howe’s old team and he certainly did not enjoy this latest trip to Tyneside where Matthias Jaissle’s initially overwhelmed side fought back to earn a point courtesy of a stellar second-half...",
+      "Abstract": "If Mikel Arteta was delighted to see the back of Eddie Howe as Newcastle’s head coach, the bad news is that another similarly awkward technical area adversary has been installed at St James’ Park. Arsenal’s manager never seemed to relish trips to face Howe’s old team and he certainly did not enjoy this latest trip to Tyneside, where Matthias Jaissle’s initially overwhelmed team fought back commendably to earn a point courtesy of a stellar...",
       "Url": "https://www.theguardian.com/football/2026/nov/21/newcastle-arsenal-premier-league-match-report",
       "ArticleUrl": "https://www.theguardian.com/football/2026/nov/21/newcastle-arsenal-premier-league-match-report",
       "ExternalUrl": "https://www.theguardian.com/football/2026/nov/21/newcastle-arsenal-premier-league-match-report",
@@ -102,19 +420,44 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Soccer-Arsenal held to 2-2 draw by Newcastle",
-      "Abstract": "NEWCASTLE, England, Nov 21 (Reuters) - Arsenal missed the chance to go eight points clear at the top of the Premier League as they were held to a 2-2 draw at Newcastle United on Saturday, with Mikel Arteta's side having to fight back from 2-1 down after a spirited display from their hosts. Arsenal looked set for an easy evening in the first half and they took the lead in the 33rd minute, Eberechi",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hVHzL",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hVHzL",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hVHzL",
-      "PublishedDateTime": "2026-11-21T19:37:37Z",
+      "Title": "Alcaraz holds off Shelton to set up final showdown with Zverev at ATP Finals",
+      "Abstract": "The man himself was not present in Turin on Saturday afternoon, but one of the most intriguing developments on and off court in men’s tennis this year was Ben Shelton’s surprise decision to hire the former world No 1 Juan Carlos Ferrero as his new coach alongside his father, Bryan. Ferrero is one of the most highly respected coaches on tour, but he also knows Carlos Alcaraz better than any other coach in the world. However, there is only so much...",
+      "Url": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals",
+      "ArticleUrl": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals",
+      "ExternalUrl": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals",
+      "PublishedDateTime": "2026-11-21T21:54:31Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hW4uE.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV5H4.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Tennis"
+      ],
+      "Sport": "Tennis",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "How to watch CazeTV from outside Brazil with a VPN",
+      "Abstract": "Here's how to watch CazeTV from outside Brazil in case you're traveling around but still want to catch sporting action like the Premier League 2026/27 and La Liga football for free.",
+      "Url": "https://www.techradar.com/streaming/how-to-watch-cazetv-from-outside-brazil-with-a-vpn",
+      "ArticleUrl": "https://www.techradar.com/streaming/how-to-watch-cazetv-from-outside-brazil-with-a-vpn",
+      "ExternalUrl": "https://www.techradar.com/streaming/how-to-watch-cazetv-from-outside-brazil-with-a-vpn",
+      "PublishedDateTime": "2026-08-20T11:05:55Z",
+      "Provider": {
+        "Name": "TechRadar",
+        "DisplayName": "TechRadar"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2azsxU.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -124,31 +467,6 @@
         "Football"
       ],
       "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Rugby-South Africa suffer Ireland defeat but book Nations Championship final spot",
-      "Abstract": "By Padraic Halpin DUBLIN, Nov 21 (Reuters) - Two first-half tries from Rob Baloucoune helped a rejuvenated Ireland beat South Africa 20-17 on Saturday but a losing bonus point was enough to book the world champions a place in next weekend's Nations Championship final. With Springboks coach Rassie Erasmus watching on from his hotel serving the first of a six-match ban, Ireland dominated the first",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hVPw4",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hVPw4",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hVPw4",
-      "PublishedDateTime": "2026-11-21T19:43:45Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVZ3Z.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Rugby"
-      ],
-      "Sport": "Rugby",
       "TagEvaluationGroups": []
     },
     {
@@ -174,399 +492,6 @@
         "Tennis"
       ],
       "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Arsenal held by Newcastle, Man City draw with Fulham",
-      "Abstract": "MANCHESTER, England, Nov 21 (Reuters) - Leaders Arsenal missed the chance to go eight points clear at the top of the Premier League table as they drew 2-2 at Newcastle United and Manchester City's lean streak continued in a 1-1 home draw with Fulham on Saturday. Eberechi Eze put champions Arsenal ahead in the 33rd minute at St James' Park and they appeared on course for a 10th win in their",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hWhrD",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hWhrD",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hWhrD",
-      "PublishedDateTime": "2026-11-21T20:15:45Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hWqXV.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Unstoppable Lazio win again, Malen nets four as Roma thump Parma",
-      "Abstract": "ROME, Nov 21 (Reuters) - Leaders Lazio continued to prove their Serie A title credentials with a comfortable 3-0 home win over Lecce on Saturday, and AS Roma also remained unbeaten after Donyell Malen scored four goals in a 5-1 victory at Parma. Tijjani Noslin scored in each half and Davide Frattesi wrapped up the win in style with a 90th-minute strike as Lazio earned their 10th victory in 12",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hWeTV",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hWeTV",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hWeTV",
-      "PublishedDateTime": "2026-11-21T20:18:03Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVhDq.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "‘Outstanding’ - Arsenal goalscorer makes strong St James’ Park claim Newcastle United fans will love",
-      "Abstract": "Newcastle United v Arsenal: Matthias Jaissle’s side held the Premier League champions to a point at St James’ Park on Saturday evening.",
-      "Url": "https://www.shieldsgazette.com/sport/football/newcastle-united/newcastle-united-arsenal-madueke-st-james-park-9365968",
-      "ArticleUrl": "https://www.shieldsgazette.com/sport/football/newcastle-united/newcastle-united-arsenal-madueke-st-james-park-9365968",
-      "ExternalUrl": "https://www.shieldsgazette.com/sport/football/newcastle-united/newcastle-united-arsenal-madueke-st-james-park-9365968",
-      "PublishedDateTime": "2026-11-21T20:09:07Z",
-      "Provider": {
-        "Name": "Shields Gazette",
-        "DisplayName": "Shields Gazette"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hWcjh.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Absolutely remarkable! Newcastle United 2 Arsenal 2",
-      "Abstract": "Newcastle United 2 Arsenal 2 – Saturday 21 November 2026 5.30pm If you ever wanted proof of how unpredictable football is, here is the ultimate proof. Arsenal absolutely dominated the first...",
-      "Url": "https://www.themag.co.uk/2026/11/absolutely-remarkable-newcastle-united-2-arsenal-2/",
-      "ArticleUrl": "https://www.themag.co.uk/2026/11/absolutely-remarkable-newcastle-united-2-arsenal-2/",
-      "ExternalUrl": "https://www.themag.co.uk/2026/11/absolutely-remarkable-newcastle-united-2-arsenal-2/",
-      "PublishedDateTime": "2026-11-21T20:05:43Z",
-      "Provider": {
-        "Name": "The Mag",
-        "DisplayName": "The Mag"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hWcgI.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Napoli seeking return to winning ways against Atalanta",
-      "Abstract": "Raffaele Palladino is the new La Dea coach.",
-      "Url": "https://content.api.pressassociation.io/v1/item/590c9ae6-d532-4aa3-adda-864f055e7c84",
-      "ArticleUrl": "https://content.api.pressassociation.io/v1/item/590c9ae6-d532-4aa3-adda-864f055e7c84",
-      "ExternalUrl": "https://content.api.pressassociation.io/v1/item/590c9ae6-d532-4aa3-adda-864f055e7c84",
-      "PublishedDateTime": "2025-11-21T18:13:33Z",
-      "Provider": {
-        "Name": "PA Sport",
-        "DisplayName": "PA Sport"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QUt23.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "La Liga"
-      ],
-      "Sport": "La Liga",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Soccer-Leaders Chelsea held to scoreless WSL draw by Liverpool",
-      "Abstract": "LIVERPOOL, England, Nov 21 - A superb individual display from Liverpool keeper Khiara Keating helped her side to get a scoreless draw with Chelsea on Saturday that could knock the Blues off the top of the Women's Super League ahead of the upcoming international break. A week after beating Manchester City 1-0 to go top, Chelsea came up short against Liverpool despite dominating possession as",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hVTYl",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hVTYl",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hVTYl",
-      "PublishedDateTime": "2026-11-21T19:20:50Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hUFns.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Rugby-Erasmus watching South Africa from hotel provides little insight",
-      "Abstract": "Nov 21 (Reuters) - Rassie Erasmus’ watch-along in South Africa’s 20-17 loss to Ireland on Saturday provided a range of emotions but not much in the way of insight from the Springbok coach, who is serving a six-match ban for criticising match officials. Erasmus hosted a live-stream of himself watching the game from the team’s Dublin hotel, and in the week had over 100,000 people request to view",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2hWh9I",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2hWh9I",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2hWh9I",
-      "PublishedDateTime": "2026-11-21T19:21:14Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hW1L4.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Rugby"
-      ],
-      "Sport": "Rugby",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "‘Fragile’ Chelsea must toughen up after Leeds humiliation, admits Xabi Alonso",
-      "Abstract": "Xabi Alonso is straying towards crisis territory. Here’s a mind-bending statistic: Chelsea are eighth but have now lost more league games than Manchester United. They were bullied by a rampant Leeds United, who fully merited their first win at Stamford Bridge since going top with a 2-0 victory in December 1999, and can look forward to another season with no European football if they do not sharpen up soon. It is not really worth dwelling on the...",
-      "Url": "https://www.theguardian.com/football/2026/nov/21/chelsea-leeds-premier-league-match-report",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/21/chelsea-leeds-premier-league-match-report",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/21/chelsea-leeds-premier-league-match-report",
-      "PublishedDateTime": "2026-11-21T19:20:51Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVwUU.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Teenage ace Williams-Barnett puts Tottenham on path to win over Ipswich",
-      "Abstract": "Not since the emergence of a certain Harry Kane has there been this much excitement about a player from Tottenham’s academy. On his first senior start, Luca Williams-Barnett showed just why as the 18-year-old became their youngest Premier League goalscorer since Gareth Bale in 2007 before teeing up Dominic Solanke with a mesmerising and match-winning assist against Ipswich. That made it four league victories from their last five matches for...",
-      "Url": "https://www.theguardian.com/football/2026/nov/21/tottenham-ipswich-premier-league-match-report",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/21/tottenham-ipswich-premier-league-match-report",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/21/tottenham-ipswich-premier-league-match-report",
-      "PublishedDateTime": "2026-11-21T16:58:31Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hW69O.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Premier League top scorers 2026-27: who is leading race for the golden boot?",
-      "Abstract": "9 Erling Haaland (Manchester City) 7 Alexander Isak (Liverpool) 6 Nicolas Jackson (Aston Villa) Thierno Barry (Everton) Evanilson (Bournemouth) 5 João Pedro (Chelsea) Morgan Rogers (Chelsea) Marcus Tavernier (Bournemouth) Rayan Cherki (Manchester City) Dominic Calvert-Lewin (Leeds United) 4 Bryan Mbeumo (Manchester United) Bruno Fernandes (Manchester United) Pascal Gross (Brighton) Noah Okafor (Leeds United) 3 Brian Brobbey (Sunderland) Bukayo...",
-      "Url": "https://www.theguardian.com/football/2026/sep/10/premier-league-top-scorers-2026-27-race-for-golden-boot",
-      "ArticleUrl": "https://www.theguardian.com/football/2026/sep/10/premier-league-top-scorers-2026-27-race-for-golden-boot",
-      "ExternalUrl": "https://www.theguardian.com/football/2026/sep/10/premier-league-top-scorers-2026-27-race-for-golden-boot",
-      "PublishedDateTime": "2026-11-21T17:21:40Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2gmgAy.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "I visited Barcelona's breathtaking Spotify Camp Nou reopening as new era in Catalonia finally underway",
-      "Abstract": "Barcelona celebrated the reopening of their iconic Spotify Camp Nou stadium last weekend with victory over Athletic Club in LaLiga",
-      "Url": "https://www.fourfourtwo.com/competition/i-visited-barcelonas-breathtaking-spotify-camp-nou-reopening-as-new-era-in-catalonia-finally-underway",
-      "ArticleUrl": "https://www.fourfourtwo.com/competition/i-visited-barcelonas-breathtaking-spotify-camp-nou-reopening-as-new-era-in-catalonia-finally-underway",
-      "ExternalUrl": "https://www.fourfourtwo.com/competition/i-visited-barcelonas-breathtaking-spotify-camp-nou-reopening-as-new-era-in-catalonia-finally-underway",
-      "PublishedDateTime": "2025-11-24T16:43:13Z",
-      "Provider": {
-        "Name": "FourFourTwo",
-        "DisplayName": "FourFourTwo"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1R40TY.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "NFL star Jaylen Harrell rushed to hospital after 'serious car accident' in Florida",
-      "Abstract": "Tennessee Titans star Jaylen Harrell has been rushed to hospital after he was involved in a 'serious car accident' in Florida on Friday.",
-      "Url": "https://www.dailymail.com/sport/nfl/article-16311703/jaylen-harrell-titans-car-accident-florida.html",
-      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16311703/jaylen-harrell-titans-car-accident-florida.html",
-      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16311703/jaylen-harrell-titans-car-accident-florida.html",
-      "PublishedDateTime": "2026-11-21T17:44:19Z",
-      "Provider": {
-        "Name": "Daily Mail",
-        "DisplayName": "Daily Mail"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hWbCW.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "NFL"
-      ],
-      "Sport": "NFL",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Alcaraz stages a historic comeback against Shelton and returns to the Masters final",
-      "Abstract": "The man from Murcia overcomes a lost set despite playing while physically depleted. For the second consecutive year, Carlos Alcaraz has reached the ATP Finals final undefeated. The player from Murcia defeated Ben Shelton this Saturday in the first semifinal, by 3-6, 6-3 and 7-6(1). He had lost in the head-to-head at the US Open and got his revenge on another big stage. From 0-1 to 7-1. To understand the magnitude of what Carlitos has achieved,...",
-      "Url": "https://www.marca.com/en/tennis/2026/11/21/alcaraz-stages-historic-comeback-against-shelton-and-returns-to-the-masters-final.html",
-      "ArticleUrl": "https://www.marca.com/en/tennis/2026/11/21/alcaraz-stages-historic-comeback-against-shelton-and-returns-to-the-masters-final.html",
-      "ExternalUrl": "https://www.marca.com/en/tennis/2026/11/21/alcaraz-stages-historic-comeback-against-shelton-and-returns-to-the-masters-final.html",
-      "PublishedDateTime": "2026-11-21T17:10:56Z",
-      "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
-      },
-      "Images": [],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "British tennis star nominated for prestigious award as Gauff and Swiatek snubbed",
-      "Abstract": "Sonay Kartal has been recognised after making a sensational return from injury.",
-      "Url": "https://www.express.co.uk/sport/tennis/2268208/Sonay-Kartal-Coco-Gauff-Iga-Swiatek-WTA-Player-Awards-2268208",
-      "ArticleUrl": "https://www.express.co.uk/sport/tennis/2268208/Sonay-Kartal-Coco-Gauff-Iga-Swiatek-WTA-Player-Awards-2268208",
-      "ExternalUrl": "https://www.express.co.uk/sport/tennis/2268208/Sonay-Kartal-Coco-Gauff-Iga-Swiatek-WTA-Player-Awards-2268208",
-      "PublishedDateTime": "2026-11-21T17:03:00Z",
-      "Provider": {
-        "Name": "Daily Express",
-        "DisplayName": "Daily Express"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVLMZ.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Carlos Alcaraz holds off Ben Shelton to book place in ATP Finals",
-      "Abstract": "The man himself was not present in Turin on Saturday afternoon, but one of the most intriguing developments on and off court in men’s tennis this year was Ben Shelton’s surprise decision to hire the former No 1 Juan-Carlos Ferrero as his new coach alongside his father, Bryan. Ferrero is one of the most highly respected coaches on tour, but he also knows Carlos Alcaraz better than any other coach in the world. However, there is only so much that...",
-      "Url": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals",
-      "ArticleUrl": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals",
-      "ExternalUrl": "https://www.theguardian.com/sport/2026/nov/21/carlos-alcaraz-holds-off-ben-shelton-to-book-his-place-in-the-atp-finals",
-      "PublishedDateTime": "2026-11-21T16:27:26Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hV5H4.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "How to watch Sevilla vs Real Betis: live stream for FREE",
-      "Abstract": "We'll show you how to watch Sevilla vs Real Betis live streams from anywhere in the world as Seville's Gran Derbi lights up La Liga 2026/27.",
-      "Url": "https://www.techradar.com/entertainment/football/sevilla-vs-real-betis-la-liga-2026-27",
-      "ArticleUrl": "https://www.techradar.com/entertainment/football/sevilla-vs-real-betis-la-liga-2026-27",
-      "ExternalUrl": "https://www.techradar.com/entertainment/football/sevilla-vs-real-betis-la-liga-2026-27",
-      "PublishedDateTime": "2026-11-21T14:30:00Z",
-      "Provider": {
-        "Name": "TechRadar",
-        "DisplayName": "TechRadar"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVYpe.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
       "TagEvaluationGroups": []
     }
   ]
