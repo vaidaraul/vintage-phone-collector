@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-22T07:54:25.722Z",
+  "Updated": "2026-11-22T15:56:20.919Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -10,186 +10,56 @@
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "events": [
         {
-          "id": "401879233",
-          "name": "Fulham at Manchester City",
-          "date": "2026-11-21T12:30Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401879234",
+          "name": "Brighton & Hove Albion at Hull City",
+          "date": "2026-11-22T14:00Z",
+          "status": "Second Half",
+          "detail": "90'+5'",
+          "state": "in",
+          "completed": false,
           "home": {
-            "name": "Manchester City",
-            "short": "Man City",
-            "abbreviation": "MNC",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "name": "Hull City",
+            "short": "Hull",
+            "abbreviation": "HUL",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
             "score": "1",
             "winner": false
           },
           "away": {
-            "name": "Fulham",
-            "short": "Fulham",
-            "abbreviation": "FUL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-            "score": "1",
-            "winner": false
-          },
-          "venue": "Etihad Stadium"
-        },
-        {
-          "id": "401879238",
-          "name": "Nottingham Forest at AFC Bournemouth",
-          "date": "2026-11-21T15:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "AFC Bournemouth",
-            "short": "Bournemouth",
-            "abbreviation": "BOU",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-            "score": "2",
-            "winner": true
-          },
-          "away": {
-            "name": "Nottingham Forest",
-            "short": "Nottm Forest",
-            "abbreviation": "NFO",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+            "name": "Brighton & Hove Albion",
+            "short": "Brighton",
+            "abbreviation": "BHA",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
             "score": "0",
             "winner": false
           },
-          "venue": "Vitality Stadium"
+          "venue": "The MKM Stadium"
         },
         {
-          "id": "401878756",
-          "name": "Sunderland at Aston Villa",
-          "date": "2026-11-21T15:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401878755",
+          "name": "Manchester United at Liverpool",
+          "date": "2026-11-22T16:30Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 22nd at 11:30 AM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Aston Villa",
-            "short": "Aston Villa",
-            "abbreviation": "AVL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "name": "Liverpool",
+            "short": "Liverpool",
+            "abbreviation": "LIV",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
             "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Sunderland",
-            "short": "Sunderland",
-            "abbreviation": "SUN",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+            "name": "Manchester United",
+            "short": "Man Utd",
+            "abbreviation": "MAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
             "score": "0",
             "winner": false
           },
-          "venue": "Villa Park"
-        },
-        {
-          "id": "401879236",
-          "name": "Leeds United at Chelsea",
-          "date": "2026-11-21T15:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Chelsea",
-            "short": "Chelsea",
-            "abbreviation": "CHE",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "score": "1",
-            "winner": false
-          },
-          "away": {
-            "name": "Leeds United",
-            "short": "Leeds",
-            "abbreviation": "LEE",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-            "score": "4",
-            "winner": true
-          },
-          "venue": "Stamford Bridge"
-        },
-        {
-          "id": "401879235",
-          "name": "Crystal Palace at Coventry City",
-          "date": "2026-11-21T15:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Coventry City",
-            "short": "Coventry",
-            "abbreviation": "COV",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-            "score": "3",
-            "winner": true
-          },
-          "away": {
-            "name": "Crystal Palace",
-            "short": "C Palace",
-            "abbreviation": "CRY",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-            "score": "2",
-            "winner": false
-          },
-          "venue": "Coventry Building Society Arena"
-        },
-        {
-          "id": "401878754",
-          "name": "Ipswich Town at Tottenham Hotspur",
-          "date": "2026-11-21T15:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Tottenham Hotspur",
-            "short": "Spurs",
-            "abbreviation": "TOT",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "score": "2",
-            "winner": true
-          },
-          "away": {
-            "name": "Ipswich Town",
-            "short": "Ipswich",
-            "abbreviation": "IPS",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-            "score": "0",
-            "winner": false
-          },
-          "venue": "Tottenham Hotspur Stadium"
-        },
-        {
-          "id": "401879232",
-          "name": "Arsenal at Newcastle United",
-          "date": "2026-11-21T17:30Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Newcastle United",
-            "short": "Newcastle",
-            "abbreviation": "NEW",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "score": "2",
-            "winner": false
-          },
-          "away": {
-            "name": "Arsenal",
-            "short": "Arsenal",
-            "abbreviation": "ARS",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "score": "2",
-            "winner": false
-          },
-          "venue": "St. James' Park"
+          "venue": "Anfield"
         }
       ]
     },
@@ -202,108 +72,108 @@
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "events": [
         {
-          "id": "401882806",
-          "name": "Deportivo at Alavés",
-          "date": "2026-11-21T13:00Z",
+          "id": "401882804",
+          "name": "Villarreal at Barcelona",
+          "date": "2026-11-22T13:00Z",
           "status": "Full Time",
           "detail": "FT",
           "state": "post",
           "completed": true,
           "home": {
-            "name": "Alavés",
-            "short": "Alavés",
-            "abbreviation": "ALA",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+            "name": "Barcelona",
+            "short": "Barcelona",
+            "abbreviation": "BAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
             "score": "3",
             "winner": true
           },
           "away": {
-            "name": "Deportivo",
-            "short": "Deportivo",
-            "abbreviation": "DEP",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-            "score": "1",
+            "name": "Villarreal",
+            "short": "Villarreal",
+            "abbreviation": "VIL",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+            "score": "2",
             "winner": false
           },
-          "venue": "Mendizorrotza"
+          "venue": "Spotify Camp Nou"
         },
         {
-          "id": "401882799",
-          "name": "Valencia at Rayo Vallecano",
-          "date": "2026-11-21T15:15Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401882800",
+          "name": "Real Sociedad at Racing Santander",
+          "date": "2026-11-22T15:15Z",
+          "status": "First Half",
+          "detail": "41'",
+          "state": "in",
+          "completed": false,
           "home": {
-            "name": "Rayo Vallecano",
-            "short": "Rayo",
-            "abbreviation": "RAY",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+            "name": "Racing Santander",
+            "short": "Racing",
+            "abbreviation": "RAC",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+            "score": "2",
+            "winner": false
+          },
+          "away": {
+            "name": "Real Sociedad",
+            "short": "Real Sociedad",
+            "abbreviation": "RSO",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "El Sardineros"
+        },
+        {
+          "id": "401882801",
+          "name": "Málaga at Osasuna",
+          "date": "2026-11-22T17:30Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 22nd at 12:30 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Osasuna",
+            "short": "Osasuna",
+            "abbreviation": "OSA",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
             "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Valencia",
-            "short": "Valencia",
-            "abbreviation": "VAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-            "score": "1",
-            "winner": true
+            "name": "Málaga",
+            "short": "Málaga",
+            "abbreviation": "MCF",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+            "score": "0",
+            "winner": false
           },
-          "venue": "Estadio de Vallecas"
+          "venue": "El Sadar"
         },
         {
-          "id": "401882797",
-          "name": "Real Betis at Sevilla",
-          "date": "2026-11-21T17:30Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401882803",
+          "name": "Atlético Madrid at Getafe",
+          "date": "2026-11-22T20:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 22nd at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Sevilla",
-            "short": "Sevilla",
-            "abbreviation": "SEV",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-            "score": "1",
+            "name": "Getafe",
+            "short": "Getafe",
+            "abbreviation": "GET",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+            "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Real Betis",
-            "short": "Betis",
-            "abbreviation": "BET",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-            "score": "1",
+            "name": "Atlético Madrid",
+            "short": "Atlético",
+            "abbreviation": "ATM",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "Ramón Sánchez Pizjuán Stadium"
-        },
-        {
-          "id": "401882798",
-          "name": "Celta Vigo at Real Madrid",
-          "date": "2026-11-21T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Real Madrid",
-            "short": "Real Madrid",
-            "abbreviation": "RMA",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "score": "2",
-            "winner": true
-          },
-          "away": {
-            "name": "Celta Vigo",
-            "short": "Celta Vigo",
-            "abbreviation": "CEL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-            "score": "1",
-            "winner": false
-          },
-          "venue": "Santiago Bernabéu"
+          "venue": "Estadio Coliseum"
         }
       ]
     },
