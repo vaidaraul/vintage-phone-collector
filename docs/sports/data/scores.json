@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-25T02:56:37.420Z",
+  "Updated": "2026-11-25T12:16:25.383Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -82,238 +82,238 @@
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
       "events": [
         {
-          "id": "401915380",
-          "name": "LASK Linz at Bodo/Glimt",
-          "date": "2026-11-24T17:45Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401915378",
+          "name": "Barcelona at Sabah FK",
+          "date": "2026-11-25T17:45Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 12:45 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Bodo/Glimt",
-            "short": "Bodo/Glimt",
-            "abbreviation": "BODO",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-            "score": "1",
-            "winner": true
-          },
-          "away": {
-            "name": "LASK Linz",
-            "short": "LASK Linz",
-            "abbreviation": "LAS",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-            "score": "0",
-            "winner": false
-          },
-          "venue": "Aspmyra Stadion"
-        },
-        {
-          "id": "401915300",
-          "name": "Aston Villa at Galatasaray",
-          "date": "2026-11-24T17:45Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Galatasaray",
-            "short": "Galatasaray",
-            "abbreviation": "GAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-            "score": "1",
-            "winner": true
-          },
-          "away": {
-            "name": "Aston Villa",
-            "short": "Aston Villa",
-            "abbreviation": "AVL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "score": "0",
-            "winner": false
-          },
-          "venue": "RAMS Park"
-        },
-        {
-          "id": "401915295",
-          "name": "Borussia Dortmund at Arsenal",
-          "date": "2026-11-24T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Arsenal",
-            "short": "Arsenal",
-            "abbreviation": "ARS",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "score": "1",
-            "winner": false
-          },
-          "away": {
-            "name": "Borussia Dortmund",
-            "short": "Dortmund",
-            "abbreviation": "DOR",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "score": "1",
-            "winner": false
-          },
-          "venue": "Emirates Stadium"
-        },
-        {
-          "id": "401915296",
-          "name": "AEK Athens at Como",
-          "date": "2026-11-24T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Como",
-            "short": "Como",
-            "abbreviation": "COMO",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-            "score": "1",
-            "winner": true
-          },
-          "away": {
-            "name": "AEK Athens",
-            "short": "AEK Athens",
-            "abbreviation": "AEK",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
-            "score": "0",
-            "winner": false
-          },
-          "venue": "Giuseppe Sinigaglia"
-        },
-        {
-          "id": "401915294",
-          "name": "FC Porto at Feyenoord Rotterdam",
-          "date": "2026-11-24T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Feyenoord Rotterdam",
-            "short": "Feyenoord",
-            "abbreviation": "FEY",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+            "name": "Sabah FK",
+            "short": "Sabah",
+            "abbreviation": "SAB",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
             "score": "0",
             "winner": false
           },
           "away": {
-            "name": "FC Porto",
-            "short": "FC Porto",
-            "abbreviation": "FCP",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-            "score": "1",
-            "winner": true
-          },
-          "venue": "De Kuip"
-        },
-        {
-          "id": "401915379",
-          "name": "Napoli at Manchester City",
-          "date": "2026-11-24T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Manchester City",
-            "short": "Man City",
-            "abbreviation": "MNC",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "score": "2",
+            "name": "Barcelona",
+            "short": "Barcelona",
+            "abbreviation": "BAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "score": "0",
             "winner": false
           },
-          "away": {
-            "name": "Napoli",
-            "short": "Napoli",
-            "abbreviation": "NAP",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-            "score": "2",
-            "winner": false
-          },
-          "venue": "Etihad Stadium"
+          "venue": "Baku Olympic Stadium"
         },
         {
-          "id": "401915299",
-          "name": "Lens at RB Leipzig",
-          "date": "2026-11-24T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401915293",
+          "name": "Villarreal at Slavia Prague",
+          "date": "2026-11-25T17:45Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 12:45 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "RB Leipzig",
-            "short": "RB Leipzig",
-            "abbreviation": "RBL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-            "score": "3",
-            "winner": true
-          },
-          "away": {
-            "name": "Lens",
-            "short": "Lens",
-            "abbreviation": "RCL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "score": "1",
-            "winner": false
-          },
-          "venue": "Red Bull Arena"
-        },
-        {
-          "id": "401915298",
-          "name": "PSV Eindhoven at Real Madrid",
-          "date": "2026-11-24T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Real Madrid",
-            "short": "Real Madrid",
-            "abbreviation": "RMA",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "score": "5",
-            "winner": true
-          },
-          "away": {
-            "name": "PSV Eindhoven",
-            "short": "PSV",
-            "abbreviation": "PSV",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-            "score": "1",
-            "winner": false
-          },
-          "venue": "Santiago Bernabéu"
-        },
-        {
-          "id": "401915297",
-          "name": "Real Betis at Slovan Bratislava",
-          "date": "2026-11-24T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Slovan Bratislava",
-            "short": "S Bratislava",
-            "abbreviation": "SLB",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+            "name": "Slavia Prague",
+            "short": "Slavia Prague",
+            "abbreviation": "SLP",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
             "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Real Betis",
-            "short": "Betis",
-            "abbreviation": "BET",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-            "score": "2",
-            "winner": true
+            "name": "Villarreal",
+            "short": "Villarreal",
+            "abbreviation": "VIL",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+            "score": "0",
+            "winner": false
           },
-          "venue": "Národny Futbalovy Stadión"
+          "venue": "Fortuna Arena"
+        },
+        {
+          "id": "401915291",
+          "name": "Viking FK at Atlético Madrid",
+          "date": "2026-11-25T20:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Atlético Madrid",
+            "short": "Atlético",
+            "abbreviation": "ATM",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Viking FK",
+            "short": "Viking FK",
+            "abbreviation": "VFK",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Riyadh Air Metropolitano"
+        },
+        {
+          "id": "401915292",
+          "name": "Liverpool at Club Brugge",
+          "date": "2026-11-25T20:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Club Brugge",
+            "short": "Club Brugge",
+            "abbreviation": "BRU",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Liverpool",
+            "short": "Liverpool",
+            "abbreviation": "LIV",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Jan Breydel Stadium"
+        },
+        {
+          "id": "401915376",
+          "name": "VfB Stuttgart at Internazionale",
+          "date": "2026-11-25T20:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Internazionale",
+            "short": "Inter Milan",
+            "abbreviation": "INT",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "VfB Stuttgart",
+            "short": "Stuttgart",
+            "abbreviation": "VFB",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "San Siro"
+        },
+        {
+          "id": "401915377",
+          "name": "Bayern Munich at Lille",
+          "date": "2026-11-25T20:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Lille",
+            "short": "Lille",
+            "abbreviation": "LILL",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Bayern Munich",
+            "short": "Bayern",
+            "abbreviation": "MUN",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Decathlon Arena - Stade Pierre-Mauroy"
+        },
+        {
+          "id": "401915374",
+          "name": "AS Roma at Paris Saint-Germain",
+          "date": "2026-11-25T20:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Paris Saint-Germain",
+            "short": "PSG",
+            "abbreviation": "PSG",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "AS Roma",
+            "short": "AS Roma",
+            "abbreviation": "ROMA",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Parc des Princes"
+        },
+        {
+          "id": "401915375",
+          "name": "Fenerbahce at Shakhtar Donetsk",
+          "date": "2026-11-25T20:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Shakhtar Donetsk",
+            "short": "Shakhtar",
+            "abbreviation": "SHK",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Fenerbahce",
+            "short": "Fenerbahce",
+            "abbreviation": "FEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Stamford Bridge"
+        },
+        {
+          "id": "401915373",
+          "name": "Manchester United at Sporting CP",
+          "date": "2026-11-25T20:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Sporting CP",
+            "short": "Sporting",
+            "abbreviation": "SCP",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Manchester United",
+            "short": "Man Utd",
+            "abbreviation": "MAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Estádio José Alvalade"
         }
       ]
     },
@@ -389,15 +389,15 @@
       "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/f1.png",
       "events": [
         {
-          "id": "600057449",
+          "id": "600057450",
           "kind": "race",
-          "name": "Heineken Las Vegas Grand Prix",
-          "shortName": "Heineken Las Vegas GP",
-          "circuit": "Las Vegas Street Circuit",
-          "date": "2026-11-22T04:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "url": "https://www.espn.com/f1/race/_/id/600057449",
+          "name": "Qatar Airways Qatar Grand Prix",
+          "shortName": "Qatar Airways Qatar GP",
+          "circuit": "Losail International Circuit",
+          "date": "2026-11-29T16:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 11:00 AM EST",
+          "url": "https://www.espn.com/f1/race/_/id/600057450",
           "home": {
             "name": "",
             "short": "",
@@ -478,227 +478,201 @@
       "logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
       "events": [
         {
-          "id": "401873066",
-          "name": "Indianapolis Colts at Houston Texans",
-          "date": "2026-11-20T01:15Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401873079",
+          "name": "Green Bay Packers at Los Angeles Rams",
+          "date": "2026-11-26T01:00Z",
+          "status": "Scheduled",
+          "detail": "Wed, November 25th at 8:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Houston Texans",
-            "short": "Texans",
-            "abbreviation": "HOU",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-            "score": "26",
-            "winner": true
-          },
-          "away": {
-            "name": "Indianapolis Colts",
-            "short": "Colts",
-            "abbreviation": "IND",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
-            "score": "3",
+            "name": "Los Angeles Rams",
+            "short": "Rams",
+            "abbreviation": "LAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "Reliant Stadium"
+          "away": {
+            "name": "Green Bay Packers",
+            "short": "Packers",
+            "abbreviation": "GB",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "SoFi Stadium"
         },
         {
-          "id": "401873070",
-          "name": "Miami Dolphins at Buffalo Bills",
-          "date": "2026-11-22T18:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401873081",
+          "name": "Chicago Bears at Detroit Lions",
+          "date": "2026-11-26T18:00Z",
+          "status": "Scheduled",
+          "detail": "Thu, November 26th at 1:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Detroit Lions",
+            "short": "Lions",
+            "abbreviation": "DET",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Chicago Bears",
+            "short": "Bears",
+            "abbreviation": "CHI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Ford Field"
+        },
+        {
+          "id": "401873080",
+          "name": "Philadelphia Eagles at Dallas Cowboys",
+          "date": "2026-11-26T21:30Z",
+          "status": "Scheduled",
+          "detail": "Thu, November 26th at 4:30 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Dallas Cowboys",
+            "short": "Cowboys",
+            "abbreviation": "DAL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Philadelphia Eagles",
+            "short": "Eagles",
+            "abbreviation": "PHI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "AT&T Stadium"
+        },
+        {
+          "id": "401873082",
+          "name": "Kansas City Chiefs at Buffalo Bills",
+          "date": "2026-11-27T01:20Z",
+          "status": "Scheduled",
+          "detail": "Thu, November 26th at 8:20 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
             "name": "Buffalo Bills",
             "short": "Bills",
             "abbreviation": "BUF",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-            "score": "26",
-            "winner": true
+            "score": "0",
+            "winner": false
           },
           "away": {
-            "name": "Miami Dolphins",
-            "short": "Dolphins",
-            "abbreviation": "MIA",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
-            "score": "9",
+            "name": "Kansas City Chiefs",
+            "short": "Chiefs",
+            "abbreviation": "KC",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+            "score": "0",
             "winner": false
           },
           "venue": "Highmark Stadium"
         },
         {
-          "id": "401873071",
-          "name": "New Orleans Saints at Chicago Bears",
-          "date": "2026-11-22T18:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401873083",
+          "name": "Denver Broncos at Pittsburgh Steelers",
+          "date": "2026-11-27T20:00Z",
+          "status": "Scheduled",
+          "detail": "Fri, November 27th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Chicago Bears",
-            "short": "Bears",
-            "abbreviation": "CHI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-            "score": "21",
-            "winner": true
+            "name": "Pittsburgh Steelers",
+            "short": "Steelers",
+            "abbreviation": "PIT",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Denver Broncos",
+            "short": "Broncos",
+            "abbreviation": "DEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Acrisure Stadium"
+        },
+        {
+          "id": "401873087",
+          "name": "New Orleans Saints at Cincinnati Bengals",
+          "date": "2026-11-29T18:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 1:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Cincinnati Bengals",
+            "short": "Bengals",
+            "abbreviation": "CIN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+            "score": "0",
+            "winner": false
           },
           "away": {
             "name": "New Orleans Saints",
             "short": "Saints",
             "abbreviation": "NO",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-            "score": "13",
+            "score": "0",
             "winner": false
           },
-          "venue": "Soldier Field"
+          "venue": "Paycor Stadium"
         },
         {
-          "id": "401873073",
-          "name": "Tennessee Titans at Dallas Cowboys",
-          "date": "2026-11-22T18:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401873088",
+          "name": "New York Giants at Indianapolis Colts",
+          "date": "2026-11-29T18:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 1:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Dallas Cowboys",
-            "short": "Cowboys",
-            "abbreviation": "DAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
-            "score": "51",
-            "winner": true
+            "name": "Indianapolis Colts",
+            "short": "Colts",
+            "abbreviation": "IND",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "score": "0",
+            "winner": false
           },
           "away": {
-            "name": "Tennessee Titans",
-            "short": "Titans",
-            "abbreviation": "TEN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-            "score": "30",
+            "name": "New York Giants",
+            "short": "Giants",
+            "abbreviation": "NYG",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "AT&T Stadium"
+          "venue": "Lucas Oil Stadium"
         },
         {
-          "id": "401873072",
-          "name": "Tampa Bay Buccaneers at Detroit Lions",
-          "date": "2026-11-22T18:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401873089",
+          "name": "New York Jets at Miami Dolphins",
+          "date": "2026-11-29T18:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 1:00 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Detroit Lions",
-            "short": "Lions",
-            "abbreviation": "DET",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-            "score": "31",
-            "winner": true
-          },
-          "away": {
-            "name": "Tampa Bay Buccaneers",
-            "short": "Buccaneers",
-            "abbreviation": "TB",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-            "score": "21",
-            "winner": false
-          },
-          "venue": "Ford Field"
-        },
-        {
-          "id": "401873067",
-          "name": "Arizona Cardinals at Kansas City Chiefs",
-          "date": "2026-11-22T18:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Kansas City Chiefs",
-            "short": "Chiefs",
-            "abbreviation": "KC",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-            "score": "34",
-            "winner": true
-          },
-          "away": {
-            "name": "Arizona Cardinals",
-            "short": "Cardinals",
-            "abbreviation": "ARI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-            "score": "7",
-            "winner": false
-          },
-          "venue": "Arrowhead Stadium"
-        },
-        {
-          "id": "401873076",
-          "name": "Pittsburgh Steelers at Philadelphia Eagles",
-          "date": "2026-11-22T18:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Philadelphia Eagles",
-            "short": "Eagles",
-            "abbreviation": "PHI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-            "score": "19",
-            "winner": true
-          },
-          "away": {
-            "name": "Pittsburgh Steelers",
-            "short": "Steelers",
-            "abbreviation": "PIT",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-            "score": "16",
-            "winner": false
-          },
-          "venue": "Lincoln Financial Field"
-        },
-        {
-          "id": "401873068",
-          "name": "Baltimore Ravens at Carolina Panthers",
-          "date": "2026-11-22T18:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Carolina Panthers",
-            "short": "Panthers",
-            "abbreviation": "CAR",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-            "score": "35",
-            "winner": true
-          },
-          "away": {
-            "name": "Baltimore Ravens",
-            "short": "Ravens",
-            "abbreviation": "BAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-            "score": "33",
-            "winner": false
-          },
-          "venue": "Bank of America Stadium"
-        },
-        {
-          "id": "401873074",
-          "name": "New York Jets at Los Angeles Chargers",
-          "date": "2026-11-22T21:05Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Los Angeles Chargers",
-            "short": "Chargers",
-            "abbreviation": "LAC",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
-            "score": "24",
+            "name": "Miami Dolphins",
+            "short": "Dolphins",
+            "abbreviation": "MIA",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+            "score": "0",
             "winner": false
           },
           "away": {
@@ -706,114 +680,218 @@
             "short": "Jets",
             "abbreviation": "NYJ",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-            "score": "27",
-            "winner": true
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Hard Rock Stadium"
+        },
+        {
+          "id": "401873084",
+          "name": "Atlanta Falcons at Minnesota Vikings",
+          "date": "2026-11-29T18:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 1:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Minnesota Vikings",
+            "short": "Vikings",
+            "abbreviation": "MIN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Atlanta Falcons",
+            "short": "Falcons",
+            "abbreviation": "ATL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "U.S. Bank Stadium"
+        },
+        {
+          "id": "401873090",
+          "name": "Tennessee Titans at Jacksonville Jaguars",
+          "date": "2026-11-29T18:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 1:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Jacksonville Jaguars",
+            "short": "Jaguars",
+            "abbreviation": "JAX",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Tennessee Titans",
+            "short": "Titans",
+            "abbreviation": "TEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "EverBank Stadium"
+        },
+        {
+          "id": "401873085",
+          "name": "Baltimore Ravens at Houston Texans",
+          "date": "2026-11-29T18:00Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 1:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Houston Texans",
+            "short": "Texans",
+            "abbreviation": "HOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Baltimore Ravens",
+            "short": "Ravens",
+            "abbreviation": "BAL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Reliant Stadium"
+        },
+        {
+          "id": "401873093",
+          "name": "New England Patriots at Los Angeles Chargers",
+          "date": "2026-11-29T21:05Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 4:05 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Los Angeles Chargers",
+            "short": "Chargers",
+            "abbreviation": "LAC",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "New England Patriots",
+            "short": "Patriots",
+            "abbreviation": "NE",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "score": "0",
+            "winner": false
           },
           "venue": "SoFi Stadium"
         },
         {
-          "id": "401873075",
-          "name": "Las Vegas Raiders at Denver Broncos",
-          "date": "2026-11-22T21:25Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401873092",
+          "name": "Washington Commanders at Arizona Cardinals",
+          "date": "2026-11-29T21:25Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 4:25 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Denver Broncos",
-            "short": "Broncos",
-            "abbreviation": "DEN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-            "score": "38",
-            "winner": true
+            "name": "Arizona Cardinals",
+            "short": "Cardinals",
+            "abbreviation": "ARI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Washington Commanders",
+            "short": "Commanders",
+            "abbreviation": "WSH",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "State Farm Stadium"
+        },
+        {
+          "id": "401873091",
+          "name": "Seattle Seahawks at San Francisco 49ers",
+          "date": "2026-11-29T21:25Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 4:25 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "San Francisco 49ers",
+            "short": "49ers",
+            "abbreviation": "SF",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Seattle Seahawks",
+            "short": "Seahawks",
+            "abbreviation": "SEA",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Levi's Stadium"
+        },
+        {
+          "id": "401873086",
+          "name": "Las Vegas Raiders at Cleveland Browns",
+          "date": "2026-11-30T01:20Z",
+          "status": "Scheduled",
+          "detail": "Sun, November 29th at 8:20 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Cleveland Browns",
+            "short": "Browns",
+            "abbreviation": "CLE",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "score": "0",
+            "winner": false
           },
           "away": {
             "name": "Las Vegas Raiders",
             "short": "Raiders",
             "abbreviation": "LV",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-            "score": "24",
+            "score": "0",
             "winner": false
           },
-          "venue": "Empower Field at Mile High"
+          "venue": "Huntington Bank Field"
         },
         {
-          "id": "401873069",
-          "name": "Jacksonville Jaguars at New York Giants",
-          "date": "2026-11-22T21:25Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
+          "id": "401873094",
+          "name": "Carolina Panthers at Tampa Bay Buccaneers",
+          "date": "2026-12-01T01:15Z",
+          "status": "Scheduled",
+          "detail": "Mon, November 30th at 8:15 PM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "New York Giants",
-            "short": "Giants",
-            "abbreviation": "NYG",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-            "score": "23",
-            "winner": true
-          },
-          "away": {
-            "name": "Jacksonville Jaguars",
-            "short": "Jaguars",
-            "abbreviation": "JAX",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-            "score": "18",
+            "name": "Tampa Bay Buccaneers",
+            "short": "Buccaneers",
+            "abbreviation": "TB",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "MetLife Stadium"
-        },
-        {
-          "id": "401873077",
-          "name": "Minnesota Vikings at San Francisco 49ers",
-          "date": "2026-11-23T01:20Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "San Francisco 49ers",
-            "short": "49ers",
-            "abbreviation": "SF",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
-            "score": "35",
-            "winner": true
-          },
           "away": {
-            "name": "Minnesota Vikings",
-            "short": "Vikings",
-            "abbreviation": "MIN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-            "score": "10",
+            "name": "Carolina Panthers",
+            "short": "Panthers",
+            "abbreviation": "CAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "Estadio Banorte"
-        },
-        {
-          "id": "401873078",
-          "name": "Cincinnati Bengals at Washington Commanders",
-          "date": "2026-11-24T01:15Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Washington Commanders",
-            "short": "Commanders",
-            "abbreviation": "WSH",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-            "score": "22",
-            "winner": true
-          },
-          "away": {
-            "name": "Cincinnati Bengals",
-            "short": "Bengals",
-            "abbreviation": "CIN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-            "score": "20",
-            "winner": false
-          },
-          "venue": "Northwest Stadium"
+          "venue": "Raymond James Stadium"
         }
       ]
     },
@@ -855,16 +933,16 @@
           "id": "401909315",
           "name": "Boston Celtics at Washington Wizards",
           "date": "2026-11-25T01:00Z",
-          "status": "In Progress",
-          "detail": "20.6 - 3rd Quarter",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Washington Wizards",
             "short": "Wizards",
             "abbreviation": "WSH",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-            "score": "87",
+            "score": "116",
             "winner": false
           },
           "away": {
@@ -872,8 +950,8 @@
             "short": "Celtics",
             "abbreviation": "BOS",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-            "score": "104",
-            "winner": false
+            "score": "131",
+            "winner": true
           },
           "venue": "Capital One Arena"
         },
@@ -881,16 +959,16 @@
           "id": "401909316",
           "name": "Dallas Mavericks at Denver Nuggets",
           "date": "2026-11-25T03:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 10:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Denver Nuggets",
             "short": "Nuggets",
             "abbreviation": "DEN",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-            "score": "0",
+            "score": "101",
             "winner": false
           },
           "away": {
@@ -898,8 +976,8 @@
             "short": "Mavericks",
             "abbreviation": "DAL",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-            "score": "0",
-            "winner": false
+            "score": "120",
+            "winner": true
           },
           "venue": "Ball Arena"
         }
@@ -953,16 +1031,16 @@
           "id": "401892780",
           "name": "Vegas Golden Knights at Edmonton Oilers",
           "date": "2026-11-25T01:00Z",
-          "status": "End of Period",
-          "detail": "End of 2nd Period",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Edmonton Oilers",
             "short": "Oilers",
             "abbreviation": "EDM",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-            "score": "2",
+            "score": "3",
             "winner": false
           },
           "away": {
@@ -970,8 +1048,8 @@
             "short": "Golden Knights",
             "abbreviation": "VGK",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-            "score": "2",
-            "winner": false
+            "score": "5",
+            "winner": true
           },
           "venue": "Rogers Place"
         }
