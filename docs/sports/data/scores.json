@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-24T18:39:40.475Z",
+  "Updated": "2026-11-25T02:56:37.420Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -85,17 +85,17 @@
           "id": "401915380",
           "name": "LASK Linz at Bodo/Glimt",
           "date": "2026-11-24T17:45Z",
-          "status": "Halftime",
-          "detail": "HT",
-          "state": "in",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Bodo/Glimt",
             "short": "Bodo/Glimt",
             "abbreviation": "BODO",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-            "score": "0",
-            "winner": false
+            "score": "1",
+            "winner": true
           },
           "away": {
             "name": "LASK Linz",
@@ -111,17 +111,17 @@
           "id": "401915300",
           "name": "Aston Villa at Galatasaray",
           "date": "2026-11-24T17:45Z",
-          "status": "Halftime",
-          "detail": "HT",
-          "state": "in",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Galatasaray",
             "short": "Galatasaray",
             "abbreviation": "GAL",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-            "score": "0",
-            "winner": false
+            "score": "1",
+            "winner": true
           },
           "away": {
             "name": "Aston Villa",
@@ -137,16 +137,16 @@
           "id": "401915295",
           "name": "Borussia Dortmund at Arsenal",
           "date": "2026-11-24T20:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Arsenal",
             "short": "Arsenal",
             "abbreviation": "ARS",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "away": {
@@ -154,7 +154,7 @@
             "short": "Dortmund",
             "abbreviation": "DOR",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "venue": "Emirates Stadium"
@@ -163,17 +163,17 @@
           "id": "401915296",
           "name": "AEK Athens at Como",
           "date": "2026-11-24T20:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Como",
             "short": "Como",
             "abbreviation": "COMO",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-            "score": "0",
-            "winner": false
+            "score": "1",
+            "winner": true
           },
           "away": {
             "name": "AEK Athens",
@@ -189,10 +189,10 @@
           "id": "401915294",
           "name": "FC Porto at Feyenoord Rotterdam",
           "date": "2026-11-24T20:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Feyenoord Rotterdam",
             "short": "Feyenoord",
@@ -206,8 +206,8 @@
             "short": "FC Porto",
             "abbreviation": "FCP",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-            "score": "0",
-            "winner": false
+            "score": "1",
+            "winner": true
           },
           "venue": "De Kuip"
         },
@@ -215,16 +215,16 @@
           "id": "401915379",
           "name": "Napoli at Manchester City",
           "date": "2026-11-24T20:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Manchester City",
             "short": "Man City",
             "abbreviation": "MNC",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "away": {
@@ -232,7 +232,7 @@
             "short": "Napoli",
             "abbreviation": "NAP",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "venue": "Etihad Stadium"
@@ -241,24 +241,24 @@
           "id": "401915299",
           "name": "Lens at RB Leipzig",
           "date": "2026-11-24T20:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "RB Leipzig",
             "short": "RB Leipzig",
             "abbreviation": "RBL",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-            "score": "0",
-            "winner": false
+            "score": "3",
+            "winner": true
           },
           "away": {
             "name": "Lens",
             "short": "Lens",
             "abbreviation": "RCL",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "venue": "Red Bull Arena"
@@ -267,24 +267,24 @@
           "id": "401915298",
           "name": "PSV Eindhoven at Real Madrid",
           "date": "2026-11-24T20:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Real Madrid",
             "short": "Real Madrid",
             "abbreviation": "RMA",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "score": "0",
-            "winner": false
+            "score": "5",
+            "winner": true
           },
           "away": {
             "name": "PSV Eindhoven",
             "short": "PSV",
             "abbreviation": "PSV",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-            "score": "0",
+            "score": "1",
             "winner": false
           },
           "venue": "Santiago Bernabéu"
@@ -293,10 +293,10 @@
           "id": "401915297",
           "name": "Real Betis at Slovan Bratislava",
           "date": "2026-11-24T20:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Full Time",
+          "detail": "FT",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Slovan Bratislava",
             "short": "S Bratislava",
@@ -310,8 +310,8 @@
             "short": "Betis",
             "abbreviation": "BET",
             "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-            "score": "0",
-            "winner": false
+            "score": "2",
+            "winner": true
           },
           "venue": "Národny Futbalovy Stadión"
         }
@@ -829,16 +829,16 @@
           "id": "401909314",
           "name": "Detroit Pistons at Orlando Magic",
           "date": "2026-11-25T00:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 7:00 PM EST",
-          "state": "pre",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Orlando Magic",
             "short": "Magic",
             "abbreviation": "ORL",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-            "score": "0",
+            "score": "86",
             "winner": false
           },
           "away": {
@@ -846,8 +846,8 @@
             "short": "Pistons",
             "abbreviation": "DET",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-            "score": "0",
-            "winner": false
+            "score": "104",
+            "winner": true
           },
           "venue": "Kia Center"
         },
@@ -855,16 +855,16 @@
           "id": "401909315",
           "name": "Boston Celtics at Washington Wizards",
           "date": "2026-11-25T01:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 8:00 PM EST",
-          "state": "pre",
+          "status": "In Progress",
+          "detail": "20.6 - 3rd Quarter",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Washington Wizards",
             "short": "Wizards",
             "abbreviation": "WSH",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-            "score": "0",
+            "score": "87",
             "winner": false
           },
           "away": {
@@ -872,7 +872,7 @@
             "short": "Celtics",
             "abbreviation": "BOS",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-            "score": "0",
+            "score": "104",
             "winner": false
           },
           "venue": "Capital One Arena"
@@ -953,16 +953,16 @@
           "id": "401892780",
           "name": "Vegas Golden Knights at Edmonton Oilers",
           "date": "2026-11-25T01:00Z",
-          "status": "Scheduled",
-          "detail": "Tue, November 24th at 8:00 PM EST",
-          "state": "pre",
+          "status": "End of Period",
+          "detail": "End of 2nd Period",
+          "state": "in",
           "completed": false,
           "home": {
             "name": "Edmonton Oilers",
             "short": "Oilers",
             "abbreviation": "EDM",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "away": {
@@ -970,7 +970,7 @@
             "short": "Golden Knights",
             "abbreviation": "VGK",
             "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-            "score": "0",
+            "score": "2",
             "winner": false
           },
           "venue": "Rogers Place"
