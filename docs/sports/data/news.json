@@ -1,95 +1,45 @@
 {
-  "Updated": "2026-11-25T21:55:23.781Z",
+  "Updated": "2026-11-26T03:57:42.501Z",
   "Value": [
     {
-      "Title": "Bruno Fernandes leads Man United fury as commentators scream ‘wow’ after Amad goal cancelled",
-      "Abstract": "Amad thought he had pulled Manchester United level late on in the first-half of their Champions League clash with Sporting CP, only for his goal to be chalked off in dramatic fashion",
-      "Url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-united-sporting-amad-goal-34967308",
-      "ArticleUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-united-sporting-amad-goal-34967308",
-      "ExternalUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-united-sporting-amad-goal-34967308",
-      "PublishedDateTime": "2026-11-25T21:02:19Z",
+      "Title": "Cricket-Former CEO Sutherland says Cricket Australia did the best it could on Sandpapergate investigation",
+      "Abstract": "Nov 26 (Reuters) - Former Cricket Australia (CA) boss James Sutherland said on Thursday the governing body did the best it could with the information available to it during the investigation into the 2018 ball-tampering scandal. The scandal was reignited this month after Usman Khawaja said the whole team had known about the ball-tampering plan during the tour of South Africa, not just the three",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2ifAGc",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2ifAGc",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2ifAGc",
+      "PublishedDateTime": "2026-11-26T03:35:37Z",
       "Provider": {
-        "Name": "Manchester Evening News",
-        "DisplayName": "Manchester Evening News"
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2iesch.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ifKok.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Football"
+        "Cricket"
       ],
-      "Sport": "Football",
+      "Sport": "Cricket",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "How to watch Sporting Lisbon vs Man Utd: Free streams, TV channels, Team news & kick-off time for Champions League 2026/27 fixture",
-      "Abstract": "How you can watch Sporting Lisbon vs Man Utd in the Champions League for free online from anywhere in the world with TV channels, kick-off time included.",
-      "Url": "https://www.techradar.com/entertainment/football/how-to-watch-sporting-lisbon-vs-man-utd-free-streams-tv-channels-and-kick-off-time-for-champions-league-2026-27-fixture",
-      "ArticleUrl": "https://www.techradar.com/entertainment/football/how-to-watch-sporting-lisbon-vs-man-utd-free-streams-tv-channels-and-kick-off-time-for-champions-league-2026-27-fixture",
-      "ExternalUrl": "https://www.techradar.com/entertainment/football/how-to-watch-sporting-lisbon-vs-man-utd-free-streams-tv-channels-and-kick-off-time-for-champions-league-2026-27-fixture",
-      "PublishedDateTime": "2026-11-25T19:01:04Z",
+      "Title": "NFL fans fume as Netflix's Packers-Rams Thanksgiving Eve game is riddled with technical problems",
+      "Abstract": "The streaming giant has muscled into live sports coverage over recent years. But Wednesday's broadcast was beset by issues, leaving many NFL fans unhappy on social media.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16323077/nfl-fans-fume-netflix-packers-rams.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16323077/nfl-fans-fume-netflix-packers-rams.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16323077/nfl-fans-fume-netflix-packers-rams.html",
+      "PublishedDateTime": "2026-11-26T02:12:13Z",
       "Provider": {
-        "Name": "TechRadar",
-        "DisplayName": "TechRadar"
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2iehnS.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Sporting v Manchester United: Champions League – live",
-      "Abstract": "Minute-by-minute report: Can Mauricio Pochettino earn a first win as Manchester United head coach? Join Rob Smyth for the latest from Lisbon",
-      "Url": "https://www.theguardian.com/football/live/2026/nov/25/sporting-v-manchester-united-champions-league-live",
-      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/25/sporting-v-manchester-united-champions-league-live",
-      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/25/sporting-v-manchester-united-champions-league-live",
-      "PublishedDateTime": "2026-11-25T21:50:00Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2idXW1.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "‘Yikes!' MAGA-tinged NFL star’s 'scorched-earth' tirade stuns analysts",
-      "Abstract": "",
-      "Url": "https://www.rawstory.com/maga-2678530952/",
-      "ArticleUrl": "https://www.rawstory.com/maga-2678530952/",
-      "ExternalUrl": "https://www.rawstory.com/maga-2678530952/",
-      "PublishedDateTime": "2026-11-25T21:30:06Z",
-      "Provider": {
-        "Name": "Raw Story",
-        "DisplayName": "Raw Story"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2iestV.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2if3Jw.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -102,262 +52,80 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Soccer-Gordon double helps Barcelona cruise past Sabah 4-1 in Champions League",
-      "Abstract": "BAKU, Azerbaijan, Nov 25 (Reuters) - Anthony Gordon scored twice as Barcelona cruised to a 4-1 victory at Sabah in the Champions League on Wednesday, maintaining Hansi Flick's side's push for a top-eight finish with their fourth victory from five league-phase matches. Karim Adeyemi and Gabriel Jesus also struck in the space of five second-half minutes for the Spanish giants, who are fourth in",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2iepTo",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2iepTo",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2iepTo",
-      "PublishedDateTime": "2026-11-25T20:52:38Z",
+      "Title": "U2 blasted for 'terrible' NFL halftime show as fans criticize Bono's performance",
+      "Abstract": "The legendary Irish rock band took to the stage during the inaugural Thanksgiving Eve game at SoFi Stadium to kickstart the slate of holiday weekend action.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16323131/u2-nfl-halftime-bono.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16323131/u2-nfl-halftime-bono.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16323131/u2-nfl-halftime-bono.html",
+      "PublishedDateTime": "2026-11-26T03:03:07Z",
       "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ierC8.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2iew7l.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
-        "Football"
+        "NFL"
       ],
-      "Sport": "Football",
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Scotland's World Cup pot confirmed as FIFA set out draw procedure and 'tennis-style' seeding",
-      "Abstract": "World football’s governing body set out seedings ahead of next week’s big event",
-      "Url": "https://www.scotsman.com/sport/football/international/scotlands-world-cup-pot-confirmed-as-fifa-set-out-draw-procedure-and-tennis-style-seeding-5417766",
-      "ArticleUrl": "https://www.scotsman.com/sport/football/international/scotlands-world-cup-pot-confirmed-as-fifa-set-out-draw-procedure-and-tennis-style-seeding-5417766",
-      "ExternalUrl": "https://www.scotsman.com/sport/football/international/scotlands-world-cup-pot-confirmed-as-fifa-set-out-draw-procedure-and-tennis-style-seeding-5417766",
-      "PublishedDateTime": "2025-11-25T18:40:50Z",
-      "Provider": {
-        "Name": "The Scotsman",
-        "DisplayName": "The Scotsman"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1R94xk.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Tennis"
-      ],
-      "Sport": "Tennis",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Real Madrid and Arsenal handed major Champions League boost after PSG's double injury blow",
-      "Abstract": "Désiré Doué’s ruptured ACL, suffered exactly a month after Khvicha Kvaratskhelia’s, has stripped Paris Saint-Germain of their two most dangerous attackers and lifted the hopes of every rival chasing them in Europe.",
-      "Url": "https://lentedesportiva.com/real-madrid-and-arsenal-handed-major-champions-league-boost-after-psgs-double-injury-blow/?utm_source=msn&utm_medium=syndication",
-      "ArticleUrl": "https://lentedesportiva.com/real-madrid-and-arsenal-handed-major-champions-league-boost-after-psgs-double-injury-blow/?utm_source=msn&utm_medium=syndication",
-      "ExternalUrl": "https://lentedesportiva.com/real-madrid-and-arsenal-handed-major-champions-league-boost-after-psgs-double-injury-blow/?utm_source=msn&utm_medium=syndication",
-      "PublishedDateTime": "2026-11-25T21:15:00Z",
-      "Provider": {
-        "Name": "Lente Desportiva",
-        "DisplayName": "Lente Desportiva"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2idXLC.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Iraola will be wincing as Liverpool dealt worrying injury setback in first half against Brugge",
-      "Abstract": "Liverpool have been dealt a fresh injury concern in the first half of their Champions League fixture against Club Brugge on Wednesday night. The Reds got off to a strong start at the Jan Breydel Stadium as they pounced on a loose pass by Yann Sommer to take the lead through a close-range finish from Alexander Isak.",
-      "Url": "https://www.yardbarker.com/soccer/articles/iraola_will_be_wincing_as_liverpool_dealt_worrying_injury_setback_in_first_half_against_brugge/s1_15959_44619146",
-      "ArticleUrl": "https://www.yardbarker.com/soccer/articles/iraola_will_be_wincing_as_liverpool_dealt_worrying_injury_setback_in_first_half_against_brugge/s1_15959_44619146",
-      "ExternalUrl": "https://www.yardbarker.com/soccer/articles/iraola_will_be_wincing_as_liverpool_dealt_worrying_injury_setback_in_first_half_against_brugge/s1_15959_44619146",
-      "PublishedDateTime": "2026-11-25T21:35:59Z",
-      "Provider": {
-        "Name": "Empire of the Kop",
-        "DisplayName": "Empire of the Kop"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ieJtF.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Club Brugge v Liverpool, Lille v Bayern Munich and more: Champions League clockwatch – live",
-      "Abstract": "Clockwatch: Join Simon Burnton for the latest updates from around Europe with Liverpool, Bayern Munich and PSG all in action",
-      "Url": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
-      "ArticleUrl": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
-      "ExternalUrl": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
-      "PublishedDateTime": "2026-11-25T21:46:00Z",
-      "Provider": {
-        "Name": "The Guardian",
-        "DisplayName": "The Guardian"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2idNbv.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Kyrie Irving gives away what could be a player-exclusive pair of sneakers he wore during the game",
-      "Abstract": "Irving handed over his red-and-cream game shoes after Dallas’ win. Kyrie Irving gave a fan his game-worn sneakers after the Dallas Mavericks beat the Denver Nuggets 120-101 in NBA Cup play. Video from Ball Arena shows Irving walking over to the seats after the game, taking off his shoes and handing them to the fan. The NBA shared the moment as Dallas moved to 3-0 in West Group A. In the video, Irving heads toward the stands, taking off his...",
-      "Url": "https://www.marca.com/en/basketball/nba/dallas-mavericks/2026/11/25/kyrie-irving-gives-away-what-could-be-player-exclusive-pair-of-sneakers-he-wore-during-the-game.html",
-      "ArticleUrl": "https://www.marca.com/en/basketball/nba/dallas-mavericks/2026/11/25/kyrie-irving-gives-away-what-could-be-player-exclusive-pair-of-sneakers-he-wore-during-the-game.html",
-      "ExternalUrl": "https://www.marca.com/en/basketball/nba/dallas-mavericks/2026/11/25/kyrie-irving-gives-away-what-could-be-player-exclusive-pair-of-sneakers-he-wore-during-the-game.html",
-      "PublishedDateTime": "2026-11-25T21:29:16Z",
+      "Title": "Aaron Rodgers takes a break from ripping Mike McCarthy to shout out Raiders’ Fernando Mendoza",
+      "Abstract": "After unloading on Mike McCarthy, Aaron Rodgers turned his attention to Raiders rookie Fernando Mendoza with a surprising compliment.. Aaron Rodgers was one of the biggest stories in the NFL on Wednesday, November 25, after making explosive allegations against Pittsburgh Steelers head coach Mike McCarthy. However, amid the controversy, the veteran quarterback also took a moment to praise one of the league’s rising young talents. Rodgers...",
+      "Url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/26/aaron-rodgers-takes-break-from-ripping-mike-mccarthy-to-shout-out-raiders-fernando-mendoza.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/26/aaron-rodgers-takes-break-from-ripping-mike-mccarthy-to-shout-out-raiders-fernando-mendoza.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/26/aaron-rodgers-takes-break-from-ripping-mike-mccarthy-to-shout-out-raiders-fernando-mendoza.html",
+      "PublishedDateTime": "2026-11-26T02:54:39Z",
       "Provider": {
         "Name": "MARCA",
         "DisplayName": "MARCA"
       },
       "Images": [],
       "Categories": [
-        "NBA"
+        "NFL"
       ],
-      "Sport": "NBA",
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Bruno Fernandes blows minds with astonishing Man United goal as staff told they’re in trouble",
-      "Abstract": "Bruno Fernandes scored a bizarre goal in the second half of Manchester United's clash against Sporting in the Champions League.",
-      "Url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-man-united-goal-34967329",
-      "ArticleUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-man-united-goal-34967329",
-      "ExternalUrl": "https://www.manchestereveningnews.co.uk/sport/football/football-news/bruno-fernandes-man-united-goal-34967329",
-      "PublishedDateTime": "2026-11-25T21:42:13Z",
+      "Title": "Mike Evans called Jerry Rice the GOAT, and the NFL caught it on mic",
+      "Abstract": "Bringing two record-setting receivers together in a brief sideline exchange. Jerry Rice had a few words of encouragement for Mike Evans before the San Francisco 49ers faced the Minnesota Vikings in Mexico City. “Get your work in, baby,” Rice told him. Evans hugged the Hall of Fame receiver and replied, “Good to see you too, GOAT.” The NFL later shared the exchange in its Week 11 Mic’d Up video. The moment carried extra weight because Evans and...",
+      "Url": "https://www.marca.com/en/nfl/san-francisco-49ers/2026/11/26/mike-evans-called-jerry-rice-the-goat-and-the-nfl-caught-it-on-mic.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/san-francisco-49ers/2026/11/26/mike-evans-called-jerry-rice-the-goat-and-the-nfl-caught-it-on-mic.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/san-francisco-49ers/2026/11/26/mike-evans-called-jerry-rice-the-goat-and-the-nfl-caught-it-on-mic.html",
+      "PublishedDateTime": "2026-11-26T02:42:15Z",
       "Provider": {
-        "Name": "Manchester Evening News",
-        "DisplayName": "Manchester Evening News"
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
       },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ieOyt.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
+      "Images": [],
       "Categories": [
-        "Football"
+        "NFL"
       ],
-      "Sport": "Football",
+      "Sport": "NFL",
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Legendary football commentator John Motson's voice to be added in popular video game through AI",
-      "Abstract": "",
-      "Url": "https://www.gbnews.com/sport/football/john-motson-commentator-ea-fc-fifa",
-      "ArticleUrl": "https://www.gbnews.com/sport/football/john-motson-commentator-ea-fc-fifa",
-      "ExternalUrl": "https://www.gbnews.com/sport/football/john-motson-commentator-ea-fc-fifa",
-      "PublishedDateTime": "2026-11-25T21:05:09Z",
+      "Title": "United winner disallowed by VAR in bonkers clash with Sporting",
+      "Abstract": "Sporting v Man United LIVE: United winner disallowed by VAR in bonkers Champions League clash - Sporting 2-2 Manchester United: A ridiculous Champions League clash finished all square after the visitors had two goals disallowed and conceded two penalties",
+      "Url": "https://www.independent.co.uk/sport/football/sporting-man-united-live-stream-score-champions-league-b3091483.html",
+      "ArticleUrl": "https://www.independent.co.uk/sport/football/sporting-man-united-live-stream-score-champions-league-b3091483.html",
+      "ExternalUrl": "https://www.independent.co.uk/sport/football/sporting-man-united-live-stream-score-champions-league-b3091483.html",
+      "PublishedDateTime": "2026-11-25T23:15:55Z",
       "Provider": {
-        "Name": "GB News",
-        "DisplayName": "GB News"
+        "Name": "The Independent",
+        "DisplayName": "The Independent"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2iel2A.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Rugby-Erasmus ban is tough on the team but no excuse, says Boks captain Kolisi",
-      "Abstract": "By Alan Baldwin LONDON, Nov 25 (Reuters) - South Africa captain Siya Kolisi said Rassie Erasmus's ban was tough on the team but they would not use it as an excuse and planned a hotel celebration with the coach if they won Sunday's inaugural Nations Championship final against France. World Rugby has banned Erasmus for six matches, including the final at Twickenham, for criticising match officials",
-      "Url": "https://www.msn.com/en-gb/news/ar-AA2ie0DL",
-      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2ie0DL",
-      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2ie0DL",
-      "PublishedDateTime": "2026-11-25T20:48:53Z",
-      "Provider": {
-        "Name": "Reuters",
-        "DisplayName": "Reuters"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2iea9L.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Rugby"
-      ],
-      "Sport": "Rugby",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Monaco boss Filipe Luis names the two Hearts stars he is wary of in Conference League battle at Tynecastle",
-      "Abstract": "The Ligue 1 side are the visitors in the capital on Thursday night on matchday four of the Conference League",
-      "Url": "https://www.dailyrecord.co.uk/sport/football/football-news/monaco-boss-filipe-luis-names-37916079",
-      "ArticleUrl": "https://www.dailyrecord.co.uk/sport/football/football-news/monaco-boss-filipe-luis-names-37916079",
-      "ExternalUrl": "https://www.dailyrecord.co.uk/sport/football/football-news/monaco-boss-filipe-luis-names-37916079",
-      "PublishedDateTime": "2026-11-25T21:08:02Z",
-      "Provider": {
-        "Name": "Daily Record",
-        "DisplayName": "Daily Record"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ieflz.img?w=1200&h=675&q=80",
-          "Width": 1200,
-          "Height": 675,
-          "Quality": 80
-        }
-      ],
-      "Categories": [
-        "Football"
-      ],
-      "Sport": "Football",
-      "TagEvaluationGroups": []
-    },
-    {
-      "Title": "Liverpool ‘receive Leny Yoro red card verdict’ from Premier League panel as Man Utd row spirals",
-      "Abstract": "Leny Yoro was shown a red card for the denial of an obvious goalscoring opportunity during Liverpool's win over Manchester United, but the Football Association overturned the one-match suspension.",
-      "Url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-receive-leny-yoro-red-34967165",
-      "ArticleUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-receive-leny-yoro-red-34967165",
-      "ExternalUrl": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-receive-leny-yoro-red-34967165",
-      "PublishedDateTime": "2026-11-25T20:11:19Z",
-      "Provider": {
-        "Name": "Liverpool Echo",
-        "DisplayName": "Liverpool Echo"
-      },
-      "Images": [
-        {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2idIyr.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ielgX.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -371,7 +139,7 @@
     },
     {
       "Title": "Hero doctor who saved life of Fabrice Muamba when his heart stopped on football pitch is struck off",
-      "Abstract": "Jonathan Tobin was removed from the medical register by the Medical Practitioners Tribunal Service (MPTS) for having a sexual relationship with a vulnerable patient.",
+      "Abstract": "Dr Jonathan Tobin was removed from the medical register by the Medical Practitioners Tribunal Service (MPTS) for having a sexual relationship with a vulnerable patient.",
       "Url": "https://www.dailymail.com/news/article-16322047/Hero-doctor-saved-Fabrice-Muamba-struck-off.html",
       "ArticleUrl": "https://www.dailymail.com/news/article-16322047/Hero-doctor-saved-Fabrice-Muamba-struck-off.html",
       "ExternalUrl": "https://www.dailymail.com/news/article-16322047/Hero-doctor-saved-Fabrice-Muamba-struck-off.html",
@@ -395,17 +163,24 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "The Dallas Cowboys and Jerry Jones Thanksgiving table face a familiar enemy",
-      "Abstract": "Thanksgiving brings another high-stakes NFC East battle, with an old rival standing in Dallas' way. Thanksgiving in Dallas comes with high expectations, and this year, the stakes are difficult to ignore. Jerry Jones has another opportunity to see his team make a statement on one of the NFL's biggest regular-season stages. The holiday matchup also arrives at a critical point in the Cowboys' campaign. With the NFC East race still offering a path...",
-      "Url": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/25/the-dallas-cowboys-and-jerry-jones-thanksgiving-table-face-familiar-enemy.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/25/the-dallas-cowboys-and-jerry-jones-thanksgiving-table-face-familiar-enemy.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/dallas-cowboys/2026/11/25/the-dallas-cowboys-and-jerry-jones-thanksgiving-table-face-familiar-enemy.html",
-      "PublishedDateTime": "2026-11-25T21:19:44Z",
+      "Title": "Travis Kelce refuses to confirm whether he'll return for another NFL season",
+      "Abstract": "Travis Kelce has refused to confirm whether or not he'll play in the NFL again next season as speculation over his possible retirement surfaced again on Wednesday.",
+      "Url": "https://www.dailymail.com/sport/nfl/article-16321871/travis-kelce-nfl-retirement-speculation.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/nfl/article-16321871/travis-kelce-nfl-retirement-speculation.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/nfl/article-16321871/travis-kelce-nfl-retirement-speculation.html",
+      "PublishedDateTime": "2026-11-26T00:48:36Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
       },
-      "Images": [],
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ieIrb.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
       "Categories": [
         "NFL"
       ],
@@ -413,19 +188,19 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Arsenal face possible ban from FIFA competitions - 'We have the power to act'",
-      "Abstract": "The Independent Football Regulator has sent a stark warning to Arsenal and Premier League clubs over their participation in select competitions",
-      "Url": "https://www.football.london/arsenal-fc/news/arsenal-fifa-club-world-cup-34967153",
-      "ArticleUrl": "https://www.football.london/arsenal-fc/news/arsenal-fifa-club-world-cup-34967153",
-      "ExternalUrl": "https://www.football.london/arsenal-fc/news/arsenal-fifa-club-world-cup-34967153",
-      "PublishedDateTime": "2026-11-25T20:09:49Z",
+      "Title": "Enzo Maresca plays down Chelsea’s Champions League dismantling of Barcelona",
+      "Abstract": "The Blues beat 10-man Barca 3-0, with Estevao comprehensively outshining fellow 18-year-old Lamine Yamal.",
+      "Url": "https://content.api.pressassociation.io/v1/item/bb82506f-fc8d-4c0d-b36c-fb40c02340e0",
+      "ArticleUrl": "https://content.api.pressassociation.io/v1/item/bb82506f-fc8d-4c0d-b36c-fb40c02340e0",
+      "ExternalUrl": "https://content.api.pressassociation.io/v1/item/bb82506f-fc8d-4c0d-b36c-fb40c02340e0",
+      "PublishedDateTime": "2025-11-26T08:40:37Z",
       "Provider": {
-        "Name": "Football London",
-        "DisplayName": "Football London"
+        "Name": "PA Sport",
+        "DisplayName": "PA Sport"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2idPNJ.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1R9KNi.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
@@ -438,28 +213,221 @@
       "TagEvaluationGroups": []
     },
     {
-      "Title": "Aaron Rodgers done with Steelers: 2 competing NFL teams that make sense as next destination",
-      "Abstract": "The quarterback has confirmed he isn’t going back to Pittsburgh after a falling out with head coach Mike McCarthy.. The NFL world has been thrown for a loop. On late Tuesday night, the Pittsburgh Steelers put out a statement announcing that Aaron Rodgers would be inactive for the team’s Black Friday game, with Mason Rudolph starting in his place. A day later, Rodgers confirmed that his time in Pittsburgh is done. A fallout with head coach Mike...",
-      "Url": "https://www.marca.com/en/nfl/pittsburgh-steelers/2026/11/25/aaron-rodgers-done-with-steelers-2-competing-nfl-teams-that-make-sense-as-next-destination.html",
-      "ArticleUrl": "https://www.marca.com/en/nfl/pittsburgh-steelers/2026/11/25/aaron-rodgers-done-with-steelers-2-competing-nfl-teams-that-make-sense-as-next-destination.html",
-      "ExternalUrl": "https://www.marca.com/en/nfl/pittsburgh-steelers/2026/11/25/aaron-rodgers-done-with-steelers-2-competing-nfl-teams-that-make-sense-as-next-destination.html",
-      "PublishedDateTime": "2026-11-25T20:52:51Z",
+      "Title": "Pep Guardiola admits mistake as much-changed Man City lose in Europe",
+      "Abstract": "Guardiola made 10 changes for the Champions League defeat to Bayer Leverkusen.",
+      "Url": "https://content.api.pressassociation.io/v1/item/f39c8bdf-b0d7-4466-9d43-926973c86bbf",
+      "ArticleUrl": "https://content.api.pressassociation.io/v1/item/f39c8bdf-b0d7-4466-9d43-926973c86bbf",
+      "ExternalUrl": "https://content.api.pressassociation.io/v1/item/f39c8bdf-b0d7-4466-9d43-926973c86bbf",
+      "PublishedDateTime": "2025-11-26T08:40:04Z",
       "Provider": {
-        "Name": "MARCA",
-        "DisplayName": "MARCA"
+        "Name": "PA Sport",
+        "DisplayName": "PA Sport"
       },
       "Images": [
         {
-          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ie0GH.img?w=1200&h=675&q=80",
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1R9Ilu.img?w=1200&h=675&q=80",
           "Width": 1200,
           "Height": 675,
           "Quality": 80
         }
       ],
       "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Fernando Mendoza reveals Tom Brady's true role with the Raiders",
+      "Abstract": "Fernando Mendoza revealed what Tom Brady does after every Raiders game.. Fernando Mendoza has had a rocky start as the starting quarterback of the Las Vegas Raiders, but he has also shown promising signs. After a difficult debut against the Seattle Seahawks, the young passer delivered a much stronger performance in the loss to the Denver Broncos, where he threw three touchdown passes and led his team’s second-half comeback from a sizable...",
+      "Url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/26/fernando-mendoza-reveals-tom-brady-s-true-role-with-the-raiders.html",
+      "ArticleUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/26/fernando-mendoza-reveals-tom-brady-s-true-role-with-the-raiders.html",
+      "ExternalUrl": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/11/26/fernando-mendoza-reveals-tom-brady-s-true-role-with-the-raiders.html",
+      "PublishedDateTime": "2026-11-26T01:42:59Z",
+      "Provider": {
+        "Name": "MARCA",
+        "DisplayName": "MARCA"
+      },
+      "Images": [],
+      "Categories": [
         "NFL"
       ],
       "Sport": "NFL",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Pochettino claims officials ‘punished’ Manchester United in chaotic Sporting draw",
+      "Abstract": "Mauricio Pochettino claimed Manchester United were punished unfairly after again appearing to suffer from faulty officiating in Wednesday night’s 2-2 draw at Sporting. The key decision from Szymon Marciniak came when Amad Diallo’s first-half strike was ruled out due to the referee adjudging Youri Tielemans to have fouled Gonçalo Inácio just before the finish. Tielemans was booked and so when he received a second yellow card in second-half added...",
+      "Url": "https://www.theguardian.com/football/2026/nov/25/mauricio-pochettino-officials-punished-manchester-united-sporting",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/25/mauricio-pochettino-officials-punished-manchester-united-sporting",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/25/mauricio-pochettino-officials-punished-manchester-united-sporting",
+      "PublishedDateTime": "2026-11-25T23:50:56Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2iePtV.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Dollar steady as sliding yields temper safe-haven bid",
+      "Abstract": "SHANGHAI, Nov 26 (Reuters) - The dollar was steady in Asian trading on Thursday after dropping to a one-week low overnight, as falling Treasury yields and fragile risk sentiment offset the greenback's usual safe-haven appeal ahead of the Thanksgiving holiday. The US dollar index slipped overnight as US equities pared losses and showed little reaction to strong economic data, leaving it well off a",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2ifan1",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2ifan1",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2ifan1",
+      "PublishedDateTime": "2026-11-26T01:43:35Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ifph8.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Lammens errors cost Manchester United victory in frantic finale at Sporting",
+      "Abstract": "“We are a strong team,” Mauricio Pochettino exhorted, then watched Manchester United’s unerring ability to cause drama every time they lace up their boots. Cruising, it seemed, at 2-1 and with 10 minutes left, they unravelled, as Senne Lammens dropped a high ball in front of his goal and a grateful Luis Suárez equalised with a bicycle kick. Cut almost instantly to Sporting’s Kaique Pereira who bundled the ball in for United’s apparent winner...",
+      "Url": "https://www.theguardian.com/football/2026/nov/25/sporting-lisbon-manchester-united-champions-league-match-report",
+      "ArticleUrl": "https://www.theguardian.com/football/2026/nov/25/sporting-lisbon-manchester-united-champions-league-match-report",
+      "ExternalUrl": "https://www.theguardian.com/football/2026/nov/25/sporting-lisbon-manchester-united-champions-league-match-report",
+      "PublishedDateTime": "2026-11-25T22:05:49Z",
+      "Provider": {
+        "Name": "The Guardian",
+        "DisplayName": "The Guardian"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ieTTk.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Black Friday? No thanks, some brands say",
+      "Abstract": "By Helen Reid, Elisa Anzolin and Danielle Kaye LONDON/MILAN/LOS ANGELES, Nov 26 (Reuters) - While most brands are dangling deep Black Friday discounts to entice shoppers, some are opting out. These holdouts want to protect profits, make a point about sustainability, or simply stand out and try to connect with a growing number of consumers wary of permanent promotions. In Italy, fashion brand",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2ieiRe",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2ieiRe",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2ieiRe",
+      "PublishedDateTime": "2026-11-26T00:01:31Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2if4xb.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Formula 1"
+      ],
+      "Sport": "Formula 1",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Remarkable footage shows moment Bruno Fernandes created divot HIMSELF before scoring bizarre goal",
+      "Abstract": "Footage appears to show the Manchester United captain had created the divot in the turf that led to his fortunate second goal against Sporting Lisbon in their Champions League clash on Tuesday night.",
+      "Url": "https://www.dailymail.com/sport/football/article-16322789/bruno-fernandes-divot-man-united-sporting-lisbon.html",
+      "ArticleUrl": "https://www.dailymail.com/sport/football/article-16322789/bruno-fernandes-divot-man-united-sporting-lisbon.html",
+      "ExternalUrl": "https://www.dailymail.com/sport/football/article-16322789/bruno-fernandes-divot-man-united-sporting-lisbon.html",
+      "PublishedDateTime": "2026-11-25T23:33:13Z",
+      "Provider": {
+        "Name": "Daily Mail",
+        "DisplayName": "Daily Mail"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2if27Q.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Soccer-Fernandes shines on Sporting return as Man United held",
+      "Abstract": "LISBON, Nov 25 (Reuters) - Bruno Fernandes set aside questions about his Manchester United future by producing his best display of the season against his former club Sporting on Wednesday, scoring twice in a chaotic 2-2 Champions League draw. Fernandes's goals looked set to earn Mauricio Pochettino a first win a week after taking charge, but United were undone by two shambolic mistakes from",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2ifeuZ",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2ifeuZ",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2ifeuZ",
+      "PublishedDateTime": "2026-11-25T23:29:38Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ieAC0.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Football"
+      ],
+      "Sport": "Football",
+      "TagEvaluationGroups": []
+    },
+    {
+      "Title": "Tennis-Holders Italy beat South Korea 2-1 in nail-biter and book Davis Cup last four spot",
+      "Abstract": "BOLOGNA, Italy, Nov 25 (Reuters) - Matteo Berrettini and Andrea Vavassori battled past South Korean pair Kwon Soon-woo and Chung Hyeon 7-6(2) 7-6(11) in a nail-biting doubles rubber on Wednesday to send holders Italy into the Davis Cup semi-finals with a 2-1 victory. The champions, who will now face the Czech Republic in the last four on Friday following their win over Canada on Tuesday, found",
+      "Url": "https://www.msn.com/en-gb/news/ar-AA2if9ub",
+      "ArticleUrl": "https://www.msn.com/en-gb/news/ar-AA2if9ub",
+      "ExternalUrl": "https://www.msn.com/en-gb/news/ar-AA2if9ub",
+      "PublishedDateTime": "2026-11-25T23:34:40Z",
+      "Provider": {
+        "Name": "Reuters",
+        "DisplayName": "Reuters"
+      },
+      "Images": [
+        {
+          "Url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ieXqn.img?w=1200&h=675&q=80",
+          "Width": 1200,
+          "Height": 675,
+          "Quality": 80
+        }
+      ],
+      "Categories": [
+        "Tennis"
+      ],
+      "Sport": "Tennis",
       "TagEvaluationGroups": []
     }
   ]
