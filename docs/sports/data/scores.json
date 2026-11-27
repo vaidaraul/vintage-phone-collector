@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-27T04:48:44.625Z",
+  "Updated": "2026-11-27T14:43:13.492Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -478,6 +478,58 @@
       "logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
       "events": [
         {
+          "id": "401873083",
+          "name": "Denver Broncos at Pittsburgh Steelers",
+          "date": "2026-11-27T20:00Z",
+          "status": "Scheduled",
+          "detail": "Fri, November 27th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Pittsburgh Steelers",
+            "short": "Steelers",
+            "abbreviation": "PIT",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Denver Broncos",
+            "short": "Broncos",
+            "abbreviation": "DEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Acrisure Stadium"
+        },
+        {
+          "id": "401873079",
+          "name": "Green Bay Packers at Los Angeles Rams",
+          "date": "2026-11-26T01:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
+          "home": {
+            "name": "Los Angeles Rams",
+            "short": "Rams",
+            "abbreviation": "LAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+            "score": "26",
+            "winner": true
+          },
+          "away": {
+            "name": "Green Bay Packers",
+            "short": "Packers",
+            "abbreviation": "GB",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+            "score": "13",
+            "winner": false
+          },
+          "venue": "SoFi Stadium"
+        },
+        {
           "id": "401873081",
           "name": "Chicago Bears at Detroit Lions",
           "date": "2026-11-26T18:00Z",
@@ -554,58 +606,6 @@
             "winner": false
           },
           "venue": "Highmark Stadium"
-        },
-        {
-          "id": "401873079",
-          "name": "Green Bay Packers at Los Angeles Rams",
-          "date": "2026-11-26T01:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Los Angeles Rams",
-            "short": "Rams",
-            "abbreviation": "LAR",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
-            "score": "26",
-            "winner": true
-          },
-          "away": {
-            "name": "Green Bay Packers",
-            "short": "Packers",
-            "abbreviation": "GB",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-            "score": "13",
-            "winner": false
-          },
-          "venue": "SoFi Stadium"
-        },
-        {
-          "id": "401873083",
-          "name": "Denver Broncos at Pittsburgh Steelers",
-          "date": "2026-11-27T20:00Z",
-          "status": "Scheduled",
-          "detail": "Fri, November 27th at 3:00 PM EST",
-          "state": "pre",
-          "completed": false,
-          "home": {
-            "name": "Pittsburgh Steelers",
-            "short": "Steelers",
-            "abbreviation": "PIT",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-            "score": "0",
-            "winner": false
-          },
-          "away": {
-            "name": "Denver Broncos",
-            "short": "Broncos",
-            "abbreviation": "DEN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-            "score": "0",
-            "winner": false
-          },
-          "venue": "Acrisure Stadium"
         },
         {
           "id": "401873087",
