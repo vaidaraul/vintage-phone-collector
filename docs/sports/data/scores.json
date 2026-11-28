@@ -1,5 +1,5 @@
 {
-  "Updated": "2026-11-28T04:52:35.923Z",
+  "Updated": "2026-11-28T13:55:20.797Z",
   "Leagues": [
     {
       "id": "eng.1",
@@ -10,30 +10,82 @@
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "events": [
         {
-          "id": "401879225",
-          "name": "Chelsea at Nottingham Forest",
-          "date": "2026-11-27T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401879227",
+          "name": "Coventry City at Leeds United",
+          "date": "2026-11-28T15:00Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 28th at 10:00 AM EST",
+          "state": "pre",
+          "completed": false,
           "home": {
-            "name": "Nottingham Forest",
-            "short": "Nottm Forest",
-            "abbreviation": "NFO",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-            "score": "3",
-            "winner": true
-          },
-          "away": {
-            "name": "Chelsea",
-            "short": "Chelsea",
-            "abbreviation": "CHE",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "score": "2",
+            "name": "Leeds United",
+            "short": "Leeds",
+            "abbreviation": "LEE",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+            "score": "0",
             "winner": false
           },
-          "venue": "The City Ground"
+          "away": {
+            "name": "Coventry City",
+            "short": "Coventry",
+            "abbreviation": "COV",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Elland Road"
+        },
+        {
+          "id": "401879226",
+          "name": "Brentford at Manchester United",
+          "date": "2026-11-28T15:00Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 28th at 10:00 AM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Manchester United",
+            "short": "Man Utd",
+            "abbreviation": "MAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Brentford",
+            "short": "Brentford",
+            "abbreviation": "BRE",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Old Trafford"
+        },
+        {
+          "id": "401878752",
+          "name": "Aston Villa at Ipswich Town",
+          "date": "2026-11-28T17:30Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 28th at 12:30 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Ipswich Town",
+            "short": "Ipswich",
+            "abbreviation": "IPS",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Aston Villa",
+            "short": "Aston Villa",
+            "abbreviation": "AVL",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Portman Road"
         }
       ]
     },
@@ -46,30 +98,108 @@
       "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "events": [
         {
-          "id": "401882791",
-          "name": "Racing Santander at Levante",
-          "date": "2026-11-27T20:00Z",
-          "status": "Full Time",
-          "detail": "FT",
-          "state": "post",
-          "completed": true,
+          "id": "401882796",
+          "name": "Rayo Vallecano at Real Betis",
+          "date": "2026-11-28T13:00Z",
+          "status": "Halftime",
+          "detail": "HT",
+          "state": "in",
+          "completed": false,
           "home": {
-            "name": "Levante",
-            "short": "Levante",
-            "abbreviation": "LEV",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-            "score": "1",
+            "name": "Real Betis",
+            "short": "Betis",
+            "abbreviation": "BET",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+            "score": "0",
             "winner": false
           },
           "away": {
-            "name": "Racing Santander",
-            "short": "Racing",
-            "abbreviation": "RAC",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-            "score": "3",
-            "winner": true
+            "name": "Rayo Vallecano",
+            "short": "Rayo",
+            "abbreviation": "RAY",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+            "score": "0",
+            "winner": false
           },
-          "venue": "Estadi Ciutat de València"
+          "venue": "Estadio La Cartuja"
+        },
+        {
+          "id": "401882790",
+          "name": "Athletic Club at Málaga",
+          "date": "2026-11-28T15:15Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 28th at 10:15 AM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Málaga",
+            "short": "Málaga",
+            "abbreviation": "MCF",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Athletic Club",
+            "short": "Athletic",
+            "abbreviation": "ATH",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "La Rosaleda"
+        },
+        {
+          "id": "401882793",
+          "name": "Atlético Madrid at Elche",
+          "date": "2026-11-28T17:30Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 28th at 12:30 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Elche",
+            "short": "Elche",
+            "abbreviation": "ELC",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Atlético Madrid",
+            "short": "Atlético",
+            "abbreviation": "ATM",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Estadio Martínez Valero"
+        },
+        {
+          "id": "401882789",
+          "name": "Alavés at Real Madrid",
+          "date": "2026-11-28T20:00Z",
+          "status": "Scheduled",
+          "detail": "Sat, November 28th at 3:00 PM EST",
+          "state": "pre",
+          "completed": false,
+          "home": {
+            "name": "Real Madrid",
+            "short": "Real Madrid",
+            "abbreviation": "RMA",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "score": "0",
+            "winner": false
+          },
+          "away": {
+            "name": "Alavés",
+            "short": "Alavés",
+            "abbreviation": "ALA",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+            "score": "0",
+            "winner": false
+          },
+          "venue": "Santiago Bernabéu"
         }
       ]
     },
@@ -478,32 +608,6 @@
       "logo": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
       "events": [
         {
-          "id": "401873083",
-          "name": "Denver Broncos at Pittsburgh Steelers",
-          "date": "2026-11-27T20:00Z",
-          "status": "Final",
-          "detail": "Final",
-          "state": "post",
-          "completed": true,
-          "home": {
-            "name": "Pittsburgh Steelers",
-            "short": "Steelers",
-            "abbreviation": "PIT",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-            "score": "27",
-            "winner": true
-          },
-          "away": {
-            "name": "Denver Broncos",
-            "short": "Broncos",
-            "abbreviation": "DEN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-            "score": "5",
-            "winner": false
-          },
-          "venue": "Acrisure Stadium"
-        },
-        {
           "id": "401873079",
           "name": "Green Bay Packers at Los Angeles Rams",
           "date": "2026-11-26T01:00Z",
@@ -606,6 +710,32 @@
             "winner": false
           },
           "venue": "Highmark Stadium"
+        },
+        {
+          "id": "401873083",
+          "name": "Denver Broncos at Pittsburgh Steelers",
+          "date": "2026-11-27T20:00Z",
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
+          "home": {
+            "name": "Pittsburgh Steelers",
+            "short": "Steelers",
+            "abbreviation": "PIT",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "score": "27",
+            "winner": true
+          },
+          "away": {
+            "name": "Denver Broncos",
+            "short": "Broncos",
+            "abbreviation": "DEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+            "score": "5",
+            "winner": false
+          },
+          "venue": "Acrisure Stadium"
         },
         {
           "id": "401873087",
@@ -1089,24 +1219,24 @@
           "id": "401909333",
           "name": "Los Angeles Lakers at San Antonio Spurs",
           "date": "2026-11-28T02:30Z",
-          "status": "In Progress",
-          "detail": "2:13 - 4th Quarter",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "San Antonio Spurs",
             "short": "Spurs",
             "abbreviation": "SA",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-            "score": "90",
-            "winner": false
+            "score": "99",
+            "winner": true
           },
           "away": {
             "name": "Los Angeles Lakers",
             "short": "Lakers",
             "abbreviation": "LAL",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-            "score": "86",
+            "score": "96",
             "winner": false
           },
           "venue": "Frost Bank Center"
@@ -1141,16 +1271,16 @@
           "id": "401909335",
           "name": "New Orleans Pelicans at LA Clippers",
           "date": "2026-11-28T02:30Z",
-          "status": "In Progress",
-          "detail": "42.3 - 4th Quarter",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "LA Clippers",
             "short": "Clippers",
             "abbreviation": "LAC",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-            "score": "99",
+            "score": "104",
             "winner": false
           },
           "away": {
@@ -1158,8 +1288,8 @@
             "short": "Pelicans",
             "abbreviation": "NO",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-            "score": "104",
-            "winner": false
+            "score": "105",
+            "winner": true
           },
           "venue": "Intuit Dome"
         },
@@ -1167,24 +1297,24 @@
           "id": "401909336",
           "name": "Golden State Warriors at Portland Trail Blazers",
           "date": "2026-11-28T02:30Z",
-          "status": "In Progress",
-          "detail": "4:07 - 4th Quarter",
-          "state": "in",
-          "completed": false,
+          "status": "Final",
+          "detail": "Final",
+          "state": "post",
+          "completed": true,
           "home": {
             "name": "Portland Trail Blazers",
             "short": "Trail Blazers",
             "abbreviation": "POR",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-            "score": "103",
-            "winner": false
+            "score": "116",
+            "winner": true
           },
           "away": {
             "name": "Golden State Warriors",
             "short": "Warriors",
             "abbreviation": "GS",
             "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-            "score": "90",
+            "score": "94",
             "winner": false
           },
           "venue": "Moda Center"
